@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-01-08"
+lastupdated: "2018-02-07"
 
 ---
 
@@ -27,6 +27,11 @@ Protecting your identity is a priority for us, therefore we take credit card ver
 
    * Call us: 1-866-325-0045 (Select option 3.)
    * Email us: [accounting@softlayer.com](accounting@softlayer.com) 
+   
+## How do I update my credit card?
+{: #updatecard}
+
+You can easily update the payment method that's associated with your billable account. In the console, go to **Manage > Billing and Usage > Modify Payment Method**. 
 
 ## Are feature codes the same as promo codes? 
 {: #entercode}
