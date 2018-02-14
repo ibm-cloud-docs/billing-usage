@@ -1,0 +1,24 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="billing-usage" audience="platform" href="/docs/billing-usage/how_charged.html"}
+管理记帐和使用情况
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    记帐
+        how_charged.md
+        feature-codes.md
+        eusupported.md
+        estimating_costs.md
+        scenario.md
+
+    {: .topicgroup}
+   使用情况
+        viewing_usage.md
+        manage_billing.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    billing-faq.md
+    {: .navgroup-end}
