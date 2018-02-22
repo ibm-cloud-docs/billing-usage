@@ -32,7 +32,7 @@ lastupdated: "2017-10-09"
 |サービス |	フィーチャー |	価格 |
 |--------|-----------|--------|
 |SDK for Node.js |	1 月あたり 375 GB 時間無料 (すべてのランタイム間で共有) |	$0.07 (米ドル)/GB 時間|
-|{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} サービスの無料サービス・プラン|	無料|
+|{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} サービスの無料サービス・プラン |	無料|
 |{{site.data.keyword.datacshort}} - スターター |	1 GB のキャッシュ・スペースおよびレプリカ |	$55.00 (米ドル)/インスタンス |
 |{{site.data.keyword.datacshort}} - 標準 |	5 GB のキャッシュ・スペースおよびレプリカ |	$155.00 (米ドル)/インスタンス |
 |{{site.data.keyword.datacshort}} - プレミアム |	25 GB のキャッシュ・スペースおよびレプリカ |	$505.00 (米ドル)/インスタンス|
@@ -54,7 +54,7 @@ GB 時間ごとにランタイムに課金します。 1 月あたりに使用�
 <dd>{{site.data.keyword.autoscaling}} ポリシーは無料です。</dd>
 
 <dt>1 月あたり 2 GB の {{site.data.keyword.datacshort}}</dt>
-<dd>{{site.data.keyword.datacshort}} サービスが提供する 50 MB プランは無料です。ただし、無料のプランでは、1 カ月当たり 2 GB と予測される使用量をカバーできません。 {{site.data.keyword.datacshort}} の 3 つの有料プランでは、実際に使用したスペースの量に関わらず、特定のスペース量に対する一定の料金がかかります。そのため、予測される使用量を満たす最小限のプランである 5 GB の標準プランを選択することにします。 総額は 1 月あたり $155 になります。</dd>
+<dd>{{site.data.keyword.datacshort}} サービスが提供する 50 MB プランは無料です。 ただし、無料のプランでは、1 カ月当たり 2 GB と予測される使用量をカバーできません。 {{site.data.keyword.datacshort}} の 3 つの有料プランでは、実際に使用したスペースの量にかかわらず、特定のスペース量に対する一定の料金がかかります。 そのため、予測される使用量を満たす最小限のプランである 5 GB の標準プランを選択することにします。 総額は 1 月あたり $155 になります。</dd>
 
 <dt>1 月あたり 150 GB の NoSQL データベース</dt>
 <dd>Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} のサービス料金は、データ・ストレージおよび各 API メソッドでそのデータにアクセスする機能に基づきます。 <strong>PUT</strong> コマンドおよび
