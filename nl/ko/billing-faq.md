@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-01-08"
+lastupdated: "2018-02-07"
 
 ---
 
@@ -27,6 +27,11 @@ lastupdated: "2018-01-08"
 
    * 연락처 전화번호: 1-866-325-0045(내선 3번 선택)
    * 이메일 주소: [accounting@softlayer.com](accounting@softlayer.com) 
+   
+## 내 신용카드를 어떻게 업데이트합니까?
+{: #updatecard}
+
+청구 가능 계정과 연관된 지불 방법을 손쉽게 업데이트할 수 있습니다. 콘솔에서 **관리 > 청구 및 사용량 > 지불 방법 수정**으로 이동하십시오.  
 
 ## 기능 코드는 프로모션 코드와 동일합니까? 
 {: #entercode}
@@ -40,7 +45,7 @@ lastupdated: "2018-01-08"
 
 [지원 센터 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window}에서 사용 가능한 다수의 유용한 리소스를 확인할 수도 있습니다. 여기에서 Stack Overflow에 액세스하여 당사 개발자 커뮤니티에 질문을 게시할 수 있습니다. 지원 티켓을 제출할 수도 있습니다.  
 
-## 내 계정 취소 방법
+## 내 계정은 어떻게 취소합니까?
 {: #cancelmyaccount}
 
 콘솔에서 **관리 > 청구 및 사용량 > 청구** 페이지로 이동하여 **계정 비활성화**를 클릭하십시오.
