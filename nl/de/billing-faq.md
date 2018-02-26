@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-01-08"
+lastupdated: "2018-02-07"
 
 ---
 
@@ -27,6 +27,11 @@ Der Schutz Ihrer Identität hat für uns eine hohe Priorität, daher nehmen wir 
 
    * Rufen Sie uns unter folgender Nummer an: 1-866-325-0045 (Option 3 auswählen.)
    * Senden Sie eine E-Mail an folgende Adresse: [accounting@softlayer.com](accounting@softlayer.com) 
+   
+## Wie aktualisiere ich meine Kreditkartendaten?
+{: #updatecard}
+
+Sie können die Zahlungsmethode, die Ihrem gebührenpflichtigen Konto zugeordnet ist, auf einfache Weise aktualisieren. Rufen Sie in der Konsole die Seite **Verwalten > Abrechnung und Nutzung > Zahlungsmethode ändern** auf. 
 
 ## Sind Feature-Codes und Werbecodes dasselbe? 
 {: #entercode}
