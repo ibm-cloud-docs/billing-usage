@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-02-07"
+lastupdated: "2018-03-02"
 
 ---
 
@@ -19,6 +19,11 @@ lastupdated: "2018-02-07"
 {: #howmanyapps}
 
 In a Lite account your apps can access up to 256 MB of instantaneous runtime memory. You can deploy apps until you have used the available Lite account allowance. If you need additional memory, upgrade to a billable account to get 512 MB of free instantaneous runtime memory and pay only for what you use past that. There are no limits to the number of apps you can build in a billable account.
+
+## What happens when my Lite plan instance reaches the monthly quota?
+{: #monthlyquota}
+
+Reaching any quota limit for Lite plan instances suspends the service for that month. Quota limits are per org, not per instance. New instances created in the same org reflect any usage from previous instances. The quota limits reset on the 1st of every month.
 
 ## Why won't my credit card go through?
 {: #addcard}
