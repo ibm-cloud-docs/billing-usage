@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-01-08"
+lastupdated: "2018-02-07"
 
 ---
 
@@ -27,6 +27,11 @@ La protection de votre identité étant une priorité pour nous, nous procédons
 
    * Appelez au : 1-866-325-0045 (Sélectionnez l'option 3.)
    * Envoyez un courrier électronique à : [accounting@softlayer.com](accounting@softlayer.com) 
+   
+## Comment mettre à jour ma carte de crédit ?
+{: #updatecard}
+
+Vous pouvez facilement mettre à jour le mode de paiement associé à votre compte facturable. Dans la console, accédez à **Gérer > Facturation et utilisation > Modifier la méthode de paiement**. 
 
 ## Les codes de fonction sont-ils identiques aux codes promotionnels ? 
 {: #entercode}
