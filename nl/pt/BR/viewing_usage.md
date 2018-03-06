@@ -30,7 +30,7 @@ Os proprietários da conta podem filtrar o resumo de uso por organização. Se v
 
 Se você selecionar uma organização específica na lista **Grupo**, será possível ver o uso total dessa organização, incluindo qualquer uso como parte de uma camada grátis. Os encargos mostrados para a organização não são os encargos pelos quais você é faturado. O uso da camada grátis é mostrado como grátis no nível de conta, mas não no nível organizacional. Portanto, ao visualizar o uso organizacional, você verá o uso real para essa organização, incluindo uso grátis e cobrado. Todo uso organizacional é acumulado para o uso da conta depois que a camada grátis é removida.
 
-Como gerente de contas de uma conta Pagamento por uso, é possível configurar as notificações de gastos com relação ao custo total de sua conta, para seu tempo de execução, serviços e para serviços individuais, excluindo serviços de terceiros. Você recebe notificações ao atingir 80%, 90% e 100% dos limites de
+Como gerente de contas de uma conta pré-paga, é possível configurar as notificações de gastos com relação ao custo total de sua conta, para seu tempo de execução, serviços e para serviços individuais, excluindo serviços de terceiros. Você recebe notificações ao atingir 80%, 90% e 100% dos limites de
 gastos especificados. Para obter mais informações, consulte [Configurando notificações](/docs/account/notifications.html).
 
 ## Visualizando créditos

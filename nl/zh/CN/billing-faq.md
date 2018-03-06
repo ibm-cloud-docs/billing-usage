@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-01-08"
+lastupdated: "2018-02-07"
 
 ---
 
@@ -27,6 +27,11 @@ lastupdated: "2018-01-08"
 
    * 致电我们：1-866-325-0045（选择选项 3。）
    * 向我们发送电子邮件：[accounting@softlayer.com](accounting@softlayer.com) 
+   
+## 如何更新信用卡？
+{: #updatecard}
+
+您可以轻松更新与计费帐户关联的付款方式。在控制台中，转至**管理 > 计费和使用情况 > 修改付款方式**。 
 
 ## 特征代码和促销码一样吗？ 
 {: #entercode}

@@ -35,7 +35,7 @@ Tipos diferentes de encargos se aplicam, dependendo dos recursos do {{site.data.
 ## Planos Lite
 {: #liteplans}
 
-Os planos Lite, que estão disponíveis em contas Lite e Pagamento por uso, são estruturados como uma cota grátis. É possível trabalhar em seus projetos sem preocupações, sem o risco de gerar uma conta acidental. A cota pode operar por um período específico, por exemplo um mês ou em uma base de uso único. A lista a seguir fornece alguns exemplos de cotas do plano Lite:
+Os planos Lite, que estão disponíveis em contas Lite e pré-pagas, são estruturados como uma cota grátis. É possível trabalhar em seus projetos sem preocupações, sem o risco de gerar uma conta acidental. A cota pode operar por um período específico, por exemplo um mês ou em uma base de uso único. A lista a seguir fornece alguns exemplos de cotas do plano Lite:
 
    * Número máximo de dispositivos registrados
    * Número máximo de ligações de aplicativos

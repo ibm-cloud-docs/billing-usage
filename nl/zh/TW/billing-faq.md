@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-01-08"
+lastupdated: "2018-02-07"
 
 ---
 
@@ -27,6 +27,11 @@ lastupdated: "2018-01-08"
 
    * 電話：1-866-325-0045（請選取選項 3）。
    * 電子郵件：[accounting@softlayer.com](accounting@softlayer.com) 
+   
+## 如何更新我的信用卡？
+{: #updatecard}
+
+您可以輕鬆地更新與您的計費帳戶相關聯的付款方法。在主控台中，移至**管理 > 計費及用量 > 修改付款方法**。 
 
 ## 特性碼是否與促銷代碼相同？ 
 {: #entercode}
