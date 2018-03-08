@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-01-08"
+lastupdated: "2018-02-07"
 
 ---
 
@@ -27,6 +27,11 @@ Proteger su identidad es una prioridad para nosotros, por ello nos tomamos la ve
 
    * Llámenos: 1-866-325-0045 (Seleccione la opción 3).
    * Envíenos un correo electrónico: [accounting@softlayer.com](accounting@softlayer.com) 
+   
+## ¿Cómo puedo actualizar mi tarjeta de crédito?
+{: #updatecard}
+
+Actualizar el método de pago asociado a su cuenta facturable es un proceso sencillo. En la consola, vaya a **Gestionar > Facturación y uso > Modificar método de pago**. 
 
 ## ¿Los códigos de características son lo mismo que los códigos promocionales? 
 {: #entercode}
