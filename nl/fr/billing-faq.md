@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-02-07"
+lastupdated: "2018-03-02"
 
 ---
 
@@ -19,6 +19,11 @@ lastupdated: "2018-02-07"
 {: #howmanyapps}
 
 Dans un compte Lite, vos applications peuvent accéder à jusqu'à 256 Mo de mémoire d'exécution simultanée. Vous pouvez déployer des applications jusqu'à ce que vous ayez épuisé l'allocation disponible dans le compte Lite. Si vous avez besoin de mémoire supplémentaire, effectuez une mise à niveau vers un compte facturable qui vous octroiera 512 Mo de mémoire d'exécution simultanée gratuite et où vous ne serez facturé que pour l'utilisation en excédent. Le nombre d'applications que vous pouvez construire dans un compte facturable est illimité.
+
+## Que se passe-t-il lorsque mon quota mensuel d'instances de plan Lite est atteint ?
+{: #monthlyquota}
+
+Lorsque la limite de quota relative aux instances de plan Lite est atteinte, le service est suspendu pour le mois concerné. Les limites de quota sont définies au niveau des organisations et non au niveau des instances. Les nouvelles instances créées dans la même organisation reflètent les utilisations depuis les instances précédentes. Les limites de quota sont réinitialisées le premier jour de chaque mois. 
 
 ## Pourquoi ma carte de crédit ne passe-t-elle pas ?
 {: #addcard}
