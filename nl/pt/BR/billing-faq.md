@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-02-07"
+lastupdated: "2018-03-02"
 
 ---
 
@@ -19,6 +19,11 @@ lastupdated: "2018-02-07"
 {: #howmanyapps}
 
 Em uma conta Lite, seus apps podem acessar até 256 MB de memória instantânea de tempo de execução. É possível implementar apps até que você tenha usado o abono da conta Lite disponível. Se precisar de memória adicional, faça upgrade para uma conta faturável para obter 512 MB de memória instantânea de tempo de execução grátis e pague somente pelo que você usar além disso. Não há limites para o número de apps que você pode construir em uma conta faturável.
+
+## O que acontece quando a instância do plano Lite atinge a minha cota mensal?
+{: #monthlyquota}
+
+Atingir qualquer limite de cota para instâncias do plano Lite suspende o serviço para esse mês. Limites de cota são por organização, não por instância. Novas instâncias criadas na mesma organização refletem qualquer uso de instâncias anteriores. Os limites de cota reconfigurados no primeiro dia de cada mês.
 
 ## Por que meu cartão de crédito não passará?
 {: #addcard}
