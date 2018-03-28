@@ -33,10 +33,10 @@ Para dar un ejemplo sencillo, suponga que los precios en la tabla siguiente no f
 |SDK for Node.js |	375 GB por hora gratuito al mes (compartido entre todos los tiempos de ejecución) |	0,07 USD/GB por hora|
 |{{site.data.keyword.autoscaling}} |	Plan de servicio gratuito para el servicio {{site.data.keyword.autoscaling}} |	Gratuito|
 |{{site.data.keyword.datacshort}} -
-Iniciador|	1 GB de memoria caché y una réplica |	55,00 USD/instancia |
+Iniciador |	1 GB de memoria caché y una réplica |	55,00 USD/instancia |
 |{{site.data.keyword.datacshort}} - Estándar |	5 GB de memoria caché y una réplica |	155,00 USD/instancia |
 |{{site.data.keyword.datacshort}} -
-Premium|	25 GB de memoria caché y una réplica |	505,00 USD/instancia|
+Premium |	25 GB de memoria caché y una réplica |	505,00 USD/instancia|
 |IBM Cloudant® NoSQL DB para {{site.data.keyword.Bluemix_notm}} |	2 GB de almacenamiento gratuito de datos<br/>50.000 llamadas de API ligeras gratuitas al mes<br/>10.000 llamadas de API pesadas gratuitas al mes | 1,00 USD/GB<br/>0,03 USD/1000 llamadas de API ligeras<br/>0,15 USD/1000 llamadas de API pesadas |
 {:caption="Tabla 1. Precios para los recursos" caption-side="top"}
 

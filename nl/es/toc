@@ -16,7 +16,8 @@ Gestión de la utilización y la facturación
     {: .topicgroup}
     Uso
         viewing_usage.md
-        manage_billing.md{: .navgroup-end}
+        manage_billing.md
+    {: .navgroup-end}
 
     {: .navgroup id="help"}
     billing-faq.md

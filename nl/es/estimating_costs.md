@@ -16,7 +16,8 @@ lastupdated: "2017-10-09"
 # Cómo calcular sus costes
 {: #cost}
 
-Puede utilizar distintos métodos para saber lo que debe pagar por utilizar {{site.data.keyword.Bluemix}} para crear y alojar su app.{:shortdesc}
+Puede utilizar distintos métodos para saber lo que debe pagar por utilizar {{site.data.keyword.Bluemix}} para crear y alojar su app.
+{:shortdesc}
 
 * Los estimadores de costes de la {{site.data.keyword.pricing_sheet}} de {{site.data.keyword.Bluemix_notm}} proporcionan una estimación aproximada del coste en función del tamaño de la app.
 * La calculadora de costes de la página Precios proporciona precios precisos de la app en función de la entrada del tiempo de ejecución y del uso de los servicios.
