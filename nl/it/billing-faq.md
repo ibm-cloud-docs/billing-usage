@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-02-07"
+lastupdated: "2018-03-02"
 
 ---
 
@@ -19,6 +19,11 @@ lastupdated: "2018-02-07"
 {: #howmanyapps}
 
 In un account Lite, le tue applicazioni possono accedere fino a 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non hai utilizzato tutta la franchigia dell'account Lite disponibile. Se hai bisogno di memoria aggiuntiva, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale quantità. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
+
+## Cosa succede quando la mia istanza del piano Lite raggiunge la quota mensile?
+{: #monthlyquota}
+
+Il raggiungimento di qualsiasi limite di quota per le istanze del piano Lite sospende il servizio per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione riflettono qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
 
 ## Perché la mia carta di credito non viene accettata?
 {: #addcard}

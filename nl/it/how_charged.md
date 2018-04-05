@@ -89,8 +89,7 @@ addebitata.</dd>
 Nel modello di livello semplice, il prezzo unitario è determinato
 dal livello in cui rientra la quantità da te utilizzata. Il prezzo
 totale è tale quantità moltiplicata per il prezzo unitario nel
-livello di competenza. Ad
-esempio:
+livello di competenza. Ad esempio:
 
 | Quantità di elementi | Prezzo unitario per tutti gli elementi |
 |-------------------|--------------------------|
@@ -119,8 +118,7 @@ illustra quanto paghi con un piano basato su un modello di prezzi di livello sem
 Nel modello di livello graduale, il prezzo unitario per livello si riduce
 man mano che il tuo livello di utilizzo aumenta. Il prezzo totale è dato
 dagli addebiti cumulativi per ciascun livello di utilizzo, che consiste nella
-tua quantità moltiplicata per il prezzo unitario al livello di appartenenza. Ad
-esempio:
+tua quantità moltiplicata per il prezzo unitario al livello di appartenenza. Ad esempio:
 
 | Quantità di elementi |	Prezzo unitario per gli elementi nel livello|
 |-------------------|------------------------------------|
@@ -149,8 +147,7 @@ illustra quanto paghi con un piano basato su un modello di prezzi di livello gra
 Nel modello di livello a blocchi, il prezzo è un addebito fisso per la
 quantità da te impiegata entro uno specifico livello di utilizzo. Il prezzo totale è l'addebito
 per il livello di utilizzo da te scelto, indipendentemente dal tuo utilizzo effettivo. Ogni livello
-successivo fornisce un rapporto prezzo-quantità più basso. Ad
-esempio:
+successivo fornisce un rapporto prezzo-quantità più basso. Ad esempio:
 
 |Quantità di elementi |	Prezzo totale per tutti gli elementi|
 |------------------|-----------------------------|

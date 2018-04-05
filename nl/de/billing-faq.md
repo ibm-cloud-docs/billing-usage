@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-02-07"
+lastupdated: "2018-03-02"
 
 ---
 
@@ -19,6 +19,11 @@ lastupdated: "2018-02-07"
 {: #howmanyapps}
 
 Bei einem Lite-Konto können Ihre Apps auf bis zu 256 MB sofort verfügbaren Laufzeitspeicher zugreifen. Sie können Apps bereitstellen, bis Sie das verfügbare Lite-Konten-Kontingent aufgebraucht haben. Wenn Sie zusätzlichen Speicher benötigen, führen Sie ein Upgrade auf ein gebührenpflichtiges Konto durch, um 512 MB freien sofort verfügbaren Laufzeitspeicher zu erhalten und nur für das zu bezahlen, was Sie darüber hinaus nutzen. Die Anzahl der Apps, die Sie in einem gebührenpflichtigen Konto erstellen können, ist unbegrenzt.
+
+## Was passiert, wenn meine Lite-Planinstanz das monatliche Kontingent erreicht? 
+{: #monthlyquota}
+
+Wenn ein Grenzwert für das Kontingent für die Lite-Planinstanzen erreicht wird, wird der Service für diesen Monat ausgesetzt. Grenzwerte für Kontingente gelten für die gesamte Organisation, nicht nur für die Instanz. Neu erstellte Instanzen in derselben Organisation spiegeln die Nutzung bereits vorhandener Instanzen wider. Die Grenzwerte für Kontingente werden am ersten Tag jedes Monats zurückgesetzt. 
 
 ## Warum wird meine Kreditkarte nicht akzeptiert?
 {: #addcard}
