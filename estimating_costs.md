@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-05"
 
 ---
 
@@ -60,7 +60,7 @@ The following table lists the different currencies that are supported.
 |SEK |	  Swedish krona|
 |USD |    United States dollar|
 |ZAR |	  South African rand|
-{:caption="Table 2. Supported currencies" caption-side="top"}
+{:caption="Table 1. Supported currencies" caption-side="top"}
 
 If you linked your {{site.data.keyword.Bluemix_notm}} and SoftLayer accounts, the single invoice you receive is in United States dollars (USD) only.
 {: tip}
