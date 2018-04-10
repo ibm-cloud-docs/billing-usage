@@ -46,7 +46,7 @@ Yes, we recently renamed promo codes to features codes, and you can still use th
 ## How do I get support?
 {: #contactsupport}
 
-For help with getting up and running in {{site.data.keyword.Bluemix_notm}} or navigating {{site.data.keyword.Bluemix_notm}}, start a conversation with us by using the chat icon in the console. 
+For help with getting up and running in {{site.data.keyword.Bluemix_notm}} or using {{site.data.keyword.Bluemix_notm}}, start a conversation with us by using the chat icon in the console. 
 
 Check out a number of helpful resources that are available in the [Support Center ![External link icon](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window}. From there, you can access Stack Overflow to post a question to our developer community. You can also submit a support ticket.  
 
