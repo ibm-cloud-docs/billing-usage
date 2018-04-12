@@ -8,6 +8,7 @@ Managing billing and usage
     {: .topicgroup}
     Billing
         how_charged.md
+        ../account/linking_accounts.md
         feature-codes.md
         eusupported.md
         estimating_costs.md
