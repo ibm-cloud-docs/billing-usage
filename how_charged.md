@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-31"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -18,17 +18,17 @@ lastupdated: "2017-10-31"
 # How you are charged
 {: #charges}
 
-Charges vary depending on the resources used by a particular service, runtime, container, or support option. The resources can be the number of API calls, the number of instances, memory, storage, and so on. {{site.data.keyword.Bluemix}} also provides detailed cost estimators, and a down-to-the-penny cost calculator to help you plan for charges. After you build your apps, you can check the actual cost on the Usage Dashboard page.
+Charges vary depending on the resources that are used by a particular service, runtime, container, or support option. The resources can be the number of API calls, the number of instances, memory, storage, and so on. {{site.data.keyword.Bluemix}} also provides detailed cost estimators, and a down-to-the-penny cost calculator to help you plan for charges. 
 
-With an {{site.data.keyword.Bluemix_notm}} billable account, you are charged for the compute, containers, and services that are used in your organization. You might be invited by other {{site.data.keyword.Bluemix_notm}} users to participate in organizations under a different account. If you create apps or use services in the organizations that you are invited to, the usage incurred is charged to the account that contains those organizations. You can see more information about a specific charges on a resource details page from the catalog, or on the price calculator from the Pricing page.
+After you build your apps, you can check the actual cost on the **Manage** > **Billing and Usage** > **Usage** > **Usage Dashboard** page. With an {{site.data.keyword.Bluemix_notm}} billable account, you are charged for the compute, containers, and services that are used in your organization. You might be invited by other {{site.data.keyword.Bluemix_notm}} users to participate in organizations under a different account. If you create apps or use services in the organizations that you are invited to, the usage that is incurred is charged to the account that contains those organizations. You can see more information about a specific charge from the  resource details pages.
 
 Different types of charges apply depending on the features of {{site.data.keyword.Bluemix_notm}} that you are using. The following table provides a high-level overview:
 
 | Type of charge | Description | {{site.data.keyword.Bluemix_notm}} features that use this type of charge | Example |
 |------------------|------------------|--------------------------|--------------------------|
 | Fixed | Fixed-rate pricing is based on an agreed upon monthly charge that is not adjusted. | Services  | Data Cache has a fixed plan that is charged at a fixed monthly rate. |
-| Metered | Metered-usage pricing is based on the number of GB-hours consumed for runtimes, and on the number of GB-hours consumed and the number of IP addresses and storage for containers. | Services, Compute, and Containers | For the Push service, any usage over the free monthly allowance is charged. |
-|  Tiered   |  Some pricing plans are based on a tiered pricing model, so you can get a volume-based discount according to your actual usage. Services might offer simple, graduated, or block tier pricing plans. | Services | Tiered pricing is typically used for charge metrics that are expected to have very high quantities per month, such as API calls. |
+| Metered | Metered-usage pricing is based on the number of GB hours that are consumed for runtimes, and on the number of GB-hours consumed and the number of IP addresses and storage for containers. | Services, Compute, and Containers | For the Push service, any usage over the free monthly allowance is charged. |
+|  Tiered   |  Some pricing plans are based on a tiered pricing model, so you can get a volume-based discount according to your actual usage. Services might offer simple, graduated, or block tier pricing plans. | Services | Tiered pricing is typically used for charge metrics that are expected to have high quantities per month, such as API calls. |
 | Reserved | Reserved pricing is based on a long-term commitment for a service, so you can get a discounted price. With a reserved plan, you get a dedicated service instance that is easy to set up, deploy, and deliver in the public {{site.data.keyword.Bluemix_notm}} environment. | Services | DB2 on Cloud has reserved plans.|
 {:caption="Table 1. Charges based on features" caption-side="top"}
 
@@ -42,12 +42,12 @@ Lite plans, which are available in Lite and Pay-As-You-Go accounts, are structur
    * Encrypted data storage limit, for example 1 GB
    * Provisioned throughput capacity
 
-You can easily find Lite plans in the catalog. Be default, all services with a Lite plan are displayed with a Lite tag ![Lite tag](../icons/Lite.svg). Select a service to view the quota details for the associated Lite plan.
+You can easily find Lite plans in the catalog. By default, all services with a Lite plan are displayed with a Lite tag ![Lite tag](../icons/Lite.svg). Select a service to view the quota details for the associated Lite plan.
 
 ## Charges for compute resources
 {: #compute}
 
-You are charged for the time that your apps run and the memory that is used, calculated as *GB-hours*. GB-hours is the calculation of the number of application instances, multiplied by the memory per instance, multiplied by the hours that the instances run. You can customize the number of instances and the amount of memory per instance based on your needs. You can also add memory or instances to scale for more users. The final charge is per GB-hour: your application instances, multiplied by memory per instance, multiplied by hours running.
+You are charged for the time that your apps run and the memory that is used, calculated as *GB-hours*. GB-hours is the calculation of the number of application instances, which are multiplied by the memory per instance, which is multiplied by the hours that the instances run. You can customize the number of instances and the amount of memory per instance based on your needs. You can also add memory or instances to scale for more users. The final charge is per GB-hour: your application instances, which are multiplied by memory per instance, which is multiplied by hours running.
 
 For example, consider a runtime that costs $0.07 per GB-hour in two 512 MB instances, running for 30 days (720 hours). These resources would cost $24.15 USD, including a free allowance of 375 GB-hours, with the following calculations:
 
@@ -67,15 +67,15 @@ Many services include monthly free allowances. Usage of services that is not inc
     <dd>You pay based on your runtime and service consumption. For example, with the Push service, any usage over the free monthly allowance is charged.</dd>
 <dt>Reserved charges</dt>
     <dd><p>As the account owner of a Pay As You Go account or a Subscription account, you can reserve a service instance, with a long-term commitment, for a discounted price. For example, you can reserve the standard large DB2 on Cloud offering for 12 months.</p>
-    <p>Some {{site.data.keyword.Bluemix_notm}} services offer reserved plans. You can request a reserved plan from the {{site.data.keyword.Bluemix_notm}} <strong>Catalog</strong> by clicking the tile of the service. Then, select the service plan that best meets your needs. If a reserved plan is available, click <strong>Request</strong>, and follow the prompts to send your request. You will receive an email that contains the price information of the reserved plan. An {{site.data.keyword.Bluemix_notm}} sales representative will also contact you soon to complete the purchase.</p></dd>
+    <p>Some {{site.data.keyword.Bluemix_notm}} services offer reserved plans. You can request a reserved plan from the {{site.data.keyword.Bluemix_notm}} catalog by clicking the tile of the service. Then, select the service plan that best meets your needs. If a reserved plan is available, click <strong>Request</strong>, and follow the prompts to send your request. You receive an email that contains the price information of the reserved plan. An {{site.data.keyword.Bluemix_notm}} sales representative also contacts you soon to complete the purchase.</p></dd>
 <dt>Tiered charges</dt>
-    <dd>Similar to metered charges, you pay based based on your runtime and service consumption. However, tiered charges add additional pricing tiers, often offering discounted charges in tiers with larger consumption. Tiered pricing is offered in simple, graduated, or block.</dd>
+    <dd>Similar to metered charges, you pay based on your runtime and service consumption. However, tiered charges add more pricing tiers, often offering discounted charges in tiers with larger consumption. Tiered pricing is offered in simple, graduated, or block.</dd>
 </dl>
 
 ### Simple tier
 {: #simple_tier}
 
-In the simple tier model, the unit price is determined by the tier that the quantity of your usage falls into. The total price is your quantity multiplied by the unit price in that tier. For example:
+In the simple tier model, the unit price is determined by the tier that the quantity of your usage falls into. The total price is your quantity that is multiplied by the unit price in that tier. For example:
 
 | Quantity of items | Unit price for all items |
 |-------------------|--------------------------|
