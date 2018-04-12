@@ -51,7 +51,7 @@ The **Estimate** panel shows you the resources you added, the price for each one
 If you are pricing only platform resources, you can click **Switch to Classic Calculator** to see an estimate in a currency other than USD. The classic calculator does not include infrastructure resources.
 {: tip}
 
-### Using the Classic Calculator for platform resources
+### Using the classic calculator for platform resources
 {: #calculator}
 
 To calculate your platform resource costs in a currency other than USD, you can use the classic calculator. The classic calculator does not provide pricing estimates for infrastructure resources.
