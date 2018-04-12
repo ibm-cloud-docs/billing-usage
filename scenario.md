@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2017-10-09"
 # Scenario: Estimating costs of an example Node app
 {: #sample}
 
-Assume that you have a Node.js web app with scalability capabilities, and the app uses several services that are provided by {{site.data.keyword.Bluemix}}. You can learn how the actual cost of your app is calculated in this example. The web app uses the following {{site.data.keyword.Bluemix_notm}} services and items:
+Assume that you have a Node.js web app with scaling capabilities, and the app uses several services that are provided by {{site.data.keyword.Bluemix}}. You can learn how the actual cost of your app is calculated in this example. The web app uses the following {{site.data.keyword.Bluemix_notm}} services and items:
 
 * Four 256 MB Node.js runtime instances
 * Two {{site.data.keyword.autoscaling}} policies, processor and memory
@@ -26,7 +26,7 @@ Assume that you have a Node.js web app with scalability capabilities, and the ap
 ## Prices for {{site.data.keyword.Bluemix_notm}} resources
 {: #sample_resources}
 
-To keep the example simple, assume that the prices in the following table do not fluctuate within or between a time frame, for example, a month. All pricing in this example is in US currency.
+To keep the example simple, assume the prices in the following table don't fluctuate within or between a time frame, for example, a month. All pricing in this example is in US currency.
 
 |Service |	Features |	Price |
 |--------|-----------|--------|
@@ -46,13 +46,13 @@ The price of the app can be calculated in the following way:
 <dt>Four 256 MB Node.js runtime instances</dt>
 <dd>{{site.data.keyword.Bluemix_notm}} charges for a runtime by GB-hours. The number of GB used per month is <code>4 x 256 = 1024 MB or 1 GB per month</code>. Assume that there are <code>24 x 30 = 720 hours in a month</code>, so the application is charged for <code>1 x 720 = 720 GB-hours</code>.
 <p>
-375 GB-hours are included in a free allowance per month, shared across all {{site.data.keyword.Bluemix_notm}} runtimes. So the total cost for the runtime is <code>$0.07 x (720-375) = $24.15</code>.</p></dd>
+375 GB-hours are included in a free allowance per month, which is shared across all {{site.data.keyword.Bluemix_notm}} runtimes. So the total cost for the runtime is <code>$0.07 x (720-375) = $24.15</code>.</p></dd>
 
 <dt>Two {{site.data.keyword.autoscaling}} policies (processor and memory)</dt>
 <dd>The {{site.data.keyword.autoscaling}} policies are free of charge.</dd>
 
 <dt>2 GB per month {{site.data.keyword.datacshort}}</dt>
-<dd>The 50 MB plan that is provided by the {{site.data.keyword.datacshort}} service is free of charge. However, the free plan would not cover your projected use of 2 GB per month. The three paid plans for {{site.data.keyword.datacshort}} cost a set amount for a specific amount of space, regardless of how much space you actually use. Therefore, you want to choose the minimum plan that meets your projected use, which is the standard plan of 5 GB. The total cost is $155 per month.</dd>
+<dd>The 50 MB plan that is provided by the {{site.data.keyword.datacshort}} service is free of charge. However, the free plan would not cover your projected use of 2 GB per month. The three paid plans for {{site.data.keyword.datacshort}} cost a set amount for a specific amount of space, regardless of how much space you use. Therefore, you want to choose the minimum plan that meets your projected use, which is the standard plan of 5 GB. The total cost is $155 per month.</dd>
 
 <dt>150 GB per month NoSQL database</dt>
 <dd>The Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} service charges are based on data storage and the ability to access that data by different API methods. The <strong>PUT</strong> and <strong>POST</strong> commands are considered as heavy API calls, but <strong>GET</strong> commands are considered as light API calls.
