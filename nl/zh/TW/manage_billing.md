@@ -15,7 +15,7 @@ lastupdated: "2017-12-12"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# 管理 {{site.data.keyword.Bluemix_notm}} 鏈結帳戶的用量
+# 管理 {{site.data.keyword.Bluemix_notm}} 已鏈結帳戶的用量
 {: #linkedusage}
 
 如果您已鏈結 {{site.data.keyword.Bluemix}} 及 SoftLayer 帳戶，則可以使用客戶入口網站進行一次性支付、變更支付卡詳細資料、檢視計費項目，以及檢視發票。
