@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,8 @@ lastupdated: "2017-10-09"
 # シナリオ: Node アプリの例のコスト見積もり
 {: #sample}
 
-スケーラビリティー機能を持つ Node.js Web アプリを使用しており、そのアプリは {{site.data.keyword.Bluemix}} が提供する複数のサービスを使用していると仮定します。 この例で、ご使用のアプリの実際のコストがどのように計算されるかを学習することができます。 この Web アプリは、以下の {{site.data.keyword.Bluemix_notm}}
+スケーリング機能を持つ Node.js Web アプリを使用しており、そのアプリは {{site.data.keyword.Bluemix}} が提供する複数のサービスを使用していると仮定します。
+この例で、ご使用のアプリの実際のコストがどのように計算されるかを学習することができます。 この Web アプリは、以下の {{site.data.keyword.Bluemix_notm}}
 サービスとアイテムを使用します。
 
 * 4 個の 256 MB Node.js ランタイム・インスタンス
@@ -48,13 +49,13 @@ lastupdated: "2017-10-09"
 <dd>{{site.data.keyword.Bluemix_notm}} は、
 GB 時間ごとにランタイムに課金します。 1 月あたりに使用される GB 数は、<code>4 x 256 = 1024 MB つまり 1 GB /月</code>です。 <code>1 カ月を 24 x 30 = 720 時間</code> と仮定すると、アプリケーションは <code>1 x 720 = 720 GB 時間</code>に対して課金されます。
 <p>
-{{site.data.keyword.Bluemix_notm}} ランタイムを通して共有される 1 月あたりの無料枠に、375 GB 時間が含まれます。 そのため、ランタイムの総額は、<code>$0.07 x (720-375) = $24.15</code> となります。</p></dd>
+すべての {{site.data.keyword.Bluemix_notm}} ランタイムにわたって共有される 1 月あたりの無料枠に、375 GB 時間が含まれます。そのため、ランタイムの総額は、<code>$0.07 x (720-375) = $24.15</code> となります。</p></dd>
 
 <dt>2 個の {{site.data.keyword.autoscaling}} ポリシー (プロセッサーとメモリー)</dt>
 <dd>{{site.data.keyword.autoscaling}} ポリシーは無料です。</dd>
 
 <dt>1 月あたり 2 GB の {{site.data.keyword.datacshort}}</dt>
-<dd>{{site.data.keyword.datacshort}} サービスが提供する 50 MB プランは無料です。 ただし、無料のプランでは、1 カ月当たり 2 GB と予測される使用量をカバーできません。 {{site.data.keyword.datacshort}} の 3 つの有料プランでは、実際に使用したスペースの量にかかわらず、特定のスペース量に対する一定の料金がかかります。 そのため、予測される使用量を満たす最小限のプランである 5 GB の標準プランを選択することにします。 総額は 1 月あたり $155 になります。</dd>
+<dd>{{site.data.keyword.datacshort}} サービスが提供する 50 MB プランは無料です。 ただし、無料のプランでは、1 カ月当たり 2 GB と予測される使用量をカバーできません。 {{site.data.keyword.datacshort}} の 3 つの有料プランでは、使用したスペースの量にかかわらず、特定のスペース量に対する一定の料金がかかります。 そのため、予測される使用量を満たす最小限のプランである 5 GB の標準プランを選択することにします。 総額は 1 月あたり $155 になります。</dd>
 
 <dt>1 月あたり 150 GB の NoSQL データベース</dt>
 <dd>Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} のサービス料金は、データ・ストレージおよび各 API メソッドでそのデータにアクセスする機能に基づきます。 <strong>PUT</strong> コマンドおよび
