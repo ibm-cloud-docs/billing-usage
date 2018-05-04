@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -31,7 +31,7 @@ Reaching any quota limit for Lite plan instances suspends the service for that m
 Protecting your identity is a priority for us, therefore we take credit card verification seriously. The simplest way to resolve your issue is to contact us by using one of the following methods. We'll ask you a few questions to verify your identity to then get you back on your way to productivity. 
 
    * Call us: 1-866-325-0045 (Select option 3.)
-   * Email us: [accounting@softlayer.com](accounting@softlayer.com) 
+   * Email us: accounting@softlayer.com
    
 ## How do I update my credit card?
 {: #updatecard}
