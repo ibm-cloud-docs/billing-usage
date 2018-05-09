@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-31"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -19,9 +19,9 @@ lastupdated: "2017-10-31"
 {: #charges}
 
 Los cargos varían en función de los recursos utilizados por un servicio concreto, el tiempo de ejecución, el contenedor o la opción de soporte. Los recursos pueden ser el número de llamadas de API, el número de instancias,
-memoria, almacenamiento, etc. {{site.data.keyword.Bluemix}} también proporciona estimadores de coste detallado, y una calculadora de coste hasta el último céntimo para ayudarle a planificar los cargos. Puede comprobar el coste real después de crear sus apps en la página del Panel de control de uso.
+memoria, almacenamiento, etc. {{site.data.keyword.Bluemix}} también proporciona estimadores de coste detallado, y una calculadora de coste hasta el último céntimo para ayudarle a planificar los cargos. 
 
-Con una cuenta facturable de {{site.data.keyword.Bluemix_notm}}, se le facturará por el cálculo, los contenedores y los servicios que se utilicen en su organización. Es posible que otros usuarios de {{site.data.keyword.Bluemix_notm}} le inviten a participar en organizaciones en una cuenta diferente. Si crea apps o utiliza servicios en las organizaciones las que está invitado, el uso que se produce se factura a la cuenta que contenga dichas organizaciones. Puede ver más información sobre unos cargos específicos en una página de detalles de recurso en el catálogo, o en la calculadora de precios en la página de Precios.
+Puede comprobar el coste real después de crear sus apps en la página **Gestionar** > **Facturación y uso** > **Uso** > **Panel de control de uso**. Con una cuenta facturable de {{site.data.keyword.Bluemix_notm}}, se le facturará por el cálculo, los contenedores y los servicios que se utilicen en su organización. Es posible que otros usuarios de {{site.data.keyword.Bluemix_notm}} le inviten a participar en organizaciones en una cuenta diferente. Si crea apps o utiliza servicios en las organizaciones las que está invitado, el uso que se produce se factura a la cuenta que contenga dichas organizaciones. Puede ver más información sobre unos cargos específicos en una página de detalles de recurso.
 
 Se aplicarán distintos tipos de cargos en función de las características de {{site.data.keyword.Bluemix_notm}} que está utilizando. En la tabla siguiente se proporciona una visión general de alto nivel:
 
@@ -29,7 +29,7 @@ Se aplicarán distintos tipos de cargos en función de las características de {
 |------------------|------------------|--------------------------|--------------------------|
 | Corregido | El precio de tasa fija se basa en un acuerdo sobre el cargo mensual que no está ajustado. | Servicios  | La memoria caché de datos tiene un plan fijo que se cargará en una tasa mensual fija. |
 | Medido | El precio de uso medido se basa en el número de GB hora consumidos para los entornos de ejecución, y en el número de GB hora consumidos y en el número de direcciones IP y el almacenamiento para contenedores. | Servicios, cálculo y contenedores | Para el servicio Push, cualquier uso que supere la concesión mensual gratuita se factura. |
-|  Por niveles   |  Algunos planes también están basados en un modelo de precios por niveles, para poder acceder a descuentos por volumen, según su uso actual. Los servicios pueden ofrecer planes de precios de capas de bloques, graduados y simples. | Servicios | El precio escalonado se utiliza normalmente para medidas de carga que tienen previsto tener cantidades muy altas por mes, tales como llamadas a la API. |
+|  Por niveles   |  Algunos planes también están basados en un modelo de precios por niveles, para poder acceder a descuentos por volumen, según su uso actual. Los servicios pueden ofrecer planes de precios de capas de bloques, graduados y simples. | Servicios | El precio escalonado se utiliza normalmente para medidas de carga que tienen previsto tener cantidades altas por mes, tales como llamadas a la API. |
 | Reservado | El precio reservado se basa en un compromiso a largo plazo para un servicio, por lo que puede obtener un precio de descuento. Con un plan reservado, obtendrá una instancia de servicio dedicada que es fácil de configurar, desplegar y entregar en el entorno {{site.data.keyword.Bluemix_notm}} público. | Servicios | DB2 on Cloud tiene planes reservados.|
 {:caption="Tabla 1. Cargos en función de las características" caption-side="top"}
 
@@ -68,9 +68,9 @@ Muchos servicios incluyen concesiones gratuitas mensuales. El uso de servicios q
     <dd>Paga en función del consumo de tiempo de ejecución y de servicio. Por ejemplo, con el servicio Push, cualquier uso que supere la concesión mensual gratuita se factura.</dd>
 <dt>Cargos reservados</dt>
     <dd><p>Como propietario de la cuenta de una cuenta de Pago según uso o una cuenta de Suscripción, puede reservar una instancia de servicio, con un compromiso a largo plazo, para obtener un precio con descuento. Por ejemplo, puede reservar la oferta de DB2 on Cloud grande estándar para 12 meses.</p>
-    <p>Algunos servicios de {{site.data.keyword.Bluemix_notm}} ofrecen planes reservados. Puede solicitar un plan reservado desde el {{site.data.keyword.Bluemix_notm}} <strong>Catálogo</strong> pulsando el mosaico del servicio. A continuación, seleccione el plan de servicio que se ajuste mejor a sus necesidades. Si hay disponible un plan reservado, pulse <strong>Solicitud</strong>, y siga las instrucciones para enviar la solicitud. Recibirá un correo electrónico que contiene la información del precio del plan reservado. Un representante de ventas de {{site.data.keyword.Bluemix_notm}} también se pondrá en contacto con usted pronto para finalizar la compra.</p></dd>
+    <p>Algunos servicios de {{site.data.keyword.Bluemix_notm}} ofrecen planes reservados. Puede solicitar un plan reservado desde el catálogo de {{site.data.keyword.Bluemix_notm}} pulsando el mosaico del servicio. A continuación, seleccione el plan de servicio que se ajuste mejor a sus necesidades. Si hay disponible un plan reservado, pulse <strong>Solicitud</strong>, y siga las instrucciones para enviar la solicitud. Recibirá un correo electrónico que contiene la información del precio del plan reservado. Un representante de ventas de {{site.data.keyword.Bluemix_notm}} también se pondrá en contacto con usted pronto para finalizar la compra.</p></dd>
 <dt>Cargos escalonados</dt>
-    <dd>De forma similar a los cargos con medición, pagará en función del consumo de servicios y de tiempo de ejecución. Sin embargo, los cargos por capas añaden capas de precios adicionales, ofreciendo a menudo cargos descontados en capas con un consumo más grande. El precio por niveles se ofrece de forma simple, graduada o de bloque.</dd>
+    <dd>Similar a los cargos con medición, pagará en función del consumo de tiempo de ejecución y de servicio. Sin embargo, los cargos por capas añaden capas de precios adicionales, ofreciendo a menudo cargos descontados en capas con un consumo más grande. El precio por niveles se ofrece de forma simple, graduada o de bloque.</dd>
 </dl>
 
 ### Nivel sencillo
@@ -78,7 +78,7 @@ Muchos servicios incluyen concesiones gratuitas mensuales. El uso de servicios q
 
 En el modelo de nivel sencillo, el precio unitario se determina
 mediante el nivel al que corresponde la cantidad que utilice. El precio
-total es su cantidad multiplicado por el precio unitario de dicho nivel. Por ejemplo:
+total es su cantidad multiplicada por el precio unitario de dicho nivel. Por ejemplo:
 
 | Cantidad de elementos | Precio unitario para todos los elementos |
 |-------------------|--------------------------|
