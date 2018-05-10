@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-02"
+lastupdated: "2018-04-10"
 
 ---
 
@@ -18,17 +18,17 @@ lastupdated: "2018-03-02"
 ## Quante applicazioni posso creare?
 {: #howmanyapps}
 
-In un account Lite, le tue applicazioni possono accedere fino a 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non hai utilizzato tutta la franchigia dell'account Lite disponibile. Se hai bisogno di memoria aggiuntiva, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale quantità. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
+In un account Lite, le tue applicazioni possono accedere fino a 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non utilizzi tutta la franchigia dell'account Lite disponibile. Se hai bisogno di ulteriore memoria, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale quantità. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
 
 ## Cosa succede quando la mia istanza del piano Lite raggiunge la quota mensile?
 {: #monthlyquota}
 
-Il raggiungimento di qualsiasi limite di quota per le istanze del piano Lite sospende il servizio per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione riflettono qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
+Il raggiungimento di qualsiasi limite di quota per le istanze del piano Lite sospende il servizio per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione riflettono qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese. 
 
 ## Perché la mia carta di credito non viene accettata?
 {: #addcard}
 
-Proteggere la tua identità è una priorità per noi, quindi prendiamo molto seriamente la verifica della carta di credito. Il modo più semplice per risolvere il problema è contattarci utilizzando uno dei seguenti metodi. Ti faremo alcune domande per verificare la tua identità e consentirti di ritornare a dedicarti alla tua produttività. 
+Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito. Il modo più semplice per risolvere il problema è contattarci utilizzando uno dei seguenti metodi. Ti faremo alcune domande per verificare la tua identità e consentirti di ritornare a dedicarti alla tua produttività. 
 
    * Contattaci: 1-866-325-0045 (Seleziona l'opzione 3.)
    * Inviaci un'e-mail: [accounting@softlayer.com](accounting@softlayer.com) 
@@ -46,9 +46,9 @@ Sì, abbiamo recentemente rinominato i codici promozionali in codici funzione e 
 ## Come ottengo supporto?
 {: #contactsupport}
 
-Per assistenza su come iniziare a lavorare in {{site.data.keyword.Bluemix_notm}} o esplorare {{site.data.keyword.Bluemix_notm}}, puoi iniziare una conversazione con noi utilizzando l'icona della chat nella console. 
+Per assistenza su come iniziare a lavorare in {{site.data.keyword.Bluemix_notm}} o utilizzando {{site.data.keyword.Bluemix_notm}}, puoi iniziare una conversazione con noi utilizzando l'icona della chat nella console.  
 
-Puoi anche controllare una serie di risorse utili disponibili nel [Centro di supporto ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window}. Da lì, puoi accedere a Stack Overflow per inviare una domanda alla nostra community di sviluppatori. Puoi anche inoltrare un ticket di supporto.  
+Controlla una serie di risorse utili disponibili nel [Centro di supporto ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window}. Da lì, puoi accedere a Stack Overflow per inviare una domanda alla nostra community di sviluppatori. Puoi anche inoltrare un ticket di supporto.  
 
 ## Come posso eliminare il mio account?
 {: #cancelmyaccount}

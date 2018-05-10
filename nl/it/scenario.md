@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2017-10-09"
 # Scenario: stima dei costi di un'applicazione nodo di esempio
 {: #sample}
 
-Supponi di avere un'applicazione web Node.js con funzionalità di scalabilità e che l'applicazione utilizzi diversi servizi forniti da {{site.data.keyword.Bluemix}}. Puoi capire in che modo viene calcolato il costo effettivo della tua applicazione nel seguente esempio. L'applicazione web utilizza i servizi e gli elementi di {{site.data.keyword.Bluemix_notm}} di seguito indicati:
+Supponi di avere un'applicazione web Node.js con funzionalità di ridimensionamento e che l'applicazione utilizzi diversi servizi forniti da {{site.data.keyword.Bluemix}}. Puoi capire in che modo viene calcolato il costo effettivo della tua applicazione nel seguente esempio. L'applicazione web utilizza i servizi e gli elementi di {{site.data.keyword.Bluemix_notm}} di seguito indicati:
 
 * Quattro istanze di runtime Node.js di 256 MB
 * Due politiche di {{site.data.keyword.autoscaling}}, processore e memoria
@@ -67,8 +67,7 @@ sono gratuite.</dd>
 fornito dal servizio {{site.data.keyword.datacshort}} è
 gratuito. Tuttavia, il piano libero non coprirebbe il tuo utilizzo previsto di 2 GB
 al mese. I tre piani pagati per {{site.data.keyword.datacshort}} costano
-un importo prefissato per una specifica quantità di spazio, indipendentemente da quanto spazio utilizzi
-effettivamente. Pertanto, ti consigliamo di scegliere il piano minimo che soddisfa il tuo uso previsto, che è il
+un importo prefissato per una specifica quantità di spazio, indipendentemente da quanto spazio utilizzi. Pertanto, ti consigliamo di scegliere il piano minimo che soddisfa il tuo uso previsto, che è il
 piano standard di 5 GB. Il costo totale è di $155 al mese.</dd>
 
 <dt>150 GB al mese di database NoSQL</dt>
