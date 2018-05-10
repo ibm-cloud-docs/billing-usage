@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2017-10-09"
 # 情境：預估範例 Node 應用程式的成本
 {: #sample}
 
-假設您具有含可擴充性功能的 Node.js Web 應用程式，而且應用程式使用 {{site.data.keyword.Bluemix}} 所提供的數個服務。您可以瞭解在此範例中如何計算應用程式的實際成本。Web 應用程式使用下列 {{site.data.keyword.Bluemix_notm}} 服務及項目：
+假設您具有含擴充功能的 Node.js Web 應用程式，而且該應用程式使用 {{site.data.keyword.Bluemix}} 所提供的數個服務。您可以瞭解在此範例中如何計算應用程式的實際成本。Web 應用程式使用下列 {{site.data.keyword.Bluemix_notm}} 服務及項目：
 
 * 四個 256 MB Node.js 運行環境實例
 * 兩個 {{site.data.keyword.autoscaling}} 原則：處理器及記憶體
@@ -52,7 +52,7 @@ lastupdated: "2017-10-09"
 <dd>{{site.data.keyword.autoscaling}} 原則是免費的。</dd>
 
 <dt>{{site.data.keyword.datacshort}} 每個月 2 GB</dt>
-<dd>{{site.data.keyword.datacshort}} 服務提供的 50 MB 方案是免費的。不過，免費方案不包含您的預估每月 2 GB 用量。{{site.data.keyword.datacshort}} 的三項付費方案會針對特定空間量收取已設定的金額，不論您實際使用多少空間。因此，請選擇符合您預估用量的最低方案，也就是 5 GB 的標準方案。每個月的總成本為 $155。</dd>
+<dd>{{site.data.keyword.datacshort}} 服務提供的 50 MB 方案是免費的。不過，免費方案不包含您的預估每月 2 GB 用量。{{site.data.keyword.datacshort}} 的三項付費方案會針對特定空間量收取已設定的金額，不論您使用多少空間。因此，請選擇符合您預估用量的最低方案，也就是 5 GB 的標準方案。每個月的總成本為 $155。</dd>
 
 <dt>NoSQL 資料庫每個月 150 GB</dt>
 <dd>Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} 服務費用是根據資料儲存空間以及透過不同 API 方法存取該資料的能力。<strong>PUT</strong> 及 <strong>POST</strong> 指令視為重量型 API 呼叫，但是 <strong>GET</strong> 指令視為輕量型 API 呼叫。<p>
