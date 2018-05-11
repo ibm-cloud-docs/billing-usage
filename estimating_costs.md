@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-12"
+lastupdated: "2018-05-10"
 
 ---
 
@@ -30,7 +30,7 @@ to see a rough estimation of the cost based on the size of your app.
 ## Using the pricing calculator
 {: #pricing-calculator}
 
-You can use the pricing calculator to estimate the cost of platform and many infrastructure resources before you make a purchase. 
+You can use the pricing calculator to estimate the cost of platform and many infrastructure resources before you make a purchase.
 The pricing calculator provides the following functions:
   * Cost estimates that are currently provided in USD currency.
   * Estimates for infrastructure resources that are currently available for the **Compute** and **Containers** categories.
@@ -41,14 +41,14 @@ The pricing calculator provides the following functions:
   * From the [Pricing page ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window}, click **Try the calculator** from the Explore our solutions section.
   * If you are not currently logged in to {{site.data.keyword.Bluemix_notm}}, click **Pricing** from the [{{site.data.keyword.Bluemix_notm}} home page ![External link icon](../icons/launch-glyph.svg)](https://console.bluemix.net/).
 2. From the **Infrastructure** or **Platform** lists, select the category of the resource you want to price. The resources in the category that you selected are shown, and you can also search the category for a specific resource.
-3. Select a resource in the category to see a description of it. Some resources have multiple options. For example, if you select **Infrastructure** > **Compute** > **Bare metal servers**, you can choose from a list of servers. 
+3. Select a resource in the category to see a description of it. Some resources have multiple options. For example, if you select **Infrastructure** > **Compute** > **Bare metal servers**, you can choose from a list of servers.
 4. Select the quantity of the resource to add.
 5. Click **Add to estimate**.
-6. Continue adding resources from the **Infrastructure** and **Platform** categories until you add what you want to estimate.
+6. Continue adding resources from the **Infrastructure** and **Platform** categories until you add what you want to estimate. The **Estimate** panel shows the resources you added, the price for each one, and a total price.
+7. Optionally, to create a PDF of the information in the **Estimate** panel when you have finished compiling your list of resources, click **Download PDF**.
 
-The **Estimate** panel shows you the resources you added, the price for each one, and a total price. 
 
-If you are pricing only platform resources, you can click **Looking for the classic calculator?** to see an estimate in a currency other than USD. The classic calculator does not include infrastructure resources.
+If you are pricing only platform resources, to see an estimate in a currency other than USD, you can click **Looking for the Classic Calculator?**. The classic calculator does not include infrastructure resources.
 {: tip}
 
 ### Using the classic calculator for platform resources
