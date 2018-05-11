@@ -8,6 +8,7 @@ Gestion de la facturation et de l'utilisation
     {: .topicgroup}
     Facturation
         how_charged.md
+        ../account/linking_accounts.md
         feature-codes.md
         eusupported.md
         estimating_costs.md

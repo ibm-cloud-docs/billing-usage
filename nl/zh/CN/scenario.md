@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2017-10-09"
 # 场景：估算示例节点应用程序的成本
 {: #sample}
 
-假定您拥有具有可扩展能力的 Node.js Web 应用程序，并且该应用程序使用 {{site.data.keyword.Bluemix}} 提供的多个服务。在此示例中，您可以了解如何计算应用程序的实际成本。Web 应用程序使用以下 {{site.data.keyword.Bluemix_notm}} 服务和项：
+假定您的 Node.js Web 应用程序具有扩展能力，并且该应用程序使用 {{site.data.keyword.Bluemix}} 提供的多个服务。在此示例中，您可以了解如何计算应用程序的实际成本。Web 应用程序使用以下 {{site.data.keyword.Bluemix_notm}} 服务和项：
 
 * 四个 256 MB Node.js 运行时实例
 * 两个 {{site.data.keyword.autoscaling}} 策略、处理器和内存
@@ -26,7 +26,7 @@ lastupdated: "2017-10-09"
 ## {{site.data.keyword.Bluemix_notm}} 资源的价格
 {: #sample_resources}
 
-为简化示例，假设下表中的价格在某个时间范围（例如，一个月）内不波动。此示例中的所有定价使用美元。
+为了简化示例，假设下表中的价格在某个时间范围（例如，一个月）内不波动。此示例中的所有定价使用美元。
 
 |服务|	功能|	价格|
 |--------|-----------|--------|
@@ -45,7 +45,7 @@ lastupdated: "2017-10-09"
 <dl>
 <dt>四个 256 MB Node.js 运行时实例</dt>
 <dd>{{site.data.keyword.Bluemix_notm}} 对运行时按 GB-小时收费。每月使用的 GB 数是 <code>4 x 256 = 1024 MB 或 1 GB/月</code>。假设<code>一个月有 24 x 30 = 720 小时</code>，那么应用程序按 <code>1 x 720 = 720 GB-小时</code>收费。<p>
-375 GB-小时包括在每月免费限额中，在所有 {{site.data.keyword.Bluemix_notm}} 运行时共享。因此，运行时的总成本为 <code>0.07 美元 x (720-375) = 24.15 美元</code>。</p></dd>
+375 GB-小时包括在每月免费限额中，该限额在所有 {{site.data.keyword.Bluemix_notm}} 运行时中共享。因此，运行时的总成本为 <code>0.07 美元 x (720-375) = 24.15 美元</code>。</p></dd>
 
 <dt>两个 {{site.data.keyword.autoscaling}} 策略（处理器和内存）</dt>
 <dd>{{site.data.keyword.autoscaling}} 策略免费。</dd>

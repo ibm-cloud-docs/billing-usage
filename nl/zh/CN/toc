@@ -6,8 +6,9 @@
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    记帐
+    计费
         how_charged.md
+        ../account/linking_accounts.md
         feature-codes.md
         eusupported.md
         estimating_costs.md

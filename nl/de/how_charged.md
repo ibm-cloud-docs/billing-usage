@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-31"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -18,9 +18,9 @@ lastupdated: "2017-10-31"
 # Berechnung der Gebühren
 {: #charges}
 
-Die Höhe der Gebühren hängt von den jeweiligen Ressourcen ab, die von einem bestimmten Service oder Container bzw. einer bestimmten Laufzeit oder einer Unterstützungsoption verwendet werden. Bei den Ressourcen kann es sich um die Anzahl der API-Aufrufe, die Anzahl der Instanzen, die Hauptspeichermenge, den Speicherplatz, usw. handeln. {{site.data.keyword.Bluemix}} stellt auch eine detaillierte Kostenschätzungsfunktionen und eine Kostenberechnungsfunktion bis auf den letzten Cent bereit, die Ihnen beim Planen der Gebühren behilflich sein können. Nach dem Erstellen der Apps können Sie die tatsächlichen Kosten auf der Seite 'Nutzungsdashboard' überprüfen.
+Die Höhe der Gebühren hängt von den jeweiligen Ressourcen ab, die von einem bestimmten Service oder Container bzw. einer bestimmten Laufzeit oder einer Unterstützungsoption verwendet werden. Bei den Ressourcen kann es sich um die Anzahl der API-Aufrufe, die Anzahl der Instanzen, die Hauptspeichermenge, den Speicherplatz, usw. handeln. {{site.data.keyword.Bluemix}} stellt auch eine detaillierte Kostenschätzungsfunktionen und eine Kostenberechnungsfunktion bis auf den letzten Cent bereit, die Ihnen beim Planen der Gebühren behilflich sein können. 
 
-Über ein gebührenpflichtiges {{site.data.keyword.Bluemix_notm}}-Konto werden die Gebühren für Berechnungen, Container und Services erhoben, die von Ihrer Organisation in Anspruch genommen werden. Es kann vorkommen, dass Sie von anderen {{site.data.keyword.Bluemix_notm}}-Benutzern eingeladen werden, unter einem anderen Konto an Organisationen teilzunehmen. Wenn Sie in den Organisationen, in die Sie eingeladen wurden, Apps erstellen oder Services verwenden, werden die Gebühren, die für diese Nutzung anfallen, dem Konto in Rechnung gestellt, das die betreffenden Organisationen enthält. Weitere Informationen zu bestimmten Gebühren können Sie über die Detailseite einer Ressource im Katalog oder über den Preisrechner auf der Seite 'Preisstruktur' aufrufen.
+Nach dem Erstellen der Apps können Sie die tatsächlichen Kosten auf der Seite **Verwalten** > **Abrechnung und Nutzung** > **Nutzung** > **Nutzungsdashboard** prüfen. Über ein gebührenpflichtiges {{site.data.keyword.Bluemix_notm}}-Konto werden die Gebühren für Berechnungen, Container und Services erhoben, die von Ihrer Organisation in Anspruch genommen werden. Es kann vorkommen, dass Sie von anderen {{site.data.keyword.Bluemix_notm}}-Benutzern eingeladen werden, unter einem anderen Konto an Organisationen teilzunehmen. Wenn Sie in den Organisationen, in die Sie eingeladen wurden, Apps erstellen oder Services verwenden, werden die Gebühren, die für diese Nutzung anfallen, dem Konto in Rechnung gestellt, das die betreffenden Organisationen enthält. Weitere Informationen zu bestimmten Gebühren können Sie über die Ressourcendetailseite aufrufen.
 
 Die Gebühren werden abhängig von den von Ihnen verwendeten {{site.data.keyword.Bluemix_notm}}-Komponenten berechnet. Die folgende Tabelle bietet Ihnen eine allgemeine Übersicht:
 
@@ -67,7 +67,7 @@ Viele Services schließen monatliche kostenlose Leistungen ein. Die Nutzung von 
     <dd>Sie bezahlen entsprechend Ihrer Laufzeit- und Servicenutzung. Beispiel: Beim Push-Service wird jede Nutzung in Rechnung gestellt, die über die kostenlose monatliche Leistung hinausgeht.</dd>
 <dt>Reservierungsgebühren</dt>
     <dd><p>Als Eigner eines Kontos für nutzungsabhängige Zahlung oder eines Abonnementkontos können Sie sich eine Serviceinstanz bei einer langfristigen Verpflichtung zu einem reduzierten Preis reservieren lassen. Beispiel: Sie können sich das Angebot 'DB2 on Cloud' in der herkömmlichen Größe für 12 Monate reservieren lassen.</p>
-    <p>Für manche {{site.data.keyword.Bluemix_notm}}-Services werden Reservierungspläne angeboten. Sie können einen Reservierungsplan im {{site.data.keyword.Bluemix_notm}}<strong>-Katalog</strong> durch Klicken auf die Kachel des Service anfordern. Wählen Sie anschließend den Serviceplan aus, der Ihren Anforderungen am ehesten entspricht. Wenn ein Reservierungsplan verfügbar ist, klicken Sie auf <strong>Anfordern</strong> und gehen gemäß den Eingabeaufforderungen vor, um Ihre Anforderung zu senden. Sie erhalten eine E-Mail, in der die Preisinformationen für den Reservierungsplan enthalten sind. Außerdem wird sich bald ein {{site.data.keyword.Bluemix_notm}}-Vertriebsbeauftragter mit Ihnen in Verbindung setzen, um den Kauf durchzuführen.</p></dd>
+    <p>Für manche {{site.data.keyword.Bluemix_notm}}-Services werden Reservierungspläne angeboten. Sie können einen Reservierungsplan im {{site.data.keyword.Bluemix_notm}}-Katalog durch Klicken auf die Kachel des Service anfordern. Wählen Sie anschließend den Serviceplan aus, der Ihren Anforderungen am ehesten entspricht. Wenn ein Reservierungsplan verfügbar ist, klicken Sie auf <strong>Anfordern</strong> und gehen gemäß den Eingabeaufforderungen vor, um Ihre Anforderung zu senden. Sie erhalten eine E-Mail, in der die Preisinformationen für den Reservierungsplan enthalten sind. Außerdem setzt sich bald ein {{site.data.keyword.Bluemix_notm}}-Vertriebsbeauftragter mit Ihnen in Verbindung, um den Kauf durchzuführen.</p></dd>
 <dt>Gestaffelte Preise</dt>
     <dd>Ähnlich wie bei den nutzungsabhängigen Gebühren bezahlen Sie die Gebühren entsprechend Ihrer Laufzeit- und Servicenutzung. Bei gestaffelten Preisen werden jedoch zusätzliche Preisstufen hinzugefügt, wobei oft reduzierte Gebühren in Stufen mit hohem Verbrauch angeboten werden. Gestaffelte Preise werden einfach, gestaffelt oder als Block angeboten.</dd>
 </dl>

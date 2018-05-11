@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2017-10-09"
 # Szenario: Schätzen der Kosten für ein Beispiel-Knoten-App
 {: #sample}
 
-Angenommen, Sie haben eine Node.js-Web-App mit Skalierbarkeitsfunktionalität und die App nutzt verschiedene Services, die von {{site.data.keyword.Bluemix}} bereitgestellt werden. Dieses Beispiel zeigt, wie die tatsächlichen Kosten Ihrer App berechnet werden. Die Web-App nutzt die folgenden {{site.data.keyword.Bluemix_notm}}-Services und -Elemente:
+Angenommen, Sie haben eine Node.js-Web-App mit Skalierfunktionalität und die App nutzt verschiedene Services, die von {{site.data.keyword.Bluemix}} bereitgestellt werden. Dieses Beispiel zeigt, wie die tatsächlichen Kosten Ihrer App berechnet werden. Die Web-App nutzt die folgenden {{site.data.keyword.Bluemix_notm}}-Services und -Elemente:
 
 * Vier Node.js-Laufzeitinstanzen mit jeweils 256 MB
 * Zwei {{site.data.keyword.autoscaling}}-Richtlinien (Prozessor und Speicher)
@@ -52,7 +52,7 @@ Der Preis der App kann auf die folgende Weise berechnet werden:
 <dd>Die {{site.data.keyword.autoscaling}}-Richtlinien sind gebührenfrei.</dd>
 
 <dt>2 GB {{site.data.keyword.datacshort}} pro Monat</dt>
-<dd>Der 50-MB-Plan, der vom {{site.data.keyword.datacshort}}-Service bereitgestellt wird, ist gebührenfrei. Ihr gebührenfreier Plan würde jedoch nicht Ihre projektierte Nutzung von 2 GB pro Monat abdecken. Die drei gebührenpflichtigen Pläne für {{site.data.keyword.datacshort}} kosten einen festen Betrag für eine bestimmte Speichergröße unabhängig davon, wie viel Speicher Sie tatsächlich nutzen. Daher ist es sinnvoll, den Minimalplan zu wählen, der Ihre projektierte Nutzung abdeckt. Dies ist der Standardplan von 5 GB. Die Gesamtkosten betragen $155 pro Monat.</dd>
+<dd>Der 50-MB-Plan, der vom {{site.data.keyword.datacshort}}-Service bereitgestellt wird, ist gebührenfrei. Ihr gebührenfreier Plan würde jedoch nicht Ihre projektierte Nutzung von 2 GB pro Monat abdecken. Die drei gebührenpflichtigen Pläne für {{site.data.keyword.datacshort}} kosten einen festen Betrag für eine bestimmte Speichergröße unabhängig davon, wie viel Speicher Sie nutzen. Daher ist es sinnvoll, den Minimalplan zu wählen, der Ihre projektierte Nutzung abdeckt. Dies ist der Standardplan von 5 GB. Die Gesamtkosten betragen $155 pro Monat.</dd>
 
 <dt>150 GB NoSQL-Datenbank pro Monat</dt>
 <dd>Die Gebühren für den Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}}-Service basieren auf der Speicherung von Daten und der Möglichkeit, auf diese Daten mit verschiedenen API-Methoden zuzugreifen. Die Befehle <strong>PUT</strong> und <strong>POST</strong> werden als komplexe API-Aufrufe betrachtet, während Befehle <strong>GET</strong> als einfache API-Aufrufe betrachtet werden.

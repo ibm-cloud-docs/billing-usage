@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-31"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -18,10 +18,10 @@ lastupdated: "2017-10-31"
 # Paiement
 {: #charges}
 
-Le prix varie selon les ressources utilisées par un service, un contexte d'exécution, un conteneur ou une option de support spécifique. Les ressources peuvent correspondre au nombre d'appels d'API, au nombre d'instances, à la mémoire, à l'espace de stockage, etc. {{site.data.keyword.Bluemix}} met également à disposition des estimateurs de coût détaillé ainsi qu'une calculatrice de prix au centime près pour vous aider à planifier vos frais. Après avoir construit vos applications, vous pouvez vérifier leur coût réel dans la page Tableau de bord de l'utilisation.
+Le prix varie selon les ressources utilisées par un service, un contexte d'exécution, un conteneur ou une option de support spécifique. Les ressources peuvent correspondre au nombre d'appels d'API, au nombre d'instances, à la mémoire, à l'espace de stockage, etc. {{site.data.keyword.Bluemix}} met également à disposition des estimateurs de coût détaillé ainsi qu'une calculatrice de prix au centime près pour vous aider à planifier vos frais. 
 
-Avec un compte de facturation {{site.data.keyword.Bluemix_notm}}, vous êtes facturé pour les ressources de calcul, les conteneurs et les services que vous utilisez dans votre organisation. Vous pouvez être invité par d'autres utilisateurs
-{{site.data.keyword.Bluemix_notm}} à participer à des organisations sur un compte différent. Si vous créez des applications ou utilisez des services dans les organisations dans lesquelles vous êtes invité, cette utilisation est facturée au compte sur lequel se trouvent ces organisations. Vous pouvez afficher davantage d'informations sur un tarif spécifique dans la page des détails du catalogue ou dans la calculatrice des prix sur la page Tarification.
+Après avoir construit vos applications, vous pouvez vérifier leur coût réel sur la page **Gérer** > **Facturation et utilisation** > **Utilisation** > **Tableau de bord de l'utilisation**. Avec un compte de facturation {{site.data.keyword.Bluemix_notm}}, vous êtes facturé pour les ressources de calcul, les conteneurs et les services que vous utilisez dans votre organisation. Vous pouvez être invité par d'autres utilisateurs
+{{site.data.keyword.Bluemix_notm}} à participer à des organisations sur un compte différent. Si vous créez des applications ou utilisez des services dans les organisations dans lesquelles vous êtes invité, cette utilisation est facturée au compte sur lequel se trouvent ces organisations. D'autres informations sur un tarif spécifique sont visibles sur la page des détails de ressource. 
 
 Différents types de frais s'appliquent selon les fonctions {{site.data.keyword.Bluemix_notm}} que vous utilisez. Le tableau suivant
 propose une présentation générale :
@@ -50,11 +50,11 @@ Vous pouvez facilement trouver ces plans Lite dans le catalogue. Par défaut, to
 {: #compute}
 
 Vous êtes facturé pour la durée pendant laquelle vos applications s'exécutent et pour la mémoire qui est utilisée, en *Go/heure*. La quantité de Go/heure correspond au nombre d'instances d'application, multiplié par
-la quantité de mémoire par instance, multiplié par le nombre d'heures pendant lequel les instances s'exécutent. Vous pouvez personnaliser le nombre
+la quantité de mémoire par instance, multipliée par le nombre d'heures pendant lequel les instances s'exécutent. Vous pouvez personnaliser le nombre
 d'instances et la quantité de mémoire par instance selon vos besoins. Vous pouvez aussi ajouter de la mémoire ou des instances afin de pouvoir satisfaire un
 plus
 grand nombre d'utilisateurs. Le prix final est calculé par Go/heure : le nombre de vos instances d'application, multiplié par la quantité de mémoire par
-instance, multiplié par les heures d'exécution.
+instance, multipliée par les heures d'exécution.
 
 Par exemple, imaginez que vous disposez d'un contexte d'exécution qui coûte 0,07 $ par
 Go/heure dans deux instances de 512 Mo, qui s'exécutent pendant 30 jours (720 heures). Ces ressources coûtent 24,15 $, avec une franchise de 375 Go/heure,
@@ -78,8 +78,7 @@ De nombreux services incluent des franchises mensuelles. L'utilisation des servi
 la franchise mensuelle est facturée.</dd>
 <dt>Tarification réservée</dt>
     <dd><p>En tant que propriétaire d'un compte de type Paiement à la carte ou Abonnement, vous pouvez réserver une instance de service avec un engagement à long terme en échange d'une remise. Par exemple, vous pouvez réserver l'offre DB2 on Cloud de grande taille standard pour 12 mois.</p>
-    <p>Certains services {{site.data.keyword.Bluemix_notm}} offrent des plans réservés. Vous pouvez demander un plan réservé à partir du <strong>Catalogue</strong> {{site.data.keyword.Bluemix_notm}} en cliquant sur le titre du service. Ensuite, sélectionnez le plan de service le mieux adapté à vos besoins. Si un plan réservé est disponible, cliquez sur <strong>Demande</strong> et suivez les invites pour envoyer votre demande. Vous
-recevrez un courrier électronique contenant les informations sur le prix du plan réservé. Un ingénieur commercial {{site.data.keyword.Bluemix_notm}} prendra également contact avec vous rapidement pour finaliser l'achat.</p></dd>
+    <p>Certains services {{site.data.keyword.Bluemix_notm}} offrent des plans réservés. Vous pouvez demander un plan réservé à partir du catalogue {{site.data.keyword.Bluemix_notm}} en cliquant sur la vignette du service. Ensuite, sélectionnez le plan de service le mieux adapté à vos besoins. Si un plan réservé est disponible, cliquez sur <strong>Demande</strong> et suivez les invites pour envoyer votre demande. Vous recevrez un courrier électronique contenant les informations sur le prix du plan réservé. Un ingénieur commercial {{site.data.keyword.Bluemix_notm}} prendra également contact avec vous rapidement pour finaliser l'achat.</p></dd>
 <dt>Tarification différenciée</dt>
     <dd>A l'instar de la tarification au compteur, le prix que vous payez dépend de la consommation que vous faites des contextes d'exécution et des
 services. Toutefois, la tarification différenciée propose des tranches de tarification supplémentaires et permet souvent de bénéficier de remises dans les tranches de consommation élevée. La tarification différenciée peut être par tranches simples, graduées ou fixes.</dd>

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2017-10-09"
 # Scénario : Evaluation des coûts d'un exemple d'application Node
 {: #sample}
 
-Supposons que vous disposez d'une application Web Node.js avec capacité d'extensibilité et que l'application utilise plusieurs services fournis par {{site.data.keyword.Bluemix}}. Cet exemple explique comment le coût réel de votre application est calculé. L'application Web utilise les services et les éléments {{site.data.keyword.Bluemix_notm}} suivants :
+Supposons que vous disposez d'une application Web Node.js ayant des capacités d'extensibilité et que l'application utilise plusieurs services fournis par {{site.data.keyword.Bluemix}}. Cet exemple explique comment le coût réel de votre application est calculé. L'application Web utilise les services et les éléments {{site.data.keyword.Bluemix_notm}} suivants :
 
 * Quatre instances d'exécution Node.js de 256 Mo
 * Deux stratégies {{site.data.keyword.autoscaling}}, un processeur et de la mémoire
@@ -26,7 +26,7 @@ Supposons que vous disposez d'une application Web Node.js avec capacité d'exten
 ## Prix des ressources {{site.data.keyword.Bluemix_notm}}
 {: #sample_resources}
 
-Pour que cet exemple reste simple, supposez que les prix figurant dans le tableau suivant ne fluctuent pas sur une période de
+Pour que cet exemple reste simple, nous supposerons que les prix figurant dans le tableau suivant ne fluctuent pas sur une période de
 temps, par exemple sur un mois. La tarification dans cet exemple est en dollar.
 
 |Service |	Fonctions |	Prix |
@@ -50,7 +50,7 @@ Le prix de l'application peut être calculé comme suit :
 <dd>{{site.data.keyword.Bluemix_notm}} facture un contexte d'exécution par Go/heure. Le nombre de Go utilisés par mois est <code>4 x 256 = 1024 Mo ou 1 Go par mois</code>. Supposez que vous utilisez <code>24 x 30
 = 720 heures par mois</code> ; l'application est facturée <code>1 x 720 = 720 Go/heure</code>.
 <p>
-375 Go/heure sont inclus dans une franchise par mois et partagés entre tous les contextes d'exécution
+375 Go/heure sont inclus dans une franchise par mois qui est partagée entre tous les contextes d'exécution
 {{site.data.keyword.Bluemix_notm}}. Par conséquent, le coût total du contexte d'exécution est <code>0,07 $ x
 (720-375) = 24,15 $</code>.</p></dd>
 
@@ -61,7 +61,7 @@ Le prix de l'application peut être calculé comme suit :
 <dd>Le plan de 50 Mo fourni par le service
 {{site.data.keyword.datacshort}} est gratuit. Toutefois, il ne peut pas couvrir votre
 utilisation
-prévue de 2 Go par mois. Les trois plans payants pour {{site.data.keyword.datacshort}} coûtent une somme définie pour une quantité spécifique d'espace, quelle que soit la quantité d'espace que vous utilisez réellement. Par conséquent, il est judicieux de
+prévue de 2 Go par mois. Les trois plans payants pour {{site.data.keyword.datacshort}} coûtent une somme définie pour une quantité spécifique d'espace, quelle que soit la quantité d'espace que vous utilisez. Par conséquent, il est judicieux de
 choisir le plan le plus petit correspondant à l'utilisation que vous prévoyez, c'est-à-dire le plan standard de 5 Go. Le coût total est de 155 $ par mois.</dd>
 
 <dt>150 Go par mois pour NoSQL Database</dt>

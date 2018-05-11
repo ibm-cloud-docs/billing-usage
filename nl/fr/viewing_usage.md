@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-01-10"
+  years: 2015, 2018
+lastupdated: "2018-04-12"
 
 ---
 
@@ -17,22 +17,21 @@ lastupdated: "2018-01-10"
 # Affichage de votre utilisation
 {: #viewingusage}
 
-En tant que propriétaire de compte ou responsable de la facturation pour une organisation, vous pouvez vous servir de la page Tableau de bord de l'utilisation dans la console {{site.data.keyword.Bluemix}} afin d'afficher un récapitulatif des frais estimés pour toutes les ressources que vous utilisez par mois dans vos organisations. 
+En tant que propriétaire de compte ou responsable de la facturation pour une organisation, vous pouvez vous servir de la page **Tableau de bord de l'utilisation** dans la console {{site.data.keyword.Bluemix}} afin d'afficher les frais estimés pour toutes les ressources utilisées par mois dans vos organisations. 
 
-Pour ouvrir la page Tableau de bord de l'utilisation, cliquez sur **Gérer** > **Facturation et utilisation** > **Utilisation**. Un récapitulatif de l'utilisation des ressources est affiché pour le compte. Les responsables de la facturation ne peuvent afficher les détails que pour les organisations pour lesquelles ils sont responsables de la
+Pour accéder à la page **Tableau de bord de l'utilisation**, cliquez sur **Gérer** > **Facturation et utilisation** > **Utilisation**. Un récapitulatif de l'utilisation des ressources est affiché pour le compte. Les responsables de la facturation peuvent afficher uniquement les détails relatifs aux organisations pour lesquelles ils sont responsables de la
 facturation.
 
    * Cliquez sur **Afficher les instances** pour afficher un récapitulatif des frais estimés pour toutes les instances d'une ressource donnée. 
-   * Cliquez sur **Afficher l'instance** pour afficher un récapitulatif détaillé des frais estimés pour chaque instance du type de ressource spécifique. Vous pouvez également afficher des statistiques d'utilisation mensuelles détaillées pour l'instance sélectionnée. 
+   * Cliquez sur **Afficher l'instance** pour afficher un récapitulatif détaillé des frais estimés pour chaque instance du type de ressource spécifique. Vous pouvez également afficher des métriques d'utilisation mensuelles détaillées pour l'instance sélectionnée. 
 
 Le propriétaire de compte est facturé pour l'utilisation totale occasionnée dans toutes les organisations à la fin de chaque cycle de
 facturation. Chaque
 cycle de facturation dure un mois.
 
-Les propriétaires de compte peuvent filtrer le récapitulatif de l'utilisation par organisation. Si vous êtes un propriétaire de compte, affectez à **Afficher par** la valeur **Compte** afin d'afficher l'utilisation de tout le compte sur une période de 12 mois. Sélectionnez un mois particulier afin d'afficher l'utilisation correspondante.  Les prix affichés représentent la somme qui
-vous sera facturée pour ce mois, en tant que propriétaire de compte.
+Les propriétaires de compte peuvent filtrer le récapitulatif de l'utilisation par organisation. Si vous êtes un propriétaire de compte, affectez à **Afficher par** la valeur **Compte** afin d'afficher l'utilisation de tout le compte sur une période de 12 mois. Sélectionnez un mois particulier afin d'afficher l'utilisation correspondante.  Les frais affichés représentent la somme qui vous sera facturée pour ce mois, en tant que propriétaire de compte.
 
-Si vous sélectionnez une organisation spécifique dans la liste **Groupe**, l'utilisation totale pour cette organisation apparaît, y compris celle relevant d'un niveau gratuit. Le prix affiché pour l'organisation n'est pas le prix qui vous est facturé. L'utilisation d'une tranche gratuite apparaît comme gratuite au niveau du compte, mais pas au niveau de l'organisation. Par conséquent, lorsque
+Si vous sélectionnez une organisation spécifique dans la liste **Groupe**, l'utilisation totale pour cette organisation apparaît, y compris celle relevant d'un niveau gratuit. Les frais affichés pour l'organisation ne correspondent pas aux frais qui vous seront réellement facturés. L'utilisation d'une tranche gratuite apparaît comme gratuite au niveau du compte, mais pas au niveau de l'organisation. Par conséquent, lorsque
 vous affichez l'utilisation au niveau de l'organisation, vous consultez l'utilisation réelle pour cette organisation, incluant l'utilisation
 gratuite et l'utilisation facturée. L'utilisation au niveau de l'organisation correspond à l'utilisation au niveau de compte une fois la
 tranche gratuite retirée.

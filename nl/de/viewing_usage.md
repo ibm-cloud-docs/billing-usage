@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-01-10"
+  years: 2015, 2018
+lastupdated: "2018-04-12"
 
 ---
 
@@ -17,9 +17,9 @@ lastupdated: "2018-01-10"
 # Nutzungsinformationen anzeigen
 {: #viewingusage}
 
-Als Kontoeigner oder Abrechnungsmanager einer Organisation können Sie die Seite 'Nutzungsdashboard' in der {{site.data.keyword.Bluemix}}-Konsole verwenden, um eine Übersicht zu den geschätzten Gebühren für alle Ressourcen, die monatlich in Ihrer Organisation genutzt werden, anzuzeigen. 
+Als Kontoeigner oder Abrechnungsmanager einer Organisation können Sie über die Seite **Nutzungsdashboard** in der {{site.data.keyword.Bluemix}}-Konsole die geschätzten Gebühren für alle Ressourcen anzeigen, die monatlich in Ihrer Organisation genutzt werden. 
 
-Um die Seite 'Nutzungsdashboard' zu öffnen, klicken Sie auf **Verwalten** > **Abrechnung und Nutzung** > **Nutzung**. Eine Zusammenfassung der Ressourcennutzung für das Konto wird angezeigt. Abrechnungsmanager können nur die Details für die Organisationen anzeigen, in denen ihnen die Rolle des Abrechnungsmanagers zugewiesen ist.
+Um auf die Seite **Nutzungsdashboard** zuzugreifen, klicken Sie auf **Verwalten** > **Abrechnung und Nutzung** > **Nutzung**. Eine Zusammenfassung der Ressourcennutzung für das Konto wird angezeigt. Abrechnungsmanager können nur die Details für die Organisationen anzeigen, in denen ihnen die Rolle des Abrechnungsmanagers zugewiesen ist.
 
    * Klicken Sie auf die Option zum **Anzeigen von Instanzen**, um eine Zusammenfassung der geschätzten Gebühren für alle Instanzen einer bestimmten Ressource anzuzeigen. 
    * Klicken Sie auf die Option zum **Anzeigen von Instanzen**, um eine detaillierte Zusammenfassung der geschätzten Gebühren für jede Instanz des jeweiligen Ressourcentyps anzuzeigen. Hier werden auch die detaillierten monatlichen Nutzungsmetriken für die ausgewählte Instanz angezeigt. 

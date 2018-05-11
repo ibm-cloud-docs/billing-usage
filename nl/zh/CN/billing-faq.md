@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-02"
+lastupdated: "2018-04-10"
 
 ---
 
@@ -28,7 +28,7 @@ lastupdated: "2018-03-02"
 ## 为什么我的信用卡通不过验证？
 {: #addcard}
 
-保护您的身份是我们的优先考虑事项，因此我们非常重视信用卡验证。解决此问题的最简单办法是使用以下某种方法与我们联系。我们会向您提出若干问题，以验证您的身份，随后您可恢复正常使用。 
+保护您的身份是我们的优先考虑事项，因此我们十分重视信用卡验证。解决此问题的最简单办法是使用以下某种方法与我们联系。我们会向您提出若干问题，以验证您的身份，随后您可恢复正常使用。 
 
    * 致电我们：1-866-325-0045（选择选项 3。）
    * 向我们发送电子邮件：[accounting@softlayer.com](accounting@softlayer.com) 
@@ -41,14 +41,14 @@ lastupdated: "2018-03-02"
 ## 特征代码和促销码一样吗？ 
 {: #entercode}
 
-一样，虽然我们最近将促销码重命名为特征代码，但您仍可以使用这些代码来解锁其他 {{site.data.keyword.Bluemix_notm}} 功能。在 {{site.data.keyword.Bluemix_notm}} 控制台中，通过转至**管理 > 计费和使用情况 > 计费**可兑换特征代码。 
+一样，我们最近将促销码重命名为特征代码，但您仍可以使用这些代码来解锁额外的 {{site.data.keyword.Bluemix_notm}} 功能。在 {{site.data.keyword.Bluemix_notm}} 控制台中，通过转至**管理 > 计费和使用情况 > 计费**可兑换特征代码。 
 
 ## 如何获得支持？
 {: #contactsupport}
 
-要获取有关快速入门和熟悉运用 {{site.data.keyword.Bluemix_notm}} 或浏览 {{site.data.keyword.Bluemix_notm}} 的帮助，请使用控制台中的“交谈”图标启动与我们的对话。 
+要获取有关快速入门和熟悉运用 {{site.data.keyword.Bluemix_notm}} 或使用 {{site.data.keyword.Bluemix_notm}} 的帮助，请使用控制台中的“交谈”图标启动与我们的对话。 
 
-您还可以查看[支持中心 ![外部链接图标](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window} 中提供的一些有用资源。在此，可以访问 Stack Overflow，以便向我们的开发者社区发布问题。您还可以提交支持凭单。  
+查看[支持中心 ![外部链接图标](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window} 中提供的一些有用资源。在此，可以访问 Stack Overflow，以便向我们的开发者社区发布问题。您还可以提交支持凭单。  
 
 ## 如何取消帐户？
 {: #cancelmyaccount}

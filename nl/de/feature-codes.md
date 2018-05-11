@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-12-12"
+lastupdated: "2018-04-10"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-12-12"
 # Feature-Codes (Werbecodes) anwenden
 {: #codes}
 
-Gelegentlich erhalten Sie vom {{site.data.keyword.Bluemix}}-Vertrieb oder einem anderen Ansprechpartner Feature-Codes (früher als Werbecodes bezeichnet), die zusätzliche Ressourcen oder Funktionen für Ihr Lite- oder Testkonto bieten. Die Werbecodes wurden zwar in Features-Codes umbenannt, Sie können sie jedoch weiterhin verwenden, um zusätzliche {{site.data.keyword.Bluemix_notm}}-Funktionen freizuschalten.
+Gelegentlich erhalten Sie vom {{site.data.keyword.Bluemix}}-Vertrieb oder einem anderen Ansprechpartner Feature-Codes (früher als Werbecodes bezeichnet), die zusätzliche Ressourcen oder Funktionen für Ihr Lite- oder Testkonto bieten.
 {: shortdesc}
 
 Die von {{site.data.keyword.Bluemix_notm}} zur Verfügung gestellten zusätzlichen Ressourcen oder Funktionen variieren in Abhängigkeit vom jeweiligen Code, doch sie können mehr oder weniger Folgendes umfassen:
@@ -27,7 +27,7 @@ Die von {{site.data.keyword.Bluemix_notm}} zur Verfügung gestellten zusätzlich
   * Hochladen einer durch den Code angegebenen weiteren Anzahl an SSL-Zertifikaten
   * Verwenden von Prämienserviceplänen
 
-Gehen Sie wie folgt vor, um einen Code anzuwenden:
+Führen Sie die folgenden Schritte aus, um einen Code anzuwenden:
 
 1. Wechseln Sie in der {{site.data.keyword.Bluemix_notm}}-Konsole zu **Verwalten > Abrechnung und Nutzung > Abrechnung**.
 2. Geben Sie die Details des Feature-Codes ein und klicken Sie auf **Code anwenden**.
