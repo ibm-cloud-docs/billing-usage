@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -15,7 +15,8 @@ lastupdated: "2017-10-09"
 # Cenário: estimando os custos de um app de Nó de exemplo
 {: #sample}
 
-Suponha que você tenha um app da web Node.js com recursos de escalabilidade e o app usa vários serviços que são fornecidos pelo {{site.data.keyword.Bluemix}}. É possível aprender como o custo real de seu app é calculado neste exemplo. O app da web usa os serviços e itens do {{site.data.keyword.Bluemix_notm}} a seguir:
+Suponha que você tenha um app da web Node.js com recursos de ajuste de escala e o app usa
+vários serviços que são fornecidos pelo {{site.data.keyword.Bluemix}}. É possível aprender como o custo real de seu app é calculado neste exemplo. O app da web usa os serviços e itens do {{site.data.keyword.Bluemix_notm}} a seguir:
 
 * Quatro instâncias de tempo de execução do Node.js de 256 MB
 * Duas políticas de {{site.data.keyword.autoscaling}}, processador e memória
@@ -26,7 +27,8 @@ Suponha que você tenha um app da web Node.js com recursos de escalabilidade e o
 ## Preços para recursos do {{site.data.keyword.Bluemix_notm}}
 {: #sample_resources}
 
-Para manter o exemplo simples, suponha que os preços na tabela a seguir não flutuem dentro ou entre um prazo, por exemplo, um mês. Toda a precificação neste exemplo é em moeda dos EUA.
+Para manter o exemplo simples, suponha que os preços na tabela a seguir não flutuam dentro ou entre um
+prazo, por exemplo, um mês. Toda a precificação neste exemplo é em moeda dos EUA.
 
 |Serviço |	Recursos |	Preço |
 |--------|-----------|--------|
@@ -50,7 +52,8 @@ O preço do app pode ser calculado da maneira a seguir:
 {{site.data.keyword.Bluemix_notm}} cobra por
 um tempo de execução por GB/horas. O número de GB usado por mês é <code>4 x 256 = 1024 MB ou 1 GB por mês</code>. Suponha que haja <code>24 x 30 = 720 horas em um mês</code>, portanto, o aplicativo é cobrado por <code>1 x 720 = 720 GB/horas</code>.
 <p>
-375 GB/horas são incluídos em um abono grátis por mês, compartilhados entre todos os tempos de execução do {{site.data.keyword.Bluemix_notm}}. Assim, o custo total para o tempo de execução é <code>$0,07 x (720-375) = $24,15</code>.</p></dd>
+375 GB/horas são incluídos em um abono grátis por mês, que é compartilhado entre todos os tempos de execução
+do {{site.data.keyword.Bluemix_notm}}. Assim, o custo total para o tempo de execução é <code>$0,07 x (720-375) = $24,15</code>.</p></dd>
 
 <dt>Duas políticas de
 {{site.data.keyword.autoscaling}} (processador
@@ -61,9 +64,9 @@ de encargos.</dd>
 
 <dt>2 GB por mês de {{site.data.keyword.datacshort}}</dt>
 <dd>O plano de 50 MB que é fornecido pelo serviço
-{{site.data.keyword.datacshort}} é livre de encargos. Porém, o plano livre não cobriria o seu uso projetado de 2 GB por mês. Os três planos pagos para o
-{{site.data.keyword.datacshort}} custam uma quantia configurada para uma
-quantia de espaço específica, independentemente de quanto espaço, de fato, você usar. Portanto, você deseja escolher o plano mínimo que atenda ao seu uso projetado, que é o plano padrão de 5 GB. O custo total é de $155 por mês.</dd>
+{{site.data.keyword.datacshort}} é livre de encargos. Porém, o plano livre não cobriria o seu uso projetado de 2 GB por mês. 
+Os três planos pagos para o {{site.data.keyword.datacshort}} custam uma quantia configurada para uma
+quantia de espaço específica, independentemente de quanto espaço você utiliza. Portanto, você deseja escolher o plano mínimo que atenda ao seu uso projetado, que é o plano padrão de 5 GB. O custo total é de $155 por mês.</dd>
 
 <dt>150 GB por mês no banco de dados NoSQL</dt>
 <dd>Os encargos de serviço do Cloudant NoSQL DB para {{site.data.keyword.Bluemix_notm}} são baseados no armazenamento de dados e na capacidade de acessar esses dados por diferentes métodos de API. Os comandos <strong>PUT</strong> e <strong>POST</strong> são considerados como chamadas API pesadas, mas os comandos <strong>GET</strong> são considerados como chamadas API leves.
