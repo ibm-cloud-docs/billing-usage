@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2017-10-09"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2017-10-09"
 ## {{site.data.keyword.Bluemix_notm}} 리소스의 가격
 {: #sample_resources}
 
-예를 단순화하기 위해 다음 표의 가격은 특정 시간 범위(예: 한 달) 내에서 또는 시간 범위 간에 변동되지 않는다고 가정합니다. 이 예의 모든 가격은 미국 통화입니다.
+예제를 단순화하기 위해 다음 표의 가격은 특정 시간 범위(예: 한 달) 내에서 또는 시간 범위 사이에서 변동되지 않는다고 가정하십시오. 이 예의 모든 가격은 미국 통화입니다.
 
 |서비스 |	기능 |	가격 |
 |--------|-----------|--------|
@@ -52,7 +52,7 @@ lastupdated: "2017-10-09"
 <dd>{{site.data.keyword.autoscaling}} 정책은 무료입니다.</dd>
 
 <dt>매월 2GB의 {{site.data.keyword.datacshort}}</dt>
-<dd>{{site.data.keyword.datacshort}} 서비스에서 50MB 플랜을 무료로 제공합니다. 그러나 무료 사용제로는 매달 2GB의 예상 사용량을 충당할 수 없습니다. {{site.data.keyword.datacshort}}에 대한 3개의 유료 사용제를 사용할 경우 실제로 사용하는 공간의 양에 관계없이 특정 공간량에 대해 정해진 비용이 듭니다. 따라서 예상 사용량을 충족하는 최소 플랜을 선택할 수 있는데, 이것이 표준 플랜(5GB)입니다. 총 비용은 매달 $155입니다.</dd>
+<dd>{{site.data.keyword.datacshort}} 서비스에서 50MB 플랜을 무료로 제공합니다. 그러나 무료 사용제로는 매달 2GB의 예상 사용량을 충당할 수 없습니다. {{site.data.keyword.datacshort}}에 대한 3개의 유료 사용제를 사용할 경우 사용하는 영역의 크기에 관계없이 특정 영역 크기에 대해 정해진 비용이 듭니다. 따라서 예상 사용량을 충족하는 최소 플랜을 선택할 수 있는데, 이것이 표준 플랜(5GB)입니다. 총 비용은 매달 $155입니다.</dd>
 
 <dt>매월 150GB의 NoSQL 데이터베이스</dt>
 <dd>Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} 서비스 비용은 데이터 스토리지 및 여러 API 메소드로 데이터에 액세스할 수 있는지에 따라 달라집니다. <strong>PUT</strong> 및 <strong>POST</strong> 명령은 Heavy API 호출로 간주되지만, <strong>GET</strong> 명령은 Light API 호출로 간주됩니다.
