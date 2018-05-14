@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-10"
+lastupdated: "2018-05-14"
 
 ---
 
@@ -45,7 +45,7 @@ The pricing calculator provides the following functions:
 4. Select the quantity of the resource to add.
 5. Click **Add to estimate**.
 6. Continue adding resources from the **Infrastructure** and **Platform** categories until you add what you want to estimate. The **Estimate** panel shows the resources you added, the price for each one, and a total price.
-7. Optionally, to create a PDF of the information in the **Estimate** panel when you have finished compiling your list of resources, click **Download PDF**.
+7. Optionally, to create a PDF of the information in the **Estimate** panel when you have finished compiling your list of resources, click **Download PDF**. You might want to create a PDF, for example, to review the resources you are pricing before you purchase or to use as a guide when you are purchasing your resources.
 
 
 If you are pricing only platform resources, to see an estimate in a currency other than USD, you can click **Looking for the Classic Calculator?**. The classic calculator does not include infrastructure resources.
