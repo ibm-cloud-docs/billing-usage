@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-04-10"
 귀하의 ID 보호가 당사의 최우선 고려사항이므로, 신용카드 확인은 신중하게 처리되고 있습니다. 문제를 해결하는 가장 단순한 방법은 다음 방법 중 하나를 사용하여 당사에 연락하는 것입니다. 일부 질문을 통해 귀하의 ID를 확인한 후에 귀하는 다시 일상 업무로 돌아갈 수 있습니다. 
 
    * 연락처 전화번호: 1-866-325-0045(내선 3번 선택)
-   * 이메일 주소: [accounting@softlayer.com](accounting@softlayer.com) 
+   * 이메일 주소: accounting@softlayer.com
    
 ## 내 신용카드는 어떻게 업데이트합니까?
 {: #updatecard}

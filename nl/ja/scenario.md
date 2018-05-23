@@ -15,8 +15,7 @@ lastupdated: "2018-04-12"
 # シナリオ: Node アプリの例のコスト見積もり
 {: #sample}
 
-スケーリング機能を持つ Node.js Web アプリを使用しており、そのアプリは {{site.data.keyword.Bluemix}} が提供する複数のサービスを使用していると仮定します。
-この例で、ご使用のアプリの実際のコストがどのように計算されるかを学習することができます。 この Web アプリは、以下の {{site.data.keyword.Bluemix_notm}}
+スケーリング機能を持つ Node.js Web アプリを使用しており、そのアプリは {{site.data.keyword.Bluemix}} が提供する複数のサービスを使用していると仮定します。 この例で、ご使用のアプリの実際のコストがどのように計算されるかを学習することができます。 この Web アプリは、以下の {{site.data.keyword.Bluemix_notm}}
 サービスとアイテムを使用します。
 
 * 4 個の 256 MB Node.js ランタイム・インスタンス
@@ -49,7 +48,7 @@ lastupdated: "2018-04-12"
 <dd>{{site.data.keyword.Bluemix_notm}} は、
 GB 時間ごとにランタイムに課金します。 1 月あたりに使用される GB 数は、<code>4 x 256 = 1024 MB つまり 1 GB /月</code>です。 <code>1 カ月を 24 x 30 = 720 時間</code> と仮定すると、アプリケーションは <code>1 x 720 = 720 GB 時間</code>に対して課金されます。
 <p>
-すべての {{site.data.keyword.Bluemix_notm}} ランタイムにわたって共有される 1 月あたりの無料枠に、375 GB 時間が含まれます。そのため、ランタイムの総額は、<code>$0.07 x (720-375) = $24.15</code> となります。</p></dd>
+すべての {{site.data.keyword.Bluemix_notm}} ランタイムにわたって共有される 1 月あたりの無料枠に、375 GB 時間が含まれます。 そのため、ランタイムの総額は、<code>$0.07 x (720-375) = $24.15</code> となります。</p></dd>
 
 <dt>2 個の {{site.data.keyword.autoscaling}} ポリシー (プロセッサーとメモリー)</dt>
 <dd>{{site.data.keyword.autoscaling}} ポリシーは無料です。</dd>

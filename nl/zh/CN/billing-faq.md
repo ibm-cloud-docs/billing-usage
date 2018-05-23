@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-04-10"
 保护您的身份是我们的优先考虑事项，因此我们十分重视信用卡验证。解决此问题的最简单办法是使用以下某种方法与我们联系。我们会向您提出若干问题，以验证您的身份，随后您可恢复正常使用。 
 
    * 致电我们：1-866-325-0045（选择选项 3。）
-   * 向我们发送电子邮件：[accounting@softlayer.com](accounting@softlayer.com) 
+   * 电邮我们：accounting@softlayer.com
    
 ## 如何更新信用卡？
 {: #updatecard}

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-04-10"
 保護您的身分是我們的首要任務，因此，我們很嚴肅看待信用卡驗證。解決問題的最簡單方式是使用下列其中一種方法來聯絡我們。我們會詢問一些問題來驗證您的身分，然後再讓您回去進行正式作業。 
 
    * 電話：1-866-325-0045（請選取選項 3）。
-   * 電子郵件：[accounting@softlayer.com](accounting@softlayer.com) 
+   * 電子郵件：accounting@softlayer.com
    
 ## 如何更新我的信用卡？
 {: #updatecard}
