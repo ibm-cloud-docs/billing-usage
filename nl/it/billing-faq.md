@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -23,7 +23,7 @@ In un account Lite, le tue applicazioni possono accedere fino a 256 MB di memori
 ## Cosa succede quando la mia istanza del piano Lite raggiunge la quota mensile?
 {: #monthlyquota}
 
-Il raggiungimento di qualsiasi limite di quota per le istanze del piano Lite sospende il servizio per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione riflettono qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese. 
+Il raggiungimento di qualsiasi limite di quota per le istanze del piano Lite sospende il servizio per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione riflettono qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
 
 ## Perché la mia carta di credito non viene accettata?
 {: #addcard}
@@ -31,7 +31,7 @@ Il raggiungimento di qualsiasi limite di quota per le istanze del piano Lite sos
 Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito. Il modo più semplice per risolvere il problema è contattarci utilizzando uno dei seguenti metodi. Ti faremo alcune domande per verificare la tua identità e consentirti di ritornare a dedicarti alla tua produttività. 
 
    * Contattaci: 1-866-325-0045 (Seleziona l'opzione 3.)
-   * Inviaci un'e-mail: [accounting@softlayer.com](accounting@softlayer.com) 
+   * Inviaci un'email: accounting@softlayer.com
    
 ## Come aggiorno la mia carta di credito?
 {: #updatecard}
@@ -46,7 +46,7 @@ Sì, abbiamo recentemente rinominato i codici promozionali in codici funzione e 
 ## Come ottengo supporto?
 {: #contactsupport}
 
-Per assistenza su come iniziare a lavorare in {{site.data.keyword.Bluemix_notm}} o utilizzando {{site.data.keyword.Bluemix_notm}}, puoi iniziare una conversazione con noi utilizzando l'icona della chat nella console.  
+Per assistenza su come iniziare a lavorare in {{site.data.keyword.Bluemix_notm}} o utilizzando {{site.data.keyword.Bluemix_notm}}, puoi iniziare una conversazione con noi utilizzando l'icona della chat nella console. 
 
 Controlla una serie di risorse utili disponibili nel [Centro di supporto ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window}. Da lì, puoi accedere a Stack Overflow per inviare una domanda alla nostra community di sviluppatori. Puoi anche inoltrare un ticket di supporto.  
 

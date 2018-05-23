@@ -30,8 +30,8 @@ Vengono applicati diversi tipi di addebiti a seconda delle funzioni di {{site.da
 |------------------|------------------|--------------------------|--------------------------|
 | Fisso | Il prezzo forfettario è basato su un addebito mensile concordato che non viene adeguato. | Servizi  | Data Cache ha un piano fisso che viene addebitato a una tariffa mensile fissa. |
 | Misurato | Il prezzo a utilizzo misurato è basato sul numero di GB-ore utilizzati per i runtime e sul numero di GB-ore e sulla quantità di indirizzi IP e archiviazione per i contenitori. | Servizi, elaborazione e contenitori | Per il servizio Push, la quota di utilizzo che supera la franchigia mensile viene addebitata. |
-|  A livelli   |  Alcuni piani di prezzo sono basati su un modello di prezzi a livelli, quindi puoi ottenere uno sconto basato sui
-volumi in base al tuo utilizzo effettivo. I servizi possono offrire dei piani di prezzo di livello a blocchi, graduale o semplice. | Servizi | Il prezzo a livelli viene di norma utilizzato per le metriche di addebito di cui è prevista una quantità elevata al mese, come le chiamate API. |
+|  A livelli   |  Alcuni piani prezzi sono basati su un modello di prezzi a livelli, quindi puoi ottenere uno sconto basato sui
+volumi in base al tuo utilizzo effettivo. I servizi possono offrire dei piani prezzi di livello a blocchi, graduale o semplice. | Servizi | Il prezzo a livelli viene di norma utilizzato per le metriche di addebito di cui è prevista una quantità elevata al mese, come le chiamate API. |
 | Riservato | Il prezzo riservato è basato su un impegno a lungo termine per un servizio, in modo da consentirti di ottenere un prezzo scontato. Con un piano riservato, ottieni un'istanza del servizio dedicato facile da configurare, distribuire e consegnare in ambiente {{site.data.keyword.Bluemix_notm}} pubblico. | Servizi | DB2 on Cloud ha dei piani riservati.|
 {:caption="Tabella 1. Addebiti basati sulle funzioni" caption-side="top"}
 
@@ -54,7 +54,7 @@ L'addebito è basato sul tempo di esecuzione delle tue applicazioni e sulla memo
 del numero di istanze applicazione, moltiplicato per la memoria per ogni singola
 istanza, moltiplicato per le ore di esecuzione delle istanze. Puoi personalizzare il numero di
 istanze e la quantità di memoria per ogni singola istanza in base alle tue
-esigenze. Puoi anche aggiungere memoria o istanze per eseguire un ridimensionamento per un numero maggiore di utenti. L'addebito finale è in GB-ora: il numero di istanze dell'applicazione moltiplicato per la memoria per ogni singola istanza, moltiplicato per le ore di esecuzione. 
+esigenze. Puoi anche aggiungere memoria o istanze per eseguire un ridimensionamento per un numero maggiore di utenti. L'addebito finale è in GB-ora: il numero di istanze dell'applicazione moltiplicato per la memoria per ogni singola istanza, moltiplicato per le ore di esecuzione.
 
 Considera ad esempio un runtime che costa $0,07 per GB-ora e due istanze di 512 MB, in esecuzione per 30 giorni (720 ore). Queste risorse costerebbero $24,15 USD, compresa la franchigia di 375 GB-ore, con i seguenti calcoli:
 
@@ -78,7 +78,7 @@ servizio Push, la quota di utilizzo che supera la franchigia mensile viene
 addebitata.</dd>
 <dt>Addebiti riservati</dt>
     <dd><p>In quanto proprietario di un account Pagamento a consumo o di un account Sottoscrizione, puoi riservare un'istanza del servizio, con un impegno a lungo termine, per un prezzo scontato. Ad esempio, puoi riservare l'offerta standard DB2 on Cloud di grandi dimensioni per 12 mesi.</p>
-    <p>Alcuni servizi {{site.data.keyword.Bluemix_notm}} offrono dei piani riservati. Puoi richiedere un piano riservato dal catalogo {{site.data.keyword.Bluemix_notm}} facendo clic sul tile del servizio. Seleziona quindi il piano di servizio che meglio soddisfa le tue esigenze. Se è disponibile un piano riservato, fai clic su <strong>Richiesta</strong> e attieniti alle richieste che ti vengono presentate per inviare la tua richiesta. Ricevi un'e-mail che contiene le informazioni sul prezzo del piano riservato. Vieni inoltre contattato al più presto da un rappresentante del settore Vendite di {{site.data.keyword.Bluemix_notm}} per completare l'acquisto. </p></dd>
+    <p>Alcuni servizi {{site.data.keyword.Bluemix_notm}} offrono dei piani riservati. Puoi richiedere un piano riservato dal catalogo {{site.data.keyword.Bluemix_notm}} facendo clic sul tile del servizio. Seleziona quindi il piano di servizio che meglio soddisfa le tue esigenze. Se è disponibile un piano riservato, fai clic su <strong>Richiesta</strong> e attieniti alle richieste che ti vengono presentate per inviare la tua richiesta. Ricevi un'e-mail che contiene le informazioni sul prezzo del piano riservato. Vieni inoltre contattato al più presto da un rappresentante del settore Vendite di {{site.data.keyword.Bluemix_notm}} per completare l'acquisto.</p></dd>
 <dt>Addebiti a livelli</dt>
     <dd>Analogamente agli addebiti misurati, paghi in base al tuo consumo di runtime e servizi. Tuttavia, gli addebiti a livelli aggiungono degli ulteriori livelli di prezzo, spesso offrendo degli addebiti scontati nei livelli con un più ampio consumo. Il prezzo a livelli è offerto in modalità semplice, graduale o a blocchi.</dd>
 </dl>
