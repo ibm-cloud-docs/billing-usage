@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -23,7 +23,7 @@ Bei einem Lite-Konto können Ihre Apps auf bis zu 256 MB sofort verfügbaren Lau
 ## Was passiert, wenn meine Lite-Planinstanz das monatliche Kontingent erreicht?
 {: #monthlyquota}
 
-Wenn ein Grenzwert für das Kontingent für die Lite-Planinstanzen erreicht wird, wird der Service für diesen Monat ausgesetzt. Grenzwerte für Kontingente gelten für die gesamte Organisation, nicht nur für die Instanz. Neue Instanzen, die in derselben Organisation erstellt werden, spiegeln die Nutzung bereits vorhandener Instanzen wider. Die Grenzwerte für Kontingente werden am ersten Tag jedes Monats zurückgesetzt. 
+Wenn ein Grenzwert für das Kontingent für die Lite-Planinstanzen erreicht wird, wird der Service für diesen Monat ausgesetzt. Grenzwerte für Kontingente gelten für die gesamte Organisation, nicht nur für die Instanz. Neue Instanzen, die in derselben Organisation erstellt werden, spiegeln die Nutzung bereits vorhandener Instanzen wider. Die Grenzwerte für Kontingente werden am ersten Tag jedes Monats zurückgesetzt.
 
 ## Warum wird meine Kreditkarte nicht akzeptiert?
 {: #addcard}
@@ -31,7 +31,7 @@ Wenn ein Grenzwert für das Kontingent für die Lite-Planinstanzen erreicht wird
 Der Schutz Ihrer Identität hat für uns eine hohe Priorität, daher nehmen wir die Kreditkartenprüfung ernst. Am einfachsten lässt sich das Problem lösen, wenn Sie auf einem der folgenden Wege Kontakt mit uns aufzunehmen. Wir werden Ihnen verschiedene Fragen stellen, um Ihre Identität zu verifizieren. Anschließend können Sie Ihre Arbeit fortsetzen. 
 
    * Rufen Sie uns unter folgender Nummer an: 1-866-325-0045 (Option 3 auswählen.)
-   * Senden Sie eine E-Mail an folgende Adresse: [accounting@softlayer.com](accounting@softlayer.com) 
+   * Senden Sie eine E-Mail an folgende Adresse: accounting@softlayer.com
    
 ## Wie aktualisiere ich meine Kreditkartendaten?
 {: #updatecard}
