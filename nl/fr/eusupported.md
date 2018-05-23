@@ -21,7 +21,7 @@ La section Support dans l'Union européenne de la fenêtre **Facturation** indiq
 
 Si vous êtes le propriétaire d'un compte, un utilisateur principal ou si vous avez été désigné par un utilisateur principal, vous pouvez activer l'option en procédant comme suit :
 
-1. Dans la console {{site.data.keyword.Bluemix_notm}}, cliquez sur **Gérer** > **Facturation et utilisation** > **Facturation** pour accéder à la fenêtre **Facturation**.   
+1. Dans la console {{site.data.keyword.Bluemix_notm}}, cliquez sur **Gérer** > **Facturation et utilisation** > **Facturation** pour accéder à la fenêtre **Facturation**.  
 2. Si l'option **Support dans l'Union européenne** est désactivée, cliquez sur **Activer**.
 3. Lisez les informations relatives à l'option Support dans l'Union européenne.
 4. Sélectionnez **Je comprends et j'accepte ces conditions**.

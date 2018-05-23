@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -31,7 +31,7 @@ Lorsque la limite de quota relative aux instances de plan Lite est atteinte, le 
 La protection de votre identité étant une priorité pour nous, nous procédons à des vérifications sérieuses des cartes de crédit. Le plus simple pour résoudre votre problème est de nous contacter de l'une des manières suivantes. Nous vous poserons quelques questions afin de vérifier votre identité puis nous relancerons le processus afin qu'il soit à nouveau opérationnel. 
 
    * Appelez au : 1-866-325-0045 (Sélectionnez l'option 3.)
-   * Envoyez un courrier électronique à : [accounting@softlayer.com](accounting@softlayer.com) 
+   * Envoyez un courrier électronique à : accounting@softlayer.com
    
 ## Comment mettre à jour ma carte de crédit ?
 {: #updatecard}

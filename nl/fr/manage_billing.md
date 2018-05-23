@@ -51,9 +51,9 @@ envoyé au contact entré dans la section de l'adresse de facturation de la cart
 ## Affichage de vos éléments de facturation
 {: #viewbilling}
 
-Vous pouvez associer des éléments de facturation à des terminaux spécifiques ou les dissocier. Par défaut, la page **Eléments de facturation** présente les éléments de facturation associés. Vous pouvez changer la vue en sélectionnant une option depuis le menu d'affichage. Vous pouvez associer ou dissocier un élément ou utiliser l'opération Actions par lot pour associer ou dissocier plusieurs éléments à la fois. Vous pouvez également annuler des éléments de facturation individuels à tout moment.  
+Vous pouvez associer des éléments de facturation à des terminaux spécifiques ou les dissocier. Par défaut, la page **Eléments de facturation** présente les éléments de facturation associés. Vous pouvez changer la vue en sélectionnant une option depuis le menu d'affichage. Vous pouvez associer ou dissocier un élément ou utiliser l'opération Actions par lot pour associer ou dissocier plusieurs éléments à la fois. Vous pouvez également annuler des éléments de facturation individuels à tout moment. 
 
-1. Sélectionnez l'**icône Menu ![icône Menu](../icons/icon_hamburger.svg) > Infrastructure**.  
+1. Sélectionnez l'**icône Menu ![icône Menu](../icons/icon_hamburger.svg) > Infrastructure**. 
 2. Dans la barre de menus, cliquez sur **Compte** > **Facturation** > **Eléments de facturation**.
 3. Pour filtrer votre vue, sélectionnez dans la liste une option d'élément de facturation.
 
@@ -68,11 +68,11 @@ Vous pouvez afficher ou régler vos factures à tout moment. Le récapitulatif d
  *  Crédit : crédit accordé par {{site.data.keyword.Bluemix_notm}} sur le solde du compte
  *  Remboursement : remboursement ou annulation de frais, qu'ils soient ponctuels ou périodiques.
 
-La page **Factures** affiche également un récapitulatif de la facturation pour le compte, qui inclut le solde en cours et le prochain solde estimé, la méthode de paiement, ainsi que la dernière date et la prochaine date de facture récurrente. 
+La page **Factures** affiche également un récapitulatif de la facturation pour le compte, qui inclut le solde en cours et le prochain solde estimé, la méthode de paiement, ainsi que la dernière date et la prochaine date de facture récurrente.
 
 Procédez comme suit pour afficher une facture :
 
-1. Sélectionnez l'**icône Menu ![icône Menu](../icons/icon_hamburger.svg) > Infrastructure**.  
+1. Sélectionnez l'**icône Menu ![icône Menu](../icons/icon_hamburger.svg) > Infrastructure**. 
 2. Dans la barre de menus, cliquez sur **Compte** > **Facturation** > **Factures**.
 3. Vous pouvez afficher une facture dans le portail client ou la télécharger.
 

@@ -21,35 +21,33 @@ Vous pouvez utiliser différentes méthodes pour estimer le coût de l'utilisati
 {:shortdesc}
 
 Vous pouvez utiliser les méthodes suivantes pour déterminer vos coûts :
-* Utilisez la [calculatrice de tarification![Icône de tarification](../icons/launch-glyph.svg)](https://console.bluemix.net/pricing/){: new_window} afin d'estimer le coût total des ressources PaaS et IaaS que vous souhaitez utiliser. 
+* Utilisez la [calculatrice de tarification![Icône de tarification](../icons/launch-glyph.svg)](https://console.bluemix.net/pricing/){: new_window} afin d'estimer le coût total des ressources PaaS et IaaS que vous souhaitez utiliser.
 * Utilisez les estimateurs de coût sur la page {{site.data.keyword.pricing_sheet}} {{site.data.keyword.Bluemix_notm}}
 pour voir une estimation approximative du coût en fonction de la taille de votre application.
 * Utilisez la calculatrice de coût sur la page Tarification pour voir les prix précis des applications en fonction des données d'utilisation des
 contextes d'exécution et des services que vous avez entrées.
-* Calculez votre coût manuellement. 
+* Calculez votre coût manuellement.
 
 ## Utilisation de la calculatrice de tarification
 {: #pricing-calculator}
 
 Vous pouvez utiliser la calculatrice de tarification pour estimer le coût des ressources PaaS et IaaS avant de réaliser un achat.
 La calculatrice de tarification fournit les fonctions suivantes :
-  * Les estimations de coûts qui sont actuellement fournies en devise américaine. 
-  * Les estimations des ressources IaaS qui sont actuellement disponibles pour les catégories **Calcul** et **Conteneurs**. 
+  * Les estimations de coûts qui sont actuellement fournies en devise américaine.
+  * Les estimations des ressources IaaS qui sont actuellement disponibles pour les catégories **Calcul** et **Conteneurs**.
   * Les estimations de coûts des ressources qui n'incluent pas de remises.
-  * Les estimations de coûts qui sont fournies à des fins de planification. 
+  * Les estimations de coûts qui sont fournies à des fins de planification.
 
 1. Accédez à la calculatrice de tarification en procédant de l'une des façons suivantes :
-  * Sur la [page de tarification ![Icône de lien externe](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window}, cliquez sur **Essayer la calculatrice** dans la section Explorez nos solutions. 
+  * Sur la [page de tarification ![Icône de lien externe](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window}, cliquez sur **Essayer la calculatrice** dans la section Explorez nos solutions.
   * Si vous n'êtes pas connecté à {{site.data.keyword.Bluemix_notm}}, cliquez sur **Tarification** sur la [page d'accueil de {{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../icons/launch-glyph.svg)](https://console.bluemix.net/).
-2. Dans les listes **Infrastructure** ou **Plateforme**, sélectionnez la catégorie de la ressource à tarifer. Les ressources de la catégorie que vous avez sélectionnée s'affichent et vous pouvez également rechercher une ressource spécifique dans une catégorie. 
-3. Sélectionnez une ressource dans la catégorie pour voir sa description. Certaines ressources comportent plusieurs options. Par exemple, si vous sélectionnez **Infrastructure** > **Calcul** > **Serveurs bare metal**, vous pouvez effectuer une sélection dans une liste de serveurs.  
-4. Sélectionnez la quantité de la ressource à ajouter. 
+2. Dans les listes **Infrastructure** ou **Plateforme**, sélectionnez la catégorie de la ressource à tarifer. Les ressources de la catégorie que vous avez sélectionnée s'affichent et vous pouvez également rechercher une ressource spécifique dans une catégorie.
+3. Sélectionnez une ressource dans la catégorie pour voir sa description. Certaines ressources comportent plusieurs options. Par exemple, si vous sélectionnez **Infrastructure** > **Calcul** > **Serveurs bare metal**, vous pouvez effectuer une sélection dans une liste de serveurs.
+4. Sélectionnez la quantité de la ressource à ajouter.
 5. Cliquez sur **Add to estimate**.
-6. Continuez d'ajouter des ressources à partir des catégories **Infrastructure** et **Plateforme** jusqu'à ce que vous ayez ajouté ce que vous souhaitez estimer. 
+6. Continuez d'ajouter des ressources à partir des catégories **Infrastructure** et **Plateforme** jusqu'à ce que vous ayez ajouté ce que vous souhaitez estimer. Le panneau **Estimation** présente les ressources que vous avez ajoutées, le prix de chacune de ces ressources, et un prix total. 
 
-Le panneau **Estimation** présente les ressources que vous avez ajoutées, le prix de chacune de ces ressources, et un prix total.  
-
-Si vous calculez la tarification des ressources PaaS uniquement, vous pouvez cliquer sur **Basculer sur classique** pour afficher une estimation dans une devise autre que le dollar américain. La calculatrice classique n'inclut pas les ressources IaaS.
+Si vous calculez la tarification des ressources PaaS uniquement, pour afficher une estimation dans une devise autre que le dollar américain, vous pouvez cliquer sur l'option de **recherche de la calculatrice classique**. La calculatrice classique n'inclut pas les ressources IaaS.
 {: tip}
 
 ### Utilisation de la calculatrice classique pour les ressources PaaS
@@ -57,9 +55,8 @@ Si vous calculez la tarification des ressources PaaS uniquement, vous pouvez cli
 
 Pour calculer les coûts de vos ressources PaaS dans une devise autre que le dollar américain, vous pouvez utiliser la calculatrice classique. La calculatrice classique ne fournit pas d'estimations de tarification pour les ressources IaaS.
 
-
 1. Accédez à la page {{site.data.keyword.pricing_sheet}} {{site.data.keyword.Bluemix_notm}}.
-2. Sélectionnez l'une des options IaaS pour prendre en charge la section Toutes vos charges de travail. 
+2. Sélectionnez l'une des options IaaS pour prendre en charge la section Toutes vos charges de travail.
 
 Pour utiliser la calculatrice, entrez votre utilisation mensuelle prévue pour les ressources répertoriées, par exemple le nombre d'instances ou de
 notifications push. La calculatrice affiche immédiatement le prix pour les données entrées. Vous pouvez aussi
