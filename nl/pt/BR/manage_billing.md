@@ -44,8 +44,7 @@ Resolva os problemas relatados com o pagamento. O saldo da conta é atualizado d
 ## Mudando o método de pagamento
 {: #changepaymethod}
 
-Cada conta faturável deve ter um cartão de crédito registrado que seja válido. Todo mês, o cartão de crédito é cobrado com a quantia de uso acumulada durante esse mês. 
-No console do {{site.data.keyword.Bluemix_notm}}, conclua as etapas a seguir para incluir ou mudar os
+Cada conta faturável deve ter um cartão de crédito registrado que seja válido. Todo mês, o cartão de crédito é cobrado com a quantia de uso acumulada durante esse mês. No console do {{site.data.keyword.Bluemix_notm}}, conclua as etapas a seguir para incluir ou mudar os
 detalhes de seu pagamento:
 
 1. Na barra de menus, clique em **Gerenciar** > **Faturamento e
@@ -107,8 +106,7 @@ servidores bare metal por meio do SoftLayer? É possível incluir um serviço co
 3. Configure o serviço para executar com o seu código existente, copiando as credenciais de serviço e incluindo-as em seu aplicativo.
 4. Após a atualização para o aplicativo, implemente a nova versão em sua infraestrutura do SoftLayer.
 
-É possível obter Insights e Conhecimentos cognitivos chamando APIs do Watson de seus aplicativos no SoftLayer para torná-los mais personalizados. 
-Ou então, use serviços de Dados e de Análise de dados para explorar a análise de dados de alto desempenho para
+É possível obter Insights e Conhecimentos cognitivos chamando APIs do Watson de seus aplicativos no SoftLayer para torná-los mais personalizados. Ou então, use serviços de Dados e de Análise de dados para explorar a análise de dados de alto desempenho para
 seus apps. Ou,
 escolha banco de dados como serviço no qual você pode deixar o
 gerenciamento para o

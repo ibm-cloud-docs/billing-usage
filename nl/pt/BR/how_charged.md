@@ -30,8 +30,7 @@ Tipos diferentes de encargos se aplicam, dependendo dos recursos do {{site.data.
 | Ajustado | A precificação com taxa fixa é baseada em um encargo mensal acordado que não é ajustado. | Serviços  | O Cache de Dados tem um plano fixo que é cobrado em uma taxa mensal fixa. |
 | Medido | A precificação com uso medido é baseada no número de GB/horas que são consumidos para tempos de
 execução, no número de GB/horas consumidos e no número de endereços IP e de armazenamento para contêineres. | Serviços, cálculo e contêineres | Para o serviço de Push, todo uso acima do abono mensal grátis é cobrado. |
-|  Disposto em camadas   |  Alguns planos de precificação são baseados em um modelo de precificação em camadas, de modo que seja possível obter um desconto baseado em volume de acordo com o seu uso real. O serviços podem oferecer planos de precificação simples, graduados ou de camada de bloco. | Serviços | 
-A precificação em camadas é geralmente usada para métricas de encargo que devem ter quantidades altas por mês,
+|  Disposto em camadas   |  Alguns planos de precificação são baseados em um modelo de precificação em camadas, de modo que seja possível obter um desconto baseado em volume de acordo com o seu uso real. O serviços podem oferecer planos de precificação simples, graduados ou de camada de bloco. | Serviços | A precificação em camadas é geralmente usada para métricas de encargo que devem ter quantidades altas por mês,
 como chamadas API. |
 | Reserved | A precificação reservada é baseada em um compromisso a longo prazo para um serviço, portanto, é possível obter um preço com desconto. Com um plano reservado, você obtém uma instância de serviço dedicado que é fácil configurar, implementar e entregar no ambiente público do {{site.data.keyword.Bluemix_notm}}. | Serviços | O DB2 on Cloud tem planos reservados.|
 {:caption="Tabela 1. Encargos com base em recursos" caption-side="top"}
@@ -53,10 +52,8 @@ visualizar os detalhes da cota para o plano Lite associado.
 ## Encargos para recursos de cálculo
 {: #compute}
 
-Você é cobrado pelo tempo de execução dos apps e memória usada, calculado como *GB/horas*. 
-GB/horas é o cálculo do número de instâncias do aplicativo, que é multiplicado pela memória por instância e,
-em seguida, multiplicado pelas horas de execução das instâncias. É possível customizar o número de instâncias e a quantia de memória por instância com base em suas necessidades. Também é possível incluir memória ou instâncias para escalar mais usuários. 
-O encargo final é por GB/hora: o número de suas instâncias do aplicativo, que é multiplicado pela memória por
+Você é cobrado pelo tempo de execução dos apps e memória usada, calculado como *GB/horas*. GB/horas é o cálculo do número de instâncias do aplicativo, que é multiplicado pela memória por instância e,
+em seguida, multiplicado pelas horas de execução das instâncias. É possível customizar o número de instâncias e a quantia de memória por instância com base em suas necessidades. Também é possível incluir memória ou instâncias para escalar mais usuários. O encargo final é por GB/hora: o número de suas instâncias do aplicativo, que é multiplicado pela memória por
 instância e, em seguida, multiplicado pelas horas em execução.
 
 Por exemplo, considere um tempo de execução que custe $0,07 por GB/hora em duas instâncias de 512 MB, em execução por 30 dias (720 horas). Esses  recursos devem custar $24,15 USD, incluindo um abono grátis de 375 GB/horas, com os cálculos a seguir:
@@ -77,8 +74,7 @@ Vários serviços incluem abonos grátis mensais. O uso de serviços que não es
     <dd>Você paga com base no consumo de tempo de execução e de serviço. Por exemplo, com o serviço de Push, qualquer uso acima do abono grátis mensal é cobrado.</dd>
 <dt>Encargos reservados</dt>
     <dd><p>Como o proprietário da conta de uma conta Pagamento por uso ou uma conta de Assinatura, é possível reservar uma instância de serviço, com um compromisso a longo prazo, para um preço com desconto. Por exemplo, é possível reservar a grande oferta padrão do DB2 on Cloud para 12 meses.</p>
-    <p>Alguns serviços do {{site.data.keyword.Bluemix_notm}} oferecem planos reservados. É possível solicitar um plano reservado no catálogo do {{site.data.keyword.Bluemix_notm}} clicando no tile do serviço. Em seguida, selecione o plano de serviço que atenda melhor às suas necessidades. Se um plano reservado estiver disponível, clique em <strong>Solicitar</strong> e siga os prompts para enviar sua solicitação. 
-Você recebe um e-mail que contém as informações de preços do plano reservado. Um representante de vendas do
+    <p>Alguns serviços do {{site.data.keyword.Bluemix_notm}} oferecem planos reservados. É possível solicitar um plano reservado no catálogo do {{site.data.keyword.Bluemix_notm}} clicando no tile do serviço. Em seguida, selecione o plano de serviço que atenda melhor às suas necessidades. Se um plano reservado estiver disponível, clique em <strong>Solicitar</strong> e siga os prompts para enviar sua solicitação. Você recebe um e-mail que contém as informações de preços do plano reservado. Um representante de vendas do
 {{site.data.keyword.Bluemix_notm}} também entrará em contato com você em breve para concluir a compra.</p></dd>
 <dt>Encargos em camadas</dt>
     <dd>Semelhante a encargos medidos, você paga com base em seu consumo de tempo de execução e de serviço. No
@@ -89,8 +85,7 @@ desconto em camadas com consumo maior. A precificação em camadas é oferecida 
 ### Camada simples
 {: #simple_tier}
 
-No modelo de camada simples, o preço unitário é determinado pela camada na qual a sua quantidade de uso se enquadra. 
-O preço total é a sua quantidade que é multiplicada pelo preço unitário na respectiva camada. Por exemplo:
+No modelo de camada simples, o preço unitário é determinado pela camada na qual a sua quantidade de uso se enquadra. O preço total é a sua quantidade que é multiplicada pelo preço unitário na respectiva camada. Por exemplo:
 
 | Quantidade de itens | Preço unitário para todos os itens |
 |-------------------|--------------------------|

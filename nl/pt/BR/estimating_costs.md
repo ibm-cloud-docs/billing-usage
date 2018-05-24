@@ -56,16 +56,12 @@ clique em **Precificação** na página inicial do
 2. Nas listas **Infraestrutura** ou **Plataforma**, selecione a
 categoria do recurso que você deseja precificar. Os recursos na categoria que você selecionou são mostrados e
 também é possível procurar na categoria por um recurso específico.
-3. Selecione um recurso na categoria para ver uma descrição dele. Alguns recursos possuem múltiplas opções. Por exemplo, se você selecionar **Infraestrutura** > **Cálculo** > **Servidores bare metal**, será possível escolher entre uma lista de servidores. 
+3. Selecione um recurso na categoria para ver uma descrição dele. Alguns recursos possuem múltiplas opções. Por exemplo, se você selecionar **Infraestrutura** > **Cálculo** > **Servidores bare metal**, será possível escolher entre uma lista de servidores.
 4. Selecione a quantidade do recurso a ser incluída.
 5. Clique em **Incluir na estimativa**.
-6. Continue incluindo recursos nas categorias **Infraestrutura** e **Plataforma** até que você inclua o que deseja estimar.
+6. Continue incluindo recursos nas categorias **Infraestrutura** e **Plataforma** até que você inclua o que deseja estimar. O painel **Estimativa** mostra os recursos que você incluiu, o preço de cada um e um preço total.
 
-O painel **Estimativa** mostra os recursos que você incluiu, o preço de cada um e o preço total. 
-
-Se você estiver precificando apenas os recursos da plataforma, será possível clicar em
-**Alternar para a calculadora clássica** para ver uma estimativa em uma moeda diferente de
-USD. A calculadora clássica não inclui recursos de infraestrutura.
+Se você está precificando somente os recursos de plataforma, para ver uma estimativa em uma moeda diferente de USD, é possível clicar em **Procurando a calculadora clássica?**. A calculadora clássica não inclui recursos de infraestrutura.
 {: tip}
 
 ### Usando a calculadora clássica para recursos de plataforma
@@ -83,8 +79,7 @@ Para usar a calculadora, digite seu uso mensal projetado dos recursos listados, 
 ## Calculando seus custos manualmente
 {: #manual}
 
-Você pode desejar estimar seus custos do {{site.data.keyword.Bluemix_notm}} para entender melhor como os custos do {{site.data.keyword.Bluemix_notm}} são calculados. É possível calcular o preço total do uso do {{site.data.keyword.Bluemix_notm}} para construir e hospedar seu app considerando os preços do tempo de execução e os serviços que ele usa. 
-Como os preços de tempos de execução e de serviços às vezes mudam, deve-se consultar as informações
+Você pode desejar estimar seus custos do {{site.data.keyword.Bluemix_notm}} para entender melhor como os custos do {{site.data.keyword.Bluemix_notm}} são calculados. É possível calcular o preço total do uso do {{site.data.keyword.Bluemix_notm}} para construir e hospedar seu app considerando os preços do tempo de execução e os serviços que ele usa. Como os preços de tempos de execução e de serviços às vezes mudam, deve-se consultar as informações
 mais recentes sobre a folha de precificação do {{site.data.keyword.Bluemix_notm}} ao
 calcular o preço total.
 

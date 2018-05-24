@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -26,8 +26,7 @@ execução grátis e pague somente pelo que você usar após isso. Não há limi
 ## O que acontece quando a instância do plano Lite atinge a minha cota mensal?
 {: #monthlyquota}
 
-Atingir qualquer limite de cota para instâncias do plano Lite suspende o serviço para esse mês. Limites de cota são por organização, não por instância. 
-Novas instâncias que são criadas na mesma organização refletem qualquer uso de instâncias anteriores. Os
+Atingir qualquer limite de cota para instâncias do plano Lite suspende o serviço para esse mês. Limites de cota são por organização, não por instância. Novas instâncias que são criadas na mesma organização refletem qualquer uso de instâncias anteriores. Os
 limites de cota são reconfigurados no primeiro dia de cada mês.
 
 ## Por que meu cartão de crédito não passará?
@@ -37,7 +36,7 @@ A proteção de sua identidade é uma prioridade para nós, portanto, levamos a 
 crédito a sério. A maneira mais simples de resolver seu problema é nos contatar usando um dos métodos a seguir. Vamos fazer algumas perguntas para verificar sua identidade para, depois, levá-lo de volta ao seu caminho para a produtividade. 
 
    * Ligue: 1-866-325-0045 (selecione a opção 3.)
-   * Envie-nos um e-mail: [accounting@softlayer.com](accounting@softlayer.com) 
+   * Envie-nos um e-mail: accounting@softlayer.com
    
 ## Como atualizar meu cartão de crédito?
 {: #updatecard}

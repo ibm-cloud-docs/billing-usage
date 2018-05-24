@@ -64,8 +64,7 @@ de encargos.</dd>
 
 <dt>2 GB por mês de {{site.data.keyword.datacshort}}</dt>
 <dd>O plano de 50 MB que é fornecido pelo serviço
-{{site.data.keyword.datacshort}} é livre de encargos. Porém, o plano livre não cobriria o seu uso projetado de 2 GB por mês. 
-Os três planos pagos para o {{site.data.keyword.datacshort}} custam uma quantia configurada para uma
+{{site.data.keyword.datacshort}} é livre de encargos. Porém, o plano livre não cobriria o seu uso projetado de 2 GB por mês. Os três planos pagos para o {{site.data.keyword.datacshort}} custam uma quantia configurada para uma
 quantia de espaço específica, independentemente de quanto espaço você utiliza. Portanto, você deseja escolher o plano mínimo que atenda ao seu uso projetado, que é o plano padrão de 5 GB. O custo total é de $155 por mês.</dd>
 
 <dt>150 GB por mês no banco de dados NoSQL</dt>

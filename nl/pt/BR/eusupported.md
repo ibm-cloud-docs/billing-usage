@@ -41,8 +41,7 @@ na segurança ou na privacidade de seus dados.
 
 A seleção dessa opção também permite que os serviços suportados pela UE com controles de acesso rígidos
 assegurem que os dados que você armazena e processa sejam restritos e controlados pela equipe de suporte
-IBM na região da UE. Se os especialistas do {{site.data.keyword.Bluemix_notm}} fora da região europeia requererem acesso a esses dados para suportar ou operar a nuvem, um membro da equipe de suporte da UE revisará a solicitação de acesso. 
-O membro da equipe de suporte da UE fornece o acesso necessário ao especialista de nuvem global somente
+IBM na região da UE. Se os especialistas do {{site.data.keyword.Bluemix_notm}} fora da região europeia requererem acesso a esses dados para suportar ou operar a nuvem, um membro da equipe de suporte da UE revisará a solicitação de acesso. O membro da equipe de suporte da UE fornece o acesso necessário ao especialista de nuvem global somente
 para o sistema solicitado e somente por um prazo específico após o qual o acesso é revogado. Durante esse processo, seus dados são sempre protegidos.
 
 Depois de configurar a opção Suportado pela UE para sua conta, é possível criar serviços no catálogo do {{site.data.keyword.Bluemix_notm}} que são *Suportados pela UE*. Ao criar a instância de serviço, selecione uma região europeia para criar o serviço como *Suportado pela UE*.
