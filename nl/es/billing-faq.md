@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -31,7 +31,7 @@ Si se alcanza cualquier límite de cuota para instancias del plan Lite, se suspe
 Proteger su identidad es una prioridad para nosotros, por ello nos tomamos la verificación de las tarjetas de crédito seriamente. La forma más sencilla de resolver su problema es ponerse en contacto con nosotros utilizando uno de los siguientes métodos. Le haremos unas cuantas preguntas para verificar su identidad para que pueda volver a seguir trabajando. 
 
    * Llámenos: 1-866-325-0045 (Seleccione la opción 3).
-   * Envíenos un correo electrónico: [accounting@softlayer.com](accounting@softlayer.com) 
+   * Envíenos un correo electrónico: accounting@softlayer.com
    
 ## ¿Cómo puedo actualizar mi tarjeta de crédito?
 {: #updatecard}

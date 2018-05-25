@@ -29,7 +29,7 @@ Puede utilizar los métodos siguientes para determinar los costes:
 ## Uso de la calculadora de precios
 {: #pricing-calculator}
 
-Puede utilizar la calculadora de precios para estimar el coste de los recursos de plataforma e infraestructura antes de realizar una compra. 
+Puede utilizar la calculadora de precios para estimar el coste de los recursos de plataforma e infraestructura antes de realizar una compra.
 La calculadora de precios proporciona las siguientes funciones:
   * Estimaciones de costes que se proporcionan en USD.
   * Estimaciones para recursos de infraestructura que están disponibles en las categorías **Cálculo** y **Contenedores**.
@@ -40,14 +40,12 @@ La calculadora de precios proporciona las siguientes funciones:
   * Desde la [página Tarifas![Icono de enlace externo](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window}, pulse **Probar la calculadora** desde la sección Explorar nuestras soluciones.
   * Si no ha iniciado sesión en {{site.data.keyword.Bluemix_notm}}, pulse **Tarifas** desde la [ página de inicio de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net/).
 2. En las listas **Infraestructura** o **Plataforma**, seleccione la categoría del recurso para el que desea establecer un precio. Se muestran los recursos de la categoría que ha seleccionado, y también puede buscar la categoría de un recurso específico.
-3. Seleccione un recurso de la categoría para ver una descripción del mismo. Algunos recursos tienen varias opciones. Por ejemplo, si selecciona **Infraestructura** > **Calcular** > **Servidores nativos**, podrá elegir de una lista de servidores. 
+3. Seleccione un recurso de la categoría para ver una descripción del mismo. Algunos recursos tienen varias opciones. Por ejemplo, si selecciona **Infraestructura** > **Calcular** > **Servidores nativos**, podrá elegir de una lista de servidores.
 4. Seleccione la cantidad del recurso que desea añadir.
 5. Pulse **Añadir a la estimación**.
-6. Continúe añadiendo recursos de las categorías **Infraestructura** y **Plataforma** hasta que añada lo que desee estimar.
+6. Continúe añadiendo recursos de las categorías **Infraestructura** y **Plataforma** hasta que añada lo que desee estimar. El panel **Estimación** muestra los recursos que ha añadido, el precio de cada uno y un precio total.
 
-El panel **Estimación** muestra los recursos que ha añadido, el precio de cada uno y un precio total. 
-
-Si solo está estableciendo el precio de los recursos de plataforma, puede pulsar **Cambiar a la calculadora clásica** para ver una estimación en una moneda que no sea USD. La calculadora clásica no incluye recursos de infraestructura.
+Si solo está estableciendo el precio de los recursos de plataforma, puede pulsar **¿Está buscando una calculadora clásica?** para ver una estimación en una moneda que no sea USD. La calculadora clásica no incluye recursos de infraestructura.
 {: tip}
 
 ### Uso de la calculadora clásica para recursos de plataforma
