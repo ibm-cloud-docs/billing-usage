@@ -79,7 +79,7 @@ To qualify for a pricing discount, you must commit to a combined spending and te
 
 Yes, you must spend a minimum of $100.00 USD each month.
 
-### What am I charged if I go over the total amount of my spending commitment?
+### What am I charged if I go over the total amount of my subscription?
 {: #subs-overage}
 
 You're charged the non-discounted rate for any usage that exceeds your total subscription amount.
@@ -87,7 +87,7 @@ You're charged the non-discounted rate for any usage that exceeds your total sub
 ### Can I pay the total spending commitment up-front or quarterly?
 {: #subs-pay-schedule}
 
-Currently, you can make monthly payments to your Subscription account commitment. If you'd like to pay up-front or quarterly, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg).
+Currently, you can make monthly payments to your Subscription account. If you'd like to pay up-front or quarterly, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg).
 
 ### Can I spend more or less than my total spending commitment each month?  
 {: #subs-spending}
@@ -97,7 +97,7 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 ### Can I cancel my Subscription account before the end of my term commitment?  
 {: #subs-cancel-early}
 
-Yes, you can cancel your account before your term expires, but note that the remainder of your total spending commitment is forfeited. 
+Yes, you can cancel your account before your term expires, but note that the remainder of your total subscription amount is forfeited. 
 
 ### What happens if I reach my spending commitment before my term ends?  
 {: #subs-spend-before-term-end}
