@@ -89,7 +89,7 @@ You're charged the non-discounted rate for any usage that exceeds your total sub
 
 Currently, you can make monthly payments to your Subscription account. If you'd like to pay up-front or quarterly, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg).
 
-### Can I spend more or less than my total spending commitment each month?  
+### Can I spend more or less than my monthly commitment?  
 {: #subs-spending}
 
 Yes, what you spend monthly is up to you! You can spend any amount of the total commitment each month. 
