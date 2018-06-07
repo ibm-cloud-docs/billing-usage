@@ -35,7 +35,7 @@ lastupdated: "2018-04-12"
 |{{site.data.keyword.datacshort}} - Starter |	1 GB 的快取空間及一個抄本|	$55.00 USD/實例|
 |{{site.data.keyword.datacshort}} - Standard |	5 GB 的快取空間及一個抄本 |	$155.00 USD/實例|
 |{{site.data.keyword.datacshort}} - Premium |	25 GB 的快取空間及一個抄本|	$505.00 USD/實例|
-|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}}|	2 GB 的可用資料儲存空間<br/>每個月有 50,000 次輕量型 API 呼叫免費<br/>每個月有 10,000 次重量型 API 呼叫免費| $1.00 USD/GB<br/>$0.03 USD/1000 次輕量型 API 呼叫<br/>$0.15 USD/1000 次重量型 API 呼叫|
+|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}}|	2 GB 的可用資料儲存空間<br/>每個月有 50,000 次輕量型 API 呼叫免費<br/>每個月有 10,000 次重量型 API 呼叫免費|$1.00 USD/GB<br/>$0.03 USD/1000 次輕量型 API 呼叫<br/>$0.15 USD/1000 次重量型 API 呼叫|
 {:caption="表 1. 資源的定價" caption-side="top"}
 
 ## 計算應用程式價格
