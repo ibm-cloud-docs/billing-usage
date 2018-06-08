@@ -35,7 +35,7 @@ lastupdated: "2018-04-12"
 |{{site.data.keyword.datacshort}} - 入门模板|	1 GB 高速缓存空间和副本|	55.00 美元/实例|
 |{{site.data.keyword.datacshort}} - 标准|	5 GB 高速缓存空间和副本|	155.00 美元/实例|
 |{{site.data.keyword.datacshort}} - 高端|	25 GB 高速缓存空间和副本|	505.00 美元/实例|
-|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}}|	2 GB 免费数据存储<br/>每月 50,000 个免费稀少 API 调用<br/>每月 10,000 个免费频繁 API 调用| 1.00 美元/GB<br/>0.03 美元/1000 个稀少 API 调用<br/>0.15 美元/1000 个频繁 API 调用|
+|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}}|	2 GB 免费数据存储<br/>每月 50,000 个免费稀少 API 调用<br/>每月 10,000 个免费频繁 API 调用|1.00 美元/GB<br/>0.03 美元/1000 个稀少 API 调用<br/>0.15 美元/1000 个频繁 API 调用|
 {:caption="表 1. 资源的定价" caption-side="top"}
 
 ## 计算应用程序价格
