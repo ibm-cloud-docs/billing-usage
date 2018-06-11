@@ -45,7 +45,7 @@ La calculatrice de tarification fournit les fonctions suivantes :
 3. Sélectionnez une ressource dans la catégorie pour voir sa description. Certaines ressources comportent plusieurs options. Par exemple, si vous sélectionnez **Infrastructure** > **Calcul** > **Serveurs bare metal**, vous pouvez effectuer une sélection dans une liste de serveurs.
 4. Sélectionnez la quantité de la ressource à ajouter.
 5. Cliquez sur **Add to estimate**.
-6. Continuez d'ajouter des ressources à partir des catégories **Infrastructure** et **Plateforme** jusqu'à ce que vous ayez ajouté ce que vous souhaitez estimer. Le panneau **Estimation** présente les ressources que vous avez ajoutées, le prix de chacune de ces ressources, et un prix total. 
+6. Continuez d'ajouter des ressources à partir des catégories **Infrastructure** et **Plateforme** jusqu'à ce que vous ayez ajouté ce que vous souhaitez estimer. Le panneau **Estimation** présente les ressources que vous avez ajoutées, le prix de chacune de ces ressources, et un prix total.
 
 Si vous calculez la tarification des ressources PaaS uniquement, pour afficher une estimation dans une devise autre que le dollar américain, vous pouvez cliquer sur l'option de **recherche de la calculatrice classique**. La calculatrice classique n'inclut pas les ressources IaaS.
 {: tip}
