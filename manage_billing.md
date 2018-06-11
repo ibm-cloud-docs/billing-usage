@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,7 +27,7 @@ The billing and usage options that are displayed in the {{site.data.keyword.Blue
 ## Making a payment
 {: #makepayment}
 
-You can make a one-off payment at any time. The payment can be for the full balance or a partial amount. The details that you enter for the payment are not recorded. Complete the following steps to make a one-off payment:
+You can make a one-off payment at any time. The payment can be for the full balance or a partial amount. The details that you enter for the payment aren't recorded. Complete the following steps to make a one-off payment:
 
 1. From the menu bar, click **Manage** > **Billing and Usage** > **Make a Payment**.  
 2. In the **Payment Amount** field, enter the amount that you want to pay.
