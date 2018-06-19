@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -29,7 +29,7 @@ Si usted es el propietario de una cuenta, un usuario maestro o ha sido designado
 
 Al seleccionar la opción Soporte en la UE, se limita el soporte de Nivel 1 y Nivel 2 a miembros de equipos de soporte ubicados en la región de la UE. Sin embargo, los equipos de {{site.data.keyword.Bluemix_notm}} de fuera de la región de la UE pueden realizar actividades de proceso. Se puede contactar a los equipos globales cuando los equipos de soporte de nivel 1 y nivel 2 en la UE no resuelvan los problemas. Se contacta a los equipos globales siempre bajo las instrucciones del equipo de soporte de la UE y solo cuando la seguridad o la privacidad de los datos no se vean afectadas.
 
-Al seleccionar esta opción, también se permite que los servicios con Soporte en la UE con controles de acceso se aseguraren de que los datos que se almacenan y procesan están restringidos y controlados por el equipo de soporte de IBM en la región de la UE. Si algún experto de {{site.data.keyword.Bluemix_notm}} de fuera de la región europea necesita acceder a estos datos para dar soporte o trabajar en la nube, un miembro del equipo de soporte de la UE revisa la solicitud de acceso. El miembro del equipo de soporte de la UE proporciona el acceso necesario al experto de nube global solo al sistema solicitado, y solo durante un periodo de tiempo específico, tras el que se revoca el acceso. Durante este proceso, los datos siempre están protegidos.
+Al seleccionar esta opción, se permite que los servicios con Soporte en la UE con controles de acceso se aseguraren de que los datos que se almacenan y procesan están restringidos y controlados por el equipo de soporte de IBM en la región de la UE. Si algún experto de {{site.data.keyword.Bluemix_notm}} de fuera de la región europea necesita acceder a estos datos para dar soporte o trabajar en la nube, un miembro del equipo de soporte de la UE revisa la solicitud de acceso. El miembro del equipo de soporte de la UE proporciona el acceso necesario al experto de nube global solo al sistema solicitado, y solo durante un periodo de tiempo específico, tras el que se revoca el acceso. Durante este proceso, los datos siempre están protegidos.
 
 Después de establecer la opción Soporte en la UE para su cuenta, puede crear servicios en el catálogo de {{site.data.keyword.Bluemix_notm}} que tengan *Soporte en la UE*. Cuando cree la instancia de servicio, seleccione una región europea para crear el servicio como *Soporte en la UE*.
 {: tip}
