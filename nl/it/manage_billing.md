@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,7 +27,7 @@ Le opzioni di fatturazione e di utilizzo visualizzate nella console {{site.data.
 ## Effettuazione di un pagamento
 {: #makepayment}
 
-Puoi effettuare un pagamento unico in qualsiasi momento. Il pagamento può essere relativo all'intero saldo o a un importo parziale. I dettagli inseriti per il pagamento non vengono registrati. Completa la seguente procedura per effettuare un pagamento unico:
+Puoi effettuare un pagamento unico in qualsiasi momento. Il pagamento può essere relativo all'intero saldo o a un importo parziale. I dettagli che immetti per il pagamento non vengono registrati. Completa la seguente procedura per effettuare un pagamento unico:
 
 1. Dalla barra dei menu, fai clic su **Gestisci** > **Fatturazione e utilizzo** > **Effettua un pagamento**.  
 2. Nel campo **Importo del pagamento**, immetti l'importo che vuoi pagare.

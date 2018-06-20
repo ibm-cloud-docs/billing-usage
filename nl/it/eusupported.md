@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,13 +27,13 @@ Se sei un proprietario di account, un utente master o sei stato designato da un 
 4. Seleziona **Comprendo e accetto questi termini**.
 5. Fai clic su **Attiva**.
 
-La selezione dell'opzione Supportato UE limita il supporto di Livello 1 e Livello 2 che verrà fornito dai membri del team di supporto nella regione UE. Tuttavia, i team di {{site.data.keyword.Bluemix_notm}} ubicati al di fuori della regione UE potrebbero svolgere attività di elaborazione. I team globali possono essere contattati se i problemi non vengono risolti dal team di supporto di Livello 1 o Livello 2 nell'UE. I team globali sono sempre contattati dietro istruzioni del team di supporto dell'UE e solo quando non vi è alcun impatto sulla sicurezza o sulla privacy dei dati.
+La selezione dell'opzione Supportato UE limita il supporto di Livello 1 e Livello 2 che verrà fornito dai membri del team di supporto nella regione UE. Tuttavia, i team di {{site.data.keyword.Bluemix_notm}} ubicati al di fuori della regione UE potrebbero svolgere attività di elaborazione. I team globali possono essere contattati se i problemi non vengono risolti dal team di supporto di Livello 1 o Livello 2 nell'UE. I team globali sono sempre contattati dietro istruzione del team di supporto dell'UE e solo quando non vi è alcun impatto sulla sicurezza o sulla privacy dei dati.
 
-La selezione di questa opzione abilita inoltre i servizi supportati dall'UE con rigorosi controlli di accesso per garantire che i dati che archivi ed elabori siano limitati e controllati dal team di supporto IBM nella regione UE. Se gli esperti {{site.data.keyword.Bluemix_notm}} al di fuori della regione europea richiedono l'accesso a questi dati per supportare o gestire il cloud, un membro del team di supporto dell'UE riesamina la richiesta di accesso. Il team di supporto dell'UE fornisce l'accesso necessario all'esperto cloud globale solo al sistema richiesto e solo per un periodo di tempo specifico dopo il quale l'accesso verrà revocato. Durante questo processo, i tuoi dati sono sempre protetti.
+Selezionando questa opzione, i servizi supportati dall'UE vengono abilitati con rigorosi controlli di accesso per garantire che i dati che archivi ed elabori siano limitati al, e controllati dal, team di supporto IBM nella regione UE. Se gli esperti {{site.data.keyword.Bluemix_notm}} che si trovano al di fuori della regione europea richiedono l'accesso a questi dati per supportare o gestire il cloud, un membro del team di supporto dell'UE riesamina la richiesta di accesso. Il team di supporto dell'UE fornisce l'accesso necessario all'esperto cloud globale solo al sistema richiesto e solo per un periodo di tempo specifico dopo il quale l'accesso verrà revocato. Durante questo processo, i tuoi dati sono sempre protetti.
 
 Dopo aver impostato l'opzione Supportato UE per il tuo account, puoi creare i servizi nel catalogo {{site.data.keyword.Bluemix_notm}} *Supportati UE*. Quando crei l'istanza del servizio, seleziona una regione europea per creare il servizio come *Supportato UE*.
 {: tip}
 
 Per ulteriori informazioni sull'impostazione dell'opzione Supportato UE quando crei i ticket di supporto e per un elenco di servizi supportati dall'UE, vedi [Richiesta di supporto per le risorse nell'Unione Europea](/docs/get-support/howtogetsupport.html#eusupported).
 
-Se utilizzi l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} e non hai un account SoftLayer collegato, puoi impostare l'opzione Supportato UE nella finestra **Profilo account** del portale clienti. Per ulteriori informazioni, vedi [Impostazione dell'opzione Supportato UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+Se stai utilizzando l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} e non hai un account SoftLayer collegato, puoi impostare l'opzione Supportato UE nella finestra **Profilo account** del portale clienti. Per ulteriori informazioni, vedi [Impostazione dell'opzione Supportato UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
