@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez effectuer un paiement ponctuel à tout moment. Le montant du paiemen
 1. Dans la barre de menus, cliquez sur **Gérer** > **Facturation et utilisation** > **Effectuer un paiement**.  
 2. Dans la zone **Montant du règlement**, entrez la somme à régler.
 3. Sélectionnez votre méthode de paiement :
- * Paiement avec une carte de crédit. Entrez les détails de votre carte ainsi que l'adresse de facturation de la carte. Ensuite, cliquez sur **Make Credit Card Payment**.
+ * Paiement avec une carte de crédit. Entrez les détails de votre carte ainsi que l'adresse de facturation de la carte. Cliquez ensuite sur **Effectuer un règlement par carte de crédit**.
  * Paiement avec PayPal. Entrez vos informations lorsque vous êtes invité à procéder au paiement.
 
 Résolvez tout problème signalé qui est lié au paiement. Le solde du compte est mis à jour une fois le paiement accepté. Vous pouvez prendre contact avec l'équipe de support en cliquant sur **Support** > **Ajouter un ticket**.
