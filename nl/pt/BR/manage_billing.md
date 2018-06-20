@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -29,7 +29,7 @@ podem ser diferentes quando você tem uma conta Lite ou quando você não tem um
 {: #makepayment}
 
 É possível fazer um pagamento único a qualquer momento. O pagamento pode ser pelo saldo total ou por uma
-quantia parcial. Os detalhes que você insere para o pagamento não serão registrados. Conclua as etapas a
+quantia parcial. Os detalhes inseridos para o pagamento não são registrados. Conclua as etapas a
 seguir para fazer um pagamento único:
 
 1. Na barra de menus, clique em **Gerenciar** > **Faturamento e
