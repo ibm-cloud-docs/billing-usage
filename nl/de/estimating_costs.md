@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -45,6 +45,8 @@ Der Preisrechner stellt die folgenden Funktionen bereit:
 4. Wählen Sie die Menge der Ressource aus, die hinzugefügt werden soll.
 5. Klicken Sie auf **Zur Schätzung hinzufügen**.
 6. Fügen Sie weitere Ressourcen aus den Kategorien **Infrastruktur** und **Plattform** hinzu, bis Sie alles hinzugefügt haben, was Sie schätzen wollen. In der Anzeige **Schätzung** werden die hinzugefügten Ressourcen, der Preis für die jeweiligen Ressourcen und ein Gesamtpreis angezeigt.
+7. Um optional eine PDF mit den Informationen in der Anzeige **Schätzung** zu erstellen, nachdem Sie Ihre Liste von Ressourcen kompiliert haben, klicken Sie auf **PDF herunterladen**. Sie können beispielsweise eine PDF erstellen, um vor dem Kauf zu überprüfen, welche Ressourcen Sie berechnen, oder um beim Kauf von Ressourcen einen Leitfaden zur Hand zu haben. 
+
 
 Wenn Sie nur Plattformressourcen berechnen, können Sie auf **Zum klassischen Rechner wechseln** klicken, um eine Schätzung in einer anderen Währung als USD anzuzeigen. Der klassische Rechner enthält keine Infrastrukturressourcen.
 {: tip}
