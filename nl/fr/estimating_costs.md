@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -22,17 +22,14 @@ Vous pouvez utiliser différentes méthodes pour estimer le coût de l'utilisati
 
 Vous pouvez utiliser les méthodes suivantes pour déterminer vos coûts :
 * Utilisez la [calculatrice de tarification![Icône de tarification](../icons/launch-glyph.svg)](https://console.bluemix.net/pricing/){: new_window} afin d'estimer le coût total des ressources PaaS et IaaS que vous souhaitez utiliser.
-* Utilisez les estimateurs de coût sur la page {{site.data.keyword.pricing_sheet}} {{site.data.keyword.Bluemix_notm}}
-pour voir une estimation approximative du coût en fonction de la taille de votre application.
-* Utilisez la calculatrice de coût sur la page Tarification pour voir les prix précis des applications en fonction des données d'utilisation des
-contextes d'exécution et des services que vous avez entrées.
+* Utilisez les estimateurs de coût sur la page {{site.data.keyword.pricing_sheet}} {{site.data.keyword.Bluemix_notm}} pour voir une estimation approximative du coût en fonction de la taille de votre application.
+* Utilisez la calculatrice de coût sur la page Tarification pour voir les prix précis des applications en fonction des données d'utilisation des contextes d'exécution et des services que vous avez entrées.
 * Calculez votre coût manuellement.
 
 ## Utilisation de la calculatrice de tarification
 {: #pricing-calculator}
 
-Vous pouvez utiliser la calculatrice de tarification pour estimer le coût des ressources PaaS et IaaS avant de réaliser un achat.
-La calculatrice de tarification fournit les fonctions suivantes :
+Vous pouvez utiliser la calculatrice de tarification pour estimer le coût des ressources PaaS et IaaS avant de réaliser un achat. La calculatrice de tarification fournit les fonctions suivantes :
   * Les estimations de coûts qui sont actuellement fournies en devise américaine.
   * Les estimations des ressources IaaS qui sont actuellement disponibles pour les catégories **Calcul** et **Conteneurs**.
   * Les estimations de coûts des ressources qui n'incluent pas de remises.
@@ -46,6 +43,8 @@ La calculatrice de tarification fournit les fonctions suivantes :
 4. Sélectionnez la quantité de la ressource à ajouter.
 5. Cliquez sur **Add to estimate**.
 6. Continuez d'ajouter des ressources à partir des catégories **Infrastructure** et **Plateforme** jusqu'à ce que vous ayez ajouté ce que vous souhaitez estimer. Le panneau **Estimation** présente les ressources que vous avez ajoutées, le prix de chacune de ces ressources, et un prix total.
+7. Pour créer un fichier PDF répertoriant les informations du panneau **Estimation** une fois votre liste de ressources compilée, cliquez sur **Téléchargement du PDF**. Vous pouvez, par exemple, créer un fichier PDF pour consulter les ressources que vous tarifez avant l'achat ou pour vous en servir comme guide lors de l'achat de ressources.
+
 
 Si vous calculez la tarification des ressources PaaS uniquement, pour afficher une estimation dans une devise autre que le dollar américain, vous pouvez cliquer sur l'option de **recherche de la calculatrice classique**. La calculatrice classique n'inclut pas les ressources IaaS.
 {: tip}
@@ -58,16 +57,12 @@ Pour calculer les coûts de vos ressources PaaS dans une devise autre que le dol
 1. Accédez à la page {{site.data.keyword.pricing_sheet}} {{site.data.keyword.Bluemix_notm}}.
 2. Sélectionnez l'une des options IaaS pour prendre en charge la section Toutes vos charges de travail.
 
-Pour utiliser la calculatrice, entrez votre utilisation mensuelle prévue pour les ressources répertoriées, par exemple le nombre d'instances ou de
-notifications push. La calculatrice affiche immédiatement le prix pour les données entrées. Vous pouvez aussi
-paramétrer la calculatrice pour qu'elle affiche les coûts annuels au lieu des coûts mensuels.
+Pour utiliser la calculatrice, entrez votre utilisation mensuelle prévue pour les ressources répertoriées, par exemple le nombre d'instances ou de notifications push. La calculatrice affiche immédiatement le prix pour les données entrées. Vous pouvez aussi paramétrer la calculatrice pour qu'elle affiche les coûts annuels au lieu des coûts mensuels.
 
 ## Calcul manuel de vos coûts
 {: #manual}
 
-Vous pouvez décider d'estimer le coût de {{site.data.keyword.Bluemix_notm}} vous-même pour mieux comprendre comment les coûts relatifs à {{site.data.keyword.Bluemix_notm}} sont calculés. Vous pouvez calculer le prix total de l'utilisation de {{site.data.keyword.Bluemix_notm}} pour la construction
-et l'hébergement de votre application, en tenant compte des prix du contexte d'exécution et des services qu'il utilise. Les prix des contextes d'exécution et des
-services peuvent changer ; par conséquent, vous devez vous référer aux informations les plus récentes sur la fiche de prix {{site.data.keyword.Bluemix_notm}} lorsque vous calculez le prix total.
+Vous pouvez décider d'estimer le coût de {{site.data.keyword.Bluemix_notm}} vous-même pour mieux comprendre comment les coûts relatifs à {{site.data.keyword.Bluemix_notm}} sont calculés. Vous pouvez calculer le prix total de l'utilisation de {{site.data.keyword.Bluemix_notm}} pour la construction et l'hébergement de votre application, en tenant compte des prix du contexte d'exécution et des services qu'il utilise. Les prix des contextes d'exécution et des services peuvent changer ; par conséquent, vous devez vous référer aux informations les plus récentes sur la fiche de prix {{site.data.keyword.Bluemix_notm}} lorsque vous calculez le prix total.
 
 ## Devises de facturation prises en charge
 
