@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="billing-usage" audience="platform" href="/docs/billing-usage/how_charged.html"}
+{: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage/how_charged.html"}
 Gerenciando o faturamento e o uso
 
     {: .navgroup id="howto"}

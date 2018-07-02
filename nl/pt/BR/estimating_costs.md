@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -60,6 +60,8 @@ também é possível procurar na categoria por um recurso específico.
 4. Selecione a quantidade do recurso a ser incluída.
 5. Clique em **Incluir na estimativa**.
 6. Continue incluindo recursos nas categorias **Infraestrutura** e **Plataforma** até que você inclua o que deseja estimar. O painel **Estimativa** mostra os recursos que você incluiu, o preço de cada um e um preço total.
+7. Como opção, para criar um PDF das informações no painel **Estimar** quando você tiver concluído a compilação de sua lista de recursos, clique em **Fazer download do PDF**. Talvez você deseje criar um PDF, por exemplo, para revisar os recursos que está precificando antes de comprar ou usar como um guia quando estiver comprando recursos.
+
 
 Se você está precificando somente os recursos de plataforma, para ver uma estimativa em uma moeda diferente de USD, é possível clicar em **Procurando a calculadora clássica?**. A calculadora clássica não inclui recursos de infraestrutura.
 {: tip}
