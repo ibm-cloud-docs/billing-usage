@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -45,6 +45,8 @@ Il calcolatore dei prezzi fornisce le seguenti funzioni:
 4. Seleziona la quantità di risorse da aggiungere.
 5. Fai clic su **Aggiungi per stimare**.
 6. Continua ad aggiungere le risorse dalle categorie **Infrastruttura** e **Piattaforma** finché non hai aggiunto quello che vuoi stimare. Il pannello **Stima** mostra le risorse che hai aggiunto, il prezzo di ognuna e un prezzo totale.
+7. Facoltativamente, per creare un PDF delle informazioni nel pannello **Stima** dopo aver terminato di compilare il tuo elenco di risorse, fai clic su **Scarica PDF**. Potresti voler creare un PDF, ad esempio, per rivedere le risorse che stai stimando prima di effettuare l'acquisto o per utilizzarlo come guida quando acquisti le tue risorse.
+
 
 Se stai stimando solo le risorse della piattaforma, per visualizzare una stima in una valuta diversa dai dollari statunitensi, puoi fare clic su **Ricerchi il calcolatore classico?**. Il calcolatore classico non include le risorse dell'infrastruttura.
 {: tip}
