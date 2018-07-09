@@ -6,9 +6,9 @@
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    請求
+    請求処理
         how_charged.md
-        ../account/linking_accounts.md
+        linking_accounts.md
         feature-codes.md
         eusupported.md
         estimating_costs.md
