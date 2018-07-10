@@ -54,7 +54,7 @@ El precio de la app se puede calcular de la forma siguiente:
 <dd>Las políticas de {{site.data.keyword.autoscaling}} son gratuitas.</dd>
 
 <dt>2 GB al mes de {{site.data.keyword.datacshort}}</dt>
-<dd>El plan de 50 MB proporcionado por el servicio de {{site.data.keyword.datacshort}} es gratuito. Sin embargo, el plan gratuito no cubriría su uso proyectado de 2 GB al mes. Los tres planes de pago para {{site.data.keyword.datacshort}} cuestan una cantidad fija para una cantidad de espacio específica, independientemente de cuánto espacio utilice. Por lo tanto, le interesa elegir el plan mínimo que satisfaga su uso proyectado, que es el plan estándar de 5 GB. El coste total es de 155 dólares al mes.</dd>
+<dd>El plan de 50 MB proporcionado por el servicio {{site.data.keyword.datacshort}} es gratuito. Sin embargo, el plan gratuito no cubriría su uso proyectado de 2 GB al mes. Los tres planes de pago para {{site.data.keyword.datacshort}} cuestan una cantidad fija para una cantidad de espacio específica, independientemente de cuánto espacio utilice. Por lo tanto, le interesa elegir el plan mínimo que satisfaga su uso proyectado, que es el plan estándar de 5 GB. El coste total es de 155 dólares al mes.</dd>
 
 <dt>Una base de datos NoSQL de 150 GB al mes</dt>
 <dd>Los cargos de servicio de Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} se basan en el almacenamiento de datos y en la posibilidad de acceder a dichos datos mediante diferentes métodos de API. Los mandatos <strong>PUT</strong> y <strong>POST</strong> se consideran llamadas de API pesadas, pero
