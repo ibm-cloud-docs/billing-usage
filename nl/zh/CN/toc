@@ -2,13 +2,13 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage/how_charged.html"}
-管理记帐和使用情况
+管理计费和使用情况
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     计费
         how_charged.md
-        ../account/linking_accounts.md
+        linking_accounts.md
         feature-codes.md
         eusupported.md
         estimating_costs.md
