@@ -41,7 +41,7 @@ Protecting your identity is a priority for us. Therefore, we take credit card ve
 
 In the console, go to the **Manage > Billing and Usage > Billing** page, and click **Deactivate Account**.
 
-## How do I delete my account?
+### How do I delete my account?
 {: #deleteaccount}
 
 You must contact IBM Cloud Support to open a support ticket and request that your account be deleted. If you have data that is associated with your old account that you want to save and move to a new account, include this information in your email.
