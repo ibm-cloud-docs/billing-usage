@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -40,6 +40,11 @@ lastupdated: "2018-06-11"
 {: #cancelmyaccount}
 
 コンソールで、**「管理」>「請求および使用量」>「請求処理」**ページに移動し、**「アカウントの非アクティブ化」**をクリックします。
+
+## アカウントを削除するには、どのようにすればよいですか?
+{: #deleteaccount}
+
+IBM Cloud サポートに連絡してサポート・チケットをオープンし、アカウントの削除を依頼する必要があります。古いアカウントに関連付けられているデータで、保存して新規アカウントに移行したいものがあれば、その情報を E メールに記載してください。
 
 ### サポートを依頼するには、どのようにすればよいですか
 {: #contactsupport}
@@ -87,12 +92,12 @@ lastupdated: "2018-06-11"
 ### 確約した支出総額を前払いするか、四半期ごとに支払うことは可能ですか?
 {: #subs-pay-schedule}
 
-現在のところ、サブスクリプション・アカウントに対しては月ごとに支払いを行うことができます。前払いまたは毎四半期の支払いを希望する場合は、[{{site.data.keyword.Bluemix_notm}} 営業担当](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg) にお問い合わせください。
+現在のところ、サブスクリプション・アカウントに対しては月ごとに支払いを行うことができます。 前払いまたは毎四半期の支払いを希望する場合は、[{{site.data.keyword.Bluemix_notm}} 営業担当](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg) にお問い合わせください。
 
 ### 支出額が月当たりの確約より多くなったり少なくなったりしてもかまいませんか?  
 {: #subs-spending}
 
-はい。月当たりの支出額は自由です。月ごとに、確約した総額の任意の金額を支払うことができます。 
+はい。月当たりの支出額は自由です。 月ごとに、確約した総額の任意の金額を支払うことができます。 
 
 ### 確約した利用期間が終わる前にサブスクリプション・アカウントを取り消すことは可能ですか?  
 {: #subs-cancel-early}
@@ -102,7 +107,7 @@ lastupdated: "2018-06-11"
 ### 期間が終わる前に、確約した支払額に達するとどうなりますか?  
 {: #subs-spend-before-term-end}
 
-期間の終わりまで月額課金を支払い続ける必要があります。超過料金の発生を回避するには、新しいサブスクリプションの登録について [{{site.data.keyword.Bluemix_notm}} 営業担当](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg) にお問い合わせください。 
+期間の終わりまで月額課金を支払い続ける必要があります。 超過料金の発生を回避するには、新しいサブスクリプションの登録について [{{site.data.keyword.Bluemix_notm}} 営業担当](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg) にお問い合わせください。 
 
 
 
