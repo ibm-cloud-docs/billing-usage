@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -41,6 +41,11 @@ Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir 
 
 Rufen Sie in der Konsole die Seite **Verwalten > Abrechnung und Nutzung > Abrechnung** auf und klicken Sie auf **Konto inaktivieren**.
 
+## Wie kann ich mein Konto löschen?
+{: #deleteaccount}
+
+Sie müssen sich mit dem IBM Cloud-Support in Verbindung setzen, um ein Support-Ticket zu öffnen und die Löschung Ihres Kontos anzufordern. Wenn Sie über Daten verfügen, die Ihrem alten Konto zugeordnet sind, die jedoch gesichert und in ein neues Konto übernommen werden sollen, dann geben Sie die entsprechenden Informationen in Ihrer E-Mail an.
+
 ### Wie erhalte ich Unterstützung?
 {: #contactsupport}
 
@@ -72,7 +77,7 @@ Sie können Plattform- und Infrastrukturangebote aus dem {{site.data.keyword.Blu
 ### Wann kommt ein Abonnementkonto für einen Preisnachlass infrage? 
 {: #subs-discount}
 
-Eine kombinierte Ausgabe- und Laufzeitverpflichtung von monatlich $ 100,00 USD für einen Zeitraum von 12 Monaten ist erforderlich, damit ein Abonnement für einen Rabatt infrage kommt.  
+Eine kombinierte Ausgabe- und Laufzeitverpflichtung von monatlich $ 100,00 USD für einen Zeitraum von 12 Monaten ist erforderlich, damit ein Abonnement für einen Rabatt infrage kommt. 
 
 ### Besteht für Abonnementkonten ein Mindestwert für monatliche Ausgaben? 
 {: #subs-minimum}
