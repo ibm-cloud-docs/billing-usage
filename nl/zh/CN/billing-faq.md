@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -40,6 +40,11 @@ lastupdated: "2018-06-11"
 {: #cancelmyaccount}
 
 在控制台中，转至**管理 > 计费和使用情况 > 计费**页面，然后单击**取消激活帐户**。
+
+## 如何删除帐户？
+{: #deleteaccount}
+
+您必须联系 IBM Cloud 支持，以开具一个支持凭单，请求删除您的帐户。如果存在与旧帐户相关联的数据并且想要将其保存并移动到新帐户，请在您的电子邮件中包含此信息。
 
 ### 如何获得支持？
 {: #contactsupport}
@@ -84,7 +89,7 @@ lastupdated: "2018-06-11"
 
 对于超出预订总额的任何使用情况，将按非折扣费率计费。
 
-### 我可以提前支付或者按季度支付承诺的总支出吗？
+### 我可以预先支付或者按季度支付承诺的总支出吗？
 {: #subs-pay-schedule}
 
 当前，您可以根据预订帐户按月支付。如果您想要预先支付或者按季度支付，请联系 [{{site.data.keyword.Bluemix_notm}} 销售人员 ](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部链接图标](../icons/launch-glyph.svg)。
