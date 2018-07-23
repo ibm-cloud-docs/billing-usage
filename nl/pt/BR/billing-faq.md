@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -45,6 +45,11 @@ crédito. A maneira mais simples de resolver seu problema é nos contatar usando
 
 No console, acesse a página **Gerenciar > Faturamento e uso > Faturamento** e clique em
 **Desativar conta**.
+
+## Como excluir minha conta?
+{: #deleteaccount}
+
+Deve-se entrar em contato com o Suporte do IBM Cloud para abrir um chamado de suporte e solicitar que sua conta seja excluída. Se você tiver dados que estão associados à sua conta antiga que você deseja salvar e mover para uma nova conta, inclua essas informações em seu e-mail.
 
 ### Como obter suporte?
 {: #contactsupport}
