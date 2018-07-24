@@ -41,7 +41,7 @@ Proteggere la tua identità è una priorità per noi. Quindi prendiamo sul serio
 
 Nella console, vai alla pagina **Gestisci > Fatturazione e utilizzo > Fatturazione** e fai clic su **Disattiva account**.
 
-## Come posso eliminare il mio account?
+### Come posso eliminare il mio account?
 {: #deleteaccount}
 
 Devi contattare il supporto IBM Cloud per aprire un ticket di supporto e richiedere l'eliminazione del tuo account. Se hai dei dati associati al tuo account precedente che vuoi salvare e passare a un nuovo account, includi queste informazioni nell'e-mail.
