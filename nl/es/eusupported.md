@@ -36,4 +36,4 @@ Después de establecer la opción Soporte en la UE para su cuenta, puede crear s
 
 Para obtener más información sobre cómo establecer la opción Soporte en la UE al crear incidencias de soporte, y para obtener una lista de servicios con Soporte en la UE, consulte [Solicitud de soporte para recursos en la Unión Europea](/docs/get-support/howtogetsupport.html#eusupported).
 
-Si está utilizando infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta de SoftLayer enlazada, establezca la opción Soporte en la UE en la ventana **Perfil de cuenta** del portal del cliente. Para obtener más información, consulte [Definición de la opción Soporte en la UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+Si está utilizando infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta de SoftLayer enlazada, establezca la opción Soporte en la UE en la ventana **Perfil de cuenta** del portal de clientes. Para obtener más información, consulte [Definición de la opción Soporte en la UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).

@@ -48,7 +48,7 @@ Puede encontrar los planes Lite fácilmente en el catálogo. De forma predetermi
 ## Cargos por recursos de cálculo
 {: #compute}
 
-Se le facturará por el tiempo que las apps se ejecuten y la memoria que se utilice, calculados como *GB por hora*. GB por hora es el cálculo del número de instancias de la app, multiplicado por la memoria por instancia, multiplicado por las horas que se ejecutaron las instancias. Puede personalizar el número de instancias y la cantidad de memoria por instancia según sus necesidades. Posteriormente puede añadir memoria o instancias para escalar a más usuarios. La carga final es por GB por hora: las instancias de app, multiplicado por memoria por instancia, multiplicado por horas de ejecución.
+Se le facturará por el tiempo que las apps se ejecuten y la memoria que se utilice, calculados como *GB por hora*. GB por hora es el cálculo del número de instancias de la aplicación, multiplicado por la memoria por instancia, multiplicado por las horas que se ejecutaron las instancias. Puede personalizar el número de instancias y la cantidad de memoria por instancia según sus necesidades. Posteriormente puede añadir memoria o instancias para escalar a más usuarios. La carga final es por GB por hora: las instancias de aplicación, multiplicado por memoria por instancia, multiplicado por horas de ejecución.
 
 Por ejemplo, supongamos que tenemos un tiempo de ejecución que cuesta 0,07 dólares por GB por hora en dos instancias de 512 MB que se ejecutan durante 30 días (720 horas). Estos recursos costarían unos 24,15 dólares, incluida la concesión gratuita de 375 GB por hora, según el siguiente cálculo:
 

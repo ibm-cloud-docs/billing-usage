@@ -18,7 +18,7 @@ lastupdated: "2018-06-11"
 # Gestión de la utilización de cuentas enlazadas de {{site.data.keyword.Bluemix_notm}}
 {: #linkedusage}
 
-Si ha enlazado una cuenta de {{site.data.keyword.Bluemix}} y otra de SoftLayer, utilice el portal del cliente para realizar pagos puntuales, cambiar los detalles de su tarjeta de pago, ver los artículos facturados y sus facturas.
+Si ha enlazado una cuenta de {{site.data.keyword.Bluemix}} y otra de SoftLayer, utilice el portal de clientes para realizar pagos puntuales, cambiar los detalles de su tarjeta de pago, ver los artículos facturados y sus facturas.
 {: shortdesc}
 
 Las opciones de facturación y utilización que se visualizan en la consola de {{site.data.keyword.Bluemix_notm}} pueden diferir según si tiene una cuenta Lite o si no tiene una cuenta enlazada.
@@ -73,7 +73,7 @@ Complete los siguientes pasos para ver una factura:
 
 1. Seleccione el **icono de Menú![Icono de menú](../icons/icon_hamburger.svg) > opción Infraestructura**. 
 2. Desde la barra de menús, pulse **Cuenta** > **Facturación** > **Facturas**.
-3. Puede visualizar una factura en el portal del cliente o descargarla.
+3. Puede visualizar una factura en el portal de clientes o descargarla.
 
 ## Utilización de servicios de {{site.data.keyword.Bluemix_notm}} con activos de SoftLayer
 {: #combined}

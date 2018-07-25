@@ -46,7 +46,7 @@ El precio de la app se puede calcular de la forma siguiente:
 
 <dl>
 <dt>Cuatro instancias de tiempo de ejecución de 256 MB de Node.js.</dt>
-<dd>Cargos de {{site.data.keyword.Bluemix_notm}} para un tiempo de ejecución por GB por hora. El número de GB utilizados al mes es de <code>4 x 256 = 1024 MB o 1 GB al mes</code>. Suponga que hay <code>24 x 30 = 720 horas en un mes</code>, por consiguiente la app ha facturado <code>1 x 720 = 720 GB por hora</code>.
+<dd>Cargos de {{site.data.keyword.Bluemix_notm}} para un tiempo de ejecución por GB por hora. El número de GB utilizados al mes es de <code>4 x 256 = 1024 MB o 1 GB al mes</code>. Suponga que hay <code>24 x 30 = 720 horas en un mes</code>, por consiguiente se le factura a la aplicación <code>1 x 720 = 720 GB por hora</code>.
 <p>
 375 GB por hora están incluidos en la concesión gratuita al mes, compartidos en todos los tiempos de ejecución de {{site.data.keyword.Bluemix_notm}}. Por consiguiente, el coste total para el tiempo de ejecución es de <code>0,07 dólares x (720-375) = 24,15 dólares</code>.</p></dd>
 
@@ -76,4 +76,4 @@ El precio total es 148 + 13.5 + 13.5 = 175 dólares.</p></dd>
 
 </dl>
 
-Cuando se añaden todos los elementos, el precio total de la app es de 354,15 dólares.
+Cuando se añaden todos los elementos, el precio total de la aplicación es de 354,15 dólares.

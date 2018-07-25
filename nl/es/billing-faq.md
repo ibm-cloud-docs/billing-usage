@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -40,6 +40,11 @@ Proteger su identidad es una prioridad para nosotros. Por ello, nos tomamos la v
 {: #cancelmyaccount}
 
 En la consola, vaya a la página **Gestionar > Facturación y uso > Facturación**, y pulse **Desactivar cuenta**.
+
+## ¿Cómo puedo suprimir mi cuenta?
+{: #deleteaccount}
+
+Debe ponerse en contacto con el equipo de soporte de IBM Cloud para abrir una incidencia de soporte y solicitar que se suprima su cuenta. Si tiene datos asociados con su antigua cuenta que desea guardar y moverlos a una nueva cuenta, incluya es información en el correo.
 
 ### ¿Cómo obtengo soporte?
 {: #contactsupport}
