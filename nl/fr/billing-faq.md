@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -40,6 +40,11 @@ La protection de votre identité étant une priorité pour nous, nous procédons
 {: #cancelmyaccount}
 
 Dans la console, accédez à la page **Gérer > Facturation et utilisation > Facturation** puis cliquez sur **Désactiver le compte**.
+
+## Comment supprimer mon compte ?
+{: #deleteaccount}
+
+Vous devez contacter le support IBM Cloud pour ouvrir un ticket de demande de service et demander la suppression de votre compte. Si des données sont associées à votre ancien compte et que vous souhaitez les sauvegarder et utiliser un nouveau compte, incluez ces informations dans votre message électronique.
 
 ### A quelles formes de support peut-on accéder ?
 {: #contactsupport}
@@ -102,7 +107,7 @@ Oui, vous pouvez annuler votre compte avant la fin de votre engagement mais gard
 ### Que se passe-t-il si j'atteins ma limite de dépenses avant la fin de mon engagement ?  
 {: #subs-spend-before-term-end}
 
-Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. Pour éviter de générer des frais supplémentaires, prenez contact avec le [{{site.data.keyword.Bluemix_notm}} service commercial](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg) pour obtenir de l'aide si vous souhaitez souscrire un nouvel abonnement. 
+Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. Pour éviter de générer des frais supplémentaires, prenez contact avec le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg) pour obtenir de l'aide si vous souhaitez souscrire un nouvel abonnement. 
 
 
 
