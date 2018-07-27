@@ -41,7 +41,7 @@ La protection de votre identité étant une priorité pour nous, nous procédons
 
 Dans la console, accédez à la page **Gérer > Facturation et utilisation > Facturation** puis cliquez sur **Désactiver le compte**.
 
-## Comment supprimer mon compte ?
+### Comment supprimer mon compte ?
 {: #deleteaccount}
 
 Vous devez contacter le support IBM Cloud pour ouvrir un ticket de demande de service et demander la suppression de votre compte. Si des données sont associées à votre ancien compte et que vous souhaitez les sauvegarder et utiliser un nouveau compte, incluez ces informations dans votre message électronique.
