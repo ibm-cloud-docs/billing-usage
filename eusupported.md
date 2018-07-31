@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-31"
 
 ---
 
@@ -31,7 +31,7 @@ Selecting the EU supported option limits Level 1 and Level 2 support to be provi
 
 By selecting this option, EU supported services are enabled with strict access controls to ensure the data you store and process is restricted to and controlled by the IBM support team in the EU region. If {{site.data.keyword.Bluemix_notm}} experts located outside the European region require access to this data to support or operate the cloud, an EU support team member reviews the access request. The EU support team member provides necessary access to the global cloud expert only to the requested system, and only for a specific time frame after which access is revoked. Throughout this process, your data is always protected.
 
-After you set the EU Supported option for your account, you can create services in the {{site.data.keyword.Bluemix_notm}} catalog that are *EU Supported*. When you create the service instance, select a European region to create the service as *EU-Supported*.
+After you set the EU Supported option for your account, you can create services in the {{site.data.keyword.Bluemix_notm}} catalog that are *EU Supported*. When you create the service instance, select a European region to create the service as EU-Supported.
 {: tip}
 
 For more information about setting the EU Supported option when you create support tickets, and for a list of services that are EU supported, see [Requesting support for resources in the European Union](/docs/get-support/howtogetsupport.html#eusupported).
