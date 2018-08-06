@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-31"
 
 ---
 
@@ -31,7 +31,7 @@ Mit der aktivierten Option 'Unterstützung in der EU' wird die Unterstützung de
 
 Die Aktivierung dieser Option ermöglicht es darüber hinaus Services mit Unterstützung in der EU mithilfe einer stringenten Zugriffssteuerung sicherzustellen, dass die Unterstützung und Überwachung für die von Ihnen gespeicherten und verarbeiteten Daten auf das IBM Support-Team in der Region 'EU' begrenzt ist. Benötigen {{site.data.keyword.Bluemix_notm}}-Fachleute außerhalb der europäischen Region für die Unterstützung oder den Betrieb der Cloud Zugriff auf diese Daten, wird die Zugriffsanforderung von einem Mitarbeiter des europäischen Support-Teams überprüft. Dem Cloud-Experten des globalen Teams wird von einem Mitarbeiter des europäischen Support-Teams nur der erforderliche Zugriff auf das angeforderte System ermöglicht. Dieser Zugriff ist nur in einem bestimmten Zeitrahmen gestattet und ist nach Ablauf dieser Zeit nicht mehr möglich. Während dieses Prozesses sind Ihre Daten immer geschützt.
 
-Nachdem Sie die Option 'Unterstützung in der EU' für Ihr Konto festgelegt haben, können Sie Services im {{site.data.keyword.Bluemix_notm}}-Katalog erstellen, die in der EU unterstützt werden.** Wenn Sie die Serviceinstanz erstellen, wählen Sie eine europäische Region aus, um den Service als Service mit *Unterstützung in der EU* zu erstellen.
+Nachdem Sie die Option 'Unterstützung in der EU' für Ihr Konto festgelegt haben, können Sie Services im {{site.data.keyword.Bluemix_notm}}-Katalog erstellen, die in der EU unterstützt werden.** Wenn Sie die Serviceinstanz erstellen, wählen Sie eine europäische Region aus, um den Service als Service mit Unterstützung in der EU zu erstellen.
 {: tip}
 
 Weitere Informationen zum Festlegen der Option 'Unterstützung in der EU' beim Erstellen von Support-Tickets sowie eine Liste von Services mit Unterstützung in der EU finden Sie unter [Unterstützung für Ressourcen in der Europäischen Union anfordern](/docs/get-support/howtogetsupport.html#eusupported).
