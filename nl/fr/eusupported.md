@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-07-31"
 
 ---
 
@@ -31,7 +31,7 @@ La sélection de l'option Support dans l'Union européenne porte sur la prise en
 
 La sélection de cette option permet aux services pris en charge par l'Union européenne de disposer de contrôles d'accès stricts afin de garantir que les données que vous stockez et les processus sont restreints et contrôlés par l'équipe de support IBM de la région UE. Si des experts {{site.data.keyword.Bluemix_notm}} résidant en dehors de l'Union européenne demandent l'accès à ces données pour y réaliser des opérations dans le cloud (de type support ou autres), un membre de l'équipe de support IBM de la région UE analyse cette demande d'accès. Cette personne accorde à l'expert du cloud global l'accès nécessaire - uniquement au système requis et seulement pour une durée spécifique et limitée - après quoi, cet accès est révoqué. Durant tout ce processus, vos données sont toujours protégées.
 
-Après avoir défini l'option Support dans l'Union européenne pour votre compte, vous pouvez créer des services dans le catalogue {{site.data.keyword.Bluemix_notm}} compatibles *Support dans l'Union européenne*. Quand vous créez l'instance de service, sélectionnez une région Europe pour créer le service *Support dans l'Union européenne*.
+Après avoir défini l'option Support dans l'Union européenne pour votre compte, vous pouvez créer des services dans le catalogue {{site.data.keyword.Bluemix_notm}} compatibles *Support dans l'Union européenne*. Lorsque vous créez l'instance de service, sélectionnez une région Europe pour que le service créé soit pris en charge par l'Union européenne.
 {: tip}
 
 Pour plus d'informations sur la définition de l'option Support dans l'Union européenne quand vous créez des tickets de support et pour une liste des services compatibles avec cette option, voir [Demande de support pour des ressources dans l'Union européenne](/docs/get-support/howtogetsupport.html#eusupported).
