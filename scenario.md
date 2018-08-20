@@ -19,8 +19,7 @@ Assume that you have a Node.js web app with scaling capabilities, and the app us
 
 * Four 256 MB Node.js runtime instances
 * Two {{site.data.keyword.autoscaling}} policies, processor and memory
-* 2 GB per month {{site.data.keyword.datacshort}}
-* 150 GB per month NoSQL database, 100,000 heavy API calls, and 500,000 light API calls
+* 150 GB per month {{site.data.keyword.cloudant_short_notm}} database, 1,000 lookups, 500 writes, and 50 queries. 
 * 20 GB inbound or outbound network traffic
 
 ## Prices for {{site.data.keyword.Bluemix_notm}} resources
@@ -32,10 +31,7 @@ To keep the example simple, assume the prices in the following table don't fluct
 |--------|-----------|--------|
 |SDK for Node.js |	375 GB-hours free per month (shared across all runtimes) |	$0.07 USD/GB-hour|
 |{{site.data.keyword.autoscaling}} |	Free service plan for the {{site.data.keyword.autoscaling}} service |	Free|
-|{{site.data.keyword.datacshort}} - Starter |	1 GB of cache space and a replica |	$55.00 USD/instance |
-|{{site.data.keyword.datacshort}} - Standard |	5 GB of cache space and a replica |	$155.00 USD/instance |
-|{{site.data.keyword.datacshort}} - Premium |	25 GB of cache space and a replica |	$505.00 USD/instance|
-|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}} |	2 GB of free data storage<br/>50,000 light API calls free per month<br/>10,000 heavy API calls free per month | $1.00 USD/GB<br/>$0.03 USD/1000 light API calls<br/>$0.15 USD/1000 heavy API calls |
+|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite| Includes 20 GB of free data storage</br>Scale provisioned throughput capacity in increments of:</br>100 lookups per second</br>50 writes per second</br>5 queries per second | $1.00 USD/GB of data storage</br>$0.25 USD/Lookup per second</br>$0.50 USD/Write per second</br>$5.00 USD/Query per second |
 {:caption="Table 1. Pricing for resources" caption-side="top"}
 
 ## Calculating the app price
@@ -51,26 +47,24 @@ The price of the app can be calculated in the following way:
 <dt>Two {{site.data.keyword.autoscaling}} policies (processor and memory)</dt>
 <dd>The {{site.data.keyword.autoscaling}} policies are free of charge.</dd>
 
-<dt>2 GB per month {{site.data.keyword.datacshort}}</dt>
-<dd>The 50 MB plan that is provided by the {{site.data.keyword.datacshort}} service is free of charge. However, the free plan would not cover your projected use of 2 GB per month. The three paid plans for {{site.data.keyword.datacshort}} cost a set amount for a specific amount of space, regardless of how much space you use. Therefore, you want to choose the minimum plan that meets your projected use, which is the standard plan of 5 GB. The total cost is $155 per month.</dd>
-
-<dt>150 GB per month NoSQL database</dt>
-<dd>The Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} service charges are based on data storage and the ability to access that data by different API methods. The <strong>PUT</strong> and <strong>POST</strong> commands are considered as heavy API calls, but <strong>GET</strong> commands are considered as light API calls.
+<dt>150 GB per month {{site.data.keyword.cloudant_short_notm}}</dt>
+<dd>The {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} service charges are based on data storage and the ability to access that data by provisioned throughput capacity denoted by lookups, writes, and queries per second. 
 <p>
-Add up the number of GB and deduct a 2 GB free allowance. 148 GB is charged per month. Subtract the free allowance of 50,000 for light api calls and 10,000 for heavy api calls. The total storage price includes the following parts:</p>
+Add up the number of GB and deduct the 20 GB free allowance. 130 GB is charged per month. The total storage price includes the following parts:</p>
 <pre class="codeblock">
 <codeblock>
-    148 x 1 = $148
-    (450,000 / 1000) x 0.03 = $13.5
-    (90,000 / 1000) x 0.15 = $13.5
+    130 x 1 = $130
+    (1,000 / 100) x 0.25 = $2.50
+    (500 / 50) x 0.50 = $5.00
+    (50 / 5) x 5.00 = $50.00
 </codeblock>
 </pre>
 <p>
-The total price is 148 + 13.5 + 13.5 = $175.</p></dd>
+The total price is 130 + 2.50 + 5.00 + 50.00 = $187.50.</p></dd>
 
 <dt>20 GB inbound or outbound network traffic</dt>
 <dd>Inbound and outbound network traffic is free of charge.</dd>
 
 </dl>
 
-When all the items are added, the total price of the application is $354.15.
+When all the items are added, the total price of the application is $211.65.
