@@ -19,8 +19,7 @@ lastupdated: "2018-04-12"
 
 * 四個 256 MB Node.js 運行環境實例
 * 兩個 {{site.data.keyword.autoscaling}} 原則：處理器及記憶體
-* {{site.data.keyword.datacshort}} 每個月 2 GB
-* NoSQL 資料庫每個月 150 GB、100,000 次重量型 API 呼叫，及 500,000 次輕量型 API 呼叫
+* 每月 150 GB 的 {{site.data.keyword.cloudant_short_notm}} 資料庫、1,000 次查閱、500 次寫入，及 50 次查詢。 
 * 20 GB 入埠或出埠網路資料流量
 
 ## {{site.data.keyword.Bluemix_notm}} 資源的價格
@@ -32,10 +31,7 @@ lastupdated: "2018-04-12"
 |--------|-----------|--------|
 |SDK for Node.js|	每個月有 375 GB-小時免費（跨所有運行環境共用）|	$0.07 USD/GB-小時|
 |{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 服務的免費服務方案|	免費|
-|{{site.data.keyword.datacshort}} - Starter |	1 GB 的快取空間及一個抄本|	$55.00 USD/實例|
-|{{site.data.keyword.datacshort}} - Standard |	5 GB 的快取空間及一個抄本 |	$155.00 USD/實例|
-|{{site.data.keyword.datacshort}} - Premium |	25 GB 的快取空間及一個抄本|	$505.00 USD/實例|
-|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}}|	2 GB 的可用資料儲存空間<br/>每個月有 50,000 次輕量型 API 呼叫免費<br/>每個月有 10,000 次重量型 API 呼叫免費|$1.00 USD/GB<br/>$0.03 USD/1000 次輕量型 API 呼叫<br/>$0.15 USD/1000 次重量型 API 呼叫|
+|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite|包含 20 GB 的可用資料儲存空間</br>調整佈建的傳輸量，使用增量為：</br>每秒 100 次查閱</br>每秒 50 次寫入</br>每秒 5 次查詢| $1.00 USD/GB 的資料儲存空間</br>$0.25 USD/每秒查閱</br>$0.50 USD/每秒寫入</br>$5.00 USD/每秒查詢|
 {:caption="表 1. 資源的定價" caption-side="top"}
 
 ## 計算應用程式價格
@@ -51,25 +47,24 @@ lastupdated: "2018-04-12"
 <dt>兩個 {{site.data.keyword.autoscaling}} 原則（處理器及記憶體）</dt>
 <dd>{{site.data.keyword.autoscaling}} 原則是免費的。</dd>
 
-<dt>{{site.data.keyword.datacshort}} 每個月 2 GB</dt>
-<dd>{{site.data.keyword.datacshort}} 服務提供的 50 MB 方案是免費的。不過，免費方案不包含您的預估每月 2 GB 用量。{{site.data.keyword.datacshort}} 的三項付費方案會針對特定空間量收取已設定的金額，不論您使用多少空間。因此，請選擇符合您預估用量的最低方案，也就是 5 GB 的標準方案。每個月的總成本為 $155。</dd>
-
-<dt>NoSQL 資料庫每個月 150 GB</dt>
-<dd>Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} 服務費用是根據資料儲存空間以及透過不同 API 方法存取該資料的能力。<strong>PUT</strong> 及 <strong>POST</strong> 指令視為重量型 API 呼叫，但是 <strong>GET</strong> 指令視為輕量型 API 呼叫。<p>
-增加 GB 數目並扣除 2 GB 免費額度。每個月收費 148 GB。請扣除免費額度 50,000（針對輕量型 API 呼叫）及 10,000（針對重量型 API 呼叫）。總儲存空間價格包含下列部分：</p>
+<dt>每月 150 GB 的 {{site.data.keyword.cloudant_short_notm}}</dt>
+<dd>{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} 服務費用是根據資料儲存空間，以及由每秒查閱、寫入和查詢所表示的佈建傳輸量容量。
+<p>
+將 GB 數目加總，並扣除 20 GB 免費額度。每個月收取 130 GB 的費用。總儲存空間價格包含下列部分：</p>
 <pre class="codeblock">
 <codeblock>
-    148 x 1 = $148
-    (450,000 / 1000) x 0.03 = $13.5
-    (90,000 / 1000) x 0.15 = $13.5
+    130 x 1 = $130
+    (1,000 / 100) x 0.25 = $2.50
+    (500 / 50) x 0.50 = $5.00
+    (50 / 5) x 5.00 = $50.00
 </codeblock>
 </pre>
 <p>
-總價格是 148 + 13.5 + 13.5 = $175。</p></dd>
+總價為 130 + 2.50 + 5.00 + 50.00 = $187.50。</p></dd>
 
 <dt>20 GB 入埠或出埠網路資料流量</dt>
 <dd>入埠及出埠網路資料流量免費。</dd>
 
 </dl>
 
-新增所有項目時，應用程式的總價格是 $354.15。
+所有項目相加之後，應用程式的總價是 $211.65。
