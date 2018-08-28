@@ -20,8 +20,7 @@ lastupdated: "2018-04-12"
 
 * 4 個の 256 MB Node.js ランタイム・インスタンス
 * 2 個の {{site.data.keyword.autoscaling}} ポリシー、およびプロセッサーとメモリー
-* 1 月あたり 2 GB の {{site.data.keyword.datacshort}}
-* 1 月あたり 150 GB の NoSQL データベース、100,000 回の高負荷 API 呼び出し、および 500,000 回の軽負荷 API 呼び出し
+* 1 カ月当たり 150 GB の {{site.data.keyword.cloudant_short_notm}} データベース、1,000 件のルックアップ、500 件の書き込み、および 50 件の照会。 
 * 20 GB のインバウンドまたはアウトバウンドのネットワーク・トラフィック
 
 ## {{site.data.keyword.Bluemix_notm}} リソースの価格
@@ -33,10 +32,7 @@ lastupdated: "2018-04-12"
 |--------|-----------|--------|
 |SDK for Node.js |	1 月あたり 375 GB 時間無料 (すべてのランタイム間で共有) |	$0.07 (米ドル)/GB 時間|
 |{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} サービスの無料サービス・プラン |	無料|
-|{{site.data.keyword.datacshort}} - スターター |	1 GB のキャッシュ・スペースおよびレプリカ |	$55.00 (米ドル)/インスタンス |
-|{{site.data.keyword.datacshort}} - 標準 |	5 GB のキャッシュ・スペースおよびレプリカ |	$155.00 (米ドル)/インスタンス |
-|{{site.data.keyword.datacshort}} - プレミアム |	25 GB のキャッシュ・スペースおよびレプリカ |	$505.00 (米ドル)/インスタンス|
-|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}} |	2 GB の無料データ・ストレージ<br/>1 月あたり 50,000 回の無料軽負荷 API 呼び出し<br/>1 月あたり 10,000 回の無料高負荷 API 呼び出し |$1.00 (米ドル)/GB<br/>$0.03 (米ドル)/軽負荷 API 呼び出し 1000 回<br/>$0.15 (米ドル)/高負荷 API 呼び出し 1000 回 |
+|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - ライト| 20 GB の無料データ・ストレージを含む</br>プロビジョンされたスループット容量を以下の単位でスケール:</br>1 秒当たり 100 件のルックアップ</br>1 秒当たり 50 件の書き込み</br>1 秒当たり 5 件の照会 | $1.00 USD/GB のデータ・ストレージ</br>$0.25 USD/1 秒当たりのルックアップ</br>$0.50 USD/1 秒当たりの書き込み</br>$5.00 USD/1 秒当たりの照会|
 {:caption="表 1. リソースの価格設定" caption-side="top"}
 
 ## アプリ価格の計算
@@ -53,28 +49,24 @@ GB 時間ごとにランタイムに課金します。 1 月あたりに使用�
 <dt>2 個の {{site.data.keyword.autoscaling}} ポリシー (プロセッサーとメモリー)</dt>
 <dd>{{site.data.keyword.autoscaling}} ポリシーは無料です。</dd>
 
-<dt>1 月あたり 2 GB の {{site.data.keyword.datacshort}}</dt>
-<dd>{{site.data.keyword.datacshort}} サービスが提供する 50 MB プランは無料です。 ただし、無料のプランでは、1 カ月当たり 2 GB と予測される使用量をカバーできません。 {{site.data.keyword.datacshort}} の 3 つの有料プランでは、使用したスペースの量にかかわらず、特定のスペース量に対する一定の料金がかかります。 そのため、予測される使用量を満たす最小限のプランである 5 GB の標準プランを選択することにします。 総額は 1 月あたり $155 になります。</dd>
-
-<dt>1 月あたり 150 GB の NoSQL データベース</dt>
-<dd>Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} のサービス料金は、データ・ストレージおよび各 API メソッドでそのデータにアクセスする機能に基づきます。 <strong>PUT</strong> コマンドおよび
-<strong>POST</strong> コマンドは高負荷 API 呼び出しとみなされますが、
-<strong>GET</strong> コマンドは軽負荷 API 呼び出しとみなされます。
+<dt>1 月あたり 150 GB の {{site.data.keyword.cloudant_short_notm}}</dt>
+<dd>{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} のサービス料金は、データ・ストレージと、1 秒あたりのルックアップ、書き込み、および照会によって示されるプロビジョニングされたスループット容量によって、そのデータにアクセスする機能に基づきます。
 <p>
-GB 数を合計して、2 GB の無料枠を減算します。 1 月あたり 148 GB が課金されます。 軽負荷 API 呼び出し 50,000 回の無料枠と、高負荷 API 呼び出し 10,000 回の無料枠を減算します。 ストレージの総額には、次のものが含まれています。</p>
+GB 数を合計して、20 GB の無料許容量を減算します。1 月あたり 130 GB が課金されます。ストレージの総額には、次のものが含まれています。</p>
 <pre class="codeblock">
 <codeblock>
-    148 x 1 = $148
-    (450,000 / 1000) x 0.03 = $13.5
-    (90,000 / 1000) x 0.15 = $13.5
+    130 x 1 = $130
+    (1,000 / 100) x 0.25 = $2.50
+    (500 / 50) x 0.50 = $5.00
+    (50 / 5) x 5.00 = $50.00
 </codeblock>
 </pre>
 <p>
-総額は、148 + 13.5 + 13.5 = $175 です。</p></dd>
+総額は、130 + 2.50 + 5.00 + 50.00 = $187.50 です。</p></dd>
 
 <dt>20 GB のインバウンドまたはアウトバウンドのネットワーク・トラフィック</dt>
 <dd>インバウンドおよびアウトバウンドのネットワーク・トラフィックは無料です。</dd>
 
 </dl>
 
-すべてのアイテムが加算される場合、アプリケーションの総額は $354.15 となります。
+すべてのアイテムが加算される場合、アプリケーションの総額は $211.65 となります。

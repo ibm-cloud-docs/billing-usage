@@ -19,8 +19,7 @@ lastupdated: "2018-04-12"
 
 * 四个 256 MB Node.js 运行时实例
 * 两个 {{site.data.keyword.autoscaling}} 策略、处理器和内存
-* 每月 2 GB（针对 {{site.data.keyword.datacshort}}）
-* NoSQL 数据库每月 150 GB、100,000 个频繁 API 调用和 500,000 个稀少 API 调用
+* 每月 150 GB（针对 {{site.data.keyword.cloudant_short_notm}} 数据库，1,000 个查找、500 次写入和 50 个查询）。 
 * 20 GB 入站或出站网络流量
 
 ## {{site.data.keyword.Bluemix_notm}} 资源的价格
@@ -32,10 +31,7 @@ lastupdated: "2018-04-12"
 |--------|-----------|--------|
 |SDK for Node.js|	每月 375 GB-小时可用（在所有运行时共享）|	0.07 美元/GB-小时|
 |{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 服务的免费服务套餐|	免费|
-|{{site.data.keyword.datacshort}} - 入门模板|	1 GB 高速缓存空间和副本|	55.00 美元/实例|
-|{{site.data.keyword.datacshort}} - 标准|	5 GB 高速缓存空间和副本|	155.00 美元/实例|
-|{{site.data.keyword.datacshort}} - 高端|	25 GB 高速缓存空间和副本|	505.00 美元/实例|
-|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}}|	2 GB 免费数据存储<br/>每月 50,000 个免费稀少 API 调用<br/>每月 10,000 个免费频繁 API 调用|1.00 美元/GB<br/>0.03 美元/1000 个稀少 API 调用<br/>0.15 美元/1000 个频繁 API 调用|
+|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - 轻量|包含 20 GB 免费数据存储</br>按以下增量扩展供应的吞吐量容量：</br>每秒 100 个查找</br>每秒 50 次写入</br>每秒 5 个查询|1.00 美元/GB 数据存储</br>每秒 0.25 美元/查找</br>每秒 0.50 美元/写入</br>每秒 5.00 美元/查询|
 {:caption="表 1. 资源的定价" caption-side="top"}
 
 ## 计算应用程序价格
@@ -50,25 +46,24 @@ lastupdated: "2018-04-12"
 <dt>两个 {{site.data.keyword.autoscaling}} 策略（处理器和内存）</dt>
 <dd>{{site.data.keyword.autoscaling}} 策略免费。</dd>
 
-<dt>每月 2 GB（针对 {{site.data.keyword.datacshort}}）</dt>
-<dd>{{site.data.keyword.datacshort}} 服务提供的 50 MB 套餐免费。然而，免费套餐可能难以满足您每月计划使用的 2 GB。{{site.data.keyword.datacshort}} 的 3 个付费套餐都是以固定金额购买特定的空间量，而不管您实际使用的空间量是多少。因此，您希望选择符合您计划使用量（标准套餐为 5 GB）的最低限度套餐。每月总开销为 155 美元。</dd>
-
-<dt>NoSQL 数据库每月 150 GB</dt>
-<dd>Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} 服务费用基于数据存储和按不同 API 方法访问该数据的能力。<strong>PUT</strong> 和 <strong>POST</strong> 命令被视为频繁 API 调用，但 <strong>GET</strong> 命令被视为稀少 API 调用。<p>
-加总 GB 数并减去 2 GB 免费限额。每月对 148 GB 收费。减去 50,000 稀少 API 调用和 10,000 频繁 API 调用的免费限额。存储价格总计包括以下部分：</p>
+<dt>每月 150 GB（针对 {{site.data.keyword.cloudant_short_notm}}）</dt>
+<dd>{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} 服务费用基于数据存储和按每秒查找数、写入数和查询数表示的供应的吞吐量容量访问此数据的能力。
+<p>
+加总 GB 数并减去 20 GB 免费限额。每月对 130 GB 收费。存储价格总计包括以下部分：</p>
 <pre class="codeblock">
 <codeblock>
-    148 x 1 = $148
-    (450,000 / 1000) x 0.03 = $13.5
-    (90,000 / 1000) x 0.15 = $13.5
+    130 x 1 = $130
+    (1,000 / 100) x 0.25 = $2.50
+    (500 / 50) x 0.50 = $5.00
+    (50 / 5) x 5.00 = $50.00
 </codeblock>
 </pre>
 <p>
-总价格为 148 + 13.5 + 13.5 = 175 美元。</p></dd>
+总价格为 130 + 2.50 + 5.00 + 50.00 = 187.50 美元。</p></dd>
 
 <dt>20 GB 入站或出站网络流量</dt>
 <dd>入站和出站网络流量免费。</dd>
 
 </dl>
 
-加总所有项时，应用程序的总价格为 354.15 美元。
+加总所有项时，应用程序的总价格为 211.65 美元。
