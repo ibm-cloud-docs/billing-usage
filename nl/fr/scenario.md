@@ -19,8 +19,7 @@ Supposons que vous disposez d'une application Web Node.js ayant des capacités d
 
 * Quatre instances d'exécution Node.js de 256 Mo
 * Deux stratégies {{site.data.keyword.autoscaling}}, un processeur et de la mémoire
-* 2 Go par mois pour {{site.data.keyword.datacshort}}
-* 150 Go par mois pour NoSQL Database, 100 000 appels API lourds et 500 000 appels API légers
+* Base de données {{site.data.keyword.cloudant_short_notm}} de 150 Go par mois, 1 000 recherches, 500 écritures et 50 requêtes. 
 * 20 Go pour le trafic réseau entrant et sortant
 
 ## Prix des ressources {{site.data.keyword.Bluemix_notm}}
@@ -33,12 +32,7 @@ temps, par exemple sur un mois. La tarification dans cet exemple est en dollar.
 |--------|-----------|--------|
 |SDK for Node.js |	375 Go/heure gratuits par mois (partagés entre tous les contextes d'exécution) |	0,07 $/Go/heure|
 |{{site.data.keyword.autoscaling}} |	Plan de service gratuit pour le service {{site.data.keyword.autoscaling}} |	Gratuit|
-|{{site.data.keyword.datacshort}} - Module de démarrage |	1 Go d'espace en cache et une réplique |	55,00 $/instance |
-|{{site.data.keyword.datacshort}} -
-Standard |	5 Go d'espace en cache et une réplique |	155,00 $/instance |
-|{{site.data.keyword.datacshort}} -
-Premium |	25 Go d'espace en cache et une réplique |	505,00 $/instance|
-|IBM Cloudant® NoSQL DB for {{site.data.keyword.Bluemix_notm}} |	2 Go de stockage de données disponible<br/>50 000 appels API légers gratuits par mois<br/>10 000 appels API lourds gratuits par mois | $1.00 USD/GB<br/>$0.03 USD pour 1000 appels API légers<br/>$0.15 USD pour 1000 appels API lourds |
+|{{site.data.keyword.cloudant_short_notm}} pour {{site.data.keyword.Bluemix_notm}} - Lite|Inclut 20 Go de stockage de données disponible</br>Evolutivité de la capacité de débit mise à disposition par incréments de :</br>100 recherches par seconde</br>50 écritures par seconde</br>5 requêtes par seconde| 1,00 $ USD/Go de stockage de données</br>0,25 $ USD/recherche par seconde</br>0,50 $ USD/écriture par seconde</br>5,00 $ USD/requête par seconde |
 {:caption="Tableau 1. Tarification des ressources" caption-side="top"}
 
 ## Calcul du prix de l'application
@@ -57,33 +51,24 @@ Le prix de l'application peut être calculé comme suit :
 <dt>Deux stratégies {{site.data.keyword.autoscaling}} (processeur et mémoire)</dt>
 <dd>Les stratégies {{site.data.keyword.autoscaling}} sont gratuites.</dd>
 
-<dt>2 Go par mois pour {{site.data.keyword.datacshort}}</dt>
-<dd>Le plan de 50 Mo fourni par le service
-{{site.data.keyword.datacshort}} est gratuit. Toutefois, il ne peut pas couvrir votre
-utilisation
-prévue de 2 Go par mois. Les trois plans payants pour {{site.data.keyword.datacshort}} coûtent une somme définie pour une quantité spécifique d'espace, quelle que soit la quantité d'espace que vous utilisez. Par conséquent, il est judicieux de
-choisir le plan le plus petit correspondant à l'utilisation que vous prévoyez, c'est-à-dire le plan standard de 5 Go. Le coût total est de 155 $ par mois.</dd>
-
-<dt>150 Go par mois pour NoSQL Database</dt>
-<dd>Le prix du service Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} dépend du stockage des données et de la possibilité d'accéder à ces données par différentes méthodes d'API. Les commandes <strong>PUT</strong> et
-<strong>POST</strong> sont considérées comme des appels API lourds alors, que les commandes <strong>GET</strong> sont considérées comme des appels API
-légers.
+<dt>150 Go par mois pour {{site.data.keyword.cloudant_short_notm}}</dt>
+<dd>Le service {{site.data.keyword.cloudant_short_notm}} pour {{site.data.keyword.Bluemix_notm}} dépend du stockage des données et de la possibilité d'accéder à ces données par la capacité de débit mise à disposition définie par les recherches, les écritures et les requêtes par seconde.
 <p>
-Additionnez le nombre de Go et déduisez une franchise gratuite de 2 Go. 148 Go sont facturés par
-mois. Soustrayez la franchise gratuite de 50 000 appels API légers et de 10 000 appels API lourds. Le prix du stockage total inclut les éléments suivants :</p>
+Additionnez le nombre de Go et déduisez une franchise gratuite de 20 Go. 130 Go sont facturés par mois. Le prix du stockage total inclut les éléments suivants :</p>
 <pre class="codeblock">
 <codeblock>
-    148 x 1 = 148 $
-    (450 000/1000) x 0,03 = 13,5 $
-    (90 000/1000) x 0,15 = 13,5 $
+    130 x 1 = 130 $
+    (1 000 / 100) x 0,25 = 2,50 $
+    (500 / 50) x 0,50 = 5,00 $
+    (50 / 5) x 5,00 = 50,00 $
 </codeblock>
 </pre>
 <p>
-Le prix total est de 148 + 13,5 + 13,5 = 175 $.</p></dd>
+Le prix total est 130 + 2,50 + 5,00 + 50,00 = 187,50 $.</p></dd>
 
 <dt>20 Go pour le trafic réseau entrant et sortant</dt>
 <dd>Le trafic réseau entrant et sortant n'est pas facturé.</dd>
 
 </dl>
 
-Une fois tous les éléments ajoutés, le prix total de l'application est de 354,15 $.
+Une fois tous les éléments ajoutés, le prix total de l'application est de 211,65 $.
