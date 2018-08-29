@@ -19,8 +19,7 @@ Suponga que tiene una app web de Node.js con prestaciones de escalabilidad y que
 
 * Cuatro instancias de tiempo de ejecución de 256 MB de Node.js.
 * Dos políticas, un procesador y una memoria de {{site.data.keyword.autoscaling}}.
-* 2 GB al mes de {{site.data.keyword.datacshort}}
-* 150 GB al mes de base de datos NoSQL, 100.000 llamadas de API pesadas y 500.000 llamadas de API ligeras.
+* 150 GB al mes de base de datos {{site.data.keyword.cloudant_short_notm}}, 1.000 búsquedas, 500 escrituras y 50 consultas. 
 * 20 GB de tráfico de red de entrada o de salida
 
 ## Precios para los recursos de {{site.data.keyword.Bluemix_notm}}
@@ -32,12 +31,7 @@ Para dar un ejemplo sencillo, suponga que los precios en la tabla siguiente no f
 |--------|-----------|--------|
 |SDK for Node.js |	375 GB por hora gratuito al mes (compartido entre todos los tiempos de ejecución) |	0,07 USD/GB por hora|
 |{{site.data.keyword.autoscaling}} |	Plan de servicio gratuito para el servicio {{site.data.keyword.autoscaling}} |	Gratuito|
-|{{site.data.keyword.datacshort}} -
-Iniciador |	1 GB de memoria caché y una réplica |	55,00 USD/instancia |
-|{{site.data.keyword.datacshort}} - Estándar |	5 GB de memoria caché y una réplica |	155,00 USD/instancia |
-|{{site.data.keyword.datacshort}} -
-Premium |	25 GB de memoria caché y una réplica |	505,00 USD/instancia|
-|IBM Cloudant® NoSQL DB para {{site.data.keyword.Bluemix_notm}} |	2 GB de almacenamiento gratuito de datos<br/>50.000 llamadas de API ligeras gratuitas al mes<br/>10.000 llamadas de API pesadas gratuitas al mes | 1,00 USD/GB<br/>0,03 USD/1000 llamadas de API ligeras<br/>0,15 USD/1000 llamadas de API pesadas |
+|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite| Incluye 20 GB de almacenamiento de datos gratuitos</br>Escale la capacidad de rendimiento suministrada en incrementos de:</br>100 búsquedas por segundo</br>50 escrituras por segundo</br>5 consultas por segundo | 1,00 USD/GB de almacenamiento de datos</br>0,25 USD/Búsqueda por segundo</br>0,50 USD/Escritura por segundo</br>5,00 USD/Consulta por segundo |
 {:caption="Tabla 1. Precios para los recursos" caption-side="top"}
 
 ## Cálculo del precio de una app
@@ -53,27 +47,24 @@ El precio de la app se puede calcular de la forma siguiente:
 <dt>Dos políticas de {{site.data.keyword.autoscaling}} (procesador y memoria)</dt>
 <dd>Las políticas de {{site.data.keyword.autoscaling}} son gratuitas.</dd>
 
-<dt>2 GB al mes de {{site.data.keyword.datacshort}}</dt>
-<dd>El plan de 50 MB proporcionado por el servicio {{site.data.keyword.datacshort}} es gratuito. Sin embargo, el plan gratuito no cubriría su uso proyectado de 2 GB al mes. Los tres planes de pago para {{site.data.keyword.datacshort}} cuestan una cantidad fija para una cantidad de espacio específica, independientemente de cuánto espacio utilice. Por lo tanto, le interesa elegir el plan mínimo que satisfaga su uso proyectado, que es el plan estándar de 5 GB. El coste total es de 155 dólares al mes.</dd>
-
-<dt>Una base de datos NoSQL de 150 GB al mes</dt>
-<dd>Los cargos de servicio de Cloudant NoSQL DB for {{site.data.keyword.Bluemix_notm}} se basan en el almacenamiento de datos y en la posibilidad de acceder a dichos datos mediante diferentes métodos de API. Los mandatos <strong>PUT</strong> y <strong>POST</strong> se consideran llamadas de API pesadas, pero
-los mandatos <strong>GET</strong> se consideran llamadas de API ligeras.
+<dt>150 GB al mes de {{site.data.keyword.cloudant_short_notm}}</dt>
+<dd>Los cargos del servicio {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} se basan en el almacenamiento de datos y en la posibilidad de acceder a dichos datos mediante la capacidad de rendimiento suministrada, representada en búsquedas, escrituras y consultas por segundo. 
 <p>
-Añada el número de GB y deduzca 2 GB de concesión gratuita. Se cargan 148 GB al mes. Sustraiga la concesión gratuita de 50.000 para llamadas de api ligeras y 10.000 para llamadas de api pesadas. El precio de almacenamiento total incluye las partes siguientes:</p>
+Añada el número de GB y deduzca los 20 GB de concesión gratuita. Se cargan 130 GB al mes. El precio de almacenamiento total incluye las partes siguientes:</p>
 <pre class="codeblock">
 <codeblock>
-    148 x 1 = 148
-    (450,000 / 1000) x 0.03 = 13,5 dólares
-    (90,000 / 1000) x 0.15 = 13,5 dólares
+    130 x 1 = 130$
+    (1000 / 100) x 0,25 = 2,50$
+    (500 / 50) x 0,50 = 5,00$
+    (50 / 5) x 5,00 = 50,00$
 </codeblock>
 </pre>
 <p>
-El precio total es 148 + 13.5 + 13.5 = 175 dólares.</p></dd>
+El precio total es 130 + 2,50 + 5,00 + 50,00 = 187.50$.</p></dd>
 
 <dt>20 GB de tráfico de red de entrada o de salida</dt>
 <dd>El tráfico de red de entrada y salida está libre de cargo adicional.</dd>
 
 </dl>
 
-Cuando se añaden todos los elementos, el precio total de la aplicación es de 354,15 dólares.
+Cuando se añaden todos los elementos, el precio total de la aplicación es de 211,65 dólares.
