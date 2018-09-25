@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-19"
+lastupdated: "2018-07-25"
 
 ---
 
@@ -14,9 +14,6 @@ lastupdated: "2018-07-19"
 
 # FAQs
 {: #billusagefaqs} 
-
-
-
 
 ## How do I update my credit card?
 {: #updatecard}
@@ -107,7 +104,15 @@ Yes, you can cancel your account before your term expires, but note that the rem
 
 You're required to continue paying your monthly charges until the end of your term. To avoid generating overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg) for help with signing up for a new Subscription. 
 
+## Where can I access my invoice?
+{: #access-invoices}
 
+From the menu bar, click **Manage** > **Billing and usage** > **Billing** to access your invoice.
+
+## Why does my usage not match my invoice?
+{: #usage-not-match-invoice}
+
+Your usage might not match your invoice because the months that are used to compare usage are not the same, or perhaps the total amount of the orgs wasn't selected. For more information, see [viewing your usage](/docs/billing-usage/viewing_usage.html#viewingusage). If you still find a discrepency, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](/docs/get-support/howtogetsupport.html#open-ticket).
 
 
 
