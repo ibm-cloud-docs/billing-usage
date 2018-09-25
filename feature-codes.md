@@ -30,7 +30,7 @@ The extra resources or capabilities that are provided vary depending on the part
 
 For linked Pay-As-You-Go and linked Subscription accounts, feature codes are required to add subscription and support entitlement credits. After {{site.data.keyword.Bluemix}} Sales places an order, an email for each subscription and support line item is sent to the quote contact, the provisioning contact, or both. Feature codes must be applied only by the account owner to provision the order. The account owner must apply the subscription feature code to the account before applying the support code.
 
-  * If you didn't receive your feature code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} or email Sales at emailsales@bluemix.net to request for it to be sent again.
+  * If you didn't receive your feature code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
   * If you don't know your seller, the codes are applied in the wrong order, or you experience issues with applying the codes, [contact Support](/docs/get-support/howtogetsupport.html). 
 
 Applying the feature codes ensures that the entitlement credits are added to your account and you don't incur additional overage charges.
