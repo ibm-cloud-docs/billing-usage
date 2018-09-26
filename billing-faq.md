@@ -69,7 +69,7 @@ You can order platform and infrastructure offerings from the {{site.data.keyword
 ## How do I qualify for a discount on a Subscription account? 
 {: #subs-discount}
 
-To qualify for a pricing discount, you must commit to a combined spending and term commitment of $100.00 USD each month for 12 months. 
+To qualify for a pricing discount, you must commit to a combined minimum spending and term commitment of $100.00 USD each month for 12 months. 
 
 ## Is there a monthly minimum amount required for Subscription accounts? 
 {: #subs-minimum}
