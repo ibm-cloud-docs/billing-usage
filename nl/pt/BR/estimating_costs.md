@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-14"
+lastupdated: "2018-09-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Como calcular seus custos
+# Estimando seus custos
 {: #cost}
 
 É possível usar diferentes métodos para estimar o custo do uso de recursos de
