@@ -30,7 +30,7 @@ lastupdated: "2018-07-31"
 
 針對鏈結的隨收隨付制帳戶及鏈結的訂閱帳戶，必須要有特性碼才能新增訂閱及支援授權額度。{{site.data.keyword.Bluemix}} 業務代表下訂單之後，會針對每個訂閱及支援明細行項目傳送電子郵件給報價聯絡人及/或佈建聯絡人。特性碼只能由帳戶擁有者套用才可佈建訂單。帳戶擁有者必須將訂閱特性碼套用至帳戶，然後才能套用支援碼。
 
-  * 如果您未收到特性碼，[請與我們聯絡 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} 或是寄送電子郵件到 emailsales@bluemix.net，要求再寄送一遍。
+  * 如果您未收到特性碼，[請與我們聯絡 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} 或是寄送電子郵件到 CloudDigitalSales@us.ibm.com，要求再寄送一遍。
   * 如果您不知道銷售者、代碼以錯誤的順序套用，或是套用代碼時遇到問題，[請與支援中心聯絡](/docs/get-support/howtogetsupport.html)。 
 
 套用特性碼可確保授權額度新增至您的帳戶，且不會產生額外的超額費用。

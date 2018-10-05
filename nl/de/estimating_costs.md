@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-14"
+lastupdated: "2018-09-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Vorgehensweise zur Kostenberechnung
+# Kosten schätzen
 {: #cost}
 
 Sie können verschiedene Methoden verwenden, um die Kosten für die Verwendung von Infrastructure as a Service-Ressourcen (IaaS) und Platform as a Service-Ressourcen (PaaS) von {{site.data.keyword.Bluemix}} zum Erstellen und Hosten Ihrer Anwendungen zu schätzen.
@@ -41,11 +41,11 @@ Der Preisrechner stellt die folgenden Funktionen bereit:
   * Klicken Sie auf der [Seite 'Preisstruktur' ![Symbol für externen Link](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window} im Bereich zum Erkunden unserer Lösungen auf **Rechner ausprobieren**.
   * Klicken Sie, wenn Sie gerade nicht bei {{site.data.keyword.Bluemix_notm}} angemeldet sind, auf der Homepage von [{{site.data.keyword.Bluemix_notm}} ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net/) auf **Preisstruktur**.
 2. Wählen Sie in der Liste **Infrastruktur** oder **Plattform** die Kategorie der Ressource aus, deren Preis Sie schätzen wollen. Daraufhin werden die Ressourcen der ausgewählten Kategorie angezeigt und Sie können in der Kategorie auch nach einer bestimmten Ressource suchen.
-3. Wählen Sie eine Ressource in der Kategorie aus, um eine Beschreibung dazu anzuzeigen. Bestimmte Ressourcen verfügen über mehrere Optionen. Wenn Sie beispielsweise **Infrastruktur** > **Compute** > **Bare-Metal-Server** auswählen, können Sie eine Auswahl in einer Serverliste treffen.
+3. Wählen Sie eine Ressource in der Kategorie aus, um eine Beschreibung dazu anzuzeigen. Bestimmte Ressourcen verfügen über mehrere Optionen. Wenn Sie beispielsweise **Infrastruktur** > **Compute** > **Bare Metal Server** auswählen, können Sie eine Auswahl in einer Serverliste treffen.
 4. Wählen Sie die Menge der Ressource aus, die hinzugefügt werden soll.
 5. Klicken Sie auf **Zur Schätzung hinzufügen**.
 6. Fügen Sie weitere Ressourcen aus den Kategorien **Infrastruktur** und **Plattform** hinzu, bis Sie alles hinzugefügt haben, was Sie schätzen wollen. In der Anzeige **Schätzung** werden die hinzugefügten Ressourcen, der Preis für die jeweiligen Ressourcen und ein Gesamtpreis angezeigt.
-7. Um optional eine PDF mit den Informationen in der Anzeige **Schätzung** zu erstellen, nachdem Sie Ihre Liste von Ressourcen kompiliert haben, klicken Sie auf **PDF herunterladen**. Sie können beispielsweise eine PDF erstellen, um vor dem Kauf zu überprüfen, welche Ressourcen Sie berechnen, oder um beim Kauf von Ressourcen einen Leitfaden zur Hand zu haben. 
+7. Um optional eine PDF mit den Informationen in der Anzeige **Schätzung** zu erstellen, nachdem Sie Ihre Liste von Ressourcen kompiliert haben, klicken Sie auf **PDF herunterladen**. Sie können beispielsweise eine PDF erstellen, um vor dem Kauf zu überprüfen, welche Ressourcen Sie berechnen, oder um beim Kauf von Ressourcen einen Leitfaden zur Hand zu haben.
 
 
 Wenn Sie nur Plattformressourcen berechnen, können Sie auf **Zum klassischen Rechner wechseln** klicken, um eine Schätzung in einer anderen Währung als USD anzuzeigen. Der klassische Rechner enthält keine Infrastrukturressourcen.

@@ -22,4 +22,5 @@ Abrechnung und Nutzung verwalten
 
     {: .navgroup id="help"}
     billing-faq.md
+    ts_billing.md
     {: .navgroup-end}
