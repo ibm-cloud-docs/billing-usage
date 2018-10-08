@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-14"
+lastupdated: "2018-09-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Cómo calcular sus costes
+# Estimación de sus costes
 {: #cost}
 
 Puede utilizar distintos métodos para estimar el coste de utilizar los recursos de plataforma como servicio (PaaS) e infraestructura como servicio (IaaS) de {{site.data.keyword.Bluemix}} para crear y alojar sus apps.

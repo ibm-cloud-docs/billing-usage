@@ -22,4 +22,5 @@ Gestión de la utilización y la facturación
 
     {: .navgroup id="help"}
     billing-faq.md
+    ts_billing.md
     {: .navgroup-end}
