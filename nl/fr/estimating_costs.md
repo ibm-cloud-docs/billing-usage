@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-14"
+lastupdated: "2018-09-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Calcul des coûts
+# Estimation des coûts
 {: #cost}
 
 Vous pouvez utiliser différentes méthodes pour estimer le coût de l'utilisation de ressources {{site.data.keyword.Bluemix}} PaaS et IaaS afin de générer et d'héberger vos applications.
@@ -29,7 +29,8 @@ Vous pouvez utiliser les méthodes suivantes pour déterminer vos coûts :
 ## Utilisation de la calculatrice de tarification
 {: #pricing-calculator}
 
-Vous pouvez utiliser la calculatrice de tarification pour estimer le coût des ressources PaaS et IaaS avant de réaliser un achat. La calculatrice de tarification fournit les fonctions suivantes :
+Vous pouvez utiliser la calculatrice de tarification pour estimer le coût des ressources PaaS et IaaS avant de réaliser un achat.
+La calculatrice de tarification fournit les fonctions suivantes :
   * Les estimations de coûts qui sont actuellement fournies en devise américaine.
   * Les estimations des ressources IaaS qui sont actuellement disponibles pour les catégories **Calcul** et **Conteneurs**.
   * Les estimations de coûts des ressources qui n'incluent pas de remises.

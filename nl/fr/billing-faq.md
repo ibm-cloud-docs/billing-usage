@@ -3,7 +3,8 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-19"
+
+lastupdated: "2018-09-25"
 
 ---
 
@@ -15,57 +16,50 @@ lastupdated: "2018-07-19"
 # Foire aux questions
 {: #billusagefaqs} 
 
-
-
-
 ## Comment mettre à jour ma carte de crédit ?
 {: #updatecard}
 
-Vous pouvez facilement mettre à jour le mode de paiement associé à votre compte facturable. Dans la console {{site.data.keyword.Bluemix_notm}}, accédez à **Gérer > Facturation et utilisation > Modifier la méthode de paiement**. 
-
-## Les codes de fonction sont-ils identiques aux codes promotionnels ? 
-{: #entercode}
-
-Oui, nous avons récemment renommé les codes promotionnels selon les codes de fonction et vous pouvez toujours les utiliser pour déverrouiller des fonctionnalités {{site.data.keyword.Bluemix_notm}} supplémentaires. Validez votre code de fonction en accédant à **Gérer > Facturation et utilisation > Facturation** dans la console {{site.data.keyword.Bluemix_notm}}. 
+Vous pouvez facilement mettre à jour le mode de paiement associé à votre compte facturable. Sélectionnez l'icône **{{site.data.keyword.avatar}}** ![icône d'avatar](../icons/i-avatar-icon.svg), cliquez sur **Profil**, puis sélectionnez **éditez votre IBMid**. Mettez à jour vos numéros de téléphone et adresse dans l'onglet **Profil**, puis mettez à jour les informations de facturation et les modes de règlement dans l'onglet **Facturation**. 
 
 ## Pourquoi ma carte de crédit ne passe-t-elle pas ?
 {: #addcard}
 
-La protection de votre identité étant une priorité pour nous, nous procédons à des vérifications rigoureuses des cartes de crédit. Le plus simple pour résoudre votre problème est de nous contacter de l'une des manières suivantes. Nous vous poserons quelques questions afin de vérifier votre identité et instaurer un environnement opérationnel. 
+La protection de votre identité étant une priorité pour nous, nous procédons à des vérifications sérieuses des cartes de crédit. Le plus simple pour résoudre votre problème est de nous contacter de l'une des manières suivantes.  
 
-   * Appelez au : 1-866-325-0045 (Sélectionnez l'option 3.)
+   * Appelez au : 1-866-325-0045 (Sélectionnez l'option 3)
    * Envoyez un courrier électronique à : accounting@softlayer.com
+
+## Les codes de fonction sont-ils identiques aux codes promotionnels ? 
+{: #entercode}
+
+Oui, nous avons récemment renommé les codes promotionnels selon les codes de fonction. Validez votre code de fonction en accédant à **Gérer > Facturation et utilisation > Facturation** dans la console {{site.data.keyword.Bluemix_notm}}. 
 
 ## Comment résilier mon compte ?
 {: #cancelmyaccount}
 
-Dans la console, accédez à la page **Gérer > Facturation et utilisation > Facturation** puis cliquez sur **Désactiver le compte**.
+Pour désactiver votre compte, contactez-vous au 1-866-325-0045 et choisissez la troisième option ou ouvrez un [ticket de demande de service](/docs/get-support/howtogetsupport.html#open-ticket). 
 
 ## Comment supprimer mon compte ?
 {: #deleteaccount}
 
-Vous devez contacter le support IBM Cloud pour ouvrir un ticket de demande de service et demander la suppression de votre compte. Si des données sont associées à votre ancien compte et que vous souhaitez les sauvegarder et utiliser un nouveau compte, incluez ces informations dans votre message électronique.
+Contactez le service de support IBM Cloud pour ouvrir un ticket de demande de service et demander la suppression de votre compte. Si des données sont associées à votre ancien compte et que vous souhaitez les déplacer vers un nouveau compte, incluez ces informations dans votre message électronique.
 
 ## A quelles formes de support peut-on accéder ?
 {: #contactsupport}
 
-Pour obtenir de l'aide concernant la mise en route et le fonctionnement dans {{site.data.keyword.Bluemix_notm}} ou l'utilisation de {{site.data.keyword.Bluemix_notm}}, démarrez une discussion avec nous à l'aide de l'icône de discussion de la console. 
+Pour obtenir de l'aide concernant la mise en route et le fonctionnement avec {{site.data.keyword.Bluemix_notm}} ou l'utilisation avec {{site.data.keyword.Bluemix_notm}}, démarrez une discussion avec nous à l'aide de l'icône de discussion de la console. 
 
 Consultez un certain nombre de ressources utiles disponibles dans le [centre de support ![Icône de lien externe](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window}. Depuis ce centre, vous pouvez accéder à Stack Overflow pour envoyer une question à notre communauté de développeurs. Vous pouvez également soumettre un ticket de demande de service.  
-
-
 
 ## Combien d'applications puis-je construire ?
 {: #howmanyapps}
 
-Dans un compte Lite, vos applications peuvent accéder jusqu'à 256 Mo de mémoire d'exécution simultanée. Vous pouvez déployer des applications jusqu'à ce que vous ayez épuisé l'allocation disponible dans le compte Lite. Si vous avez besoin de mémoire supplémentaire, effectuez une mise à niveau vers un compte facturable qui vous octroiera 512 Mo de mémoire d'exécution instantanée gratuite et où vous ne serez facturé que pour l'utilisation en excédent. Le nombre d'applications que vous pouvez construire dans un compte facturable est illimité.
+Dans un compte Lite, vos applications peuvent disposer d'un maximum de 256 Mo de mémoire d'exécution simultanée. Vous pouvez déployer des applications jusqu'à ce que vous ayez épuisé l'allocation disponible dans le compte Lite. Si vous avez besoin de mémoire supplémentaire, effectuez une mise à niveau vers un compte facturable qui vous octroiera 512 Mo de mémoire d'exécution instantanée gratuite et où vous ne serez facturé que pour l'utilisation en excédent. Le nombre d'applications que vous pouvez construire dans un compte facturable est illimité.
 
 ## Que se passe-t-il si mon quota mensuel d'instances de plan Lite est atteint ?
 {: #monthlyquota}
 
-Lorsque la limite de quota relative aux instances de plan Lite est atteinte, le service est suspendu pour le mois concerné. Les limites de quota sont définies au niveau des organisations et non au niveau des instances. Les nouvelles instances créées dans la même organisation reflètent les utilisations depuis les instances précédentes. Les limites de quota sont réinitialisées le premier jour de chaque mois.
-
-
+Lorsque vous atteignez la limite de quota relative aux instances de plan Lite, le service est suspendu pour le mois concerné. Les limites de quota sont définies au niveau des organisations et non au niveau des instances. Les nouvelles instances créées dans la même organisation montrent les utilisations depuis les instances précédentes. Les limites de quota sont réinitialisées le premier jour de chaque mois.
 
 ## Que puis-je commander avec mon compte Abonnement ? 
 {: #subs-order}
@@ -75,7 +69,7 @@ Vous pouvez commander des offres de plateforme et d'infrastructure dans le catal
 ## Comment puis-je bénéficier d'une remise pour un compte Abonnement ? 
 {: #subs-discount}
 
-Pour pouvoir bénéficier d'une remise tarifaire, vous devez opter pour un engagement de 100 USD par mois sur une durée de 12 mois. 
+Pour pouvoir bénéficier d'une remise tarifaire, vous devez opter pour un engagement minimum de 100 USD par mois sur une durée de 12 mois. 
 
 ## Existe-t-il un montant minimal mensuel requis pour les comptes Abonnement ? 
 {: #subs-minimum}
@@ -106,6 +100,16 @@ Oui, vous pouvez annuler votre compte avant la fin de votre engagement mais gard
 {: #subs-spend-before-term-end}
 
 Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. Pour éviter de générer des frais supplémentaires, prenez contact avec le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg) pour obtenir de l'aide si vous souhaitez souscrire un nouvel abonnement. 
+
+## Où puis-je accéder à ma facture ?
+{: #access-invoices}
+
+Depuis la barre de menus, cliquez sur **Gérer** > **Facturation et utilisation** > **Facturation** pour accéder à votre facture.
+
+## Pourquoi mon utilisation ne correspond-elle pas à ma facture ?
+{: #usage-not-match-invoice}
+
+Il est possible que votre utilisation ne corresponde pas à votre facture car les mois utilisés pour comparer l'utilisation ne sont pas les mêmes, ou parce que le montant total de l'organisation n'a pas été sélectionné. Pour plus d'information, voir [Affichage de votre utilisation](/docs/billing-usage/viewing_usage.html#viewingusage). Si vous obtenez encore un résultat différent, contactez-vous au 1-866-325-0045 et choisissez la troisième option, ou ouvrez un [ticket de demande de service](/docs/get-support/howtogetsupport.html#open-ticket).
 
 
 
