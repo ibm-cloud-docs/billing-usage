@@ -3,7 +3,8 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-19"
+
+lastupdated: "2018-09-25"
 
 ---
 
@@ -15,57 +16,50 @@ lastupdated: "2018-07-19"
 # Domande frequenti
 {: #billusagefaqs} 
 
-
-
-
 ## Come aggiorno la mia carta di credito?
 {: #updatecard}
 
-Puoi facilmente aggiornare il metodo di pagamento associato al tuo account fatturabile. Nella console {{site.data.keyword.Bluemix_notm}}, vai a **Gestisci > Fatturazione e utilizzo > Modifica metodo di pagamento**. 
-
-## I codici funzione sono uguali ai codici promozionali? 
-{: #entercode}
-
-Sì, abbiamo recentemente rinominato i codici promozionali in codici funzione e puoi ancora utilizzarli per sbloccare ulteriori funzionalità di {{site.data.keyword.Bluemix_notm}}. Riscatta il tuo codice funzione andando in **Gestisci > Fatturazione e utilizzo > Fatturazione** nella console {{site.data.keyword.Bluemix_notm}}. 
+Puoi facilmente aggiornare il metodo di pagamento associato al tuo account fatturabile. Vai all'icona **{{site.data.keyword.avatar}}** ![Icona Avatar](../icons/i-avatar-icon.svg), fai clic su **Profilo** e seleziona **modifica il tuo ID IBM**. Aggiorna i tuoi indirizzi e numeri di telefono dalla scheda **Profilo** e aggiorna le informazioni di fatturazione e i metodi di pagamento dalla scheda **Fatturazione**. 
 
 ## Perché la mia carta di credito non viene accettata?
 {: #addcard}
 
-Proteggere la tua identità è una priorità per noi. Quindi prendiamo sul serio la verifica delle carte di credito. Il modo più semplice per risolvere il problema è contattarci utilizzando uno dei seguenti metodi. Ti faremo alcune domande per verificare la tua identità e consentirti di ritornare a dedicarti alla tua produttività. 
+Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito. Il modo più semplice per risolvere il problema è contattarci utilizzando uno dei seguenti metodi.  
 
-   * Contattaci: 1-866-325-0045 (Seleziona l'opzione 3.)
+   * Contattaci: 1-866-325-0045 (Seleziona l'opzione 3)
    * Inviaci un'email: accounting@softlayer.com
+
+## I codici funzione sono uguali ai codici promozionali? 
+{: #entercode}
+
+Sì, abbiamo recentemente rinominato i codici promozionali in codici funzione. Riscatta il tuo codice funzione andando in **Gestisci > Fatturazione e utilizzo > Fatturazione** nella console {{site.data.keyword.Bluemix_notm}}. 
 
 ## Come posso eliminare il mio account?
 {: #cancelmyaccount}
 
-Nella console, vai alla pagina **Gestisci > Fatturazione e utilizzo > Fatturazione** e fai clic su **Disattiva account**.
+Per disattivare il tuo account, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un [caso di supporto](/docs/get-support/howtogetsupport.html#open-ticket). 
 
 ## Come posso eliminare il mio account?
 {: #deleteaccount}
 
-Devi contattare il supporto IBM Cloud per aprire un ticket di supporto e richiedere l'eliminazione del tuo account. Se hai dei dati associati al tuo account precedente che vuoi salvare e passare a un nuovo account, includi queste informazioni nell'e-mail.
+Contatta il supporto IBM Cloud per aprire un ticket di supporto e richiedere l'eliminazione del tuo account. Se hai dei dati associati al tuo account precedente che vuoi passare a un nuovo account, includi queste informazioni nell'e-mail.
 
 ## Come ottengo supporto?
 {: #contactsupport}
 
-Per assistenza su come iniziare a lavorare in {{site.data.keyword.Bluemix_notm}} o utilizzando {{site.data.keyword.Bluemix_notm}}, puoi iniziare una conversazione con noi utilizzando l'icona della chat nella console. 
+Per assistenza su come iniziare a lavorare con {{site.data.keyword.Bluemix_notm}} o utilizzare {{site.data.keyword.Bluemix_notm}}, puoi iniziare una conversazione con noi utilizzando l'icona della chat nella console. 
 
 Controlla una serie di risorse utili disponibili nel [Centro di supporto ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window}. Da lì, puoi accedere a Stack Overflow per inviare una domanda alla nostra community di sviluppatori. Puoi anche inoltrare un ticket di supporto.  
-
-
 
 ## Quante applicazioni posso creare?
 {: #howmanyapps}
 
-In un account Lite, le tue applicazioni possono accedere fino a 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non utilizzi tutta la franchigia dell'account Lite disponibile. Se hai bisogno di ulteriore memoria, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale quantità. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
+In un account Lite, le tue applicazioni devono avere fino a un massimo 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non utilizzi tutta la franchigia dell'account Lite disponibile. Se hai bisogno di ulteriore memoria, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale quantità. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
 
 ## Cosa succede se la mia istanza del piano Lite raggiunge la quota mensile?
 {: #monthlyquota}
 
-Il raggiungimento di qualsiasi limite di quota per le istanze del piano Lite sospende il servizio per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione riflettono qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
-
-
+Quando raggiungi un qualsiasi limite di quota per le istanze del piano Lite, il servizio viene sospeso per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione mostrano qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
 
 ## Cosa posso ordinare con il mio account Sottoscrizione? 
 {: #subs-order}
@@ -75,7 +69,7 @@ Puoi ordinare offerte di piattaforma e infrastruttura dal catalogo {{site.data.k
 ## Come mi qualifico per uno sconto su un account Sottoscrizione? 
 {: #subs-discount}
 
-Per qualificarti per uno sconto sul prezzo, devi impegnarti per una spesa e un impegno a termine combinati di $100,00 USD ogni mese per 12 mesi. 
+Per qualificarti per uno sconto sul prezzo, devi impegnarti per una spesa e un impegno a termine minimi combinati di $100,00 USD ogni mese per 12 mesi. 
 
 ## C'è una quantità minima mensile richiesta per gli account Sottoscrizione? 
 {: #subs-minimum}
@@ -106,6 +100,16 @@ Sì, puoi annullare il tuo account prima che scada il tuo termine; tieni però p
 {: #subs-spend-before-term-end}
 
 Sei tenuto a continuare a pagare i tuoi addebiti mensili fino alla fine del tuo termine. Per evitare di generare degli addebiti da eccedenza, contatta il settore [Vendite di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}![Icona link esterno](../icons/launch-glyph.svg) per assistenza con la registrazione per una nuova sottoscrizione. 
+
+## Dove posso accedere alla mia fattura? 
+{: #access-invoices}
+
+Dalla barra dei menu, fai clic su **Gestisci** > **Fatturazione e utilizzo** > **Fatturazione** per accedere alla tua fattura.
+
+## Perché il mio utilizzo non corrisponde alla mia fattura?
+{: #usage-not-match-invoice}
+
+Il tuo utilizzo potrebbe non corrispondere alla tua fattura perché i mesi utilizzati per confrontare l'utilizzo non sono gli stessi o non è stata selezionata la quantità totale di organizzazioni. Per ulteriori informazioni, vedi [Visualizzazione del tuo utilizzo](/docs/billing-usage/viewing_usage.html#viewingusage). Se ancora non corrisponde, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un [caso di supporto](/docs/get-support/howtogetsupport.html#open-ticket).
 
 
 

@@ -30,7 +30,7 @@ lastupdated: "2018-07-31"
 
 对于链接的现买现付帐户和链接的预订帐户，需要使用特征代码来添加预订和支持权利信用值。在 {{site.data.keyword.Bluemix}} 销售人员下订单后，将向报价联系人和/或供应联系人发送有关每个预订和支持行项的电子邮件。特征代码必须由帐户所有者应用才能供应订单。在应用支持代码之前，帐户所有者必须先将预订特征代码应用于帐户。
 
-  * 如果未收到特征代码，请[联系我们 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}，或者向销售人员发送电子邮件 (emailsales@bluemix.net) 以请求再次发送特征代码。
+  * 如果未收到特征代码，请[联系我们 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}，或者向销售人员发送电子邮件 (CloudDigitalSales@us.ibm.com) 以请求再次发送特征代码。
   * 如果您不知道卖方、应用代码的顺序错误，或者在应用代码时遇到问题，请[联系支持人员](/docs/get-support/howtogetsupport.html)。 
 
 应用特征代码可确保将权利信用值添加到帐户中，并且不会发生额外的超额费用。

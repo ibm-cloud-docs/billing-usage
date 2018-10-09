@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-14"
+lastupdated: "2018-09-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# 成本计算方法
+# 估算成本
 {: #cost}
 
 您可以使用不同方法来估算使用 {{site.data.keyword.Bluemix}} 平台即服务 (PaaS) 和基础架构即服务 (IaaS) 资源来构建和托管应用程序的成本。

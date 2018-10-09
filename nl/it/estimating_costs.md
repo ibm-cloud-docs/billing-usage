@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-14"
+lastupdated: "2018-09-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Come calcolare i tuoi costi
+# Stima dei costi
 {: #cost}
 
 Puoi utilizzare differenti metodi per stimare il costo utilizzando le risorse PaaS (platform as a service) e IaaS (infrastructure as a service) {{site.data.keyword.Bluemix}} per creare e ospitare le tue applicazioni.
@@ -22,7 +22,7 @@ Puoi utilizzare differenti metodi per stimare il costo utilizzando le risorse Pa
 
 Puoi utilizzare i seguenti metodi per determinare i tuoi costi:
 * Utilizza il [pricing calculator ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net/pricing/){: new_window} per stimare il costo totale delle risorse dell'infrastruttura e della piattaforma che vuoi utilizzare.
-* Utilizza gli stimatori del costo nella  {{site.data.keyword.pricing_sheet}} {{site.data.keyword.Bluemix_notm}}
+* Utilizza gli stimatori del costo nella {{site.data.keyword.pricing_sheet}} {{site.data.keyword.Bluemix_notm}}
 per visualizzare una stima approssimativa del costo basata sulla dimensione della tua applicazione.
 * Utilizza il calcolatore del costo nella pagina Prezzi per visualizzare i prezzi delle applicazioni accurati basati sul tuo input relativo agli utilizzi di runtime e servizi.
 * Calcola il costo manualmente.
