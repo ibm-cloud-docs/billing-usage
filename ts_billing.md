@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-09-25"
+lastupdated: "2018-10-18"
 
 ---
 
@@ -40,4 +40,4 @@ Check your access role by completing the following steps:
 3. In the **Access policies** section, you can view your assigned access policies. 
 4. In the **Role** column, check to see whether you have an account owner or billing manager role.  
 
-If you don't have the necessary role, contact your account owner to get your role changed to view your billing information.  
+For more information about access, see [Cloud IAM roles](/docs/iam/users_roles.html#iamusermanrol).
