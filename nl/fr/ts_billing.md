@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-09-25"
+lastupdated: "2018-10-18"
 
 ---
 
@@ -37,7 +37,7 @@ Vérifiez le rôle d'accès dont vous disposez en procédant comme suit :
 
 1. Accédez à **Gérer** > **Sécurité** > **Identity and Access**, puis cliquez sur **Sécurité**.
 2. Cliquez sur votre nom dans la liste Utilisateurs.
-3. Dans la section **Règles d'accès**, vous pouvez visualiser les règles d'accès qui vous sont affectées.  
+3. Dans la section **Règles d'accès**, vous pouvez visualiser les règles d'accès qui vous sont affectées. 
 4. Dans la colonne **Rôle**, vérifiez que vous disposez d'un rôle de type propriétaire de compte ou responsable de la facturation.  
 
-Si ce n'est pas le cas, contactez votre propriétaire de compte pour qu'il change votre rôle et que vous puissiez afficher les informations de facturation.  
+Pour plus d'informations sur les accès, voir [Rôles IAM Cloud](/docs/iam/users_roles.html#iamusermanrol).
