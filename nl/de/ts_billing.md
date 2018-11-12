@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-09-25"
+lastupdated: "2018-10-18"
 
 ---
 
@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zugriffsrolle zu überprüfen:
 
 1. Rufen Sie **Verwalten** > **Sicherheit** > **Identität und Zugriff** auf und klicken Sie auf **Benutzer**.
 2. Klicken Sie in der Benutzerliste auf Ihren Namen.
-3. Im Bereich **Zugriffsrichtlinie** können Sie Ihre zugeordneten Zugriffsrichtlinien anzeigen.  
+3. Im Bereich **Zugriffsrichtlinie** können Sie Ihre zugeordneten Zugriffsrichtlinien anzeigen. 
 4. Überprüfen Sie in der Spalte **Rolle**, ob Sie über die Rolle eines Kontoeigners oder Abrechnungsmanagers verfügen.  
 
-Wenn Sie nicht über die erforderliche Rolle verfügen, bitten Sie den Kontoeigner, Ihre Rolle so zu ändern, dass Sie Ihre Abrechnungsinformationen anzeigen können.  
+Weitere Informationen zum Zugriff finden Sie unter [Cloud IAM-Rollen](/docs/iam/users_roles.html#iamusermanrol).
