@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-09-25"
+lastupdated: "2018-10-18"
 
 ---
 
@@ -40,4 +40,5 @@ Verifique sua função de acesso concluindo as seguintes etapas:
 3. Na seção **Políticas de acesso**, é possível visualizar suas políticas de acesso atribuídas. 
 4. Na coluna **Função**, verifique se você tem a função de proprietário de conta ou gerente de faturamento.  
 
-Caso você não tenha a função necessária, entre em contato com o proprietário da conta para mudar sua função e permitir que visualize suas informações de faturamento.  
+Para obter mais informações sobre o acesso, consulte [Funções
+do Cloud IAM](/docs/iam/users_roles.html#iamusermanrol).
