@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-09-25"
+lastupdated: "2018-10-18"
 
 ---
 
@@ -40,4 +40,4 @@ Compruebe el rol de acceso completando los siguientes pasos:
 3. En la sección **Políticas de acceso**, puede ver sus políticas de acceso asignadas. 
 4. En la columna **Rol**, compruebe si tiene el rol de gestor de facturación o propietario de cuenta.  
 
-Si no tiene el rol necesario, póngase en contacto con el propietario de la cuenta para que cambie su rol y pueda ver la información de facturación.  
+Para obtener más información sobre el acceso, consulte [Roles de Cloud IAM](/docs/iam/users_roles.html#iamusermanrol).
