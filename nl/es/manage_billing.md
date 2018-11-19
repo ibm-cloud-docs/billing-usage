@@ -21,7 +21,7 @@ lastupdated: "2018-06-11"
 Si ha enlazado una cuenta de {{site.data.keyword.Bluemix}} y otra de SoftLayer, utilice el portal de clientes para realizar pagos puntuales, cambiar los detalles de su tarjeta de pago, ver los artículos facturados y sus facturas.
 {: shortdesc}
 
-Las opciones de facturación y utilización que se visualizan en la consola de {{site.data.keyword.Bluemix_notm}} pueden diferir según si tiene una cuenta Lite o si no tiene una cuenta enlazada.
+Las opciones de facturación y uso que se visualizan en la consola de {{site.data.keyword.Bluemix_notm}} pueden diferir según si tiene una cuenta Lite o si no tiene una cuenta enlazada.
 {: tip}
 
 ## Efectuar un pago
@@ -29,7 +29,7 @@ Las opciones de facturación y utilización que se visualizan en la consola de {
 
 Puede realizar un pago puntual siempre que lo desee. El pago puede ser por la totalidad del saldo o un importe parcial. Los detalles que especifique para el pago no se registran. Siga los pasos siguientes para realizar un pago único:
 
-1. Desde la barra de menús, pulse **Gestionar** > **Facturación y utilización** > **Realizar un pago**.  
+1. Desde la barra de menús, pulse **Gestionar** > **Facturación y uso** > **Realizar un pago**.  
 2. En el campo **Importe del pago**, especifique la cantidad que desea pagar.
 3. Seleccione un método de pago:
  * Pago con una tarjeta de crédito. Especifique los detalles y la dirección de facturación de la tarjeta. A continuación, pulse **Realizar pago con tarjeta de crédito**.

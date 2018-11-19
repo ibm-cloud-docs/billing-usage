@@ -38,7 +38,7 @@ La aplicación de los códigos de características garantiza que los créditos d
 
 Complete los pasos siguientes para aplicar un código:
 
-1. En la consola de {{site.data.keyword.Bluemix_notm}}, vaya a **Gestión > Facturación y uso > Facturación**.
+1. En la consola de {{site.data.keyword.Bluemix_notm}}, vaya a **Gestionar > Facturación y uso > Facturación**.
 2. Especifique los detalles del código de característica y pulse **Aplicar código**. Si tiene una cuenta de Pago según uso enlazada o una cuenta de Suscripción enlazada, recuerde aplicar el código de suscripción antes del código de soporte.
 
 Cada código se puede canjear una sola vez antes de la fecha de caducidad del código. La titularidad se añade a la cuenta del usuario de IBMid que aplica los códigos. 
