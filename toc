@@ -1,22 +1,26 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage/how_charged.html"}
+{: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage/how_charged.html" path="billing-usage"}
 Managing billing and usage
+
+    {: .navgroup id="learn"}
+    scenario.md
+    {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    Billing
-        how_charged.md
-        linking_accounts.md
-        feature-codes.md
+    Managing your costs
         estimating_costs.md
-        scenario.md
+        how_charged.md
+        notifications.md
+
+    manage_billing.md
 
     {: .topicgroup}
-    Usage
+    Managing your usage
         viewing_usage.md
-        manage_billing.md
+        infra_usage.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

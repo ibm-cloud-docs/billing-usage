@@ -1,11 +1,9 @@
 ---
 
-
-
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-04-12"
+  years: 2017, 2018
+lastupdated: "2018-11-16"
 
 ---
 
@@ -14,27 +12,45 @@ lastupdated: "2018-04-12"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
+
 # Viewing your usage
 {: #viewingusage}
 
-As an account owner, or an organization billing manager, you can view the estimated charges for all resources that are used per month in your organizations from the **Usage Dashboard** page in the {{site.data.keyword.Bluemix}} console. 
+You can view your usage details, including a summary of estimated charges for all resources, services, and support plans that are used per month in your organizations, from the Usage page in the {{site.data.keyword.Bluemix}} console.
+{:shortdesc}
 
-To access the **Usage Dashboard** page, click **Manage** > **Billing and Usage** > **Usage**. You can view a summary of the resource usage for the account. Billing managers can view the details for only the organizations in which they are billing managers.
+Billing managers can see the details for only the organizations in which they are assigned the Billing manager role. 
+{: note}
 
-   * Click **View instances** to view a summary of estimated charges for all instances of a specific resource. 
-   * Click **View instance** to view a detailed summary of estimated charges for each instance of the specific resource type. You can also view the detailed monthly usage metrics for the selected instance. 
+
+## Viewing usage permissions
+{: #view-usage-permissions}
+
+For resources that are managed by Cloud Foundry, the Billing manager role must be applied at the org level. To see {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) resource usage, the Viewer role must be applied to the resource group. For more information about permission roles, see [IAM access](/docs/iam/users_roles.html#userroles), [Cloud foundry access](/docs/iam/cfaccess.html#cfaccess), or [Classic infrastructure permissions](/docs/iam/infrastructureaccess.html#infrapermission).
+
+## Viewing service usage details 
+{: #services}
+
+In the services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps: 
+
+1. Go to **Manage > Billing and usage**, and select **Usage**. 
+2. Click **View instances** to view all the instances of a specific type of resource.  
+3. To see a detailed summary of estimated charges for each instance of a specific resource type, click **View instance details**. You can also see the detailed monthly usage metrics for the selected instance. 
 
 The account owner is charged for the total usage that is incurred across all organizations at the end of each billing cycle. Each billing cycle lasts one month.
 
-Account owners can filter the usage summary by organization. If you are an account owner, set **Group** to **Account** to see the usage for the entire account for a 12-month period. Select a particular month to see the usage for that month.  The charges that are shown represent the amount that you, as the account owner, are billed for that month.
+Account owners can filter the usage summary by group and select the time frame for usage. The charges that are shown represent the amount that you, as the account owner, are billed for that month.
 
-If you select a specific organization from the **Group** list, you can see the total usage for that organization, including any usage as part of a free tier. The charges that are shown for the organization are not the charges that you're actually billed. The free tier usage is shown as free at the account level, but not at the organizational level. Therefore, when you view the organizational usage, you see the real usage for that organization, including both free and charged usage. All organizational usage is rolled up to the account usage after the free tier is removed.
+If you select a specific organization from the **Filter by group** list, you can see the total usage for that organization, including any usage as part of a free tier. The free tier usage is shown as free at the account level, but not at the organizational level. When you view the organizational usage, you see the real usage for that organization, which includes both free and charged usage. All organizational usage is rolled up to the account usage after the free tier is removed.
 
-As an account manager of a Pay-As-You-Go account, you can set spending notifications against the total cost of your account, for your runtime, services, and for individual services, excluding third-party services. You receive notifications when you reach 80%, 90%, and 100% of the spending thresholds that you specify. For more information, see [Setting notifications](/docs/account/notifications.html).
+The account manager of a Pay-As-You-Go account can set spending notifications against the total cost of the account, for runtime, services, and for individual services, excluding third-party services. For more information, see [Setting spending notifications](/docs/billing-usage/notifications.html).
 
-## Viewing credits
-{: #credits}
+## Exporting your usage details to a `.csv` file
+{: #export-csv}
 
-As an account owner or a billing manager, you can use the Usage Dashboard page to see any credits for your account.
+You can export a summary of your usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. 
 
-To open the Usage Dashboard page, click **Manage** > **Billing and Usage** > **Usage**. The dashboard displays any credits, if they exist, and when they expire.
+1. Go to **Manage > Billing and usage**, and select **Usage**.
+2. Click **Export CSV**.  
+
+
