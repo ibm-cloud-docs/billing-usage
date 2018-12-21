@@ -25,7 +25,7 @@ You can estimate the costs of classic infrastructure offerings if you have a Pay
 
 Complete the following steps to estimate your costs. 
 
-  1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://console.cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the offering that you're interested in.
+  1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the offering that you're interested in.
   2. Depending on the offering, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, a informational page that describes various features is displayed. Click **Continue**.
   3. From the offering details page, regardless of offering type, select your pricing plan and enter other configuration details.
   4. Choose one of the following options:
