@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-10-18"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -13,6 +13,11 @@ lastupdated: "2018-10-18"
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tsSymptoms: .tsSymptoms} 
+{:tsCauses: .tsCauses} 
+{:tsResolve: .tsResolve}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
+
 
 # Resolução de problemas para gerenciar faturamento e uso
 {: #troubleshoot}
@@ -20,25 +25,25 @@ lastupdated: "2018-10-18"
 Problemas gerais ao gerenciar seu faturamento e uso podem incluir a autoridade necessária para acessar suas informações de faturamento. Em muitos casos, é possível recuperar-se do problema seguindo algumas etapas simples.
 {:shortdesc}
 
-## Não é possível acessar informações de faturamento
+
+## Por que não posso acessar informações de faturamento?
 {: #cannot-access-billing-info}
+{: troubleshoot}
 
-### O que está acontecendo
+Quando você tenta acessar suas informações de faturamento, como pagamentos e faturas, você obtém uma mensagem informando que a função não está disponível.
+{: tsSymptoms}
 
-Ao tentar acessar suas informações de faturamento, você obtém uma mensagem de erro dizendo que não está autorizado a visualizar as informações de faturamento da conta.
+Isso acontece porque você não tem autorização para visualizar as informações de faturamento para a conta. Deve-se ser proprietário de uma conta, gerente de faturamento de organização do Cloud Foundry ou ter uma política do IAM em todos os serviços de gerenciamento de conta com a função de administrador designada.
+{: tsCauses}
 
-### Por que está acontecendo
+É possível visualizar informações de faturamento em qualquer conta da qual você seja um proprietário. Um gerenciador de faturamento é capaz de visualizar informações de faturamento para uma organização do Cloud Foundry. E, para recursos ativados pelo IAM, deve-se ter uma política do IAM em todos os serviços de gerenciamento de conta com a função de Administrador designada. 
 
-Deve-se ser proprietário de uma conta ou gerente de faturamento de uma organização. 
+Verifique seu acesso concluindo as etapas a seguir: 
 
-### Como corrigir
+  1. Acesse **Gerenciar ** > **Acesso (IAM)** e selecione **Usuários**. 
+  2. Clique em seu nome na página Usuários.
+  3. Clique em **Políticas de acesso** para visualizar suas políticas de acesso do IAM designadas.
+  4. Clique em **Acesso do Cloud Foundry** e expanda as linhas para suas organizações designadas para ver se você tem uma função de proprietário da Conta ou de gerente de faturamento.
 
-Verifique sua função de acesso concluindo as seguintes etapas: 
-
-1. Acesse **Gerenciar** > **Segurança** > **Identidade e acesso** e clique em **Usuários**.
-2. Clique em seu nome na lista Usuários.
-3. Na seção **Políticas de acesso**, é possível visualizar suas políticas de acesso atribuídas. 
-4. Na coluna **Função**, verifique se você tem a função de proprietário de conta ou gerente de faturamento.  
-
-Para obter mais informações sobre o acesso, consulte [Funções
-do Cloud IAM](/docs/iam/users_roles.html#iamusermanrol).
+Para obter mais informações sobre o acesso ao IAM, consulte [Funções do IAM da nuvem](/docs/iam/users_roles.html#userroles). E, para obter mais informações sobre o acesso do Cloud Foundry, consulte [Funções do Cloud Foundry](/docs/iam/cfaccess.html#cfaccess).
+{: tsResolve}

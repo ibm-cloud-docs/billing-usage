@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -23,6 +23,7 @@ lastupdated: "2018-04-12"
 * 1 カ月当たり 150 GB の {{site.data.keyword.cloudant_short_notm}} データベース、1,000 件のルックアップ、500 件の書き込み、および 50 件の照会。 
 * 20 GB のインバウンドまたはアウトバウンドのネットワーク・トラフィック
 
+
 ## {{site.data.keyword.Bluemix_notm}} リソースの価格
 {: #sample_resources}
 
@@ -32,10 +33,12 @@ lastupdated: "2018-04-12"
 |--------|-----------|--------|
 |SDK for Node.js |	1 月あたり 375 GB 時間無料 (すべてのランタイム間で共有) |	$0.07 (米ドル)/GB 時間|
 |{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} サービスの無料サービス・プラン |	無料|
-|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - ライト| 20 GB の無料データ・ストレージを含む</br>プロビジョンされたスループット容量を以下の単位でスケール:</br>1 秒当たり 100 件のルックアップ</br>1 秒当たり 50 件の書き込み</br>1 秒当たり 5 件の照会 | $1.00 USD/GB のデータ・ストレージ</br>$0.25 USD/1 秒当たりのルックアップ</br>$0.50 USD/1 秒当たりの書き込み</br>$5.00 USD/1 秒当たりの照会|
+|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - ライト| 20 GB の無料データ・ストレージを含む</br>プロビジョンされたスループット容量を以下の単位でスケール:</br>1 秒当たり 100 件のルックアップ</br>1 秒当たり 50 件の書き込み</br>1 秒当たり 5 件の照会 | $1.00 USD/GB のデータ・ストレージ</br>$0.25 USD/1 秒当たりのルックアップ</br>$0.50 USD/1 秒当たりの書き込み</br>$5.00 USD/1 秒当たりの照会 |
 {:caption="表 1. リソースの価格設定" caption-side="top"}
 
+
 ## アプリ価格の計算
+{: #calc-app-price}
 
 アプリの価格は、次の方法で計算することができます。
 
@@ -50,9 +53,9 @@ GB 時間ごとにランタイムに課金します。 1 月あたりに使用�
 <dd>{{site.data.keyword.autoscaling}} ポリシーは無料です。</dd>
 
 <dt>1 月あたり 150 GB の {{site.data.keyword.cloudant_short_notm}}</dt>
-<dd>{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} のサービス料金は、データ・ストレージと、1 秒あたりのルックアップ、書き込み、および照会によって示されるプロビジョニングされたスループット容量によって、そのデータにアクセスする機能に基づきます。
+<dd>{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} のサービス料金は、データ・ストレージと、1 秒あたりのルックアップ、書き込み、および照会によって示されるプロビジョニングされたスループット容量によって、そのデータにアクセスする機能に基づきます。 
 <p>
-GB 数を合計して、20 GB の無料許容量を減算します。1 月あたり 130 GB が課金されます。ストレージの総額には、次のものが含まれています。</p>
+GB 数を合計して、20 GB の無料許容量を減算します。 1 月あたり 130 GB が課金されます。 ストレージの総額には、次のものが含まれています。</p>
 <pre class="codeblock">
 <codeblock>
     130 x 1 = $130

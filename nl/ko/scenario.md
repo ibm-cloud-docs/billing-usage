@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -22,6 +22,7 @@ lastupdated: "2018-04-12"
 * 월별 150GB {{site.data.keyword.cloudant_short_notm}} 데이터베이스, 1,000개의 검색, 500개의 쓰기 및 50개의 조회. 
 * 20GB의 인바운드 또는 아웃바운드 네트워크 트래픽
 
+
 ## {{site.data.keyword.Bluemix_notm}} 리소스의 가격
 {: #sample_resources}
 
@@ -31,10 +32,12 @@ lastupdated: "2018-04-12"
 |--------|-----------|--------|
 |SDK for Node.js |	매월 375GB-시간 무료(모든 런타임에서 공유됨) |	$0.07 USD/GB-시간|
 |{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 서비스에 대한 무료 서비스 플랜 |	무료|
-|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - 라이트| 20GB의 사용 가능한 데이터 스토리지 포함</br>프로비저닝된 처리량 용량을 다음과 같은 증분으로 스케일링합니다.</br>초당 100개의 검색</br>초당 50개의 쓰기</br>초당 5개의 조회| $1.00USD/GB의 데이터 스토리지</br>$0.25USD/초당 검색</br>$0.50USD/초당 쓰기</br>$5.00USD/초당 조회|
-{:caption="표 1. 리소스 가격 책정" caption-side="top"}
+|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite| 20GB의 사용 가능한 데이터 스토리지 포함</br>프로비저닝된 처리량 용량을 다음과 같은 증분으로 스케일링합니다.</br>초당 100개의 검색</br>초당 50개의 쓰기</br>초당 5개의 조회 | $1.00USD/GB의 데이터 스토리지</br>$0.25USD/초당 검색</br>$0.50USD/초당 쓰기</br>$5.00USD/초당 조회 |
+{:caption="표 1. 리소스 가격" caption-side="top"}
+
 
 ## 앱 가격 계산
+{: #calc-app-price}
 
 앱 가격은 다음과 같은 방법으로 계산될 수 있습니다.
 
@@ -48,7 +51,7 @@ lastupdated: "2018-04-12"
 <dd>{{site.data.keyword.autoscaling}} 정책은 무료입니다.</dd>
 
 <dt>매월 150GB {{site.data.keyword.cloudant_short_notm}}</dt>
-<dd>{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} 서비스 비용은 초당 검색, 쓰기 및 조회로 표시되는 프로비저닝된 처리량 용량별로 해당 데이터에 액세스하는 기능 및 데이터 스토리지를 기반으로 청구됩니다.
+<dd>{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} 서비스 비용은 초당 검색, 쓰기 및 조회로 표시되는 프로비저닝된 처리량 용량별로 해당 데이터에 액세스하는 기능 및 데이터 스토리지를 기반으로 청구됩니다. 
 <p>
 GB 수를 더한 다음 20GB 무료 사용량을 빼십시오. 매달 130GB가 청구됩니다. 총 스토리지 가격에는 다음과 같은 파트가 포함됩니다.</p>
 <pre class="codeblock">

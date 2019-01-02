@@ -4,90 +4,51 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-25"
+lastupdated: "2018-11-16"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
 # Estimando seus custos
 {: #cost}
 
-É possível usar diferentes métodos para estimar o custo do uso de recursos de
-plataforma como serviço (PaaS) e de infraestrutura como serviço (IaaS) do {{site.data.keyword.Bluemix}} para construir e hospedar seus
-apps.
+É possível usar o estimador de custo para estimar o custo de ofertas do {{site.data.keyword.Bluemix}} customizando os planos para suas necessidades.
 {:shortdesc}
 
-É possível usar os métodos a seguir para determinar seus custos:
-* Use a [calculadora de precificação
-![Ícone de link externo](../icons/launch-glyph.svg)](https://console.bluemix.net/pricing/){: new_window} para
-estimar o custo total dos recursos de plataforma e de infraestrutura que você deseja utilizar.
-* Use os estimadores de custo no {{site.data.keyword.Bluemix_notm}}
-{{site.data.keyword.pricing_sheet}} para ver uma estimativa aproximada do custo com base no tamanho de
-seu app.
-* Use a calculadora de custo na página Precificação para ver os preços de apps precisos com base em sua
-entrada de usos de tempo de execução e de serviço.
-* Calcule seu custo manualmente.
+É possível estimar os custos das ofertas de infraestrutura clássica se você tiver uma conta Pré-paga ou Assinatura. Para fazer upgrade de sua conta Lite, consulte [Fazendo upgrade de sua conta](/docs/account/account_settings.html#upgrading-account).
 
-## Usando a calculadora de precificação
-{: #pricing-calculator}
+Conclua as etapas a seguir para estimar seus custos. 
 
-É possível usar a calculadora de precificação para estimar o custo de muitos recursos de plataforma e
-de infraestrutura antes de fazer uma compra.
-A calculadora de precificação fornece as funções a seguir:
-  * Estimativas de custo que são atualmente fornecidas na moeda USD.
-  * Estimativas para recursos de infraestrutura que estão atualmente disponíveis para as
-categorias **Cálculo** e **Contêineres**.
-  * Estimativas de custo de recursos que não incluem descontos atualmente.
-  * Estimativas de custos são fornecidas para propósitos de planejamento.
+  1. Acesse o [catálogo](https://console.cloud.ibm.com/catalog){: new_window} do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") e selecione a oferta na qual estiver interessado.
+  2. Dependendo da oferta, uma página informativa temporária pode ser exibida. Por exemplo, se você selecionar {{site.data.keyword.baremetal_short}}, uma página informativa que descreve vários recursos será exibida. Clique em **Continuar**.
+  3. Na página de detalhes da oferta, independentemente do tipo de oferta, selecione seu plano de precificação e insira outros detalhes de configuração.
+  4. Selecione uma das opções a seguir:
 
-1. Acesse a calculadora de precificação em uma das seguintes maneiras:
-  * Na [Página de precificação
-![Ícone de link externo](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window}, clique
-em **Tentar a calculadora** na seção Explorar nossas soluções.
-  * Se você não estiver atualmente com login efetuado no {{site.data.keyword.Bluemix_notm}},
-clique em **Precificação** na página inicial do
-[{{site.data.keyword.Bluemix_notm}}
-![Ícone de link externo](../icons/launch-glyph.svg)](https://console.bluemix.net/).
-2. Nas listas **Infraestrutura** ou **Plataforma**, selecione a
-categoria do recurso que você deseja precificar. Os recursos na categoria que você selecionou são mostrados e
-também é possível procurar na categoria por um recurso específico.
-3. Selecione um recurso na categoria para ver uma descrição dele. Alguns recursos possuem múltiplas opções. Por exemplo, se você selecionar **Infraestrutura** > **Cálculo** > **Servidores bare metal**, será possível escolher entre uma lista de servidores.
-4. Selecione a quantidade do recurso a ser incluída.
-5. Clique em **Incluir na estimativa**.
-6. Continue incluindo recursos nas categorias **Infraestrutura** e **Plataforma** até que você inclua o que deseja estimar. O painel **Estimativa** mostra os recursos que você incluiu, o preço de cada um e um preço total.
-7. Como opção, para criar um PDF das informações no painel **Estimar** quando você tiver concluído a compilação de sua lista de recursos, clique em **Fazer download do PDF**. Talvez você deseje criar um PDF, por exemplo, para revisar os recursos que está precificando antes de comprar ou usar como um guia quando estiver comprando recursos.
+    a. Clique em **Incluir para estimar** > **Salvar**. Lá, é possível retornar para o catálogo e selecionar ofertas adicionais para incluir em sua estimativa. 
+    
+    Em qualquer ponto, é possível clicar no ícone Estimativa de custo ![Ícone Estimativa](../icons/Estimator.svg) no menu do console para obter um resumo de seus custos estimados.
+    {: tip}
+    
+    b. Clique em **Criar** se você estiver pronto para iniciar a criação de instâncias da oferta. 
 
+## Visualizando suas cotações
+{: #quotes}
 
-Se você está precificando somente os recursos de plataforma, para ver uma estimativa em uma moeda diferente de USD, é possível clicar em **Procurando a calculadora clássica?**. A calculadora clássica não inclui recursos de infraestrutura.
-{: tip}
+É possível gerar e visualizar cotações apenas para os complementos {{site.data.keyword.baremetal_short}}, Virtual Server e Gateway. Qualquer usuário com acesso à conta pode visualizar cotações.
 
-### Usando a calculadora clássica para recursos de plataforma
-{: #calculator}
-
-Para calcular os custos de recursos de sua plataforma em uma moeda diferente de USD, é possível usar a
-calculadora clássica. A calculadora clássica não fornece estimativas de precificação para recursos de
-infraestrutura.
-
-1. Acesse o {{site.data.keyword.Bluemix_notm}} {{site.data.keyword.pricing_sheet}}.
-2. Selecione uma das opções na infraestrutura para suportar todas as suas cargas de trabalho na seção.
-
-Para usar a calculadora, digite seu uso mensal projetado dos recursos listados, por exemplo, o número de instâncias ou de notificações push. A calculadora exibe o preço de sua entrada imediatamente. Também é possível ajustar a calculadora para exibir custos anuais, em vez de mensais.
-
-## Calculando seus custos manualmente
-{: #manual}
-
-Você pode desejar estimar seus custos do {{site.data.keyword.Bluemix_notm}} para entender melhor como os custos do {{site.data.keyword.Bluemix_notm}} são calculados. É possível calcular o preço total do uso do {{site.data.keyword.Bluemix_notm}} para construir e hospedar seu app considerando os preços do tempo de execução e os serviços que ele usa. Como os preços de tempos de execução e de serviços às vezes mudam, deve-se consultar as informações
-mais recentes sobre a folha de precificação do {{site.data.keyword.Bluemix_notm}} ao
-calcular o preço total.
+  1. Gere uma cotação clicando em **Salvar como cotação** na seção Resumo do pedido na página de detalhes da oferta. Ou entre em contato com um representante de vendas do {{site.data.keyword.Bluemix_notm}}.
+  2. Visualize sua cotação acessando **Gerenciar > Faturamento e uso** e selecione **Cotações**. Se você tiver acesso, será possível comprar a oferta cotada clicando na cotação e confirmando o pedido.
 
 ## Moedas de faturamento suportadas
+{: supported-bill-currencies}
 
-A tabela a seguir lista as moedas de faturamento que estão disponíveis.
+A tabela a seguir lista as moedas de faturamento suportadas.
 
 |Código ISO 4217| Moeda|
 |-------------|---------|
@@ -108,5 +69,4 @@ A tabela a seguir lista as moedas de faturamento que estão disponíveis.
 |ZAR |	  Rand sul-africano|
 {:caption="Tabela 1. Moedas suportadas" caption-side="top"}
 
-Se você tiver vinculado suas contas do {{site.data.keyword.Bluemix_notm}} e do SoftLayer, a única fatura que receberá será apenas em dólares americanos (US$). Para obter mais informações, consulte [Faturamento consolidado para contas vinculadas](/docs/account/linking_accounts.html).
-{: tip}
+

@@ -4,19 +4,23 @@
 {: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage/how_charged.html" path="billing-usage"}
 請求および使用量の管理
 
+    {: .navgroup id="learn"}
+    scenario.md
+    {: .navgroup-end}
+
     {: .navgroup id="howto"}
     {: .topicgroup}
-    請求処理
-        how_charged.md
-        linking_accounts.md
-        feature-codes.md
+    コストの管理
         estimating_costs.md
-        scenario.md
+        how_charged.md
+        notifications.md
+
+    manage_billing.md
 
     {: .topicgroup}
-    使用量
+    使用量の管理
         viewing_usage.md
-        manage_billing.md
+        infra_usage.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
