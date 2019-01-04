@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -17,10 +17,11 @@ lastupdated: "2018-04-12"
 
 Suponga que tiene una app web de Node.js con prestaciones de escalabilidad y que la app utiliza varios servicios que suministra {{site.data.keyword.Bluemix}}. En este ejemplo, podrá aprender a calcular el coste real de la app. La app web utiliza los servicios y elementos de {{site.data.keyword.Bluemix_notm}} siguientes:
 
-* Cuatro instancias de tiempo de ejecución de 256 MB de Node.js.
-* Dos políticas, un procesador y una memoria de {{site.data.keyword.autoscaling}}.
+* Cuatro instancias de tiempo de ejecución de 256 MB de Node.js
+* Dos políticas, un procesador y una memoria de {{site.data.keyword.autoscaling}}
 * 150 GB al mes de base de datos {{site.data.keyword.cloudant_short_notm}}, 1.000 búsquedas, 500 escrituras y 50 consultas. 
 * 20 GB de tráfico de red de entrada o de salida
+
 
 ## Precios para los recursos de {{site.data.keyword.Bluemix_notm}}
 {: #sample_resources}
@@ -34,12 +35,14 @@ Para dar un ejemplo sencillo, suponga que los precios en la tabla siguiente no f
 |{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite| Incluye 20 GB de almacenamiento de datos gratuitos</br>Escale la capacidad de rendimiento suministrada en incrementos de:</br>100 búsquedas por segundo</br>50 escrituras por segundo</br>5 consultas por segundo | 1,00 USD/GB de almacenamiento de datos</br>0,25 USD/Búsqueda por segundo</br>0,50 USD/Escritura por segundo</br>5,00 USD/Consulta por segundo |
 {:caption="Tabla 1. Precios para los recursos" caption-side="top"}
 
+
 ## Cálculo del precio de una app
+{: #calc-app-price}
 
 El precio de la app se puede calcular de la forma siguiente:
 
 <dl>
-<dt>Cuatro instancias de tiempo de ejecución de 256 MB de Node.js.</dt>
+<dt>Cuatro instancias de tiempo de ejecución de 256 MB de Node.js</dt>
 <dd>Cargos de {{site.data.keyword.Bluemix_notm}} para un tiempo de ejecución por GB por hora. El número de GB utilizados al mes es de <code>4 x 256 = 1024 MB o 1 GB al mes</code>. Suponga que hay <code>24 x 30 = 720 horas en un mes</code>, por consiguiente se le factura a la aplicación <code>1 x 720 = 720 GB por hora</code>.
 <p>
 375 GB por hora están incluidos en la concesión gratuita al mes, compartidos en todos los tiempos de ejecución de {{site.data.keyword.Bluemix_notm}}. Por consiguiente, el coste total para el tiempo de ejecución es de <code>0,07 dólares x (720-375) = 24,15 dólares</code>.</p></dd>

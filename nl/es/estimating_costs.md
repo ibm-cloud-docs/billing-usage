@@ -4,70 +4,51 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-25"
+lastupdated: "2018-11-16"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
 # Estimación de sus costes
 {: #cost}
 
-Puede utilizar distintos métodos para estimar el coste de utilizar los recursos de plataforma como servicio (PaaS) e infraestructura como servicio (IaaS) de {{site.data.keyword.Bluemix}} para crear y alojar sus apps.
+Puede utilizar el estimador de costes para calcular el coste de las ofertas de {{site.data.keyword.Bluemix}} personalizando los planes para ajustarlos a sus necesidades.
 {:shortdesc}
 
-Puede utilizar los métodos siguientes para determinar los costes:
-* Utilice la [calculadora de precios![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net/pricing/){: new_window} para estimar el coste total de los recursos de plataforma e infraestructura que desea utilizar.
-* Utilice los estimadores de costes de la {{site.data.keyword.pricing_sheet}} de {{site.data.keyword.Bluemix_notm}} para ver una estimación aproximada del coste en función del tamaño de la app.
-* Utilice la calculadora de costes de la página Precios para ver precios precisos de la app en función de la entrada del tiempo de ejecución y del uso de los servicios.
-* Calcule el coste manualmente.
+Puede estimar los costes de las ofertas de la infraestructura clásica si tiene una cuenta de pago según uso o de suscripción. Para actualizar su cuenta Lite, consulte [Actualización de la cuenta](/docs/account/account_settings.html#upgrading-account).
 
-## Uso de la calculadora de precios
-{: #pricing-calculator}
+Siga los pasos siguientes para estimar sus costes. 
 
-Puede utilizar la calculadora de precios para estimar el coste de los recursos de plataforma e infraestructura antes de realizar una compra.
-La calculadora de precios proporciona las siguientes funciones:
-  * Estimaciones de costes que se proporcionan en USD.
-  * Estimaciones para recursos de infraestructura que están disponibles en las categorías **Cálculo** y **Contenedores**.
-  * Estimaciones de coste de recursos que actualmente no incluyen descuentos.
-  * Estimaciones de costes para fines de planificación.
+  1. Vaya al {{site.data.keyword.Bluemix_notm}} [catálogo](https://console.cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") y seleccione la oferta en la que está interesado.
+  2. En función de la oferta, es posible que aparezca una página de información intermedia. Por ejemplo, si selecciona {{site.data.keyword.baremetal_short}}, aparece una página de información en la que se describen distintas características. Pulse **Continuar**.
+  3. En la página de detalles de la oferta, independientemente del tipo de oferta, seleccione su plan de precios y especifique otros detalles de la configuración.
+  4. Elija una de estas opciones:
 
-1. Acceda a la calculadora de precios en una de las siguientes formas:
-  * Desde la [página Tarifas![Icono de enlace externo](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window}, pulse **Probar la calculadora** desde la sección Explorar nuestras soluciones.
-  * Si no ha iniciado sesión en {{site.data.keyword.Bluemix_notm}}, pulse **Tarifas** desde la [ página de inicio de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net/).
-2. En las listas **Infraestructura** o **Plataforma**, seleccione la categoría del recurso para el que desea establecer un precio. Se muestran los recursos de la categoría que ha seleccionado, y también puede buscar la categoría de un recurso específico.
-3. Seleccione un recurso de la categoría para ver una descripción del mismo. Algunos recursos tienen varias opciones. Por ejemplo, si selecciona **Infraestructura** > **Calcular** > **Servidores nativos**, podrá elegir de una lista de servidores.
-4. Seleccione la cantidad del recurso que desea añadir.
-5. Pulse **Añadir a la estimación**.
-6. Continúe añadiendo recursos de las categorías **Infraestructura** y **Plataforma** hasta que añada lo que desee estimar. El panel **Estimación** muestra los recursos que ha añadido, el precio de cada uno y un precio total.
-7. Opcionalmente, para crear un PDF de la información del panel **Estimación** cuando haya terminado de compilar la lista de recursos, pulse **Descargar PDF**. Puede que desee crear un PDF, por ejemplo, para revisar los recursos de los que está estableciendo el precio antes de comprar o para utilizar como una guía al adquirir los recursos.
+    a. Pulse **Añadir a la estimación** > **Guardar**. Desde ahí puede volver al catálogo y seleccionar otras ofertas para añadirlas a su estimación. 
+    
+    En cualquier momento puede pulsar el icono del estimador de costes ![Icono del estimador](../icons/Estimator.svg) en el menú de la consola para ver un resumen de sus costes estimados. 
+    {: tip}
+    
+    b. Pulse **Crear** si está listo para empezar a crear instancias de la oferta. 
 
+## Visualización de sus presupuestos
+{: #quotes}
 
-Si solo está estableciendo el precio de los recursos de plataforma, puede pulsar **¿Está buscando una calculadora clásica?** para ver una estimación en una moneda que no sea USD. La calculadora clásica no incluye recursos de infraestructura.
-{: tip}
+Solo puede generar y ver presupuestos para los complementos {{site.data.keyword.baremetal_short}}, servidor virtual y pasarela. Cualquier usuario con acceso a la cuenta puede ver presupuestos.
 
-### Uso de la calculadora clásica para recursos de plataforma
-{: #calculator}
-
-Para calcular los costes del recurso de plataforma en una moneda que no sea USD, puede utilizar la calculadora clásica. La calculadora clásica no proporciona estimaciones de precio para recursos de infraestructura.
-
-1. Vaya a la {{site.data.keyword.pricing_sheet}} de {{site.data.keyword.Bluemix_notm}}.
-2. Seleccione una de las opciones de la sección Infraestructura para dar soporte a todas las cargas de trabajo.
-
-Para utilizar la calculadora, escriba el uso mensual proyectado de los recursos listados; por ejemplo, el número de instancias o notificaciones por push. La calculadora muestra inmediatamente el precio de la entrada. También puede ajustar la calculadora para que muestre costes anuales en lugar de costes mensuales.
-
-## Cálculo manual de los costes
-{: #manual}
-
-Es posible que desee calcular los costes {{site.data.keyword.Bluemix_notm}} usted mismo para entender mejor cómo se calculan los costes en {{site.data.keyword.Bluemix_notm}}. Puede calcular el precio total derivado de utilizar {{site.data.keyword.Bluemix_notm}} para crear y alojar su app teniendo en cuenta los precios de tiempo de ejecución y los servicios que utiliza. Los precios de los tiempos de ejecución y de los servicios pueden cambiar a veces; por consiguiente, debe hacer referencia a la información más reciente en el precio de hoja de precios de {{site.data.keyword.Bluemix_notm}} a la hora de calcular el precio de la hoja total.
+  1. Para generar un presupuesto, pulse **Guardar como presupuesto** en la sección Resumen del pedido en la página de detalles de la oferta. También puede ponerse en contacto con un representante de ventas de {{site.data.keyword.Bluemix_notm}}.
+  2. Para ver su presupuesto, vaya a **Gestionar > Facturación y uso** y seleccione **Presupuestos**. Si tiene acceso, puede adquirir la oferta presupuestada pulsando el presupuesto y confirmando el pedido.
 
 ## Monedas de facturación soportadas
+{: supported-bill-currencies}
 
-La tabla siguiente lista las monedas de facturación disponibles.
+La tabla siguiente contiene las monedas de facturación admitidas.
 
 |Código ISO 4217| Moneda|
 |-------------|---------|
@@ -88,5 +69,4 @@ La tabla siguiente lista las monedas de facturación disponibles.
 |ZAR |	  Rand sudafricano|
 {:caption="Tabla 1. Monedas soportadas" caption-side="top"}
 
-Si ha enlazado las cuentas de {{site.data.keyword.Bluemix_notm}} y SoftLayer, la única factura que recibirá estará solo en dólares de Estados Unidos (USD). Para obtener más información, consulte [Facturación consolidada para cuentas enlazadas](/docs/account/linking_accounts.html).
-{: tip}
+
