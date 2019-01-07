@@ -4,19 +4,23 @@
 {: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage/how_charged.html" path="billing-usage"}
 Gestione della fatturazione e dell'utilizzo
 
+    {: .navgroup id="learn"}
+    scenario.md
+    {: .navgroup-end}
+
     {: .navgroup id="howto"}
     {: .topicgroup}
-    Fatturazione
-        how_charged.md
-        linking_accounts.md
-        feature-codes.md
+    Gestione dei tuoi costi
         estimating_costs.md
-        scenario.md
+        how_charged.md
+        notifications.md
+
+    manage_billing.md
 
     {: .topicgroup}
-    Utilizzo
+    Gestione del tuo utilizzo
         viewing_usage.md
-        manage_billing.md
+        infra_usage.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -15,48 +15,50 @@ lastupdated: "2018-04-12"
 {:tip: .tip}
 {:new_window: target="_blank"}
 
-# Modalità di addebito
+
+# Modalità degli addebiti a tuo carico
 {: #charges}
 
-Gli addebiti variano a seconda delle risorse utilizzate da una specifica opzione di servizio, runtime, contenitore o supporto. Le risorse possono essere il numero di chiamate API, il numero di istanze, la
-memoria, l'archiviazione e così via. {{site.data.keyword.Bluemix}} fornisce anche degli stimatori del costo dettagliati e un calcolatore dei costi accurato per aiutarti a pianificare i tuoi addebiti. 
+Gli addebiti variano a seconda delle risorse utilizzate da una specifica opzione di servizio, runtime, contenitore o supporto. Le risorse possono essere il numero di chiamate API, il numero di istanze, la memoria o l'archiviazione. {{site.data.keyword.Bluemix}} fornisce degli stimatori del costo dettagliati per aiutarti a pianificare i tuoi addebiti.
+{:shortdesc}
 
-Dopo aver creato le tue applicazioni, puoi controllare il costo effettivo nella pagina **Gestisci** > **Fatturazione e utilizzo** > **Utilizzo** > **Dashboard di utilizzo**. Con un account fatturabile {{site.data.keyword.Bluemix_notm}}, gli addebiti a tuo carico sono basati sull'elaborazione, sui contenitori e sui servizi utilizzati nella tua organizzazione. Potresti essere invitato da altri utenti {{site.data.keyword.Bluemix_notm}}
-a partecipare ad organizzazioni sotto un account differente. Se crei delle applicazioni o utilizzi dei servizi nelle organizzazioni alle quali sei invitato, l'utilizzo che ne consegue viene addebitato all'account che contiene tali organizzazioni. Puoi avere ulteriori informazioni su un addebito specifico dalla pagina dei dettagli della risorsa.
+
+Dopo aver creato le tue risorse , puoi controllare il costo effettivo. Vai a **Gestisci > Fatturazione e utilizzo** e seleziona **Utilizzo**. Con un account fatturabile {{site.data.keyword.Bluemix_notm}}, gli addebiti a tuo carico sono basati sul calcolo, sui contenitori e sui servizi utilizzati dalla tua organizzazione. Potresti essere invitato da altri utenti {{site.data.keyword.Bluemix_notm}}
+a partecipare ad organizzazioni sotto un account differente. L'utilizzo delle applicazioni o dei servizi che utilizzi nelle organizzazioni a cui sei invitato vengono addebitati all'account che contiene tali organizzazioni. Puoi visualizzare ulteriori informazioni su uno specifico addebito dalla pagina dei dettagli di ciascuna risorsa
 
 Vengono applicati diversi tipi di addebiti a seconda delle funzioni di {{site.data.keyword.Bluemix_notm}} che stai utilizzando. La seguente tabella fornisce una panoramica di alto livello:
 
-| Tipo di addebito | Descrizione | Funzioni {{site.data.keyword.Bluemix_notm}} che utilizzano questo tipo di addebito | Esempio |
+| Tipo di addebito | Descrizione | Tipo di risorsa | Esempio |
 |------------------|------------------|--------------------------|--------------------------|
-| Fisso | Il prezzo forfettario è basato su un addebito mensile concordato che non viene adeguato. | Servizi  | Data Cache ha un piano fisso che viene addebitato a una tariffa mensile fissa. |
-| Misurato | Il prezzo a utilizzo misurato è basato sul numero di GB-ore utilizzati per i runtime e sul numero di GB-ore e sulla quantità di indirizzi IP e archiviazione per i contenitori. | Servizi, elaborazione e contenitori | Per il servizio Push, la quota di utilizzo che supera la franchigia mensile viene addebitata. |
-|  A livelli   |  Alcuni piani prezzi sono basati su un modello di prezzi a livelli, quindi puoi ottenere uno sconto basato sui
+| Fisso | Il prezzo forfettario è basato su un addebito mensile concordato che non viene adeguato. | Servizi  | Per i server Bare Metal, sono disponibili dei piani fissi da cui scegliere e tali piani vengono addebitati a una tariffa mensile fissa. |
+| Misurato | Il prezzo a utilizzo misurato è basato sul numero di GB-ore utilizzati per i runtime e sul numero di indirizzi IP e archiviazione per i contenitori. | Servizi, elaborazione e contenitori | Per il servizio Push, la quota di utilizzo che supera la franchigia mensile viene addebitata. |
+| A livelli | Alcuni piani prezzi sono basati su un modello di prezzi a livelli, quindi puoi ottenere uno sconto basato sui
 volumi in base al tuo utilizzo effettivo. I servizi possono offrire dei piani prezzi di livello a blocchi, graduale o semplice. | Servizi | Il prezzo a livelli viene di norma utilizzato per le metriche di addebito di cui è prevista una quantità elevata al mese, come le chiamate API. |
 | Riservato | Il prezzo riservato è basato su un impegno a lungo termine per un servizio, in modo da consentirti di ottenere un prezzo scontato. Con un piano riservato, ottieni un'istanza del servizio dedicato facile da configurare, distribuire e consegnare in ambiente {{site.data.keyword.Bluemix_notm}} pubblico. | Servizi | DB2 on Cloud ha dei piani riservati.|
 {:caption="Tabella 1. Addebiti basati sulle funzioni" caption-side="top"}
 
+
 ## Piani Lite
 {: #liteplans}
 
-I piani Lite, disponibili negli account Lite e Pagamento a consumo, sono strutturati come quota gratuita. Puoi lavorare tranquillamente sui tuoi progetti senza il rischio di generare una fattura accidentale. La quota potrebbe essere applicabile per un periodo di tempo specifico, ad esempio un mese, o su una base di utilizzo una tantum. Il seguente elenco fornisce alcuni esempi di quote del piano Lite:
+I piani Lite sono strutturati come una quota gratuita. Puoi lavorare tranquillamente sui tuoi progetti senza il rischio di generare una fattura accidentale. La quota potrebbe essere applicabile per un periodo di tempo specifico, ad esempio un mese, o su una base di utilizzo una tantum. Il seguente elenco fornisce alcuni esempi di quote del piano Lite:
 
    * Numero massimo di dispositivi registrati
    * Numero massimo di bind di applicazione
    * Limite di archiviazione di dati crittografati, ad esempio 1 GB
    * Capacità produttiva fornita
 
-Puoi facilmente trovare i piani Lite nel catalogo. Per impostazione predefinita, tutti i servizi con un piano Lite vengono visualizzati con una tag Lite ![Tag Lite](../icons/Lite.svg). Seleziona un servizio per visualizzare i dettagli della quota per il piano Lite associato.
+Puoi facilmente trovare i servizi per i piani Lite nel catalogo. Per impostazione predefinita, tutti i servizi con un piano Lite vengono visualizzati con una tag Lite ![Tag Lite](../icons/Lite.svg). Seleziona un servizio per visualizzare i dettagli della quota per il piano Lite associato.
+
 
 ## Addebiti per le risorse di elaborazione
 {: #compute}
 
-L'addebito è basato sul tempo di esecuzione delle tue applicazioni e sulla memoria utilizzata, calcolata come *GB-ore*. GB-ore è il calcolo
-del numero di istanze applicazione, moltiplicato per la memoria per ogni singola
-istanza, moltiplicato per le ore di esecuzione delle istanze. Puoi personalizzare il numero di
+L'addebito a tuo carico è basato sul tempo di esecuzione delle tue applicazioni e sulla memoria utilizzata, in *GB-ore*. GB-ore è il calcolo del numero di istanze dell'applicazione, moltiplicato per la memoria per ogni singola istanza, moltiplicato per le ore di esecuzione delle istanze. Puoi personalizzare il numero di
 istanze e la quantità di memoria per ogni singola istanza in base alle tue
-esigenze. Puoi anche aggiungere memoria o istanze per eseguire un ridimensionamento per un numero maggiore di utenti. L'addebito finale è in GB-ora: il numero di istanze dell'applicazione moltiplicato per la memoria per ogni singola istanza, moltiplicato per le ore di esecuzione.
+esigenze. Puoi anche aggiungere memoria o istanze per eseguire un ridimensionamento per un numero maggiore di utenti. Per ottenere l'importo addebitato, prendi le tue istanze dell'applicazione moltiplicate per la memoria per ogni singola istanza e per le ore di esecuzione.
 
-Considera ad esempio un runtime che costa $0,07 per GB-ora e due istanze di 512 MB, in esecuzione per 30 giorni (720 ore). Queste risorse costerebbero $24,15 USD, compresa la franchigia di 375 GB-ore, con i seguenti calcoli:
+Considera, ad esempio, un runtime che costa $0,07 per ogni GB-ora in due istanze da 512 MB, in esecuzione per 30 giorni (720 ore). Queste risorse costerebbero $24,15 USD, compresa la franchigia di 375 GB-ore, con i seguenti calcoli:
 
 ```
 2 istanze x 0,5 GB x 720 ore = 720 GB-ore.
@@ -64,14 +66,13 @@ Considera ad esempio un runtime che costa $0,07 per GB-ora e due istanze di 512 
 ```
 
 ## Addebiti per i servizi
-{: #services}
+{: #charges-services}
 
 Molti servizi
-includono delle franchigie mensili. L'utilizzo dei servizi che non è incluso come parte
-della franchigia viene addebitato in uno dei seguenti modi:
+includono delle franchigie mensili. L'utilizzo dei servizi non inclusi come parte della franchigia viene addebitato in uno dei seguenti modi:
 <dl>
 <dt>Addebiti fissi</dt>
-    <dd>Selezioni un piano e paghi in base a una tariffa forfettaria. Ad esempio, il servizio Data Cache viene addebitato a una tariffa forfettaria.</dd>
+    <dd>Selezioni un piano e paghi in base a una tariffa forfettaria. Ad esempio, i server Bare Metal vengono addebitati a una tariffa forfettaria.</dd>
 <dt>Addebiti misurati</dt>
     <dd>Paghi in base al consumo che fai di runtime e servizi. Ad esempio, con il
 servizio Push, la quota di utilizzo che supera la franchigia mensile viene
@@ -87,16 +88,14 @@ addebitata.</dd>
 {: #simple_tier}
 
 Nel modello di livello semplice, il prezzo unitario è determinato
-dal livello in cui rientra la quantità da te utilizzata. Il prezzo
-totale è tale quantità moltiplicata per il prezzo unitario nel
-livello di competenza. Ad esempio:
+dal livello in cui rientra la quantità da te utilizzata. Il prezzo totale è tale quantità moltiplicata per il prezzo unitario nel livello di competenza, ad esempio:
 
 | Quantità di elementi | Prezzo unitario per tutti gli elementi |
 |-------------------|--------------------------|
-| Livello 1: 1 - 1000  | $1 USD                   |
-| Livello 2: 1001 - 2000    |    $0,90 USD                      |
-| Livello 3: 2001 - 3000                  |   $0,75 USD                       |
-| Livello 4: 3001 - 4000           |      $0,60 USD                    |
+| Livello 1: 1 - 1000 | $1 USD |
+| Livello 2: 1001 - 2000 | $0,90 USD |
+| Livello 3: 2001 - 3000 | $0,75 USD |
+| Livello 4: 3001 - 4000 | $0,60 USD |
 |Livello 5: &gt; 4000 | $0,40 USD |
 {:caption="Tabella 2. Tabella prezzi di livello semplice" caption-side="top"}
 
@@ -116,9 +115,7 @@ illustra quanto paghi con un piano basato su un modello di prezzi di livello sem
 {: #graduated_tier}
 
 Nel modello di livello graduale, il prezzo unitario per livello si riduce
-man mano che il tuo livello di utilizzo aumenta. Il prezzo totale è dato
-dagli addebiti cumulativi per ciascun livello di utilizzo, che consiste nella
-tua quantità moltiplicata per il prezzo unitario al livello di appartenenza. Ad esempio:
+man mano che il tuo livello di utilizzo aumenta. Il prezzo totale è dato dagli addebiti cumulativi per ciascun livello di utilizzo, che consiste nella tua quantità moltiplicata per il prezzo unitario al livello di competenza, ad esempio:
 
 | Quantità di elementi |	Prezzo unitario per gli elementi nel livello|
 |-------------------|------------------------------------|
@@ -145,8 +142,7 @@ illustra quanto paghi con un piano basato su un modello di prezzi di livello gra
 {: #block_tier}
 
 Nel modello di livello a blocchi, il prezzo è un addebito fisso per la
-quantità da te impiegata entro uno specifico livello di utilizzo. Il prezzo totale è l'addebito
-per il livello di utilizzo da te scelto, indipendentemente dal tuo utilizzo effettivo. Ogni livello
+quantità da te impiegata entro uno specifico livello di utilizzo. Il prezzo totale è l'addebito per il tuo livello di utilizzo, indipendentemente dal tuo utilizzo effettivo. Ogni livello
 successivo fornisce un rapporto prezzo-quantità più basso. Ad esempio:
 
 |Quantità di elementi |	Prezzo totale per tutti gli elementi|

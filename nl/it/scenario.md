@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -22,6 +22,7 @@ Supponi di avere un'applicazione web Node.js con funzionalità di ridimensioname
 * 150 GB al mese di database {{site.data.keyword.cloudant_short_notm}}, 1.000 ricerche, 500 scritture e 50 query. 
 * 20 GB di traffico di rete in entrata o in uscita
 
+
 ## Prezzi per le risorse {{site.data.keyword.Bluemix_notm}}
 {: #sample_resources}
 
@@ -36,7 +37,9 @@ sono in dollari statunitensi.
 |{{site.data.keyword.cloudant_short_notm}} per {{site.data.keyword.Bluemix_notm}} - Lite| Include 20 GB di archiviazione dati gratuita</br>Ridimensiona la capacità produttiva fornita con incrementi di:</br>100 ricerche al secondo</br>50 scritture al secondo</br>5 query al secondo | $1,00 USD/GB di archiviazione dati</br>$0,25 USD/Ricerca al secondo</br>$0,50 USD/Scrittura al secondo</br>$5,00 USD/Query al secondo |
 {:caption="Tabella 1. Prezzi per le risorse" caption-side="top"}
 
+
 ## Calcolo del prezzo dell'applicazione
+{: #calc-app-price}
 
 Il prezzo dell'applicazione può essere calcolato nel seguente modo:
 
@@ -53,7 +56,7 @@ al mese, condivisi tra tutti i runtime {{site.data.keyword.Bluemix_notm}}. Il co
 sono gratuite.</dd>
 
 <dt>150 GB al mese di {{site.data.keyword.cloudant_short_notm}}</dt>
-<dd>Gli addebiti del servizio {{site.data.keyword.cloudant_short_notm}} per {{site.data.keyword.Bluemix_notm}} si basano sull'archiviazione dei dati e sulla capacità di accedere a tali dati mediante la capacità produttiva fornita denotata da ricerche, scritture e query al secondo.
+<dd>Gli addebiti del servizio {{site.data.keyword.cloudant_short_notm}} per {{site.data.keyword.Bluemix_notm}} si basano sull'archiviazione dei dati e sulla capacità di accedere a tali dati mediante la capacità produttiva fornita denotata da ricerche, scritture e query al secondo. 
 <p>
 Somma il numero di GB e sottrai la franchigia di 20 GB. L'addebito mensile è di 130 GB. Il prezzo totale dell'archiviazione
 include le seguenti parti:</p>
