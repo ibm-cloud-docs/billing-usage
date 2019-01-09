@@ -4,19 +4,23 @@
 {: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage/how_charged.html" path="billing-usage"}
 管理計費及用量
 
+    {: .navgroup id="learn"}
+    scenario.md
+    {: .navgroup-end}
+
     {: .navgroup id="howto"}
     {: .topicgroup}
-    計費
-        how_charged.md
-        linking_accounts.md
-        feature-codes.md
+    管理成本
         estimating_costs.md
-        scenario.md
+        how_charged.md
+        notifications.md
+
+    manage_billing.md
 
     {: .topicgroup}
-    用量
+    管理用量
         viewing_usage.md
-        manage_billing.md
+        infra_usage.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
