@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-10-18"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -13,6 +13,11 @@ lastupdated: "2018-10-18"
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tsSymptoms: .tsSymptoms} 
+{:tsCauses: .tsCauses} 
+{:tsResolve: .tsResolve}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
+
 
 # Traitement des incidents liés à la gestion de la facturation et de l'utilisation
 {: #troubleshoot}
@@ -20,24 +25,25 @@ lastupdated: "2018-10-18"
 Les problèmes d'ordre général relatifs à la gestion de la facturation et de l'utilisation peuvent nécessité que l'autorité requise accède vos informations de facturation. Dans de nombreux cas, ce type de problème peut être résolu en quelques opérations simples.
 {:shortdesc}
 
-## Impossible d'accéder aux informations de facturation
+
+## Pourquoi ne puis-je pas accéder aux informations de facturation ?
 {: #cannot-access-billing-info}
+{: troubleshoot}
 
-### Quel est le problème ?
+Lorsque vous tentez d'accéder à vos informations de facturation (paiements et factures, par exemple), un message d'erreur s'affiche indiquant que la fonction n'est pas disponible.
+{: tsSymptoms}
 
-Lorsque vous tentez d'accéder à vos informations de facturation, vous obtenez un message d'erreur indiquant que vous n'êtes pas autorisé à afficher les informations de facturation pour le compte.
+Cette situation survient si vous ne disposez pas de l'autorisation vous permettant d'afficher les informations de facturation pour le compte. Vous devez être propriétaire d'un compte, responsable de la facturation d'organisation Cloud Foundry ou disposer d'une règle IAM pour tous les services de gestion de compte avec le rôle Administrateur affecté.
+{: tsCauses}
 
-### Motifs
+Vous pouvez consulter les informations de facturation de tout compte dont vous êtes propriétaire. Un responsable de la facturation peut afficher les informations de facturation concernant une organisation Cloud Foundry. De plus, pour les ressources gérées par IAM, vous devez disposer d'une règle IAM concernant tous les services de gestion de compte avec le rôle Administrateur affecté. 
 
-Vous devez être propriétaire de compte ou responsable de la facturation d'une organisation. 
+Vérifiez votre accès en procédant comme suit : 
 
-### Procédure de résolution du problème
+  1. Accédez à **Gérer** > **Accès (IAM)** puis sélectionnez **Utilisateurs**. 
+  2. Cliquez sur votre nom sur la page Utilisateurs.
+  3. Cliquez sur **Règles d'accès** pour afficher vos règles d'accès IAM affectées.
+  4. Cliquez sur **Accès Cloud Foundry** et développez les lignes pour vos organisations affectées afin de voir si vous disposez du rôle de propriétaire de compte ou de responsable de la facturation.
 
-Vérifiez le rôle d'accès dont vous disposez en procédant comme suit : 
-
-1. Accédez à **Gérer** > **Sécurité** > **Identity and Access**, puis cliquez sur **Sécurité**.
-2. Cliquez sur votre nom dans la liste Utilisateurs.
-3. Dans la section **Règles d'accès**, vous pouvez visualiser les règles d'accès qui vous sont affectées. 
-4. Dans la colonne **Rôle**, vérifiez que vous disposez d'un rôle de type propriétaire de compte ou responsable de la facturation.  
-
-Pour plus d'informations sur les accès, voir [Rôles IAM Cloud](/docs/iam/users_roles.html#iamusermanrol).
+Pour plus d'informations sur l'accès IAM, voir [Rôles Cloud IAM](/docs/iam/users_roles.html#userroles). Pour plus d'informations sur l'accès Cloud Foundry, voir [Rôles Cloud Foundry](/docs/iam/cfaccess.html#cfaccess).
+{: tsResolve}

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -22,6 +22,7 @@ lastupdated: "2018-04-12"
 * 每月 150 GB（针对 {{site.data.keyword.cloudant_short_notm}} 数据库，1,000 个查找、500 次写入和 50 个查询）。 
 * 20 GB 入站或出站网络流量
 
+
 ## {{site.data.keyword.Bluemix_notm}} 资源的价格
 {: #sample_resources}
 
@@ -34,7 +35,9 @@ lastupdated: "2018-04-12"
 |{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - 轻量|包含 20 GB 免费数据存储</br>按以下增量扩展供应的吞吐量容量：</br>每秒 100 个查找</br>每秒 50 次写入</br>每秒 5 个查询|1.00 美元/GB 数据存储</br>每秒 0.25 美元/查找</br>每秒 0.50 美元/写入</br>每秒 5.00 美元/查询|
 {:caption="表 1. 资源的定价" caption-side="top"}
 
+
 ## 计算应用程序价格
+{: #calc-app-price}
 
 可以使用以下方式来计算应用程序的价格：
 

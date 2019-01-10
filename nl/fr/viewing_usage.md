@@ -1,11 +1,9 @@
 ---
 
-
-
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-04-12"
+  years: 2017, 2018
+lastupdated: "2018-11-16"
 
 ---
 
@@ -14,35 +12,48 @@ lastupdated: "2018-04-12"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
+
 # Affichage de votre utilisation
 {: #viewingusage}
 
-En tant que propriétaire de compte ou responsable de la facturation pour une organisation, vous pouvez vous servir de la page **Tableau de bord de l'utilisation** dans la console {{site.data.keyword.Bluemix}} afin d'afficher les frais estimés pour toutes les ressources utilisées par mois dans vos organisations. 
+Vous pouvez consulter vos informations d'utilisation (notamment un récapitulatif des frais estimés pour les ressources, les services et les plans de support utilisés par mois dans vos organisations) sur la page Utilisation de la console {{site.data.keyword.Bluemix}}.
+{:shortdesc}
 
-Pour accéder à la page **Tableau de bord de l'utilisation**, cliquez sur **Gérer** > **Facturation et utilisation** > **Utilisation**. Un récapitulatif de l'utilisation des ressources est affiché pour le compte. Les responsables de la facturation peuvent afficher uniquement les détails relatifs aux organisations pour lesquelles ils sont responsables de la
-facturation.
+Les responsables de la facturation peuvent voir uniquement les informations relatives aux organisations dans lesquelles ils disposent de ce rôle.
+{: note}
 
-   * Cliquez sur **Afficher les instances** pour afficher un récapitulatif des frais estimés pour toutes les instances d'une ressource donnée. 
-   * Cliquez sur **Afficher l'instance** pour afficher un récapitulatif détaillé des frais estimés pour chaque instance du type de ressource spécifique. Vous pouvez également afficher des métriques d'utilisation mensuelles détaillées pour l'instance sélectionnée. 
+
+## Affichage des droits d'utilisation
+{: #view-usage-permissions}
+
+Pour les ressources gérées par Cloud Foundry, le rôle de responsable de la facturation doit être appliqué au niveau de l'organisation. Pour voir l'utilisation des ressources {{site.data.keyword.Bluemix}} Identity and Access Management (IAM), le rôle Afficheur doit être appliqué au groupe de ressources. Pour plus d'informations sur les rôles, voir [Accès IAM](/docs/iam/users_roles.html#userroles), [Accès Cloud Foundry](/docs/iam/cfaccess.html#cfaccess) ou [Droits d'infrastructure classique](/docs/iam/infrastructureaccess.html#infrapermission).
+
+## Affichage des informations concernant l'utilisation du service 
+{: #services}
+
+Dans la section Services, vous pouvez consulter la liste de vos services ainsi que les coûts estimés associés à ces services. Pour afficher un récapitulatif des frais estimés pour toutes les instances d'une ressource donnée, procédez comme suit : 
+
+1. Accédez à **Gérer > Facturation et utilisation** puis sélectionnez **Utilisation**. 
+2. Cliquez sur **Afficher les instances** pour voir toutes les instances d'un type spécifique de ressource.  
+3. Pour voir un récapitulatif détaillé des frais estimés de chaque instance d'un type de ressource spécifique, cliquez sur **Afficher les détails de l'instance**. Vous pouvez également consulter des métriques d'utilisation mensuelles détaillées pour l'instance sélectionnée. 
 
 Le propriétaire de compte est facturé pour l'utilisation totale occasionnée dans toutes les organisations à la fin de chaque cycle de
 facturation. Chaque
 cycle de facturation dure un mois.
 
-Les propriétaires de compte peuvent filtrer le récapitulatif de l'utilisation par organisation. Si vous êtes un propriétaire de compte, affectez à **Afficher par** la valeur **Compte** afin d'afficher l'utilisation de tout le compte sur une période de 12 mois. Sélectionnez un mois particulier afin d'afficher l'utilisation correspondante.  Les frais affichés représentent la somme qui vous sera facturée pour ce mois, en tant que propriétaire de compte.
+Les propriétaires de compte peuvent filtrer le récapitulatif d'utilisation par groupe et sélectionner la période pour l'utilisation. Les frais affichés représentent la somme qui vous sera facturée pour ce mois, en tant que propriétaire de compte.
 
-Si vous sélectionnez une organisation spécifique dans la liste **Groupe**, l'utilisation totale pour cette organisation apparaît, y compris celle relevant d'un niveau gratuit. Les frais affichés pour l'organisation ne correspondent pas aux frais qui vous seront réellement facturés. L'utilisation d'une tranche gratuite apparaît comme gratuite au niveau du compte, mais pas au niveau de l'organisation. Par conséquent, lorsque
-vous affichez l'utilisation au niveau de l'organisation, vous consultez l'utilisation réelle pour cette organisation, incluant l'utilisation
-gratuite et l'utilisation facturée. L'utilisation au niveau de l'organisation correspond à l'utilisation au niveau de compte une fois la
+Si vous sélectionnez une organisation spécifique dans la liste **Filtrer par groupe**, l'utilisation totale pour cette organisation apparaît, y compris celle relevant d'un niveau gratuit. L'utilisation d'une tranche gratuite apparaît comme gratuite au niveau du compte, mais pas au niveau de l'organisation. Lorsque vous affichez l'utilisation au niveau de l'organisation, vous consultez l'utilisation réelle pour cette organisation, incluant l'utilisation gratuite et l'utilisation facturée. L'utilisation au niveau de l'organisation correspond à l'utilisation au niveau de compte une fois la
 tranche gratuite retirée.
 
-En tant que responsable d'un compte de type Paiement à la carte, vous pouvez définir des notifications relatives aux dépenses en fonction du coût
-total de votre compte, pour votre contexte d'exécution et vos services et pour des services individuels, à l'exception des services de tiers. Vous recevez des
-notifications lorsque vous atteignez 80 %, 90 % et 100 % des seuils que vous avez spécifiés pour les dépenses. Pour plus d'informations, voir [Définition de notifications](/docs/account/notifications.html).
+En tant que responsable d'un compte de type Paiement à la carte, vous pouvez définir des notifications relatives aux dépenses en fonction du coût total de votre compte, pour votre contexte d'exécution et vos services et pour des services individuels, à l'exception des services de tiers. Pour plus d'informations, voir [Définition des notifications relatives aux dépenses](/docs/billing-usage/notifications.html).
 
-## Affichage des crédits
-{: #credits}
+## Exportation de vos informations d'utilisation dans un fichier `.csv`
+{: #export-csv}
 
-En tant que propriétaire de compte ou responsable de la facturation, vous pouvez utiliser la page Tableau de bord de l'utilisation afin de consulter les crédits éventuels dont bénéficie votre compte.
+Vous pouvez exporter un récapitulatif de votre utilisation ou les informations relatives à vos services et vos instances dans un fichier CSV. En exportant votre fichier CSV, vous pouvez facilement trouver les estimations d'utilisation et de coût pour chaque ressource afin d'imputer des frais à vos clients ou pour mieux comprendre vos coûts. 
 
-Pour ouvrir la page Tableau de bord de l'utilisation, cliquez sur **Gérer** > **Facturation et utilisation** > **Utilisation**. Le tableau de bord affiche les crédits éventuels, ainsi que leur date d'expiration.
+1. Accédez à **Gérer > Facturation et utilisation** puis sélectionnez **Utilisation**.
+2. Cliquez sur **Exporter au format CSV**.  
+
+
