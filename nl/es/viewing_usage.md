@@ -33,7 +33,7 @@ Para los recursos gestionados por Cloud Foundry, se debe aplicar el rol de Gesto
 
 En la sección de servicios, puede ver una lista de sus servicios y los costes estimados asociados a dichos servicios. Para ver un resumen de los cargos estimados para todas las instancias de un recurso específico, siga estos pasos: 
 
-1. Vaya a **Gestionar > Facturación y uso ** y seleccione **Uso**. 
+1. Vaya a **Gestionar > Facturación y uso** y seleccione **Uso**. 
 2. Pulse **Ver instancias** para ver todas las instancias de un tipo específico de recurso.  
 3. Para ver un resumen detallado de los cargos estimados para cada instancia de un tipo de recurso específico, pulse **Ver detalles de la instancia**. También puede ver las métricas detalladas de uso mensual para la instancia seleccionada. 
 
@@ -50,7 +50,7 @@ El gestor de una cuenta de pago según uso puede establecer notificaciones de ga
 
 Puede exportar un resumen de su uso o información sobre sus servicios e instancias en un archivo CSV. Si exporta el archivo CSV, puede buscar fácilmente estimaciones de uso y de costes para cada recurso, para saber lo que debe cobrar a los clientes o para comprender mejor sus costes. 
 
-1. Vaya a **Gestionar > Facturación y uso ** y seleccione **Uso**.
+1. Vaya a **Gestionar > Facturación y uso** y seleccione **Uso**.
 2. Pulse **Exportar CSV**.  
 
 

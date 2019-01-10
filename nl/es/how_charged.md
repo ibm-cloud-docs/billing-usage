@@ -24,7 +24,7 @@ memoria o almacenamiento. {{site.data.keyword.Bluemix}} proporciona estimadores 
 {:shortdesc}
 
 
-Puede comprobar el coste real después de crear sus recursos. Vaya a **Gestionar > Facturación y uso ** y seleccione **Uso**. Con una cuenta facturable de {{site.data.keyword.Bluemix_notm}}, se le facturará por el cálculo, los contenedores y los servicios utilizados en su organización. Es posible que otros usuarios de {{site.data.keyword.Bluemix_notm}} le inviten a participar en organizaciones en una cuenta diferente. El uso de las apps o los servicios que utilice en las organizaciones a las que está invitado se facturan a la cuenta que contiene dichas organizaciones. Puede ver más información sobre un cargo específico en cada página de detalles del recurso.
+Puede comprobar el coste real después de crear sus recursos. Vaya a **Gestionar > Facturación y uso** y seleccione **Uso**. Con una cuenta facturable de {{site.data.keyword.Bluemix_notm}}, se le facturará por el cálculo, los contenedores y los servicios utilizados en su organización. Es posible que otros usuarios de {{site.data.keyword.Bluemix_notm}} le inviten a participar en organizaciones en una cuenta diferente. El uso de las apps o los servicios que utilice en las organizaciones a las que está invitado se facturan a la cuenta que contiene dichas organizaciones. Puede ver más información sobre un cargo específico en cada página de detalles del recurso.
 
 Se aplicarán distintos tipos de cargos en función de las características de {{site.data.keyword.Bluemix_notm}} que está utilizando. En la tabla siguiente se proporciona una visión general de alto nivel:
 
