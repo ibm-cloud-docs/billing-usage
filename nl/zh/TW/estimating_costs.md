@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -25,7 +25,7 @@ lastupdated: "2018-11-16"
 
 請完成下列步驟來預估成本。 
 
-  1. 移至 {{site.data.keyword.Bluemix_notm}} [型錄](https://console.cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")，然後選取您感興趣的供應項目。
+  1. 移至 {{site.data.keyword.Bluemix_notm}} [型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")，然後選取您感興趣的供應項目。
   2. 視供應項目而定，可能會顯示臨時參考頁面。例如，如果您選取 {{site.data.keyword.baremetal_short}}，即會顯示說明各種特性的參考頁面。按一下**繼續**。
   3. 從供應項目詳細資料頁面中（不論供應項目類型為何），選取您的定價方案，並且輸入其他配置詳細資料。
   4. 選擇下列其中一個選項：

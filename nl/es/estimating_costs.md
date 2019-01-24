@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -25,7 +25,7 @@ Puede estimar los costes de las ofertas de la infraestructura clásica si tiene 
 
 Siga los pasos siguientes para estimar sus costes. 
 
-  1. Vaya al {{site.data.keyword.Bluemix_notm}} [catálogo](https://console.cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") y seleccione la oferta en la que está interesado.
+  1. Vaya al {{site.data.keyword.Bluemix_notm}} [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") y seleccione la oferta en la que está interesado.
   2. En función de la oferta, es posible que aparezca una página de información intermedia. Por ejemplo, si selecciona {{site.data.keyword.baremetal_short}}, aparece una página de información en la que se describen distintas características. Pulse **Continuar**.
   3. En la página de detalles de la oferta, independientemente del tipo de oferta, seleccione su plan de precios y especifique otros detalles de la configuración.
   4. Elija una de estas opciones:
