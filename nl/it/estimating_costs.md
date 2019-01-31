@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -25,14 +25,14 @@ Puoi stimare i costi delle offerte dell'infrastruttura classica se hai un accoun
 
 Per stimare i tuoi costi, completa la seguente procedura. 
 
-  1. Vai al [catalogo](https://console.cloud.ibm.com/catalog){: new_window} {{site.data.keyword.Bluemix_notm}}![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") e seleziona l'offerta a cui sei interessato.
+  1. Vai al [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") {{site.data.keyword.Bluemix_notm}} e seleziona l'offerta a cui sei interessato.
   2. A seconda dell'offerta, potrebbe essere visualizzata una pagina informativa provvisoria. Ad esempio, se selezioni {{site.data.keyword.baremetal_short}}, viene visualizzata una pagina informativa che descrive le diverse funzioni. Fai clic su **Continua**.
   3. Dalla pagina dei dettagli dell'offerta, indipendentemente dal tipo di offerta, seleziona il tuo piano dei prezzi e immetti altri dettagli di configurazione.
   4. Scegli una delle seguenti opzioni:
 
     a. Fai clic su **Aggiungi alla stima** > **Salva**. Da lì, puoi ritornare al catalogo e selezionare delle offerte aggiuntive da aggiungere alla tua stima. 
     
-    A questo punto, puoi fare clic sull'icona dello stimatore costi ![Icona stimatore](../icons/Estimator.svg) nel menu della console per ottenere un riepilogo dei tuoi costi stimati.
+    A questo punto, puoi fare clic sull'icona dello stimatore costi ![Icona stimatore](../icons/Estimator.svg) nel menu della console per ottenere un riepilogo dei tuoi costi stimati. 
     {: tip}
     
     b. Fai clic su **Crea** se sei pronto a iniziare a creare le istanze dell'offerta. 

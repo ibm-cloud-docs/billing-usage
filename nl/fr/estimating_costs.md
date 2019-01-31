@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -25,14 +25,14 @@ Vous pouvez estimer les coût des offres de l'infrastructure classique si vous a
 
 Procédez comme suit pour estimer vos coûts. 
 
-  1. Accédez au catalogue {{site.data.keyword.Bluemix_notm}} [](https://console.cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") puis sélectionnez l'offre qui vous intéresse.
+  1. Accédez au catalogue {{site.data.keyword.Bluemix_notm}} [](https://cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") et sélectionnez l'offre qui vous intéresse.
   2. En fonction de l'offre, une page d'informations provisoire peut s'afficher. Par exemple, si vous sélectionnez {{site.data.keyword.baremetal_short}}, une page d'informations décrivant les différentes fonctions s'affiche. Cliquez sur **Continuer**
   3. Sur la page des détails de l'offre, quel que soit le type d'offre, sélectionnez votre plan de tarification et entrez d'autres détails de configuration.
   4. Sélectionnez l'une des options suivantes :
 
     a. Cliquez sur **Ajouter à l'estimation** > **Sauvegarder**. Vous pouvez alors accéder à nouveau au catalogue et sélectionner des offres supplémentaires à ajouter à votre estimation. 
     
-    A tout moment, vous pouvez cliquer sur l'icône Estimateur de coût ![Icône Estimateur](../icons/Estimator.svg) dans le menu de la console pour obtenir un récapitulatif de vos coûts estimés.
+    A tout moment, vous pouvez cliquer sur l'icône Estimateur de coût ![Icône Estimateur](../icons/Estimator.svg) dans le menu de la console pour obtenir un récapitulatif de vos coûts estimés. 
     {: tip}
     
     b. Cliquez sur **Créer** si vous êtes prêt à commencer à créer des instances de l'offre. 

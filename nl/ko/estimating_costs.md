@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -25,14 +25,14 @@ lastupdated: "2018-11-16"
 
 비용을 추정하려면 다음 단계를 완료하십시오. 
 
-  1. {{site.data.keyword.Bluemix_notm}} [카탈로그](https://console.cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")로 이동하여 관심 있는 오퍼링을 선택하십시오.
-  2. 오퍼링에 따라 임시 정보 페이지가 표시될 수 있습니다. 예를 들어, {{site.data.keyword.baremetal_short}}를 선택하는 경우 다양한 기능에 대해 설명하는 정보 페이지가 표시됩니다. **계속**을 클릭하십시오.
+  1. {{site.data.keyword.Bluemix_notm}} [카탈로그](https://cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")로 이동하여 관심 있는 오퍼링을 선택하십시오.
+  2. 오퍼링에 따라 임시 정보 페이지가 표시될 수 있습니다. 예를 들어, {{site.data.keyword.baremetal_short}}를 선택하면 다양한 기능을 설명하는 정보 페이지가 표시됩니다. **계속**을 클릭하십시오.
   3. 오퍼링 세부사항 페이지에서 오퍼링 유형에 관계없이 가격 플랜을 선택하고 기타 구성 세부사항을 입력하십시오.
   4. 다음 옵션 중 하나를 선택하십시오.
 
     a. **추정값에 추가** > **저장**을 클릭하십시오. 여기에서 카탈로그로 돌아가서 추정치에 추가할 추가 오퍼링을 선택할 수 있습니다. 
     
-    언제든지 콘솔 메뉴에서 비용 추정기 아이콘 ![추정기 아이콘](../icons/Estimator.svg)을 클릭하여 예상 비용에 대한 요약을 가져올 수 있습니다.
+    언제든지 콘솔 메뉴에서 비용 추정기 아이콘 ![추정기 아이콘](../icons/Estimator.svg)을 클릭하여 예상 비용에 대한 요약을 가져올 수 있습니다. 
     {: tip}
     
     b. 오퍼링의 인스턴스 작성을 시작할 준비가 되면 **작성**을 클릭하십시오. 
