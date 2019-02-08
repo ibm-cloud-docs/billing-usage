@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -15,14 +15,16 @@ lastupdated: "2018-11-16"
 {:faq: data-hd-content-type='faq'}
 
 # FAQs
-{: #billusagefaqs} 
+{: #billusagefaqs}
 
 
 ## How do I update my credit card?
 {: #updatecard}
 {: faq}
 
-To add or change your payment details, go to **Manage > Billing and usage** in the {{site.data.keyword.Bluemix}} console, and select **Payments**. Then, click **Payment method**.
+You can update the payment method that's associated with your account by going to [Payments](https://{DomainName}/billing/payments) in the console. Under Add Payment Method, enter in the billing information for your new card, then click **Add credit card**.
+
+To switch to a different payment method, select **Pay with Other** and then click **Submit change request**. A support case to change your payment method will be created for you.
 
 ## Why won't my credit card go through?
 {: #addcard}
@@ -33,17 +35,17 @@ Protecting your identity is a priority for us, so we take credit card verificati
    * Call us: 1-866-325-0045 (Select option 3)
 
 
-## Are feature codes the same as promo codes? 
+## Are feature codes the same as promo codes?
 {: #entercode}
 {: faq}
 
-Feature codes and promo codes aren't the same. Promo codes are infrastructure-specific and are entered at checkout to get a discount on an order. Feature codes are used to offer extra resources or capabilities for Lite accounts and are needed to add subscription and support credits to Pay-As-You-Go and Subscription accounts. To redeem your feature code, go to **Manage > Account**, and select **Account settings**. Then, click **Apply code**. 
+Feature codes and promo codes aren't the same. Promo codes are infrastructure-specific and are entered at checkout to get a discount on an order. Feature codes are used to offer extra resources or capabilities for Lite accounts and are needed to add subscription and support credits to Pay-As-You-Go and Subscription accounts. To redeem your feature code, go to **Manage > Account**, and select **Account settings**. Then, click **Apply code**.
 
 ## How do I cancel my account?
 {: #cancelmyaccount}
 {: faq}
 
-If you have an eligible account type, go to **Manage** > **Account** > **Account settings**, and click **Deactivate Account**. 
+If you have an eligible account type, go to **Manage** > **Account** > **Account settings**, and click **Deactivate Account**.
 
 ![Account settings screen capture.](images/Account-2C.svg "Account settings screen capture")
 
@@ -65,7 +67,7 @@ Click **Support** in the console menu bar to access the Support Center. From the
 {: #howmanyapps}
 {: faq}
 
-In a Lite account, your apps have up to 256 MB of instantaneous runtime memory. You can deploy apps until you use the available Lite account allowance. If you need more memory, upgrade to a billable account to get 512 MB of free instantaneous runtime memory and pay only for what you use over that. There's no limits to the number of apps you can build in a billable account. 
+In a Lite account, your apps have up to 256 MB of instantaneous runtime memory. You can deploy apps until you use the available Lite account allowance. If you need more memory, upgrade to a billable account to get 512 MB of free instantaneous runtime memory and pay only for what you use over that. There's no limits to the number of apps you can build in a billable account.
 
 
 ## What happens if my Lite plan instance reaches the monthly quota?
@@ -75,21 +77,21 @@ In a Lite account, your apps have up to 256 MB of instantaneous runtime memory. 
 When you reach any quota limit for Lite plan instances, the service for that month is suspended. Quota limits are per org, not per instance. New instances that are created in the same org show any usage from previous instances. The quota limits reset on the first of every month.
 
 
-## What can I order with my Subscription account? 
+## What can I order with my Subscription account?
 {: #subs-order}
 {: faq}
 
-You can order platform and infrastructure offerings from the {{site.data.keyword.Bluemix_notm}} catalog. 
+You can order platform and infrastructure offerings from the {{site.data.keyword.Bluemix_notm}} catalog.
 
 
-## How do I qualify for a discount on a Subscription account? 
+## How do I qualify for a discount on a Subscription account?
 {: #subs-discount}
 {: faq}
 
-To qualify for a pricing discount, you must commit to a combined minimum spending and term commitment of $100.00 USD each month for 12 months. 
+To qualify for a pricing discount, you must commit to a combined minimum spending and term commitment of $100.00 USD each month for 12 months.
 
 
-## Is there a monthly minimum amount required for Subscription accounts? 
+## Is there a monthly minimum amount required for Subscription accounts?
 {: #subs-minimum}
 {: faq}
 
@@ -114,21 +116,21 @@ Currently, you can make monthly payments to your Subscription account. If you'd 
 {: #subs-spending}
 {: faq}
 
-Yes, what you spend monthly is up to you! You can spend any amount of the total commitment each month. 
+Yes, what you spend monthly is up to you! You can spend any amount of the total commitment each month.
 
 
 ## Can I cancel my Subscription account before the end of my term commitment?  
 {: #subs-cancel-early}
 {: faq}
 
-Yes, you can cancel your account before your term expires, but the rest of your total Subscription amount is forfeited. 
+Yes, you can cancel your account before your term expires, but the rest of your total Subscription amount is forfeited.
 
 
 ## What happens if I reach my spending commitment before my term ends?  
 {: #subs-spend-before-term-end}
 {: faq}
 
-You're required to continue paying your monthly charges until the end of your term. To avoid generating overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg) for help with signing up for a new Subscription. 
+You're required to continue paying your monthly charges until the end of your term. To avoid generating overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg) for help with signing up for a new Subscription.
 
 
 ## Where can I access my invoice?
@@ -143,10 +145,3 @@ From the console, click **Manage > Billing and usage**, and select **Invoices**.
 {: faq}
 
 Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage/viewing_usage.html#viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](/unifiedsupport/cases/add).
-
-
-
-
-
-
-
