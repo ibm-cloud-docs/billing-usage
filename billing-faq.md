@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-11"
 
 ---
 
@@ -39,7 +39,13 @@ Protecting your identity is a priority for us, so we take credit card verificati
 {: #entercode}
 {: faq}
 
-Feature codes and promo codes aren't the same. Promo codes are infrastructure-specific and are entered at checkout to get a discount on an order. Feature codes are used to offer extra resources or capabilities for Lite accounts and are needed to add subscription and support credits to Pay-As-You-Go and Subscription accounts. To redeem your feature code, go to **Manage > Account**, and select **Account settings**. Then, click **Apply code**.
+Promo codes and feature codes are different!
+
+- Promo codes are infrastructure-specific promotional codes that you might receive from our Sales team. You enter them in the customer portal at checkout to get a discount on your order.
+- Feature codes are used to offer extra resources or capabilities for Lite accounts, such as for educational events. For Pay-As-You-Go and Subscription accounts, you might be given a feature code to add subscription and support credits.
+
+   To redeem your feature code, go to **Manage > Account**, and select **Account settings**. Under Feature Codes, click **Apply code**. For more information, see [Applying feature codes](/docs/account/feature_codes.html#codes).
+
 
 ## How do I cancel my account?
 {: #cancelmyaccount}
