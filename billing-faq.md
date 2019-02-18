@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-11"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -30,9 +30,9 @@ To switch to a different payment method, select **Pay with Other** and then clic
 {: #addcard}
 {: faq}
 
-Protecting your identity is a priority for us, so we take credit card verification seriously. Contact us by calling the following number.  
+Protecting your identity is a priority for us, so we take credit card verification seriously.
 
-   * Call us: 1-866-325-0045 (Select option 3)
+Contact us by calling 1-866-325-0045 and selecting the third option.
 
 
 ## Are feature codes the same as promo codes?
@@ -44,18 +44,16 @@ Promo codes and feature codes are different!
 - Promo codes are infrastructure-specific promotional codes that you might receive from our Sales team. You enter them in the customer portal at checkout to get a discount on your order.
 - Feature codes are used to offer extra resources or capabilities for Lite accounts, such as for educational events. For Pay-As-You-Go and Subscription accounts, you might be given a feature code to add subscription and support credits.
 
-   To redeem your feature code, go to **Manage > Account**, and select **Account settings**. Under Feature Codes, click **Apply code**. For more information, see [Applying feature codes](/docs/account/feature_codes.html#codes).
-
+   To redeem your feature code, go to **Manage > Account**, and select **Account settings**. Under Feature Codes, click **Apply code**. For more information, see [Applying feature codes](/docs/account?topic=account-codes#codes).
 
 ## How do I cancel my account?
 {: #cancelmyaccount}
 {: faq}
 
-If you have an eligible account type, go to **Manage** > **Account** > **Account settings**, and click **Deactivate Account**.
+For Pay-As-You-Go or Subscription accounts, the quickest way to cancel your account is to contact us through [live chat](https://{DomainName}/unifiedsupport/supportcenter) or by calling 1-866-325-0045 and selecting the third option. Alternatively, you can open a support case.
 
-![Account settings screen capture.](images/Account-2C.svg "Account settings screen capture")
+To cancel a Lite account, go to **Manage** > **Account** > **Account settings**, and click **Deactivate Account**.
 
-If you go to the **Account settings** page and the **Deactivate Account** is not displayed, you can get in touch by calling 1-866-325-0045 and selecting the third option, or open a [support case](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg).
 
 ## How do I delete my account?
 {: #deleteaccount}
@@ -67,7 +65,7 @@ Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../ico
 {: #contactsupport}
 {: faq}
 
-Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers you need, click **Create a case** to get in touch with the support team.   
+Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, click **Create a case** to get in touch with the support team.   
 
 ## How many apps can I build?
 {: #howmanyapps}
@@ -143,11 +141,11 @@ You're required to continue paying your monthly charges until the end of your te
 {: #access-invoices}
 {: faq}
 
-From the console, click **Manage > Billing and usage**, and select **Invoices**..
+From the console, click **Manage > Billing and usage**, and select **Invoices**.
 
 
 ## Why does my usage not match my invoice?
 {: #usage-not-match-invoice}
 {: faq}
 
-Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage/viewing_usage.html#viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](/unifiedsupport/cases/add).
+Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg).

@@ -27,12 +27,12 @@ After you build your resources, you can check the actual cost. Go to **Manage > 
 
 Different types of charges apply depending on the features of {{site.data.keyword.Bluemix_notm}} that you're using. The following table provides a high-level overview:
 
-| Type of Charge | Description | Resource Type | Example |
-|------------------|------------------|--------------------------|--------------------------|
-| Fixed | Fixed-rate pricing is based on an agreed upon monthly charge that isn't adjusted. | Services  | For Bare Metal Servers, there are fixed plans to choose from, and those plans are charged at a fixed monthly rate. |
-| Metered | Metered-usage pricing is based on the number of GB hours that are consumed for runtimes and the number of IP addresses and storage for containers. | Services, Compute, and Containers | For the Push service, any usage over the free monthly allowance is charged. |
-| Tiered | Some pricing plans are based on a tiered pricing model, so you can get a volume-based discount according to your actual usage. Services might offer simple, graduated, or block tier pricing plans. | Services | Tiered pricing is typically used for charge metrics that are expected to have high quantities per month, such as API calls. |
-| Reserved | Reserved pricing is based on a long-term commitment for a service, so you can get a discounted price. With a reserved plan, you get a dedicated service instance that is easy to set up, deploy, and deliver in the public {{site.data.keyword.Bluemix_notm}} environment. | Services | DB2 on Cloud has reserved plans.|
+| Type of Charge | Description      | Resource Type            | Example                  |
+|----------------|------------------|--------------------------|--------------------------|
+| Fixed          | Fixed-rate pricing is based on an agreed upon monthly charge that isn't adjusted. | Services  | For Bare Metal Servers, there are fixed plans to choose from, and those plans are charged at a fixed monthly rate. |
+| Metered        | Metered-usage pricing is based on the number of GB hours that are consumed for runtimes and the number of IP addresses and storage for containers. | Services, Compute, and Containers | For the Push service, any usage over the free monthly allowance is charged. |
+| Tiered         | Some pricing plans are based on a tiered pricing model, so you can get a volume-based discount according to your actual usage. Services might offer simple, graduated, or block tier pricing plans. | Services | Tiered pricing is typically used for charge metrics that are expected to have high quantities per month, such as API calls. |
+| Reserved       | Reserved pricing is based on a long-term commitment for a service, so you can get a discounted price. With a reserved plan, you get a dedicated service instance that is easy to set up, deploy, and deliver in the public {{site.data.keyword.Bluemix_notm}} environment. | Services | DB2 on Cloud has reserved plans.|
 {:caption="Table 1. Charges based on features" caption-side="top"}
 
 
@@ -82,24 +82,24 @@ Many services include monthly free allowances. Usage of services that aren't inc
 
 In the simple tier model, the unit price is determined by the tier that the quantity of your usage falls into. The total price is your quantity that is multiplied by the unit price in that tier, for example:
 
-| Quantity of items | Unit price for all items |
-|-------------------|--------------------------|
-| Tier 1: 1 - 1000 | $1 USD |
-| Tier 2: 1001 - 2000 | $0.90 USD |
-| Tier 3: 2001 - 3000 | $0.75 USD |
-| Tier 4: 3001 - 4000 | $0.60 USD |
-|Tier 5: &gt; 4000 | $0.40 USD |
+| Quantity of items   | Unit price for all items |
+|---------------------|--------------------------|
+| Tier 1: 1 - 1000    | $1 USD                   |
+| Tier 2: 1001 - 2000 | $0.90 USD                |
+| Tier 3: 2001 - 3000 | $0.75 USD                |
+| Tier 4: 3001 - 4000 | $0.60 USD                |
+| Tier 5: &gt; 4000   | $0.40 USD                |
 {:caption="Table 2. Simple tier pricing table" caption-side="top"}
 
 The following table illustrates how much you pay with a plan that is based on a simple tier pricing model:
 
 | Quantity of items | Charge Calculation | Total Price |
 |-------------------|--------------------|-------------|
-|500 |	500 × 1 = 500 |	$500 USD|
-|1500 |	1500 × 0.90 = 1350 |	$1350 USD|
-|2500 |	2500 × 0.75 = 1875 |	$1875 USD|
-|... |	... |	...|
-|5200 |	5200 × 0.40 = 2080 |$2080 USD|
+| 500               | 500 × 1 = 500      | $500 USD    |
+| 1500              | 1500 × 0.90 = 1350 | $1350 USD   |
+| 2500              | 2500 × 0.75 = 1875 | $1875 USD   |
+| ...               | ...                | ...         |
+| 5200              | 5200 × 0.40 = 2080 | $2080 USD   |
 {:caption="Table 3. Charge calculation by using the simple tier pricing model" caption-side="top"}
 
 ### Graduated tier
@@ -107,24 +107,24 @@ The following table illustrates how much you pay with a plan that is based on a 
 
 In the graduated tier model, the unit price per tier decreases as your level of usage increases. The total price is the cumulative charges for each level of usage, consisting of your quantity multiplied by the unit price at that tier, for example:
 
-| Quantity of items |	Unit price for items in the tier|
-|-------------------|------------------------------------|
-|    Tier 1: 1 - 1000 |	$1 USD |
-|   Tier 2: 1001 - 2000 |	$0.90 USD |
-|    Tier 3: 2001 - 3000 |	$0.75 USD |
-|    Tier 4: 3001 - 4000 |	$0.60 USD |
-|    Tier 5: &gt; 4000 |	$0.40 USD |
+| Quantity of items   |	Unit price for items in the tier|
+|---------------------|---------------------------------|
+| Tier 1: 1 - 1000    |	$1 USD                          |
+| Tier 2: 1001 - 2000 |	$0.90 USD                       |
+| Tier 3: 2001 - 3000 |	$0.75 USD                       |
+| Tier 4: 3001 - 4000 |	$0.60 USD                       |
+| Tier 5: &gt; 4000   |	$0.40 USD                       |
 {:caption="Table 4. Graduated tier pricing table" caption-side="top"}
 
 The following table illustrates how much you pay with a plan that is based on a graduated tier pricing model:
 
-|Quantity of items | Charge calculation | Total price|
-|------------------|--------------------|------------|
-|500 |	500 × 1 (unit price for Tier 1) = 500 |	$500 USD|
-|1500 |	(1000 × 1 (unit price for Tier 1)) + (500 × 0.90 (unit price for Tier 2)) = 1450 |	$1450 USD|
-|2500 |	(1000 × 1 (unit price for Tier 1)) + (1000 × 0.90 (unit price for Tier 2)) + (500 × 0.75 (unit price for Tier 3)) = 2275 |	$2275 USD |
-|... |	... |	...|
-|5200 |	(1000 × 1 (unit price for Tier 1)) + (1000 × 0.90 (unit price for Tier 2)) + (1000 × 0.75 (unit price for Tier 3)) + (1000 × 0.60 (unit price for Tier 4)) + (1200 × 0.40 (unit price for Tier 5)) = 3730 |	$3730 USD|
+|Quantity of items | Charge calculation                                                               | Total price |
+|------------------|----------------------------------------------------------------------------------|-------------|
+| 500              | 500 × 1 (unit price for Tier 1) = 500                                            |	$500 USD    |
+| 1500             | (1000 × 1 (unit price for Tier 1)) + (500 × 0.90 (unit price for Tier 2)) = 1450 |	$1450 USD   |
+| 2500             | (1000 × 1 (unit price for Tier 1)) + (1000 × 0.90 (unit price for Tier 2)) + (500 × 0.75 (unit price for Tier 3)) = 2275 | $2275 USD |
+| ...              | ...                                                                              | ...         |
+| 5200             | (1000 × 1 (unit price for Tier 1)) + (1000 × 0.90 (unit price for Tier 2)) + (1000 × 0.75 (unit price for Tier 3)) + (1000 × 0.60 (unit price for Tier 4)) + (1200 × 0.40 (unit price for Tier 5)) = 3730 | $3730 USD |
 {:caption="Table 5. Charge calculation by using the graduated tier pricing model" caption-side="top"}
 
 ### Block tier
@@ -132,21 +132,21 @@ The following table illustrates how much you pay with a plan that is based on a 
 
 In the block tier model, the price is a set charge for the quantity you use within a usage level. The total price is the charge for your level of usage regardless of your actual usage. Each successive tier provides a lower price to quantity ratio. For example:
 
-|Quantity of items |	Total price for all items|
-|------------------|-----------------------------|
-| Tier 1: &lt;= 1000 |	$1000 USD|
-| Tier 2: &lt;= 2000 |	$1900 USD|
-| Tier 3: &lt;= 3000 |	$2800 USD|
-| Tier 4: &lt;= 4000 |	$3500 USD|
-| Tier 5: &lt;= 10000 |	$5000 USD|
+|Quantity of items    |	Total price for all items |
+|---------------------|---------------------------|
+| Tier 1: &lt;= 1000  |	$1000 USD                 |
+| Tier 2: &lt;= 2000  |	$1900 USD                 |
+| Tier 3: &lt;= 3000  |	$2800 USD                 |
+| Tier 4: &lt;= 4000  |	$3500 USD                 |
+| Tier 5: &lt;= 10000 |	$5000 USD                 |
 {:caption="Table 6. Block tier pricing table" caption-side="top"}
 
 The following table illustrates how much you pay with a plan that is based on a block tier pricing model:
 
-|Quantity of items |	Charge calculation |	Total price|
-|------------------|-----------------------|---------------|
-|500 |	The number of items falls into Tier 1, so the total price is $1000 USD. |	$1000 USD|
-|1500 |	The number of items falls into Tier 2, so the total price is $1900 USD. |	$1900 USD|
-|... |	... |	...|
-|5200 |	The number of items falls into Tier 5, so the total price is $5000 USD. |	$5000 USD|
+|Quantity of items | Charge calculation                                                      | Total price|
+|------------------|-------------------------------------------------------------------------|------------|
+| 500              | The number of items falls into Tier 1, so the total price is $1000 USD. | $1000 USD  |
+| 1500             | The number of items falls into Tier 2, so the total price is $1900 USD. | $1900 USD  |
+| ...              | ...                                                                     | ...        |
+| 5200             | The number of items falls into Tier 5, so the total price is $5000 USD. | $5000 USD  |
 {:caption="Table 7. Charge calculation by using the block tier pricing model" caption-side="top"}
