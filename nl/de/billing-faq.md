@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-09-25"
+lastupdated: "2019-02-11"
 
 ---
 
@@ -12,116 +12,142 @@ lastupdated: "2018-09-25"
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:faq: data-hd-content-type='faq'}
 
 # Häufig gestellte Fragen (FAQs)
-{: #billusagefaqs} 
+{: #billusagefaqs}
+
 
 ## Wie aktualisiere ich meine Kreditkartendaten?
 {: #updatecard}
+{: faq}
 
-Sie können die Zahlungsmethode, die Ihrem gebührenpflichtigen Konto zugeordnet ist, auf einfache Weise aktualisieren. Rufen Sie das Symbol **{{site.data.keyword.avatar}}** ![Avatar-Symbol](../icons/i-avatar-icon.svg) auf, klicken Sie auf **Profil** und wählen Sie **IBMid bearbeiten** aus. Aktualisieren Sie die Telefonnummern und Adressen auf der Registerkarte **Profil** sowie die Abrechnungsinformationen und Zahlungsmethoden auf der Registerkarte **Abrechnung**. 
+Sie können die Zahlungsmethode, die Ihrem Konto zugeordnet ist, aktualisieren, indem Sie in der Konsole [Zahlungen](https://{DomainName}/billing/payments) aufrufen. Geben Sie unter 'Zahlungsmethode hinzufügen' die Rechnungsinformationen für Ihre neue Karte ein und klicken Sie auf **Kreditkarte hinzufügen**.
+
+Wenn Sie zu einer anderen Zahlungsmethode wechseln möchten, wählen Sie die Option für eine **Andere Zahlungsmethode** aus und klicken Sie auf **Änderungsanforderung senden**. Ein Supportfall zum Ändern Ihrer Zahlungsmethode wird für Sie erstellt.
 
 ## Warum wird meine Kreditkarte nicht akzeptiert?
 {: #addcard}
+{: faq}
 
-Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir die Kreditkartenprüfung ernst. Am einfachsten lässt sich das Problem lösen, wenn Sie auf einem der folgenden Wege Kontakt mit uns aufzunehmen.  
+Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir die Kreditkartenprüfung ernst. Wenden Sie sich unter der folgenden Nummer an uns:  
 
-   * Rufen Sie uns unter folgender Nummer an: 1-866-325-0045 (Option 3 auswählen)
-   * Senden Sie eine E-Mail an folgende Adresse: accounting@softlayer.com
+   * Rufen Sie uns in den USA unter folgender Nummer an: 1-866-325-0045 (Option 3 auswählen)
 
-## Sind Feature-Codes und Werbecodes dasselbe? 
+
+## Sind Feature-Codes und Werbeaktionscodes dasselbe?
 {: #entercode}
+{: faq}
 
-Ja, die Werbecodes wurden zwar in Features-Codes umbenannt. Lösen Sie den Feature-Code ein, indem Sie in der {{site.data.keyword.Bluemix_notm}}-Konsole auf **Verwalten > Abrechnung und Nutzung > Abrechnung** klicken. 
+Werbeaktionscodes und Feature-Codes unterscheiden sich voneinander!
+
+- Werbeaktionscodes sind infrastrukturspezfische Werbecodes, die Sie möglicherweise von unserem Vertriebsteam erhalten. Geben Sie sie beim Checkout in das Kundenportal ein, um einen Rabatt für Ihre Bestellung zu erhalten.
+- Feature-Codes werden verwendet, um zusätzliche Ressourcen oder Funktionen für Lite-Konten anzubieten, z. B. für Schulungsveranstaltungen. Bei nutzungsabhängigen und Abonnementkonten erhalten Sie möglicherweise einen Feature-Code, um Abonnement- und Supportguthaben hinzufügen zu können.
+
+   Lösen Sie Ihren Feature-Code ein, indem Sie **Verwalten > Konto** aufrufen und **Kontoeinstellungen** auswählen. Klicken Sie unter "Feature-Codes" auf **Code anwenden**. Weitere Informationen finden Sie unter [Feature-Codes anwenden](/docs/account/feature_codes.html#codes).
+
 
 ## Wie kann ich mein Konto kündigen?
 {: #cancelmyaccount}
+{: faq}
 
-Wenn Sie Ihr Konto inaktivieren möchten, kontaktieren Sie uns unter der Telefonnummer 1-866-325-0045 und wählen Sie Option 3 aus oder öffnen Sie einen [Supportfall](/docs/get-support/howtogetsupport.html#open-ticket). 
+Wenn Sie über einen entsprechenden Kontotyp verfügen, rufen Sie **Verwalten** > **Konto** > **Kontoeinstellungen** auf und klicken Sie auf **Konto inaktivieren**.
+
+![Screenshot zu Kontoeinstellungen](images/Account-2C.svg "Screenshot zu Kontoeinstellungen")
+
+Wird beim Aufruf der Seite **Kontoeinstellungen** die Option **Konto inaktivieren** nicht angezeigt, wenden Sie sich unter der Nummer '1-866-325-0045' in den USA an den Support (dritte Option auswählen) oder öffnen Sie einen [Supportfall](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg).
 
 ## Wie kann ich mein Konto löschen?
 {: #deleteaccount}
+{: faq}
 
-Wenden Sie sich an den IBM Cloud-Support, um ein Support-Ticket zu öffnen und das Löschen des Kontos anzufordern. Wenn Sie über Daten verfügen, die Ihrem alten Konto zugeordnet sind, die jedoch in ein neues Konto übernommen werden sollen, dann geben Sie die entsprechenden Informationen in Ihrer E-Mail an.
+Wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support ![Symbol für externen Link](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}, um einen Supportfall für das Löschen Ihres Kontos zu öffnen. Wenn Sie über Daten verfügen, die Ihrem alten Konto zugeordnet sind, die jedoch in ein neues Konto übernommen werden sollen, dann geben Sie die entsprechenden Informationen in Ihrer E-Mail an.
 
 ## Wie erhalte ich Unterstützung?
 {: #contactsupport}
+{: faq}
 
-Hilfe für den Einstieg in {{site.data.keyword.Bluemix_notm}} oder für das Arbeiten mit {{site.data.keyword.Bluemix_notm}} können Sie über das Chatsymbol in der Konsole abrufen. 
-
-Informieren Sie sich über eine Reihe hilfreicher Ressourcen, die im [Support Center![Symbol für externen Link](../icons/launch-glyph.svg) ](https://console.bluemix.net/unifiedsupport/supportcenter){: new_window} verfügbar sind. Von dort aus können Sie auf Stack Overflow zugreifen, um eine Frage an unsere Entwicklercommunity zu senden. Sie haben auch die Möglichkeit, ein Support-Ticket einzureichen.  
+Klicken Sie in der Menüleiste der Konsole auf **Support**, um zum Support Center zu gelangen. Überprüfen Sie dort zunächst die Liste der allgemeinen FAQs. Wenn Sie dort keine Antwort finden, die Ihnen weiterhilft, klicken Sie auf **Erstellen Sie einen Fall**, um sich an das Support-Team zu wenden.   
 
 ## Wie viele Apps kann ich erstellen?
 {: #howmanyapps}
+{: faq}
 
 Bei einem Lite-Konto verfügen Ihre Apps über bis zu 256 MB sofort verfügbaren Laufzeitspeicher. Sie können Apps bereitstellen, bis Sie das verfügbare Lite-Konten-Kontingent aufgebraucht haben. Wenn Sie mehr Speicher benötigen, führen Sie ein Upgrade auf ein gebührenpflichtiges Konto durch, um 512 MB freien, sofort verfügbaren Laufzeitspeicher zu erhalten und nur für das zu bezahlen, was Sie darüber hinaus nutzen. Die Anzahl der Apps, die Sie in einem gebührenpflichtigen Konto erstellen können, ist unbegrenzt.
 
+
 ## Was passiert, wenn meine Lite-Planinstanz das monatliche Kontingent erreicht?
 {: #monthlyquota}
+{: faq}
 
 Wenn ein Grenzwert für das Kontingent für die Lite-Planinstanzen erreicht wird, wird der Service für diesen Monat ausgesetzt. Grenzwerte für Kontingente gelten für die gesamte Organisation, nicht nur für die Instanz. Neue Instanzen, die in derselben Organisation erstellt werden, stellen die Nutzung bereits vorhandener Instanzen dar. Die Grenzwerte für Kontingente werden am ersten Tag jedes Monats zurückgesetzt.
 
-## Was kann ich mit einem Abonnementkonto bestellen? 
+
+## Was kann ich mit einem Abonnementkonto bestellen?
 {: #subs-order}
+{: faq}
 
 Sie können Plattform- und Infrastrukturangebote aus dem {{site.data.keyword.Bluemix_notm}}-Katalog bestellen.
 
-## Wann kommt ein Abonnementkonto für einen Preisnachlass infrage? 
+
+## Wann kommt ein Abonnementkonto für einen Preisnachlass infrage?
 {: #subs-discount}
+{: faq}
 
-Eine kombinierte Mindestausgabe- und Laufzeitverpflichtung von monatlich $ 100,00 USD für einen Zeitraum von 12 Monaten ist erforderlich, damit ein Abonnement für einen Rabatt infrage kommt. 
+Eine kombinierte Mindestausgabe- und Laufzeitverpflichtung von monatlich $ 100,00 USD für einen Zeitraum von 12 Monaten ist erforderlich, damit ein Abonnement für einen Rabatt infrage kommt.
 
-## Besteht für Abonnementkonten ein Mindestwert für monatliche Ausgaben? 
+
+## Besteht für Abonnementkonten ein Mindestwert für monatliche Ausgaben?
 {: #subs-minimum}
+{: faq}
 
 Ja. Pro Monat ist eine Mindestausgabe von $ 100,00 USD erforderlich.
 
+
 ## Welche Gebühren fallen an, wenn die Gesamtsumme des Abonnements überschritten wird?
 {: #subs-overage}
+{: faq}
 
 Für eine Nutzung, die über die Gesamtsumme des Abonnements hinaus geht, fallen die normalen Gebühren ohne Rabatt an.
 
+
 ## Kann die gesamte Ausgabeverpflichtung vorab oder vierteljährlich bezahlt werden?
 {: #subs-pay-schedule}
+{: faq}
 
 Zum gegenwärtigen Zeitpunkt sind monatliche Zahlungen für das Abonnementkonto vorgesehen. Wenn Sie eine Vorabzahlung oder eine vierteljährliche Zahlung wünschen, wenden Sie sich an den [{{site.data.keyword.Bluemix_notm}}-Vertrieb](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg).
 
+
 ## Kann ich die monatliche Ausgabeverpflichtung über- oder unterschreiten?  
 {: #subs-spending}
+{: faq}
 
-Ja. Sie können die monatliche Ausgabe nach Bedarf bestimmen. Jeden Monat kann eine beliebige Summe der gesamten Ausgabeverpflichtung ausgegeben werden. 
+Ja. Sie können die monatliche Ausgabe nach Bedarf bestimmen. Jeden Monat kann eine beliebige Summe der gesamten Ausgabeverpflichtung ausgegeben werden.
+
 
 ## Kann ich mein Abonnementkonto vor dem Ende der Laufzeitverpflichtung kündigen?  
 {: #subs-cancel-early}
+{: faq}
 
-Ja. Das Konto kann vor dem Ablauf der Laufzeitverpflichtung gekündigt werden. Der Rest der Gesamtverpflichtung für das Abonnement verfällt dann jedoch. 
+Ja. Das Konto kann vor Ablauf der Laufzeit gekündigt werden. Der Rest des Gesamtbetrags für das Abonnement verfällt in diesem Fall jedoch.
+
 
 ## Was passiert, wenn die Ausgabeverpflichtung vor dem Ende der Laufzeit erreicht wird?  
 {: #subs-spend-before-term-end}
+{: faq}
 
-Sie müssen die monatlichen Gebühren weiterhin bis zum Ende der Laufzeit bezahlen. Um Gebühren für die Überschreitung zu vermeiden, wenden Sie sich an den [{{site.data.keyword.Bluemix_notm}}-Vertrieb](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg). Hier erhalten Sie Unterstützung bei der Anmeldung für ein neues Abonnement. 
+Sie müssen die monatlichen Gebühren weiterhin bis zum Ende der Laufzeit bezahlen. Um Gebühren für die Überschreitung zu vermeiden, wenden Sie sich an den [{{site.data.keyword.Bluemix_notm}}-Vertrieb](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg). Hier erhalten Sie Unterstützung bei der Anmeldung für ein neues Abonnement.
+
 
 ## Wie erhalte ich Zugriff auf die Rechnung?
 {: #access-invoices}
+{: faq}
 
-Klicken Sie in der Menüleiste auf **Verwalten** > **Abrechnung und Nutzung** > **Abrechnung**, um die Rechnung aufzurufen.
+Klicken Sie in der Konsole auf **Verwalten > Abrechnung und Nutzung** und wählen Sie **Rechnungen** aus.
+
 
 ## Warum entspricht die Nutzung nicht der Rechnung?
 {: #usage-not-match-invoice}
+{: faq}
 
-Die Nutzung entspricht möglicherweise nicht der Rechnung, da die für den Vergleich der Nutzung verwendeten Monate nicht übereinstimmen oder da nicht die Gesamtzahl der Organisationen ausgewählt wurde. Weitere Informationen finden Sie in [Nutzung anzeigen](/docs/billing-usage/viewing_usage.html#viewingusage). Treten weiterhin Abweichungen auf, kontaktieren Sie uns unter der Telefonnummer 1-866-325-0045 und wählen Sie Option 3 aus oder öffnen Sie einen [Supportfall](/docs/get-support/howtogetsupport.html#open-ticket).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Die Nutzung entspricht möglicherweise nicht der Rechnung, da die für den Vergleich der Nutzung verwendeten Monate nicht übereinstimmen oder da nicht die Gesamtzahl der Organisationen ausgewählt wurde. Weitere Informationen finden Sie unter [Nutzung anzeigen](/docs/billing-usage/viewing_usage.html#viewingusage). Treten weiterhin Abweichungen auf, kontaktieren Sie uns in den USA unter der Telefonnummer 1-866-325-0045 und wählen Sie Option 3 aus oder öffnen Sie einen [Supportfall](/unifiedsupport/cases/add).

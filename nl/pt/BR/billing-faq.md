@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-02-11"
 
 ---
 
@@ -15,14 +15,16 @@ lastupdated: "2018-11-16"
 {:faq: data-hd-content-type='faq'}
 
 # FAQ
-{: #billusagefaqs} 
+{: #billusagefaqs}
 
 
 ## Como atualizar meu cartão de crédito?
 {: #updatecard}
 {: faq}
 
-Para incluir ou mudar os detalhes de seu pagamento, acesse **Gerenciar > Faturamento e uso** no console do {{site.data.keyword.Bluemix}} e selecione **Pagamentos**. Em seguida, clique em **Método de pagamento**.
+É possível atualizar o método de pagamento que está associado à sua conta acessando [Pagamentos](https://{DomainName}/billing/payments) no console. Sob Incluir método de pagamento, insira as informações de faturamento para o seu novo cartão e, em seguida, clique em **Incluir cartão de crédito**.
+
+Para alternar para um método de pagamento diferente, selecione **Pagamento com outro** e, em seguida, clique em **Enviar solicitação de mudança**. Um caso de suporte para mudar o seu método de pagamento será criado para você.
 
 ## Por que meu cartão de crédito não passará?
 {: #addcard}
@@ -34,17 +36,23 @@ crédito muito a sério. Entre em contato conosco ligando para o número a segui
    * Ligue para nós: 1-866-325-0045 (selecione a opção 3)
 
 
-## Os códigos de recurso são iguais aos códigos promocionais? 
+## Os códigos de recurso são iguais aos códigos promocionais?
 {: #entercode}
 {: faq}
 
-Os códigos de recurso e os códigos promocionais não são os mesmos. Os códigos promocionais são específicos da infraestrutura e inseridos no check-out para obter desconto em um pedido. Os códigos de recurso são usados para oferecer recursos extras ou capacidades para contas Lite e são necessários para incluir créditos de assinatura e suporte para contas Pré-pagas e de Assinatura. Para resgatar seu código de recurso, acesse **Gerenciar > Conta** e selecione **Configurações da conta**. Em seguida, clique em **Aplicar código**. 
+Códigos promocionais e códigos de recurso são diferentes!
+
+- Os códigos promocionais são códigos promocionais específicos da infraestrutura que você pode receber de nossa equipe de Vendas. Você os insere no portal do cliente no check-out para obter um desconto em seu pedido.
+- Os códigos de recurso são usados para oferecer recursos adicionais ou recursos para contas Lite, como para eventos educacionais. Para contas Pré-pagas e de Assinatura, você pode receber um código de recurso para incluir créditos de assinatura e suporte.
+
+   Para resgatar seu código de recurso, acesse **Gerenciar > Conta** e selecione **Configurações da conta**. Sob Códigos de recurso, clique em **Aplicar código**. Para obter mais informações, consulte [Aplicando códigos de recurso](/docs/account/feature_codes.html#codes).
+
 
 ## Como cancelar minha conta?
 {: #cancelmyaccount}
 {: faq}
 
-Se você tiver um tipo de conta elegível, acesse **Gerenciar** > **Conta** > **Configurações da conta** e clique em **Desativar conta**. 
+Se você tiver um tipo de conta elegível, acesse **Gerenciar** > **Conta** > **Configurações da conta** e clique em **Desativar conta**.
 
 ![Captura de tela de configurações da conta.](images/Account-2C.svg "Captura de tela de configurações da conta")
 
@@ -69,7 +77,7 @@ Clique em **Suporte** na barra de menus do console para acessar o Centro de supo
 Em uma conta Lite, seus aplicativos têm até 256 MB de memória instantânea em tempo de execução. É
 possível implementar apps até que você utilize o abono da conta Lite disponível. Se você precisar de mais
 memória, faça upgrade para uma conta faturável para obter 512 MB de memória instantânea em tempo de
-execução grátis e pague somente pelo que você usar acima disso. Não há limites quanto ao número de aplicativos que você pode construir em uma conta faturável. 
+execução grátis e pague somente pelo que você usar acima disso. Não há limites quanto ao número de aplicativos que você pode construir em uma conta faturável.
 
 
 ## O que acontecerá se a instância do plano Lite atingir a minha cota mensal?
@@ -80,21 +88,21 @@ Atingir qualquer limite de cota para instâncias do plano Lite suspende o servi�
 limites de cota são reconfigurados no primeiro dia de cada mês.
 
 
-## O que posso solicitar com a minha conta da assinatura? 
+## O que posso solicitar com a minha conta da assinatura?
 {: #subs-order}
 {: faq}
 
-É possível solicitar ofertas de plataforma e de infraestrutura por meio do catálogo do {{site.data.keyword.Bluemix_notm}}. 
+É possível solicitar ofertas de plataforma e de infraestrutura por meio do catálogo do {{site.data.keyword.Bluemix_notm}}.
 
 
-## Como me qualifico para um desconto em uma conta da assinatura? 
+## Como me qualifico para um desconto em uma conta da assinatura?
 {: #subs-discount}
 {: faq}
 
-Para que você se qualifique para um desconto na precificação, deve-se comprometer com uma despesa mínima e um termo de compromisso combinados de US$ 100,00 por mês, durante 12 meses. 
+Para que você se qualifique para um desconto na precificação, deve-se comprometer com uma despesa mínima e um termo de compromisso combinados de US$ 100,00 por mês, durante 12 meses.
 
 
-## Existe uma quantidade mínima mensal necessária para contas da assinatura? 
+## Existe uma quantidade mínima mensal necessária para contas da assinatura?
 {: #subs-minimum}
 {: faq}
 
@@ -121,14 +129,14 @@ trimestralmente, entre em contato com as [Vendas do {{site.data.keyword.Bluemix_
 {: #subs-spending}
 {: faq}
 
-Sim, o que você gasta mensalmente depende de você. É possível gastar qualquer quantia do compromisso total a cada mês. 
+Sim, o que você gasta mensalmente depende de você. É possível gastar qualquer quantia do compromisso total a cada mês.
 
 
 ## Posso cancelar a minha conta da assinatura antes do final do prazo do meu compromisso?  
 {: #subs-cancel-early}
 {: faq}
 
-Sim, é possível cancelar sua conta antes de seu prazo expirar, mas o restante de sua quantia total de Assinatura será perdido. 
+Sim, é possível cancelar sua conta antes de seu prazo expirar, mas o restante de sua quantia total de Assinatura será perdido.
 
 
 ## O que acontecerá se eu atingir o meu compromisso de gastos antes do término do prazo?  
@@ -138,7 +146,7 @@ Sim, é possível cancelar sua conta antes de seu prazo expirar, mas o restante 
 Será necessário continuar pagando os seus encargos mensais até o término do prazo. Para evitar a geração de cobranças
 excedentes, entre em contato com as [Vendas do {{site.data.keyword.Bluemix_notm}}
 ](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg) para obter
-ajuda com a inscrição para uma nova assinatura. 
+ajuda com a inscrição para uma nova assinatura.
 
 
 ## Onde posso acessar minha fatura?
@@ -153,13 +161,3 @@ No console, clique em **Gerenciar > Faturamento e uso** e selecione **Faturas**.
 {: faq}
 
 Seu uso pode não corresponder à sua fatura, pois os meses empregados para comparar o uso não são os mesmos ou a quantidade total das organizações não foi selecionada. Para obter mais informações, consulte [Visualizando seu uso](/docs/billing-usage/viewing_usage.html#viewingusage). Caso ainda não corresponda, entre em contato conosco ligando para 1-866-325-0045 e escolhendo a terceira opção ou abrindo um [caso de suporte](/unifiedsupport/cases/add).
-
-
-
-
-
-
-
-
-
-
