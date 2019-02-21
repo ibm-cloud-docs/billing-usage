@@ -1,10 +1,8 @@
 ---
 
 copyright:
-
   years: 2015, 2019
-
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-19"
 
 ---
 
