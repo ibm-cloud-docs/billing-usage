@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-11-16"
+  years: 2017, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -26,16 +26,16 @@ Os gerentes de faturamento podem ver os detalhes somente para as organizações 
 ## Visualizando permissões de uso
 {: #view-usage-permissions}
 
-Para recursos que são gerenciados pelo Cloud Foundry, a função de gerenciador de faturamento deve ser aplicada ao nível da organização. Para ver o uso do recurso do {{site.data.keyword.Bluemix}} Identity and Access Management (IAM), a função Visualizador deve ser aplicada ao grupo de recursos. Para obter mais informações sobre funções de permissão, consulte [Acesso do IAM](/docs/iam/users_roles.html#userroles), [Acesso ao Cloud Foundry](/docs/iam/cfaccess.html#cfaccess) ou [Permissões de infraestrutura clássica](/docs/iam/infrastructureaccess.html#infrapermission).
+Para recursos que são gerenciados pelo Cloud Foundry, a função de gerenciador de faturamento deve ser aplicada ao nível da organização. Para ver o uso do recurso do {{site.data.keyword.Bluemix}} Identity and Access Management (IAM), a função Visualizador deve ser aplicada ao grupo de recursos. Para obter mais informações sobre funções de permissão, consulte [Acesso do IAM](/docs/iam?topic=iam-userroles), [Acesso ao Cloud Foundry](/docs/iam?topic=iam-cfaccess) ou [Permissões de infraestrutura clássica](/docs/iam?topic=iam-infrapermission).
 
-## Visualizando detalhes de uso de serviço 
+## Visualizando detalhes de uso de serviço
 {: #services}
 
-Na seção de serviços, é possível visualizar uma lista de seus serviços e os custos estimados que estão associados a esses serviços. Para visualizar um resumo dos encargos estimados para todas as instâncias de um recurso específico, conclua as etapas a seguir: 
+Na seção de serviços, é possível visualizar uma lista de seus serviços e os custos estimados que estão associados a esses serviços. Para visualizar um resumo dos encargos estimados para todas as instâncias de um recurso específico, conclua as etapas a seguir:
 
-1. Acesse **Gerenciar > Faturamento e uso** e selecione **Uso**. 
+1. Acesse **Gerenciar > Faturamento e uso** e selecione **Uso**.
 2. Clique em **Visualizar instâncias** para visualizar todas as instâncias de um tipo específico de recurso.  
-3. Para ver um resumo detalhado dos encargos estimados para cada instância de um tipo de recurso específico, clique em **Visualizar detalhes da instância**. Também é possível ver as métricas de uso mensais detalhadas para a instância selecionada. 
+3. Para ver um resumo detalhado dos encargos estimados para cada instância de um tipo de recurso específico, clique em **Visualizar detalhes da instância**. Também é possível ver as métricas de uso mensais detalhadas para a instância selecionada.
 
 O proprietário da conta é cobrado pelo uso total que é incorrido entre todas as organizações no término de cada ciclo de faturamento. Cada ciclo de faturamento dura um mês.
 
@@ -43,14 +43,12 @@ Os proprietários da conta podem filtrar o resumo de uso por grupo e selecionar 
 
 Se você selecionar uma organização específica na lista **Filtrar por grupo**, será possível ver o uso total para essa organização, incluindo qualquer uso como parte de uma camada grátis. O uso da camada grátis é mostrado como grátis no nível de conta, mas não no nível organizacional. Quando você visualiza o uso organizacional, você vê o uso real para essa organização, que inclui uso grátis e cobrado. Todo uso organizacional é acumulado para o uso da conta depois que a camada grátis é removida.
 
-O gerente de contas de uma conta Pré-paga pode configurar as notificações de gastos com relação ao custo total da conta, para tempo de execução, serviços e para serviços individuais, exceto serviços de terceiros. Para obter mais informações, consulte [Configurando notificações de gastos](/docs/billing-usage/notifications.html).
+O gerente de contas de uma conta Pré-paga pode configurar as notificações de gastos com relação ao custo total da conta, para tempo de execução, serviços e para serviços individuais, exceto serviços de terceiros. Para obter mais informações, consulte [Configurando notificações de gastos](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Exportando os detalhes de uso para um arquivo `.csv`
 {: #export-csv}
 
-É possível exportar um resumo de seu uso ou informações sobre seus serviços e instâncias, para um arquivo CSV. Ao exportar seu arquivo CSV, é possível localizar facilmente estimativas de informações de uso e custo de cada recurso para estornos a seus clientes ou para entender mais sobre seus custos. 
+É possível exportar um resumo de seu uso ou informações sobre seus serviços e instâncias, para um arquivo CSV. Ao exportar seu arquivo CSV, é possível localizar facilmente estimativas de informações de uso e custo de cada recurso para estornos a seus clientes ou para entender mais sobre seus custos.
 
 1. Acesse **Gerenciar > Faturamento e uso** e selecione **Uso**.
 2. Clique em **Exportar CSV**.  
-
-

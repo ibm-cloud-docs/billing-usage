@@ -28,13 +28,13 @@ Depois de construir seus recursos, é possível verificar o custo real. Acesse *
 
 Diferentes tipos de encargos se aplicam, dependendo dos recursos do {{site.data.keyword.Bluemix_notm}} que você está usando. A tabela a seguir fornece uma visão geral resumida:
 
-| Tipo de encargo | Descrição | Tipo de recurso | Exemplo |
-|------------------|------------------|--------------------------|--------------------------|
-| Ajustado | A precificação com taxa fixa é baseada em um encargo acordado mensal que não é ajustado. | Serviços  | Para Bare Metal Servers, há planos fixos a serem escolhidos, e esses planos são cobrados em uma taxa mensal fixa. |
-| Medido | A precificação com uso medido é baseada no número de GB/horas consumidos para tempos de execução e no número de endereços IP e armazenamento para contêineres. | Serviços, cálculo e contêineres | Para o serviço de Push, todo uso acima do abono mensal grátis é cobrado. |
-| Disposto em camadas | Alguns planos de precificação são baseados em um modelo de precificação em camadas, de modo que seja possível obter um desconto baseado em volume de acordo com o seu uso real. O serviços podem oferecer planos de precificação simples, graduados ou de camada de bloco. | Serviços | A precificação em camadas é geralmente usada para métricas de encargo que devem ter quantidades altas por mês,
+| Tipo de encargo | Descrição      | Tipo de recurso            | Exemplo                  |
+|----------------|------------------|--------------------------|--------------------------|
+| Ajustado          | A precificação com taxa fixa é baseada em um encargo acordado mensal que não é ajustado. | Serviços  | Para Bare Metal Servers, há planos fixos a serem escolhidos, e esses planos são cobrados em uma taxa mensal fixa. |
+| Medido        | A precificação com uso medido é baseada no número de GB/horas consumidos para tempos de execução e no número de endereços IP e armazenamento para contêineres. | Serviços, cálculo e contêineres | Para o serviço de Push, todo uso acima do abono mensal grátis é cobrado. |
+| Disposto em camadas         | Alguns planos de precificação são baseados em um modelo de precificação em camadas, de modo que seja possível obter um desconto baseado em volume de acordo com o seu uso real. O serviços podem oferecer planos de precificação simples, graduados ou de camada de bloco. | Serviços | A precificação em camadas é geralmente usada para métricas de encargo que devem ter quantidades altas por mês,
 como chamadas API. |
-| Reserved | A precificação reservada é baseada em um compromisso a longo prazo para um serviço, portanto, é possível obter um preço com desconto. Com um plano reservado, você obtém uma instância de serviço dedicado que é fácil configurar, implementar e entregar no ambiente público do {{site.data.keyword.Bluemix_notm}}. | Serviços | O DB2 on Cloud tem planos reservados.|
+| Reserved       | A precificação reservada é baseada em um compromisso a longo prazo para um serviço, portanto, é possível obter um preço com desconto. Com um plano reservado, você obtém uma instância de serviço dedicado que é fácil configurar, implementar e entregar no ambiente público do {{site.data.keyword.Bluemix_notm}}. | Serviços | O DB2 on Cloud tem planos reservados.|
 {:caption="Tabela 1. Encargos com base em recursos" caption-side="top"}
 
 
@@ -89,24 +89,24 @@ desconto em camadas com consumo maior. A precificação em camadas é oferecida 
 
 No modelo de camada simples, o preço unitário é determinado pela camada na qual a sua quantidade de uso se enquadra. O preço total é a sua quantidade que é multiplicada pelo preço unitário na sua camada, por exemplo:
 
-| Quantidade de itens | Preço unitário para todos os itens |
-|-------------------|--------------------------|
-| Camada 1: 1 - 1.000 | US$ 1 |
-| Camada 2: 1.001 - 2.000 | US$ 0,90 |
-| Camada 3: 2.001 - 3.000 | US$ 0,75 |
-| Camada 4: 3.001 - 4.000 | US$ 0,60 |
-|Camada 5: &gt; 4.000 | US$ 0,40 |
+| Quantidade de itens   | Preço unitário para todos os itens |
+|---------------------|--------------------------|
+| Camada 1: 1 - 1.000    | US$ 1                   |
+| Camada 2: 1.001 - 2.000 | US$ 0,90                |
+| Camada 3: 2.001 - 3.000 | US$ 0,75                |
+| Camada 4: 3.001 - 4.000 | US$ 0,60                |
+| Camada 5: &gt; 4.000   | US$ 0,40                |
 {:caption="Tabela 2. Tabela de precificação de camada simples" caption-side="top"}
 
 A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se baseia em um modelo de precificação de camada simples:
 
 | Quantidade de itens | Cálculo de encargo | Preço Total |
 |-------------------|--------------------|-------------|
-|500 |	500 × 1 = 500 |	US$ 500|
-|1.500 |	1.500 × 0,90 = 1.350 |	US$ 1.350|
-|2.500 |	2.500 × 0,75 = 1.875 |	US$ 1.875|
-|... |	... |	...|
-|5.200 |	5.200 × 0,40 = 2.080 |US$ 2.080|
+| 500               | 500 × 1 = 500      | US$ 500    |
+| 1.500              | 1.500 × 0,90 = 1.350 | US$ 1.350   |
+| 2.500              | 2.500 × 0,75 = 1.875 | US$ 1.875   |
+| ...               | ...                | ...         |
+| 5.200              | 5.200 × 0,40 = 2.080 | US$ 2.080   |
 {:caption="Tabela 3. Cálculo de encargo usando o modelo de precificação de camada simples" caption-side="top"}
 
 ### Camada graduada
@@ -114,24 +114,24 @@ A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se bas
 
 No modelo de camada graduada, o preço unitário por camada diminui à medida que o seu nível de uso aumenta. O preço total são os encargos acumulativos para cada nível de uso, consistindo em sua quantidade multiplicada pelo preço unitário nessa camada, por exemplo:
 
-| Quantidade de itens |	Preço unitário dos itens na camada|
-|-------------------|------------------------------------|
-|    Camada 1: 1 - 1.000 |	US$ 1 |
-|   Camada 2: 1.001 - 2.000 |	US$ 0,90 |
-|    Camada 3: 2.001 - 3.000 |	US$ 0,75 |
-|    Camada 4: 3.001 - 4.000 |	US$ 0,60 |
-|    Camada 5: &gt; 4.000 |	US$ 0,40 |
+| Quantidade de itens   |	Preço unitário dos itens na camada|
+|---------------------|---------------------------------|
+| Camada 1: 1 - 1.000    |	US$ 1                          |
+| Camada 2: 1.001 - 2.000 |	US$ 0,90                       |
+| Camada 3: 2.001 - 3.000 |	US$ 0,75                       |
+| Camada 4: 3.001 - 4.000 |	US$ 0,60                       |
+| Camada 5: &gt; 4.000   |	US$ 0,40                       |
 {:caption="Tabela 4. Tabela de precificação de camada graduada" caption-side="top"}
 
 A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se baseia em um modelo de precificação de camada graduada:
 
-|Quantidade de itens | Cálculo de encargo | Preço total|
-|------------------|--------------------|------------|
-|500 |	500 × 1 (preço unitário da Camada 1) = 500 |	US$ 500|
-|1.500 |	(1000 × 1 (preço unitário da Camada 1) + (500 × 0,90 (preço unitário da Camada 2)) = 1450 |	US$ 1.450|
-|2.500 |	(1000 × 1 (preço unitário da Camada 1) + (1000 × 0,90 (preço unitário da Camada 2) + (500 × 0,75 (preço unitário da Camada 3)) = 2275 |	US$ 2.275 |
-|... |	... |	...|
-|5.200 |	(1000 × 1 (preço unitário da Camada 1) + (1000 × 0,90 (preço unitário da Camada 2) + (1000 × 0,75 (preço unitário da Camada 3) + (1000 × 0,60 (preço unitário da Camada 4) + (1200 × 0,40 (preço unitário da Camada 5)) = 3730 |	US$ 3.730|
+|Quantidade de itens | Cálculo de encargo                                                               | Preço total |
+|------------------|----------------------------------------------------------------------------------|-------------|
+| 500              | 500 × 1 (preço unitário da Camada 1) = 500                                            |	US$ 500    |
+| 1.500             | (1000 × 1 (preço unitário da Camada 1) + (500 × 0,90 (preço unitário da Camada 2)) = 1450 |	US$ 1.450   |
+| 2.500             | (1000 × 1 (preço unitário da Camada 1) + (1000 × 0,90 (preço unitário da Camada 2) + (500 × 0,75 (preço unitário da Camada 3)) = 2275 | US$ 2.275 |
+| ...              | ...                                                                              | ...         |
+| 5.200             | (1000 × 1 (preço unitário da Camada 1) + (1000 × 0,90 (preço unitário da Camada 2) + (1000 × 0,75 (preço unitário da Camada 3) + (1000 × 0,60 (preço unitário da Camada 4) + (1200 × 0,40 (preço unitário da Camada 5)) = 3730 | US$ 3.730 |
 {:caption="Tabela 5. Cálculo de encargo usando o modelo de precificação de camada graduada" caption-side="top"}
 
 ### Camada em bloco
@@ -139,21 +139,21 @@ A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se bas
 
 No modelo de camada em bloco, o preço é um encargo definido pela quantidade utilizada em um nível de uso. O preço total é o encargo para seu nível de uso, independentemente de seu uso real. Cada camada sucessiva resulta em um preço menor para a razão de quantidade. Por exemplo:
 
-|Quantidade de itens |	Preço total para todos os itens|
-|------------------|-----------------------------|
-| Camada 1: &lt;= 1.000 |	US$ 1.000|
-| Camada 2: &lt;= 2.000 |	U$ 1.900|
-| Camada 3: &lt;= 3.000 |	US$ 2.800|
-| Camada 4: &lt;= 4.000 |	US$ 3.500|
-| Camada 5: &lt;= 10.000 |	US$ 5.000|
+|Quantidade de itens    |	Preço total para todos os itens |
+|---------------------|---------------------------|
+| Camada 1: &lt;= 1.000  |	US$ 1.000                 |
+| Camada 2: &lt;= 2.000  |	U$ 1.900                 |
+| Camada 3: &lt;= 3.000  |	US$ 2.800                 |
+| Camada 4: &lt;= 4.000  |	US$ 3.500                 |
+| Camada 5: &lt;= 10.000 |	US$ 5.000                 |
 {:caption="Tabela 6. Tabela de precificação de camada de bloco" caption-side="top"}
 
 A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se baseia em um modelo de precificação de camada em bloco:
 
-|Quantidade de itens |	Cálculo de encargo |	Preço total|
-|------------------|-----------------------|---------------|
-|500 |	O número de itens se enquadra na Camada 1, assim o preço total é US$ 1.000. |	US$ 1.000|
-|1.500 |	O número de itens se enquadra na Camada 2, assim o preço total é US$ 1.900. |	U$ 1.900|
-|... |	... |	...|
-|5.200 |	O número de itens se enquadra na Camada 5, assim o preço total é US$ 5.000. |	US$ 5.000|
+|Quantidade de itens | Cálculo de encargo                                                      | Preço total|
+|------------------|-------------------------------------------------------------------------|------------|
+| 500              | O número de itens se enquadra na Camada 1, assim o preço total é US$ 1.000. | US$ 1.000  |
+| 1.500             | O número de itens se enquadra na Camada 2, assim o preço total é US$ 1.900. | U$ 1.900  |
+| ...              | ...                                                                     | ...        |
+| 5.200             | O número de itens se enquadra na Camada 5, assim o preço total é US$ 5.000. | US$ 5.000  |
 {:caption="Tabela 7. Cálculo de encargo usando o modelo de precificação de camada de bloco" caption-side="top"}
