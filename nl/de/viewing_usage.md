@@ -1,11 +1,9 @@
 ---
 
-
-
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-04-12"
+  years: 2017, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,27 +12,43 @@ lastupdated: "2018-04-12"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
+
 # Nutzungsinformationen anzeigen
 {: #viewingusage}
 
-Als Kontoeigner oder Abrechnungsmanager einer Organisation können Sie über die Seite **Nutzungsdashboard** in der {{site.data.keyword.Bluemix}}-Konsole die geschätzten Gebühren für alle Ressourcen anzeigen, die monatlich in Ihrer Organisation genutzt werden. 
+Sie können Ihre Nutzungsdetails, einschließlich einer Zusammenfassung der voraussichtlichen Gebühren für alle Ressourcen, Services und Unterstützungspläne, die pro Monat in Ihren Organisationen verwendet werden, über die Seite 'Nutzung' in der {{site.data.keyword.Bluemix}}-Konsole anzeigen.
+{:shortdesc}
 
-Um auf die Seite **Nutzungsdashboard** zuzugreifen, klicken Sie auf **Verwalten** > **Abrechnung und Nutzung** > **Nutzung**. Eine Zusammenfassung der Ressourcennutzung für das Konto wird angezeigt. Abrechnungsmanager können nur die Details für die Organisationen anzeigen, in denen ihnen die Rolle des Abrechnungsmanagers zugewiesen ist.
+Abrechnungsmanager können nur die Details für die Organisationen anzeigen, in denen ihnen die Rolle des Abrechnungsmanagers zugewiesen ist.
+{: note}
 
-   * Klicken Sie auf die Option zum **Anzeigen von Instanzen**, um eine Zusammenfassung der geschätzten Gebühren für alle Instanzen einer bestimmten Ressource anzuzeigen. 
-   * Klicken Sie auf die Option zum **Anzeigen von Instanzen**, um eine detaillierte Zusammenfassung der geschätzten Gebühren für jede Instanz des jeweiligen Ressourcentyps anzuzeigen. Hier werden auch die detaillierten monatlichen Nutzungsmetriken für die ausgewählte Instanz angezeigt. 
+
+## Nutzungsberechtigungen anzeigen
+{: #view-usage-permissions}
+
+Für Ressourcen, die über Cloud Foundry verwaltet werden, muss die Rolle des Abrechnungsmanagers auf Organisationsebene angewendet werden. Zum Anzeigen der Nutzung von IAM-Ressourcen von {{site.data.keyword.Bluemix}} muss die Rolle 'Anzeigeberechtigter' auf die Ressourcengruppe angewendet werden. Weitere Informationen zu Berechtigungsrollen finden Sie in den Abschnitten zum [IAM-Zugriff](/docs/iam?topic=iam-userroles), zum [Cloud Foundry-Zugriff](/docs/iam?topic=iam-cfaccess) und zu [Berechtigungen für die klassische Infrastruktur](/docs/iam?topic=iam-infrapermission).
+
+## Servicenutzungsdetails anzeigen
+{: #services}
+
+Im Abschnitt 'Services' können Sie eine Liste Ihrer Services sowie die voraussichtlichen Kosten anzeigen, die mit diesen Services verbunden sind. Führen Sie die folgenden Schritte aus, um eine Zusammenfassung der voraussichtlichen Gebühren für alle Instanzen einer bestimmten Ressource anzuzeigen:
+
+1. Rufen Sie **Verwalten > Abrechnung und Nutzung** auf und wählen Sie **Nutzung** aus.
+2. Klicken Sie auf **Instanzen anzeigen**, um alle Instanzen eines bestimmten Ressourcentyps anzuzeigen.  
+3. Klicken Sie auf die Option **Instanzdetails anzeigen**, um eine detaillierte Zusammenfassung der voraussichtlichen Gebühren für die einzelnen Instanzen eines bestimmten Ressourcentyps anzuzeigen. Es werden auch die ausführlichen monatlichen Nutzungsmetriken für die ausgewählte Instanz angezeigt.
 
 Dem Kontoeigner werden die Gebühren für die Gesamtnutzung, die für alle Organisationen anfallen, am Ende jedes Abrechnungszyklus in Rechnung gestellt. Jeder Abrechnungszyklus dauert einen Monat.
 
-Kontoeigner können die Nutzungszusammenfassung nach Organisation filtern. Wenn Sie Kontoeigner sind, legen Sie für **Gruppe** die Einstellung **Konto** fest, um die Nutzung für das gesamte Konto für einen 12-monatigen Zeitraum anzuzeigen. Wählen Sie einen bestimmten Monat aus, um die Nutzung für diesen Monat anzuzeigen.  Die angezeigten Gebühren stellen den Betrag dar, der Ihnen als Kontoeigner für diesen Monat in Rechnung gestellt wird.
+Kontoeigner können die Nutzungszusammenfassung nach Gruppe filtern und den Zeitraum für die Nutzung auswählen. Die angezeigten Gebühren stellen den Betrag dar, der Ihnen als Kontoeigner für diesen Monat in Rechnung gestellt wird.
 
-Wenn Sie in der Liste **Gruppe** eine bestimmte Organisation auswählen, können Sie die gesamte Nutzung für diese Organisation, einschließlich der Nutzung als Teil eines gebührenfreien Nutzungskontingents anzeigen. Die für die Organisation angezeigten Gebühren sind nicht die Gebühren, die Ihnen in Rechnung gestellt werden. Die Nutzung des gebührenfreien Nutzungskontingents wird auf Kontoebene als kostenlos angezeigt, aber nicht auf Organisationsebene. Aus diesem Grund wird beim Anzeigen der Nutzung der Organisation die tatsächliche Nutzung für diese Organisation einschließlich der kostenlosen und der gebührenpflichtigen Nutzung angezeigt. Beim Anzeigen der Nutzung aller Organisationen wird die Nutzung für das Konto aufsummiert, nachdem das gebührenfreie Nutzungskontingent entfernt wurde.
+Wenn Sie in der Liste **Nach Gruppe filtern** eine bestimmte Organisation auswählen, können Sie die gesamte Nutzung für diese Organisation, einschließlich der Nutzung im Rahmen eines gebührenfreien Nutzungskontingents, anzeigen. Die Nutzung des gebührenfreien Nutzungskontingents wird zwar auf Kontoebene als kostenfrei angezeigt, nicht jedoch auf Organisationsebene. Wenn Sie die organisationsbezogene Nutzung anzeigen, wird die tatsächliche Nutzung für diese Organisation einschließlich der kostenfreien und der gebührenpflichtigen Nutzung angezeigt. Beim Anzeigen der Nutzung aller Organisationen wird die Nutzung für das Konto aufsummiert, nachdem das gebührenfreie Nutzungskontingent entfernt wurde.
 
-Als Manager eines Kontos vom Typ Nutzungsabhängige Zahlung können Sie Benachrichtigungen über Ausgaben für die Gesamtkosten Ihres Kontos, für Laufzeit, Services und für individuelle Services einrichten, mit Ausnahme von Services anderer Anbieter. Sie erhalten Benachrichtigungen, wenn Sie 80 %, 90 % und 100 % des angegebenen Schwellenwerts für die Ausgaben erreicht haben. Weitere Informationen finden Sie in [Benachrichtigungen einstellen](/docs/account/notifications.html).
+Der Manager eines nutzungsabhängigen Kontos kann ausgabenbezogene Benachrichtigungen zu den Gesamtkosten des Kontos für Laufzeit, Services und für einzelne Services, Services anderer Anbieter ausgenommen, einrichten. Weitere Informationen hierzu finden Sie unter [Ausgabebenachrichtigungen einstellen](/docs/billing-usage?topic=billing-usage-spending).
 
-## Guthaben anzeigen
-{: #credits}
+## Nutzungsdetails in `CSV`-Datei exportieren
+{: #export-csv}
 
-Als Kontoeigner oder Abrechnungsmanager können Sie auf der Seite 'Nutzungsdashboard' vorhandenes Guthaben für Ihr Konto anzeigen.
+Sie können eine Zusammenfassung Ihrer Nutzungsdaten oder Informationen zu Ihren Services und Instanzen in eine CSV-Datei exportieren. Der Export in eine CSV-Datei erleichtert das Auffinden von Informationen zu Nutzungsschätzungen und voraussichtlichen Kosten für die einzelnen Ressourcen für Kostenerstattungen an die Kunden und ermöglicht Ihnen einen besseren Einblick in Ihre Kosten.
 
-Um die Seite 'Nutzungsdashboard' zu öffnen, klicken Sie auf **Verwalten** > **Abrechnung und Nutzung** > **Nutzung**. Im Dashboard werden gegebenenfalls die bestehenden Guthaben und die entsprechenden Ablaufdaten angezeigt.
+1. Rufen Sie **Verwalten > Abrechnung und Nutzung** auf und wählen Sie **Nutzung** aus.
+2. Klicken Sie auf **CSV exportieren**.  

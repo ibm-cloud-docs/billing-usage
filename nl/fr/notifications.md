@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -18,29 +18,26 @@ lastupdated: "2018-11-19"
 {: #spending}
 
 Si vous possédez un compte Paiement à la carte ou Abonnement, vous pouvez configurer des notifications par courrier électronique relatives aux dépenses. Définissez des notifications pour les dépenses totales du compte, pour les dépenses relatives aux contextes
-d'exécution, aux conteneurs et aux services, ainsi que pour les dépenses relatives aux services individuels, à l'exception des services de tiers. 
+d'exécution, aux conteneurs et aux services, ainsi que pour les dépenses relatives aux services individuels, à l'exception des services de tiers.
 {: shortdesc}
 
 Vous recevez des
 notifications lorsque vous atteignez 80 %, 90 % et 100 % des seuils que vous avez spécifiés pour les dépenses. Vous pouvez éditer chaque notification
 relative aux dépenses à tout moment, selon l'évolution de vos besoins.
 
-Si vous possédez un compte Lite, vous pouvez effectuer une mise à niveau vers un compte Paiement à la carte ou Abonnement afin de définir des plafonds de dépenses. Pour plus d'informations, voir [Types de compte](/docs/account/index.html#accounts).
+Si vous possédez un compte Lite, vous pouvez effectuer une mise à niveau vers un compte Paiement à la carte ou Abonnement afin de définir des plafonds de dépenses. Pour plus d'informations, voir [Types de compte](/docs/account?topic=account-accounts).
 
-Pour configurer vos notifications, procédez comme suit : 
+Pour configurer vos notifications, procédez comme suit :
 
-1. Dans la console, accédez à **Gérer > Facturation et utilisation** et sélectionnez **Notifications relatives aux dépenses**. 
-2. Définissez la quantité de dollars pour chaque zone pour laquelle vous souhaitez recevoir une notification. 
-3. Vérifiez que la case à cocher est sélectionnée dans la colonne d'e-mail pour cette zone spécifique. 
+1. Dans la console, accédez à **Gérer > Facturation et utilisation** et sélectionnez **Notifications relatives aux dépenses**.
+2. Définissez la quantité de dollars pour chaque zone pour laquelle vous souhaitez recevoir une notification.
+3. Vérifiez que la case à cocher est sélectionnée dans la colonne d'e-mail pour cette zone spécifique.
 
-Vous pouvez également définir des notifications relatives aux dépenses pour des services spécifiques. 
+Vous pouvez également définir des notifications relatives aux dépenses pour des services spécifiques.
 
-1. Dans la console, accédez à **Gérer > Facturation et utilisation** et sélectionnez **Notifications relatives aux dépenses**. 
+1. Dans la console, accédez à **Gérer > Facturation et utilisation** et sélectionnez **Notifications relatives aux dépenses**.
 2. Développez le menu `Ajouter un service`, sélectionnez un service puis définissez la quantité de dollars pour chaque zone pour laquelle vous souhaitez recevoir une notification.
-3. Lorsque vous avez terminé, cliquez sur **Sauvegarder** pour sauvegarder vos modifications. 
+3. Lorsque vous avez terminé, cliquez sur **Sauvegarder** pour sauvegarder vos modifications.
 
 Les dépenses correspondant à des services tiers ne sont pas incluses dans les notifications.
 {: note}
-
-
- 

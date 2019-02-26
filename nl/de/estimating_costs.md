@@ -2,92 +2,71 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-09-25"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
 # Kosten schätzen
 {: #cost}
 
-Sie können verschiedene Methoden verwenden, um die Kosten für die Verwendung von Infrastructure as a Service-Ressourcen (IaaS) und Platform as a Service-Ressourcen (PaaS) von {{site.data.keyword.Bluemix}} zum Erstellen und Hosten Ihrer Anwendungen zu schätzen.
+Mithilfe des Kostenschätzers können Sie die voraussichtlichen Kosten der {{site.data.keyword.Bluemix}}-Angebote durch Anpassen der Pläne an Ihren Bedarf ermitteln.
 {:shortdesc}
 
-Sie können Ihre Kosten mithilfe der folgenden Methoden bestimmen:
-* Verwenden Sie den [Preisrechner ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net/pricing/){: new_window}, um die Gesamtkosten der Plattform- und Infrastrukturressourcen zu schätzen, die Sie verwenden wollen.
-* Verwenden Sie die Kostenschätzer auf der {{site.data.keyword.pricing_sheet}} von {{site.data.keyword.Bluemix_notm}},
-um eine grobe Einschätzung der Kosten auf Grundlage der Größe Ihrer App zu erhalten.
-* Verwenden Sie den Kostenrechner auf der Seite für die Preisstruktur, um auf der Grundlage Ihrer Eingabe zu Laufzeit und Servicenutzung genaue App-Preise anzuzeigen.
-* Berechnen Sie Ihre Kosten manuell.
+Sie können die Kosten für Angebote zur klassischen Infrastruktur schätzen, wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen. Informationen zum Upgrade Ihres Lite-Kontos finden Sie in [Wie kann ich ein Upgrade meines Kontotyps durchführen oder den Kontotyp ändern?](/docs/account?topic=account-accountfaqs). 
 
-## Preisrechner verwenden
-{: #pricing-calculator}
+Führen Sie die folgenden Schritte aus, um Ihre Kosten zu schätzen:
 
-Sie können mit dem Preisrechner die Kosten von Plattform- und vielen Infrastrukturressourcen schätzen, bevor Sie einen Kauf tätigen.
-Der Preisrechner stellt die folgenden Funktionen bereit:
-  * Kostenschätzungen, die derzeit in USD bereitgestellt werden.
-  * Schätzungen für Infrastrukturressourcen, die derzeit für die Kategorien **Compute** und **Container** verfügbar sind.
-  * Kostenschätzungen für Ressourcen, die derzeit kein Nachlässe beinhalten.
-  * Kostenschätzungen, die zu Planungszwecken bereitgestellt werden.
+  1. Rufen Sie den {{site.data.keyword.Bluemix_notm}} [Katalog](https://cloud.ibm.com/catalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") auf und wählen Sie das Produktangebot aus, das Sie interessiert.
+  2. Je nach Produktangebot wird möglicherweise eine Seite mit einleitenden Informationen angezeigt. Wenn Sie die Option für {{site.data.keyword.baremetal_short}} auswählen, wird beispielsweise eine Informationsseite mit einer Beschreibung der verschiedenen Features angezeigt. Klicken Sie auf **Weiter**.
+  3. Wählen Sie auf der Seite mit den Angebotsdetails unabhängig vom Angebotstyp Ihren Preisstrukturplan aus und geben Sie weitere Konfigurationsdetails ein.
+  4. Wählen Sie eine der folgenden Optionen aus:
 
-1. Zum Zugriff auf den Preisrechner stehen Ihnen folgende Möglichkeiten zur Verfügung:
-  * Klicken Sie auf der [Seite 'Preisstruktur' ![Symbol für externen Link](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/pricing){: new_window} im Bereich zum Erkunden unserer Lösungen auf **Rechner ausprobieren**.
-  * Klicken Sie, wenn Sie gerade nicht bei {{site.data.keyword.Bluemix_notm}} angemeldet sind, auf der Homepage von [{{site.data.keyword.Bluemix_notm}} ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net/) auf **Preisstruktur**.
-2. Wählen Sie in der Liste **Infrastruktur** oder **Plattform** die Kategorie der Ressource aus, deren Preis Sie schätzen wollen. Daraufhin werden die Ressourcen der ausgewählten Kategorie angezeigt und Sie können in der Kategorie auch nach einer bestimmten Ressource suchen.
-3. Wählen Sie eine Ressource in der Kategorie aus, um eine Beschreibung dazu anzuzeigen. Bestimmte Ressourcen verfügen über mehrere Optionen. Wenn Sie beispielsweise **Infrastruktur** > **Compute** > **Bare Metal Server** auswählen, können Sie eine Auswahl in einer Serverliste treffen.
-4. Wählen Sie die Menge der Ressource aus, die hinzugefügt werden soll.
-5. Klicken Sie auf **Zur Schätzung hinzufügen**.
-6. Fügen Sie weitere Ressourcen aus den Kategorien **Infrastruktur** und **Plattform** hinzu, bis Sie alles hinzugefügt haben, was Sie schätzen wollen. In der Anzeige **Schätzung** werden die hinzugefügten Ressourcen, der Preis für die jeweiligen Ressourcen und ein Gesamtpreis angezeigt.
-7. Um optional eine PDF mit den Informationen in der Anzeige **Schätzung** zu erstellen, nachdem Sie Ihre Liste von Ressourcen kompiliert haben, klicken Sie auf **PDF herunterladen**. Sie können beispielsweise eine PDF erstellen, um vor dem Kauf zu überprüfen, welche Ressourcen Sie berechnen, oder um beim Kauf von Ressourcen einen Leitfaden zur Hand zu haben.
+    a. Klicken Sie auf **Zur Kostenschätzung hinzufügen** > **Speichern**. Anschließend können Sie zum Katalog zurückkehren und weitere Produktangebote auswählen, die zu Ihrer Schätzung hinzugefügt werden sollen.
+
+    Sie können jederzeit im Konsolenmenü auf das Kostenschätzungssymbol ![Kostenschätzungssymbol](../icons/Estimator.svg) klicken, um eine Zusammenfassung der geschätzten Kosten zu erhalten.
+    {: tip}
+
+    b. Klicken Sie auf **Erstellen**, wenn mit dem Erstellen von Instanzen des Angebots begonnen werden kann.
 
 
-Wenn Sie nur Plattformressourcen berechnen, können Sie auf **Zum klassischen Rechner wechseln** klicken, um eine Schätzung in einer anderen Währung als USD anzuzeigen. Der klassische Rechner enthält keine Infrastrukturressourcen.
-{: tip}
+## Angebote anzeigen
+{: #quotes}
 
-### Klassischen Rechner für Plattformressourcen verwenden
-{: #calculator}
+Sie können nur Angebote für {{site.data.keyword.baremetal_short}}, virtuelle Server und Gateway-Add-ons generieren und anzeigen. Alle Benutzer mit Zugriff auf das Konto können Angebote anzeigen.
 
-Sie können den klassischen Rechner verwenden, um die Kosten Ihrer Plattformressourcen in einer anderen Währung als USD zu berechnen. Der klassische Rechner stellt keine Preisschätzungen für Infrastrukturressourcen bereit.
+  1. Generieren Sie ein Angebot, indem Sie auf der Seite mit den Angebotsdetails im Abschnitt mit der Bestellübersicht auf **Als Angebot speichern** klicken. Sie können sich stattdessen auch an einen {{site.data.keyword.Bluemix_notm}}-Vertriebsbeauftragten wenden.
+  2. Sie können Ihr Angebot anzeigen, indem Sie **Verwalten > Abrechnung und Nutzung** aufrufen und dann **Angebote** auswählen. Wenn Sie über den entsprechenden Zugriff verfügen, können Sie das als Angebot zusammengestellte Produktangebot erwerben, indem Sie auf das Angebot klicken und die Bestellung bestätigen.
 
-1. Wechseln Sie zur {{site.data.keyword.pricing_sheet}} von {{site.data.keyword.Bluemix_notm}}.
-2. Wählen Sie eine der Optionen im Bereich 'Infrastruktur zur Unterstützung all Ihrer Workloads' aus.
-
-Zur Verwendung der Berechnungsfunktion geben Sie Ihre projizierte monatliche Nutzung der aufgelisteten Ressourcen ein, z. B. die Anzahl der Instanzen oder Push-Benachrichtigungen. Die Berechnungsfunktion zeigt die Kosten für Ihre Eingabe sofort an. Sie können die Berechnungsfunktion auch anpassen, um jährliche Kosten anstelle von monatlichen Kosten anzuzeigen.
-
-## Kosten manuell schätzen
-{: #manual}
-
-Sie können zum Beispiel Ihre {{site.data.keyword.Bluemix_notm}}-Kosten selbst schätzen, um besser zu verstehen, wie sich {{site.data.keyword.Bluemix_notm}}-Kosten errechnen. Sie können den Gesamtpreis für die Nutzung von {{site.data.keyword.Bluemix_notm}} für das Erstellen und Hosting Ihrer App berechnen, indem Sie die Preise der Laufzeit und der von der Laufzeit verwendeten Services betrachten. Die Preise der Laufzeiten und Services ändern sich manchmal, sodass Sie jeweils die neuesten Informationen auf der Preisliste unter {{site.data.keyword.Bluemix_notm}} für die Berechnung des Gesamtpreises verwenden müssen.
 
 ## Unterstützte Abrechnungswährungen
+{: supported-bill-currencies}
 
-In der folgenden Tabelle werden die verfügbaren Abrechnungswährungen aufgeführt.
+In der folgenden Tabelle werden die für die Abrechnung unterstützten Währungen aufgeführt.
 
-|ISO 4217-Code| Währung|
-|-------------|---------|
-|AUD |	  Australischer Dollar|
-|BRL |	  Brasilianischer Real|
-|CAD |	  Kanadischer Dollar|
-|CHF |	  Schweizer Franken|
-|DKK |	  Dänische Krone|
-|EUR |	  Euro|
-|GBP |	  Britisches Pfund|
-|INR |	  Indische Rupie|
-|JPY |	  Japanischer Yen|
-|KRW |	  Südkoreanischer Won|
-|NOK |	  Norwegische Krone|
-|NZD |	  Neuseeländischer Dollar|
-|SEK |	  Schwedische Krone|
-|USD |    US-Dollar|
-|ZAR |	  Südafrikanischer Rand|
+| ISO 4217-Code | Währung             |
+|---------------|----------------------|
+|AUD            | Australischer Dollar    |
+|BRL            |	Brasilianischer Real       |
+|CAD            |	Kanadischer Dollar      |
+|CHF            |	Schweizer Franken          |
+|DKK            |	Dänische Krone         |
+|EUR            |	Euro                 |
+|GBP            |	Britisches Pfund       |
+|INR            |	Indische Rupie         |
+|JPY            |	Japanischer Yen         |
+|KRW            |	Südkoreanischer Won     |
+|NOK            |	Norwegische Krone      |
+|NZD            |	Neuseeländischer Dollar   |
+|SEK            |	Schwedische Krone        |
+|USD            | US-Dollar |
+|ZAR            |	Südafrikanischer Rand   |
 {:caption="Tabelle 1. Unterstützte Währungen" caption-side="top"}
-
-Wenn Sie Ihre {{site.data.keyword.Bluemix_notm}}- und SoftLayer-Konten verknüpft haben, ist die einzige Rechnung, die Sie erhalten, nur in USD ausgestellt. Weitere Informationen finden Sie unter [Konsolidierte Rechnungsstellung für verknüpfte Konten](/docs/account/linking_accounts.html).
-{: tip}

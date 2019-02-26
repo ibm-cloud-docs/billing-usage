@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-11"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -30,9 +30,9 @@ Wenn Sie zu einer anderen Zahlungsmethode wechseln möchten, wählen Sie die Opt
 {: #addcard}
 {: faq}
 
-Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir die Kreditkartenprüfung ernst. Wenden Sie sich unter der folgenden Nummer an uns:  
+Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir die Kreditkartenprüfung ernst.
 
-   * Rufen Sie uns in den USA unter folgender Nummer an: 1-866-325-0045 (Option 3 auswählen)
+Wenden Sie sich unter der Nummer 1-866-325-0045 an uns und wählen Sie dritte Option aus.
 
 
 ## Sind Feature-Codes und Werbeaktionscodes dasselbe?
@@ -41,33 +41,31 @@ Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir 
 
 Werbeaktionscodes und Feature-Codes unterscheiden sich voneinander!
 
-- Werbeaktionscodes sind infrastrukturspezfische Werbecodes, die Sie möglicherweise von unserem Vertriebsteam erhalten. Geben Sie sie beim Checkout in das Kundenportal ein, um einen Rabatt für Ihre Bestellung zu erhalten.
-- Feature-Codes werden verwendet, um zusätzliche Ressourcen oder Funktionen für Lite-Konten anzubieten, z. B. für Schulungsveranstaltungen. Bei nutzungsabhängigen und Abonnementkonten erhalten Sie möglicherweise einen Feature-Code, um Abonnement- und Supportguthaben hinzufügen zu können.
+- Werbeaktionscodes sind infrastrukturspezfische Werbecodes, die Sie möglicherweise vom Vertriebsteam erhalten. Geben Sie sie beim Checkout in das Kundenportal ein, um einen Rabatt für Ihre Bestellung zu erhalten.
+- Feature-Codes werden dazu verwendet, Abonnement- und Unterstützungsguthaben zu Ihrem Konto hinzuzufügen. Bei Lite-Konten werden sie auch verwendet, um zusätzliche Ressourcen oder Funktionen anzubieten, z. B. für Schulungsveranstaltungen.
 
-   Lösen Sie Ihren Feature-Code ein, indem Sie **Verwalten > Konto** aufrufen und **Kontoeinstellungen** auswählen. Klicken Sie unter "Feature-Codes" auf **Code anwenden**. Weitere Informationen finden Sie unter [Feature-Codes anwenden](/docs/account/feature_codes.html#codes).
-
+   Beim Kauf eines Abonnements erhalten Sie in der Regel eine E-Mail mit dem Feature-Code. Lösen Sie Ihren Feature-Code ein, indem Sie **Verwalten > Konto** aufrufen und **Kontoeinstellungen** auswählen. Klicken Sie unter "Feature-Codes" auf **Code anwenden**. Wenn diese Option in Ihrem Konto nicht angezeigt wird, verfügen Sie möglicherweise nicht über die erforderlichen Zugriffsrollen. Weitere Informationen finden Sie unter [Feature-Codes anwenden](/docs/account?topic=account-codes).
 
 ## Wie kann ich mein Konto kündigen?
 {: #cancelmyaccount}
 {: faq}
 
-Wenn Sie über einen entsprechenden Kontotyp verfügen, rufen Sie **Verwalten** > **Konto** > **Kontoeinstellungen** auf und klicken Sie auf **Konto inaktivieren**.
+Für nutzungsabhängige Konten oder Abonnementkonten besteht die schnellste Möglichkeit, das Konto zu stornieren, darin, über den [Live-Chat](https://{DomainName}/unifiedsupport/supportcenter) Kontakt aufzunehmen oder die Telefonnummer 1-866-325-0045 anzurufen und Option 3 auszuwählen. Alternativ dazu können Sie auch einen Supportfall öffnen.
 
-![Screenshot zu Kontoeinstellungen](images/Account-2C.svg "Screenshot zu Kontoeinstellungen")
+Zum Stornieren eines Lite-Kontos rufen Sie **Verwalten** > **Konto** > **Kontoeinstellungen** auf und klicken Sie auf **Konto inaktivieren**.
 
-Wird beim Aufruf der Seite **Kontoeinstellungen** die Option **Konto inaktivieren** nicht angezeigt, wenden Sie sich unter der Nummer '1-866-325-0045' in den USA an den Support (dritte Option auswählen) oder öffnen Sie einen [Supportfall](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg).
 
 ## Wie kann ich mein Konto löschen?
 {: #deleteaccount}
 {: faq}
 
-Wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support ![Symbol für externen Link](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}, um einen Supportfall für das Löschen Ihres Kontos zu öffnen. Wenn Sie über Daten verfügen, die Ihrem alten Konto zugeordnet sind, die jedoch in ein neues Konto übernommen werden sollen, dann geben Sie die entsprechenden Informationen in Ihrer E-Mail an.
+Wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support ![Symbol für externen Link](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}, um einen Supportfall für das Löschen Ihres Kontos zu öffnen. Wenn Sie über Daten verfügen, die Ihrem alten Konto zugeordnet sind, die jedoch in ein neues Konto übernommen werden sollen, dann geben Sie die entsprechenden Informationen in Ihrer E-Mail an. 
 
 ## Wie erhalte ich Unterstützung?
 {: #contactsupport}
 {: faq}
 
-Klicken Sie in der Menüleiste der Konsole auf **Support**, um zum Support Center zu gelangen. Überprüfen Sie dort zunächst die Liste der allgemeinen FAQs. Wenn Sie dort keine Antwort finden, die Ihnen weiterhilft, klicken Sie auf **Erstellen Sie einen Fall**, um sich an das Support-Team zu wenden.   
+Klicken Sie in der Menüleiste der Konsole auf **Support**, um zum Support Center zu gelangen. Überprüfen Sie dort zunächst die Liste der allgemeinen FAQs. Wenn Sie dort keine Antwort finden, die Ihnen weiterhilft, klicken Sie auf **Fall erstellen**, um sich an das Support-Team zu wenden.    
 
 ## Wie viele Apps kann ich erstellen?
 {: #howmanyapps}
@@ -129,7 +127,7 @@ Ja. Sie können die monatliche Ausgabe nach Bedarf bestimmen. Jeden Monat kann e
 {: #subs-cancel-early}
 {: faq}
 
-Ja. Das Konto kann vor Ablauf der Laufzeit gekündigt werden. Der Rest des Gesamtbetrags für das Abonnement verfällt in diesem Fall jedoch.
+Ja. Das Konto kann vor Ablauf der Laufzeit gekündigt werden. Der Rest des Gesamtbetrags für das Abonnement verfällt in diesem Fall jedoch. 
 
 
 ## Was passiert, wenn die Ausgabeverpflichtung vor dem Ende der Laufzeit erreicht wird?  
@@ -143,11 +141,11 @@ Sie müssen die monatlichen Gebühren weiterhin bis zum Ende der Laufzeit bezahl
 {: #access-invoices}
 {: faq}
 
-Klicken Sie in der Konsole auf **Verwalten > Abrechnung und Nutzung** und wählen Sie **Rechnungen** aus.
+Klicken Sie in der Konsole auf **Verwalten > Abrechnung und Nutzung** und wählen Sie **Rechnungen** aus. 
 
 
 ## Warum entspricht die Nutzung nicht der Rechnung?
 {: #usage-not-match-invoice}
 {: faq}
 
-Die Nutzung entspricht möglicherweise nicht der Rechnung, da die für den Vergleich der Nutzung verwendeten Monate nicht übereinstimmen oder da nicht die Gesamtzahl der Organisationen ausgewählt wurde. Weitere Informationen finden Sie unter [Nutzung anzeigen](/docs/billing-usage/viewing_usage.html#viewingusage). Treten weiterhin Abweichungen auf, kontaktieren Sie uns in den USA unter der Telefonnummer 1-866-325-0045 und wählen Sie Option 3 aus oder öffnen Sie einen [Supportfall](/unifiedsupport/cases/add).
+Die Nutzung entspricht möglicherweise nicht der Rechnung, da die für den Vergleich der Nutzung verwendeten Monate nicht übereinstimmen oder da nicht die Gesamtzahl der Organisationen ausgewählt wurde. Weitere Informationen finden Sie unter [Nutzung anzeigen](/docs/billing-usage?topic=billing-usage-viewingusage). Treten weiterhin Abweichungen auf, kontaktieren Sie uns in den USA unter der Telefonnummer 1-866-325-0045 und wählen Sie die Option 3 aus oder öffnen Sie einen [Supportfall](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg).
