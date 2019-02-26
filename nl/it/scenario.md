@@ -19,7 +19,7 @@ Supponi di avere un'applicazione web Node.js con funzionalità di ridimensioname
 
 * Quattro istanze di runtime Node.js di 256 MB
 * Due politiche di {{site.data.keyword.autoscaling}}, processore e memoria
-* 150 GB al mese di database {{site.data.keyword.cloudant_short_notm}}, 1.000 ricerche, 500 scritture e 50 query. 
+* 150 GB al mese di database {{site.data.keyword.cloudant_short_notm}}, 1.000 ricerche, 500 scritture e 50 query.
 * 20 GB di traffico di rete in entrata o in uscita
 
 
@@ -30,11 +30,11 @@ Per non complicare l'esempio, presumi che i prezzi nella seguente
 tabella non fluttuino entro un arco di tempo o tra archi di tempo diversi, ad esempio un mese. Tutti i prezzi in questo esempio
 sono in dollari statunitensi.
 
-|Servizio |	Funzioni |	Prezzo |
-|--------|-----------|--------|
-|SDK for Node.js |	375 GB-ore gratuiti al mese (condivise tra tutti i runtime) |	$0,07 USD/GB-ora|
-|{{site.data.keyword.autoscaling}} |	Piano di servizio gratuito per il servizio {{site.data.keyword.autoscaling}} |	Gratuito|
-|{{site.data.keyword.cloudant_short_notm}} per {{site.data.keyword.Bluemix_notm}} - Lite| Include 20 GB di archiviazione dati gratuita</br>Ridimensiona la capacità produttiva fornita con incrementi di:</br>100 ricerche al secondo</br>50 scritture al secondo</br>5 query al secondo | $1,00 USD/GB di archiviazione dati</br>$0,25 USD/Ricerca al secondo</br>$0,50 USD/Scrittura al secondo</br>$5,00 USD/Query al secondo |
+| Servizio                           |	Funzioni                                                            |	Prezzo             |
+|-----------------------------------|---------------------------------------------------------------------|-------------------|
+| {{site.data.keyword.runtime_nodejs_short}}                   |	375 GB-ore gratuiti al mese (condivise tra tutti i runtime)            |	$0,07 USD/GB-ora |
+| {{site.data.keyword.autoscaling}} |	Piano di servizio gratuito per il servizio {{site.data.keyword.autoscaling}} |	Gratuito              |
+| {{site.data.keyword.cloudant_short_notm}} per {{site.data.keyword.Bluemix_notm}} - Lite | Include 20 GB di archiviazione dati gratuita</br>Ridimensiona la capacità produttiva fornita con incrementi di:</br>100 ricerche al secondo</br>50 scritture al secondo</br>5 query al secondo | $1,00 USD/GB di archiviazione dati</br>$0,25 USD/Ricerca al secondo</br>$0,50 USD/Scrittura al secondo</br>$5,00 USD/Query al secondo |
 {:caption="Tabella 1. Prezzi per le risorse" caption-side="top"}
 
 
@@ -56,7 +56,7 @@ al mese, condivisi tra tutti i runtime {{site.data.keyword.Bluemix_notm}}. Il co
 sono gratuite.</dd>
 
 <dt>150 GB al mese di {{site.data.keyword.cloudant_short_notm}}</dt>
-<dd>Gli addebiti del servizio {{site.data.keyword.cloudant_short_notm}} per {{site.data.keyword.Bluemix_notm}} si basano sull'archiviazione dei dati e sulla capacità di accedere a tali dati mediante la capacità produttiva fornita denotata da ricerche, scritture e query al secondo. 
+<dd>Gli addebiti del servizio {{site.data.keyword.cloudant_short_notm}} per {{site.data.keyword.Bluemix_notm}} si basano sull'archiviazione dei dati e sulla capacità di accedere a tali dati mediante la capacità produttiva fornita denotata da ricerche, scritture e query al secondo.
 <p>
 Somma il numero di GB e sottrai la franchigia di 20 GB. L'addebito mensile è di 130 GB. Il prezzo totale dell'archiviazione
 include le seguenti parti:</p>

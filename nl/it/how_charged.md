@@ -28,13 +28,13 @@ a partecipare ad organizzazioni sotto un account differente. L'utilizzo delle ap
 
 Vengono applicati diversi tipi di addebiti a seconda delle funzioni di {{site.data.keyword.Bluemix_notm}} che stai utilizzando. La seguente tabella fornisce una panoramica di alto livello:
 
-| Tipo di addebito | Descrizione | Tipo di risorsa | Esempio |
-|------------------|------------------|--------------------------|--------------------------|
-| Fisso | Il prezzo forfettario è basato su un addebito mensile concordato che non viene adeguato. | Servizi  | Per i server Bare Metal, sono disponibili dei piani fissi da cui scegliere e tali piani vengono addebitati a una tariffa mensile fissa. |
-| Misurato | Il prezzo a utilizzo misurato è basato sul numero di GB-ore utilizzati per i runtime e sul numero di indirizzi IP e archiviazione per i contenitori. | Servizi, elaborazione e contenitori | Per il servizio Push, la quota di utilizzo che supera la franchigia mensile viene addebitata. |
-| A livelli | Alcuni piani prezzi sono basati su un modello di prezzi a livelli, quindi puoi ottenere uno sconto basato sui
+| Tipo di addebito | Descrizione      | Tipo di risorsa            | Esempio                  |
+|----------------|------------------|--------------------------|--------------------------|
+| Fisso          | Il prezzo forfettario è basato su un addebito mensile concordato che non viene adeguato. | Servizi  | Per i server Bare Metal, sono disponibili dei piani fissi da cui scegliere e tali piani vengono addebitati a una tariffa mensile fissa. |
+| Misurato        | Il prezzo a utilizzo misurato è basato sul numero di GB-ore utilizzati per i runtime e sul numero di indirizzi IP e archiviazione per i contenitori. | Servizi, elaborazione e contenitori | Per il servizio Push, la quota di utilizzo che supera la franchigia mensile viene addebitata. |
+| A livelli         | Alcuni piani prezzi sono basati su un modello di prezzi a livelli, quindi puoi ottenere uno sconto basato sui
 volumi in base al tuo utilizzo effettivo. I servizi possono offrire dei piani prezzi di livello a blocchi, graduale o semplice. | Servizi | Il prezzo a livelli viene di norma utilizzato per le metriche di addebito di cui è prevista una quantità elevata al mese, come le chiamate API. |
-| Riservato | Il prezzo riservato è basato su un impegno a lungo termine per un servizio, in modo da consentirti di ottenere un prezzo scontato. Con un piano riservato, ottieni un'istanza del servizio dedicato facile da configurare, distribuire e consegnare in ambiente {{site.data.keyword.Bluemix_notm}} pubblico. | Servizi | DB2 on Cloud ha dei piani riservati.|
+| Riservato       | Il prezzo riservato è basato su un impegno a lungo termine per un servizio, in modo da consentirti di ottenere un prezzo scontato. Con un piano riservato, ottieni un'istanza del servizio dedicato facile da configurare, distribuire e consegnare in ambiente {{site.data.keyword.Bluemix_notm}} pubblico. | Servizi | DB2 on Cloud ha dei piani riservati.|
 {:caption="Tabella 1. Addebiti basati sulle funzioni" caption-side="top"}
 
 
@@ -90,13 +90,13 @@ addebitata.</dd>
 Nel modello di livello semplice, il prezzo unitario è determinato
 dal livello in cui rientra la quantità da te utilizzata. Il prezzo totale è tale quantità moltiplicata per il prezzo unitario nel livello di competenza, ad esempio:
 
-| Quantità di elementi | Prezzo unitario per tutti gli elementi |
-|-------------------|--------------------------|
-| Livello 1: 1 - 1000 | $1 USD |
-| Livello 2: 1001 - 2000 | $0,90 USD |
-| Livello 3: 2001 - 3000 | $0,75 USD |
-| Livello 4: 3001 - 4000 | $0,60 USD |
-|Livello 5: &gt; 4000 | $0,40 USD |
+| Quantità di elementi   | Prezzo unitario per tutti gli elementi |
+|---------------------|--------------------------|
+| Livello 1: 1 - 1000    | $1 USD                   |
+| Livello 2: 1001 - 2000 | $0,90 USD                |
+| Livello 3: 2001 - 3000 | $0,75 USD                |
+| Livello 4: 3001 - 4000 | $0,60 USD                |
+| Livello 5: &gt; 4000   | $0,40 USD                |
 {:caption="Tabella 2. Tabella prezzi di livello semplice" caption-side="top"}
 
 La seguente tabella
@@ -104,11 +104,11 @@ illustra quanto paghi con un piano basato su un modello di prezzi di livello sem
 
 | Quantità di elementi | Calcolo dell'addebito | Prezzo totale |
 |-------------------|--------------------|-------------|
-|500 |	500 × 1 = 500 |	$500 USD|
-|1500 |	1500 × 0,90 = 1350 |	$1350 USD|
-|2500 |	2500 × 0,75 = 1875 |	$1875 USD|
-|... |	... |	...|
-|5200 |	5200 × 0,40 = 2080 |$2080 USD|
+| 500               | 500 × 1 = 500      | $500 USD    |
+| 1500              | 1500 × 0,90 = 1350 | $1350 USD   |
+| 2500              | 2500 × 0,75 = 1875 | $1875 USD   |
+| ...               | ...                | ...         |
+| 5200              | 5200 × 0,40 = 2080 | $2080 USD   |
 {:caption="Tabella 3. Calcolo dell'addebito utilizzando un modello di prezzi di livello semplice" caption-side="top"}
 
 ### Livello graduale
@@ -117,25 +117,25 @@ illustra quanto paghi con un piano basato su un modello di prezzi di livello sem
 Nel modello di livello graduale, il prezzo unitario per livello si riduce
 man mano che il tuo livello di utilizzo aumenta. Il prezzo totale è dato dagli addebiti cumulativi per ciascun livello di utilizzo, che consiste nella tua quantità moltiplicata per il prezzo unitario al livello di competenza, ad esempio:
 
-| Quantità di elementi |	Prezzo unitario per gli elementi nel livello|
-|-------------------|------------------------------------|
-|    Livello 1: 1 - 1000 |	$1 USD |
-|   Livello 2: 1001 - 2000 |	$0,90 USD |
-|    Livello 3: 2001 - 3000 |	$0,75 USD |
-|    Livello 4: 3001 - 4000 |	$0,60 USD |
-|    Livello 5: &gt; 4000 |	$0,40 USD |
+| Quantità di elementi   |	Prezzo unitario per gli elementi nel livello|
+|---------------------|---------------------------------|
+| Livello 1: 1 - 1000    |	$1 USD                          |
+| Livello 2: 1001 - 2000 |	$0,90 USD                       |
+| Livello 3: 2001 - 3000 |	$0,75 USD                       |
+| Livello 4: 3001 - 4000 |	$0,60 USD                       |
+| Livello 5: &gt; 4000   |	$0,40 USD                       |
 {:caption="Tabella 4. Tabella prezzi di livello graduale" caption-side="top"}
 
 La seguente tabella
 illustra quanto paghi con un piano basato su un modello di prezzi di livello graduale:
 
-|Quantità di elementi | Calcolo dell'addebito | Prezzo totale|
-|------------------|--------------------|------------|
-|500 |	500 × 1 (prezzo unitario per il livello 1) = 500 |	$500 USD|
-|1500 |	(1000 × 1 (prezzo unitario per il livello 1)) + (500 × 0,90 (prezzo unitario per il livello 2)) = 1450 |	$1450 USD|
-|2500 |	(1000 × 1 (prezzo unitario per il livello 1)) + (1000 × 0,90 (prezzo unitario per il livello 2)) + (500 × 0,75 (prezzo unitario per il livello 3)) = 2275 |	$2275 USD |
-|... |	... |	...|
-|5200 |	(1000 × 1 (prezzo unitario per il livello 1)) + (1000 × 0,90 (prezzo unitario per il livello 2)) + (1000 × 0,75 (prezzo unitario per il livello 3)) + (1000 × 0,60 (prezzo unitario per il livello 4)) + (1200 × 0,40 (prezzo unitario per il livello 5)) = 3730 |	$3730 USD|
+|Quantità di elementi | Calcolo dell'addebito                                                               | Prezzo totale |
+|------------------|----------------------------------------------------------------------------------|-------------|
+| 500              | 500 × 1 (prezzo unitario per il livello 1) = 500                                            |	$500 USD    |
+| 1500             | (1000 × 1 (prezzo unitario per il livello 1)) + (500 × 0,90 (prezzo unitario per il livello 2)) = 1450 |	$1450 USD   |
+| 2500             | (1000 × 1 (prezzo unitario per il livello 1)) + (1000 × 0,90 (prezzo unitario per il livello 2)) + (500 × 0,75 (prezzo unitario per il livello 3)) = 2275 | $2275 USD |
+| ...              | ...                                                                              | ...         |
+| 5200             | (1000 × 1 (prezzo unitario per il livello 1)) + (1000 × 0,90 (prezzo unitario per il livello 2)) + (1000 × 0,75 (prezzo unitario per il livello 3)) + (1000 × 0,60 (prezzo unitario per il livello 4)) + (1200 × 0,40 (prezzo unitario per il livello 5)) = 3730 | $3730 USD |
 {:caption="Tabella 5. Calcolo dell'addebito utilizzando un modello di prezzi di livello graduale" caption-side="top"}
 
 ### Livello a blocchi
@@ -145,25 +145,25 @@ Nel modello di livello a blocchi, il prezzo è un addebito fisso per la
 quantità da te impiegata entro uno specifico livello di utilizzo. Il prezzo totale è l'addebito per il tuo livello di utilizzo, indipendentemente dal tuo utilizzo effettivo. Ogni livello
 successivo fornisce un rapporto prezzo-quantità più basso. Ad esempio:
 
-|Quantità di elementi |	Prezzo totale per tutti gli elementi|
-|------------------|-----------------------------|
-| Livello 1: &lt;= 1000 |	$1000 USD|
-| Livello 2: &lt;= 2000 |	$1900 USD|
-| Livello 3: &lt;= 3000 |	$2800 USD|
-| Livello 4: &lt;= 4000 |	$3500 USD|
-| Livello 5: &lt;= 10000 |	$5000 USD|
+|Quantità di elementi    |	Prezzo totale per tutti gli elementi |
+|---------------------|---------------------------|
+| Livello 1: &lt;= 1000  |	$1000 USD                 |
+| Livello 2: &lt;= 2000  |	$1900 USD                 |
+| Livello 3: &lt;= 3000  |	$2800 USD                 |
+| Livello 4: &lt;= 4000  |	$3500 USD                 |
+| Livello 5: &lt;= 10000 |	$5000 USD                 |
 {:caption="Tabella 6. Tabella prezzi di livello a blocchi" caption-side="top"}
 
 La seguente tabella
 illustra quanto paghi con un piano basato su un modello di prezzi di livello a blocchi:
 
-|Quantità di elementi |	Calcolo dell'addebito |	Prezzo totale|
-|------------------|-----------------------|---------------|
-|500 |	Il numero di elementi rientra nel livello 1, quindi
-il prezzo totale è $1000 USD. |	$1000 USD|
-|1500 |	Il numero di elementi rientra nel livello 2, quindi
-il prezzo totale è $1900 USD. |	$1900 USD|
-|... |	... |	...|
-|5200 |	Il numero di elementi rientra nel livello 5, quindi
-il prezzo totale è $5000 USD. |	$5000 USD|
+|Quantità di elementi | Calcolo dell'addebito                                                      | Prezzo totale|
+|------------------|-------------------------------------------------------------------------|------------|
+| 500              | Il numero di elementi rientra nel livello 1, quindi
+il prezzo totale è $1000 USD. | $1000 USD  |
+| 1500             | Il numero di elementi rientra nel livello 2, quindi
+il prezzo totale è $1900 USD. | $1900 USD  |
+| ...              | ...                                                                     | ...        |
+| 5200             | Il numero di elementi rientra nel livello 5, quindi
+il prezzo totale è $5000 USD. | $5000 USD  |
 {:caption="Tabella 7. Calcolo dell'addebito utilizzando un modello di prezzi di livello a blocchi" caption-side="top"}
