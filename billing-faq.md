@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
+keywords: promo code, feature code, Subscription account, Lite account, payment
+
+subcollection: billing-usage
+
 ---
 
 {:shortdesc: .shortdesc}

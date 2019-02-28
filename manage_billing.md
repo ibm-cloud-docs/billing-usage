@@ -1,9 +1,12 @@
 ---
 
 copyright:
+  years: 2015, 2019
+lastupdated: "2019-02-19"
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+keywords: payment method, credit card, payment, billing method, invoice, pay
+
+subcollection: billing-usage
 
 ---
 
@@ -14,7 +17,7 @@ lastupdated: "2018-11-19"
 {:new_window: target="_blank"}
 
 
-# Managing payments 
+# Managing payments
 {: #linkedusage}
 
 You can use the billing and usage dashboard to make a one-time payment, change your credit card details, view your billing items, and view your invoices.
@@ -40,4 +43,4 @@ When your payment details are validated, they are available to use in your accou
 ## Getting help with your payments
 {: #getting-help-payments}
 
-To report any problems that are related to payments, you can contact the Support team. From the console, click **Support** > **Create new case**.
+To report any problems that are related to payments, you can contact the Support team. From the console, click **Support** > **Create a case**.

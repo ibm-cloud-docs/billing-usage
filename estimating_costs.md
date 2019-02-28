@@ -1,10 +1,12 @@
 ---
 
 copyright:
-
   years: 2015, 2019
-
 lastupdated: "2019-01-28"
+
+keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
+
+subcollection: billing-usage
 
 ---
 
@@ -30,7 +32,7 @@ Complete the following steps to estimate your costs.
   3. From the offering details page, regardless of offering type, select your pricing plan and enter other configuration details.
   4. Choose one of the following options:
 
-    a. Click **Add to estimate** > **Save**. From there, you can return to the catalog and select addtional offerings to add to your estimate.
+    a. Click **Add to estimate** > **Save**. From there, you can return to the catalog and select additional offerings to add to your estimate.
 
     At any point, you can click the Cost estimator icon ![Estimator icon](../icons/Estimator.svg) in the console menu to get a summary of your estimated costs.
     {: tip}
