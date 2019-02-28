@@ -19,7 +19,7 @@ Suponga que tiene una app web de Node.js con prestaciones de escalabilidad y que
 
 * Cuatro instancias de tiempo de ejecución de 256 MB de Node.js
 * Dos políticas, un procesador y una memoria de {{site.data.keyword.autoscaling}}
-* 150 GB al mes de base de datos {{site.data.keyword.cloudant_short_notm}}, 1.000 búsquedas, 500 escrituras y 50 consultas. 
+* 150 GB al mes de base de datos {{site.data.keyword.cloudant_short_notm}}, 1.000 búsquedas, 500 escrituras y 50 consultas.
 * 20 GB de tráfico de red de entrada o de salida
 
 
@@ -28,11 +28,11 @@ Suponga que tiene una app web de Node.js con prestaciones de escalabilidad y que
 
 Para dar un ejemplo sencillo, suponga que los precios en la tabla siguiente no fluctúan en un intervalo de tiempo, por ejemplo, en un mes. En este ejemplo, todos los precios se indican en moneda de EE. UU.
 
-|Servicio |	Características |	Precio |
-|--------|-----------|--------|
-|SDK for Node.js |	375 GB por hora gratuito al mes (compartido entre todos los tiempos de ejecución) |	0,07 USD/GB por hora|
-|{{site.data.keyword.autoscaling}} |	Plan de servicio gratuito para el servicio {{site.data.keyword.autoscaling}} |	Gratuito|
-|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite| Incluye 20 GB de almacenamiento de datos gratuitos</br>Escale la capacidad de rendimiento suministrada en incrementos de:</br>100 búsquedas por segundo</br>50 escrituras por segundo</br>5 consultas por segundo | 1,00 USD/GB de almacenamiento de datos</br>0,25 USD/Búsqueda por segundo</br>0,50 USD/Escritura por segundo</br>5,00 USD/Consulta por segundo |
+| Servicio                           |	Características                                                            |	Precio             |
+|-----------------------------------|---------------------------------------------------------------------|-------------------|
+| {{site.data.keyword.runtime_nodejs_short}}                   |	375 GB por hora gratuito al mes (compartido entre todos los tiempos de ejecución)            |	0,07 USD/GB por hora |
+| {{site.data.keyword.autoscaling}} |	Plan de servicio gratuito para el servicio {{site.data.keyword.autoscaling}} |	Gratuito              |
+| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite | Incluye 20 GB de almacenamiento de datos gratuitos</br>Escale la capacidad de rendimiento suministrada en incrementos de:</br>100 búsquedas por segundo</br>50 escrituras por segundo</br>5 consultas por segundo | 1,00 USD/GB de almacenamiento de datos</br>0,25 USD/Búsqueda por segundo</br>0,50 USD/Escritura por segundo</br>5,00 USD/Consulta por segundo |
 {:caption="Tabla 1. Precios para los recursos" caption-side="top"}
 
 
@@ -51,7 +51,7 @@ El precio de la app se puede calcular de la forma siguiente:
 <dd>Las políticas de {{site.data.keyword.autoscaling}} son gratuitas.</dd>
 
 <dt>150 GB al mes de {{site.data.keyword.cloudant_short_notm}}</dt>
-<dd>Los cargos del servicio {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} se basan en el almacenamiento de datos y en la posibilidad de acceder a dichos datos mediante la capacidad de rendimiento suministrada, representada en búsquedas, escrituras y consultas por segundo. 
+<dd>Los cargos del servicio {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} se basan en el almacenamiento de datos y en la posibilidad de acceder a dichos datos mediante la capacidad de rendimiento suministrada, representada en búsquedas, escrituras y consultas por segundo.
 <p>
 Añada el número de GB y deduzca los 20 GB de concesión gratuita. Se cargan 130 GB al mes. El precio de almacenamiento total incluye las partes siguientes:</p>
 <pre class="codeblock">

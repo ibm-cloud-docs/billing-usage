@@ -28,12 +28,12 @@ Puede comprobar el coste real después de crear sus recursos. Vaya a **Gestionar
 
 Se aplicarán distintos tipos de cargos en función de las características de {{site.data.keyword.Bluemix_notm}} que está utilizando. En la tabla siguiente se proporciona una visión general de alto nivel:
 
-| Tipo de cargo | Descripción | Tipo de recurso | Ejemplo |
-|------------------|------------------|--------------------------|--------------------------|
-| Fijo | El precio de tasa fija se basa en un acuerdo sobre el cargo mensual que no está ajustado. | Servicios  | Para servidores nativos, hay varios planes fijos entre los que elegir, y estos planes se facturan con una tasa mensual fija. |
-| Medido | El precio de uso medido se basa en el número de GB hora consumidos para los entornos de ejecución y en el número de direcciones IP y el almacenamiento para contenedores. | Servicios, cálculo y contenedores | Para el servicio Push, cualquier uso que supere la concesión mensual gratuita se factura. |
-| Por niveles | Algunos planes también están basados en un modelo de precios por niveles, para poder acceder a descuentos por volumen, según su uso actual. Los servicios pueden ofrecer planes de precios de capas de bloques, graduados y simples. | Servicios | El precio escalonado se utiliza normalmente para medidas de carga que tienen previsto tener cantidades altas por mes, tales como llamadas a la API. |
-| Reservado | El precio reservado se basa en un compromiso a largo plazo para un servicio, por lo que puede obtener un precio de descuento. Con un plan reservado, obtendrá una instancia de servicio dedicada que es fácil de configurar, desplegar y entregar en el entorno {{site.data.keyword.Bluemix_notm}} público. | Servicios | DB2 on Cloud tiene planes reservados.|
+| Tipo de cargo | Descripción      | Tipo de recurso            | Ejemplo                  |
+|----------------|------------------|--------------------------|--------------------------|
+| Fijo          | El precio de tasa fija se basa en un acuerdo sobre el cargo mensual que no está ajustado. | Servicios  | Para servidores nativos, hay varios planes fijos entre los que elegir, y estos planes se facturan con una tasa mensual fija. |
+| Medido        | El precio de uso medido se basa en el número de GB hora consumidos para los entornos de ejecución y en el número de direcciones IP y el almacenamiento para contenedores. | Servicios, cálculo y contenedores | Para el servicio Push, cualquier uso que supere la concesión mensual gratuita se factura. |
+| Por niveles         | Algunos planes también están basados en un modelo de precios por niveles, para poder acceder a descuentos por volumen, según su uso actual. Los servicios pueden ofrecer planes de precios de capas de bloques, graduados y simples. | Servicios | El precio escalonado se utiliza normalmente para medidas de carga que tienen previsto tener cantidades altas por mes, tales como llamadas a la API. |
+| Reservado       | El precio reservado se basa en un compromiso a largo plazo para un servicio, por lo que puede obtener un precio de descuento. Con un plan reservado, obtendrá una instancia de servicio dedicada que es fácil de configurar, desplegar y entregar en el entorno {{site.data.keyword.Bluemix_notm}} público. | Servicios | DB2 on Cloud tiene planes reservados.|
 {:caption="Tabla 1. Cargos en función de las características" caption-side="top"}
 
 
@@ -86,13 +86,13 @@ En el modelo de nivel sencillo, el precio unitario se determina
 mediante el nivel al que corresponde la cantidad que utilice. El precio
 total es su cantidad multiplicada por el precio unitario de dicho nivel, por ejemplo:
 
-| Cantidad de elementos | Precio unitario para todos los elementos |
-|-------------------|--------------------------|
-| Nivel 1: 1 - 1000 | $1 USD |
-| Nivel 2: 1001 - 2000 | $0,90 USD |
-| Nivel 3: 2001 - 3000 | $0,75 USD |
-| Nivel 4: 3001 - 4000 | $0,60 USD |
-|Nivel 5: &gt; 4000 | $0,40 USD |
+| Cantidad de elementos   | Precio unitario para todos los elementos |
+|---------------------|--------------------------|
+| Nivel 1: 1 - 1000    | $1 USD                   |
+| Nivel 2: 1001 - 2000 | $0,90 USD                |
+| Nivel 3: 2001 - 3000 | $0,75 USD                |
+| Nivel 4: 3001 - 4000 | $0,60 USD                |
+| Nivel 5: &gt; 4000   | $0,40 USD                |
 {:caption="Tabla 2. Tabla de preciso de nivel sencillo" caption-side="top"}
 
 En la tabla siguiente se muestra lo que
@@ -100,11 +100,11 @@ se pagaría con un plan basado en un modelo de precios de nivel sencillo:
 
 | Cantidad de elementos | Cálculo del cargo | Precio total |
 |-------------------|--------------------|-------------|
-|500 |	500 × 1 = 500 |	$500 USD|
-|1500 |	1500 × 0,90 = 1350 |	$1350 USD|
-|2500 |	2500 × 0,75 = 1875 |	$1875 USD|
-|... |	... |	...|
-|5200 |	5200 × 0,40 = 2080 |$2080 USD|
+| 500               | 500 × 1 = 500      | $500 USD    |
+| 1500              | 1500 × 0,90 = 1350 | $1350 USD   |
+| 2500              | 2500 × 0,75 = 1875 | $1875 USD   |
+| ...               | ...                | ...         |
+| 5200              | 5200 × 0,40 = 2080 | $2080 USD   |
 {:caption="Tabla 3. Cálculo de cargos usando el modelo de precios del nivel sencillo" caption-side="top"}
 
 ### Nivel graduado
@@ -115,25 +115,25 @@ según aumenta su nivel de uso. El precio total lo forman los cargos acumulados 
 cada nivel de uso, y consta de su cantidad multiplicado por el precio unitario
 de dicho nivel, por ejemplo:
 
-| Cantidad de elementos |	Precio unitario para los elementos en el nivel|
-|-------------------|------------------------------------|
-|    Nivel 1: 1 - 1000 |	$1 USD |
-|   Nivel 2: 1001 - 2000 |	$0,90 USD |
-|    Nivel 3: 2001 - 3000 |	$0,75 USD |
-|    Nivel 4: 3001 - 4000 |	$0,60 USD |
-|    Nivel 5: &gt; 4000 |	$0,40 USD |
+| Cantidad de elementos   |	Precio unitario para los elementos en el nivel|
+|---------------------|---------------------------------|
+| Nivel 1: 1 - 1000    |	$1 USD                          |
+| Nivel 2: 1001 - 2000 |	$0,90 USD                       |
+| Nivel 3: 2001 - 3000 |	$0,75 USD                       |
+| Nivel 4: 3001 - 4000 |	$0,60 USD                       |
+| Nivel 5: &gt; 4000   |	$0,40 USD                       |
 {:caption="Tabla 4. Tabla de precios del nivel graduado" caption-side="top"}
 
 En la tabla siguiente se muestra lo que
 se pagaría con un plan basado en un modelo de precios de nivel graduado:
 
-|Cantidad de elementos | Cálculo del cargo | Precio total|
-|------------------|--------------------|------------|
-|500 |	500 × 1 (precio unitario para Nivel 1) = 500 |	$500 USD|
-|1500 |	(1000 × 1 (precio unitario para Nivel 1)) + (500 × 0,90 (precio unitario para Nivel 2)) = 1450 |	$1450 USD|
-|2500 |	(1000 × 1 (precio unitario para Nivel 1)) + (1000 × 0,90 (precio unitario para Nivel 2)) + (500 × 0,75 (precio unitario para Nivel 3)) = 2275 |	$2275 USD |
-|... |	... |	...|
-|5200 |	(1000 × 1 (precio unitario para Nivel 1)) + (1000 × 0,90 (precio unitario para Nivel 2)) + (1000 × 0,75 (precio unitario para Nivel 3)) + (1000 × 0,60 (precio unitario para Nivel 4)) + (1200 × 0,40 (precio unitario para Nivel 5)) = 3730 |	$3730 USD|
+|Cantidad de elementos | Cálculo del cargo                                                               | Precio total |
+|------------------|----------------------------------------------------------------------------------|-------------|
+| 500              | 500 × 1 (precio unitario para Nivel 1) = 500                                            |	$500 USD    |
+| 1500             | (1000 × 1 (precio unitario para Nivel 1)) + (500 × 0,90 (precio unitario para Nivel 2)) = 1450 |	$1450 USD   |
+| 2500             | (1000 × 1 (precio unitario para Nivel 1)) + (1000 × 0,90 (precio unitario para Nivel 2)) + (500 × 0,75 (precio unitario para Nivel 3)) = 2275 | $2275 USD |
+| ...              | ...                                                                              | ...         |
+| 5200             | (1000 × 1 (precio unitario para Nivel 1)) + (1000 × 0,90 (precio unitario para Nivel 2)) + (1000 × 0,75 (precio unitario para Nivel 3)) + (1000 × 0,60 (precio unitario para Nivel 4)) + (1200 × 0,40 (precio unitario para Nivel 5)) = 3730 | $3730 USD |
 {:caption="Tabla 5. Cálculo de cargos usando el modelo de precios del nivel graduado" caption-side="top"}
 
 ### Nivel Bloque
@@ -144,22 +144,22 @@ para la cantidad que utilicen dentro de un nivel de uso. El precio total
 es el cargo de su nivel de uso, independientemente del uso real. Cada nivel
 sucesivo proporciona una tasa menor entre precio y cantidad. Por ejemplo:
 
-|Cantidad de elementos |	Precio total para todos los elementos|
-|------------------|-----------------------------|
-| Nivel 1: &lt;= 1000 |	$1000 USD|
-| Nivel 2: &lt;= 2000 |	$1900 USD|
-| Nivel 3: &lt;= 3000 |	$2800 USD|
-| Nivel 4: &lt;= 4000 |	$3500 USD|
-| Nivel 5: &lt;= 10000 |	$5000 USD|
+|Cantidad de elementos    |	Precio total para todos los elementos |
+|---------------------|---------------------------|
+| Nivel 1: &lt;= 1000  |	$1000 USD                 |
+| Nivel 2: &lt;= 2000  |	$1900 USD                 |
+| Nivel 3: &lt;= 3000  |	$2800 USD                 |
+| Nivel 4: &lt;= 4000  |	$3500 USD                 |
+| Nivel 5: &lt;= 10000 |	$5000 USD                 |
 {:caption="Tabla 6. Tabla de precios del nivel por bloques" caption-side="top"}
 
 En la tabla siguiente se muestra lo que
 se pagaría con un plan basado en un modelo de precios de nivel por bloque:
 
-|Cantidad de elementos |	Cálculo del cargo |	Precio total|
-|------------------|-----------------------|---------------|
-|500 |	El número de elementos cae en el Nivel 1, por lo que el precio total es $1000 USD. |	$1000 USD|
-|1500 |	El número de elementos cae en el Nivel 2, por lo que el precio total es $1900 USD. |	$1900 USD|
-|... |	... |	...|
-|5200 |	El número de elementos cae en el Nivel 5, por lo que el precio total es $5000 USD. |	$5000 USD|
+|Cantidad de elementos | Cálculo del cargo                                                      | Precio total|
+|------------------|-------------------------------------------------------------------------|------------|
+| 500              | El número de elementos cae en el Nivel 1, por lo que el precio total es $1000 USD. | $1000 USD  |
+| 1500             | El número de elementos cae en el Nivel 2, por lo que el precio total es $1900 USD. | $1900 USD  |
+| ...              | ...                                                                     | ...        |
+| 5200             | El número de elementos cae en el Nivel 5, por lo que el precio total es $5000 USD. | $5000 USD  |
 {:caption="Tabla 7. Cálculo de cargos usando el modelo de precios del nivel por bloque" caption-side="top"}

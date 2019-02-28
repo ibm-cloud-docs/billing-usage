@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-11-16"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-09"
 
 ---
 
@@ -13,8 +13,8 @@ lastupdated: "2018-11-16"
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
 {:troubleshoot: data-hd-content-type='troubleshoot'}
 
@@ -30,20 +30,20 @@ Los problemas generales de gestión de la facturación y el uso pueden incluir l
 {: #cannot-access-billing-info}
 {: troubleshoot}
 
-Cuando intenta acceder a la información de facturación, como por ejemplo pagos y facturas, obtiene un mensaje que indica que la función no está disponible. 
+Cuando intenta acceder a la información de facturación, como por ejemplo pagos y facturas, obtiene un mensaje que indica que la función no está disponible.
 {: tsSymptoms}
 
-Esto sucede porque no tiene autorización para ver la información de facturación de la cuenta. Debe ser el propietario de la cuenta o el gestor de facturación de la organización de Cloud Foundry o debe tener una política de IAM sobre todos los servicios de gestión de la cuenta con el rol de administrador asignado. 
+Este mensaje se recibe porque no tiene autorización para ver la información de facturación de la cuenta. Debe ser el propietario de la cuenta o el gestor de facturación de la organización de Cloud Foundry o debe tener una política de IAM sobre todos los servicios de gestión de la cuenta con el rol de administrador asignado.
 {: tsCauses}
 
-Puede ver la información de facturación sobre cualquier cuenta de la que sea propietario. Un gestor de facturación puede ver la información de facturación de una organización de Cloud Foundry. Y, para los recursos habilitados para IAM, debe tener una política de IAM sobre todos los servicios de gestión de la cuenta con el rol de Administrador asignado. 
+Puede ver la información de facturación sobre cualquier cuenta de la que sea propietario. Un gestor de facturación puede ver la información de facturación de una organización de Cloud Foundry. Y, para los recursos habilitados para IAM, debe tener una política de IAM sobre todos los servicios de gestión de la cuenta con el rol de Administrador asignado.
 
-Para comprobar su acceso, siga los pasos siguientes: 
+Para comprobar su acceso, siga los pasos siguientes:
 
-  1. Vaya a **Gestionar** > **Acceso (IAM)** y seleccione **Usuarios**. 
+  1. Vaya a **Gestionar > Acceso (IAM)** y seleccione **Usuarios**.
   2. Pulse su nombre en la página Usuarios.
   3. Pulse **Políticas de acceso** para ver las políticas de acceso de IAM asignadas.
   4. Pulse **Acceso a Cloud Foundry** y expanda las filas de las organizaciones asignadas para ver si tiene un rol de Propietario de la cuenta o de Gestor de facturación.
 
-Para obtener más información sobre el acceso de IAM, consulte [Roles de Cloud IAM](/docs/iam/users_roles.html#userroles). Y, para obtener más información sobre el acceso de Cloud Foundry, consulte [Roles de Cloud Foundry](/docs/iam/cfaccess.html#cfaccess).
+Para obtener más información sobre el acceso de IAM, consulte [Roles de Cloud IAM](/docs/iam?topic=iam-userroles). Y, para obtener más información sobre el acceso de Cloud Foundry, consulte [Roles de Cloud Foundry](/docs/iam?topic=iam-cfaccess).
 {: tsResolve}
