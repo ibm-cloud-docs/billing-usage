@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-11"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -30,9 +30,9 @@ Para cambiar a otro método de pago, seleccione **Pagar con otro método** y lue
 {: #addcard}
 {: faq}
 
-Proteger su identidad es una prioridad para nosotros, por ello nos tomamos la verificación de las tarjetas de crédito muy seriamente. Póngase en contacto con nosotros por teléfono en el siguiente número.  
+Proteger su identidad es una prioridad para nosotros, por ello nos tomamos la verificación de las tarjetas de crédito muy seriamente.
 
-   * Llámenos: 1-866-325-0045 (Seleccione la opción 3)
+Póngase en contacto con nosotros por teléfono en el 1-866-325-0045 y seleccione la tercera opción.
 
 
 ## ¿Los códigos de características son lo mismo que los códigos promocionales?
@@ -41,21 +41,19 @@ Proteger su identidad es una prioridad para nosotros, por ello nos tomamos la ve
 
 No es lo mismo un código de promoción que un código de característica.
 
-- Los códigos de promoción son códigos promocionales específicos de la infraestructura que puede recibir de nuestro equipo de ventas. Se especifican en el portal de clientes en el momento de realizar el pago para recibir un descuento en el pedido.
-- Los códigos de característica se utilizan para ofrecer recursos o funciones adicionales para las cuentas Lite, como por ejemplo eventos de formación. En las cuenta de Suscripción y Pago según uso, puede recibir un código de característica para sumar créditos de suscripción y de soporte.
+- Los códigos de promoción son códigos promocionales específicos de la infraestructura que puede recibir del equipo de ventas. Se especifican en el portal de clientes en el momento de realizar el pago para recibir un descuento en el pedido.
+- Los códigos de características se utilizan para añadir crédito de suscripción y soporte a la cuenta. Para las cuentas Lite, también se utilizan para ofrecer recursos o funciones adicionales, como por ejemplo eventos de formación.
 
-   Para canjear su código de característica, vaya a **Gestionar > Cuenta** y seleccione **Valores de cuenta**. Bajo Códigos de característica, pulse **Aplicar código**. Para obtener más información, consulte [Aplicación de códigos de característica](/docs/account/feature_codes.html#codes).
-
+   Si adquiere una suscripción, normalmente recibe un correo electrónico con el código de característica. Para canjear su código de característica, vaya a **Gestionar > Cuenta** y seleccione **Valores de cuenta**. Bajo Códigos de característica, pulse **Aplicar código**. Si no ve esta opción en su cuenta, quizá no disponga de los roles de acceso necesarios. Para obtener más información, consulte [Aplicación de códigos de característica](/docs/account?topic=account-codes).
 
 ## ¿Cómo puedo cancelar mi cuenta?
 {: #cancelmyaccount}
 {: faq}
 
-Si tiene un tipo de cuenta apto, vaya a **Gestionar** > **Cuenta** > **Valores de cuenta** y pulse **Desactivar cuenta**.
+Para las cuentas de pago según uso o de suscripción, la forma más rápida de cancelar su cuenta es ponerse en contacto con nosotros mediante el [chat en directo](https://{DomainName}/unifiedsupport/supportcenter) o llamando al teléfono 1-866-325-0045 y seleccionando la tercera opción. También puede abrir un caso de soporte.
 
-![Captura de pantalla de valores de cuenta](images/Account-2C.svg "Captura de pantalla de valores de cuenta")
+Para cancelar una cuenta Lite, vaya a **Gestionar** > **Cuenta** > **Configuración de la cuenta** y pulse **Desactivar cuenta**.
 
-Si va a la página **Valores de cuenta** y no se muestra la opción **Desactivar cuenta**, puede llamar al teléfono 1-866-325-0045 y seleccionar la tercera opción o bien puede abrir un [caso de soporte](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg).
 
 ## ¿Cómo puedo suprimir mi cuenta?
 {: #deleteaccount}
@@ -115,7 +113,7 @@ Se le cobrará la tarifa sin descuento para cualquier uso que supere la cantidad
 {: #subs-pay-schedule}
 {: faq}
 
-Actualmente, puede hacer pagos mensuales a su cuenta de Suscripción. Si desea pagar por adelantado o de forma trimestral, póngase en contacto con [Ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg).
+Actualmente, puede hacer pagos mensuales a su cuenta de Suscripción. Si desea pagar por adelantado o de forma trimestral, póngase en contacto con el [equipo de ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg).
 
 
 ## ¿Puedo gastar más o menos que mi compromiso mensual?  
@@ -136,7 +134,7 @@ Sí, puede cancelar su cuenta antes de que finalice el plazo, pero el resto de l
 {: #subs-spend-before-term-end}
 {: faq}
 
-Tendrá que seguir pagando sus cargos mensuales hasta el final del término. Para evitar generar cargos en exceso, póngase en contacto con [Ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg) para obtener ayuda con la firma de una Suscripción nueva.
+Tendrá que seguir pagando sus cargos mensuales hasta el final del término. Para evitar generar cargos en exceso, póngase en contacto con el [equipo de ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg) para obtener ayuda con la firma de una Suscripción nueva.
 
 
 ## ¿Dónde puedo acceder a mi factura?
@@ -151,4 +149,4 @@ En la consola, pulse **Gestionar > Facturación y uso** y seleccione **Facturas*
 {: faq}
 
 Es posible que su uso no coincida con su factura, porque los meses que se utilizan para comparar el uso no son los mismos, o bien no se ha seleccionado la cantidad total de las organizaciones. Para obtener más información, consulte
-[Visualización del uso](/docs/billing-usage/viewing_usage.html#viewingusage). Si todavía no coincide, póngase en contacto con nosotros llamando al 1-866-325-0045 y seleccionando la tercera opción, o abriendo una [incidencia al soporte](/unifiedsupport/cases/add).
+[Visualización del uso](/docs/billing-usage?topic=billing-usage-viewingusage). Si todavía no coincide, póngase en contacto con nosotros llamando al 1-866-325-0045 y seleccionando la tercera opción, o abriendo un [caso de soporte](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg).
