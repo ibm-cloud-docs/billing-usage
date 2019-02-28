@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-11"
 
 ---
 
@@ -30,9 +30,9 @@ Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e 
 {: #addcard}
 {: faq}
 
-Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito.
+Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito. Contattaci chiamando il seguente numero.  
 
-Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione.
+   * Contattaci: 1-866-325-0045 (Seleziona l'opzione 3)
 
 
 ## I codici funzione sono uguali ai codici promozionali?
@@ -41,19 +41,21 @@ Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione.
 
 I codici promozionali e i codici funzione sono diversi.
 
-- I codici promozionali sono codici promozionali specifici per l'infrastruttura che potresti ricevere dal team del settore vendite. Li immetti nel portale clienti al check-out per ottenere uno sconto sul tuo ordine.
-- I codici funzione sono utilizzati per aggiungere crediti di sottoscrizione e supporto al tuo account. Per gli account Lite, sono utilizzati anche per offrire delle risorse o delle funzionalità supplementari, quali gli eventi didattici.
+- I codici promozionali sono codici promozionali specifici per l'infrastruttura che potresti ricevere dal nostro team del settore vendite. Li immetti nel portale clienti al checkout per ottenere uno sconto sul tuo ordine.
+- I codici funzione sono utilizzati per offrire delle risorse o delle funzionalità supplementari per gli account Lite, come ad esempio per gli eventi didattici. Per gli account Pagamento a consumo e Sottoscrizione, è possibile che ti sia stato dato un codice funzione per aggiungere crediti di supporto e sottoscrizione.
 
-   Se acquisti una sottoscrizione, di norma ricevi una email con il codice funzione. Per riscattare il tuo codice funzione, vai a **Gestisci > Account** e seleziona **Impostazioni account**. In Codici funzione, fai clic su **Applica codice**. Se non vedi questa opzione nel tuo account, potresti non avere i ruoli di accesso richiesti. Per ulteriori informazioni, vedi [Applicazione di codici funzione](/docs/account?topic=account-codes).
+   Per riscattare il tuo codice funzione, vai a **Gestisci > Account** e seleziona **Impostazioni account**. In Codici funzione, fai clic su **Applica codice**. Per ulteriori informazioni, vedi [Applicazione di codici funzione](/docs/account/feature_codes.html#codes).
+
 
 ## Come posso annullare il mio account?
 {: #cancelmyaccount}
 {: faq}
 
-Per gli account Pagamento a consumo o Sottoscrizione, il modo più rapido per annullare il tuo account è contattandoci tramite la [live chat](https://{DomainName}/unifiedsupport/supportcenter) oppure chiamando il numero 1-866-325-0045 e selezionando la terza opzione. In alternativa, puoi aprire un caso di supporto.
+Se hai un tipo di account idoneo, vai a **Gestisci** > **Account** > **Impostazioni account** e **Disattiva account**.
 
-Per annullare un account Lite, vai a **Gestisci** > **Account** > **Impostazioni account** e fai clic su **Disattiva account**.
+![Acquisizione della schermata Impostazioni account](images/Account-2C.svg "Acquisizione della schermata Impostazioni account")
 
+Se vai alla pagina **Impostazioni account** e **Disattiva account** non è visualizzata, puoi contattarci chiamando all'1-866-325-0045 e selezionando la terza opzione oppure puoi aprire un [caso di supporto](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg).
 
 ## Come posso eliminare il mio account?
 {: #deleteaccount}
@@ -148,4 +150,4 @@ Dalla console, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **
 {: #usage-not-match-invoice}
 {: faq}
 
-Il tuo utilizzo potrebbe non corrispondere alla tua fattura perché i mesi utilizzati per confrontare l'utilizzo non sono gli stessi o non è stata selezionata la quantità totale di organizzazioni. Per ulteriori informazioni, vedi [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage). Se ancora non corrisponde, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un[caso di supporto](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg).
+Il tuo utilizzo potrebbe non corrispondere alla tua fattura perché i mesi utilizzati per confrontare l'utilizzo non sono gli stessi o non è stata selezionata la quantità totale di organizzazioni. Per ulteriori informazioni, vedi [Visualizzazione del tuo utilizzo](/docs/billing-usage/viewing_usage.html#viewingusage). Se ancora non corrisponde, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un [caso di supporto](/unifiedsupport/cases/add).
