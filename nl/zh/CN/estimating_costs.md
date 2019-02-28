@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-16"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -21,13 +21,13 @@ lastupdated: "2018-11-16"
 通过针对您的需求定制套餐，可以使用成本估算工具来估算 {{site.data.keyword.Bluemix}} 产品的成本。
 {:shortdesc}
 
-如果您有现买现付或预订帐户，那么可以估算经典基础架构产品的成本。要升级轻量帐户，请参阅[升级帐户](/docs/account/account_settings.html#upgrading-account)。
+如果您有现收现付或预订帐户，那么可以估算经典基础架构产品的成本。要升级轻量帐户，请参阅[升级帐户](/docs/account/account_settings.html#upgrading-account)。
 
 要估算成本，请完成以下步骤。 
 
-  1. 转至 {{site.data.keyword.Bluemix_notm}} [目录](https://console.cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")，然后选择您感兴趣的产品。
+  1. 转至 {{site.data.keyword.Bluemix_notm}} [目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")，然后选择您感兴趣的产品。
   2. 根据产品的不同，可能会显示过渡信息页面。例如，如果选择 {{site.data.keyword.baremetal_short}}，那么将显示描述各种功能的信息页面。单击**继续**。
-  3. 在产品详细信息页面中，不管是哪种产品类型，都请选择定价套餐，然后输入其他配置详细信息。
+  3. 在产品详细信息页面中，不管是哪种产品类型，都请选择价格套餐，然后输入其他配置详细信息。
   4. 选择下列其中一个选项：
 
     a. 单击**添加到估算** > **保存**。从此处可以返回到目录，然后选择要添加到估算的其他产品。 
