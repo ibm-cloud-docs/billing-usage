@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-11"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -31,9 +31,9 @@ Para alternar para um método de pagamento diferente, selecione **Pagamento com 
 {: faq}
 
 A proteção da sua identidade é uma prioridade para nós, portanto, levamos a verificação de cartão de
-crédito muito a sério. Entre em contato conosco ligando para o número a seguir.  
+crédito muito a sério.
 
-   * Ligue para nós: 1-866-325-0045 (selecione a opção 3)
+Entre em contato conosco, ligando para 1-866-325-0045 e selecionando a terceira opção.
 
 
 ## Os códigos de recurso são iguais aos códigos promocionais?
@@ -42,21 +42,19 @@ crédito muito a sério. Entre em contato conosco ligando para o número a segui
 
 Códigos promocionais e códigos de recurso são diferentes!
 
-- Os códigos promocionais são códigos promocionais específicos da infraestrutura que você pode receber de nossa equipe de Vendas. Você os insere no portal do cliente no check-out para obter um desconto em seu pedido.
-- Os códigos de recurso são usados para oferecer recursos adicionais ou recursos para contas Lite, como para eventos educacionais. Para contas Pré-pagas e de Assinatura, você pode receber um código de recurso para incluir créditos de assinatura e suporte.
+- Códigos promocionais são aqueles específicos da infraestrutura que você pode receber da equipe de Vendas. Insira-os no portal do cliente no registro de saída para obter um desconto em seu pedido.
+- Códigos de recurso são usados para incluir crédito de assinatura e suporte em sua conta. Para contas Lite, eles também são usados para oferecer recursos ou capacidades extras, como para eventos educacionais.
 
-   Para resgatar seu código de recurso, acesse **Gerenciar > Conta** e selecione **Configurações da conta**. Sob Códigos de recurso, clique em **Aplicar código**. Para obter mais informações, consulte [Aplicando códigos de recurso](/docs/account/feature_codes.html#codes).
+   Se você compra uma assinatura, geralmente recebe um e-mail com o código de recurso. Para resgatar seu código de recurso, acesse **Gerenciar > Conta** e selecione **Configurações da conta**. Sob Códigos de recurso, clique em **Aplicar código**. Se você não vir essa opção em sua conta, poderá não ter as funções de acesso necessárias. Para obter mais informações, consulte [Aplicando códigos de recurso](/docs/account?topic=account-codes).
 
-
-## Como cancelar minha conta?
+## Como cancelo minha conta?
 {: #cancelmyaccount}
 {: faq}
 
-Se você tiver um tipo de conta elegível, acesse **Gerenciar** > **Conta** > **Configurações da conta** e clique em **Desativar conta**.
+Para contas Pré-pagas ou de Assinatura, a maneira mais rápida de cancelar sua conta é entrar em contato conosco por meio do [bate-papo em tempo real](https://{DomainName}/unifiedsupport/supportcenter) ou ligando para 1-866-325-0045 e selecionando a terceira opção. Como alternativa, é possível abrir um caso de suporte.
 
-![Captura de tela de configurações da conta.](images/Account-2C.svg "Captura de tela de configurações da conta")
+Para cancelar uma conta Lite, acesse **Gerenciar** > **Conta** > **Configurações da conta** e clique em **Desativar conta**.
 
-Se você acessar a página **Configurações da conta** e a **Desativar conta** não for exibida, será possível entrar em contato ligando para 1-866-325-0045 e selecionando a terceira opção ou abrir um [caso de suporte](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg).
 
 ## Como excluir minha conta?
 {: #deleteaccount}
@@ -68,7 +66,7 @@ Entre em contato com o Suporte do [{{site.data.keyword.Bluemix_notm}} ![Ícone d
 {: #contactsupport}
 {: faq}
 
-Clique em **Suporte** na barra de menus do console para acessar o Centro de suporte. Lá, inicie com a alavancagem da lista de FAQs comuns. Se você não encontrar as respostas de que precisa, clique em **Criar um caso** para entrar em contato com a equipe de suporte.   
+Clique em **Suporte** na barra de menus do console para acessar o Centro de suporte. Lá, inicie com a alavancagem da lista de FAQs comuns. Se você não localizar as respostas necessárias, clique em **Criar um caso** para entrar em contato com a equipe de suporte.   
 
 ## Quantos apps eu posso construir?
 {: #howmanyapps}
@@ -160,4 +158,4 @@ No console, clique em **Gerenciar > Faturamento e uso** e selecione **Faturas**.
 {: #usage-not-match-invoice}
 {: faq}
 
-Seu uso pode não corresponder à sua fatura, pois os meses empregados para comparar o uso não são os mesmos ou a quantidade total das organizações não foi selecionada. Para obter mais informações, consulte [Visualizando seu uso](/docs/billing-usage/viewing_usage.html#viewingusage). Caso ainda não corresponda, entre em contato conosco ligando para 1-866-325-0045 e escolhendo a terceira opção ou abrindo um [caso de suporte](/unifiedsupport/cases/add).
+Seu uso pode não corresponder à sua fatura, pois os meses empregados para comparar o uso não são os mesmos ou a quantidade total das organizações não foi selecionada. Para obter mais informações, consulte [Visualizando seu uso](/docs/billing-usage?topic=billing-usage-viewingusage). Se ainda não corresponder, entre em contato conosco ligando para 1-866-325-0045 e escolhendo a terceira opção ou abrindo um [caso de suporte](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg).

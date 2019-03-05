@@ -19,7 +19,7 @@ lastupdated: "2018-11-15"
 
 * 四個 256 MB Node.js 運行環境實例
 * 兩個 {{site.data.keyword.autoscaling}} 原則：處理器及記憶體
-* 每月 150 GB 的 {{site.data.keyword.cloudant_short_notm}} 資料庫、1,000 次查閱、500 次寫入，及 50 次查詢。 
+* 每月 150 GB 的 {{site.data.keyword.cloudant_short_notm}} 資料庫、1,000 次查閱、500 次寫入，及 50 次查詢。
 * 20 GB 的入埠或出埠網路資料流量
 
 
@@ -29,10 +29,10 @@ lastupdated: "2018-11-15"
 為了讓範例保持簡單，我們假設下表中的價格不會在時間範圍（例如，一個月）內或之間波動。此範例中的所有定價都以美金計價。
 
 |服務|	特性|	價格|
-|--------|-----------|--------|
-|SDK for Node.js|	每個月有 375 GB-小時免費（跨所有運行環境共用）|	美金 0.07 元/GB-小時|
-|{{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 服務的免費服務方案|	免費|
-|{{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite|包含 20 GB 的免費資料儲存空間</br>擴充佈建的傳輸量，使用增量為：</br>每秒 100 次查閱</br>每秒 50 次寫入</br>每秒 5 次查詢|美金 1.00 元/GB 的資料儲存空間</br>美金 0.25 元/每秒查閱</br>美金 0.50 元/每秒寫入</br>美金 5.00 元/每秒查詢|
+|-----------------------------------|---------------------------------------------------------------------|-------------------|
+| {{site.data.keyword.runtime_nodejs_short}}                   |	每個月有 375 GB-小時免費（跨所有運行環境共用）|	美金 0.07 元/GB-小時|
+| {{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 服務的免費服務方案|	免費|
+| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite |包含 20 GB 的免費資料儲存空間</br>擴充佈建的傳輸量，使用增量為：</br>每秒 100 次查閱</br>每秒 50 次寫入</br>每秒 5 次查詢|美金 1.00 元/GB 的資料儲存空間</br>美金 0.25 元/每秒查閱</br>美金 0.50 元/每秒寫入</br>美金 5.00 元/每秒查詢|
 {:caption="表 1. 資源的定價" caption-side="top"}
 
 
