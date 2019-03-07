@@ -1,10 +1,12 @@
 ---
 
 copyright:
-
   years: 2015, 2019
-
 lastupdated: "2019-01-28"
+
+keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
+
+subcollection: billing-usage
 
 ---
 
@@ -21,7 +23,7 @@ lastupdated: "2019-01-28"
 필요에 따라 플랜을 사용자 정의하여 비용 추정기를 통해 {{site.data.keyword.Bluemix}} 오퍼링의 비용을 추정할 수 있습니다.
 {:shortdesc}
 
-종량과금제 또는 구독 계정이 있는 경우 클래식 인프라 오퍼링의 비용을 추정할 수 있습니다. Lite 계정을 업그레이드하려면 [내 계정 유형을 업그레이드하거나 변경하려면 어떻게 해야 합니까?](/docs/account?topic=account-accountfaqs)를 참조하십시오. 
+종량과금제 또는 구독 계정이 있는 경우 클래식 인프라 오퍼링의 비용을 추정할 수 있습니다. Lite 계정을 업그레이드하려면 [내 계정 유형을 업그레이드하거나 변경하려면 어떻게 해야 합니까?](/docs/account?topic=account-accountfaqs)를 참조하십시오.
 
 비용을 추정하려면 다음 단계를 완료하십시오.
 
@@ -30,7 +32,7 @@ lastupdated: "2019-01-28"
   3. 오퍼링 세부사항 페이지에서 오퍼링 유형에 관계없이 가격 플랜을 선택하고 기타 구성 세부사항을 입력하십시오.
   4. 다음 옵션 중 하나를 선택하십시오.
 
-    a. **추정값에 추가** > **저장**을 클릭하십시오. 여기에서 카탈로그로 돌아가서 추정치에 추가할 추가 오퍼링을 선택할 수 있습니다.
+    a. **추정값에 추가** > **저장**을 클릭하십시오. 여기서 카탈로그로 돌아가 추정값에 추가할 오퍼링을 선택할 수 있습니다. 
 
     언제든지 콘솔 메뉴에서 비용 추정기 아이콘 ![추정기 아이콘](../icons/Estimator.svg)을 클릭하여 예상 비용에 대한 요약을 가져올 수 있습니다.
     {: tip}

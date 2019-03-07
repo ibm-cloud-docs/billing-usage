@@ -1,9 +1,12 @@
 ---
 
 copyright:
+  years: 2015, 2019
+lastupdated: "2019-02-19"
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+keywords: payment method, credit card, payment, billing method, invoice, pay
+
+subcollection: billing-usage
 
 ---
 
@@ -14,7 +17,7 @@ lastupdated: "2018-11-19"
 {:new_window: target="_blank"}
 
 
-# 管理付款 
+# 管理付款
 {: #linkedusage}
 
 您可以使用“计费和使用情况”仪表板来执行一次性付款，更改信用卡详细信息，查看计费项目和查看发票。
@@ -40,4 +43,4 @@ lastupdated: "2018-11-19"
 ## 获取有关付款的帮助
 {: #getting-help-payments}
 
-要报告与付款相关的任何问题，可以联系支持团队。在控制台中，单击**支持** > **创建新案例**。
+要报告与付款相关的任何问题，可以联系支持团队。在控制台中，单击**支持** > **创建案例**。

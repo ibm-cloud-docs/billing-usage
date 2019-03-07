@@ -1,9 +1,12 @@
 ---
 
 copyright:
+  years: 2015, 2019
+lastupdated: "2019-02-19"
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+keywords: payment method, credit card, payment, billing method, invoice, pay
+
+subcollection: billing-usage
 
 ---
 
@@ -14,7 +17,7 @@ lastupdated: "2018-11-19"
 {:new_window: target="_blank"}
 
 
-# Gestione dei pagamenti 
+# Gestione dei pagamenti
 {: #linkedusage}
 
 Puoi utilizzare il dashboard di fatturazione e utilizzo per effettuare un pagamento una tantum, modificare i dettagli della tua carta di credito, visualizzare le tue voci di fatturazione e visualizzare le tue fatture.
@@ -40,4 +43,4 @@ Dopo essere stati convalidati, i tuoi dettagli di pagamento sono disponibili per
 ## Come ottenere assistenza con i tuoi pagamenti
 {: #getting-help-payments}
 
-Per segnalare eventuali problemi correlati ai pagamenti, puoi contattare il team di supporto. Dalla console, fai clic su **Supporto** > **Crea nuovo caso**.
+Per segnalare eventuali problemi correlati ai pagamenti, puoi contattare il team di supporto. Dalla console, fai clic su **Supporto** > **Crea un caso**.

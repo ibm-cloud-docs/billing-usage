@@ -1,10 +1,12 @@
 ---
 
 copyright:
-
   years: 2015, 2019
-
 lastupdated: "2019-01-28"
+
+keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
+
+subcollection: billing-usage
 
 ---
 
@@ -21,7 +23,7 @@ lastupdated: "2019-01-28"
 Mithilfe des Kostenschätzers können Sie die voraussichtlichen Kosten der {{site.data.keyword.Bluemix}}-Angebote durch Anpassen der Pläne an Ihren Bedarf ermitteln.
 {:shortdesc}
 
-Sie können die Kosten für Angebote zur klassischen Infrastruktur schätzen, wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen. Informationen zum Upgrade Ihres Lite-Kontos finden Sie in [Wie kann ich ein Upgrade meines Kontotyps durchführen oder den Kontotyp ändern?](/docs/account?topic=account-accountfaqs). 
+Sie können die Kosten für Angebote zur klassischen Infrastruktur schätzen, wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen. Informationen zum Upgrade Ihres Lite-Kontos finden Sie in [Wie kann ich ein Upgrade meines Kontotyps durchführen oder den Kontotyp ändern?](/docs/account?topic=account-accountfaqs).
 
 Führen Sie die folgenden Schritte aus, um Ihre Kosten zu schätzen:
 

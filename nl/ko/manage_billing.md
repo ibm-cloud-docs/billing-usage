@@ -1,9 +1,12 @@
 ---
 
 copyright:
+  years: 2015, 2019
+lastupdated: "2019-02-19"
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+keywords: payment method, credit card, payment, billing method, invoice, pay
+
+subcollection: billing-usage
 
 ---
 
@@ -14,7 +17,7 @@ lastupdated: "2018-11-19"
 {:new_window: target="_blank"}
 
 
-# 결제 관리 
+# 결제 관리
 {: #linkedusage}
 
 청구 및 사용량 대시보드를 사용하여 일회성 결제를 진행하고 신용카드 세부사항을 변경하며 청구 항목 및 송장을 볼 수 있습니다.
@@ -40,4 +43,4 @@ lastupdated: "2018-11-19"
 ## 결제에 대한 도움 받기
 {: #getting-help-payments}
 
-결제와 관련된 문제점을 보고하려면 지원 팀에 문의하십시오. 콘솔에서 **지원** > **새 케이스 작성**을 클릭하십시오.
+결제와 관련된 문제점을 보고하려면 지원 팀에 문의하십시오. 콘솔에서 **지원** > **케이스 작성**을 클릭하십시오. 
