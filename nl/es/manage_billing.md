@@ -1,9 +1,12 @@
 ---
 
 copyright:
+  years: 2015, 2019
+lastupdated: "2019-02-19"
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+keywords: payment method, credit card, payment, billing method, invoice, pay
+
+subcollection: billing-usage
 
 ---
 
@@ -14,7 +17,7 @@ lastupdated: "2018-11-19"
 {:new_window: target="_blank"}
 
 
-# Gestión de pagos 
+# Gestión de pagos
 {: #linkedusage}
 
 Puede utilizar el panel de control de facturación y uso para realizar un pago único, cambiar los detalles de la tarjeta de crédito, ver elementos de facturación y ver sus facturas.
@@ -40,4 +43,4 @@ Cuando se validen los detalles del pago, estos estarán disponibles para utiliza
 ## Obtención de ayuda con los pagos
 {: #getting-help-payments}
 
-Para notificar cualquier problema relacionado con pagos, puede ponerse en contacto con el equipo de soporte. En la consola, pulse **Soporte** > **Crear caso nuevo**.
+Para notificar cualquier problema relacionado con pagos, puede ponerse en contacto con el equipo de soporte. En la consola, pulse **Soporte** > **Crear un caso**.

@@ -1,9 +1,12 @@
 ---
 
 copyright:
+  years: 2015, 2019
+lastupdated: "2019-02-19"
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+keywords: payment method, credit card, payment, billing method, invoice, pay
+
+subcollection: billing-usage
 
 ---
 
@@ -14,7 +17,7 @@ lastupdated: "2018-11-19"
 {:new_window: target="_blank"}
 
 
-# Gestion des paiements 
+# Gestion des paiements
 {: #linkedusage}
 
 Vous pouvez utiliser le tableau de bord de facturation et d'utilisation pour effectuer un paiement unique, changer vos informations de carte de crédit, afficher vos éléments de facturation ainsi que vos factures.

@@ -1,9 +1,12 @@
 ---
 
 copyright:
+  years: 2015, 2019
+lastupdated: "2019-02-19"
 
-  years: 2015, 2018
-lastupdated: "2018-11-19"
+keywords: payment method, credit card, payment, billing method, invoice, pay
+
+subcollection: billing-usage
 
 ---
 
@@ -14,7 +17,7 @@ lastupdated: "2018-11-19"
 {:new_window: target="_blank"}
 
 
-# Gerenciando pagamentos 
+# Gerenciando pagamentos
 {: #linkedusage}
 
 É possível usar o painel de faturamento e uso para fazer um pagamento único, mudar os detalhes de seu cartão de crédito, visualizar seus itens de faturamento e visualizar suas faturas.
@@ -40,4 +43,4 @@ Quando os detalhes do pagamento são validados, eles ficam disponíveis para uso
 ## Obtendo ajuda com os seus pagamentos
 {: #getting-help-payments}
 
-Para relatar quaisquer problemas que estejam relacionados a pagamentos, é possível entrar em contato com a equipe de Suporte. No console, clique em **Suporte** > **Criar novo caso**.
+Para relatar quaisquer problemas que estejam relacionados a pagamentos, é possível entrar em contato com a equipe de Suporte. No console, clique em **Suporte** > **Criar um caso**.
