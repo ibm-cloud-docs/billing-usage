@@ -23,7 +23,7 @@ subcollection: billing-usage
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} offerings by customizing plans for your needs.
 {:shortdesc}
 
-You can estimate the costs of classic infrastructure offerings if you have a Pay-As-You-Go or Subscription account. To upgrade your Lite account, see [How do I upgrade or change my account type?](/docs/account?topic=account-accountfaqs).
+You can estimate the costs of classic infrastructure offerings if you have a Pay-As-You-Go or Subscription account. To upgrade your Lite account, see [Upgrading your account](/docs/account?topic=account-upgrading-account).
 
 Complete the following steps to estimate your costs.
 
@@ -40,13 +40,13 @@ Complete the following steps to estimate your costs.
     b. Click **Create** if you're ready to start creating instances of the offering.
 
 
-## Viewing your quotes
+## Creating quotes for infrastructure services
 {: #quotes}
 
 You can generate and view quotes for only {{site.data.keyword.baremetal_short}}, Virtual Server, and Gateway add-ons. Any user with access to the account can view quotes.
 
   1. Generate a quote by clicking **Save as quote** from the Order Summary section on the offering details page. Or contact a {{site.data.keyword.Bluemix_notm}} sales representative.
-  2. View your quote by going to **Manage > Billing and usage**, and select **Quotes**. If you have access, you can purchase the quoted offering by clicking the quote and confirming the order.
+  2. View your quote by going to **Manage > Billing and usage**, and select **Sales > Device quotes**. If you have access, you can purchase the quoted offering by clicking the quote and confirming the order.
 
 
 ## Supported billing currencies

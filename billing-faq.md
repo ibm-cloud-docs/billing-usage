@@ -69,6 +69,16 @@ Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../ico
 
 Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, click **Create a case** to get in touch with the support team.   
 
+## What is a GB-hour?
+{: #gb-hour}
+{: faq}
+
+Runtime and container usage is charged based on the following variables:
+ • How much memory your runtime or container uses, in gigabytes (GB)
+ • The duration that memory is used
+
+Multiply the two values together, and the result is the GB-hour.
+
 ## How many apps can I build?
 {: #howmanyapps}
 {: faq}
@@ -138,13 +148,16 @@ Yes, you can cancel your account before your term expires, but the rest of your 
 
 You're required to continue paying your monthly charges until the end of your term. To avoid generating overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg) for help with signing up for a new Subscription.
 
+## How can I monitor spending?
+{: #monitor-spending}
+{: faq}
+You can view your monthly runtime and service usage by clicking **Manage > Billing and usage > Usage**. Learn more in [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## Where can I access my invoice?
 {: #access-invoices}
 {: faq}
 
 From the console, click **Manage > Billing and usage**, and select **Invoices**.
-
 
 ## Why does my usage not match my invoice?
 {: #usage-not-match-invoice}
