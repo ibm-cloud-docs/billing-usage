@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-03-28"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -23,21 +23,18 @@ subcollection: billing-usage
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} offerings by customizing plans for your needs.
 {:shortdesc}
 
-You can estimate the costs of classic infrastructure offerings if you have a Pay-As-You-Go or Subscription account. To upgrade your Lite account, see [Upgrading your account](/docs/account?topic=account-upgrading-account).
+1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the service that you're interested in.
 
-Complete the following steps to estimate your costs.
+     Depending on the service, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
+1. From the service details page, select your pricing plan and enter other configuration details if needed. Then, click **Add to estimate**.
+1. Enter in your estimated usage, and click **Calculate cost**.
+1. Add the calculated cost to your estimate by clicking **Save**.
 
-  1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the offering that you're interested in.
-  2. Depending on the offering, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
-  3. From the offering details page, regardless of offering type, select your pricing plan and enter other configuration details.
-  4. Choose one of the following options:
+   If you want to estimate costs for other services, you can return to the catalog and select more services to add to the estimate.
 
-    a. Click **Add to estimate** > **Save**. From there, you can return to the catalog and select additional offerings to add to your estimate.
-
-    At any point, you can click the Cost estimator icon ![Estimator icon](../icons/Estimator.svg) in the console menu to get a summary of your estimated costs.
-    {: tip}
-
-    b. Click **Create** if you're ready to start creating instances of the offering.
+   At any point, you can click the Cost estimator icon ![Estimator icon](../icons/Estimator.svg) in the console menu to get a summary of your estimated costs.
+   {: tip}
+1. When you're done adding services to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF of the estimate by clicking **Download PDF**.
 
 
 ## Creating quotes for infrastructure services
