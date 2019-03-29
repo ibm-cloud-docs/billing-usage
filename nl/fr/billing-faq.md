@@ -69,6 +69,16 @@ Contactez le [service de support {{site.data.keyword.Bluemix_notm}}![Icône de l
 
 Cliquez sur **Support** dans la barre de menus de la console pour accéder au centre de support. Commencez par consulter la foire aux questions (FAQ). Si vous ne trouvez pas les réponses souhaitées, cliquez sur **Créer un cas** pour prendre contact avec l'équipe de support.   
 
+## Qu'est-ce qu'un Go/heure ?
+{: #gb-hour}
+{: faq}
+
+L'utilisation de contexte d'exécution et de conteneur est facturée en fonction des variables suivantes :
+ • Quantité de mémoire utilisée par le contexte d'exécution ou les conteneurs, en gigaoctets (Go)
+ • Durée pendant laquelle la mémoire est utilisée
+
+Multipliez les deux valeurs. Le résultat est exprimé en Go/heure.
+
 ## Combien d'applications puis-je construire ?
 {: #howmanyapps}
 {: faq}
@@ -138,13 +148,16 @@ Oui, vous pouvez annuler votre compte avant la fin de votre engagement mais le r
 
 Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. Pour éviter de générer des frais supplémentaires, prenez contact avec le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg) pour obtenir de l'aide si vous souhaitez souscrire un nouvel abonnement.
 
+## Comment puis-je surveiller les dépenses ?
+{: #monitor-spending}
+{: faq}
+Vous pouvez consulter votre utilisation mensuelle de contexte d'exécution et de services en cliquant sur **Gérer > Facturation et utilisation > Utilisation**. Pour plus d'informations, voir [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## Où puis-je accéder à ma facture ?
 {: #access-invoices}
 {: faq}
 
 Dans la console, cliquez sur **Gérer > Facturation et utilisation** puis sélectionnez **Factures**.
-
 
 ## Pourquoi mon utilisation ne correspond-elle pas à ma facture ?
 {: #usage-not-match-invoice}

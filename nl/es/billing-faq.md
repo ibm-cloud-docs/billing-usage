@@ -69,6 +69,16 @@ Póngase en contacto con el [equipo de soporte de {{site.data.keyword.Bluemix_no
 
 Pulse **Soporte** en la barra de menús de la consola para acceder al centro de soporte. Desde ahí, empiece por consultar la lista de preguntas frecuentes. Si no encuentra las respuestas que necesita, pulse **Crear un caso** para poderse en contacto con el equipo de soporte.   
 
+## ¿Qué es un GB hora?
+{: #gb-hour}
+{: faq}
+
+El uso de tiempo de ejecución y de contenedor se carga en función de estas variables:
+ • La cantidad de memoria que utiliza el tiempo de ejecución o el contenedor, en gigabytes (GB)
+ • El intervalo de tiempo que se ha utilizado la memoria
+
+Multiplique los dos valores y el resultado es el valor de GB-hora.
+
 ## ¿Cuántas apps puedo compilar?
 {: #howmanyapps}
 {: faq}
@@ -138,13 +148,16 @@ Sí, puede cancelar su cuenta antes de que finalice el plazo, pero el resto de l
 
 Tendrá que seguir pagando sus cargos mensuales hasta el final del término. Para evitar generar cargos en exceso, póngase en contacto con el [equipo de ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg) para obtener ayuda con la firma de una Suscripción nueva.
 
+## ¿Puedo supervisar el gasto?
+{: #monitor-spending}
+{: faq}
+Para ver el uso mensual de tiempo de ejecución y del servicio, pulse **Gestionar > Facturación y uso > Uso**. Encontrará más información en el apartado sobre [Visualización del uso](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## ¿Dónde puedo acceder a mi factura?
 {: #access-invoices}
 {: faq}
 
 En la consola, pulse **Gestionar > Facturación y uso** y seleccione **Facturas**.
-
 
 ## ¿Por qué mi uso no coincide con mi factura?
 {: #usage-not-match-invoice}
