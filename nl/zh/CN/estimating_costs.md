@@ -23,7 +23,7 @@ subcollection: billing-usage
 通过针对您的需求定制套餐，可以使用成本估算工具来估算 {{site.data.keyword.Bluemix}} 产品的成本。
 {:shortdesc}
 
-如果您有现收现付或预订帐户，那么可以估算经典基础架构产品的成本。要升级轻量帐户，请参阅[如何升级或更改帐户类型？](/docs/account?topic=account-accountfaqs)。
+如果您有现收现付或预订帐户，那么可以估算经典基础架构产品的成本。要升级轻量帐户，请参阅[升级帐户](/docs/account?topic=account-upgrading-account)。
 
 要估算成本，请完成以下步骤。
 
@@ -40,13 +40,13 @@ subcollection: billing-usage
     b. 如果您已准备好开始创建产品的实例，请单击**创建**。
 
 
-## 查看报价
+## 创建基础架构服务报价
 {: #quotes}
 
 只能生成和查看 {{site.data.keyword.baremetal_short}}、Virtual Server 和 Gateway 附加组件的报价。有权访问帐户的任何用户都可以查看报价。
 
   1. 通过单击产品详细信息页面上“订单摘要”部分中的**另存为报价**来生成报价。或者，联系 {{site.data.keyword.Bluemix_notm}} 销售代表。
-  2. 通过转至**管理 > 计费和使用情况**，然后选择**报价**来查看报价。如果您具有相应访问权，那么可以通过单击报价并确认订单来购买报价的产品。
+  2. 通过转至**管理 > 计费和使用情况**，然后选择**销售 > 设备报价**来查看您的报价。如果您具有相应访问权，那么可以通过单击报价并确认订单来购买报价的产品。
 
 
 ## 支持的计费货币

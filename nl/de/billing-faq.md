@@ -69,6 +69,16 @@ Wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support ![Symbol für ext
 
 Klicken Sie in der Menüleiste der Konsole auf **Support**, um zum Support Center zu gelangen. Überprüfen Sie dort zunächst die Liste der allgemeinen FAQs. Wenn Sie dort keine Antwort finden, die Ihnen weiterhilft, klicken Sie auf **Fall erstellen**, um sich an das Support-Team zu wenden.   
 
+## Was ist eine GB-Stunde?
+{: #gb-hour}
+{: faq}
+
+Gebühren für die Laufzeit- und Containernutzung werden auf der Basis der folgenden Variablen abgerechnet:
+ • Von der Laufzeit oder dem Container genutzte Speichermenge in Gigabyte (GB)
+ • Dauer der Speichernutzung
+
+Eine GB-Stunde ist das Ergebnis der Multiplikation dieser beiden Werte.
+
 ## Wie viele Apps kann ich erstellen?
 {: #howmanyapps}
 {: faq}
@@ -138,13 +148,16 @@ Ja. Das Konto kann vor Ablauf der Laufzeit gekündigt werden. Der Rest des Gesam
 
 Sie müssen die monatlichen Gebühren weiterhin bis zum Ende der Laufzeit bezahlen. Um Gebühren für die Überschreitung zu vermeiden, wenden Sie sich an den [{{site.data.keyword.Bluemix_notm}}-Vertrieb](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg). Hier erhalten Sie Unterstützung bei der Anmeldung für ein neues Abonnement.
 
+## Wie können die Ausgaben überwacht werden?
+{: #monitor-spending}
+{: faq}
+Sie können die monatliche Laufzeit- und Servicenutzung anzeigen, indem Sie auf **Verwalten > Abrechnung und Nutzung > Nutzung** klicken. Weitere Informationen finden Sie in [Nutzung anzeigen](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## Wie erhalte ich Zugriff auf die Rechnung?
 {: #access-invoices}
 {: faq}
 
 Klicken Sie in der Konsole auf **Verwalten > Abrechnung und Nutzung** und wählen Sie **Rechnungen** aus.
-
 
 ## Warum entspricht die Nutzung nicht der Rechnung?
 {: #usage-not-match-invoice}

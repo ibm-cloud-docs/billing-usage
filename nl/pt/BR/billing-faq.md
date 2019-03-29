@@ -49,7 +49,7 @@ Códigos promocionais e códigos de recurso são diferentes!
 
    Se você compra uma assinatura, geralmente recebe um e-mail com o código de recurso. Para resgatar seu código de recurso, acesse **Gerenciar > Conta** e selecione **Configurações da conta**. Sob Códigos de recurso, clique em **Aplicar código**. Se você não vir essa opção em sua conta, poderá não ter as funções de acesso necessárias. Para obter mais informações, consulte [Aplicando códigos de recurso](/docs/account?topic=account-codes).
 
-## Como cancelo minha conta?
+## Como cancelar minha conta?
 {: #cancelmyaccount}
 {: faq}
 
@@ -69,6 +69,16 @@ Entre em contato com o Suporte do [{{site.data.keyword.Bluemix_notm}} ![Ícone d
 {: faq}
 
 Clique em **Suporte** na barra de menus do console para acessar o Centro de suporte. Lá, inicie com a alavancagem da lista de FAQs comuns. Se você não localizar as respostas necessárias, clique em **Criar um caso** para entrar em contato com a equipe de suporte.   
+
+## O que é GB/hora?
+{: #gb-hour}
+{: faq}
+
+O uso de tempo de execução e de contêiner é cobrado com base nas variáveis a seguir:
+ • A quantidade de memória que seu tempo de execução ou contêiner usa, em gigabytes (GB)
+ • A duração do uso da memória
+
+Multiplique os dois valores juntos, e o resultado será o valor em GB/hora.
 
 ## Quantos apps eu posso construir?
 {: #howmanyapps}
@@ -121,7 +131,7 @@ A taxa sem desconto será cobrada por eventuais usos que excedam a quantia total
 {: faq}
 
 Atualmente, é possível fazer pagamentos mensais para a sua conta da assinatura. Se desejar pagar antecipadamente ou
-trimestralmente, entre em contato com as [Vendas do {{site.data.keyword.Bluemix_notm}}
+trimestralmente, entre em contato com a equipe de [Vendas do {{site.data.keyword.Bluemix_notm}}
 ](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg).
 
 
@@ -144,17 +154,20 @@ Sim, é possível cancelar sua conta antes de seu prazo expirar, mas o restante 
 {: faq}
 
 Será necessário continuar pagando os seus encargos mensais até o término do prazo. Para evitar a geração de cobranças
-excedentes, entre em contato com as [Vendas do {{site.data.keyword.Bluemix_notm}}
+excedentes, entre em contato com a equipe de [Vendas do {{site.data.keyword.Bluemix_notm}}
 ](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg) para obter
 ajuda com a inscrição para uma nova assinatura.
 
+## Como posso monitorar os gastos?
+{: #monitor-spending}
+{: faq}
+É possível visualizar seu uso mensal de tempo de execução e de serviço clicando em **Gerenciar > Faturamento e uso > Uso**. Saiba mais em [Visualizando seu uso](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## Onde posso acessar minha fatura?
 {: #access-invoices}
 {: faq}
 
 No console, clique em **Gerenciar > Faturamento e uso** e selecione **Faturas**.
-
 
 ## Por que meu uso não corresponde à minha fatura?
 {: #usage-not-match-invoice}

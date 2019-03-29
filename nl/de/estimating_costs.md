@@ -23,7 +23,7 @@ subcollection: billing-usage
 Mithilfe des Kostenschätzers können Sie die voraussichtlichen Kosten der {{site.data.keyword.Bluemix}}-Angebote durch Anpassen der Pläne an Ihren Bedarf ermitteln.
 {:shortdesc}
 
-Sie können die Kosten für Angebote zur klassischen Infrastruktur schätzen, wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen. Informationen zum Upgrade Ihres Lite-Kontos finden Sie in [Wie kann ich ein Upgrade meines Kontotyps durchführen oder den Kontotyp ändern?](/docs/account?topic=account-accountfaqs).
+Sie können die Kosten für Angebote zur klassischen Infrastruktur schätzen, wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen. Informationen zum Upgrade des Lite-Kontos finden Sie in [Upgrade für das Konto durchführen](/docs/account?topic=account-upgrading-account).
 
 Führen Sie die folgenden Schritte aus, um Ihre Kosten zu schätzen:
 
@@ -40,13 +40,13 @@ Führen Sie die folgenden Schritte aus, um Ihre Kosten zu schätzen:
     b. Klicken Sie auf **Erstellen**, wenn mit dem Erstellen von Instanzen des Angebots begonnen werden kann.
 
 
-## Angebote anzeigen
+## Angebote für Infrastrukturservices erstellen
 {: #quotes}
 
 Sie können nur Angebote für {{site.data.keyword.baremetal_short}}, virtuelle Server und Gateway-Add-ons generieren und anzeigen. Alle Benutzer mit Zugriff auf das Konto können Angebote anzeigen.
 
   1. Generieren Sie ein Angebot, indem Sie auf der Seite mit den Angebotsdetails im Abschnitt mit der Bestellübersicht auf **Als Angebot speichern** klicken. Sie können sich stattdessen auch an einen {{site.data.keyword.Bluemix_notm}}-Vertriebsbeauftragten wenden.
-  2. Sie können Ihr Angebot anzeigen, indem Sie **Verwalten > Abrechnung und Nutzung** aufrufen und dann **Angebote** auswählen. Wenn Sie über den entsprechenden Zugriff verfügen, können Sie das als Angebot zusammengestellte Produktangebot erwerben, indem Sie auf das Angebot klicken und die Bestellung bestätigen.
+  2. Sie können Ihr Angebot anzeigen, indem Sie **Verwalten > Abrechnung und Nutzung** aufrufen und **Vertrieb > Geräteangebote** auswählen. Wenn Sie über den entsprechenden Zugriff verfügen, können Sie das als Angebot zusammengestellte Produktangebot erwerben, indem Sie auf das Angebot klicken und die Bestellung bestätigen.
 
 
 ## Unterstützte Abrechnungswährungen

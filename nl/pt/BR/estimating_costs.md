@@ -23,7 +23,7 @@ subcollection: billing-usage
 É possível usar o estimador de custo para estimar o custo de ofertas do {{site.data.keyword.Bluemix}} customizando os planos para suas necessidades.
 {:shortdesc}
 
-É possível estimar os custos das ofertas de infraestrutura clássica se você tiver uma conta Pré-paga ou Assinatura. Para fazer upgrade de sua conta Lite, consulte [Como fazer upgrade ou mudar meu tipo de conta?](/docs/account?topic=account-accountfaqs).
+É possível estimar os custos das ofertas de infraestrutura clássica se você tiver uma conta Pré-paga ou Assinatura. Para fazer upgrade de sua conta Lite, consulte [Fazendo upgrade de sua conta](/docs/account?topic=account-upgrading-account).
 
 Conclua as etapas a seguir para estimar seus custos.
 
@@ -40,13 +40,13 @@ Conclua as etapas a seguir para estimar seus custos.
     b. Clique em **Criar** se você estiver pronto para iniciar a criação de instâncias da oferta.
 
 
-## Visualizando suas cotações
+## Criando cotações para serviços de infraestrutura
 {: #quotes}
 
 É possível gerar e visualizar cotações apenas para os complementos {{site.data.keyword.baremetal_short}}, Virtual Server e Gateway. Qualquer usuário com acesso à conta pode visualizar cotações.
 
   1. Gere uma cotação clicando em **Salvar como cotação** na seção Resumo do pedido na página de detalhes da oferta. Ou entre em contato com um representante de vendas do {{site.data.keyword.Bluemix_notm}}.
-  2. Visualize sua cotação acessando **Gerenciar > Faturamento e uso** e selecione **Cotações**. Se você tiver acesso, será possível comprar a oferta cotada clicando na cotação e confirmando o pedido.
+  2. Visualize sua cotação acessando **Gerenciar > Faturamento e uso** e selecione **Vendas > Cotações de dispositivo**. Se você tiver acesso, será possível comprar a oferta cotada clicando na cotação e confirmando o pedido.
 
 
 ## Moedas de faturamento suportadas
