@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-03-28"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -23,21 +23,18 @@ subcollection: billing-usage
 Vous pouvez utiliser l'estimateur de coût pour estimer le coût des offres {{site.data.keyword.Bluemix}} en personnalisant les plans en fonction de vos besoins.
 {:shortdesc}
 
-Vous pouvez estimer les coût des offres de l'infrastructure classique si vous avez un compte Paiement à la carte ou Abonnement. Pour mettre à niveau votre compte Lite, voir [Mise à niveau de votre compte](/docs/account?topic=account-upgrading-account).
+1. Accédez au catalogue {{site.data.keyword.Bluemix_notm}} [](https://cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") puis sélectionnez le service qui vous intéresse.
 
-Procédez comme suit pour estimer vos coûts.
+     En fonction du service, une page d'informations provisoire peut s'afficher. Par exemple, si vous sélectionnez {{site.data.keyword.baremetal_short}}, une page d'informations décrivant les différentes fonctions s'affiche. Cliquez sur **Continuer**
+1. Sur la page des détails du service, sélectionnez votre plan de tarification et entrez d'autres informations de configuration, si nécessaire. Cliquez ensuite sur **Ajouter à l'estimation**.
+1. Entrez votre utilisation estimée puis cliquez sur **Calculer le coût**.
+1. Ajoutez le coût calculé à votre estimation en cliquant sur **Sauvegarder**.
 
-  1. Accédez au catalogue {{site.data.keyword.Bluemix_notm}} [](https://cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") et sélectionnez l'offre qui vous intéresse.
-  2. En fonction de l'offre, une page d'informations provisoire peut s'afficher. Par exemple, si vous sélectionnez {{site.data.keyword.baremetal_short}}, une page d'informations décrivant les différentes fonctions s'affiche. Cliquez sur **Continuer**
-  3. Sur la page des détails de l'offre, quel que soit le type d'offre, sélectionnez votre plan de tarification et entrez d'autres détails de configuration.
-  4. Sélectionnez l'une des options suivantes :
+   Si vous souhaitez estimer les coûts pour d'autres services, vous pouvez accéder à nouveau au catalogue et sélectionner des services supplémentaires à ajouter à l'estimation.
 
-    a. Cliquez sur **Ajouter à l'estimation** > **Sauvegarder**. Vous pouvez alors accéder à nouveau au catalogue et sélectionner des offres supplémentaires à ajouter à votre estimation.
-
-    A tout moment, vous pouvez cliquer sur l'icône Estimateur de coût ![Icône Estimateur](../icons/Estimator.svg) dans le menu de la console pour obtenir un récapitulatif de vos coûts estimés.
-    {: tip}
-
-    b. Cliquez sur **Créer** si vous êtes prêt à commencer à créer des instances de l'offre.
+   A tout moment, vous pouvez cliquer sur l'icône Estimateur de coût ![Icône Estimateur](../icons/Estimator.svg) dans le menu de la console pour obtenir un récapitulatif de vos coûts estimés.
+   {: tip}
+1. Lorsque vous avez fini d'ajouter des services à votre estimation, cliquez sur **Vérifier l'estimation** pour voir votre estimation détaillée. Vous pouvez télécharger un fichier PDF de l'estimation en cliquant sur **Télécharger le PDF**.
 
 
 ## Création de devis pour des services d'infrastructure
