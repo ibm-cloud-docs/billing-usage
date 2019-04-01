@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-03-28"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -23,21 +23,18 @@ subcollection: billing-usage
 Puede utilizar el estimador de costes para calcular el coste de las ofertas de {{site.data.keyword.Bluemix}} personalizando los planes para ajustarlos a sus necesidades.
 {:shortdesc}
 
-Puede estimar los costes de las ofertas de la infraestructura clásica si tiene una cuenta de pago según uso o de suscripción. Para actualizar su cuenta Lite, consulte [Actualización de la cuenta](/docs/account?topic=account-upgrading-account).
+1. Vaya al [catálogo de {{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") y seleccione el servicio que le interesa.
 
-Siga los pasos siguientes para estimar sus costes.
+     En función del servicio, es posible que aparezca una página de información intermedia. Por ejemplo, si selecciona {{site.data.keyword.baremetal_short}}, aparece una página de información en la que se describen distintas características. Pulse **Continuar**.
+1. En la página de detalles del servicio, seleccione su plan de precios y especifique otros detalles de la configuración, si es necesario. A continuación, pulse **Añadir a estimación**.
+1. Especifique su uso estimado y pulse **Calcular coste**.
+1. Añada el coste calculado a su estimación pulsando **Guardar**.
 
-  1. Vaya al {{site.data.keyword.Bluemix_notm}} [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") y seleccione la oferta en la que está interesado.
-  2. En función de la oferta, es posible que aparezca una página de información intermedia. Por ejemplo, si selecciona {{site.data.keyword.baremetal_short}}, aparece una página de información en la que se describen distintas características. Pulse **Continuar**.
-  3. En la página de detalles de la oferta, independientemente del tipo de oferta, seleccione su plan de precios y especifique otros detalles de la configuración.
-  4. Elija una de estas opciones:
+   Si desea estimar costes para otros servicios, puede regresar al catálogo y seleccionar más servicios para añadir a la estimación.
 
-    a. Pulse **Añadir a la estimación** > **Guardar**. Desde ahí puede volver al catálogo y seleccionar otras ofertas para añadirlas a su estimación.
-
-    En cualquier momento puede pulsar el icono del estimador de costes ![Icono del estimador](../icons/Estimator.svg) en el menú de la consola para ver un resumen de sus costes estimados.
-    {: tip}
-
-    b. Pulse **Crear** si está listo para empezar a crear instancias de la oferta.
+   En cualquier momento puede pulsar el icono del estimador de costes ![Icono del estimador](../icons/Estimator.svg) en el menú de la consola para ver un resumen de sus costes estimados.
+   {: tip}
+1. Cuando haya terminado de añadir servicios a su estimación, pulse **Revisar estimación** para ver la estimación detallada. Puede descargar un PDF de la estimación pulsando **Descargar PDF**.
 
 
 ## Creación de presupuestos para servicios de la infraestructura
