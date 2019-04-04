@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-03"
 
 keywords: view usage, view cost, service usage, usage access, usage report
 
@@ -14,6 +14,7 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 
 # Viewing your usage
@@ -54,4 +55,9 @@ The account manager of a Pay-As-You-Go account can set spending notifications ag
 You can export a summary of your usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs.
 
 1. Go to **Manage > Billing and usage**, and select **Usage**.
-2. Click **Export CSV**.  
+1. Click **Export CSV** and select one of the options:
+   - Click **Summary** for a high-level overview of the usage and associated costs for your account.
+   - Click **Instance** for detailed usage information about each service instance.
+
+   You can use the **Tags** column in the instance CSV file to help analyze the resources in your account. For example, you might have multiple projects in an account, each with a Kubernetes cluster and a few Cloud Foundry app deployments. You can organize the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. For more information about tagging, see [Working with tags](/docs/resources?topic=resources-tag).
+   {: tip}
