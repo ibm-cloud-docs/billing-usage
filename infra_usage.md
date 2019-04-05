@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-17"
+  years: 2018, 2019
+lastupdated: "2019-04-05"
 
-keywords: SoftLayer, SoftLayer billing, infrastructure billing, IaaS, cost, orders, IaaS usage
+keywords: SoftLayer, SoftLayer billing, infrastructure billing, IaaS, cost, orders, IaaS usage, invoice
 
 subcollection: billing-usage
 
@@ -14,27 +14,38 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 
 # Viewing usage for your classic infrastructure resources
 {: #infra-usage}
 
-You can view device upgrades, orders, cancellations, and shipments for classic infrastructure resources by going to **Manage > Billing and usage**.  
+You can view your usage for classic infrastructure devices and services by going to **Manage > Billing and usage**.  
 {:shortdesc}
 
+## Viewing billing and usage information
+{: #infra-billing}
+
+* Select **Billing items** to view billing items and their associated devices. Billing items are services and offerings that are not a server, such as storage. Associating a billing item with a device helps you track and organize costs in your invoice.
+
+  By default, the Billing items page displays all associated billing items. You can change your view by clicking the **Associated Billing Items** menu and selecting another option. You can associate or disassociate one item, or expand the **Bulk Actions** operation for multiple items at a time. You can cancel individual billing items at any time.
+* Select **Invoices** to view detailed invoices that list your device and service usage and the billed amount for each item.
+
+   To view your billed usage for the current invoicing period, click the link with your next invoice date under Next Recurring Invoice.
+
+   You can download a PDF or spreadsheet copy of an invoice for your offline records by clicking the download icon and selecting your download options.
+   {: tip}
+
+## Viewing device and service purchase information
+{: #infra-orders}
+
+You can view information about your classic infrastructure device and service purchases by selecting an option from the **Sales** navigation.
 
 * Select **Device upgrades** to view specific information, such as which devices are upgraded and the date the case was created and completed.
 
   You can view all open and closed cases for your infrastructure device upgrades. You can also track the progress of the case, view a logged correspondence with support, and keep track of cases that are opened and completed.
-
-* Select **Orders** to view a list of all the orders that have been made in your account.
-
+* Select **Orders** to view a list of all the orders made in your account.
 * Select **Cancellations** to view all cancellations on your account.
 
-  You can view a list of all of the cancellations that have been made in the account, and you can view them by type of device or service. The cancellations show the device name and the case number. This list keeps track of on-going and closed cases, and you can view your messages with support.  
-
-* Select **Shipments** to view your digital shipments, such as data transfer requests, or physical shipments.
-
-* Select **Billing items** to view all associated and disassociated billing items to specific devices.
-
-  By default, the billing items page displays all associated billing items. You can change your view by selecting an option from the display menu. You can associate or disassociate one item or expand the **Bulk Actions** operation for multiple items at a time. You can cancel individual billing items at any time.
+  You can view a list of all of the cancellations made in the account, and you can view them by type of device or service. The cancellations show the device name and the case number. This list tracks ongoing and closed cases, and you can view your messages with support.  
+* Select **Shipments** to view your digital shipments, such as data transfer requests or physical shipments.
