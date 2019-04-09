@@ -24,7 +24,7 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-Sie können die Zahlungsmethode, die Ihrem Konto zugeordnet ist, aktualisieren, indem Sie in der Konsole [Zahlungen](https://{DomainName}/billing/payments) aufrufen. Geben Sie unter 'Zahlungsmethode hinzufügen' die Rechnungsinformationen für Ihre neue Karte ein und klicken Sie auf **Kreditkarte hinzufügen**.
+Sie können die Zahlungsmethode, die Ihrem Konto zugeordnet ist, aktualisieren, indem Sie in der Konsole [Zahlungen](https://cloud.ibm.com/billing/payments) aufrufen. Geben Sie unter 'Zahlungsmethode hinzufügen' die Rechnungsinformationen für Ihre neue Karte ein und klicken Sie auf **Kreditkarte hinzufügen**.
 
 Wenn Sie zu einer anderen Zahlungsmethode wechseln möchten, wählen Sie die Option für eine **Andere Zahlungsmethode** aus und klicken Sie auf **Änderungsanforderung senden**. Ein Supportfall zum Ändern Ihrer Zahlungsmethode wird für Sie erstellt.
 

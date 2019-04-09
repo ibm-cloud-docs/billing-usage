@@ -24,7 +24,7 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-É possível atualizar o método de pagamento que está associado à sua conta acessando [Pagamentos](https://{DomainName}/billing/payments) no console. Sob Incluir método de pagamento, insira as informações de faturamento para o seu novo cartão e, em seguida, clique em **Incluir cartão de crédito**.
+É possível atualizar o método de pagamento que está associado à sua conta acessando [Pagamentos](https://cloud.ibm.com/billing/payments) no console. Sob Incluir método de pagamento, insira as informações de faturamento para o seu novo cartão e, em seguida, clique em **Incluir cartão de crédito**.
 
 Para alternar para um método de pagamento diferente, selecione **Pagamento com outro** e, em seguida, clique em **Enviar solicitação de mudança**. Um caso de suporte para mudar o seu método de pagamento será criado para você.
 
