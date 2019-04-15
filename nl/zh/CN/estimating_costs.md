@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-28"
+lastupdated: "2019-01-28"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -23,18 +23,21 @@ subcollection: billing-usage
 通过针对您的需求定制套餐，可以使用成本估算工具来估算 {{site.data.keyword.Bluemix}} 产品的成本。
 {:shortdesc}
 
-1. 转至 {{site.data.keyword.Bluemix_notm}} [目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")，然后选择您感兴趣的服务。
+如果您有现收现付或预订帐户，那么可以估算经典基础架构产品的成本。要升级轻量帐户，请参阅[升级帐户](/docs/account?topic=account-upgrading-account)。
 
-     根据服务的不同，可能会显示过渡信息页面。例如，如果选择 {{site.data.keyword.baremetal_short}}，那么将显示描述各种功能的信息页面。单击**继续**。
-1. 在服务详细信息页面中，选择价格套餐，然后根据需要输入其他配置详细信息。接着，单击**添加到估算**。
-1. 在估算使用量中进行输入，然后单击**计算成本**。
-1. 通过单击**保存**，向估算添加计算的成本。
+要估算成本，请完成以下步骤。
 
-   如果要估算其他服务的成本，可以返回到目录，并选择要添加到估算的更多服务。
+  1. 转至 {{site.data.keyword.Bluemix_notm}} [目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")，然后选择您感兴趣的产品。
+  2. 根据产品的不同，可能会显示过渡信息页面。例如，如果选择 {{site.data.keyword.baremetal_short}}，那么将显示描述各种功能的信息页面。单击**继续**。
+  3. 在产品详细信息页面中，不管是哪种产品类型，都请选择价格套餐，然后输入其他配置详细信息。
+  4. 选择下列其中一个选项：
 
-   您可以随时单击控制台菜单中的“成本估算工具”图标 ![“估算工具”图标](../icons/Estimator.svg) 以获取估算成本的摘要。
+    a. 单击**添加到估算** > **保存**。从其中可以返回到目录，然后选择要添加到估算的其他产品。
+
+    您可以随时单击控制台菜单中的“成本估算工具”图标 ![“估算工具”图标](../icons/Estimator.svg) 以获取估算成本的摘要。
     {: tip}
-1. 完成向估算添加服务的操作后，单击**复查估算**以查看详细估算。可以通过单击**下载 PDF** 来下载 PDF 版本的估算。
+
+    b. 如果您已准备好开始创建产品的实例，请单击**创建**。
 
 
 ## 创建基础架构服务报价

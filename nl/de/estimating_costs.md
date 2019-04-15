@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-28"
+lastupdated: "2019-01-28"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -23,18 +23,21 @@ subcollection: billing-usage
 Mithilfe des Kostenschätzers können Sie die voraussichtlichen Kosten der {{site.data.keyword.Bluemix}}-Angebote durch Anpassen der Pläne an Ihren Bedarf ermitteln.
 {:shortdesc}
 
-1. Rufen Sie den {{site.data.keyword.Bluemix_notm}} [Katalog](https://cloud.ibm.com/catalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") auf und wählen Sie den Service aus, der Sie interessiert.
+Sie können die Kosten für Angebote zur klassischen Infrastruktur schätzen, wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen. Informationen zum Upgrade des Lite-Kontos finden Sie in [Upgrade für das Konto durchführen](/docs/account?topic=account-upgrading-account).
 
-Je nach Service wird möglicherweise eine Seite mit einleitenden Informationen angezeigt. Wenn Sie die Option für {{site.data.keyword.baremetal_short}} auswählen, wird beispielsweise eine Informationsseite mit einer Beschreibung der verschiedenen Features angezeigt. Klicken Sie auf **Weiter**.
-1. Wählen Sie auf der Servicedetailseite ihren Preisstrukturplan aus und geben Sie bei Bedarf weitere Konfigurationsdetails ein. Klicken Sie anschließend auf **Zur Schätzung hinzufügen**. 
-1. Geben Sie die geschätzte Nutzung ein und klicken Sie auf **Kosten berechnen**.
-1. Fügen Sie die berechneten Kosten zur Schätzung hinzu, indem Sie auf **Speichern** klicken.
+Führen Sie die folgenden Schritte aus, um Ihre Kosten zu schätzen:
 
-   Wenn Sie Kosten für andere Services schätzen möchten, können Sie den Katalog erneut aufrufen und weitere Services auswählen, die zur Schätzung hinzugefügt werden sollen. 
+  1. Rufen Sie den {{site.data.keyword.Bluemix_notm}} [Katalog](https://cloud.ibm.com/catalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") auf und wählen Sie das Produktangebot aus, das Sie interessiert.
+  2. Je nach Produktangebot wird möglicherweise eine Seite mit einleitenden Informationen angezeigt. Wenn Sie die Option für {{site.data.keyword.baremetal_short}} auswählen, wird beispielsweise eine Informationsseite mit einer Beschreibung der verschiedenen Features angezeigt. Klicken Sie auf **Weiter**.
+  3. Wählen Sie auf der Seite mit den Angebotsdetails unabhängig vom Angebotstyp Ihren Preisstrukturplan aus und geben Sie weitere Konfigurationsdetails ein.
+  4. Wählen Sie eine der folgenden Optionen aus:
 
-   Sie können jederzeit im Konsolenmenü auf das Kostenschätzungssymbol ![Kostenschätzungssymbol](../icons/Estimator.svg) klicken, um eine Zusammenfassung der geschätzten Kosten zu erhalten.
-   {: tip}
-1. Nach dem Hinzufügen von Services zur Schätzung klicken Sie auf **Schätzung überprüfen**, um die detaillierte Schätzung anzuzeigen. Sie können eine PDF-Datei der Schätzung herunterladen, indem Sie auf **PDF herunterladen** klicken.
+    a. Klicken Sie auf **Zur Kostenschätzung hinzufügen** > **Speichern**. Anschließend können Sie zum Katalog zurückkehren und weitere Produktangebote auswählen, die zu Ihrer Schätzung hinzugefügt werden sollen.
+
+    Sie können jederzeit im Konsolenmenü auf das Kostenschätzungssymbol ![Kostenschätzungssymbol](../icons/Estimator.svg) klicken, um eine Zusammenfassung der geschätzten Kosten zu erhalten.
+    {: tip}
+
+    b. Klicken Sie auf **Erstellen**, wenn mit dem Erstellen von Instanzen des Angebots begonnen werden kann.
 
 
 ## Angebote für Infrastrukturservices erstellen

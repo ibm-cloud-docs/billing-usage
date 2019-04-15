@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-28"
+lastupdated: "2019-01-28"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -23,21 +23,24 @@ subcollection: billing-usage
 Puoi utilizzare lo stimatore costi per stimare il costo delle offerte {{site.data.keyword.Bluemix}} personalizzando i piani per le tue esigenze.
 {:shortdesc}
 
-1. Vai al [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") {{site.data.keyword.Bluemix_notm}} e seleziona il servizio a cui sei interessato.
+Puoi stimare i costi delle offerte dell'infrastruttura classica se hai un account Pagamento a consumo o Sottoscrizione. Per eseguire un upgrade del tuo account Lite, vedi [Upgrade del tuo account](/docs/account?topic=account-upgrading-account).
 
-     A seconda del servizio, potrebbe essere visualizzata una pagina informativa provvisoria. Ad esempio, se selezioni {{site.data.keyword.baremetal_short}}, viene visualizzata una pagina informativa che descrive le diverse funzioni. Fai clic su **Continua**.
-1. Dalla pagina dei dettagli del servizio, seleziona il tuo piano prezzi e immetti altri dettagli di configurazione se necessario. Quindi, fai clic su **Aggiungi alla stima**. 
-1. Immetti il tuo utilizzo stimato e fai clic su **Calcola costo**.
-1. Aggiungi il costo calcolato alla tua stima facendo clic su **Salva**.
+Per stimare i tuoi costi, completa la seguente procedura.
 
-   Se vuoi stimare i costi di altri servizi, puoi ritornare al catalogo e selezionare più servizi da aggiungere alla stima.
+  1. Vai al [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") {{site.data.keyword.Bluemix_notm}} e seleziona l'offerta a cui sei interessato.
+  2. A seconda dell'offerta, potrebbe essere visualizzata una pagina informativa provvisoria. Ad esempio, se selezioni {{site.data.keyword.baremetal_short}}, viene visualizzata una pagina informativa che descrive le diverse funzioni. Fai clic su **Continua**.
+  3. Dalla pagina dei dettagli dell'offerta, indipendentemente dal tipo di offerta, seleziona il tuo piano dei prezzi e immetti altri dettagli di configurazione.
+  4. Scegli una delle seguenti opzioni:
 
-   A questo punto, puoi fare clic sull'icona dello stimatore costi ![Icona stimatore](../icons/Estimator.svg) nel menu della console per ottenere un riepilogo dei tuoi costi stimati.
-   {: tip}
-1. Quando hai terminato di aggiungere i servizi alla tua stima, fai clic su **Riesamina stima** per visualizzarne i dettagli. Puoi scaricare un PDF della stima facendo clic su **Scarica PDF**.
+    a. Fai clic su **Aggiungi alla stima** > **Salva**. Da lì, puoi ritornare al catalogo e selezionare delle offerte aggiuntive da aggiungere alla tua stima.
+
+    A questo punto, puoi fare clic sull'icona dello stimatore costi ![Icona stimatore](../icons/Estimator.svg) nel menu della console per ottenere un riepilogo dei tuoi costi stimati.
+    {: tip}
+
+    b. Fai clic su **Crea** se sei pronto a iniziare a creare le istanze dell'offerta.
 
 
-## Creazione di quote per i servizi dell'infrastruttura
+## Creazione di quote per i servizi dell'infrastruttura 
 {: #quotes}
 
 Puoi generare e visualizzare preventivi solo per i componenti aggiuntivi Gateway, Virtual Server e {{site.data.keyword.baremetal_short}}. Qualsiasi utente con accesso all'account può visualizzare i preventivi.

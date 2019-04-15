@@ -24,7 +24,7 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-Puoi aggiornare il metodo di pagamento associato al tuo account andando a [Pagamenti](https://cloud.ibm.com/billing/payments) nella console. In Aggiungi metodo di pagamento, immetti le informazioni di fatturazione per la tua nuova carta e fai quindi clic su **Aggiungi carta di credito**.
+Puoi aggiornare il metodo di pagamento associato al tuo account andando a [Pagamenti](https://{DomainName}/billing/payments) nella console. In Aggiungi metodo di pagamento, immetti le informazioni di fatturazione per la tua nuova carta e fai quindi clic su **Aggiungi carta di credito**.
 
 Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e fai quindi clic su **Submit change request**. Un caso di supporto per modificare il tuo metodo di pagamento verrà creato per tuo conto.
 
@@ -148,7 +148,7 @@ Sì, puoi annullare il tuo account prima che scada il tuo termine, ma la parte r
 
 Sei tenuto a continuare a pagare i tuoi addebiti mensili fino alla fine del tuo termine. Per evitare di generare degli addebiti da eccedenza, contatta il settore [Vendite di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}![Icona link esterno](../icons/launch-glyph.svg) per assistenza con la registrazione per una nuova sottoscrizione.
 
-## Come posso controllare le mie spese?
+## Come posso controllare le mie spese? 
 {: #monitor-spending}
 {: faq}
 Puoi visualizzare l'utilizzo mensile di runtime e servizi facendo clic su **Gestisci > Fatturazione e utilizzo > Utilizzo**. Ulteriori informazioni in [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage).
