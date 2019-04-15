@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-03"
 
 keywords: view usage, view cost, service usage, usage access, usage report
 
@@ -14,6 +14,7 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 
 # Visualizando seu uso
@@ -54,4 +55,9 @@ O gerente de contas de uma conta Pré-paga pode configurar as notificações de 
 É possível exportar um resumo de seu uso ou informações sobre seus serviços e instâncias, para um arquivo CSV. Ao exportar seu arquivo CSV, é possível localizar facilmente estimativas de informações de uso e custo de cada recurso para estornos a seus clientes ou para entender mais sobre seus custos.
 
 1. Acesse **Gerenciar > Faturamento e uso** e selecione **Uso**.
-2. Clique em **Exportar CSV**.  
+1. Clique em **Exportar CSV** e selecione uma das opções:
+   - Clique em **Resumo** para ter uma visão geral de alto nível do uso e dos custos associados da sua conta.
+   - Clique em **Instância** para obter informações de uso detalhadas sobre cada instância de serviço.
+
+   É possível usar a coluna **Tags** no arquivo CSV da instância para ajudar a analisar os recursos em sua conta. Por exemplo, você pode ter múltiplos projetos em uma conta, cada um com um cluster Kubernetes e algumas implementações de app do Cloud Foundry. É possível organizar os dados CSV de acordo com a tag de projeto em cada instância para que seja possível analisar melhor o custo dos projetos individuais. Para obter mais informações sobre a identificação, consulte [Trabalhando com tags](/docs/resources?topic=resources-tag).
+   {: tip}
