@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-03"
 
 keywords: view usage, view cost, service usage, usage access, usage report
 
@@ -14,6 +14,7 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 
 # 查看使用情况
@@ -54,4 +55,9 @@ subcollection: billing-usage
 您可以将使用情况的摘要或有关服务和实例的信息导出为 CSV 文件。通过导出为 CSV 文件，您可以方便地查找每个资源的使用情况和成本估算信息，以便向客户退款或了解有关成本的更多信息。
 
 1. 转至**管理 > 计费和使用情况**，然后选择**使用情况**。
-2. 单击**导出为 CSV**。  
+1. 单击**导出 CSV**，然后选择一个选项：
+   - 单击**摘要**以查看帐户使用情况及关联成本的高级概述。
+   - 单击**实例**以查看有关每个服务实例的使用情况详细信息。
+
+   您可以在实例 CSV 文件中使用**标记**列以帮助分析帐户中的资源。例如，一个帐户中可能有多个项目，每个项目都有一个 Kubernetes 集群和一些 Cloud Foundry 应用程序部署。您可以根据每个实例上的项目标记来组织 CSV 数据，这样就可以更好地分析单个项目的成本。有关标记的更多信息，请参阅[使用标记](/docs/resources?topic=resources-tag)。
+   {: tip}

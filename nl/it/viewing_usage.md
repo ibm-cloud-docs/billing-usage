@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-03"
 
 keywords: view usage, view cost, service usage, usage access, usage report
 
@@ -14,6 +14,7 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 
 # Visualizzazione del tuo utilizzo
@@ -55,4 +56,9 @@ runtime, i servizi e per i singoli servizi, esclusi quelli di terze parti. Per u
 Puoi esportare un riepilogo del tuo utilizzo, o informazioni sui tuoi servizi e le tue istanze, in un file CSV. Esportando il tuo file CSV, puoi facilmente trovare le informazioni sulle stime dei costi e sull'utilizzo per ciascuna risorsa per gli storni degli addebiti ai tuoi clienti o per saperne di più sui tuoi costi.
 
 1. Vai a **Gestisci > Fatturazione e utilizzo** e seleziona **Utilizzo**.
-2. Fai clic su **Esporta CSV**.  
+1. Fai clic su **Esporta CSV** e seleziona una delle seguenti opzioni:
+   - Fai clic su **Riepilogo** per una panoramica di alto livello dell'utilizzo e dei costi associati per il tuo account. 
+   - Fai clic su **Istanza** per informazioni dettagliate su ciascuna istanza del servizio. 
+
+   Puoi utilizzare la colonna **Tag** nel file CSV dell'istanza come ausilio nell'analisi delle risorse nel tuo account. Ad esempio, potresti avere più progetti in un account, ciascuno con un cluster Kubernetes e alcune distribuzioni dell'applicazione Cloud Foundry. Puoi organizzare i dati CSV in base alla tag progetto su ciascuna istanza in modo che tu possa analizzare meglio il costo dei singoli progetti. Per ulteriori informazioni sulle operazioni di tag, vedi [Gestione delle tag](/docs/resources?topic=resources-tag).
+   {: tip}

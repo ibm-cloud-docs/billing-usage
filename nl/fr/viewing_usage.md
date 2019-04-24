@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-03"
 
 keywords: view usage, view cost, service usage, usage access, usage report
 
@@ -14,6 +14,7 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 
 # Affichage de votre utilisation
@@ -57,4 +58,8 @@ En tant que responsable d'un compte de type Paiement à la carte, vous pouvez d�
 Vous pouvez exporter un récapitulatif de votre utilisation ou les informations relatives à vos services et vos instances dans un fichier CSV. En exportant votre fichier CSV, vous pouvez facilement trouver les estimations d'utilisation et de coût pour chaque ressource afin d'imputer des frais à vos clients ou pour mieux comprendre vos coûts.
 
 1. Accédez à **Gérer > Facturation et utilisation** puis sélectionnez **Utilisation**.
-2. Cliquez sur **Exporter au format CSV**.  
+1. Cliquez sur **Exporter au format CSV**, puis sélectionnez l'une des options suivantes :
+   - **Récapitulatif** pour une présentation générale de l'utilisation et des coûts associés à votre compte.
+   - **Instance** pour des informations d'utilisation détaillées concernant chaque instance de service.
+
+   Vous pouvez utiliser la colonne **Etiquettes** du fichier CSV de l'instance pour vous aider à analyser les ressources de votre compte. Par exemple, vous pouvez avoir plusieurs projets dans un compte, ayant chacun un cluster Kubernetes et quelques déploiements d'application Cloud Foundry. Vous pouvez organiser les données CSV en fonction de l'étiquette du projet sur chaque instance de manière à mieux analyser le coût de chaque projet. Pour plus d'informations sur les étiquettes, voir [Utilisation d'étiquettes](/docs/resources?topic=resources-tag).{: tip}
