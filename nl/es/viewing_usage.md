@@ -1,12 +1,9 @@
 ---
 
 copyright:
+
   years: 2017, 2019
-lastupdated: "2019-04-03"
-
-keywords: view usage, view cost, service usage, usage access, usage report
-
-subcollection: billing-usage
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +11,6 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
-{:tip: .tip}
 
 
 # Visualización del uso
@@ -55,9 +51,4 @@ El gestor de una cuenta de pago según uso puede establecer notificaciones de ga
 Puede exportar un resumen de su uso o información sobre sus servicios e instancias en un archivo CSV. Si exporta el archivo CSV, puede buscar fácilmente estimaciones de uso y de costes para cada recurso, para saber lo que debe cobrar a los clientes o para comprender mejor sus costes.
 
 1. Vaya a **Gestionar > Facturación y uso** y seleccione **Uso**.
-1. Pulse **Exportar CSV** y seleccione una de estas opciones:
-   - Pulse **Resumen** para ver una visión general del uso y de los costes asociados a su cuenta.
-   - Pulse **Instancia** para ver información detallada sobre el uso de cada instancia de servicio.
-
-   Puede utilizar la columna **Etiquetas** del archivo CSV de la instancia como ayuda para analizar los recursos de la cuenta. Por ejemplo, supongamos que tiene varios proyectos en una cuenta, cada uno de ellos con un clúster de Kubernetes y unos cuantos despliegues de apps de Cloud Foundry. Puede organizar los datos de CSV de acuerdo con la etiqueta del proyecto en cada instancia para poder analizar mejor el coste de cada proyecto individual. Para obtener más información sobre el etiquetado, consulte [Cómo trabajar con etiquetas](/docs/resources?topic=resources-tag).
-   {: tip}
+2. Pulse **Exportar CSV**.  

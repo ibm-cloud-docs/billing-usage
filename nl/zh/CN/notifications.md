@@ -1,12 +1,9 @@
 ---
 
 copyright:
+
   years: 2015, 2019
 lastupdated: "2019-01-28"
-
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
-
-subcollection: billing-usage
 
 ---
 

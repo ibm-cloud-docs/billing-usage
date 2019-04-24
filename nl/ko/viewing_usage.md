@@ -1,12 +1,9 @@
 ---
 
 copyright:
+
   years: 2017, 2019
-lastupdated: "2019-04-03"
-
-keywords: view usage, view cost, service usage, usage access, usage report
-
-subcollection: billing-usage
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +11,6 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
-{:tip: .tip}
 
 
 # 사용량 보기
@@ -55,8 +51,4 @@ Cloud Foundry에서 관리되는 리소스의 경우 청구 관리자 역할이 
 사용량에 대한 요약 또는 서비스 및 인스턴스에 대한 정보를 CSV 파일로 내보낼 수 있습니다. CSV 파일로 내보내면 고객에게 비용을 상환하고 비용에 대해 잘 이해할 수 있도록 각 리소스에 대한 사용량 및 비용 정보 추정치를 쉽게 찾을 수 있습니다.
 
 1. **관리 > 청구 및 사용량**으로 이동하여 **사용량**을 선택하십시오.
-1. **CSV 내보내기**를 클릭하고 옵션 중 하나를 선택하십시오.
-   - 계정의 사용량 및 연관된 비용에 대한 상위 레벨 개요를 보려면 **요약**을 클릭하십시오.
-   - 각 서비스 인스턴스에 대한 자세한 사용량 정보를 보려면 **인스턴스**를 클릭하십시오.
-
-   인스턴스 CSV 파일에서 **태그** 열을 사용하여 계정 내의 리소스 분석에 도움을 받을 수 있습니다. 예를 들어, 계정 내에 다중 프로젝트가 있으며 각각 Kubernetes 클러스터 및 몇 개의 Cloud Foundry 앱 배치가 있을 수 있습니다. 각 인스턴스의 프로젝트 태그에 따라 CSV 데이터를 구성하여 개별 프로젝트의 비용을 더 잘 분석할 수 있습니다. 태그 지정에 대한 자세한 정보는 [태그에 대한 작업](/docs/resources?topic=resources-tag)을 참조하십시오.{: tip}
+2. **CSV 내보내기**를 클릭하십시오.  

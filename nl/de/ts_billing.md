@@ -1,12 +1,11 @@
 ---
 
+
+
 copyright:
-  years: 2017, 2019
+
+  years: 2017, 2018, 2019
 lastupdated: "2019-01-09"
-
-keywords: troubleshoot billing, billing error, payment error, error message
-
-subcollection: billing-usage
 
 ---
 
@@ -41,7 +40,7 @@ Sie können die Abrechnungsinformationen für jedes Konto anzeigen, dessen Eigne
 
 Überprüfen Sie Ihren Zugriff wie im Folgenden beschrieben:
 
-  1. Rufen Sie **Verwalten > Zugriff (IAM)** auf und wählen Sie **Benutzer** aus.
+  1. Rufen Sie **Verwalten > Zugriff (IAM)** auf und wählen Sie **Benutzer** aus. 
   2. Klicken Sie auf der Benutzerseite auf Ihren Namen.
   3. Klicken Sie auf **Zugriffsrichtlinien**, um die Ihnen zugewiesenen IAM-Zugriffsrichtlinien anzuzeigen.
   4. Klicken Sie auf **Cloud Foundry-Zugriff** und erweitern Sie die Zeilen für die Ihnen zugewiesenen Organisationen, um herauszufinden, ob Sie Kontoeigner sind oder über die Rolle 'Abrechnungsmanager' verfügen.

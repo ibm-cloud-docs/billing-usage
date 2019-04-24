@@ -1,12 +1,9 @@
 ---
 
 copyright:
+
   years: 2017, 2019
-lastupdated: "2019-04-03"
-
-keywords: view usage, view cost, service usage, usage access, usage report
-
-subcollection: billing-usage
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +11,6 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
-{:tip: .tip}
 
 
 # Nutzungsinformationen anzeigen
@@ -55,9 +51,4 @@ Der Manager eines nutzungsabhängigen Kontos kann ausgabenbezogene Benachrichtig
 Sie können eine Zusammenfassung Ihrer Nutzungsdaten oder Informationen zu Ihren Services und Instanzen in eine CSV-Datei exportieren. Der Export in eine CSV-Datei erleichtert das Auffinden von Informationen zu Nutzungsschätzungen und voraussichtlichen Kosten für die einzelnen Ressourcen für Kostenerstattungen an die Kunden und ermöglicht Ihnen einen besseren Einblick in Ihre Kosten.
 
 1. Rufen Sie **Verwalten > Abrechnung und Nutzung** auf und wählen Sie **Nutzung** aus.
-1. Klicken Sie auf **CSV exportieren** und wählen Sie eine der Optionen aus:
-   - Klicken Sie auf **Zusammenfassung**, um für Ihr Konto eine allgemeine Übersicht über Nutzung und zugeordnete Kosten zu erhalten.
-   - Klicken Sie auf **Instanz**, um detaillierte Nutzungsinformationen zu den einzelnen Serviceinstanzen zu erhalten.
-
-   Mithilfe der Spalte **Tags** in der CSV-Datei der Instanz können Sie die Ressourcen in Ihrem Konto leichter analysieren. Sie können zum Beispiel in einem einzigen Konto mehrere Projekte haben, von denen jedes einen Kubernetes-Cluster und einige neue Implementierungen von Cloud Foundry-Apps aufweist. Sie können die CSV-Daten gemäß den Projekt-Tags der einzelnen Instanzen organisieren, sodass Sie die Kosten eines einzelnen Projekts besser analysieren können. Weitere Informationen zum Tagging finden Sie in [Mit Tags arbeiten](/docs/resources?topic=resources-tag).
-   {: tip}
+2. Klicken Sie auf **CSV exportieren**.  

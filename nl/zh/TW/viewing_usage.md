@@ -1,12 +1,9 @@
 ---
 
 copyright:
+
   years: 2017, 2019
-lastupdated: "2019-04-03"
-
-keywords: view usage, view cost, service usage, usage access, usage report
-
-subcollection: billing-usage
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +11,6 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
-{:tip: .tip}
 
 
 # 檢視用量
@@ -55,9 +51,4 @@ subcollection: billing-usage
 您可以將用量摘要或是服務和實例的相關資訊匯出成 CSV 檔案。匯出 CSV 檔案後，您可以輕鬆找到每個資源的用量和成本預估資訊，以向客戶扣款或進一步瞭解您的成本。
 
 1. 移至**管理 > 計費及用量**，然後選取**用量**。
-1. 按一下**匯出 CSV**，然後選取其中一個選項：
-   - 按一下**摘要**以取得您帳戶之用量和相關聯成本的進階概觀。
-   - 按一下**實例**，以取得每個服務實例的詳細用量資訊。
-
-   您可以使用實例 CSV 檔案中的**標籤**直欄，以協助分析帳戶中的資源。例如，您可能在帳戶中有多個專案，每個都有一個 Kubernetes 叢集和一些 Cloud Foundry 應用程式部署。您可以根據每個實例上的專案標籤來組織 CSV 資料，以便更完善地分析個別專案的成本。如需標記的相關資訊，請參閱[使用標籤](/docs/resources?topic=resources-tag)。
-   {: tip}
+2. 按一下**匯出 CSV**。  

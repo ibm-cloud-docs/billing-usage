@@ -1,12 +1,11 @@
 ---
 
+
+
 copyright:
+
   years: 2015, 2018
 lastupdated: "2018-11-16"
-
-keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
-
-subcollection: billing-usage
 
 ---
 
