@@ -41,7 +41,7 @@ subcollection: billing-usage
 {: #entercode}
 {: faq}
 
-促销码和功能代码不同！
+促销码和特征代码不同！
 
 - 促销码是您可能从销售团队那里收到的特定于基础架构的促销码。结帐时，您可在客户门户网站中输入促销码以获取订单折扣。
 - 特征代码用于向帐户添加预订和支持信用值。对于轻量帐户，特征代码用于提供额外的资源或功能，例如用于教育活动。
@@ -69,6 +69,16 @@ subcollection: billing-usage
 
 在控制台菜单栏中，单击**支持**以访问支持中心。在支持中心，先查看常见问题列表。如果找不到所需答案，请单击**创建案例**以便与支持团队联系。   
 
+## 什么是 GB-小时？
+{: #gb-hour}
+{: faq}
+
+运行时和容器使用情况根据以下变量收费：
+ • 运行时或容器使用的内存量，以 GB 为单位 (GB)
+ • 使用内存的持续时间
+
+将两个值相乘，结果为 GB-小时。
+
 ## 我可以构建多少个应用程序？
 {: #howmanyapps}
 {: faq}
@@ -87,7 +97,7 @@ subcollection: billing-usage
 {: #subs-order}
 {: faq}
 
-您可以订购 {{site.data.keyword.Bluemix_notm}} 目录中的平台和基础架构产品。
+您可以订购 {{site.data.keyword.Bluemix_notm}}“目录”中的平台和基础架构产品。
 
 
 ## 我如何才能享受预订帐户折扣？
@@ -111,7 +121,7 @@ subcollection: billing-usage
 对于超出预订总额的任何使用量，将按非折扣费率计费。
 
 
-## 我可以预先支付或者按季度支付承诺的总支出吗？
+## 我可以预先支付或者按季度支付承诺的总花费吗？
 {: #subs-pay-schedule}
 {: faq}
 
@@ -129,22 +139,25 @@ subcollection: billing-usage
 {: #subs-cancel-early}
 {: faq}
 
-是的，您可以在期限到期前取消帐户，但是我们将扣留预订帐户总额的剩余部分。
+是的，您可以在期限到期前取消帐户，但是我们将扣留预订总额的剩余部分。
 
 
-## 如果我在期限结束前已经达到承诺的支付金额，将发生什么情况？  
+## 如果我在期限结束前已经达到承诺的花费金额，将发生什么情况？  
 {: #subs-spend-before-term-end}
 {: faq}
 
 您需要继续支付每月费用，直到期限结束。为了避免出现超额费用，请联系 [{{site.data.keyword.Bluemix_notm}} 销售人员](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部链接图标](../icons/launch-glyph.svg) 获取有关签订新预订的帮助。
 
+## 如何监视我的花费？
+{: #monitor-spending}
+{: faq}
+您可以通过单击**管理 > 计费和使用情况 > 使用情况**来查看每月运行时和服务使用情况。要了解更多信息，请参阅[查看使用情况](/docs/billing-usage?topic=billing-usage-viewingusage)。
 
 ## 在哪里可以访问我的发票？
 {: #access-invoices}
 {: faq}
 
 在控制台中，单击**管理 > 计费和使用情况**，然后选择**发票**。
-
 
 ## 为什么使用量与发票不一致？
 {: #usage-not-match-invoice}

@@ -69,6 +69,16 @@ Contatta il [Supporto {{site.data.keyword.Bluemix_notm}}![Icona link esterno](..
 
 Fai clic su **Supporto** nella barra dei menu della console per accedere al Centro di supporto. Da qui, inizia avvalendoti dell'elenco di domande frequenti comuni. Se non trovi le risposte di cui hai bisogno, fai clic su **Crea un caso** per contattare il team di supporto.   
 
+## Che cosa è un GB-ora?
+{: #gb-hour}
+{: faq}
+
+L'utilizzo di runtime e contenitori viene addebitato in base alle seguenti variabili:
+ • Quanta memoria il tuo runtime o contenitore utilizza, in gigabyte (GB)
+ • La durata in cui viene utilizzata la memoria
+
+Moltiplica questi due valori e il risultato sono GB-ore.
+
 ## Quante applicazioni posso creare?
 {: #howmanyapps}
 {: faq}
@@ -138,13 +148,16 @@ Sì, puoi annullare il tuo account prima che scada il tuo termine, ma la parte r
 
 Sei tenuto a continuare a pagare i tuoi addebiti mensili fino alla fine del tuo termine. Per evitare di generare degli addebiti da eccedenza, contatta il settore [Vendite di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}![Icona link esterno](../icons/launch-glyph.svg) per assistenza con la registrazione per una nuova sottoscrizione.
 
+## Come posso controllare le mie spese? 
+{: #monitor-spending}
+{: faq}
+Puoi visualizzare l'utilizzo mensile di runtime e servizi facendo clic su **Gestisci > Fatturazione e utilizzo > Utilizzo**. Ulteriori informazioni in [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## Dove posso accedere alla mia fattura?
 {: #access-invoices}
 {: faq}
 
 Dalla console, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **Fatture**.
-
 
 ## Perché il mio utilizzo non corrisponde alla mia fattura?
 {: #usage-not-match-invoice}

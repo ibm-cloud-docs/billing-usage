@@ -23,7 +23,7 @@ subcollection: billing-usage
 Puede utilizar el estimador de costes para calcular el coste de las ofertas de {{site.data.keyword.Bluemix}} personalizando los planes para ajustarlos a sus necesidades.
 {:shortdesc}
 
-Puede estimar los costes de las ofertas de la infraestructura clásica si tiene una cuenta de pago según uso o de suscripción. Para actualizar su cuenta Lite, consulte [¿Cómo puedo actualizar o cambiar mi tipo de cuenta?](/docs/account?topic=account-accountfaqs)
+Puede estimar los costes de las ofertas de la infraestructura clásica si tiene una cuenta de pago según uso o de suscripción. Para actualizar su cuenta Lite, consulte [Actualización de la cuenta](/docs/account?topic=account-upgrading-account).
 
 Siga los pasos siguientes para estimar sus costes.
 
@@ -40,13 +40,13 @@ Siga los pasos siguientes para estimar sus costes.
     b. Pulse **Crear** si está listo para empezar a crear instancias de la oferta.
 
 
-## Visualización de sus presupuestos
+## Creación de presupuestos para servicios de la infraestructura
 {: #quotes}
 
 Solo puede generar y ver presupuestos para los complementos {{site.data.keyword.baremetal_short}}, servidor virtual y pasarela. Cualquier usuario con acceso a la cuenta puede ver presupuestos.
 
   1. Para generar un presupuesto, pulse **Guardar como presupuesto** en la sección Resumen del pedido en la página de detalles de la oferta. También puede ponerse en contacto con un representante de ventas de {{site.data.keyword.Bluemix_notm}}.
-  2. Para ver su presupuesto, vaya a **Gestionar > Facturación y uso** y seleccione **Presupuestos**. Si tiene acceso, puede adquirir la oferta presupuestada pulsando el presupuesto y confirmando el pedido.
+  2. Para ver el presupuesto, vaya a **Gestionar > Facturación y presupuesto** y seleccione **Ventas > Presupuestos de dispositivos**. Si tiene acceso, puede adquirir la oferta presupuestada pulsando el presupuesto y confirmando el pedido.
 
 
 ## Monedas de facturación soportadas

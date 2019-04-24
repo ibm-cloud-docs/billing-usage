@@ -23,7 +23,7 @@ subcollection: billing-usage
 Vous pouvez utiliser l'estimateur de coût pour estimer le coût des offres {{site.data.keyword.Bluemix}} en personnalisant les plans en fonction de vos besoins.
 {:shortdesc}
 
-Vous pouvez estimer les coût des offres de l'infrastructure classique si vous avez un compte Paiement à la carte ou Abonnement. Pour mettre à niveau votre compte Lite, voir [Comment mettre à niveau ou modifier mon type de compte ?](/docs/account?topic=account-accountfaqs)
+Vous pouvez estimer les coût des offres de l'infrastructure classique si vous avez un compte Paiement à la carte ou Abonnement. Pour mettre à niveau votre compte Lite, voir [Mise à niveau de votre compte](/docs/account?topic=account-upgrading-account).
 
 Procédez comme suit pour estimer vos coûts.
 
@@ -40,13 +40,13 @@ Procédez comme suit pour estimer vos coûts.
     b. Cliquez sur **Créer** si vous êtes prêt à commencer à créer des instances de l'offre.
 
 
-## Affichage de vos devis
+## Création de devis pour des services d'infrastructure
 {: #quotes}
 
 Vous pouvez générer et afficher des devis uniquement pour les modules complémentaires {{site.data.keyword.baremetal_short}}, Virtual Server et Gateway. Tout utilisateur ayant accès au compte peut consulter les devis.
 
   1. Générez un devis en cliquant sur **Sauvegarder en tant que devis** dans la section Récapitulatif de la commande sur la page des détails de l'offre. Vous pouvez également contacter un ingénieur commercial {{site.data.keyword.Bluemix_notm}}.
-  2. Consultez votre devis en accédant à **Gérer > Facturation et utilisation** puis sélectionnez **Devis**. Si vous disposez de l'accès nécessaire, vous pouvez acheter l'offre pour laquelle un devis a été établi en cliquant sur ce dernier et en confirmant la commande.
+  2. Pour consulter votre devis, accédez à **Gérer > Facturation et utilisation** puis sélectionnez **Ventes > Devis de périphérique**. Si vous disposez de l'accès nécessaire, vous pouvez acheter l'offre pour laquelle un devis a été établi en cliquant sur ce dernier et en confirmant la commande.
 
 
 ## Devises de facturation prises en charge

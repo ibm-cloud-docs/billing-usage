@@ -23,7 +23,7 @@ subcollection: billing-usage
 Puoi utilizzare lo stimatore costi per stimare il costo delle offerte {{site.data.keyword.Bluemix}} personalizzando i piani per le tue esigenze.
 {:shortdesc}
 
-Puoi stimare i costi delle offerte dell'infrastruttura classica se hai un account Pagamento a consumo o Sottoscrizione. Per eseguire un upgrade del tuo account Lite, vedi [Come posso eseguire l'upgrade o modificare il mio tipo di account?](/docs/account?topic=account-accountfaqs).
+Puoi stimare i costi delle offerte dell'infrastruttura classica se hai un account Pagamento a consumo o Sottoscrizione. Per eseguire un upgrade del tuo account Lite, vedi [Upgrade del tuo account](/docs/account?topic=account-upgrading-account).
 
 Per stimare i tuoi costi, completa la seguente procedura.
 
@@ -40,13 +40,13 @@ Per stimare i tuoi costi, completa la seguente procedura.
     b. Fai clic su **Crea** se sei pronto a iniziare a creare le istanze dell'offerta.
 
 
-## Visualizzazione dei tuoi preventivi
+## Creazione di quote per i servizi dell'infrastruttura 
 {: #quotes}
 
 Puoi generare e visualizzare preventivi solo per i componenti aggiuntivi Gateway, Virtual Server e {{site.data.keyword.baremetal_short}}. Qualsiasi utente con accesso all'account può visualizzare i preventivi.
 
   1. Genera un preventivo facendo clic su **Salva come preventivo** dalla sezione Riepilogo ordine nella pagina dei dettagli dell'offerta. In alternativa, contatta un rappresentante delle vendite di {{site.data.keyword.Bluemix_notm}}.
-  2. Visualizza il tuo preventivo andando a **Gestisci > Fatturazione e utilizzo** e seleziona **Preventivi**. Se hai accesso, puoi acquistare l'offerta oggetto del preventivo facendo clic sul preventivo e confermando l'ordine.
+  2. Visualizza la tua quota andando a **Gestisci > Fatturazione e utilizzo** e seleziona **Vendite > Quote di dispositivi**. Se hai accesso, puoi acquistare l'offerta oggetto del preventivo facendo clic sul preventivo e confermando l'ordine.
 
 
 ## Valute di fatturazione supportate

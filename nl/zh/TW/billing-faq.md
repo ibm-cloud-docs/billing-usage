@@ -69,6 +69,16 @@ subcollection: billing-usage
 
 按一下主控台功能表列中的**支援**，以存取「支援中心」。從這裡開始運用常見問題清單。如果找不到您需要的答案，請按一下**建立案例**來與支援團隊取得聯繫。   
 
+## 什麼是 GB-小時？
+{: #gb-hour}
+{: faq}
+
+運行環境及容器用量是根據下列變數收費：
+ • 您的運行環境或容器使用多少記憶體，以 GB 為單位
+ • 使用記憶體的持續時間
+
+將兩值相乘，結果即為 GB-小時。
+
 ## 可以建置多少個應用程式？
 {: #howmanyapps}
 {: faq}
@@ -138,13 +148,16 @@ subcollection: billing-usage
 
 您需要繼續支付每個月費用，直到期限結束為止。若要避免產生超額費用，請與 [{{site.data.keyword.Bluemix_notm}} 銷售人員](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 聯絡，以協助您註冊新的「訂閱」。
 
+## 要如何監視花費？
+{: #monitor-spending}
+{: faq}
+您可以藉由按一下**管理 > 計費及用量 > 用量**，檢視每月運行環境及服務用量。請在[檢視用量](/docs/billing-usage?topic=billing-usage-viewingusage)中進一步瞭解。
 
 ## 哪裡可以存取我的發票？
 {: #access-invoices}
 {: faq}
 
 從主控台按一下**管理 > 計費及用量**，然後選取**發票**。
-
 
 ## 我的用量為何與發票不符？
 {: #usage-not-match-invoice}
