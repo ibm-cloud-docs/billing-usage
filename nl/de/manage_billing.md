@@ -43,4 +43,4 @@ Ihre Zahlungsdetails werden überprüft und sind danach innerhalb von 24 Stunden
 ## Hilfe für Probleme bei Zahlungen anfordern
 {: #getting-help-payments}
 
-Wenden Sie sich an das Support-Team, wenn Sie bei Zahlungen aufgetretene Probleme melden möchten. Klicken Sie in der Konsole auf **Support** > **Fall erstellen**.
+Wenden Sie sich an das Support-Team, wenn Sie bei Zahlungen aufgetretene Probleme melden möchten. Klicken Sie in der Konsole auf **Support** > **Fall erstellen**. 

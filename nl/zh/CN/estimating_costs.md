@@ -1,10 +1,12 @@
 ---
 
 copyright:
-
   years: 2015, 2019
-
 lastupdated: "2019-01-28"
+
+keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
+
+subcollection: billing-usage
 
 ---
 
@@ -30,7 +32,7 @@ lastupdated: "2019-01-28"
   3. 在产品详细信息页面中，不管是哪种产品类型，都请选择价格套餐，然后输入其他配置详细信息。
   4. 选择下列其中一个选项：
 
-    a. 单击**添加到估算** > **保存**。从此处可以返回到目录，然后选择要添加到估算的其他产品。
+    a. 单击**添加到估算** > **保存**。从其中可以返回到目录，然后选择要添加到估算的其他产品。
 
     您可以随时单击控制台菜单中的“成本估算工具”图标 ![“估算工具”图标](../icons/Estimator.svg) 以获取估算成本的摘要。
     {: tip}

@@ -1,10 +1,12 @@
 ---
 
 copyright:
-
   years: 2015, 2019
-
 lastupdated: "2019-01-28"
+
+keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
+
+subcollection: billing-usage
 
 ---
 
@@ -30,7 +32,7 @@ Conclua as etapas a seguir para estimar seus custos.
   3. Na página de detalhes da oferta, independentemente do tipo de oferta, selecione seu plano de precificação e insira outros detalhes de configuração.
   4. Selecione uma das opções a seguir:
 
-    a. Clique em **Incluir para estimar** > **Salvar**. Lá, é possível retornar para o catálogo e selecionar ofertas adicionais para incluir em sua estimativa.
+    a. Clique em **Incluir para estimar** > **Salvar**. Ali, é possível retornar ao catálogo e selecionar ofertas adicionais para incluir em sua estimativa.
 
     Em qualquer ponto, é possível clicar no ícone Estimativa de custo ![Ícone Estimativa](../icons/Estimator.svg) no menu do console para obter um resumo de seus custos estimados.
     {: tip}
