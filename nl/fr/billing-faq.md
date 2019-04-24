@@ -1,12 +1,10 @@
 ---
 
 copyright:
+
   years: 2015, 2019
-lastupdated: "2019-02-19"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment
-
-subcollection: billing-usage
+lastupdated: "2019-02-11"
 
 ---
 
@@ -32,30 +30,32 @@ Pour utiliser une autre méthode de paiement, sélectionnez **Payer autrement** 
 {: #addcard}
 {: faq}
 
-La protection de votre identité étant une priorité pour nous, nous procédons à des vérifications sérieuses des cartes de crédit.
+La protection de votre identité étant une priorité pour nous, nous procédons à des vérifications sérieuses des cartes de crédit. Contactez-nous en appelant le numéro suivant.  
 
-Contactez-nous en appelant le numéro 1-866-325-0045 et en sélectionnant la troisième option.
+   * Appelez le 1-866-325-0045 (Sélectionnez l'option 3)
 
 
 ## Les codes de fonction sont-ils identiques aux codes promotionnels ?
 {: #entercode}
 {: faq}
 
-Les codes promotionnels et les codes de fonction sont différents.
+Les codes promotionnels et les codes de fonction sont différents. 
 
-- Les codes promotionnels sont des codes spécifiques à l'infrastructure que vous pouvez vous procurer auprès de l'équipe de ventes. Vous entrez ces codes dans le portail client lors du règlement afin d'obtenir une remise sur votre commande.
-- Les codes de fonction permettent d'ajouter un crédit d'abonnement et de support à votre compte. Pour les comptes Lite, ils permettent également de disposer de fonctions ou de ressources supplémentaires (événements de formation, par exemple).
+- Les codes promotionnels sont des codes spécifiques à l'infrastructure que vous pouvez vous procurer auprès de notre équipe de ventes. Vous entrez ces codes dans le portail client lors du règlement afin d'obtenir une remise pour votre commande.
+- Les codes de fonction permettent d'obtenir des fonctions ou des ressources supplémentaires pour les comptes Lite (événements de formation, par exemple). Pour les comptes Paiement à la carte et Abonnement, un code de fonction permettant d'ajouter des crédits d'abonnement et de support peut vous être accordé.
 
-   Si vous achetez un abonnement, vous recevez généralement un courrier électronique incluant le code de fonction. Pour valider votre code de fonction, accédez à **Gérer > Compte** et sélectionnez **Paramètres de compte**. Sous Codes de fonction, cliquez sur **Appliquer le code**. Si vous ne voyez pas cette option dans votre compte, il est possible que vous ne disposiez pas des rôles d'accès requis. Pour plus d'informations, voir [Application de codes de fonction](/docs/account?topic=account-codes).
+   Pour valider votre code de fonction, accédez à **Gérer > Compte** et sélectionnez **Paramètres de compte**. Sous Codes de fonction, cliquez sur **Appliquer le code**. Pour plus d'informations, voir [Application de codes de fonction](/docs/account/feature_codes.html#codes).
+
 
 ## Comment résilier mon compte ?
 {: #cancelmyaccount}
 {: faq}
 
-Pour les comptes Paiement à la carte ou Abonnement, la manière la plus rapide d'annuler votre compte consiste à nous contacter via la [discussion en ligne](https://{DomainName}/unifiedsupport/supportcenter) ou en nous appelant au numéro 1-866-325-0045 et en sélectionnant la troisième option. Vous pouvez également ouvrir un cas de support.
+Si vous avez un type de compte éligible, sélectionnez **Gérer** > **Compte** > **Paramètres de compte** puis cliquez sur **Désactiver le compte**.
 
-Pour annuler un compte Lite, sélectionnez **Gérer** > **Compte** > **Paramètres de compte** puis cliquez sur **Désactiver le compte**.
+![Capture d'écran Paramètres de compte.](images/Account-2C.svg "Capture d'écran Paramètres de compte")
 
+Si vous accédez à la page **Paramètres de compte** et que l'option **Désactiver le compte** ne s'affiche pas, vous pouvez appeler le numéro 1-866-325-0045 et sélectionner la troisième option ou ouvrir un [cas de support](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg).
 
 ## Comment supprimer mon compte ?
 {: #deleteaccount}
@@ -68,16 +68,6 @@ Contactez le [service de support {{site.data.keyword.Bluemix_notm}}![Icône de l
 {: faq}
 
 Cliquez sur **Support** dans la barre de menus de la console pour accéder au centre de support. Commencez par consulter la foire aux questions (FAQ). Si vous ne trouvez pas les réponses souhaitées, cliquez sur **Créer un cas** pour prendre contact avec l'équipe de support.   
-
-## Qu'est-ce qu'un Go/heure ?
-{: #gb-hour}
-{: faq}
-
-L'utilisation de contexte d'exécution et de conteneur est facturée en fonction des variables suivantes :
- • Quantité de mémoire utilisée par le contexte d'exécution ou les conteneurs, en gigaoctets (Go)
- • Durée pendant laquelle la mémoire est utilisée
-
-Multipliez les deux valeurs. Le résultat est exprimé en Go/heure.
 
 ## Combien d'applications puis-je construire ?
 {: #howmanyapps}
@@ -148,19 +138,16 @@ Oui, vous pouvez annuler votre compte avant la fin de votre engagement mais le r
 
 Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. Pour éviter de générer des frais supplémentaires, prenez contact avec le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg) pour obtenir de l'aide si vous souhaitez souscrire un nouvel abonnement.
 
-## Comment puis-je surveiller les dépenses ?
-{: #monitor-spending}
-{: faq}
-Vous pouvez consulter votre utilisation mensuelle de contexte d'exécution et de services en cliquant sur **Gérer > Facturation et utilisation > Utilisation**. Pour plus d'informations, voir [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## Où puis-je accéder à ma facture ?
 {: #access-invoices}
 {: faq}
 
-Dans la console, cliquez sur **Gérer > Facturation et utilisation** puis sélectionnez **Factures**.
+Dans la console, cliquez sur **Gérer > Facturation et utilisation** et sélectionnez **Factures**.
+
 
 ## Pourquoi mon utilisation ne correspond-elle pas à ma facture ?
 {: #usage-not-match-invoice}
 {: faq}
 
-Il est possible que votre utilisation ne corresponde pas à votre facture car les mois utilisés pour comparer l'utilisation ne sont pas les mêmes, ou parce que le montant total de l'organisation n'a pas été sélectionné. Pour plus d'informations, voir [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage). Si vous obtenez encore un résultat différent, contactez-nous au 1-866-325-0045 et choisissez la troisième option, ou ouvrez un [cas de support](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg).
+Il est possible que votre utilisation ne corresponde pas à votre facture car les mois utilisés pour comparer l'utilisation ne sont pas les mêmes, ou parce que le montant total de l'organisation n'a pas été sélectionné. Pour plus d'informations, voir [Affichage de votre utilisation](/docs/billing-usage/viewing_usage.html#viewingusage). Si vous obtenez encore un résultat différent, contactez-vous au 1-866-325-0045 et choisissez la troisième option, ou ouvrez un [ticket de demande de service](/unifiedsupport/cases/add).

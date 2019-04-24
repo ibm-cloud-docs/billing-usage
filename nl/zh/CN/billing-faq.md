@@ -1,12 +1,10 @@
 ---
 
 copyright:
+
   years: 2015, 2019
-lastupdated: "2019-02-19"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment
-
-subcollection: billing-usage
+lastupdated: "2019-02-11"
 
 ---
 
@@ -32,30 +30,32 @@ subcollection: billing-usage
 {: #addcard}
 {: faq}
 
-保护您的身份是我们的优先考虑事项，因此我们非常重视信用卡验证。
+保护您的身份是我们的优先考虑事项，因此我们非常重视信用卡验证。请通过拨打以下号码联系我们。  
 
-请通过拨打 1-866-325-0045 并选择第三个选项来联系我们。
+   * 致电我们：1-866-325-0045（选择选项 3）
 
 
 ## 特征代码和促销码一样吗？
 {: #entercode}
 {: faq}
 
-促销码和特征代码不同！
+促销码和功能代码不同！
 
-- 促销码是您可能从销售团队那里收到的特定于基础架构的促销码。结帐时，您可在客户门户网站中输入促销码以获取订单折扣。
-- 特征代码用于向帐户添加预订和支持信用值。对于轻量帐户，特征代码用于提供额外的资源或功能，例如用于教育活动。
+- 促销码是您可能从我们的销售团队那里收到的特定于基础架构的促销码。结帐时，您可在客户门户网站中输入促销码以获取订单折扣。
+- 特征代码用于为轻量帐户提供额外的资源或功能，例如用于教育活动。对于现收现付帐户和预订帐户，可能会为您提供特征代码以用于添加预订和支持信用值。
 
-   如果您购买了预订，那么通常会收到一封包含特征代码的电子邮件。要兑换特征代码，请转至**管理 > 帐户**，然后选择**帐户设置**。在“特征代码”下，单击**应用代码**。如果您在帐户中看不到此选项，说明您可能没有必需的访问角色。有关更多信息，请参阅[应用特征代码](/docs/account?topic=account-codes)。
+   要兑换特征代码，请转至**管理 > 帐户**，然后选择**帐户设置**。在“特征代码”下，单击**应用代码**。有关更多信息，请参阅[应用特征代码](/docs/account/feature_codes.html#codes)。
+
 
 ## 如何取消帐户？
 {: #cancelmyaccount}
 {: faq}
 
-对于现收现付帐户或预订帐户，取消帐户的最快方法是通过[实时交谈](https://{DomainName}/unifiedsupport/supportcenter)或致电 1-866-325-0045 并选择第三个选项来联系我们。也可以打开一个支持案例。
+如果您有符合要求的帐户类型，请转至**管理** > **帐户** > **帐户设置**，然后单击**停用帐户**。
 
-要取消轻量帐户，请转至**管理** > **帐户** > **帐户设置**，然后单击**停用帐户**。
+![帐户设置截屏。](images/Account-2C.svg "帐户设置截屏")
 
+如果转至**帐户设置**页面，但未显示**停用帐户**，您可以通过拨打 1-866-325-0045 并选择第三个选项与我们取得联系，或者可以打开一个[支持案例](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![外部链接图标](../icons/launch-glyph.svg)。
 
 ## 如何删除帐户？
 {: #deleteaccount}
@@ -68,16 +68,6 @@ subcollection: billing-usage
 {: faq}
 
 在控制台菜单栏中，单击**支持**以访问支持中心。在支持中心，先查看常见问题列表。如果找不到所需答案，请单击**创建案例**以便与支持团队联系。   
-
-## 什么是 GB-小时？
-{: #gb-hour}
-{: faq}
-
-运行时和容器使用情况根据以下变量收费：
- • 运行时或容器使用的内存量，以 GB 为单位 (GB)
- • 使用内存的持续时间
-
-将两个值相乘，结果为 GB-小时。
 
 ## 我可以构建多少个应用程序？
 {: #howmanyapps}
@@ -97,7 +87,7 @@ subcollection: billing-usage
 {: #subs-order}
 {: faq}
 
-您可以订购 {{site.data.keyword.Bluemix_notm}}“目录”中的平台和基础架构产品。
+您可以订购 {{site.data.keyword.Bluemix_notm}} 目录中的平台和基础架构产品。
 
 
 ## 我如何才能享受预订帐户折扣？
@@ -121,7 +111,7 @@ subcollection: billing-usage
 对于超出预订总额的任何使用量，将按非折扣费率计费。
 
 
-## 我可以预先支付或者按季度支付承诺的总花费吗？
+## 我可以预先支付或者按季度支付承诺的总支出吗？
 {: #subs-pay-schedule}
 {: faq}
 
@@ -139,19 +129,15 @@ subcollection: billing-usage
 {: #subs-cancel-early}
 {: faq}
 
-是的，您可以在期限到期前取消帐户，但是我们将扣留预订总额的剩余部分。
+是的，您可以在期限到期前取消帐户，但是我们将扣留预订帐户总额的剩余部分。
 
 
-## 如果我在期限结束前已经达到承诺的花费金额，将发生什么情况？  
+## 如果我在期限结束前已经达到承诺的支付金额，将发生什么情况？  
 {: #subs-spend-before-term-end}
 {: faq}
 
 您需要继续支付每月费用，直到期限结束。为了避免出现超额费用，请联系 [{{site.data.keyword.Bluemix_notm}} 销售人员](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部链接图标](../icons/launch-glyph.svg) 获取有关签订新预订的帮助。
 
-## 如何监视我的花费？
-{: #monitor-spending}
-{: faq}
-您可以通过单击**管理 > 计费和使用情况 > 使用情况**来查看每月运行时和服务使用情况。要了解更多信息，请参阅[查看使用情况](/docs/billing-usage?topic=billing-usage-viewingusage)。
 
 ## 在哪里可以访问我的发票？
 {: #access-invoices}
@@ -159,8 +145,9 @@ subcollection: billing-usage
 
 在控制台中，单击**管理 > 计费和使用情况**，然后选择**发票**。
 
+
 ## 为什么使用量与发票不一致？
 {: #usage-not-match-invoice}
 {: faq}
 
-您的使用量可能与您的发票不一致，原因是用于比较使用量的月份不同，或者未选择组织的总额。有关更多信息，请参阅[查看使用情况](/docs/billing-usage?topic=billing-usage-viewingusage)。如果仍然不一致，请与我们取得联系，方法是拨打 1-866-325-0045 并选择第三个选项，或者打开一个[支持案例](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![外部链接图标](../icons/launch-glyph.svg)。
+您的使用量可能与您的发票不一致，原因是用于比较使用量的月份不同，或者未选择组织的总额。有关更多信息，请参阅[查看使用情况](/docs/billing-usage/viewing_usage.html#viewingusage)。如果仍然不一致，请与我们取得联系，方法是拨打 1-866-325-0045 并选择第三个选项，或者打开一个[支持案例](/unifiedsupport/cases/add)。

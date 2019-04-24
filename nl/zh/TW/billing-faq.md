@@ -1,12 +1,10 @@
 ---
 
 copyright:
+
   years: 2015, 2019
-lastupdated: "2019-02-19"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment
-
-subcollection: billing-usage
+lastupdated: "2019-02-11"
 
 ---
 
@@ -24,17 +22,17 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-移至主控台中的 [付款](https://{DomainName}/billing/payments)，即可更新與您帳戶相關聯的付款方法。請在「新增付款方法」下方，輸入新信用卡的計費資訊，然後按一下**新增信用卡**。
+您可以移至主控台中的[付款](https://{DomainName}/billing/payments)，以更新與您的帳戶相關聯的付款方法。在「新增付款方法」下，輸入您新卡片的計費資訊，然後按一下**新增信用卡**。
 
-若要切換為不同的付款方法，請選取**使用其他方式付款**，然後按一下**提交變更要求**。將為您建立一個變更付款方法的支援案例。
+若要切換至不同的付款方法，請選取**使用其他方法付費**，然後按一下**提交變更要求**。將會為您建立變更付款方法的支援案例。
 
 ## 為何我的信用卡無法通過驗證？
 {: #addcard}
 {: faq}
 
-保護您的身分是我們的首要任務，因此，我們很嚴肅看待信用卡驗證。
+保護您的身分是我們的首要任務，因此，我們很嚴肅看待信用卡驗證。請撥打下列號碼與我們聯絡。  
 
-請致電 1-866-325-0045 並選取第三個選項與我們聯絡。
+   * 電話：1-866-325-0045（請選取選項 3）
 
 
 ## 特性碼是否與促銷代碼相同？
@@ -43,19 +41,21 @@ subcollection: billing-usage
 
 促銷代碼及特性碼不同！
 
-- 促銷代碼是您可能從銷售團隊收到的基礎架構專用促銷代碼。您於結帳時在入口網站中輸入這些代碼，便可獲得訂單折扣。
-- 功能碼則用來在帳戶中新增訂閱及支援額度。對於「精簡」帳戶，它們還可用來提供額外的資源或功能，例如用於教育事件。
+- 促銷代碼是您可能接收自「銷售團隊」的基礎架構特有促銷代碼。您可以在結帳時於客戶入口網站輸入它們，以取得訂單的折扣。
+- 特性碼用來為「精簡」帳戶提供額外的資源或功能，例如針對教育事件。針對「隨收隨付制」和「訂閱」帳戶，您可能會獲給定特性碼以新增訂閱及支援額度。
 
-   如果您購買訂閱，通常會收到包含特性碼的電子郵件。若要兌換特性碼，請移至**管理 > 帳戶**，並選取**帳戶設定**。在「特性碼」下，按一下**套用代碼**。如果您在帳戶中看不到此選項，則表示您可能沒有所需的存取角色。如需相關資訊，請參閱[套用特性碼](/docs/account?topic=account-codes)。
+   若要兌換特性碼，請移至**管理 > 帳戶**，並選取**帳戶設定**。在「特性碼」下，按一下**套用代碼**。如需相關資訊，請參閱[套用特性碼](/docs/account/feature_codes.html#codes)。
+
 
 ## 如何取消我的帳戶？
 {: #cancelmyaccount}
 {: faq}
 
-針對隨收隨付制或訂閱帳戶，取消帳戶最快的方式就是透過[即時會談](https://{DomainName}/unifiedsupport/supportcenter)與我們聯絡，或是撥打 1-866-325-0045 並選取第三個選項。您也可以開立支援案例。
+如果您有合格的帳戶類型，請移至**管理** > **帳戶** > **帳戶設定**，然後按一下**停用帳戶**。
 
-若要取消「精簡」帳戶，請移至**管理** > **帳戶** > **帳戶設定**，然後按一下**停用帳戶**。
+![帳戶設定畫面擷取。](images/Account-2C.svg "帳戶設定畫面擷取")
 
+如果您移至**帳戶設定**頁面，但**停用帳戶**並未顯示，您可以撥打 1-866-325-0045 與我們聯繫，並選取第三個選項，或者開立[支援案例](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg)。
 
 ## 如何刪除帳戶？
 {: #deleteaccount}
@@ -68,16 +68,6 @@ subcollection: billing-usage
 {: faq}
 
 按一下主控台功能表列中的**支援**，以存取「支援中心」。從這裡開始運用常見問題清單。如果找不到您需要的答案，請按一下**建立案例**來與支援團隊取得聯繫。   
-
-## 什麼是 GB-小時？
-{: #gb-hour}
-{: faq}
-
-運行環境及容器用量是根據下列變數收費：
- • 您的運行環境或容器使用多少記憶體，以 GB 為單位
- • 使用記憶體的持續時間
-
-將兩值相乘，結果即為 GB-小時。
 
 ## 可以建置多少個應用程式？
 {: #howmanyapps}
@@ -148,10 +138,6 @@ subcollection: billing-usage
 
 您需要繼續支付每個月費用，直到期限結束為止。若要避免產生超額費用，請與 [{{site.data.keyword.Bluemix_notm}} 銷售人員](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 聯絡，以協助您註冊新的「訂閱」。
 
-## 要如何監視花費？
-{: #monitor-spending}
-{: faq}
-您可以藉由按一下**管理 > 計費及用量 > 用量**，檢視每月運行環境及服務用量。請在[檢視用量](/docs/billing-usage?topic=billing-usage-viewingusage)中進一步瞭解。
 
 ## 哪裡可以存取我的發票？
 {: #access-invoices}
@@ -159,8 +145,9 @@ subcollection: billing-usage
 
 從主控台按一下**管理 > 計費及用量**，然後選取**發票**。
 
+
 ## 我的用量為何與發票不符？
 {: #usage-not-match-invoice}
 {: faq}
 
-您的用量可能與發票不符，因為用來比較用量的月份不同，或是未選取組織的總金額。如需相關資訊，請參閱[檢視用量](/docs/billing-usage?topic=billing-usage-viewingusage)。如果仍然不符，請致電 1-866-325-0045 並選擇第三個選項，或是開立[支援案例](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 與我們聯繫。
+您的用量可能與發票不符，因為用來比較用量的月份不同，或是未選取組織的總金額。如需相關資訊，請參閱[檢視用量](/docs/billing-usage/viewing_usage.html#viewingusage)。如果仍然不符，請致電 1-866-325-0045 與我們聯繫，並選擇第三個選項，或是開立[支援案例](/unifiedsupport/cases/add)。
