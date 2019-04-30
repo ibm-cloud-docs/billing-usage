@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment
 
@@ -18,7 +18,6 @@ subcollection: billing-usage
 
 # FAQs
 {: #billusagefaqs}
-
 
 ## How do I update my credit card?
 {: #updatecard}
@@ -36,17 +35,13 @@ Protecting your identity is a priority for us, so we take credit card verificati
 
 Contact us by calling 1-866-325-0045 and selecting the third option.
 
-
-## Are feature codes the same as promo codes?
+## How do I apply a promotional feature code?
 {: #entercode}
 {: faq}
 
-Promo codes and feature codes are different!
+Feature codes add extra capabilities to Lite accounts and are typically provided for educational initiatives or special events. You might also see these codes referred to as promo codes. To redeem your code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**.
 
-- Promo codes are infrastructure-specific promotional codes that you might receive from the Sales team. You enter them in the customer portal at check-out to get a discount on your order.
-- Feature codes are used to add subscription and support credit to your account. For Lite accounts, they are also used to offer extra resources or capabilities, such as for educational events.
-
-   If you purchase a subscription, you typically receive an email with the feature code. To redeem your feature code, go to **Manage > Account**, and select **Account settings**. Under Feature Codes, click **Apply code**. If you don't see this option in your account, you might not have the required access roles. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
+For infrastructure purchases, you might receive a promo code from the Sales team to get a discount on your order. Enter these infrastructure-specific promo codes in the customer portal at checkout.
 
 ## How do I cancel my account?
 {: #cancelmyaccount}
@@ -113,6 +108,11 @@ To qualify for a pricing discount, you must commit to a combined minimum spendin
 
 Yes, you must spend a minimum of $100.00 USD each month.
 
+## How do I add subscription credit to my account?
+{: #subscriptioncode}
+{: faq}
+
+After you purchase a subscription, you'll receive an email with a feature code that adds the credit to your account. To apply the feature code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
 
 ## What am I charged if I go over the total amount of my Subscription?
 {: #subs-overage}
