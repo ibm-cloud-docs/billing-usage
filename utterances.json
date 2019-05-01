@@ -1,0 +1,209 @@
+{
+    "updatecard": [
+      "updating credit card",
+      "changing my credit card",
+      "changing my credit card number",
+      "How do I switch my credit card?",
+      "switching my credit card",
+      "new credit card information"
+    ],
+    "addcard": [
+      "Why is my credit card not going through?",
+      "credit card won't go through",
+      "credit card not going through",
+      "Why isn't my credit card going through?",
+      "credit card isn't going through",
+      "credit card not processing",
+      "credit card isn't processing",
+      "credit card won't process"
+    ],
+    "entercode": [
+      "What are feature codes?",
+      "Are feature codes the same as promotional codes?",
+      "feature codes same as promo codes",
+      "feature codes same as promos",
+      "feature codes same as promotional codes",
+      "Are feature codes different than promo codes?",
+      "difference between feature codes and promo codes",
+      "feature codes versus promo codes"
+    ],
+    "cancelmyaccount": [
+      "cancel my account",
+      "canceling my account",
+      "cancel account",
+      "account cancellation",
+      "How to cancel my account?",
+      "How to cancel account?",
+      "cancel account"
+    ],
+    "deleteaccount": [
+      "delete my account",
+      "deleting my account",
+      "delete account",
+      "account delete",
+      "account deletion",
+      "How to delete my account?",
+      "How to delete account?"
+    ],
+    "contactsupport": [
+      "How to get support?",
+      "Where is support?",
+      "How can I contact support?",
+      "How do I get help?",
+      "I want to contact support",
+      "I need help",
+      "I want to talk to tech support",
+      "support",
+      "help"
+    ],
+    "gb-hour": [
+      "gb-hour",
+      "gigabyte hour",
+      "runtime usage charges",
+      "container usage charges"
+    ],
+    "howmanyapps": [
+      "number of apps I can build",
+      "How many apps can I make?",
+      "How many apps are allowed?",
+      "apps allowed to make",
+      "apps allowed to build",
+      "Is there a limit on apps?",
+      "apps limit",
+      "How many apps can I have in my account?",
+      "How many apps am I allowed to have?",
+      "What is my limit on apps?"
+    ],
+    "monthlyquota": [
+      "What happens if my plan reaches the limit?",
+      "reach monthly quota",
+      "reach monthly limit",
+      "Lite plan quota",
+      "Lite plan limit",
+      "What if I reach my limit?",
+      "What if I reach my quota?",
+      "What happens if I used up all of my Lite plan instances?",
+      "Lite plan monthly quota reached",
+      "Lite plan monthly limit reached"
+    ],
+    "subs-order": [
+      "order with subscription account",
+      "order with subscription",
+      "subscription account ordering",
+      "subscription ordering",
+      "What am I allowed to order with my Subscription account?"
+    ],
+    "subs-discount": [
+      "How do I get a discount on a Subscription account?",
+      "qualify for discount",
+      "Can I get a discount for a Subscription account?",
+      "Is there a discount for a Subscription account?",
+      "How to get a discount on a Subscription account?",
+      "Can I qualify for a discount on a Subscription account?",
+      "get a discount"
+    ],
+    "subs-minimum": [
+      "What is the monthly minimum amount required for Subscription account?",
+      "What is the minimum for Subscription accounts?",
+      "subscription account monthly minimum",
+      "minimum for subscription account",
+      "subscription account minimum requirement",
+      "minimum amount for a subscription",
+      "lowest amount required for subscription account"
+    ],
+    "subscriptioncode": [
+      "subscription credit",
+      "subscription feature code"
+    ],
+    "subs-overage": [
+      "How much do I get charged if I go over?",
+      "What am I charged if I exceed the total amount?",
+      "What am I charged if I go over?",
+      "What happens if I go over my limit?",
+      "amount charged if I go over total amount",
+      "amount charged if I exceed limit",
+      "total charged if over amount",
+      "charge for going over total amount",
+      "charge for exceeding limit",
+      "charge for going over limit"
+    ],
+    "subs-pay-schedule": [
+      "Am I allowed to pay the total spending commitment up-front or quarterly?",
+      "Am I allowed to pay up-front or quarterly?",
+      "Can I pay up-front or quarterly?",
+      "pay up-front or quarterly",
+      "How to pay up-front or quarterly?",
+      "switch to paying up-front or quarterly",
+      "change to paying up-front or quarterly",
+      "up-front or quarterly payments"
+    ],
+    "subs-spending": [
+      "Am I allowed to spend more or less than my monthly commitment?",
+      "Can I spend an amount different than my monthly commitment?",
+      "Can I spend differently than my commitment?",
+      "Can I spend greater than or less than my commitment?",
+      "spending more than or less than commitment"
+    ],
+    "subs-cancel-early": [
+      "Am I allowed to cancel my Subscription account before the end of my term commitment?",
+      "Can I cancel before the end of my commitment?",
+      "Am I allowed to cancel before the end of my commitment?",
+      "Can I cancel before my term ends?",
+      "Am I allowed to cancel before my term ends?",
+      "Can I cancel my account before it expires?",
+      "Am I allowed to cancel my account before it expires?",
+      "cancel subscription account before term ends",
+      "cancel account before expiration",
+      "Can I end my term commitment early?",
+      "Am I allowed to finish my term early?",
+      "end subscription account early"
+    ],
+    "subs-spend-before-term-end": [
+      "What if I reach my limit before the term ends?",
+      "What happens if I reach my spending commitment?",
+      "What if I get to my spending commitment before the terms ends?",
+      "What if I get to my spending limit?",
+      "What if I achieve the spending commitment before the term ends?",
+      "What if I achieve my spending limit?",
+      "reach spending commitment",
+      "reach limit before term ends"
+    ],
+    "monitor-spending": [
+      "view monthly runtime usage",
+      "view monthly service usage",
+      "view usage",
+      "how much have i spent"
+    ],
+    "access-invoices": [
+      "Where is my invoice?",
+      "Where to find my invoice?",
+      "invoice location",
+      "statement location",
+      "Where can I access my statement?",
+      "Where is my statement?",
+      "location of my invoice",
+      "location of my statement",
+      "locate invoice",
+      "locate statement",
+      "access invoice",
+      "access statement"
+    ],
+    "usage-not-match-invoice": [
+      "Why is the usage different on my invoice?",
+      "Why isn't my invoice matching my usage?",
+      "Usage is not reflected correctly on my invoice",
+      "usage different than invoice",
+      "my statement doesn't match my usage",
+      "invoice not matching usage",
+      "usage not as same as invoice",
+      "invoice not correct with my usage"
+    ],
+    "cannot-access-billing-info": [
+      "I cannot access my billing information",
+      "can't access my billing information",
+      "can't view my billing information",
+      "can't view my payment and invoices",
+      "I don't have authorization to view my billing information",
+      "I get a message when trying to view my billing information"
+    ]
+}
