@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment
 
@@ -18,7 +18,6 @@ subcollection: billing-usage
 
 # 常見問題 (FAQ)
 {: #billusagefaqs}
-
 
 ## 如何更新我的信用卡？
 {: #updatecard}
@@ -36,17 +35,13 @@ subcollection: billing-usage
 
 請致電 1-866-325-0045 並選取第三個選項與我們聯絡。
 
-
-## 特性碼是否與促銷代碼相同？
+## 如何套用促銷特性碼？
 {: #entercode}
 {: faq}
 
-促銷代碼及特性碼不同！
+特性碼會將額外功能新增至「精簡」帳戶，而且通常是針對教育方案或特殊事件而提供的。您也可能看到這些特性碼稱為促銷代碼。若要兌換您的促銷代碼，請移至[帳戶設定](https://{DomainName}/account/settings)，然後按一下**套用代碼**。
 
-- 促銷代碼是您可能從銷售團隊收到的基礎架構專用促銷代碼。您於結帳時在入口網站中輸入這些代碼，便可獲得訂單折扣。
-- 功能碼則用來在帳戶中新增訂閱及支援額度。對於「精簡」帳戶，它們還可用來提供額外的資源或功能，例如用於教育事件。
-
-   如果您購買訂閱，通常會收到包含特性碼的電子郵件。若要兌換特性碼，請移至**管理 > 帳戶**，並選取**帳戶設定**。在「特性碼」下，按一下**套用代碼**。如果您在帳戶中看不到此選項，則表示您可能沒有所需的存取角色。如需相關資訊，請參閱[套用特性碼](/docs/account?topic=account-codes)。
+若為基礎架構購買，您可能會從「銷售」團隊收到促銷代碼，以取得訂單的折扣。結帳時，請在客戶入口網站中輸入這些基礎架構特有的促銷代碼。
 
 ## 如何取消我的帳戶？
 {: #cancelmyaccount}
@@ -113,6 +108,11 @@ subcollection: billing-usage
 
 是，您每個月最少需花費美金 100 元。
 
+## 如何將訂閱額度新增至我的帳戶？
+{: #subscriptioncode}
+{: faq}
+
+在購買訂閱之後，您會收到一封電子郵件，內含將額度新增至您帳戶的特性碼。若要套用特性碼，請移至[帳戶設定](https://{DomainName}/account/settings)，然後按一下**套用代碼**。如需相關資訊，請參閱[套用特性碼](/docs/account?topic=account-codes)。
 
 ## 如果我超過「訂閱」的總金額，如何計費？
 {: #subs-overage}
