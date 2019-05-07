@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment
 
@@ -19,14 +19,13 @@ subcollection: billing-usage
 # Domande frequenti
 {: #billusagefaqs}
 
-
 ## Come aggiorno la mia carta di credito?
 {: #updatecard}
 {: faq}
 
-Puoi aggiornare il metodo di pagamento associato al tuo account andando a [Pagamenti](https://cloud.ibm.com/billing/payments) nella console. In Aggiungi metodo di pagamento, immetti le informazioni di fatturazione per la tua nuova carta e fai quindi clic su **Aggiungi carta di credito**.
+Puoi aggiornare il metodo di pagamento associato al tuo account andando a [Pagamenti](https://cloud.ibm.com/billing/payments) nella console. In Aggiungi metodo di pagamento, immetti le informazioni di fatturazione per la tua nuova carta di credito e fai poi clic su **Aggiungi carta di credito**.
 
-Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e fai quindi clic su **Submit change request**. Un caso di supporto per modificare il tuo metodo di pagamento verrà creato per tuo conto.
+Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e fai quindi clic su **Submit change request**. Un caso di supporto per modificare il tuo metodo di pagamento verrà creato per tuo conto. 
 
 ## Perché la mia carta di credito non viene accettata?
 {: #addcard}
@@ -34,27 +33,23 @@ Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e 
 
 Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito.
 
-Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione.
+Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione. 
 
-
-## I codici funzione sono uguali ai codici promozionali?
+## Come applico un codice funzione promozionale? 
 {: #entercode}
 {: faq}
 
-I codici promozionali e i codici funzione sono diversi.
+I codici funzioni aggiungono ulteriori funzionalità agli account Lite e sono normalmente forniti per iniziative didattiche o eventi speciali. Potrebbe anche essere fatto riferimento a questi codici come a codici promozionali. Per riscattare il tuo codice, vai a [Impostazioni account](https://{DomainName}/account/settings) e fai clic su **Applica codice**.
 
-- I codici promozionali sono codici promozionali specifici per l'infrastruttura che potresti ricevere dal team del settore vendite. Li immetti nel portale clienti al check-out per ottenere uno sconto sul tuo ordine.
-- I codici funzione sono utilizzati per aggiungere crediti di sottoscrizione e supporto al tuo account. Per gli account Lite, sono utilizzati anche per offrire delle risorse o delle funzionalità supplementari, quali gli eventi didattici.
+Per gli acquisti di infrastrutture potresti ricevere una codice promozionale dal team delle vendite per ricevere uno sconto sul tuo ordine. Immetti questi codici promozionali specifici per l'infrastruttura nel portale clienti al checkout.
 
-   Se acquisti una sottoscrizione, di norma ricevi una email con il codice funzione. Per riscattare il tuo codice funzione, vai a **Gestisci > Account** e seleziona **Impostazioni account**. In Codici funzione, fai clic su **Applica codice**. Se non vedi questa opzione nel tuo account, potresti non avere i ruoli di accesso richiesti. Per ulteriori informazioni, vedi [Applicazione di codici funzione](/docs/account?topic=account-codes).
-
-## Come posso annullare il mio account?
+## Come posso eliminare il mio account?
 {: #cancelmyaccount}
 {: faq}
 
-Per gli account Pagamento a consumo o Sottoscrizione, il modo più rapido per annullare il tuo account è contattandoci tramite la [live chat](https://{DomainName}/unifiedsupport/supportcenter) oppure chiamando il numero 1-866-325-0045 e selezionando la terza opzione. In alternativa, puoi aprire un caso di supporto.
+Per gli account Pagamento a consumo o Sottoscrizione, il modo più rapido per annullare il tuo account è contattandoci tramite la [live chat](https://{DomainName}/unifiedsupport/supportcenter) oppure chiamando il numero 1-866-325-0045 e selezionando la terza opzione. In alternativa, puoi aprire un caso di supporto. 
 
-Per annullare un account Lite, vai a **Gestisci** > **Account** > **Impostazioni account** e fai clic su **Disattiva account**.
+Per annullare un account Lite, vai a **Gestisci** > **Account** > **Impostazioni account** e fai clic su **Disattiva account**. 
 
 
 ## Come posso eliminare il mio account?
@@ -67,17 +62,17 @@ Contatta il [Supporto {{site.data.keyword.Bluemix_notm}}![Icona link esterno](..
 {: #contactsupport}
 {: faq}
 
-Fai clic su **Supporto** nella barra dei menu della console per accedere al Centro di supporto. Da qui, inizia avvalendoti dell'elenco di domande frequenti comuni. Se non trovi le risposte di cui hai bisogno, fai clic su **Crea un caso** per contattare il team di supporto.   
+Fai clic su **Supporto** nella barra dei menu della console per accedere al Centro di supporto. Da qui, inizia avvalendoti dell'elenco di domande frequenti comuni. Se non trovi le risposte di cui hai bisogno, fai clic su **Crea un caso** per contattare il team di supporto.    
 
 ## Che cosa è un GB-ora?
 {: #gb-hour}
 {: faq}
 
 L'utilizzo di runtime e contenitori viene addebitato in base alle seguenti variabili:
- • Quanta memoria il tuo runtime o contenitore utilizza, in gigabyte (GB)
+ • Quanta memoria il tuo runtime o contenitore utilizza, in gigabyte (GB)  
  • La durata in cui viene utilizzata la memoria
 
-Moltiplica questi due valori e il risultato sono GB-ore.
+Moltiplica questi due valori e il risultato sono GB-ore. 
 
 ## Quante applicazioni posso creare?
 {: #howmanyapps}
@@ -113,6 +108,11 @@ Per qualificarti per uno sconto sul prezzo, devi impegnarti per una spesa e un i
 
 Sì, devi spendere un minimo di $ 100,00 USD ogni mese.
 
+## Come aggiungo il credito di sottoscrizione al mio account? 
+{: #subscriptioncode}
+{: faq}
+
+Dopo aver acquistato una sottoscrizione, riceverai un'email con un codice funzione che aggiunge il credito al tuo account. Per applicare il codice funzione, vai a [Impostazioni account](https://{DomainName}/account/settings) e fai clic su **Applica codice**. Per ulteriori informazioni, vedi [Applicazione di codici funzione](/docs/account?topic=account-codes).
 
 ## Cosa mi viene addebitato se supero la quantità totale della mia Sottoscrizione?
 {: #subs-overage}
@@ -148,19 +148,19 @@ Sì, puoi annullare il tuo account prima che scada il tuo termine, ma la parte r
 
 Sei tenuto a continuare a pagare i tuoi addebiti mensili fino alla fine del tuo termine. Per evitare di generare degli addebiti da eccedenza, contatta il settore [Vendite di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}![Icona link esterno](../icons/launch-glyph.svg) per assistenza con la registrazione per una nuova sottoscrizione.
 
-## Come posso controllare le mie spese?
+## Come posso controllare le mie spese? 
 {: #monitor-spending}
 {: faq}
-Puoi visualizzare l'utilizzo mensile di runtime e servizi facendo clic su **Gestisci > Fatturazione e utilizzo > Utilizzo**. Ulteriori informazioni in [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage).
+Puoi visualizzare l'utilizzo mensile di runtime e servizi facendo clic su **Gestisci > Fatturazione e utilizzo > Utilizzo**. Ulteriori informazioni in [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage). 
 
 ## Dove posso accedere alla mia fattura?
 {: #access-invoices}
 {: faq}
 
-Dalla console, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **Fatture**.
+Dalla console, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **Fatture**. 
 
 ## Perché il mio utilizzo non corrisponde alla mia fattura?
 {: #usage-not-match-invoice}
 {: faq}
 
-Il tuo utilizzo potrebbe non corrispondere alla tua fattura perché i mesi utilizzati per confrontare l'utilizzo non sono gli stessi o non è stata selezionata la quantità totale di organizzazioni. Per ulteriori informazioni, vedi [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage). Se ancora non corrisponde, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un[caso di supporto](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg).
+Il tuo utilizzo potrebbe non corrispondere alla tua fattura perché i mesi utilizzati per confrontare l'utilizzo non sono gli stessi o non è stata selezionata la quantità totale di organizzazioni. Per ulteriori informazioni, vedi [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage). Se ancora non corrisponde, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un [caso di supporto](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg). 

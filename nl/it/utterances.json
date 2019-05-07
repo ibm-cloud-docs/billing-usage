@@ -1,0 +1,209 @@
+{
+    "updatecard": [
+      "aggiornamento della carta di credito ",
+      "modifica della mia carta di credito",
+      "modifica del mio numero della carta di credito",
+      "Come posso cambiare la mia carta di credito?",
+      "cambio della mia carta di credito",
+      "nuove informazioni sulla carta di credito"
+    ],
+    "addcard": [
+      "Perché la mia carta di credito non viene accettata?",
+      "la carta di credito non verrà accettata",
+      "la carta di credito non viene accettata",
+      "Perché la mia carta di credito non viene accettata?",
+      "la carta di credito non viene accettata",
+      "la carta di credito non viene elaborata",
+      "la carta di credito non viene elaborata",
+      "la carta di credito non verrà elaborata"
+    ],
+    "entercode": [
+      "Cosa sono i codici funzione?",
+      "I codici funzione sono uguali ai codici promozionali?",
+      "codici funzioni uguali ai codici promozionali",
+      "codici funzioni uguali alle promozioni",
+      "codici funzioni uguali ai codici promozionali",
+      "I codici funzione sono diversi dai codici promozionali?",
+      "differenza tra i codici funzione e i codici promozionali",
+      "codici funzione in confronto ai codici promozionali"
+    ],
+    "cancelmyaccount": [
+      "annulla il mio account",
+      "annullamento del mio account",
+      "annulla account",
+      "annullamento dell'account",
+      "Come annullo il mio account?",
+      "Come annullo l'account?",
+      "annulla account"
+    ],
+    "deleteaccount": [
+      "elimina il mio account",
+      "eliminazione del mio account",
+      "elimina account",
+      "elimina account",
+      "eliminazione dell'account",
+      "Come elimino il mio account?",
+      "Come elimino l'account?"
+    ],
+    "contactsupport": [
+      "Come ottengo supporto?",
+      "Dov'è il supporto?",
+      "Come posso contattare il supporto?",
+      "Come posso ottenere aiuto?",
+      "Voglio contattare il supporto",
+      "Ho bisogno di aiuto",
+      "Voglio parlare con il supporto tecnico",
+      "supporto",
+      "guida"
+    ],
+    "gb-hour": [
+      "gb-ora",
+      "ora gigabyte",
+      "addebiti utilizzo runtime",
+      "addebiti utilizzo contenitore"
+    ],
+    "howmanyapps": [
+      "numero di applicazioni che posso creare",
+      "Quante applicazioni posso creare?",
+      "Quante applicazioni sono consentite?",
+      "applicazioni consentite per la creazione",
+      "applicazioni consentite per la build",
+      "Esiste un limite al numero di applicazioni?",
+      "limite al numero di applicazioni",
+      "Quante applicazioni posso avere nel mio account?",
+      "Quante applicazioni mi è consentito avere?",
+      "Qual è il limite al numero di applicazioni?"
+    ],
+    "monthlyquota": [
+      "Cosa succede se il mio piano raggiunge il limite?",
+      "raggiungimento della quota mensile",
+      "raggiungimento del limite mensile",
+      "Quota piano Lite",
+      "Limite piano Lite",
+      "Cosa succede se raggiungo il mio limite?",
+      "Cosa succede se raggiungo la mia quota?",
+      "Cosa succede se ho utilizzato tutte le mie istanze del piano Lite?",
+      "Quota mensile del piano Lite raggiunta",
+      "Limite mensile del piano Lite raggiunto"
+    ],
+    "subs-order": [
+      "ordine con account Sottoscrizione",
+      "ordine con sottoscrizione",
+      "ordinazione dell'account Sottoscrizione",
+      "ordinazione della sottoscrizione",
+      "Cosa mi è consentito ordinare con il mio account Sottoscrizione?"
+    ],
+    "subs-discount": [
+      "Come ottengo uno sconto su un account Sottoscrizione? ",
+      "essere idoneo per lo sconto",
+      "Posso ottenere uno sconto per un account Sottoscrizione?",
+      "Esiste uno sconto per un account Sottoscrizione?",
+      "Come è possibile ottenere uno sconto su un account Sottoscrizione? ",
+      "Possono qualificarmi per uno sconto su un account Sottoscrizione? ",
+      "ottieni uno sconto"
+    ],
+    "subs-minimum": [
+      "Qual è la quantità minima mensile richiesta per l'account Sottoscrizione?",
+      "Qual è il minimo per gli account Sottoscrizione?",
+      "minimo mensile account Sottoscrizione",
+      "minimo per l'account Sottoscrizione",
+      "requisito minimo per l'account Sottoscrizione",
+      "quantità minima per una sottoscrizione",
+      "la quantità minore richiesta per un account Sottoscrizione"
+    ],
+    "subscriptioncode": [
+      "credito di sottoscrizione",
+      "codice funzione di sottoscrizione"
+    ],
+    "subs-overage": [
+      "Quanto mi viene addebitato se vado oltre? ",
+      "Cosa mi viene addebitato se supero la quantità totale?",
+      "Cosa mi viene addebitato se vado oltre?",
+      "Cosa succede se supero il mio limite?",
+      "quantità addebitata se supero la quantità totale",
+      "quantità addebitata se supero il limite",
+      "totale addebitato se supero la quantità",
+      "addebito per il superamento della quantità totale",
+      "addebito per il superamento del limite",
+      "addebito se si supera il limite"
+    ],
+    "subs-pay-schedule": [
+      "Mi è consentito pagare l'impegno di spesa totale in anticipo o in modo trimestrale?",
+      "Mi è consentito pagare in anticipo o in modo trimestrale?",
+      "Posso pagare in anticipo o in modo trimestrale?",
+      "pagamento in anticipo o in modo trimestrale",
+      "Come pago in anticipo o in modo trimestrale? ",
+      "scambio dei pagamenti in anticipo o in modo trimestrale",
+      "modifica del pagamento in anticipo o in modo trimestrale",
+      "in anticipo o in modo trimestrale "
+    ],
+    "subs-spending": [
+      "Mi è consentito spendere più o meno del mio impegno mensile?",
+      "Posso spendere una quantità diversa rispetto al mio impegno mensile?",
+      "Posso spendere un valore diverso rispetto al mio impegno?",
+      "Posso spendere un valore maggiore o inferiore al mio impegno?",
+      "spendere più o meno dell'impegno"
+    ],
+    "subs-cancel-early": [
+      "Mi è consentito annullare il mio account Sottoscrizione prima della fine del mio impegno a termine?",
+      "Posso eseguire l'annullamento prima del termine del mio impegno?",
+      "Mi è consentito eseguire l'annullamento prima del termine del mio impegno?",
+      "Posso eseguire l'annullamento prima della fine del mio termine?",
+      "Mi è consentito eseguire l'annullamento prima della fine del mio termine?",
+      "Posso annullare il mio account prima che scade?",
+      "Mi è consentito annullare il mio account prima che scade?",
+      "annullamento dell'account Sottoscrizione prima della fine del termine",
+      "annullamento dell'account prima della scadenza",
+      "Posso terminare il mio impegno in anticipo?",
+      "Mi è consentito finire il mio termine in anticipo?",
+      "termine dell'account Sottoscrizione in anticipo"
+    ],
+    "subs-spend-before-term-end": [
+      "Cosa succede se raggiungo il mio limite prima della fine del termine?",
+      "Cosa succede se raggiungo il mio impegno di spesa?",
+      "Cosa succede se raggiungo il mio impegno di spesa prima della fine del termine?",
+      "Cosa succede se raggiungo il mio impegno di spesa?",
+      "Cosa succede se realizzo il mio impegno di spesa prima della fine del termine?",
+      "Cosa succede se realizzo il mio impegno di spesa?",
+      "raggiungimento dell'impegno di spesa",
+      "raggiungimento del limite prima della fine del termine"
+    ],
+    "monitor-spending": [
+      "visualizza utilizzo runtime mensile",
+      "visualizza utilizzo servizio mensile",
+      "visualizza utilizzo",
+      "quanto ho speso"
+    ],
+    "access-invoices": [
+      "Dov'è la mia fattura?",
+      "Dove trovo la mia fattura?",
+      "ubicazione fattura",
+      "ubicazione conto",
+      "Dove posso accedere al mio conto?",
+      "Dov'è il mio conto?",
+      "ubicazione della mia fattura",
+      "ubicazione del mio conto",
+      "localizza fattura",
+      "localizza conto",
+      "accesso fattura",
+      "accesso conto"
+    ],
+    "usage-not-match-invoice": [
+      "Perché il mio utilizzo è diverso sulla mia fattura?",
+      "Perché la mia fattura non corrisponde al mio utilizzo?",
+      "L'utilizzo non viene rispecchiato correttamente sulla mia fattura",
+      "utilizzo diverso rispetto alla fattura",
+      "il mio conto non corrisponde al mio utilizzo",
+      "la fattura non corrisponde all'utilizzo",
+      "l'utilizzo non è uguale alla fattura",
+      "fattura non corretta con il mio utilizzo"
+    ],
+    "cannot-access-billing-info": [
+      "Non posso accedere alle mie informazioni sulla fatturazione",
+      "impossibile accedere alle mie informazioni sulla fatturazione",
+      "impossibile visualizzare le mie informazioni sulla fatturazione",
+      "impossibile visualizzare i miei pagamenti e fatture",
+      "Non ho l'autorizzazione per visualizzare le mie informazioni sulla fatturazione",
+      "Viene visualizzato un messaggio quando tento di visualizzare le mie informazioni sulla fatturazione"
+    ]
+}
