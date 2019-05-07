@@ -1,0 +1,209 @@
+{
+    "updatecard": [
+      "mise à jour de carte de crédit",
+      "changement de ma carte de crédit",
+      "changement de mon numéro de carte de crédit",
+      "Comment changer de carte de crédit ?",
+      "changement de carte de crédit",
+      "nouvelles informations de carte de crédit"
+    ],
+    "addcard": [
+      "Pourquoi ma carte de crédit ne passe-t-elle pas ?",
+      "carte de crédit qui ne passe pas",
+      "carte de crédit ne passant pas",
+      "Pourquoi est-ce que ma carte de crédit ne passe pas ?",
+      "carte de crédit qui ne passe pas",
+      "carte de crédit non traitée",
+      "carte de crédit non traitée",
+      "carte de crédit non traitée"
+    ],
+    "entercode": [
+      "Qu'est-ce que des codes de fonction ?",
+      "Les codes de fonction sont-ils identiques aux codes promotionnels ?",
+      "codes de fonction identiques aux codes promo",
+      "codes de fonction identiques à codes promo",
+      "codes de fonction identiques aux codes promotionnels",
+      "Les codes de fonction sont-ils différents des codes promo ?",
+      "différence entre les codes de fonction et les codes promo",
+      "codes de fonction par rapport à codes promo"
+    ],
+    "cancelmyaccount": [
+      "résilier mon compte",
+      "résiliation de mon compte",
+      "résilier un compte",
+      "résiliation de compte",
+      "Comment résilier mon compte ?",
+      "Comment résilier un compte ?",
+      "résilier un compte"
+    ],
+    "deleteaccount": [
+      "supprimer mon compte",
+      "suppression de mon compte",
+      "supprimer un compte",
+      "supprimer un compte",
+      "suppression d'un compte",
+      "Comment supprimer mon compte ?",
+      "Comment supprimer un compte ?"
+    ],
+    "contactsupport": [
+      "Comment obtenir de l'aide ?",
+      "Où est le support ?",
+      "Comment puis-je contacter le  support ?",
+      "Comment puis-je obtenir de l'aide ?",
+      "je souhaite contacter le support",
+      "j'ai besoin d'aide",
+      "je souhaite parler au support technique",
+      "support",
+      "Commande help"
+    ],
+    "gb-hour": [
+      "Go-heure",
+      "gigaoctet/heure",
+      "frais d'utilisation d'environnement d'exécution",
+      "frais d'utilisation de conteneur"
+    ],
+    "howmanyapps": [
+      "nombre d'applications que je peux générer",
+      "Combien d'applications puis-je élaborer ?",
+      "Combien d'applications sont autorisées ?",
+      "générations d'application autorisées",
+      "construction d'application autorisées",
+      "Existe-t-il une limite pour les applications ?",
+      "limite pour les applications",
+      "Combien d'applications puis-je avoir dans mon compte ?",
+      "Combien d'application suis-je autorisé à avoir ?",
+      "Quelle est ma limite de nombre d'applications ?"
+    ],
+    "monthlyquota": [
+      "Que se passe-t-il si mon plan atteint la limite ?",
+      "quota mensuel atteint",
+      "limite mensuelle atteinte",
+      "quota du plan Lite",
+      "limite du plan Lite",
+      "Que faire si j'ai atteint ma limite ?",
+      "Que faire si j'ai atteint mon quota ?",
+      "Que se passe-t-il si j'ai utilisé toutes mes instances de plan Lite ?",
+      "Quota mensuel de plan Lite atteint",
+      "Limite mensuelle de plan Lite atteinte"
+    ],
+    "subs-order": [
+      "commander avec un compte d'abonnement",
+      "commander avec un abonnement",
+      "commande avec un compte d'abonnement",
+      "commande avec abonnement",
+      "Que suis-je autorisé à commander avec un compte d'abonnement ?"
+    ],
+    "subs-discount": [
+      "Comment puis-je obtenir une remise sur un compte d'abonnement ?",
+      "bénéficier d'une remise",
+      "Puis-je obtenir une remise pour un compte d'abonnement ?",
+      "Existe-t-il une remise pour un compte d'abonnement ?",
+      "Comment obtenir une remise sur un compte d'abonnement ?",
+      "Puis-je bénéficier d'une remise sur un compte d'abonnement ?",
+      "obtenir une remise"
+    ],
+    "subs-minimum": [
+      "Quel est le montant minimal mensuel requis pour un compte d'abonnement ?",
+      "Quel est le minimum pour les comptes d'abonnement ?",
+      "minimum mensuel pour un compte d'abonnement",
+      "minimum pour un compte d'abonnement",
+      "minimum requis pour un compte d'abonnement",
+      "montant minimum pour un abonnement",
+      "montant le plus faible requis pour un compte d'abonnement"
+    ],
+    "subscriptioncode": [
+      "crédit d'abonnement",
+      "code fonction d'abonnement"
+    ],
+    "subs-overage": [
+      "Combien vais-je devoir payer si je dépasse ?",
+      "Comment suis-je facturé si je dépasse le montant total ?",
+      "Comment suis-je facturé si je dépasse ?",
+      "Que se passe-t-il si je dépasse ma limite ?",
+      "montant facturé si je dépasse le montant total",
+      "montant facturé si je dépasse la limite",
+      "total facturé si le montant est dépassé",
+      "frais pour dépassement du montant total",
+      "frais pour dépassement de la limite",
+      "frais pour dépassement de la limite"
+    ],
+    "subs-pay-schedule": [
+      "Suis-je autorisé à payer la totalité de mon engagement en une seule fois ou effectuer des règlements trimestriels ?",
+      "Suis-je autorisé à payer en une seule fois ou par trimestre ?",
+      "Puis-je payer en une seule fois ou par trimestre ?",
+      "paiement en une seule fois ou par trimestre",
+      "Comment payer en une seule fois ou par trimestre ?",
+      "passer au paiement en une seule fois ou par trimestre",
+      "changer le paiement en une seule fois ou par trimestre",
+      "paiements en une seule fois ou par trimestre"
+    ],
+    "subs-spending": [
+      "Suis-je autorisé à dépenser plus ou moins que mon engagement mensuel ?",
+      "Puis-je dépenser un montant différent de mon engagement mensuel ?",
+      "Puis-je dépenser différemment de mon engagement mensuel ?",
+      "Puis-je dépenser plus ou moins que mon engagement ?",
+      "dépenser plus ou moins que mon engagement"
+    ],
+    "subs-cancel-early": [
+      "Suis-je autorisé à annuler mon compte d'abonnement avant la fin de mon engagement ?",
+      "Puis-je annuler avant la fin de mon engagement ?",
+      "Suis-je autorisé à annuler avant la fin de mon engagement ?",
+      "Puis-je annuler avant la fin de mon engagement ?",
+      "Suis-je autorisé à annuler avant la fin de mon engagement ?",
+      "Puis-je annuler mon compte avant son expiration ?",
+      "Suis-je autorisé à annuler mon compte avant son expiration ?",
+      "annuler un compte d'abonnement avant la fin de l'engagement",
+      "annuler un compte avant expiration",
+      "Puis-je mettre fin à mon engagement par anticipation ?",
+      "Suis-je autorisé à mettre fin à mon engagement par anticipation ?",
+      "mettre fin à un compte d'abonnement par anticipation"
+    ],
+    "subs-spend-before-term-end": [
+      "Que se passe-t-il lorsque j'atteins ma limite avant la fin de l'engagement ?",
+      "Que se passe-t-il lorsque j'atteins mon engagement de dépenses ?",
+      "Que se passe-t-il lorsque j'atteins mon engagement de dépenses avant la fin de l'engagement ?",
+      "Que se passe-t-il lorsque j'atteins ma limite de dépenses ?",
+      "Que se passe-t-il si j'atteins mon engagement de dépenses avant la fin de l'engagement ?",
+      "Que se passe-t-il lorsque j'atteins ma limite de dépenses ?",
+      "engagement de dépenses atteint",
+      "limite atteinte avant la fin de l'engagement"
+    ],
+    "monitor-spending": [
+      "afficher l'utilisation mensuelle de l'environnement d'exécution",
+      "afficher l'utilisation mensuelle du service",
+      "afficher l'utilisation",
+      "combien ai-je dépensé"
+    ],
+    "access-invoices": [
+      "Où est ma facture ?",
+      "Où trouver ma facture ?",
+      "emplacement de la facture",
+      "emplacement du relevé",
+      "Où puis-je accéder à mon relevé ?",
+      "Où est mon relevé ?",
+      "emplacement de ma facture",
+      "emplacement de mon relevé",
+      "localiser une facture",
+      "localiser un relevé",
+      "accéder à une facture",
+      "accéder à un relevé"
+    ],
+    "usage-not-match-invoice": [
+      "Pourquoi l'utilisation est-elle différente sur ma facture ?",
+      "Pourquoi ma facture ne correspond-elle pas à mon utilisation ?",
+      "L'utilisation n'est pas correctement reportée sur ma facture",
+      "utilisation différente de la facture",
+      "mon relevé ne correspond pas à mon utilisation",
+      "facture ne correspond pas à utilisation",
+      "utilisation différente de la facture",
+      "facture incorrecte par rapport à mon utilisation"
+    ],
+    "cannot-access-billing-info": [
+      "je ne peux pas accéder à mes informations de facturation",
+      "impossible d'accéder à mes informations de facturation",
+      "impossible d'afficher mes informations de facturation",
+      "impossible d'afficher mon paiement et mes factures",
+      "je ne suis pas autorisé à afficher mes information de facturation",
+      "j'obtiens un message lorsque je tente d'afficher mes informations de facturation"
+    ]
+}

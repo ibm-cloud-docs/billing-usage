@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment
 
@@ -18,7 +18,6 @@ subcollection: billing-usage
 
 # FAQ
 {: #billusagefaqs}
-
 
 ## Como atualizar meu cartão de crédito?
 {: #updatecard}
@@ -37,17 +36,13 @@ crédito muito a sério.
 
 Entre em contato conosco, ligando para 1-866-325-0045 e selecionando a terceira opção.
 
-
-## Os códigos de recurso são iguais aos códigos promocionais?
+## Como aplico um código de recurso promocional?
 {: #entercode}
 {: faq}
 
-Códigos promocionais e códigos de recurso são diferentes!
+Os códigos de recurso incluem recursos extras nas contas Lite e, geralmente, são fornecidos para iniciativas educacionais ou eventos especiais. Você também pode ver esses códigos referidos como códigos promocionais. Para resgatar seu código, acesse [Configurações da conta](https://{DomainName}/account/settings) e clique em **Aplicar código**.
 
-- Códigos promocionais são aqueles específicos da infraestrutura que você pode receber da equipe de Vendas. Insira-os no portal do cliente no registro de saída para obter um desconto em seu pedido.
-- Códigos de recurso são usados para incluir crédito de assinatura e suporte em sua conta. Para contas Lite, eles também são usados para oferecer recursos ou capacidades extras, como para eventos educacionais.
-
-   Se você compra uma assinatura, geralmente recebe um e-mail com o código de recurso. Para resgatar seu código de recurso, acesse **Gerenciar > Conta** e selecione **Configurações da conta**. Sob Códigos de recurso, clique em **Aplicar código**. Se você não vir essa opção em sua conta, poderá não ter as funções de acesso necessárias. Para obter mais informações, consulte [Aplicando códigos de recurso](/docs/account?topic=account-codes).
+Para compras de infraestrutura, é possível que você receba um código promocional da equipe de Vendas para obter um desconto em seu pedido. Insira esses códigos promocionais específicos da infraestrutura no portal do cliente no check-out.
 
 ## Como cancelar minha conta?
 {: #cancelmyaccount}
@@ -118,6 +113,11 @@ Para que você se qualifique para um desconto na precificação, deve-se comprom
 
 Sim, deve-se gastar um mínimo de US$ 100,00 por mês.
 
+## Como incluir crédito de assinatura em minha conta?
+{: #subscriptioncode}
+{: faq}
+
+Depois de comprar uma assinatura, você receberá um e-mail com um código de recurso que inclui o crédito em sua conta. Para aplicar o código de recurso, acesse [Configurações da conta](https://{DomainName}/account/settings) e clique em **Aplicar código**. Para obter mais informações, consulte [Aplicando códigos de recurso](/docs/account?topic=account-codes).
 
 ## Em quanto serei cobrado se ultrapassar a quantia total da minha assinatura?
 {: #subs-overage}

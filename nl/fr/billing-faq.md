@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment
 
@@ -18,7 +18,6 @@ subcollection: billing-usage
 
 # Foire aux questions
 {: #billusagefaqs}
-
 
 ## Comment mettre à jour ma carte de crédit ?
 {: #updatecard}
@@ -36,17 +35,13 @@ La protection de votre identité étant une priorité pour nous, nous procédons
 
 Contactez-nous en appelant le numéro 1-866-325-0045 et en sélectionnant la troisième option.
 
-
-## Les codes de fonction sont-ils identiques aux codes promotionnels ?
+## Comment appliquer un code de fonction promotionnel ?
 {: #entercode}
 {: faq}
 
-Les codes promotionnels et les codes de fonction sont différents.
+Les codes de fonction ajoutent des fonctions supplémentaires à des comptes Lite et sont généralement fournis pour des initiatives éducatives ou des événements spéciaux. Vous pouvez également voir ces codes sous l'appellation codes promo. Pour valider votre code, accédez à [Paramètres de compte](https://{DomainName}/account/settings), puis cliquez sur **Appliquer le code**.
 
-- Les codes promotionnels sont des codes spécifiques à l'infrastructure que vous pouvez vous procurer auprès de l'équipe de ventes. Vous entrez ces codes dans le portail client lors du règlement afin d'obtenir une remise sur votre commande.
-- Les codes de fonction permettent d'ajouter un crédit d'abonnement et de support à votre compte. Pour les comptes Lite, ils permettent également de disposer de fonctions ou de ressources supplémentaires (événements de formation, par exemple).
-
-   Si vous achetez un abonnement, vous recevez généralement un courrier électronique incluant le code de fonction. Pour valider votre code de fonction, accédez à **Gérer > Compte** et sélectionnez **Paramètres de compte**. Sous Codes de fonction, cliquez sur **Appliquer le code**. Si vous ne voyez pas cette option dans votre compte, il est possible que vous ne disposiez pas des rôles d'accès requis. Pour plus d'informations, voir [Application de codes de fonction](/docs/account?topic=account-codes).
+Pour les achats d'infrastructure, vous pouvez recevoir de l'équipe commerciale un code promotionnel qui vous permet de bénéficier d'une remise sur votre commande. Entrez ces codes promotionnels réservés aux infrastructures dans le portail client au moment du règlement.
 
 ## Comment résilier mon compte ?
 {: #cancelmyaccount}
@@ -113,6 +108,11 @@ Pour pouvoir bénéficier d'une remise tarifaire, vous devez opter pour un engag
 
 Oui, vous devez dépenser au moins 100 USD chaque mois.
 
+## Comment ajouter un crédit d'abonnement à mon compte ?
+{: #subscriptioncode}
+{: faq}
+
+Une fois que vous avez acheté un abonnement, vous recevez un courrier électronique contenant un code de fonction qui ajoute le crédit à votre compte. Pour appliquer le code de fonction, accédez à [Paramètres de compte](https://{DomainName}/account/settings), puis cliquez sur **Appliquer le code**. Pour plus d'informations, voir [Application de codes de fonction](/docs/account?topic=account-codes).
 
 ## Comment suis-je facturé si je dépasse le montant total de mon abonnement ?
 {: #subs-overage}

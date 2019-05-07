@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment
 
@@ -18,7 +18,6 @@ subcollection: billing-usage
 
 # Häufig gestellte Fragen (FAQs)
 {: #billusagefaqs}
-
 
 ## Wie aktualisiere ich meine Kreditkartendaten?
 {: #updatecard}
@@ -36,17 +35,13 @@ Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir 
 
 Wenden Sie sich unter der Nummer 1-866-325-0045 an uns und wählen Sie dritte Option aus.
 
-
-## Sind Feature-Codes und Werbeaktionscodes dasselbe?
+## Wie wende ich einen Werbeaktionscode an?
 {: #entercode}
 {: faq}
 
-Werbeaktionscodes und Feature-Codes unterscheiden sich voneinander!
+Feature-Codes fügen zusätzliche Funktionen zu Lite-Konten hinzu und werden typischerweise für Bildungsinitiativen oder besondere Ereignisse bereitgestellt. Sie werden auch als Werbeaktionscodes bezeichnet. Um Ihren Code einzulösen, wechseln Sie zu [Kontoeinstellungen](https://{DomainName}/account/settings) und klicken Sie auf **Code anwenden**. 
 
-- Werbeaktionscodes sind infrastrukturspezfische Werbecodes, die Sie möglicherweise vom Vertriebsteam erhalten. Geben Sie sie beim Checkout in das Kundenportal ein, um einen Rabatt für Ihre Bestellung zu erhalten.
-- Feature-Codes werden dazu verwendet, Abonnement- und Unterstützungsgutschriften zu Ihrem Konto hinzuzufügen. Bei Lite-Konten werden sie auch verwendet, um zusätzliche Ressourcen oder Funktionen anzubieten, z. B. für Schulungsveranstaltungen.
-
-   Beim Kauf eines Abonnements erhalten Sie in der Regel eine E-Mail mit dem Feature-Code. Lösen Sie Ihren Feature-Code ein, indem Sie **Verwalten > Konto** aufrufen und **Kontoeinstellungen** auswählen. Klicken Sie unter "Feature-Codes" auf **Code anwenden**. Wenn diese Option in Ihrem Konto nicht angezeigt wird, verfügen Sie möglicherweise nicht über die erforderlichen Zugriffsrollen. Weitere Informationen finden Sie unter [Feature-Codes anwenden](/docs/account?topic=account-codes).
+Für Infrastrukturkäufe erhalten Sie unter Umständen einen Werbeaktionscode vom Vertriebsteam oder es wird ein Rabatt auf Ihre Bestellung angewendet. Geben Sie diese infrastrukturspezifischen Werbeaktionscodes beim Check-out in das Kundenportal ein. 
 
 ## Wie kann ich mein Konto kündigen?
 {: #cancelmyaccount}
@@ -113,6 +108,11 @@ Eine kombinierte Mindestausgabe- und Laufzeitverpflichtung von monatlich $ 100,0
 
 Ja. Pro Monat ist eine Mindestausgabe von $ 100,00 USD erforderlich.
 
+## Wie füge ich ein Abonnementguthaben zu meinem Konto hinzu?
+{: #subscriptioncode}
+{: faq}
+
+Nach dem Kauf eines Abonnements erhalten Sie eine E-Mail mit einem Feature-Code, der das Guthaben zu Ihrem Konto hinzufügt. Um den Feature-Code anzuwenden, wechseln Sie zu [Kontoeinstellungen](https://{DomainName}/account/settings) und klicken Sie auf **Code anwenden**. Weitere Informationen finden Sie unter [Feature-Codes anwenden](/docs/account?topic=account-codes).
 
 ## Welche Gebühren fallen an, wenn die Gesamtsumme des Abonnements überschritten wird?
 {: #subs-overage}

@@ -1,0 +1,209 @@
+{
+    "updatecard": [
+      "atualizando cartão de crédito",
+      "mudando meu cartão de crédito",
+      "mudando o número do meu cartão de crédito",
+      "Como troco meu cartão de crédito?",
+      "alternando meu cartão de crédito",
+      "informações do novo cartão de crédito"
+    ],
+    "addcard": [
+      "Por que meu cartão de crédito não está passando?",
+      "o cartão de crédito não vai passar",
+      "o cartão de crédito não está passando",
+      "Por que meu cartão de crédito não está passando?",
+      "o cartão de crédito não está passando.",
+      "o cartão de crédito não está processando",
+      "o cartão de crédito não está processando",
+      "o cartão de crédito não processará"
+    ],
+    "entercode": [
+      "O que são códigos de recurso?",
+      "Os códigos de recurso são os mesmos que os códigos promocionais?",
+      "os códigos de recurso são iguais aos códigos promocionais",
+      "os códigos de recurso iguais aos promocionais",
+      "os códigos de recurso são os mesmos que os códigos promocionais",
+      "Os códigos de recurso são diferentes dos códigos promocionais?",
+      "diferença entre os códigos de recurso e os códigos promocionais",
+      "códigos de recurso versus códigos promocionais"
+    ],
+    "cancelmyaccount": [
+      "cancelar minha conta",
+      "cancelando minha conta",
+      "cancelar conta",
+      "cancelamento da conta",
+      "Como cancelar minha conta?",
+      "Como cancelar a conta?",
+      "cancelar conta"
+    ],
+    "deleteaccount": [
+      "excluir minha conta",
+      "excluindo minha conta",
+      "excluir conta",
+      "exclusão da conta",
+      "exclusão da conta",
+      "Como excluir minha conta?",
+      "Como excluir a conta?"
+    ],
+    "contactsupport": [
+      "Como obter suporte?",
+      "Onde está o suporte?",
+      "Como posso entrar em contato com o suporte?",
+      "Como obtenho ajuda?",
+      "Desejo entrar em contato com o suporte",
+      "Preciso de ajuda",
+      "Desejo falar com o suporte técnico.",
+      "suporte",
+      "ajuda"
+    ],
+    "gb-hour": [
+      "gb-hora",
+      "gigabyte hora",
+      "encargos de uso do tempo de tempo de execução",
+      "encargos de uso do contêiner"
+    ],
+    "howmanyapps": [
+      "número de apps que eu posso desenvolver",
+      "Quantos apps eu posso criar?",
+      "Quantos apps são permitidos?",
+      "apps autorizados a criar",
+      "apps autorizados a desenvolver",
+      "Há um limite para os apps?",
+      "limite de apps",
+      "Quantos apps eu posso ter em minha conta?",
+      "Quantos aplicativos eu tenho permissão para ter?",
+      "Qual é o meu limite para apps?"
+    ],
+    "monthlyquota": [
+      "O que acontecerá se meu plano atingir o limite?",
+      "atingir a cota mensal",
+      "atingir o limite mensal",
+      "cota do plano Lite",
+      "limite do plano Lite",
+      "E se eu atingir meu limite?",
+      "E se eu atingir minha cota?",
+      "O que acontecerá se eu tiver usado todas as minhas instâncias do plano Lite?",
+      "Cota mensal do plano Lite atingida",
+      "Limite mensal do plano Lite atingido"
+    ],
+    "subs-order": [
+      "pedir com conta da assinatura",
+      "pedir com assinatura",
+      "pedidos da conta da assinatura",
+      "pedidos de assinatura",
+      "O que eu tenho permissão para pedir com a minha conta da assinatura?"
+    ],
+    "subs-discount": [
+      "Como obtenho um desconto em uma conta da Assinatura?",
+      "qualificar para desconto",
+      "Como obtenho um desconto para uma conta da Assinatura?",
+      "Há um desconto para uma conta da Assinatura?",
+      "Como obter um desconto em uma conta da Assinatura?",
+      "Posso me qualificar para um desconto em uma conta da Assinatura?",
+      "obter um desconto"
+    ],
+    "subs-minimum": [
+      "Qual é a quantia mínima mensal requerida para a conta da Assinatura?",
+      "Qual é o mínimo para as contas de assinatura?",
+      "mínimo mensal da conta da assinatura",
+      "mínimo para conta da assinatura",
+      "requisito mínimo da conta da assinatura",
+      "quantia mínima para uma assinatura",
+      "quantia mais baixa requerida para a conta da assinatura"
+    ],
+    "subscriptioncode": [
+      "crédito de assinatura",
+      "código de recurso de assinatura"
+    ],
+    "subs-overage": [
+      "O quanto serei cobrado se eu ultrapassar?",
+      "O que será cobrado se eu exceder o valor total?",
+      "O que serei cobrado se eu ultrapassar?",
+      "O que acontecerá se eu ultrapassar meu limite?",
+      "quantia cobrada se eu ultrapassar a quantia total",
+      "quantia cobrada se eu exceder o limite",
+      "total cobrado se a quantia for excedida",
+      "encargo por ultrapassar a quantia total",
+      "encargo por exceder o limite",
+      "encargo por ultrapassar o limite"
+    ],
+    "subs-pay-schedule": [
+      "Tenho permissão de pagar o compromisso total de despesas antecipadamente ou trimestralmente?",
+      "Tenho permissão para pagar antecipadamente ou trimestralmente?",
+      "Posso pagar antecipadamente ou trimestralmente?",
+      "pagar antecipadamente ou trimestralmente",
+      "Como pagar antecipadamente ou trimestralmente?",
+      "alternar para pagamento antecipado ou trimestral",
+      "mudar para pagamento antecipado ou trimestral",
+      "pagamentos antecipados ou trimestrais"
+    ],
+    "subs-spending": [
+      "Tenho permissão para gastar mais ou menos do que o meu compromisso mensal?",
+      "Posso gastar uma quantia diferente do meu compromisso mensal?",
+      "Posso gastar de forma diferente do meu compromisso?",
+      "Posso gastar mais ou menos do que o meu compromisso?",
+      "gastar mais ou menos do que o compromisso"
+    ],
+    "subs-cancel-early": [
+      "Tenho permissão para cancelar minha conta da Assinatura antes do término do meu compromisso de prazo?",
+      "Posso cancelar antes do término do meu compromisso?",
+      "Tenho permissão para cancelar antes do término do meu compromisso?",
+      "Posso cancelar antes do término do meu prazo?",
+      "Tenho permissão para cancelar antes que meu prazo termine?",
+      "Posso cancelar minha conta antes que ela expire?",
+      "Tenho permissão para cancelar minha conta antes que ela expire?",
+      "cancelar conta da assinatura antes do término do prazo",
+      "cancelar a conta antes da expiração",
+      "Posso terminar meu compromisso de prazo mais cedo?",
+      "Tenho permissão para concluir o meu prazo mais cedo?",
+      "terminar conta da assinatura mais cedo"
+    ],
+    "subs-spend-before-term-end": [
+      "E se eu atingir meu limite antes do término do prazo?",
+      "O que acontecerá se eu atingir meu compromisso de gasto?",
+      "E se eu chegar ao meu compromisso de gasto antes do término do prazo?",
+      "E se eu chegar ao meu limite de gasto?",
+      "E se eu atingir o compromisso de gasto antes do término do prazo?",
+      "E se eu atingir meu limite de gasto?",
+      "atingir o compromisso de gasto",
+      "atingir o limite antes do término do prazo"
+    ],
+    "monitor-spending": [
+      "visualizar uso mensal de tempo de execução",
+      "visualizar uso de serviço mensal",
+      "visualizar uso",
+      "quanto eu gastei"
+    ],
+    "access-invoices": [
+      "Onde está minha fatura?",
+      "Onde localizar minha fatura?",
+      "local da fatura",
+      "local do extrato",
+      "Onde posso acessar meu extrato?",
+      "Onde está o meu extrato?",
+      "local da minha fatura",
+      "local do meu extrato",
+      "localizar fatura",
+      "localizar extrato",
+      "acessar fatura",
+      "acessar extrato"
+    ],
+    "usage-not-match-invoice": [
+      "Por que o uso é diferente em minha fatura?",
+      "Por que a fatura não corresponde ao meu uso?",
+      "O uso não é refletido corretamente em minha fatura",
+      "uso diferente da fatura",
+      "o meu extrato não corresponde ao meu uso",
+      "fatura não correspondente ao uso",
+      "o uso não é o mesmo que a fatura",
+      "fatura não correta de acordo com meu uso"
+    ],
+    "cannot-access-billing-info": [
+      "Não posso acessar minhas informações de faturamento",
+      "não é possível acessar minhas informações de faturamento",
+      "não é possível visualizar minhas informações de faturamento",
+      "não é possível visualizar meu pagamento e minhas faturas",
+      "Não tenho autorização para visualizar minhas informações de faturamento",
+      "Obtenho uma mensagem ao tentar visualizar minhas informações de faturamento"
+    ]
+}

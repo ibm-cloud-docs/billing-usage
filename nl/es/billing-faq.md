@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment
 
@@ -18,7 +18,6 @@ subcollection: billing-usage
 
 # Preguntas más frecuentes
 {: #billusagefaqs}
-
 
 ## ¿Cómo puedo actualizar mi tarjeta de crédito?
 {: #updatecard}
@@ -36,17 +35,13 @@ Proteger su identidad es una prioridad para nosotros, por ello nos tomamos la ve
 
 Póngase en contacto con nosotros por teléfono en el 1-866-325-0045 y seleccione la tercera opción.
 
-
-## ¿Los códigos de características son lo mismo que los códigos promocionales?
+## ¿Cómo se aplica un código de característica promocional?
 {: #entercode}
 {: faq}
 
-No es lo mismo un código de promoción que un código de característica.
+Los códigos de característica añaden prestaciones adicionales a las cuentas Lite y normalmente se proporcionan para iniciativas educativas o eventos especiales. A estos códigos también se les llama códigos de promoción. Para canjear el código, vaya a [Configuración de la cuenta](https://{DomainName}/account/settings) y pulse **Aplicar código**.
 
-- Los códigos de promoción son códigos promocionales específicos de la infraestructura que puede recibir del equipo de ventas. Se especifican en el portal de clientes en el momento de realizar el pago para recibir un descuento en el pedido.
-- Los códigos de características se utilizan para añadir crédito de suscripción y soporte a la cuenta. Para las cuentas Lite, también se utilizan para ofrecer recursos o funciones adicionales, como por ejemplo eventos de formación.
-
-   Si adquiere una suscripción, normalmente recibe un correo electrónico con el código de característica. Para canjear su código de característica, vaya a **Gestionar > Cuenta** y seleccione **Valores de cuenta**. Bajo Códigos de característica, pulse **Aplicar código**. Si no ve esta opción en su cuenta, quizá no disponga de los roles de acceso necesarios. Para obtener más información, consulte [Aplicación de códigos de característica](/docs/account?topic=account-codes).
+Para compras de la infraestructura, es posible que reciba un código promocional del equipo de ventas para obtener un descuento en su pedido. Especifique estos códigos promocionales específicos de la infraestructura en el portal de clientes al confirmar la compra.
 
 ## ¿Cómo puedo cancelar mi cuenta?
 {: #cancelmyaccount}
@@ -113,6 +108,11 @@ Para optar a un descuento en el precio, debe comprometerse a un gasto mínimo co
 
 Sí, debe gastar un mínimo de 100,00 dólares USD cada mes.
 
+## ¿Cómo se agrega un crédito de suscripción a mi cuenta?
+{: #subscriptioncode}
+{: faq}
+
+Después de adquirir una suscripción, recibirá un correo electrónico con el código de característica que agrega el crédito a su cuenta. Para aplicar el código de característica, vaya a [Configuración de la cuenta](https://{DomainName}/account/settings) y pulse **Aplicar código**. Para obtener más información, consulte [Aplicación de códigos de característica](/docs/account?topic=account-codes).
 
 ## ¿Qué se me cobrará si supero la cantidad total de mi Suscripción?
 {: #subs-overage}
