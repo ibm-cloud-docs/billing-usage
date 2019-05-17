@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-05-17"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
 subcollection: billing-usage
 
@@ -23,7 +23,7 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-You can update the payment method that's associated with your account by going to [Payments](https://cloud.ibm.com/billing/payments) in the console. Under Add Payment Method, enter in the billing information for your new card, then click **Add credit card**.
+Updating your credit card is just like adding a new one. Go to [Payments](https://{DomainName}/billing/payments), and in the Add Payment Method section, enter the billing information for your new card, then click **Add credit card**.
 
 To switch to a different payment method, select **Pay with Other** and then click **Submit change request**. A support case to change your payment method will be created for you.
 
