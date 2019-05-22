@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-17"
+lastupdated: "2019-05-22"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -33,7 +33,7 @@ To switch to a different payment method, select **Pay with Other** and then clic
 
 Protecting your identity is a priority for us, so we take credit card verification seriously.
 
-Contact us by calling 1-866-325-0045 and selecting the third option.
+Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can send an email to verify@us.ibm.com with your IBM id in the email and a copy of any error messages that displayed. Do not include any credit card information. 
 
 ## How do I apply a promotional feature code?
 {: #entercode}
@@ -56,13 +56,14 @@ To cancel a Lite account, go to **Manage** > **Account** > **Account settings**,
 {: #deleteaccount}
 {: faq}
 
-Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} to open a support case and request to delete your account. If you have data that is associated with your old account that you want to move to a new account, include this information in your email.
+Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} to open a support case and request to delete your account. If you have data that is associated with your old account that you want to move to a new account, include this information in your email. 
+**Note:** Data in deleted accounts is not recoverable. 
 
 ## How do I get support?
 {: #contactsupport}
 {: faq}
 
-Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, click **Create a case** to get in touch with the support team.   
+Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud Support.
 
 ## What is a GB-hour?
 {: #gb-hour}
@@ -78,14 +79,14 @@ Multiply the two values together, and the result is the GB-hour.
 {: #howmanyapps}
 {: faq}
 
-In a Lite account, your apps have up to 256 MB of instantaneous runtime memory. You can deploy apps until you use the available Lite account allowance. If you need more memory, upgrade to a billable account to get 512 MB of free instantaneous runtime memory and pay only for what you use over that. There's no limits to the number of apps you can build in a billable account.
+In a Lite account, your apps have up to 256 MB of instantaneous runtime memory. You can deploy apps until you use the available Lite account allowance. If you need more memory, upgrade to a billable account to get 512 MB of free instantaneous runtime memory and pay only for what you use over that limit. There's no limit to the number of apps you can build in a billable account.
 
 
 ## What happens if my Lite plan instance reaches the monthly quota?
 {: #monthlyquota}
 {: faq}
 
-When you reach any quota limit for Lite plan instances, the service for that month is suspended. Quota limits are per org, not per instance. New instances that are created in the same org show any usage from previous instances. The quota limits reset on the first of every month.
+When you reach any quota limit for Lite plan instances, the service for that month is suspended. Quota limits are per org and not per instance. New instances that are created in the same org show any usage from previous instances. The quota limits reset on the first of every month.
 
 
 ## What can I order with my Subscription account?
@@ -152,6 +153,11 @@ You're required to continue paying your monthly charges until the end of your te
 {: #monitor-spending}
 {: faq}
 You can view your monthly runtime and service usage by clicking **Manage > Billing and usage > Usage**. Learn more in [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
+
+## Can I receive notifications when my spending reaches specific levels?
+{: #spending-notify}
+{: faq}
+You can set separate spending thresholds for the account, container, runtime, all services, and specific services. Based on the monetary limits, you will automatically receive notifcations when your monthly spending reaches 80%, 90%, and 100% of those limits. From the console, click **Manage > Billing and usage** and select **Spending notifications**.
 
 ## Where can I access my invoice?
 {: #access-invoices}
