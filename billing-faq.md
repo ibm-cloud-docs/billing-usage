@@ -141,7 +141,7 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 {: #subs-cancel-early}
 {: faq}
 
-A subscription is a contract between you and IBM to use IBM Cloud for a specific term and price. You can request that your contract be terminated before the end of the term. However, the contract termination and any credits are at the discretion of IBM Cloud. To inquire about this possibility, click **Support** at the top of the IBM Cloud Console to contact Support. Make sure that you provide details about why you need to terminate the contract.
+A subscription is a contract between you and IBM that commits you to use {{site.data.keyword.Bluemix_notm}} for a specific term and spending amount. You can request to cancel your subscription before the end of the term, but whether the subscription can be canceled is at the discretion of IBM. To inquire about this possibility, contact support. Make sure that you provide details about why you need to cancel your subscription.
 
 
 ## What happens if I reach my spending commitment before my term ends?  
