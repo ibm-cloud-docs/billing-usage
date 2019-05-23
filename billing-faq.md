@@ -33,7 +33,7 @@ To switch to a different payment method, select **Pay with Other** and then clic
 
 Protecting your identity is a priority for us, so we take credit card verification seriously.
 
-Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Do not include any credit card information. 
+Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Do not include any credit card information.
 
 ## How do I apply a promotional feature code?
 {: #entercode}
@@ -56,9 +56,9 @@ To cancel a Lite account, go to **Manage** > **Account** > **Account settings**,
 {: #deleteaccount}
 {: faq}
 
-Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} to open a support case and request to delete your account. If you have data that is associated with your old account that you want to move to a new account, include this information in your email. 
+Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} to open a support case and request to delete your account. If you have data that is associated with your old account that you want to move to a new account, include this information in your email.
 
-Data in deleted accounts is not recoverable. 
+Data in deleted accounts is not recoverable.
 
 ## How do I get support?
 {: #contactsupport}
@@ -141,7 +141,7 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 {: #subs-cancel-early}
 {: faq}
 
-A subscription is a contract between you and IBM that commits you to use {{site.data.keyword.Bluemix_notm}} for a specific term and spending amount. You can request to cancel your subscription before the end of the term, but whether the subscription can be canceled is at the discretion of IBM. To inquire about this possibility, contact support. Make sure that you provide details about why you need to cancel your subscription.
+A subscription is a contract between you and IBM that commits you to use {{site.data.keyword.Bluemix_notm}} for a specific term and spending amount. You can request to cancel your subscription before the end of the term, but whether the subscription can be canceled is at the discretion of IBM. Any remaining credit on your subscription might be forfeited. To inquire about this possibility, contact support. Make sure that you provide details about why you need to cancel your subscription.
 
 
 ## What happens if I reach my spending commitment before my term ends?  
