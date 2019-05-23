@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-22"
+lastupdated: "2019-05-23"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -141,7 +141,7 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 {: #subs-cancel-early}
 {: faq}
 
-Yes, you can cancel your account before your term expires, but the rest of your total Subscription amount is forfeited.
+A subscription is a contract between you and IBM to use IBM Cloud for a specific term and price. You can request that your contract be terminated before the end of the term. However, the contract termination and any credits are at the discretion of IBM Cloud. To inquire about this possibility, click **Support** at the top of the IBM Cloud Console to contact Support. Make sure that you provide details about why you need to terminate the contract.
 
 
 ## What happens if I reach my spending commitment before my term ends?  
