@@ -33,7 +33,7 @@ To switch to a different payment method, select **Pay with Other** and then clic
 
 Protecting your identity is a priority for us, so we take credit card verification seriously.
 
-Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can send an email to verify@us.ibm.com with your IBM id in the email and a copy of any error messages that displayed. Do not include any credit card information. 
+Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Do not include any credit card information. 
 
 ## How do I apply a promotional feature code?
 {: #entercode}
@@ -57,13 +57,14 @@ To cancel a Lite account, go to **Manage** > **Account** > **Account settings**,
 {: faq}
 
 Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} to open a support case and request to delete your account. If you have data that is associated with your old account that you want to move to a new account, include this information in your email. 
-**Note:** Data in deleted accounts is not recoverable. 
+
+Data in deleted accounts is not recoverable. 
 
 ## How do I get support?
 {: #contactsupport}
 {: faq}
 
-Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud Support.
+Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud support.
 
 ## What is a GB-hour?
 {: #gb-hour}
@@ -157,7 +158,8 @@ You can view your monthly runtime and service usage by clicking **Manage > Billi
 ## Can I receive notifications when my spending reaches specific levels?
 {: #spending-notify}
 {: faq}
-You can set separate spending thresholds for the account, container, runtime, all services, and specific services. Based on the monetary limits, you will automatically receive notifcations when your monthly spending reaches 80%, 90%, and 100% of those limits. From the console, click **Manage > Billing and usage** and select **Spending notifications**.
+
+You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifcations when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notificaations, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Where can I access my invoice?
 {: #access-invoices}
