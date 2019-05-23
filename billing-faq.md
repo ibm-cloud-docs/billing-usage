@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-22"
+lastupdated: "2019-05-23"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -141,7 +141,7 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 {: #subs-cancel-early}
 {: faq}
 
-Yes, you can cancel your account before your term expires, but the rest of your total Subscription amount is forfeited.
+A subscription is a contract between you and IBM that commits you to use {{site.data.keyword.Bluemix_notm}} for a specific term and spending amount. You can request to cancel your subscription before the end of the term, but whether the subscription can be canceled is at the discretion of IBM. To inquire about this possibility, contact support. Make sure that you provide details about why you need to cancel your subscription.
 
 
 ## What happens if I reach my spending commitment before my term ends?  
