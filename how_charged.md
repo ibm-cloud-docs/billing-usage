@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-06-03"
 
 keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
 
@@ -83,7 +83,7 @@ Many services include monthly free allowances. Usage of services that aren't inc
 
 In the simple tier model, the unit price is determined by the tier that the quantity of your usage falls into. The total price is your quantity that is multiplied by the unit price in that tier, for example:
 
-| Quantity of items   | Unit price for all items |
+| Quantity of Items   | Unit Price for All Items |
 |---------------------|--------------------------|
 | Tier 1: 1 - 1000    | $1 USD                   |
 | Tier 2: 1001 - 2000 | $0.90 USD                |
@@ -94,7 +94,7 @@ In the simple tier model, the unit price is determined by the tier that the quan
 
 The following table illustrates how much you pay with a plan that is based on a simple tier pricing model:
 
-| Quantity of items | Charge Calculation | Total Price |
+| Quantity of Items | Charge Calculation | Total Price |
 |-------------------|--------------------|-------------|
 | 500               | 500 × 1 = 500      | $500 USD    |
 | 1500              | 1500 × 0.90 = 1350 | $1350 USD   |
@@ -108,7 +108,7 @@ The following table illustrates how much you pay with a plan that is based on a 
 
 In the graduated tier model, the unit price per tier decreases as your level of usage increases. The total price is the cumulative charges for each level of usage, consisting of your quantity multiplied by the unit price at that tier, for example:
 
-| Quantity of items   |	Unit price for items in the tier|
+| Quantity of Items   |	Unit Price for Items in the Tier|
 |---------------------|---------------------------------|
 | Tier 1: 1 - 1000    |	$1 USD                          |
 | Tier 2: 1001 - 2000 |	$0.90 USD                       |
@@ -119,7 +119,7 @@ In the graduated tier model, the unit price per tier decreases as your level of 
 
 The following table illustrates how much you pay with a plan that is based on a graduated tier pricing model:
 
-|Quantity of items | Charge calculation                                                               | Total price |
+|Quantity of Items | Charge Calculation                                                               | Total Price |
 |------------------|----------------------------------------------------------------------------------|-------------|
 | 500              | 500 × 1 (unit price for Tier 1) = 500                                            |	$500 USD    |
 | 1500             | (1000 × 1 (unit price for Tier 1)) + (500 × 0.90 (unit price for Tier 2)) = 1450 |	$1450 USD   |
@@ -133,7 +133,7 @@ The following table illustrates how much you pay with a plan that is based on a 
 
 In the block tier model, the price is a set charge for the quantity you use within a usage level. The total price is the charge for your level of usage regardless of your actual usage. Each successive tier provides a lower price to quantity ratio. For example:
 
-|Quantity of items    |	Total price for all items |
+|Quantity of Items    |	Total Price for All Items |
 |---------------------|---------------------------|
 | Tier 1: &lt;= 1000  |	$1000 USD                 |
 | Tier 2: &lt;= 2000  |	$1900 USD                 |
@@ -144,7 +144,7 @@ In the block tier model, the price is a set charge for the quantity you use with
 
 The following table illustrates how much you pay with a plan that is based on a block tier pricing model:
 
-|Quantity of items | Charge calculation                                                      | Total price|
+|Quantity of Items | Charge Calculation                                                      | Total Price|
 |------------------|-------------------------------------------------------------------------|------------|
 | 500              | The number of items falls into Tier 1, so the total price is $1000 USD. | $1000 USD  |
 | 1500             | The number of items falls into Tier 2, so the total price is $1900 USD. | $1900 USD  |
