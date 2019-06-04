@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-05-23"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
 subcollection: billing-usage
 
@@ -23,7 +23,7 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-Vous pouvez mettre à jour la méthode de paiement associée à votre compte en accédant à la section [Paiements](https://cloud.ibm.com/billing/payments) dans la console. Sous Ajouter méthode de paiement, entrez les informations de facturation correspondant à votre nouvelle carte puis cliquez sur **Ajouter une carte de crédit**.
+Mettre à jour votre carte de crédit équivaut à ajouter une nouvelle carte. Accédez à [Paiements](https://{DomainName}/billing/payments) et, dans la section Ajouter méthode de paiement, entrez les informations de facturation correspondant à votre nouvelle carte puis cliquez sur **Ajouter une carte de crédit**.
 
 Pour utiliser une autre méthode de paiement, sélectionnez **Payer autrement** puis cliquez sur **Soumettre la demande de changement**. Un cas de support concernant le changement de méthode de paiement sera créé pour vous.
 
@@ -33,7 +33,7 @@ Pour utiliser une autre méthode de paiement, sélectionnez **Payer autrement** 
 
 La protection de votre identité étant une priorité pour nous, nous procédons à des vérifications sérieuses des cartes de crédit.
 
-Contactez-nous en appelant le numéro 1-866-325-0045 et en sélectionnant la troisième option.
+Contactez-nous en appelant le numéro 1-866-325-0045 et en sélectionnant la troisième option. Sinon, envoyez un courrier électronique à `verify@us.ibm.com` en y ajoutant votre IBMid et une copie du ou des messages d'erreur affichés. Vous ne devez pas communiquer vos informations de carte de crédit. 
 
 ## Comment appliquer un code de fonction promotionnel ?
 {: #entercode}
@@ -58,11 +58,13 @@ Pour annuler un compte Lite, sélectionnez **Gérer** > **Compte** > **Paramètr
 
 Contactez le [service de support {{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} pour ouvrir un cas de support et demander la suppression de votre compte. Si des données sont associées à votre ancien compte et que vous souhaitez les déplacer vers un nouveau compte, incluez ces informations dans votre message électronique.
 
+Les données de comptes supprimés ne sont pas récupérables. 
+
 ## A quelles formes de support peut-on accéder ?
 {: #contactsupport}
 {: faq}
 
-Cliquez sur **Support** dans la barre de menus de la console pour accéder au centre de support. Commencez par consulter la foire aux questions (FAQ). Si vous ne trouvez pas les réponses souhaitées, cliquez sur **Créer un cas** pour prendre contact avec l'équipe de support.   
+Cliquez sur **Support** dans la barre de menus de la console pour accéder au centre de support. Commencez par consulter la foire aux questions (FAQ). Si vous ne trouvez pas les réponses souhaitées, voir la section **Besoin d'aide ?** afin de contacter le support IBM Cloud. 
 
 ## Qu'est-ce qu'un Go/heure ?
 {: #gb-hour}
@@ -139,7 +141,7 @@ Oui, vous seul pouvez choisir votre dépense mensuelle ! Vous êtes libre de dé
 {: #subs-cancel-early}
 {: faq}
 
-Oui, vous pouvez annuler votre compte avant la fin de votre engagement mais le restant du montant total de votre abonnement est perdu.
+Un abonnement est un contrat entre vous et IBM qui vous engage à utiliser {{site.data.keyword.Bluemix_notm}} pour une durée et un montant spécifiques. Vous pouvez demander l'annulation de votre abonnement avant la fin de votre engagement, mais l'acceptation de cette demande est à la discrétion d'IBM. Tout crédit restant sur votre abonnement peut être perdu. Pour en savoir plus sur ce sujet, contactez le support. Prenez soin de préciser la raison pour laquelle vous avez besoin d'annuler votre abonnement. 
 
 
 ## Que se passe-t-il si j'atteins ma limite de dépenses avant la fin de mon engagement ?  
@@ -152,6 +154,12 @@ Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. 
 {: #monitor-spending}
 {: faq}
 Vous pouvez consulter votre utilisation mensuelle de contexte d'exécution et de services en cliquant sur **Gérer > Facturation et utilisation > Utilisation**. Pour plus d'informations, voir [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage).
+
+## Puis-je recevoir des notifications lorsque mes dépenses atteignent des niveaux spécifiques ?
+{: #spending-notify}
+{: faq}
+
+Vous pouvez définir des seuils de dépenses distincts pour le compte, le conteneur, l'environnement d'exécution, tous les services et certains services. Vous recevez automatiquement des notifications lorsque vos dépenses mensuelles atteignent 80 %, 90 % et 100 % de ces seuils. Pour définir des notifications relatives aux dépenses, cliquez sur **Gérer > Facturation et utilisation** et sélectionnez **Notifications relatives aux dépenses**. Pour plus d'informations, voir [Définition des notifications relatives aux dépenses](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Où puis-je accéder à ma facture ?
 {: #access-invoices}
