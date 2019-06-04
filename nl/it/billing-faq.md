@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-05-23"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
 subcollection: billing-usage
 
@@ -23,9 +23,9 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-Puoi aggiornare il metodo di pagamento associato al tuo account andando a [Pagamenti](https://cloud.ibm.com/billing/payments) nella console. In Aggiungi metodo di pagamento, immetti le informazioni di fatturazione per la tua nuova carta di credito e fai poi clic su **Aggiungi carta di credito**.
+Aggiornare la tua carta di credito è proprio come aggiungerne una nuova. Vai a [Pagamenti](https://{DomainName}/billing/payments) e nella sezione Aggiungi metodo di pagamento, immetti le informazioni di fatturazione per la tua nuova carta di credito e fai poi clic su **Aggiungi carta di credito**.
 
-Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e fai quindi clic su **Submit change request**. Un caso di supporto per modificare il tuo metodo di pagamento verrà creato per tuo conto. 
+Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e fai quindi clic su **Submit change request**. Un caso di supporto per modificare il tuo metodo di pagamento verrà creato per tuo conto.
 
 ## Perché la mia carta di credito non viene accettata?
 {: #addcard}
@@ -33,9 +33,9 @@ Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e 
 
 Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito.
 
-Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione. 
+Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione. In alternativa, puoi inviare un'email a `verify@us.ibm.com` e includere il tuo ID IBM e una copia di tutti i messaggi di errore visualizzati. Non includere le informazioni sulla carta di credito.
 
-## Come applico un codice funzione promozionale? 
+## Come applico un codice funzione promozionale?
 {: #entercode}
 {: faq}
 
@@ -47,9 +47,9 @@ Per gli acquisti di infrastrutture potresti ricevere una codice promozionale dal
 {: #cancelmyaccount}
 {: faq}
 
-Per gli account Pagamento a consumo o Sottoscrizione, il modo più rapido per annullare il tuo account è contattandoci tramite la [live chat](https://{DomainName}/unifiedsupport/supportcenter) oppure chiamando il numero 1-866-325-0045 e selezionando la terza opzione. In alternativa, puoi aprire un caso di supporto. 
+Per gli account Pagamento a consumo o Sottoscrizione, il modo più rapido per annullare il tuo account è contattandoci tramite la [live chat](https://{DomainName}/unifiedsupport/supportcenter) oppure chiamando il numero 1-866-325-0045 e selezionando la terza opzione. In alternativa, puoi aprire un caso di supporto.
 
-Per annullare un account Lite, vai a **Gestisci** > **Account** > **Impostazioni account** e fai clic su **Disattiva account**. 
+Per annullare un account Lite, vai a **Gestisci** > **Account** > **Impostazioni account** e fai clic su **Disattiva account**.
 
 
 ## Come posso eliminare il mio account?
@@ -58,11 +58,13 @@ Per annullare un account Lite, vai a **Gestisci** > **Account** > **Impostazioni
 
 Contatta il [Supporto {{site.data.keyword.Bluemix_notm}}![Icona link esterno](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} per aprire un caso di supporto e richiedere l'eliminazione del tuo account. Se hai dei dati associati al tuo account precedente che vuoi passare a un nuovo account, includi queste informazioni nell'e-mail.
 
+I dati negli account eliminati non sono ripristinabili.
+
 ## Come ottengo supporto?
 {: #contactsupport}
 {: faq}
 
-Fai clic su **Supporto** nella barra dei menu della console per accedere al Centro di supporto. Da qui, inizia avvalendoti dell'elenco di domande frequenti comuni. Se non trovi le risposte di cui hai bisogno, fai clic su **Crea un caso** per contattare il team di supporto.    
+Fai clic su **Supporto** nella barra dei menu della console per accedere al Centro di supporto. Da qui, inizia avvalendoti dell'elenco di domande frequenti comuni. Se non trovi le risposte di cui hai bisogno, vedi la sezione **Hai bisogno di ulteriore aiuto?** per contattare il supporto IBM Cloud.
 
 ## Che cosa è un GB-ora?
 {: #gb-hour}
@@ -72,20 +74,20 @@ L'utilizzo di runtime e contenitori viene addebitato in base alle seguenti varia
  • Quanta memoria il tuo runtime o contenitore utilizza, in gigabyte (GB)  
  • La durata in cui viene utilizzata la memoria
 
-Moltiplica questi due valori e il risultato sono GB-ore. 
+Moltiplica questi due valori e il risultato sono GB-ore.
 
 ## Quante applicazioni posso creare?
 {: #howmanyapps}
 {: faq}
 
-In un account Lite, le tue applicazioni devono avere fino a un massimo 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non utilizzi tutta la franchigia dell'account Lite disponibile. Se hai bisogno di ulteriore memoria, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale quantità. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
+In un account Lite, le tue applicazioni devono avere fino a un massimo 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non utilizzi tutta la franchigia dell'account Lite disponibile. Se hai bisogno di ulteriore memoria, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale limite. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
 
 
 ## Cosa succede se la mia istanza del piano Lite raggiunge la quota mensile?
 {: #monthlyquota}
 {: faq}
 
-Quando raggiungi un qualsiasi limite di quota per le istanze del piano Lite, il servizio viene sospeso per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione mostrano qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
+Quando raggiungi un qualsiasi limite di quota per le istanze del piano Lite, il servizio viene sospeso per quel mese. I limiti di quota sono per organizzazione e non per istanza. Le nuove istanze create nella stessa organizzazione mostrano qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
 
 
 ## Cosa posso ordinare con il mio account Sottoscrizione?
@@ -108,7 +110,7 @@ Per qualificarti per uno sconto sul prezzo, devi impegnarti per una spesa e un i
 
 Sì, devi spendere un minimo di $ 100,00 USD ogni mese.
 
-## Come aggiungo il credito di sottoscrizione al mio account? 
+## Come aggiungo il credito di sottoscrizione al mio account?
 {: #subscriptioncode}
 {: faq}
 
@@ -139,7 +141,7 @@ Sì, quello che spendi mensilmente dipende da te. Puoi spendere qualsiasi quanti
 {: #subs-cancel-early}
 {: faq}
 
-Sì, puoi annullare il tuo account prima che scada il tuo termine, ma la parte residua della quantità di sottoscrizione totale andrà persa.
+Una sottoscrizione è un contratto tra te e IBM che ti impegna a utilizzare {{site.data.keyword.Bluemix_notm}} per una quantità di spesa e un periodo specifici. Puoi richiedere di annullare la tua sottoscrizione prima del termine del periodo, ma se la sottoscrizione può essere annullata o meno è a discrezione di IBM. Tutto il credito rimanente sulla tua sottoscrizione può essere restituito. Per informazioni su questa possibilità, contatta il supporto. Assicurati di fornire i dettagli sul motivo per cui devi annullare la tua sottoscrizione.
 
 
 ## Cosa succede se raggiungo il mio impegno di spesa prima della fine del mio termine?  
@@ -148,19 +150,25 @@ Sì, puoi annullare il tuo account prima che scada il tuo termine, ma la parte r
 
 Sei tenuto a continuare a pagare i tuoi addebiti mensili fino alla fine del tuo termine. Per evitare di generare degli addebiti da eccedenza, contatta il settore [Vendite di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}![Icona link esterno](../icons/launch-glyph.svg) per assistenza con la registrazione per una nuova sottoscrizione.
 
-## Come posso controllare le mie spese? 
+## Come posso controllare le mie spese?
 {: #monitor-spending}
 {: faq}
-Puoi visualizzare l'utilizzo mensile di runtime e servizi facendo clic su **Gestisci > Fatturazione e utilizzo > Utilizzo**. Ulteriori informazioni in [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage). 
+Puoi visualizzare l'utilizzo mensile di runtime e servizi facendo clic su **Gestisci > Fatturazione e utilizzo > Utilizzo**. Ulteriori informazioni in [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage).
+
+## Posso ricevere delle notifiche quando la mia spesa raggiunge dei livelli specifici?
+{: #spending-notify}
+{: faq}
+
+Puoi impostare delle soglie di spesa separate per l'account, il contenitore, il runtime e tutti i servizi e per servizi specifici. Ricevi automaticamente delle notifiche quando la tua spesa mensile raggiunge l'80%, il 90%, e il 100% di tali soglie. Per impostare delle notifiche di spesa, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **Notifiche di spesa**. Per ulteriori informazioni, vedi [Impostazione delle notifiche di spesa](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Dove posso accedere alla mia fattura?
 {: #access-invoices}
 {: faq}
 
-Dalla console, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **Fatture**. 
+Dalla console, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **Fatture**.
 
 ## Perché il mio utilizzo non corrisponde alla mia fattura?
 {: #usage-not-match-invoice}
 {: faq}
 
-Il tuo utilizzo potrebbe non corrispondere alla tua fattura perché i mesi utilizzati per confrontare l'utilizzo non sono gli stessi o non è stata selezionata la quantità totale di organizzazioni. Per ulteriori informazioni, vedi [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage). Se ancora non corrisponde, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un [caso di supporto](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg). 
+Il tuo utilizzo potrebbe non corrispondere alla tua fattura perché i mesi utilizzati per confrontare l'utilizzo non sono gli stessi o non è stata selezionata la quantità totale di organizzazioni. Per ulteriori informazioni, vedi [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage). Se ancora non corrisponde, contattaci chiamando il numero 1-866-325-0045 e scegliendo la terza opzione o aprendo un [caso di supporto](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg).

@@ -1,6 +1,6 @@
 {
     "updatecard": [
-      "aggiornamento della carta di credito ",
+      "aggiornamento della carta di credito",
       "modifica della mia carta di credito",
       "modifica del mio numero della carta di credito",
       "Come posso cambiare la mia carta di credito?",
@@ -94,12 +94,12 @@
       "Cosa mi è consentito ordinare con il mio account Sottoscrizione?"
     ],
     "subs-discount": [
-      "Come ottengo uno sconto su un account Sottoscrizione? ",
+      "Come ottengo uno sconto su un account Sottoscrizione?",
       "essere idoneo per lo sconto",
       "Posso ottenere uno sconto per un account Sottoscrizione?",
       "Esiste uno sconto per un account Sottoscrizione?",
-      "Come è possibile ottenere uno sconto su un account Sottoscrizione? ",
-      "Possono qualificarmi per uno sconto su un account Sottoscrizione? ",
+      "Come è possibile ottenere uno sconto su un account Sottoscrizione?",
+      "Possono qualificarmi per uno sconto su un account Sottoscrizione?",
       "ottieni uno sconto"
     ],
     "subs-minimum": [
@@ -116,7 +116,7 @@
       "codice funzione di sottoscrizione"
     ],
     "subs-overage": [
-      "Quanto mi viene addebitato se vado oltre? ",
+      "Quanto mi viene addebitato se vado oltre?",
       "Cosa mi viene addebitato se supero la quantità totale?",
       "Cosa mi viene addebitato se vado oltre?",
       "Cosa succede se supero il mio limite?",
@@ -132,10 +132,10 @@
       "Mi è consentito pagare in anticipo o in modo trimestrale?",
       "Posso pagare in anticipo o in modo trimestrale?",
       "pagamento in anticipo o in modo trimestrale",
-      "Come pago in anticipo o in modo trimestrale? ",
+      "Come pago in anticipo o in modo trimestrale?",
       "scambio dei pagamenti in anticipo o in modo trimestrale",
       "modifica del pagamento in anticipo o in modo trimestrale",
-      "in anticipo o in modo trimestrale "
+      "in anticipo o in modo trimestrale"
     ],
     "subs-spending": [
       "Mi è consentito spendere più o meno del mio impegno mensile?",
@@ -173,6 +173,12 @@
       "visualizza utilizzo servizio mensile",
       "visualizza utilizzo",
       "quanto ho speso"
+    ],
+    "spending-notify": [
+      "notifiche di spesa",
+      "ricevi avviso di spesa",
+      "imposta limite di spesa",
+      "imposta notifica di utilizzo"
     ],
     "access-invoices": [
       "Dov'è la mia fattura?",

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-05-23"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
 subcollection: billing-usage
 
@@ -23,7 +23,7 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-Para actualizar el método de pago asociado a su cuenta, vaya a [Pagos](https://cloud.ibm.com/billing/payments) en la consola. Bajo Añadir método de pago, especifique la información de facturación correspondiente a la nueva tarjeta y pulse **Añadir tarjeta de crédito**.
+Actualizar su tarjeta de crédito es igual que añadir una nueva. Vaya a [Pagos](https://{DomainName}/billing/payments), y en la sección Añadir método de pago, especifique la información de facturación correspondiente a la nueva tarjeta y pulse **Añadir tarjeta de crédito**.
 
 Para cambiar a otro método de pago, seleccione **Pagar con otro método** y luego pulse **Enviar solicitud de cambio**. Se creará automáticamente un caso de soporte para cambiar su método de pago.
 
@@ -33,7 +33,7 @@ Para cambiar a otro método de pago, seleccione **Pagar con otro método** y lue
 
 Proteger su identidad es una prioridad para nosotros, por ello nos tomamos la verificación de las tarjetas de crédito muy seriamente.
 
-Póngase en contacto con nosotros por teléfono en el 1-866-325-0045 y seleccione la tercera opción.
+Póngase en contacto con nosotros por teléfono en el 1-866-325-0045 y seleccione la tercera opción. Si lo prefiere, puede enviar un correo electrónico a `verify@us.ibm.com` e incluir su IBMid y una copia de los mensajes de error que aparecen. No incluya información sobre tarjeta de crédito.
 
 ## ¿Cómo se aplica un código de característica promocional?
 {: #entercode}
@@ -58,11 +58,13 @@ Para cancelar una cuenta Lite, vaya a **Gestionar** > **Cuenta** > **Configuraci
 
 Póngase en contacto con el [equipo de soporte de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} para abrir un caso de soporte y solicitar la supresión de su cuenta. Si tiene datos asociados con su antigua cuenta que desea moverlos a una nueva cuenta, incluya esta información en su correo electrónico.
 
+Los datos de las cuentas suprimidas no se pueden recuperar.
+
 ## ¿Cómo obtengo soporte?
 {: #contactsupport}
 {: faq}
 
-Pulse **Soporte** en la barra de menús de la consola para acceder al centro de soporte. Desde ahí, empiece por consultar la lista de preguntas frecuentes. Si no encuentra las respuestas que necesita, pulse **Crear un caso** para poderse en contacto con el equipo de soporte.   
+Pulse **Soporte** en la barra de menús de la consola para acceder al centro de soporte. Desde ahí, empiece por consultar la lista de preguntas frecuentes. Si no encuentra las respuestas que necesita, consulte la sección **¿Necesita más ayuda?** para ponerse en contacto con el equipo de soporte de IBM Cloud.
 
 ## ¿Qué es un GB hora?
 {: #gb-hour}
@@ -78,7 +80,7 @@ Multiplique los dos valores y el resultado es el valor de GB-hora.
 {: #howmanyapps}
 {: faq}
 
-En una cuenta Lite, sus apps disponen de hasta 256 MB de memoria de tiempo de ejecución instantánea. Puede desplegar apps hasta que utilice toda la concesión disponible de memoria de la cuenta Lite. Si necesita más memoria, actualice a una cuenta facturable para obtener 512 MB de memoria de tiempo de ejecución instantánea gratuita y pague solo cuando sobrepase este límite. No hay límites en el número de apps que puede compilar en una cuenta facturable.
+En una cuenta Lite, sus apps disponen de hasta 256 MB de memoria de tiempo de ejecución instantánea. Puede desplegar apps hasta que utilice toda la concesión disponible de memoria de la cuenta Lite. Si necesita más memoria, actualice a una cuenta facturable para obtener 512 MB de memoria de tiempo de ejecución instantánea gratuita y pague solo cuando sobrepase este límite. No existe ningún límite en cuando al número de apps que puede compilar en una cuenta facturable.
 
 
 ## ¿Qué sucede si mi instancia del plan Lite alcanza la cuota mensual?
@@ -139,7 +141,7 @@ Sí, lo que gaste mensualmente depende de usted. Puede gastar cualquier cantidad
 {: #subs-cancel-early}
 {: faq}
 
-Sí, puede cancelar su cuenta antes de que finalice el plazo, pero el resto de la cantidad total de Suscripción se perderá.
+Una suscripción es un contrato entre usted e IBM que le compromete a utilizar {{site.data.keyword.Bluemix_notm}} durante un periodo de tiempo determinado y a gastar una cantidad determinada. Puede solicitar la cancelación de su suscripción antes de que finalice el plazo, pero IBM decide si la suscripción se puede cancelar. Es posible que se pierda el crédito restante de su suscripción. Para consultar sobre esta posibilidad, póngase en contacto con el equipo de soporte. Asegúrese de proporcionar detalles sobre la razón por la que desea cancelar la suscripción.
 
 
 ## ¿Qué ocurre si llego a mi compromiso de gasto antes de que finalice mi término?  
@@ -152,6 +154,12 @@ Tendrá que seguir pagando sus cargos mensuales hasta el final del término. Par
 {: #monitor-spending}
 {: faq}
 Para ver el uso mensual de tiempo de ejecución y del servicio, pulse **Gestionar > Facturación y uso > Uso**. Encontrará más información en el apartado sobre [Visualización del uso](/docs/billing-usage?topic=billing-usage-viewingusage).
+
+## ¿Puedo recibir notificaciones cuando mi gasto alcance un determinado nivel?
+{: #spending-notify}
+{: faq}
+
+Puede definir umbrales de gasto separados para la cuenta, el contenedor, el tiempo de ejecución, todos los servicios y servicios específicos. Recibirá automáticamente notificaciones cuando su gasto mensual alcance el 80 %, el 90 % y el 100 % de estos umbrales. Para definir notificaciones sobre el gasto, pulse **Gestionar > Facturación y uso** y seleccione **Notificaciones de gasto**. Para obtener más información, consulte el apartado [Configuración de notificaciones de gastos](/docs/billing-usage?topic=billing-usage-spending).
 
 ## ¿Dónde puedo acceder a mi factura?
 {: #access-invoices}
