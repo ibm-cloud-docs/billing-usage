@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-06-03"
 
 keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
 
@@ -83,7 +83,7 @@ Viele Services schließen monatliche kostenfreie Leistungen ein. Die Nutzung von
 
 Im Modell mit einer einfachen Preisstufe wird der Einzelpreis durch die Preisstufe bestimmt, in die Ihr Nutzungsvolumen fällt. Der Gesamtpreis besteht aus der Menge multipliziert mit dem Einzelpreis in dieser Preisstufe. Dazu ein Beispiel:
 
-| Menge der Posten   | Einzelpreis für alle Posten |
+| Menge der Posten    | Einzelpreis für alle Posten |
 |---------------------|--------------------------|
 | Preisstufe 1: 1 - 1000    | $ 1 USD                   |
 | Preisstufe 2: 1001 - 2000 | $ 0,90 USD                |
@@ -94,7 +94,7 @@ Im Modell mit einer einfachen Preisstufe wird der Einzelpreis durch die Preisstu
 
 In der folgenden Tabelle sind die Gebühren dargestellt, die im Rahmen eines Plans anfallen, der auf dem Preismodell mit einfacher Preisstufe basiert:
 
-| Menge der Posten | Gebührenberechnung | Gesamtpreis |
+| Menge der Posten    | Gebührenberechnung | Gesamtpreis |
 |-------------------|--------------------|-------------|
 | 500               | 500 × 1 = 500      | $ 500 USD    |
 | 1500              | 1500 × 0,90 = 1350 | $ 1350 USD   |
@@ -108,7 +108,7 @@ In der folgenden Tabelle sind die Gebühren dargestellt, die im Rahmen eines Pla
 
 Im Modell mit gestaffelter Preisstufe sinkt der Einzelpreis bei einer höheren Nutzungsrate. Der Gesamtpreis besteht aus den kumulativen Gebühren für die einzelnen Nutzungsstufen, bestehend aus der Menge multipliziert mit dem Einzelpreis für die jeweilige Preisstufe. Dazu einige Beispiele:
 
-| Menge der Posten   |	Einzelpreis für Posten in dieser Preisstufe|
+| Menge der Posten    |	Einzelpreis für Posten in dieser Preisstufe|
 |---------------------|---------------------------------|
 | Preisstufe 1: 1 - 1000    |	$ 1 USD                          |
 | Preisstufe 2: 1001 - 2000 |	$ 0,90 USD                       |
@@ -119,7 +119,7 @@ Im Modell mit gestaffelter Preisstufe sinkt der Einzelpreis bei einer höheren N
 
 In der folgenden Tabelle sind die Gebühren dargestellt, die im Rahmen eines Plans anfallen, der auf dem Preismodell mit gestaffelter Preisstufe basiert:
 
-|Menge der Posten | Gebührenberechnung                                                               | Gesamtpreis |
+| Menge der Posten | Gebührenberechnung                                                               | Gesamtpreis |
 |------------------|----------------------------------------------------------------------------------|-------------|
 | 500              | 500 × 1 (Einzelpreis für Preisstufe 1) = 500                                            |	$ 500 USD    |
 | 1500             | (1000 × 1 (Einzelpreis für Preisstufe 1)) + (500 × 0,90 (Einzelpreis für Preisstufe 2)) = 1450 |	$ 1450 USD   |
@@ -133,7 +133,7 @@ In der folgenden Tabelle sind die Gebühren dargestellt, die im Rahmen eines Pla
 
 Im Preismodell mit Blockpreisstufen ist der Preis eine feste Gebühr für die genutzte Menge innerhalb einer Nutzungsstufe. Der Gesamtpreis besteht aus der Gebühr für die jeweilige Nutzungsstufe, unabhängig von der tatsächlichen Nutzung. Jede nachfolgende Preisstufe bietet ein niedrigeres Preis-Menge-Verhältnis. Dazu einige Beispiele:
 
-|Menge der Posten    |	Gesamtpreis für alle Posten |
+| Menge der Posten    |	Gesamtpreis für alle Posten |
 |---------------------|---------------------------|
 | Preisstufe 1: &lt;= 1000  |	$ 1000 USD                 |
 | Preisstufe 2: &lt;= 2000  |	$ 1900 USD                 |
@@ -144,7 +144,7 @@ Im Preismodell mit Blockpreisstufen ist der Preis eine feste Gebühr für die ge
 
 In der folgenden Tabelle sind die Gebühren dargestellt, die im Rahmen eines Plans anfallen, der auf dem Preismodell mit Blockpreisstufe basiert:
 
-|Menge der Posten | Gebührenberechnung                                                      | Gesamtpreis|
+| Menge der Posten | Gebührenberechnung                                                      | Gesamtpreis|
 |------------------|-------------------------------------------------------------------------|------------|
 | 500              | Die Anzahl der Posten fällt in die Preisstufe 1, d. h., der Gesamtpreis beträgt $ 1000 USD. | $ 1000 USD  |
 | 1500             | Die Anzahl der Posten fällt in die Preisstufe 2, d. h., der Gesamtpreis beträgt $ 1900 USD. | $ 1900 USD  |
