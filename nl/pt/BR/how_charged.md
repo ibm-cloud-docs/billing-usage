@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-06-03"
 
 keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
 
@@ -115,7 +115,7 @@ A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se bas
 
 No modelo de camada graduada, o preço unitário por camada diminui à medida que o seu nível de uso aumenta. O preço total são os encargos acumulativos para cada nível de uso, consistindo em sua quantidade multiplicada pelo preço unitário nessa camada, por exemplo:
 
-| Quantidade de itens   |	Preço unitário dos itens na camada|
+| Quantidade de itens   |	Preço unitário para itens na camada|
 |---------------------|---------------------------------|
 | Camada 1: 1 - 1.000    |	US$ 1                          |
 | Camada 2: 1.001 - 2.000 |	US$ 0,90                       |
@@ -126,7 +126,7 @@ No modelo de camada graduada, o preço unitário por camada diminui à medida qu
 
 A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se baseia em um modelo de precificação de camada graduada:
 
-|Quantidade de itens | Cálculo de encargo                                                               | Preço total |
+|Quantidade de itens | Cálculo de encargo                                                               | Preço Total |
 |------------------|----------------------------------------------------------------------------------|-------------|
 | 500              | 500 × 1 (preço unitário da Camada 1) = 500                                            |	US$ 500    |
 | 1.500             | (1000 × 1 (preço unitário da Camada 1) + (500 × 0,90 (preço unitário da Camada 2)) = 1450 |	US$ 1.450   |
@@ -151,7 +151,7 @@ No modelo de camada em bloco, o preço é um encargo definido pela quantidade ut
 
 A tabela a seguir ilustra o quanto do valor que você paga pelo seu plano se baseia em um modelo de precificação de camada em bloco:
 
-|Quantidade de itens | Cálculo de encargo                                                      | Preço total|
+|Quantidade de itens | Cálculo de encargo                                                      | Preço Total|
 |------------------|-------------------------------------------------------------------------|------------|
 | 500              | O número de itens se enquadra na Camada 1, assim o preço total é US$ 1.000. | US$ 1.000  |
 | 1.500             | O número de itens se enquadra na Camada 2, assim o preço total é US$ 1.900. | U$ 1.900  |

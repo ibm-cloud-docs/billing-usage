@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-06-03"
 
 keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
 
