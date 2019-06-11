@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-17"
+lastupdated: "2019-05-23"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -34,7 +34,9 @@ Para alternar para um método de pagamento diferente, selecione **Pagamento com 
 A proteção da sua identidade é uma prioridade para nós, portanto, levamos a verificação de cartão de
 crédito muito a sério.
 
-Entre em contato conosco, ligando para 1-866-325-0045 e selecionando a terceira opção.
+Entre em contato conosco, ligando para 1-866-325-0045 e selecionando a terceira opção. Como alternativa, é possível enviar um e-mail para `verify@us.ibm.com` e incluir seu IBMid
+e uma cópia de quaisquer mensagens de erro que forem exibidas. Não inclua nenhuma informação de cartão
+de crédito.
 
 ## Como aplico um código de recurso promocional?
 {: #entercode}
@@ -59,11 +61,13 @@ Para cancelar uma conta Lite, acesse **Gerenciar** > **Conta** > **Configuraçõ
 
 Entre em contato com o Suporte do [{{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} para abrir um caso de suporte e solicitar para excluir sua conta. Se você tem dados que estão associados à sua conta antiga e deseja salvá-los e movê-los para uma nova conta, inclua essas informações em seu e-mail.
 
+Os dados em contas excluídas não são recuperáveis.
+
 ## Como obter suporte?
 {: #contactsupport}
 {: faq}
 
-Clique em **Suporte** na barra de menus do console para acessar o Centro de suporte. Lá, inicie com a alavancagem da lista de FAQs comuns. Se você não localizar as respostas necessárias, clique em **Criar um caso** para entrar em contato com a equipe de suporte.   
+Clique em **Suporte** na barra de menus do console para acessar o Centro de suporte. Lá, inicie com a alavancagem da lista de FAQs comuns. Se você não encontrar as respostas que precisa, veja a seção **Precisa de mais ajuda?** para entrar em contato com o suporte do IBM Cloud.
 
 ## O que é GB/hora?
 {: #gb-hour}
@@ -80,16 +84,17 @@ Multiplique os dois valores juntos, e o resultado será o valor em GB/hora.
 {: faq}
 
 Em uma conta Lite, seus aplicativos têm até 256 MB de memória instantânea em tempo de execução. É
-possível implementar apps até que você utilize o abono da conta Lite disponível. Se você precisar de mais
-memória, faça upgrade para uma conta faturável para obter 512 MB de memória instantânea em tempo de
-execução grátis e pague somente pelo que você usar acima disso. Não há limites quanto ao número de aplicativos que você pode construir em uma conta faturável.
+possível implementar apps até que você utilize o abono da conta Lite disponível. Se você precisar de
+mais memória, faça upgrade para uma conta faturável para obter 512 MB de memória instantânea de tempo
+de execução grátis e pague somente pelo que você usar acima desse limite. Não há limite para o número
+de apps que você pode desenvolver em uma conta faturável.
 
 
 ## O que acontecerá se a instância do plano Lite atingir a minha cota mensal?
 {: #monthlyquota}
 {: faq}
 
-Atingir qualquer limite de cota para instâncias do plano Lite suspende o serviço para o mês em questão. Limites de cota são por organização, não por instância. Novas instâncias criadas na mesma organização refletem eventuais usos de instâncias anteriores. Os
+Atingir qualquer limite de cota para instâncias do plano Lite suspende o serviço para o mês em questão. Os limites de cota são por organização e não por instância. Novas instâncias criadas na mesma organização refletem eventuais usos de instâncias anteriores. Os
 limites de cota são reconfigurados no primeiro dia de cada mês.
 
 
@@ -146,7 +151,10 @@ Sim, o que você gasta mensalmente depende de você. É possível gastar qualque
 {: #subs-cancel-early}
 {: faq}
 
-Sim, é possível cancelar sua conta antes de seu prazo expirar, mas o restante de sua quantia total de Assinatura será perdido.
+Uma assinatura é um contrato entre você e a IBM que o compromete a usar {{site.data.keyword.Bluemix_notm}}
+para um prazo específico e uma quantia de gasto. É possível solicitar cancelar sua assinatura antes
+do término do prazo, mas se a assinatura poderá ser cancelada, fica a critério da IBM. Qualquer crédito restante na sua assinatura poderá prescrever. Para consultar sobre essa possibilidade, entre em contato
+com o suporte. Certifique-se de fornecer detalhes sobre o motivo pelo qual é necessário cancelar sua assinatura.
 
 
 ## O que acontecerá se eu atingir o meu compromisso de gastos antes do término do prazo?  
@@ -162,6 +170,15 @@ ajuda com a inscrição para uma nova assinatura.
 {: #monitor-spending}
 {: faq}
 É possível visualizar seu uso mensal de tempo de execução e de serviço clicando em **Gerenciar > Faturamento e uso > Uso**. Saiba mais em [Visualizando seu uso](/docs/billing-usage?topic=billing-usage-viewingusage).
+
+## Posso receber notificações quando meus gastos atingem níveis específicos?
+{: #spending-notify}
+{: faq}
+
+É possível configurar limites de gastos separados para a conta, contêiner, tempo de execução,
+todos os serviços e serviços específicos. Você recebe automaticamente as notificações quando seus
+gastos mensais atingem 80%, 90% e 100% desses limites. Para configurar notificações de gastos, clique
+em **Gerenciar > Faturamento e uso** e selecione **Notificações de gastos**. Para obter mais informações, consulte [Configurando notificações de gastos](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Onde posso acessar minha fatura?
 {: #access-invoices}

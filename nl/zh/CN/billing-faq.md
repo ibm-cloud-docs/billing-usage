@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-17"
+lastupdated: "2019-05-23"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -33,7 +33,7 @@ subcollection: billing-usage
 
 保护您的身份是我们的优先考虑事项，因此我们非常重视信用卡验证。
 
-请通过拨打 1-866-325-0045 并选择第三个选项来联系我们。
+请通过拨打 1-866-325-0045 并选择第三个选项来联系我们。或者，您可以向 `verify@us.ibm.com` 发送电子邮件，并包含您的 IBM 标识以及显示的任何错误消息的副本。不要包含任何信用卡信息。
 
 ## 如何应用促销特征代码？
 {: #entercode}
@@ -58,11 +58,13 @@ subcollection: billing-usage
 
 联系 [{{site.data.keyword.Bluemix_notm}} 支持人员 ![外部链接图标](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}，以打开一个支持案例，请求删除您的帐户。如果存在与旧帐户相关联的数据并且想要将其移动到新帐户，请在您的电子邮件中包含此信息。
 
+已删除帐户中的数据不可恢复。
+
 ## 如何获得支持？
 {: #contactsupport}
 {: faq}
 
-在控制台菜单栏中，单击**支持**以访问支持中心。在支持中心，先查看常见问题列表。如果找不到所需答案，请单击**创建案例**以便与支持团队联系。   
+在控制台菜单栏中，单击**支持**以访问支持中心。在支持中心，先查看常见问题列表。如果找不到所需答案，请查看**需要更多帮助？**部分以联系 IBM Cloud 支持人员。
 
 ## 什么是 GB-小时？
 {: #gb-hour}
@@ -78,7 +80,7 @@ subcollection: billing-usage
 {: #howmanyapps}
 {: faq}
 
-在轻量帐户中，应用程序最多可以具有 256 MB 的即时运行时内存。您可以持续部署应用程序，直到用尽了可用的轻量帐户限额。如果您需要更多内存，请升级到计费帐户，以获取 512 MB 的免费即时运行时内存，并且您只需针对超出此免费部分的使用量付费。可以在计费帐户中构建的应用程序数量没有限制。
+在轻量帐户中，应用程序最多可以具有 256 MB 的即时运行时内存。您可以持续部署应用程序，直到用尽了可用的轻量帐户限额。如果您需要更多内存，请升级到计费帐户，以获取 512 MB 的免费即时运行时内存，并且您只需针对超出此限制的使用量付费。可以在计费帐户中构建的应用程序数量没有限制。
 
 
 ## 轻量套餐实例达到每月配额时会发生什么情况？
@@ -139,7 +141,7 @@ subcollection: billing-usage
 {: #subs-cancel-early}
 {: faq}
 
-是的，您可以在期限到期前取消帐户，但是我们将扣留预订总额的剩余部分。
+预订是您与 IBM 之间的合同，在其中您承诺将使用 {{site.data.keyword.Bluemix_notm}} 特定期限并承诺特定花费金额。您可以在期限结束前请求取消预订，但是否可以取消预订由 IBM 决定。您可能会失去预订中的所有剩余信用值。要询问有关这种可能性的信息，请联系支持人员。请确保提供有关为什么需要取消预订的详细信息。
 
 
 ## 如果我在期限结束前已经达到承诺的花费金额，将发生什么情况？  
@@ -152,6 +154,12 @@ subcollection: billing-usage
 {: #monitor-spending}
 {: faq}
 您可以通过单击**管理 > 计费和使用情况 > 使用情况**来查看每月运行时和服务使用情况。要了解更多信息，请参阅[查看使用情况](/docs/billing-usage?topic=billing-usage-viewingusage)。
+
+## 我的花费达到特定水平时，会收到相应通知吗？
+{: #spending-notify}
+{: faq}
+
+您可以为帐户、容器、运行时、所有服务和特定服务分别设置花费限额。每月花费达到这些限额的 80%、90% 和 100% 时，您会自动收到通知。要设置花费通知，请单击**管理 > 计费和使用情况**，然后选择**花费通知**。有关更多信息，请参阅[设置花费通知](/docs/billing-usage?topic=billing-usage-spending)。
 
 ## 在哪里可以访问我的发票？
 {: #access-invoices}

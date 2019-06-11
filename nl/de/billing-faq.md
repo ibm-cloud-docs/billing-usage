@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-17"
+lastupdated: "2019-05-23"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -23,7 +23,7 @@ subcollection: billing-usage
 {: #updatecard}
 {: faq}
 
-Die Vorgehensweise beim Aktualisieren der Kreditkarte entspricht der beim Hinzufügen einer neuen Kreditkarte. Rufen Sie [Zahlungen](https://{DomainName}/billing/payments) auf und geben Sie im Abschnitt für das Hinzufügen einer Zahlungsmethode die Abrechnungsinformationen für die neue Karte ein. Klicken Sie anschließend auf **Kreditkarte hinzufügen**. 
+Die Vorgehensweise beim Aktualisieren der Kreditkarte entspricht der beim Hinzufügen einer neuen Kreditkarte. Rufen Sie [Zahlungen](https://{DomainName}/billing/payments) auf und geben Sie im Abschnitt für das Hinzufügen einer Zahlungsmethode die Abrechnungsinformationen für die neue Karte ein. Klicken Sie anschließend auf **Kreditkarte hinzufügen**.
 
 Wenn Sie zu einer anderen Zahlungsmethode wechseln möchten, wählen Sie die Option für eine **Andere Zahlungsmethode** aus und klicken Sie auf **Änderungsanforderung senden**. Ein Supportfall zum Ändern Ihrer Zahlungsmethode wird für Sie erstellt.
 
@@ -33,7 +33,7 @@ Wenn Sie zu einer anderen Zahlungsmethode wechseln möchten, wählen Sie die Opt
 
 Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir die Kreditkartenprüfung ernst.
 
-Wenden Sie sich unter der Nummer 1-866-325-0045 an uns und wählen Sie dritte Option aus.
+Wenden Sie sich unter der Nummer 1-866-325-0045 an uns und wählen Sie dritte Option aus. Alternativ dazu können Sie eine E-Mail mit Ihrer IBMid sowie einer Kopie von gegebenenfalls angezeigten Fehlernachrichten an `verify@us.ibm.com` senden. Geben Sie keine Kreditkarteninformationen an. 
 
 ## Wie wende ich einen Werbeaktionscode an?
 {: #entercode}
@@ -58,11 +58,13 @@ Zum Stornieren eines Lite-Kontos rufen Sie **Verwalten** > **Konto** > **Kontoei
 
 Wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support ![Symbol für externen Link](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}, um einen Supportfall für das Löschen Ihres Kontos zu öffnen. Wenn Sie über Daten verfügen, die Ihrem alten Konto zugeordnet sind, die jedoch in ein neues Konto übernommen werden sollen, dann geben Sie die entsprechenden Informationen in Ihrer E-Mail an.
 
+Daten in gelöschten Konten können nicht wiederhergestellt werden. 
+
 ## Wie erhalte ich Unterstützung?
 {: #contactsupport}
 {: faq}
 
-Klicken Sie in der Menüleiste der Konsole auf **Support**, um zum Support Center zu gelangen. Überprüfen Sie dort zunächst die Liste der allgemeinen FAQs. Wenn Sie dort keine Antwort finden, die Ihnen weiterhilft, klicken Sie auf **Fall erstellen**, um sich an das Support-Team zu wenden.   
+Klicken Sie in der Menüleiste der Konsole auf **Support**, um zum Support Center zu gelangen. Überprüfen Sie dort zunächst die Liste der allgemeinen FAQs. Wenn Sie dort keine Antworten finden, die Ihnen weiterhelfen, lesen Sie im Abschnitt **Sie benötigen weitere Hilfe?** die Informationen zur Kontaktaufnahme mit dem IBM Cloud-Support.
 
 ## Was ist eine GB-Stunde?
 {: #gb-hour}
@@ -78,7 +80,7 @@ Eine GB-Stunde ist das Ergebnis der Multiplikation dieser beiden Werte.
 {: #howmanyapps}
 {: faq}
 
-Bei einem Lite-Konto verfügen Ihre Apps über bis zu 256 MB sofort verfügbaren Laufzeitspeicher. Sie können Apps bereitstellen, bis Sie das verfügbare Lite-Konten-Kontingent aufgebraucht haben. Wenn Sie mehr Speicher benötigen, führen Sie ein Upgrade auf ein gebührenpflichtiges Konto durch, um 512 MB freien, sofort verfügbaren Laufzeitspeicher zu erhalten und nur für das zu bezahlen, was Sie darüber hinaus nutzen. Die Anzahl der Apps, die Sie in einem gebührenpflichtigen Konto erstellen können, ist unbegrenzt.
+Bei einem Lite-Konto verfügen Ihre Apps über bis zu 256 MB sofort verfügbaren Laufzeitspeicher. Sie können Apps bereitstellen, bis Sie das verfügbare Lite-Konten-Kontingent aufgebraucht haben. Wenn Sie mehr Speicher benötigen, führen Sie ein Upgrade auf ein gebührenpflichtiges Konto durch, um 512 MB freien, sofort verfügbaren Laufzeitspeicher zu erhalten und nur für das zu bezahlen, was Sie über diesen Grenzwert hinaus nutzen. Die Anzahl der Apps, die Sie in einem gebührenpflichtigen Konto erstellen können, ist unbegrenzt.
 
 
 ## Was passiert, wenn meine Lite-Planinstanz das monatliche Kontingent erreicht?
@@ -139,7 +141,7 @@ Ja. Sie können die monatliche Ausgabe nach Bedarf bestimmen. Jeden Monat kann e
 {: #subs-cancel-early}
 {: faq}
 
-Ja. Das Konto kann vor Ablauf der Laufzeit gekündigt werden. Der Rest des Gesamtbetrags für das Abonnement verfällt in diesem Fall jedoch.
+Ein Abonnement ist ein Vertrag zwischen Ihnen und IBM, der die Verwendung von {{site.data.keyword.Bluemix_notm}} für eine bestimmte Laufzeit und einen bestimmten Ausgabebetrag festschreibt. Sie können die Stornierung des Abonnements vor dem Ende der Laufzeit anfordern, es liegt jedoch im Ermessen von IBM, ob das Abonnement storniert werden kann. Gegebenenfalls im Abonnement noch vorhandenes Guthaben kann verfallen. Wenden Sie sich an den Support, um Informationen zu dieser Möglichkeit zu erhalten. Die Angabe von Details zum Grund der Stornierung des Abonnements ist erforderlich. 
 
 
 ## Was passiert, wenn die Ausgabeverpflichtung vor dem Ende der Laufzeit erreicht wird?  
@@ -152,6 +154,12 @@ Sie müssen die monatlichen Gebühren weiterhin bis zum Ende der Laufzeit bezahl
 {: #monitor-spending}
 {: faq}
 Sie können die monatliche Laufzeit- und Servicenutzung anzeigen, indem Sie auf **Verwalten > Abrechnung und Nutzung > Nutzung** klicken. Weitere Informationen finden Sie in [Nutzung anzeigen](/docs/billing-usage?topic=billing-usage-viewingusage).
+
+## Kann ich Benachrichtigungen erhalten, wenn die Ausgaben bestimmte Schwellenwerte erreichen?
+{: #spending-notify}
+{: faq}
+
+Sie können separate Ausgabenschwellenwerte für das Konto, den Container, die Laufzeit, alle Services und bestimmte Services festlegen. Sie erhalten automatisch Benachrichtigungen, wenn die monatlichen Ausgaben 80 %, 90 % und 100 % dieser Schwellenwerte erreichen. Klicken Sie zum Festlegen von Benachrichtigungen über Ausgaben auf **Verwalten > Abrechnung und Nutzung ** und wählen Sie **Benachrichtigungen über Ausgaben** aus. Weitere Informationen hierzu finden Sie unter [Ausgabebenachrichtigungen einstellen](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Wie erhalte ich Zugriff auf die Rechnung?
 {: #access-invoices}
