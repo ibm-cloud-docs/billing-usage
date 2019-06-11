@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-17"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -33,7 +33,7 @@ Per passare a un metodo di pagamento differente, seleziona **Pay with Other** e 
 
 Proteggere la tua identità è una priorità per noi, quindi prendiamo seriamente la verifica della carta di credito.
 
-Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione. In alternativa, puoi inviare un'email a `verify@us.ibm.com` e includere il tuo ID IBM e una copia di tutti i messaggi di errore visualizzati. Non includere le informazioni sulla carta di credito.
+Contattaci chiamando il numero 1-866-325-0045 e selezionando la terza opzione.
 
 ## Come applico un codice funzione promozionale?
 {: #entercode}
@@ -58,13 +58,11 @@ Per annullare un account Lite, vai a **Gestisci** > **Account** > **Impostazioni
 
 Contatta il [Supporto {{site.data.keyword.Bluemix_notm}}![Icona link esterno](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} per aprire un caso di supporto e richiedere l'eliminazione del tuo account. Se hai dei dati associati al tuo account precedente che vuoi passare a un nuovo account, includi queste informazioni nell'e-mail.
 
-I dati negli account eliminati non sono ripristinabili.
-
 ## Come ottengo supporto?
 {: #contactsupport}
 {: faq}
 
-Fai clic su **Supporto** nella barra dei menu della console per accedere al Centro di supporto. Da qui, inizia avvalendoti dell'elenco di domande frequenti comuni. Se non trovi le risposte di cui hai bisogno, vedi la sezione **Hai bisogno di ulteriore aiuto?** per contattare il supporto IBM Cloud.
+Fai clic su **Supporto** nella barra dei menu della console per accedere al Centro di supporto. Da qui, inizia avvalendoti dell'elenco di domande frequenti comuni. Se non trovi le risposte di cui hai bisogno, fai clic su **Crea un caso** per contattare il team di supporto.   
 
 ## Che cosa è un GB-ora?
 {: #gb-hour}
@@ -80,14 +78,14 @@ Moltiplica questi due valori e il risultato sono GB-ore.
 {: #howmanyapps}
 {: faq}
 
-In un account Lite, le tue applicazioni devono avere fino a un massimo 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non utilizzi tutta la franchigia dell'account Lite disponibile. Se hai bisogno di ulteriore memoria, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale limite. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
+In un account Lite, le tue applicazioni devono avere fino a un massimo 256 MB di memoria di runtime istantanea. Puoi distribuire le applicazioni finché non utilizzi tutta la franchigia dell'account Lite disponibile. Se hai bisogno di ulteriore memoria, esegui l'aggiornamento a un account fatturabile per ottenere 512 MB di memoria di runtime istantanea gratuita e pagare solo per quello che usi oltre tale quantità. Non ci sono limiti al numero di applicazioni che puoi creare in un account fatturabile.
 
 
 ## Cosa succede se la mia istanza del piano Lite raggiunge la quota mensile?
 {: #monthlyquota}
 {: faq}
 
-Quando raggiungi un qualsiasi limite di quota per le istanze del piano Lite, il servizio viene sospeso per quel mese. I limiti di quota sono per organizzazione e non per istanza. Le nuove istanze create nella stessa organizzazione mostrano qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
+Quando raggiungi un qualsiasi limite di quota per le istanze del piano Lite, il servizio viene sospeso per quel mese. I limiti di quota sono per organizzazione, non per istanza. Le nuove istanze create nella stessa organizzazione mostrano qualsiasi utilizzo dalle istanze precedenti. I limiti di quota sono reimpostati il primo di ogni mese.
 
 
 ## Cosa posso ordinare con il mio account Sottoscrizione?
@@ -141,7 +139,7 @@ Sì, quello che spendi mensilmente dipende da te. Puoi spendere qualsiasi quanti
 {: #subs-cancel-early}
 {: faq}
 
-Una sottoscrizione è un contratto tra te e IBM che ti impegna a utilizzare {{site.data.keyword.Bluemix_notm}} per una quantità di spesa e un periodo specifici. Puoi richiedere di annullare la tua sottoscrizione prima del termine del periodo, ma se la sottoscrizione può essere annullata o meno è a discrezione di IBM. Tutto il credito rimanente sulla tua sottoscrizione può essere restituito. Per informazioni su questa possibilità, contatta il supporto. Assicurati di fornire i dettagli sul motivo per cui devi annullare la tua sottoscrizione.
+Sì, puoi annullare il tuo account prima che scada il tuo termine, ma la parte residua della quantità di sottoscrizione totale andrà persa.
 
 
 ## Cosa succede se raggiungo il mio impegno di spesa prima della fine del mio termine?  
@@ -154,12 +152,6 @@ Sei tenuto a continuare a pagare i tuoi addebiti mensili fino alla fine del tuo 
 {: #monitor-spending}
 {: faq}
 Puoi visualizzare l'utilizzo mensile di runtime e servizi facendo clic su **Gestisci > Fatturazione e utilizzo > Utilizzo**. Ulteriori informazioni in [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage).
-
-## Posso ricevere delle notifiche quando la mia spesa raggiunge dei livelli specifici?
-{: #spending-notify}
-{: faq}
-
-Puoi impostare delle soglie di spesa separate per l'account, il contenitore, il runtime e tutti i servizi e per servizi specifici. Ricevi automaticamente delle notifiche quando la tua spesa mensile raggiunge l'80%, il 90%, e il 100% di tali soglie. Per impostare delle notifiche di spesa, fai clic su **Gestisci > Fatturazione e utilizzo** e seleziona **Notifiche di spesa**. Per ulteriori informazioni, vedi [Impostazione delle notifiche di spesa](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Dove posso accedere alla mia fattura?
 {: #access-invoices}

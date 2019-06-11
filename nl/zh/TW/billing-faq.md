@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-17"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
 
@@ -33,7 +33,7 @@ subcollection: billing-usage
 
 保護您的身分是我們的首要任務，因此，我們很嚴肅看待信用卡驗證。
 
-請致電 1-866-325-0045 並選取第三個選項與我們聯絡。或者，您可以透過電子郵件寄送到 `verify@us.ibm.com`，並包含您的 IBM ID 及所有顯示錯誤訊息的副本。請勿包含任何信用卡資訊。
+請致電 1-866-325-0045 並選取第三個選項與我們聯絡。
 
 ## 如何套用促銷特性碼？
 {: #entercode}
@@ -58,13 +58,11 @@ subcollection: billing-usage
 
 請與 [{{site.data.keyword.Bluemix_notm}} 支援中心 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} 聯絡以開立支援案例，並要求刪除您的帳戶。如果您的資料與舊帳戶相關聯並且要移至新帳戶，請在電子郵件中包含此資訊。
 
-已刪除帳戶中的資料無法回復。
-
 ## 如何取得支援？
 {: #contactsupport}
 {: faq}
 
-按一下主控台功能表列中的**支援**，以存取「支援中心」。從這裡開始運用常見問題清單。如果找不到您需要的答案，請參閱**需要其他協助嗎？**一節，以便與 IBM Cloud 支援中心聯絡。
+按一下主控台功能表列中的**支援**，以存取「支援中心」。從這裡開始運用常見問題清單。如果找不到您需要的答案，請按一下**建立案例**來與支援團隊取得聯繫。   
 
 ## 什麼是 GB-小時？
 {: #gb-hour}
@@ -80,7 +78,7 @@ subcollection: billing-usage
 {: #howmanyapps}
 {: faq}
 
-在「精簡」帳戶中，您的應用程式可以有最多 256 MB 的瞬間運行環境記憶體。在您用完可用的「精簡」帳戶額度之前，都可以部署應用程式。如果您需要更多記憶體，請升級至計費帳戶，以獲得 512 MB 的免費瞬間運行環境記憶體，並且僅針對使用超過該限的部分進行付款。您可以在計費帳戶中建置的應用程式數目沒有任何限制。
+在「精簡」帳戶中，您的應用程式可以有最多 256 MB 的瞬間運行環境記憶體。在您用完可用的「精簡」帳戶額度之前，都可以部署應用程式。如果您需要更多記憶體，請升級至計費帳戶，以獲得 512 MB 的免費瞬間運行環境記憶體，並且僅針對使用超過該額度的部分進行付款。您可以在計費帳戶中建置的應用程式數目沒有任何限制。
 
 
 ## 若精簡方案實例達到每月配額時會發生什麼情況？
@@ -141,7 +139,7 @@ subcollection: billing-usage
 {: #subs-cancel-early}
 {: faq}
 
-訂閱是您與 IBM 之間的合約，允許您在特定期限及消費金額內使用 {{site.data.keyword.Bluemix_notm}}。您可以在期限結束之前要求取消訂閱，但是否可以取消訂閱則由 IBM 自行決定。訂閱的所有剩餘額度可能會被沒收。若要查詢這種可能性，請與支援中心聯絡。請確定您提供了為何需要取消訂閱的詳細資料。
+可以，您可以在期限到期之前取消帳戶，但會喪失剩餘的「訂閱」總金額。
 
 
 ## 如果在我的期限到期之前達到消費承諾，會發生什麼情況？  
@@ -154,12 +152,6 @@ subcollection: billing-usage
 {: #monitor-spending}
 {: faq}
 您可以藉由按一下**管理 > 計費及用量 > 用量**，檢視每月運行環境及服務用量。請在[檢視用量](/docs/billing-usage?topic=billing-usage-viewingusage)中進一步瞭解。
-
-## 可以在我的消費達到特定層次時收到通知嗎？
-{: #spending-notify}
-{: faq}
-
-您可以針對帳戶、容器、運行環境、所有服務及特定服務設定個別的消費臨界值。當您的每月消費達到這些臨界值的 80%、90% 及 100% 時，就會自動收到通知。若要設定消費通知，請按一下**管理 > 計費及用量**，然後選取**消費通知**。如需相關資訊，請參閱[設定消費通知](/docs/billing-usage?topic=billing-usage-spending)。
 
 ## 哪裡可以存取我的發票？
 {: #access-invoices}
