@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-06-03"
 
 keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
 
@@ -103,7 +103,7 @@ dal livello in cui rientra la quantità da te utilizzata. Il prezzo totale è ta
 La seguente tabella
 illustra quanto paghi con un piano basato su un modello di prezzi di livello semplice:
 
-| Quantità di elementi | Calcolo dell'addebito | Prezzo totale |
+| Quantità di elementi   | Calcolo dell'addebito | Prezzo totale |
 |-------------------|--------------------|-------------|
 | 500               | 500 × 1 = 500      | $500 USD    |
 | 1500              | 1500 × 0,90 = 1350 | $1350 USD   |
@@ -130,7 +130,7 @@ man mano che il tuo livello di utilizzo aumenta. Il prezzo totale è dato dagli 
 La seguente tabella
 illustra quanto paghi con un piano basato su un modello di prezzi di livello graduale:
 
-|Quantità di elementi | Calcolo dell'addebito                                                               | Prezzo totale |
+| Quantità di elementi   | Calcolo dell'addebito                                                               | Prezzo totale |
 |------------------|----------------------------------------------------------------------------------|-------------|
 | 500              | 500 × 1 (prezzo unitario per il livello 1) = 500                                            |	$500 USD    |
 | 1500             | (1000 × 1 (prezzo unitario per il livello 1)) + (500 × 0,90 (prezzo unitario per il livello 2)) = 1450 |	$1450 USD   |
@@ -146,7 +146,7 @@ Nel modello di livello a blocchi, il prezzo è un addebito fisso per la
 quantità da te impiegata entro uno specifico livello di utilizzo. Il prezzo totale è l'addebito per il tuo livello di utilizzo, indipendentemente dal tuo utilizzo effettivo. Ogni livello
 successivo fornisce un rapporto prezzo-quantità più basso. Ad esempio:
 
-|Quantità di elementi    |	Prezzo totale per tutti gli elementi |
+| Quantità di elementi   |	Prezzo totale per tutti gli elementi |
 |---------------------|---------------------------|
 | Livello 1: &lt;= 1000  |	$1000 USD                 |
 | Livello 2: &lt;= 2000  |	$1900 USD                 |
@@ -158,7 +158,7 @@ successivo fornisce un rapporto prezzo-quantità più basso. Ad esempio:
 La seguente tabella
 illustra quanto paghi con un piano basato su un modello di prezzi di livello a blocchi:
 
-|Quantità di elementi | Calcolo dell'addebito                                                      | Prezzo totale|
+| Quantità di elementi   | Calcolo dell'addebito                                                      | Prezzo totale|
 |------------------|-------------------------------------------------------------------------|------------|
 | 500              | Il numero di elementi rientra nel livello 1, quindi
 il prezzo totale è $1000 USD. | $1000 USD  |
