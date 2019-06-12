@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-09"
+lastupdated: "2019-06-11"
 
-keywords: troubleshoot billing, billing error, payment error, error message
+keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 
 subcollection: billing-usage
 
@@ -47,4 +47,19 @@ Check your access by completing the following steps:
   4. Click **Cloud Foundry access** and expand the rows for your assigned orgs to see whether you have an Account owner or Billing manager role.
 
 For more information about IAM access, see [Cloud IAM roles](/docs/iam?topic=iam-userroles). And, for more information about Cloud Foundry access, see [Cloud Foundry roles](/docs/iam?topic=iam-cfaccess).
+{: tsResolve}
+
+
+## Why can't I apply a feature code?
+{: #cannot-apply-feature-code}
+{: troubleshoot}
+
+When you try to apply a feature code, you see an error that states that the code cannot be applied.
+{: tsSymptoms}
+
+Your account doesn't meet the requirements for the feature code, or you don't have the required access level in the account.
+{: tsCauses}
+
+- Verify you have the correct account type. For example, some feature codes for educational promotions are only for Lite accounts. To view your account type, go to **Manage > Account**, and select **Account settings**. For details, see [Applying feature codes](/docs/account?topic=account-codes).
+- Verify that you have access to apply the feature code. To apply any feature code, you must have an Editor role or higher on all account management services. To review or change roles, see [Assigning access to account management services](/docs/iam?topic=iam-account-services).
 {: tsResolve}
