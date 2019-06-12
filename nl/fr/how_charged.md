@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-06-03"
 
 keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
 
@@ -98,7 +98,7 @@ Dans le modèle à tranches simples, le prix unitaire est déterminé par la tra
 
 Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie sur un modèle de tarification à tranches simples :
 
-| Quantité d'éléments | Calcul du prix | Prix total |
+| Quantité d'éléments   | Calcul du prix | Prix total |
 |-------------------|--------------------|-------------|
 | 500               | 500 × 1 = 500      | 500 $    |
 | 1500              | 1500 × 0,90 = 1350 | 1350 $   |
@@ -123,7 +123,7 @@ Dans le modèle à tranches graduées, le prix unitaire par tranche diminue à m
 
 Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie sur un modèle de tarification à tranches graduées :
 
-|Quantité d'éléments | Calcul du prix                                                               | Prix total |
+| Quantité d'éléments   | Calcul du prix                                                               | Prix total |
 |------------------|----------------------------------------------------------------------------------|-------------|
 | 500              | 500 × 1 (prix unitaire pour la tranche 1) = 500                                            |	500 $    |
 | 1500             | (1000 × 1 (prix unitaire pour la tranche 1)) + (500 × 0.90 (prix unitaire pour la tranche 2)) = 1450 |	1450 $   |
@@ -137,7 +137,7 @@ Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie s
 
 Dans le modèle à tranches fixes, le prix est fixe pour la quantité que vous utilisez dans le cadre d'un niveau d'utilisation. Le prix total correspond aux frais pour votre niveau d'utilisation, quelle que soit votre utilisation réelle. Chaque tranche suivante propose un rapport prix/quantité inférieur. Exemple :
 
-|Quantité d'éléments    |	Prix total pour tous les éléments |
+| Quantité d'éléments   |	Prix total pour tous les éléments |
 |---------------------|---------------------------|
 | Tranche 1 : &lt;= 1000  |	1000 $                 |
 | Tranche 2 : &lt;= 2000  |	1900 $                 |
@@ -148,7 +148,7 @@ Dans le modèle à tranches fixes, le prix est fixe pour la quantité que vous u
 
 Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie sur un modèle de tarification à tranches fixes :
 
-|Quantité d'éléments | Calcul du prix                                                      | Prix total|
+| Quantité d'éléments   | Calcul du prix                                                      | Prix total|
 |------------------|-------------------------------------------------------------------------|------------|
 | 500              | Le nombre d'éléments correspond à la tranche 1 ; par conséquent, le prix total est 1000 $. | 1000 $  |
 | 1500             | Le nombre d'éléments correspond à la tranche 2 ; par conséquent, le prix total est 1900 $. | 1900 $  |
