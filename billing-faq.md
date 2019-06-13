@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-13"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -47,10 +47,12 @@ For infrastructure purchases, you might receive a promo code from the Sales team
 {: #cancelmyaccount}
 {: faq}
 
-For Pay-As-You-Go or Subscription accounts, the quickest way to cancel your account is to contact us through [live chat](https://{DomainName}/unifiedsupport/supportcenter) or by calling 1-866-325-0045 and selecting the third option. Alternatively, you can open a support case.
+We're sad to see you go! If there's any way we can assist you with your account before you go, reach out to us by contacting support.
 
-To cancel a Lite account, go to **Manage** > **Account** > **Account settings**, and click **Deactivate Account**.
+If you do decide to leave, how you cancel your account depends on your account type. You can check your account type by going to [Account settings](https://cloud.ibm.com/account/settings) and looking under _Account Type_.
 
+* For Pay-As-You-Go or Subscription accounts, the quickest way to cancel your account is to contact us through [live chat](https://{DomainName}/unifiedsupport/supportcenter) or by calling 1-866-325-0045 and selecting the third option. Alternatively, you can open a support case.
+* To cancel a Lite account, go to [Account settings](https://{DomainName}/account/settings) and click **Deactivate account**.
 
 ## How do I delete my account?
 {: #deleteaccount}
@@ -148,7 +150,7 @@ A subscription is a contract between you and IBM that commits you to use {{site.
 {: #subs-spend-before-term-end}
 {: faq}
 
-You're required to continue paying your monthly charges until the end of your term. To avoid generating overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg) for help with signing up for a new Subscription.
+You're required to continue paying your monthly charges until the end of your term. To avoid generating overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg) for help with signing up for a new subscription.
 
 ## How can I monitor spending?
 {: #monitor-spending}
@@ -165,7 +167,9 @@ You can set separate spending thresholds for the account, container, runtime, al
 {: #access-invoices}
 {: faq}
 
-From the console, click **Manage > Billing and usage**, and select **Invoices**.
+If you have a Pay-As-You-Go or Suscription account, you can view your invoice by clicking **Manage > Billing and usage**, and selecting **Invoices**. Outside of the console, you can also view invoices on the [Customer Support Invoices site](https://www.ibm.com/invoices){: new_window} ![External link icon](../icons/launch-glyph.svg).
+
+Lite accounts don't have invoices because you're never charged for Lite plan usage.
 
 ## Why does my usage not match my invoice?
 {: #usage-not-match-invoice}
