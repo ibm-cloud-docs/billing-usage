@@ -23,6 +23,16 @@ Managing billing and usage
         infra_usage.md
     {: .navgroup-end}
 
+    {: .navgroup id="reference"}
+    [Command reference](/cli/cloud-cli-ibmcloud_billing)
+
+    {: .topicgroup}
+    API reference
+        [Usage Metering](https://{DomainName}/apidocs/usage-metering){: new_window}
+        [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: new_window}
+
+    {: .navgroup-end}
+
     {: .navgroup id="help"}
     billing-faq.md
     ts_billing.md
