@@ -4,7 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-06-18"
 
-keywords: pricing, billing, best practices, usage, cli, automate, api
+keywords: best practice billing, best practice usage, automate billing, track costs
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Best practices for billing and usage
 {: #best-practices}
 
-Follow these best practices to guide how you manage billing and usage on {{site.data.keyword.Bluemix}}.
+Follow our best practices to track costs and automate billing in {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
 

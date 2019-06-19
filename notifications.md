@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Setting spending notifications
 {: #spending}
 
-If you are a Pay-As-You-Go or Subscription account owner, you can set up email spending notifications. Set notifications for total account, runtime, container, and service spending, or spending for individual services, excluding third-party services.
+If you are an {{site.data.keyword.cloud}} Pay-As-You-Go or Subscription account owner, you can set up email spending notifications. Set notifications for total account, runtime, container, and service spending, or spending for individual services, excluding third-party services.
 {: shortdesc}
 
 You receive notifications when you reach 80%, 90%, and 100% of the spending thresholds that you specify. You can edit each spending notification at any time as your needs change.

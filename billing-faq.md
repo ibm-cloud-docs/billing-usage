@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-13"
+lastupdated: "2019-06-18"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# FAQs
+# FAQs for billing and usage
 {: #billusagefaqs}
+
+FAQs for billing and usage might include questions about credit cards, promo codes, or subscriptions. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
+{: shortdesc}
 
 ## How do I update my credit card?
 {: #updatecard}
@@ -116,7 +119,7 @@ Yes, you must spend a minimum of $100.00 USD each month.
 {: #subscriptioncode}
 {: faq}
 
-After you purchase a subscription, you'll receive an email with a feature code that adds the credit to your account. To apply the feature code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
+After you purchase a subscription, you'll receive an email with a feature code that adds the credit to your account. To apply the subscription code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
 
 ## What am I charged if I go over the total amount of my Subscription?
 {: #subs-overage}

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -18,11 +18,14 @@ subcollection: billing-usage
 # Scenario: Estimating costs of an example Node app
 {: #sample}
 
-Assume that you have a Node.js web app with scaling capabilities, and the app uses several services that are provided by {{site.data.keyword.Bluemix}}. You can learn how the actual cost of your app is calculated in this example. The web app uses the following {{site.data.keyword.Bluemix_notm}} services and items:
+Assume that you have a Node.js web app with scaling capabilities, and the app uses several services that are provided by {{site.data.keyword.Bluemix}}. You can learn how the actual cost of your app is calculated in this example. 
+{: shortdesc}
+
+The web app uses the following {{site.data.keyword.Bluemix_notm}} services and items:
 
 * Four 256-MB Node.js runtime instances
 * Two {{site.data.keyword.autoscaling}} policies, processor and memory
-* 150 GB per month {{site.data.keyword.cloudant_short_notm}} database, 1,000 lookups, 500 writes, and 50 queries.
+* 150 GB per month {{site.data.keyword.cloudant_short_notm}} database, 1,000 lookups, 500 writes, and 50 queries
 * 20 GB inbound or outbound network traffic
 
 
@@ -35,7 +38,7 @@ To keep the example simple, assume the prices in the following table don't fluct
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	375 GB-hours free per month (shared across all runtimes)            |	$0.07 USD/GB-hour |
 | {{site.data.keyword.autoscaling}} |	Free service plan for the {{site.data.keyword.autoscaling}} service |	Free              |
-| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite | Includes 20 GB of free data storage</br>Scale provisioned throughput capacity in increments of:</br>100 lookups per second</br>50 writes per second</br>5 queries per second | $1.00 USD/GB of data storage</br>$0.25 USD/Lookup per second</br>$0.50 USD/Write per second</br>$5.00 USD/Query per second |
+| {{site.data.keyword.cloudant_short_notm}} | Standard plan includes 20 GB of free data storage</br>Scale provisioned throughput capacity in increments of:</br>100 lookups per second</br>50 writes per second</br>5 queries per second | $1.00 USD/GB of data storage</br>$0.25 USD/Lookup per second</br>$0.50 USD/Write per second</br>$5.00 USD/Query per second |
 {:caption="Table 1. Pricing for resources" caption-side="top"}
 
 

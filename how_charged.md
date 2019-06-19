@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-18"
 
-keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
+keywords: payment, charges, pricing plan, service cost, cost, pricing tier
 
 subcollection: billing-usage
 
@@ -20,9 +20,11 @@ subcollection: billing-usage
 # How you're charged
 {: #charges}
 
-Charges vary depending on the resources that are used by a particular service, runtime, container, or support option. The resources can be the number of API calls, the number of instances, memory, or storage. {{site.data.keyword.Bluemix}} provides detailed cost estimators to help you plan for charges.
+{{site.data.keyword.cloud}} charges vary depending on the resources that are used by a particular service, runtime, container, or support option. The resources can be the number of API calls, the number of instances, memory, or storage. In addition, tiered pricing is offered in simple, graduated, or block.
 {:shortdesc}
 
+{{site.data.keyword.Bluemix_notm}} provides detailed [cost estimators](/docs/billing-usage?topic=billing-usage-cost) to help you plan for charges.
+{: tip}
 
 After you build your resources, you can check the actual cost. Go to **Manage > Billing and usage**, and select **Usage**. With an {{site.data.keyword.Bluemix_notm}} billable account, you're charged for the compute, containers, and services that your organization used. You might be invited by other {{site.data.keyword.Bluemix_notm}} users to participate in organizations under a different account. The usage of the apps or services that you use in the organizations that you're invited to are charged to the account that contains those organizations. You can see more information about a specific charge from each resource details page.
 

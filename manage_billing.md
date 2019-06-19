@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Managing payments
 {: #linkedusage}
 
-You can use the billing and usage dashboard to make a one-time payment, change your credit card details, view your billing items, and view your invoices.
+You can use the {{site.data.keyword.cloud}} billing and usage dashboard to make a one-time payment, change your credit card details, view your billing items, and view your invoices.
 {: shortdesc}
 
 

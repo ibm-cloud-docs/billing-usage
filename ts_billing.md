@@ -23,7 +23,7 @@ subcollection: billing-usage
 # Troubleshooting for managing billing and usage
 {: #troubleshoot}
 
-General problems with managing your billing and usage might include the required authority to access your billing information. In many cases, you can recover from the problem by following a few easy steps.
+General problems with managing your {{site.data.keyword.cloud}} billing and usage might include the required authority to access your billing information. In many cases, you can recover from the problem by following a few easy steps.
 {:shortdesc}
 
 
