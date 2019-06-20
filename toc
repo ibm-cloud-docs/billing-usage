@@ -31,7 +31,6 @@ Managing billing and usage
     API reference
         [Usage Metering](https://{DomainName}/apidocs/usage-metering){: new_window}
         [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: new_window}
-
     {: .navgroup-end}
 
     {: .navgroup id="help"}
