@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-06-20"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -27,7 +27,9 @@ You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluem
 
      Depending on the service, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
 1. From the service details page, select your pricing plan and enter other configuration details if needed. Then, click **Add to estimate**.
-1. Enter in your estimated monthly usage, and click **Calculate cost**. You can adjust the estimated usage and recalculate the cost to see how different usage levels affect the overall cost. If needed, you can change the billing currency by selecting a different region.
+1. Enter in your estimated monthly usage, and click **Calculate cost**. You can adjust the estimated usage and recalculate the cost to see how different usage levels affect the overall cost. 
+
+   By default, the estimator shows the pricing and billing currency for your location. Pricing can vary by region. If you're estimating costs for a different location, select the correct region to view accurate pricing.
 1. Add the calculated cost to your estimate by clicking **Save**.
 
    If you want to estimate costs for other services, you can return to the catalog and select more services to add to the estimate.
