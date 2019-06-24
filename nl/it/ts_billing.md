@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-09"
+lastupdated: "2019-06-11"
 
-keywords: troubleshoot billing, billing error, payment error, error message
+keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 
 subcollection: billing-usage
 
@@ -47,4 +47,19 @@ Controlla il tuo accesso completando la seguente procedura:
   4. Fai clic su **Accesso Cloud Foundry** ed espandi le righe per le tue organizzazioni assegnate per vedere se disponi di un ruolo di Proprietario account o Gestore fatturazione.
 
 Per ulteriori informazioni sull'accesso IAM, vedi [Ruoli Cloud IAM](/docs/iam?topic=iam-userroles). Per ulteriori informazioni sull'accesso Cloud Foundry, invece, vedi [Ruoli Cloud Foundry](/docs/iam?topic=iam-cfaccess).
+{: tsResolve}
+
+
+## Perché non posso applicare un codice funzione?
+{: #cannot-apply-feature-code}
+{: troubleshoot}
+
+Quando tenti di applicare un codice funzione, visualizzi un errore che indica che il codice non può essere applicato.
+{: tsSymptoms}
+
+Il tuo account non soddisfa i requisiti per il codice funzione o non hai il livello di accesso richiesto nell'account.
+{: tsCauses}
+
+- Verifica di avere il tipo di account corretto. Ad esempio, alcuni codici funzione per le promozioni didattiche sono previsti solo per gli account Lite. Per visualizzare il tipo del tuo account, vai a **Gestisci > Account** e seleziona **Impostazioni account**. Per i dettagli, vedi [Applicazione di codici funzione](/docs/account?topic=account-codes).
+- Verifica di disporre dell'accesso per applicare il codice funzione. Per applicare qualsiasi codice funzione, devi avere un ruolo di Editor o superiore su tutti i servizi di gestione account. Per esaminare o modificare i ruoli, vedi [Assegnazione dell'accesso ai servizi di gestione dell'account](/docs/iam?topic=iam-account-services).
 {: tsResolve}

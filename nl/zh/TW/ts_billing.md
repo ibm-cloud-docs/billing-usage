@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-09"
+lastupdated: "2019-06-11"
 
-keywords: troubleshoot billing, billing error, payment error, error message
+keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 
 subcollection: billing-usage
 
@@ -47,4 +47,19 @@ subcollection: billing-usage
   4. 按一下 **Cloud Foundry 存取權**，然後展開所指派組織的橫列，以查看您是否有「帳戶擁有者」或「帳單管理者」角色。
 
 如需 IAM 存取的相關資訊，請參閱 [Cloud IAM 角色](/docs/iam?topic=iam-userroles)。如需 Cloud Foundry 存取權的相關資訊，請參閱 [Cloud Foundry 角色](/docs/iam?topic=iam-cfaccess)。
+{: tsResolve}
+
+
+## 為什麼無法套用特性碼？
+{: #cannot-apply-feature-code}
+{: troubleshoot}
+
+當您嘗試套用特性碼時，會看到指出無法套用代碼的錯誤。
+{: tsSymptoms}
+
+您的帳戶不符合特性碼的需求，或您沒有帳戶中的必要存取層次。
+{: tsCauses}
+
+- 驗證您具有正確的帳戶類型。例如，教育促銷的部分特性碼僅適用於「精簡」帳戶。若要檢視您的帳戶類型，請移至**管理 > 帳戶**，然後選取**帳戶設定**。如需詳細資料，請參閱[套用特性碼](/docs/account?topic=account-codes)。
+- 驗證您有權套用特性碼。若要套用任何特性碼，您必須具有所有帳戶管理服務的「編輯者」角色或更高角色。若要檢閱或變更角色，請參閱[指派帳戶管理服務的存取權](/docs/iam?topic=iam-account-services)。
 {: tsResolve}

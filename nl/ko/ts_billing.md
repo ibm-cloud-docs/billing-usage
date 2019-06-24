@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-09"
+lastupdated: "2019-06-11"
 
-keywords: troubleshoot billing, billing error, payment error, error message
+keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 
 subcollection: billing-usage
 
@@ -47,4 +47,19 @@ subcollection: billing-usage
   4. **Cloud Foundry 액세스**를 클릭하고 지정된 조직에 대한 행을 펼쳐서 계정 소유자 또는 청구 관리자 역할을 보유 중인지 여부를 확인하십시오.
 
 IAM 액세스에 대한 자세한 정보는 [Cloud IAM 역할](/docs/iam?topic=iam-userroles)을 참조하십시오. 또한 Cloud Foundry 액세스에 대한 자세한 정보는 [Cloud Foundry 역할](/docs/iam?topic=iam-cfaccess)을 참조하십시오.
+{: tsResolve}
+
+
+## 기능 코드를 적용할 수 없는 이유가 무엇입니까?
+{: #cannot-apply-feature-code}
+{: troubleshoot}
+
+기능 코드를 적용하려는 경우 코드를 적용할 수 없다는 오류가 표시됩니다.
+{: tsSymptoms}
+
+계정은 기능 코드의 요구사항을 충족시키지 않거나 계정에 필요한 액세스 레벨이 없습니다.
+{: tsCauses}
+
+- 올바른 계정 유형을 보유하고 있는지 확인합니다. 예를 들어, 교육 목적의 프로모션을 위한 일부 기능 코드는 Lite 계정에서만 적용됩니다. 계정 유형을 보려면 **관리 > 계정**으로 이동하여 **계정 설정**을 선택하십시오. 세부사항은 [기능 코드 적용](/docs/account?topic=account-codes)을 참조하십시오.
+- 계정 코드를 적용할 수 있는 액세스 권한을 보유하고 있는지 확인합니다. 기능 코드를 적용하려면 모든 계정 관리 서비스에서 편집자 역할 이상을 보유하고 있어야 합니다. 역할을 검토하거나 변경하려면 [계정 관리 서비스에 대한 액세스 권한 지정](/docs/iam?topic=iam-account-services)을 참조하십시오.
 {: tsResolve}

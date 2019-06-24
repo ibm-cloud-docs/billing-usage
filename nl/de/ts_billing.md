@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-09"
+lastupdated: "2019-06-11"
 
-keywords: troubleshoot billing, billing error, payment error, error message
+keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 
 subcollection: billing-usage
 
@@ -47,4 +47,19 @@ Sie können die Abrechnungsinformationen für jedes Konto anzeigen, dessen Eigne
   4. Klicken Sie auf **Cloud Foundry-Zugriff** und erweitern Sie die Zeilen für die Ihnen zugewiesenen Organisationen, um herauszufinden, ob Sie Kontoeigner sind oder über die Rolle 'Abrechnungsmanager' verfügen.
 
 Weitere Informationen zum IAM-Zugriff finden Sie unter [Cloud IAM-Rollen](/docs/iam?topic=iam-userroles). Weitere Informationen zum Cloud Foundry-Zugriff finden Sie unter [Cloud Foundry-Rollen](/docs/iam?topic=iam-cfaccess).
+{: tsResolve}
+
+
+## Warum kann ich keinen Feature-Code anwenden?
+{: #cannot-apply-feature-code}
+{: troubleshoot}
+
+Beim Versuch, einen Feature-Code anzuwenden, wird eine Fehlernachricht angezeigt, in der angegeben ist, dass der Code nicht angewendet werden kann.
+{: tsSymptoms}
+
+Ihr Konto erfüllt die Voraussetzungen für den Feature-Code nicht oder Sie verfügen nicht über die erforderliche Zugriffsebene in diesem Konto.
+{: tsCauses}
+
+- Stellen Sie sicher, dass der Kontotyp korrekt ist. So sind einige Feature-Codes für Schulungswerbeaktionen nur für Lite-Konten vorgesehen. Zum Anzeigen des Kontotyps rufen Sie **Verwalten > Konto** auf und wählen Sie **Kontoeinstellungen** aus. Details hierzu finden Sie in [Feature-Codes anwenden](/docs/account?topic=account-codes). 
+- Stellen Sie sicher, dass Sie über die Zugriffsberechtigung für das Anwenden des Feature-Codes verfügen. Zum Anwenden eines Feature-Codes benötigen Sie die Rolle eines Bearbeiters oder eine Rolle mit umfassenderen Berechtigungen für alle Kontenverwaltungsservices. Informationen zum Überprüfen oder Ändern von Rollen finden Sie in [Zugriff auf Kontoverwaltungsservices zuweisen](/docs/iam?topic=iam-account-services).
 {: tsResolve}

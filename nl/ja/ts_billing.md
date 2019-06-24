@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-09"
+lastupdated: "2019-06-11"
 
-keywords: troubleshoot billing, billing error, payment error, error message
+keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 
 subcollection: billing-usage
 
@@ -47,4 +47,19 @@ subcollection: billing-usage
   4. **「Cloud Foundry アクセス権限」**をクリックし、割り当てられた組織の行を展開して、アカウント所有者または請求管理者の役割を持っているかどうかを確認します。
 
 IAM アクセス権限について詳しくは、[Cloud IAM 役割](/docs/iam?topic=iam-userroles)を参照してください。 Cloud Foundry アクセス権限について詳しくは、[Cloud Foundry の役割](/docs/iam?topic=iam-cfaccess)を参照してください。
+{: tsResolve}
+
+
+## フィーチャー・コードを適用できないのはなぜですか?
+{: #cannot-apply-feature-code}
+{: troubleshoot}
+
+フィーチャー・コードを適用しようとしたときに、そのコードは適用できないというエラーが表示されます。
+{: tsSymptoms}
+
+フィーチャー・コードの要件を満たしていないアカウントを使用しているか、アカウント内で必要なアクセス権限レベルを持っていません。
+{: tsCauses}
+
+- 正しいアカウント・タイプであることを確認してください。例えば、教育割引用のフィーチャー・コードにはライト・アカウントにのみ有効なものがあります。アカウント・タイプを表示するには、**「管理」 > 「アカウント」**と進み、**「アカウント設定」**を選択します。 詳しくは、『[フィーチャー・コードの適用](/docs/account?topic=account-codes)』を参照してください。
+- フィーチャー・コードを適用するためのアクセス権限を持っていることを確認してください。フィーチャー・コードを適用するには、すべてのアカウント管理サービスに対するエディター以上の役割を持っている必要があります。役割を検討または変更するには、『[アカウント管理サービスへのアクセス権限の割り当て](/docs/iam?topic=iam-account-services)』を参照してください。
 {: tsResolve}
