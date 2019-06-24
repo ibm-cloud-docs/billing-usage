@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-06-03"
 
 keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
 
@@ -116,7 +116,7 @@ según aumenta su nivel de uso. El precio total lo forman los cargos acumulados 
 cada nivel de uso, y consta de su cantidad multiplicado por el precio unitario
 de dicho nivel, por ejemplo:
 
-| Cantidad de elementos   |	Precio unitario para los elementos en el nivel|
+| Cantidad de elementos   |	Precio unitario para los elementos del nivel|
 |---------------------|---------------------------------|
 | Nivel 1: 1 - 1000    |	$1 USD                          |
 | Nivel 2: 1001 - 2000 |	$0,90 USD                       |
