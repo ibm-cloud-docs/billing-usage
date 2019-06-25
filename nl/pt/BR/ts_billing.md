@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-09"
+lastupdated: "2019-06-11"
 
-keywords: troubleshoot billing, billing error, payment error, error message
+keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 
 subcollection: billing-usage
 
@@ -47,4 +47,19 @@ Verifique seu acesso concluindo as etapas a seguir:
   4. Clique em **Acesso do Cloud Foundry** e expanda as linhas para suas organizações designadas para ver se você tem uma função de proprietário da Conta ou de gerente de faturamento.
 
 Para obter mais informações sobre o acesso ao IAM, consulte [Funções do IAM da nuvem](/docs/iam?topic=iam-userroles). E, para obter mais informações sobre o acesso do Cloud Foundry, consulte [Funções do Cloud Foundry](/docs/iam?topic=iam-cfaccess).
+{: tsResolve}
+
+
+## Por que não posso aplicar um código de recurso?
+{: #cannot-apply-feature-code}
+{: troubleshoot}
+
+Quando você tenta aplicar um código de recurso, você vê um erro que indica que o código não pode ser aplicado.
+{: tsSymptoms}
+
+Sua conta não atende aos requisitos do código de recurso ou você não possui o nível de acesso necessário na conta.
+{: tsCauses}
+
+- Verifique se você tem o tipo de conta correto. Por exemplo, alguns códigos de recurso para promoções educacionais são somente para contas Lite. Para visualizar seu tipo de conta, acesse **Gerenciar > Conta** e selecione **Configurações da conta**. Para obter detalhes, consulte [Aplicando códigos de recurso](/docs/account?topic=account-codes).
+- Verifique se você tem acesso para aplicar o código de recurso. Para aplicar qualquer código de recurso, deve-se ter uma função Editor ou superior em todos os serviços de gerenciamento de conta. Para revisar ou mudar funções, consulte [Designando acesso a serviços de gerenciamento de conta](/docs/iam?topic=iam-account-services).
 {: tsResolve}
