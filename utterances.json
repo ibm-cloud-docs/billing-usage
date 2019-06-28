@@ -1,60 +1,59 @@
 {
     "updatecard": [
-      "updating credit card",
-      "changing my credit card",
-      "changing my credit card number",
-      "How do I switch my credit card?",
-      "switching my credit card",
-      "new credit card information"
+      "change credit card info",
+      "edit my credit card",
+      "update my credit card information",
+      "change my credit card",
+      "edit my payment options",
+      "change my payment options",
+      "update payment details"
     ],
     "addcard": [
-      "Why is my credit card not going through?",
-      "credit card won't go through",
       "credit card not going through",
-      "Why isn't my credit card going through?",
+      "card won't go through",
       "credit card isn't going through",
-      "credit card not processing",
-      "credit card isn't processing",
+      "not processing my credit card",
+      "verification of credit card not working",
+      "credit card failed",
       "credit card won't process"
     ],
     "entercode": [
       "What are feature codes?",
-      "Are feature codes the same as promotional codes?",
-      "feature codes same as promo codes",
-      "feature codes same as promos",
-      "feature codes same as promotional codes",
-      "Are feature codes different than promo codes?",
-      "difference between feature codes and promo codes",
-      "feature codes versus promo codes"
+      "Are feature codes the same as promo codes",
+      "feature codes different than promotional codes",
+      "difference between applying feature codes and promos",
+      "redeeming feature codes versus promo codes",
+      "enter promo code",
+      "enter promocode",
+      "use promocode"
     ],
     "cancelmyaccount": [
       "cancel my account",
-      "canceling my account",
-      "cancel account",
-      "account cancellation",
-      "How to cancel my account?",
-      "How to cancel account?",
-      "cancel account"
+      "i would like to cancel my account",
+      "How do I cancel my account.",
+      "cancelling an account",
+      "cancel my account",
+      "suspend this account"
     ],
     "deleteaccount": [
       "delete my account",
-      "deleting my account",
-      "delete account",
-      "account delete",
-      "account deletion",
-      "How to delete my account?",
-      "How to delete account?"
+      "Where do I delete my account",
+      "I want to delete my account",
+      "Tell me how to delete my account",
+      "close my IBM Cloud account",
+      "terminate my cloud account",
+      "remove my account",
+      "don't need this account. how can i delete it",
+      "close this account",
+      "account deletion"
     ],
     "contactsupport": [
-      "How to get support?",
-      "Where is support?",
-      "How can I contact support?",
-      "How do I get help?",
-      "I want to contact support",
-      "I need help",
-      "I want to talk to tech support",
-      "support",
-      "help"
+      "How do I contact support",
+      "Where is support",
+      "Contact support",
+      "I want to contact IBM support",
+      "talk to tech support",
+      "connect me with support"
     ],
     "gb-hour": [
       "gb-hour",
@@ -64,52 +63,44 @@
     ],
     "howmanyapps": [
       "number of apps I can build",
-      "How many apps can I make?",
-      "How many apps are allowed?",
-      "apps allowed to make",
+      "apps can I make",
       "apps allowed to build",
-      "Is there a limit on apps?",
-      "apps limit",
-      "How many apps can I have in my account?",
-      "How many apps am I allowed to have?",
-      "What is my limit on apps?"
+      "Is there a limit on apps",
+      "How many applications can I have in my account",
+      "How many apps am I allowed to have",
+      "limit on apps"
     ],
     "monthlyquota": [
-      "What happens if my plan reaches the limit?",
-      "reach monthly quota",
-      "reach monthly limit",
-      "Lite plan quota",
-      "Lite plan limit",
-      "What if I reach my limit?",
-      "What if I reach my quota?",
-      "What happens if I used up all of my Lite plan instances?",
-      "Lite plan monthly quota reached",
-      "Lite plan monthly limit reached"
+      "is there a quota for a lite plan",
+      "do I get charged for a lite plan",
+      "does a lite plan get suspended",
+      "quota is met on a lite plan",
+      "lite plan quotas per month",
+      "lite account quotas per instance",
+      "lite quotas reset per month",
+      "lite plan monthly quotas",
+      "quotas for lite plan instances"
     ],
     "subs-order": [
       "order with subscription account",
-      "order with subscription",
-      "subscription account ordering",
+      "order with my subscription",
       "subscription ordering",
-      "What am I allowed to order with my Subscription account?"
+      "ordering with a subscription account"
     ],
     "subs-discount": [
-      "How do I get a discount on a Subscription account?",
+      "get a discount on a Subscription account",
       "qualify for discount",
-      "Can I get a discount for a Subscription account?",
-      "Is there a discount for a Subscription account?",
-      "How to get a discount on a Subscription account?",
-      "Can I qualify for a discount on a Subscription account?",
-      "get a discount"
+      "Is there a discount for a Subscription account",
+      "can't get a discount for my account",
+      "subscription discounts"
     ],
     "subs-minimum": [
-      "What is the monthly minimum amount required for Subscription account?",
-      "What is the minimum for Subscription accounts?",
+      "monthly minimum amount required for Subscription account",
+      "minimum on Subscription accounts",
       "subscription account monthly minimum",
-      "minimum for subscription account",
-      "subscription account minimum requirement",
-      "minimum amount for a subscription",
-      "lowest amount required for subscription account"
+      "minimum requirement for my account",
+      "minimum amount for subscription",
+      "lowest amount required on this account"
     ],
     "subscriptioncode": [
       "subscription credit",
@@ -118,63 +109,50 @@
       "apply subscription credit"
     ],
     "subs-overage": [
-      "How much do I get charged if I go over?",
-      "What am I charged if I exceed the total amount?",
-      "What am I charged if I go over?",
-      "What happens if I go over my limit?",
-      "amount charged if I go over total amount",
-      "amount charged if I exceed limit",
+      "getting charged if I go over my total amount",
+      "exceed the total amount",
+      "What am I charged if I go over",
+      "went over limit on my Subscription",
+      "amount charged if I go over the total amount",
       "total charged if over amount",
-      "charge for going over total amount",
-      "charge for exceeding limit",
-      "charge for going over limit"
+      "charge for exceeding the limit"
     ],
     "subs-pay-schedule": [
-      "Am I allowed to pay the total spending commitment up-front or quarterly?",
-      "Am I allowed to pay up-front or quarterly?",
-      "Can I pay up-front or quarterly?",
+      "pay the total spending commitment up-front or quarterly",
       "pay up-front or quarterly",
-      "How to pay up-front or quarterly?",
-      "switch to paying up-front or quarterly",
+      "switch pay frequency",
       "change to paying up-front or quarterly",
-      "up-front or quarterly payments"
+      "adjust how often I pay my bill"
     ],
     "subs-spending": [
-      "Am I allowed to spend more or less than my monthly commitment?",
-      "Can I spend an amount different than my monthly commitment?",
-      "Can I spend differently than my commitment?",
+      "spend more or less than my monthly commitment",
+      "spend an amount different than my monthly agreement",
       "Can I spend greater than or less than my commitment?",
-      "spending more than or less than commitment"
+      "pay more or less than usual"
     ],
     "subs-cancel-early": [
-      "Am I allowed to cancel my Subscription account before the end of my term commitment?",
-      "Can I cancel before the end of my commitment?",
-      "Am I allowed to cancel before the end of my commitment?",
-      "Can I cancel before my term ends?",
-      "Am I allowed to cancel before my term ends?",
-      "Can I cancel my account before it expires?",
-      "Am I allowed to cancel my account before it expires?",
+      "cancel my Subscription account before the end of my term commitment",
+      "subscription term commitment",
+      "cancel my account before it expires",
       "cancel subscription account before term ends",
       "cancel account before expiration",
-      "Can I end my term commitment early?",
-      "Am I allowed to finish my term early?",
+      "end my term commitment early",
+      "finish my term early",
       "end subscription account early"
     ],
     "subs-spend-before-term-end": [
-      "What if I reach my limit before the term ends?",
-      "What happens if I reach my spending commitment?",
-      "What if I get to my spending commitment before the terms ends?",
-      "What if I get to my spending limit?",
-      "What if I achieve the spending commitment before the term ends?",
-      "What if I achieve my spending limit?",
-      "reach spending commitment",
-      "reach limit before term ends"
+      "reach my limit before the term ends",
+      "reached my spending commitment",
+      "get to my spending commitment before end of term",
+      "got to spending limit",
+      "achieve the spending commitment"
     ],
     "monitor-spending": [
       "view monthly runtime usage",
       "view monthly service usage",
       "view usage",
-      "how much have i spent"
+      "how much have i spent",
+      "monitor my spending"
     ],
     "spending-notify": [
       "spending notifications",
@@ -183,35 +161,32 @@
       "set usage notification"
     ],
     "access-invoices": [
-      "Where is my invoice?",
-      "Where to find my invoice?",
+      "Where is my invoice",
+      "find my invoice",
       "invoice location",
-      "statement location",
-      "Where can I access my statement?",
-      "Where is my statement?",
-      "location of my invoice",
-      "location of my statement",
-      "locate invoice",
-      "locate statement",
-      "access invoice",
+      "access statement on my account",
+      "see my bill",
+      "view amount spent",
       "access statement"
     ],
     "usage-not-match-invoice": [
-      "Why is the usage different on my invoice?",
-      "Why isn't my invoice matching my usage?",
-      "Usage is not reflected correctly on my invoice",
+      "usage different on my invoice",
+      "invoice isn't matching my usage",
+      "usage is not reflected correctly on my invoice",
       "usage different than invoice",
-      "my statement doesn't match my usage",
+      "my statement does not match my usage",
       "invoice not matching usage",
       "usage not as same as invoice",
       "invoice not correct with my usage"
     ],
     "cannot-access-billing-info": [
-      "I cannot access my billing information",
+      "cannot see billing info",
       "can't access my billing information",
-      "can't view my billing information",
+      "can't view my billing info",
       "can't view my payment and invoices",
       "I don't have authorization to view my billing information",
-      "I get a message when trying to view my billing information"
+      "I get a message when trying to view my billing info",
+      "unable to access usage statement",
+      "where is my billing info"
     ]
 }
