@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Gestión de pagos
 {: #linkedusage}
 
-Puede utilizar el panel de control de facturación y uso para realizar un pago único, cambiar los detalles de la tarjeta de crédito, ver elementos de facturación y ver sus facturas.
+Puede utilizar el panel de control de facturación y uso de {{site.data.keyword.cloud}} para realizar un pago único, cambiar los detalles de la tarjeta de crédito, ver elementos de facturación y ver sus facturas.
 {: shortdesc}
 
 

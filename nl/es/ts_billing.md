@@ -23,7 +23,7 @@ subcollection: billing-usage
 # Resolución de problemas de gestión de la facturación y el uso
 {: #troubleshoot}
 
-Los problemas generales de gestión de la facturación y el uso pueden incluir la autoridad necesaria para acceder a la información de facturación. En muchos casos, puede solucionar el problema siguiendo unos sencillos pasos.
+Los problemas generales de gestión de la facturación y el uso de {{site.data.keyword.cloud}} pueden incluir la autoridad necesaria para acceder a la información de facturación. En muchos casos, puede solucionar el problema siguiendo unos sencillos pasos.
 {:shortdesc}
 
 

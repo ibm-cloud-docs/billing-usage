@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-18"
 
-keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
+keywords: payment, charges, pricing plan, service cost, cost, pricing tier
 
 subcollection: billing-usage
 
@@ -20,10 +20,12 @@ subcollection: billing-usage
 # Cómo se le facturará
 {: #charges}
 
-Los cargos varían en función de los recursos utilizados por un servicio concreto, el tiempo de ejecución, el contenedor o la opción de soporte. Los recursos pueden ser el número de llamadas de API, el número de instancias,
-memoria o almacenamiento. {{site.data.keyword.Bluemix}} proporciona estimadores de coste detallado para ayudarle a planificar los cargos.
+Los cargos de {{site.data.keyword.cloud}} varían en función de los recursos utilizados por un servicio concreto, el tiempo de ejecución, el contenedor o la opción de soporte. Los recursos pueden ser el número de llamadas de API, el número de instancias,
+memoria o almacenamiento. Además, el precio por niveles se ofrece de forma simple, graduada o de bloque.
 {:shortdesc}
 
+{{site.data.keyword.Bluemix_notm}} proporciona [estimadores de coste](/docs/billing-usage?topic=billing-usage-cost) detallados para ayudarle a planificar los cargos.
+{: tip}
 
 Puede comprobar el coste real después de crear sus recursos. Vaya a **Gestionar > Facturación y uso** y seleccione **Uso**. Con una cuenta facturable de {{site.data.keyword.Bluemix_notm}}, se le facturará por el cálculo, los contenedores y los servicios utilizados en su organización. Es posible que otros usuarios de {{site.data.keyword.Bluemix_notm}} le inviten a participar en organizaciones en una cuenta diferente. El uso de las apps o los servicios que utilice en las organizaciones a las que está invitado se facturan a la cuenta que contiene dichas organizaciones. Puede ver más información sobre un cargo específico en cada página de detalles del recurso.
 

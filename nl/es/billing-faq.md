@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-18"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# Preguntas más frecuentes
+# Preguntas más frecuentes sobre facturación y uso
 {: #billusagefaqs}
+
+Las preguntas más frecuentes sobre facturación y uso pueden incluir preguntas acerca de tarjetas de crédito, códigos promocionales o suscripciones. Para encontrar todas las preguntas más frecuentes sobre {{site.data.keyword.cloud}}, consulte nuestra [Biblioteca de preguntas más frecuentes](/docs/faqs).
+{: shortdesc}
 
 ## ¿Cómo puedo actualizar mi tarjeta de crédito?
 {: #updatecard}
@@ -47,10 +50,13 @@ Para compras de la infraestructura, es posible que reciba un código promocional
 {: #cancelmyaccount}
 {: faq}
 
-Para las cuentas de pago según uso o de suscripción, la forma más rápida de cancelar su cuenta es ponerse en contacto con nosotros mediante el [chat en directo](https://{DomainName}/unifiedsupport/supportcenter) o llamando al teléfono 1-866-325-0045 y seleccionando la tercera opción. También puede abrir un caso de soporte.
+Sentimos que se vaya. Si podemos ayudarle de alguna manera con su cuenta antes de que se marche, póngase en contacto con nosotros a través del soporte.
 
-Para cancelar una cuenta Lite, vaya a **Gestionar** > **Cuenta** > **Configuración de la cuenta** y pulse **Desactivar cuenta**.
+Si decide marcharse, la manera de cancelar su cuenta dependerá del tipo de cuenta. Puede comprobar su tipo de cuenta accediendo a
+[Configuración de la cuenta](https://cloud.ibm.com/account/settings) y buscando _Tipo de cuenta_.
 
+* Para las cuentas de pago según uso o de suscripción, la forma más rápida de cancelar su cuenta es ponerse en contacto con nosotros mediante el [chat en directo](https://{DomainName}/unifiedsupport/supportcenter) o llamando al teléfono 1-866-325-0045 y seleccionando la tercera opción. También puede abrir un caso de soporte.
+* Para cancelar una cuenta Lite, vaya a [Configuración de la cuenta](https://{DomainName}/account/settings) y pulse **Desactivar cuenta**.
 
 ## ¿Cómo puedo suprimir mi cuenta?
 {: #deleteaccount}
@@ -114,7 +120,7 @@ Sí, debe gastar un mínimo de 100,00 dólares USD cada mes.
 {: #subscriptioncode}
 {: faq}
 
-Después de adquirir una suscripción, recibirá un correo electrónico con el código de característica que agrega el crédito a su cuenta. Para aplicar el código de característica, vaya a [Configuración de la cuenta](https://{DomainName}/account/settings) y pulse **Aplicar código**. Para obtener más información, consulte [Aplicación de códigos de característica](/docs/account?topic=account-codes).
+Después de adquirir una suscripción, recibirá un correo electrónico con el código de característica que agrega el crédito a su cuenta. Para aplicar el código de suscripción, vaya a [Configuración de la cuenta](https://{DomainName}/account/settings) y pulse **Aplicar código**. Para obtener más información, consulte [Aplicación de códigos de característica](/docs/account?topic=account-codes).
 
 ## ¿Qué se me cobrará si supero la cantidad total de mi Suscripción?
 {: #subs-overage}
@@ -148,7 +154,7 @@ Una suscripción es un contrato entre usted e IBM que le compromete a utilizar {
 {: #subs-spend-before-term-end}
 {: faq}
 
-Tendrá que seguir pagando sus cargos mensuales hasta el final del término. Para evitar generar cargos en exceso, póngase en contacto con el [equipo de ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg) para obtener ayuda con la firma de una Suscripción nueva.
+Tendrá que seguir pagando sus cargos mensuales hasta el final del término. Para evitar generar cargos en exceso, póngase en contacto con el [equipo de ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg) para obtener ayuda con la firma de una suscripción nueva.
 
 ## ¿Puedo supervisar el gasto?
 {: #monitor-spending}
@@ -165,7 +171,10 @@ Puede definir umbrales de gasto separados para la cuenta, el contenedor, el tiem
 {: #access-invoices}
 {: faq}
 
-En la consola, pulse **Gestionar > Facturación y uso** y seleccione **Facturas**.
+Si tiene una cuenta de Pago según uso o de Suscripción, puede ver su factura pulsando **Gestionar > Facturación y uso** y seleccionando **Facturas**. Fuera de la consola, también puede ver las facturas en el
+[sitio Facturas de soporte al cliente](https://www.ibm.com/invoices){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg).
+
+Las cuentas Lite no tienen facturas porque nunca se efectúan cargos debidos por el uso del plan Lite.
 
 ## ¿Por qué mi uso no coincide con mi factura?
 {: #usage-not-match-invoice}

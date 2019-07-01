@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-06-20"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -27,7 +27,9 @@ Puede utilizar el estimador de costes para calcular el coste de las ofertas de {
 
      En función del servicio, es posible que aparezca una página de información intermedia. Por ejemplo, si selecciona {{site.data.keyword.baremetal_short}}, aparece una página de información en la que se describen distintas características. Pulse **Continuar**.
 1. En la página de detalles del servicio, seleccione su plan de precios y especifique otros detalles de la configuración, si es necesario. A continuación, pulse **Añadir a estimación**.
-1. Especifique su uso mensual estimado y pulse **Calcular coste**. Puede ajustar el uso estimado y volver a calcular el coste para ver cómo los distintos niveles de uso afectan al coste global. Si es necesario, puede cambiar la moneda de facturación seleccionando otra región.
+1. Especifique su uso mensual estimado y pulse **Calcular coste**. Puede ajustar el uso estimado y volver a calcular el coste para ver cómo los distintos niveles de uso afectan al coste global. 
+
+   De forma predeterminada, el estimador muestra la moneda para precios y facturación de su ubicación. Los precios pueden variar según la región. Si va a estimar el coste para una ubicación distinta, seleccione la región correcta para ver los precios de manera precisa.
 1. Añada el coste calculado a su estimación pulsando **Guardar**.
 
    Si desea estimar costes para otros servicios, puede regresar al catálogo y seleccionar más servicios para añadir a la estimación.
