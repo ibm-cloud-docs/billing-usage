@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-18"
 
-keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
+keywords: payment, charges, pricing plan, service cost, cost, pricing tier
 
 subcollection: billing-usage
 
@@ -20,9 +20,11 @@ subcollection: billing-usage
 # Facturation
 {: #charges}
 
-Le prix varie selon les ressources utilisées par un service, un contexte d'exécution, un conteneur ou une option de support spécifique. Les ressources peuvent correspondre au nombre d'appels d'API, au nombre d'instances, à la mémoire ou au stockage. {{site.data.keyword.Bluemix}} met à disposition des estimateurs de coût vous permettant de planifier vos frais.
+Le prix {{site.data.keyword.cloud}} varie selon les ressources utilisées par un service, un contexte d'exécution, un conteneur ou une option de support spécifique. Les ressources peuvent correspondre au nombre d'appels d'API, au nombre d'instances, à la mémoire ou au stockage. De plus, la tarification différenciée peut être par tranches simples, graduées ou fixes.
 {:shortdesc}
 
+{{site.data.keyword.Bluemix_notm}} met à disposition des [estimateurs de coût](/docs/billing-usage?topic=billing-usage-cost) vous permettant de planifier vos frais.
+{: tip}
 
 Une fois que vous avez généré vos ressources, vous pouvez vérifier leur coût réel. Accédez à **Gérer > Facturation et utilisation** puis sélectionnez **Utilisation**. Avec un compte de facturation {{site.data.keyword.Bluemix_notm}}, vous êtes facturé pour les ressources de calcul, les conteneurs et les services utilisés par votre organisation. Vous pouvez être invité par d'autres utilisateurs
 {{site.data.keyword.Bluemix_notm}} à participer à des organisations sur un compte différent. L'utilisation des applications ou des services dans les organisations auxquelles vous êtes invité est facturée dans le compte incluant ces organisations. D'autres informations sur un tarif spécifique sont visibles sur chaque page des détails de ressource.
@@ -98,7 +100,7 @@ Dans le modèle à tranches simples, le prix unitaire est déterminé par la tra
 
 Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie sur un modèle de tarification à tranches simples :
 
-| Quantité d'éléments   | Calcul du prix | Prix total |
+| Quantité d'éléments | Calcul du prix | Prix total |
 |-------------------|--------------------|-------------|
 | 500               | 500 × 1 = 500      | 500 $    |
 | 1500              | 1500 × 0,90 = 1350 | 1350 $   |
@@ -123,7 +125,7 @@ Dans le modèle à tranches graduées, le prix unitaire par tranche diminue à m
 
 Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie sur un modèle de tarification à tranches graduées :
 
-| Quantité d'éléments   | Calcul du prix                                                               | Prix total |
+|Quantité d'éléments | Calcul du prix                                                               | Prix total |
 |------------------|----------------------------------------------------------------------------------|-------------|
 | 500              | 500 × 1 (prix unitaire pour la tranche 1) = 500                                            |	500 $    |
 | 1500             | (1000 × 1 (prix unitaire pour la tranche 1)) + (500 × 0.90 (prix unitaire pour la tranche 2)) = 1450 |	1450 $   |
@@ -137,7 +139,7 @@ Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie s
 
 Dans le modèle à tranches fixes, le prix est fixe pour la quantité que vous utilisez dans le cadre d'un niveau d'utilisation. Le prix total correspond aux frais pour votre niveau d'utilisation, quelle que soit votre utilisation réelle. Chaque tranche suivante propose un rapport prix/quantité inférieur. Exemple :
 
-| Quantité d'éléments   |	Prix total pour tous les éléments |
+|Quantité d'éléments    |	Prix total pour tous les éléments |
 |---------------------|---------------------------|
 | Tranche 1 : &lt;= 1000  |	1000 $                 |
 | Tranche 2 : &lt;= 2000  |	1900 $                 |
@@ -148,7 +150,7 @@ Dans le modèle à tranches fixes, le prix est fixe pour la quantité que vous u
 
 Le tableau suivant indique le montant que vous payez avec un plan qui s'appuie sur un modèle de tarification à tranches fixes :
 
-| Quantité d'éléments   | Calcul du prix                                                      | Prix total|
+|Quantité d'éléments | Calcul du prix                                                      | Prix total|
 |------------------|-------------------------------------------------------------------------|------------|
 | 500              | Le nombre d'éléments correspond à la tranche 1 ; par conséquent, le prix total est 1000 $. | 1000 $  |
 | 1500             | Le nombre d'éléments correspond à la tranche 2 ; par conséquent, le prix total est 1900 $. | 1900 $  |

@@ -23,7 +23,7 @@ subcollection: billing-usage
 # Traitement des incidents liés à la gestion de la facturation et de l'utilisation
 {: #troubleshoot}
 
-Les problèmes d'ordre général relatifs à la gestion de la facturation et de l'utilisation peuvent nécessité que l'autorité requise accède vos informations de facturation. Dans de nombreux cas, ce type de problème peut être résolu en quelques opérations simples.
+Les problèmes d'ordre général relatifs à la gestion de la facturation et de l'utilisation {{site.data.keyword.cloud}} peuvent nécessiter que l'autorité requise accède à vos informations de facturation. Dans de nombreux cas, ce type de problème peut être résolu en quelques opérations simples.
 {:shortdesc}
 
 

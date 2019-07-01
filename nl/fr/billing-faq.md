@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-18"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# Foire aux questions
+# Foire aux questions concernant la facturation et l'utilisation
 {: #billusagefaqs}
+
+Les foires aux questions concernant la facturation et l'utilisation peuvent inclure des questions sur les cartes de crédit, les codes promotionnels ou les abonnements. Pour trouver toutes les foires aux questions concernant {{site.data.keyword.cloud}}, consultez notre [bibliothèques de foires aux questions](/docs/faqs).
+{: shortdesc}
 
 ## Comment mettre à jour ma carte de crédit ?
 {: #updatecard}
@@ -33,7 +36,7 @@ Pour utiliser une autre méthode de paiement, sélectionnez **Payer autrement** 
 
 La protection de votre identité étant une priorité pour nous, nous procédons à des vérifications sérieuses des cartes de crédit.
 
-Contactez-nous en appelant le numéro 1-866-325-0045 et en sélectionnant la troisième option. Sinon, envoyez un courrier électronique à `verify@us.ibm.com` en y ajoutant votre IBMid et une copie du ou des messages d'erreur affichés. Vous ne devez pas communiquer vos informations de carte de crédit. 
+Contactez-nous en appelant le numéro 1-866-325-0045 et en sélectionnant la troisième option. Sinon, envoyez un courrier électronique à `verify@us.ibm.com` en y ajoutant votre IBMid et une copie du ou des messages d'erreur affichés. Vous ne devez pas communiquer vos informations de carte de crédit.
 
 ## Comment appliquer un code de fonction promotionnel ?
 {: #entercode}
@@ -47,10 +50,12 @@ Pour les achats d'infrastructure, vous pouvez recevoir de l'équipe commerciale 
 {: #cancelmyaccount}
 {: faq}
 
-Pour les comptes Paiement à la carte ou Abonnement, la manière la plus rapide d'annuler votre compte consiste à nous contacter via la [discussion en ligne](https://{DomainName}/unifiedsupport/supportcenter) ou en nous appelant au numéro 1-866-325-0045 et en sélectionnant la troisième option. Vous pouvez également ouvrir un cas de support.
+Nous nous désolons de votre départ. Si nous pouvons vous être utile, n'hésitez pas à contacter le support.
 
-Pour annuler un compte Lite, sélectionnez **Gérer** > **Compte** > **Paramètres de compte** puis cliquez sur **Désactiver le compte**.
+Si vous maintenez votre décision malgré tout, le mode de résiliation de votre compte dépend du type de ce dernier. Pour connaître votre type de compte, accédez à la section [Paramètres de compte](https://cloud.ibm.com/account/settings) et consultez les données indiquées dans _Type de compte_.
 
+* Pour les comptes Paiement à la carte ou Abonnement, la manière la plus rapide d'annuler votre compte consiste à nous contacter via la [discussion en ligne](https://{DomainName}/unifiedsupport/supportcenter) ou en nous appelant au numéro 1-866-325-0045 et en sélectionnant la troisième option. Vous pouvez également ouvrir un cas de support.
+* Pour annuler un compte Lite, accédez à [Paramètres de compte](https://{DomainName}/account/settings) et cliquez sur **Désactiver le compte**.
 
 ## Comment supprimer mon compte ?
 {: #deleteaccount}
@@ -58,13 +63,13 @@ Pour annuler un compte Lite, sélectionnez **Gérer** > **Compte** > **Paramètr
 
 Contactez le [service de support {{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} pour ouvrir un cas de support et demander la suppression de votre compte. Si des données sont associées à votre ancien compte et que vous souhaitez les déplacer vers un nouveau compte, incluez ces informations dans votre message électronique.
 
-Les données de comptes supprimés ne sont pas récupérables. 
+Les données de comptes supprimés ne sont pas récupérables.
 
 ## A quelles formes de support peut-on accéder ?
 {: #contactsupport}
 {: faq}
 
-Cliquez sur **Support** dans la barre de menus de la console pour accéder au centre de support. Commencez par consulter la foire aux questions (FAQ). Si vous ne trouvez pas les réponses souhaitées, voir la section **Besoin d'aide ?** afin de contacter le support IBM Cloud. 
+Cliquez sur **Support** dans la barre de menus de la console pour accéder au centre de support. Commencez par consulter la foire aux questions (FAQ). Si vous ne trouvez pas les réponses souhaitées, voir la section **Besoin d'aide ?** afin de contacter le support IBM Cloud.
 
 ## Qu'est-ce qu'un Go/heure ?
 {: #gb-hour}
@@ -114,7 +119,7 @@ Oui, vous devez dépenser au moins 100 USD chaque mois.
 {: #subscriptioncode}
 {: faq}
 
-Une fois que vous avez acheté un abonnement, vous recevez un courrier électronique contenant un code de fonction qui ajoute le crédit à votre compte. Pour appliquer le code de fonction, accédez à [Paramètres de compte](https://{DomainName}/account/settings), puis cliquez sur **Appliquer le code**. Pour plus d'informations, voir [Application de codes de fonction](/docs/account?topic=account-codes).
+Une fois que vous avez acheté un abonnement, vous recevez un courrier électronique contenant un code de fonction qui ajoute le crédit à votre compte. Pour appliquer le code d'abonnement, accédez à [Paramètres de compte](https://{DomainName}/account/settings), puis cliquez sur **Appliquer le code**. Pour plus d'informations, voir [Application de codes de fonction](/docs/account?topic=account-codes).
 
 ## Comment suis-je facturé si je dépasse le montant total de mon abonnement ?
 {: #subs-overage}
@@ -141,14 +146,14 @@ Oui, vous seul pouvez choisir votre dépense mensuelle ! Vous êtes libre de dé
 {: #subs-cancel-early}
 {: faq}
 
-Un abonnement est un contrat entre vous et IBM qui vous engage à utiliser {{site.data.keyword.Bluemix_notm}} pour une durée et un montant spécifiques. Vous pouvez demander l'annulation de votre abonnement avant la fin de votre engagement, mais l'acceptation de cette demande est à la discrétion d'IBM. Tout crédit restant sur votre abonnement peut être perdu. Pour en savoir plus sur ce sujet, contactez le support. Prenez soin de préciser la raison pour laquelle vous avez besoin d'annuler votre abonnement. 
+Un abonnement est un contrat entre vous et IBM qui vous engage à utiliser {{site.data.keyword.Bluemix_notm}} pour une durée et un montant spécifiques. Vous pouvez demander l'annulation de votre abonnement avant la fin de votre engagement, mais l'acceptation de cette demande est à la discrétion d'IBM. Tout crédit restant sur votre abonnement peut être perdu. Pour en savoir plus sur ce sujet, contactez le support. Prenez soin de préciser la raison pour laquelle vous avez besoin d'annuler votre abonnement.
 
 
 ## Que se passe-t-il si j'atteins ma limite de dépenses avant la fin de mon engagement ?  
 {: #subs-spend-before-term-end}
 {: faq}
 
-Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. Pour éviter de générer des frais supplémentaires, prenez contact avec le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg) pour obtenir de l'aide si vous souhaitez souscrire un nouvel abonnement.
+Vous devez payer votre redevance mensuelle jusqu'à la fin de votre engagement. Pour éviter de générer des frais supplémentaires, prenez contact avec le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg) pour obtenir de l'aide afin de souscrire un nouvel abonnement.
 
 ## Comment puis-je surveiller les dépenses ?
 {: #monitor-spending}
@@ -165,7 +170,9 @@ Vous pouvez définir des seuils de dépenses distincts pour le compte, le conten
 {: #access-invoices}
 {: faq}
 
-Dans la console, cliquez sur **Gérer > Facturation et utilisation** puis sélectionnez **Factures**.
+Si vous disposez d'un compte Paiement à la carte ou Abonnement, vous pouvez consulter votre facture en cliquant sur **Gérer > Facturation et utilisation** et en sélectionnant **Factures**. En dehors de la console, vous pouvez également consulter les factures sur le [site de prise en charge des factures](https://www.ibm.com/invoices){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg).
+
+Aucune facture n'est associée aux comptes Lite car vous n'êtes jamais facturé pour l'utilisation du plan Lite.
 
 ## Pourquoi mon utilisation ne correspond-elle pas à ma facture ?
 {: #usage-not-match-invoice}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-06-20"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -27,7 +27,9 @@ Vous pouvez utiliser l'estimateur de coût pour estimer le coût des offres {{si
 
      En fonction du service, une page d'informations provisoire peut s'afficher. Par exemple, si vous sélectionnez {{site.data.keyword.baremetal_short}}, une page d'informations décrivant les différentes fonctions s'affiche. Cliquez sur **Continuer**
 1. Sur la page des détails du service, sélectionnez votre plan de tarification et entrez d'autres informations de configuration, si nécessaire. Cliquez ensuite sur **Ajouter à l'estimation**.
-1. Entrez votre utilisation mensuelle estimée puis cliquez sur **Calculer le coût**. Vous pouvez ajuster le coût d'utilisation estimé et recalculer le coût pour voir l'impact des différents niveaux d'utilisation sur le coût global. Au besoin, vous pouvez changer de devise de facturation en sélectionnant une autre région.
+1. Entrez votre utilisation mensuelle estimée puis cliquez sur **Calculer le coût**. Vous pouvez ajuster le coût d'utilisation estimé et recalculer le coût pour voir l'impact des différents niveaux d'utilisation sur le coût global. 
+
+   Par défaut, l'estimateur indique la devise de tarification et de facturation pour votre emplacement. La tarification peut varier en fonction des régions. Si vous estimez les coûts pour un autre emplacement, sélectionnez la région appropriée pour afficher la tarification exacte.
 1. Ajoutez le coût calculé à votre estimation en cliquant sur **Sauvegarder**.
 
    Si vous souhaitez estimer les coûts pour d'autres services, vous pouvez accéder à nouveau au catalogue et sélectionner des services supplémentaires à ajouter à l'estimation.

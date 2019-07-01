@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Gestion des paiements
 {: #linkedusage}
 
-Vous pouvez utiliser le tableau de bord de facturation et d'utilisation pour effectuer un paiement unique, changer vos informations de carte de crédit, afficher vos éléments de facturation ainsi que vos factures.
+Vous pouvez utiliser le tableau de bord de facturation et d'utilisation {{site.data.keyword.cloud}} pour effectuer un paiement unique, changer vos informations de carte de crédit, afficher vos éléments de facturation ainsi que vos factures.
 {: shortdesc}
 
 

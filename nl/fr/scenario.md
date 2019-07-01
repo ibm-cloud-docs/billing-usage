@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -18,11 +18,14 @@ subcollection: billing-usage
 # Scénario : Evaluation des coûts d'un exemple d'application Node
 {: #sample}
 
-Supposons que vous disposez d'une application Web Node.js ayant des capacités d'extensibilité et que l'application utilise plusieurs services fournis par {{site.data.keyword.Bluemix}}. Cet exemple explique comment le coût réel de votre application est calculé. L'application Web utilise les services et les éléments {{site.data.keyword.Bluemix_notm}} suivants :
+Supposons que vous disposez d'une application Web Node.js ayant des capacités d'extensibilité et que l'application utilise plusieurs services fournis par {{site.data.keyword.Bluemix}}. Cet exemple explique comment le coût réel de votre application est calculé. 
+{: shortdesc}
+
+L'application Web utilise les services et les éléments {{site.data.keyword.Bluemix_notm}} suivants :
 
 * Quatre instances d'exécution Node.js de 256 Mo
 * Deux stratégies {{site.data.keyword.autoscaling}}, un processeur et de la mémoire
-* Base de données {{site.data.keyword.cloudant_short_notm}} de 150 Go par mois, 1 000 recherches, 500 écritures et 50 requêtes.
+* Base de données {{site.data.keyword.cloudant_short_notm}} de 150 Go par mois, 1 000 recherches, 500 écritures et 50 requêtes
 * 20 Go pour le trafic réseau entrant et sortant
 
 
@@ -36,7 +39,7 @@ temps, par exemple sur un mois. La tarification dans cet exemple est en dollar.
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	375 Go/heure gratuits par mois (partagés entre tous les contextes d'exécution)            |	0,07 $/Go/heure |
 | {{site.data.keyword.autoscaling}} |	Plan de service gratuit pour le service {{site.data.keyword.autoscaling}} |	Gratuit              |
-| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite | Inclut 20 Go de stockage de données disponible</br>Evolutivité de la capacité de débit mise à disposition par incréments de :</br>100 recherches par seconde</br>50 écritures par seconde</br>5 requêtes par seconde | 1,00 $ USD/Go de stockage de données</br>0,25 $ USD/recherche par seconde</br>0,50 $ USD/écriture par seconde</br>5,00 $ USD/requête par seconde |
+| {{site.data.keyword.cloudant_short_notm}} | Le plan standard inclut 20 Go de stockage de données disponibles</br>Evolutivité de la capacité de débit mise à disposition par incréments de :</br>100 recherches par seconde</br>50 écritures par seconde</br>5 requêtes par seconde | 1,00 $/Go de stockage de données</br>0,25 $/recherche par seconde</br>0,50 $/écriture par seconde</br>5,00 $/requête par seconde |
 {:caption="Tableau 1. Tarification des ressources" caption-side="top"}
 
 

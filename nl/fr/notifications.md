@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Définition des notifications relatives aux dépenses
 {: #spending}
 
-Si vous possédez un compte Paiement à la carte ou Abonnement, vous pouvez configurer des notifications par courrier électronique relatives aux dépenses. Définissez des notifications pour les dépenses totales du compte, pour les dépenses relatives aux contextes
+Si vous possédez un compte Paiement à la carte ou Abonnement {{site.data.keyword.cloud}}, vous pouvez configurer des notifications par courrier électronique relatives aux dépenses. Définissez des notifications pour les dépenses totales du compte, pour les dépenses relatives aux contextes
 d'exécution, aux conteneurs et aux services, ainsi que pour les dépenses relatives aux services individuels, à l'exception des services de tiers.
 {: shortdesc}
 
