@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-05"
 
-keywords: SoftLayer, SoftLayer billing, infrastructure billing, IaaS, cost, orders, IaaS usage, invoice
+keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 클래식 인프라 리소스의 사용량 보기
 {: #infra-usage}
 
-**관리 > 청구 및 사용량**으로 이동하여 클랙식 인프라 디바이스 및 서비스에 대한 사용량을 볼 수 있습니다.  
+**관리 > 청구 및 사용량**으로 이동하여 클랙식 인프라 디바이스 및 서비스에 대한 디바이스 사용량 및 서비스 구매를 볼 수 있습니다.  
 {:shortdesc}
 
 ## 청구 및 사용량 정보 보기
@@ -33,7 +33,8 @@ subcollection: billing-usage
 
    현재 청구 기간에 대해 청구되는 사용량을 보려면 다음 반복 송장 아래의 다음 송장 날짜에 대한 링크를 클릭하십시오.
 
-   다운로드 아이콘을 클릭하고 다운로드 옵션을 선택하여 오프라인 레코드용으로 송장의 PDF 또는 스프레드시트 사본을 다운로드할 수 있습니다.{: tip}
+   다운로드 아이콘을 클릭하고 다운로드 옵션을 선택하여 오프라인 레코드용으로 송장의 PDF 또는 스프레드시트 사본을 다운로드할 수 있습니다.
+   {: tip}
 
 ## 디바이스 및 서비스 구매 정보 보기
 {: #infra-orders}

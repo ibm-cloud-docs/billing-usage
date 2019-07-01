@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-18"
 
-keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
+keywords: payment, charges, pricing plan, service cost, cost, pricing tier
 
 subcollection: billing-usage
 
@@ -20,10 +20,11 @@ subcollection: billing-usage
 # Como você é cobrado
 {: #charges}
 
-Os encargos variam dependendo dos recursos que são usados por um determinado serviço, tempo de execução,
-contêiner ou opção de suporte. Os recursos podem ser o número de chamadas API, o número de instâncias, a memória ou o armazenamento. O {{site.data.keyword.Bluemix}} fornece estimativas de custo detalhadas para ajudar você a planejar os encargos.
+Os encargos do {{site.data.keyword.cloud}} variam dependendo dos recursos que são usados por um determinado serviço, tempo de execução, contêiner ou opção de suporte. Os recursos podem ser o número de chamadas API, o número de instâncias, a memória ou o armazenamento. Além disso, a precificação em camadas é oferecida simples, graduada ou bloco.
 {:shortdesc}
 
+O {{site.data.keyword.Bluemix_notm}} fornece [estimadores de custo](/docs/billing-usage?topic=billing-usage-cost) detalhados para ajudá-lo a planejar os encargos.
+{: tip}
 
 Depois de construir seus recursos, é possível verificar o custo real. Acesse **Gerenciar > Faturamento e uso** e selecione **Uso**. Com uma conta faturável do {{site.data.keyword.Bluemix_notm}}, você é cobrado pelo cálculo, contêineres e serviços usados pela sua organização. Você poderá ser convidado por outros usuários do {{site.data.keyword.Bluemix_notm}} a participar em organizações em uma conta diferente. O uso dos apps ou serviços que você usa nas organizações para as quais você é convidado é cobrado da conta que contém essas organizações. É possível ver mais informações sobre um encargo específico em cada página de detalhes do recurso.
 

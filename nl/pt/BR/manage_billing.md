@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Gerenciando pagamentos
 {: #linkedusage}
 
-É possível usar o painel de faturamento e uso para fazer um pagamento único, mudar os detalhes de seu cartão de crédito, visualizar seus itens de faturamento e visualizar suas faturas.
+É possível usar o painel de faturamento e uso do {{site.data.keyword.cloud}} para fazer um pagamento único, mudar os detalhes do seu cartão de crédito, visualizar seus itens de faturamento e visualizar suas faturas.
 {: shortdesc}
 
 

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-18"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# 常見問題 (FAQ)
+# 計費及用量常見問題
 {: #billusagefaqs}
+
+計費及用量常見問題可能包括有關信用卡、促銷代碼或訂閱的問題。要尋找 {{site.data.keyword.cloud}} 的所有常見問題，請參閱我們的[常見問題庫](/docs/faqs)。
+{: shortdesc}
 
 ## 如何更新我的信用卡？
 {: #updatecard}
@@ -47,10 +50,12 @@ subcollection: billing-usage
 {: #cancelmyaccount}
 {: faq}
 
-針對隨收隨付制或訂閱帳戶，取消帳戶最快的方式就是透過[即時會談](https://{DomainName}/unifiedsupport/supportcenter)與我們聯絡，或是撥打 1-866-325-0045 並選取第三個選項。您也可以開立支援案例。
+看到您要離開，我們覺得很遺憾！在您離開之前，如果有任何方法可以協助您使用帳戶，請透過與支援中心聯絡來聯繫我們。
 
-若要取消「精簡」帳戶，請移至**管理** > **帳戶** > **帳戶設定**，然後按一下**停用帳戶**。
+如果您真的決定要離開，則帳戶的取消方式取決於您的帳戶類型。您可以移至[帳戶設定](https://cloud.ibm.com/account/settings)，然後在_帳戶類型_ 下尋找，來檢查您的帳戶類型。
 
+* 針對隨收隨付制或訂閱帳戶，取消帳戶最快的方式就是透過[即時會談](https://{DomainName}/unifiedsupport/supportcenter)與我們聯絡，或是撥打 1-866-325-0045 並選取第三個選項。您也可以開立支援案例。
+* 若要取消精簡帳戶，請移至[帳戶設定](https://{DomainName}/account/settings)，然後按一下**取消啟動帳戶**。
 
 ## 如何刪除帳戶？
 {: #deleteaccount}
@@ -114,7 +119,7 @@ subcollection: billing-usage
 {: #subscriptioncode}
 {: faq}
 
-在購買訂閱之後，您會收到一封電子郵件，內含將額度新增至您帳戶的特性碼。若要套用特性碼，請移至[帳戶設定](https://{DomainName}/account/settings)，然後按一下**套用代碼**。如需相關資訊，請參閱[套用特性碼](/docs/account?topic=account-codes)。
+在購買訂閱之後，您會收到一封電子郵件，內含將額度新增至您帳戶的特性碼。要套用訂閱代碼，請移至[帳戶設定](https://{DomainName}/account/settings)，然後按一下**套用代碼**。如需相關資訊，請參閱[套用特性碼](/docs/account?topic=account-codes)。
 
 ## 如果我超過「訂閱」的總金額，如何計費？
 {: #subs-overage}
@@ -148,7 +153,7 @@ subcollection: billing-usage
 {: #subs-spend-before-term-end}
 {: faq}
 
-您需要繼續支付每個月費用，直到期限結束為止。若要避免產生超額費用，請與 [{{site.data.keyword.Bluemix_notm}} 銷售人員](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 聯絡，以協助您註冊新的「訂閱」。
+您需要繼續支付每個月費用，直到期限結束為止。為了避免出現超額計費，請聯絡 [{{site.data.keyword.Bluemix_notm}} 業務人員](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 獲取有關簽訂新訂閱的說明。
 
 ## 要如何監視花費？
 {: #monitor-spending}
@@ -165,7 +170,10 @@ subcollection: billing-usage
 {: #access-invoices}
 {: faq}
 
-從主控台按一下**管理 > 計費及用量**，然後選取**發票**。
+如果您有隨收隨付制或訂閱帳戶，則可以透過按一下**管理 > 計費及用量**並選取**發票**來檢視發票。在主控台之外，您還可以在
+[客戶支援中心發票網站 ](https://www.ibm.com/invoices){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 上檢視發票。
+
+精簡帳戶沒有發票，因為從未對精簡方案的使用收取費用。
 
 ## 我的用量為何與發票不符？
 {: #usage-not-match-invoice}

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -18,11 +18,14 @@ subcollection: billing-usage
 # 场景：估算示例节点应用程序的成本
 {: #sample}
 
-假定您的 Node.js Web 应用程序具有扩展能力，并且该应用程序使用 {{site.data.keyword.Bluemix}} 提供的多个服务。在此示例中，您可以了解如何计算应用程序的实际成本。Web 应用程序使用以下 {{site.data.keyword.Bluemix_notm}} 服务和项：
+假定您的 Node.js Web 应用程序具有扩展能力，并且该应用程序使用 {{site.data.keyword.Bluemix}} 提供的多个服务。在此示例中，您可以了解如何计算应用程序的实际成本。
+{: shortdesc}
+
+Web 应用程序使用以下 {{site.data.keyword.Bluemix_notm}} 服务和项：
 
 * 四个 256 MB Node.js 运行时实例
 * 两个 {{site.data.keyword.autoscaling}} 策略、处理器和内存
-* 每月 150 GB（针对 {{site.data.keyword.cloudant_short_notm}} 数据库，1,000 个查找、500 次写入和 50 个查询）。
+* 针对 {{site.data.keyword.cloudant_short_notm}} 数据库的每月 150 GB，1,000 次查找，500 次写入和 50 次查询
 * 20 GB 入站或出站网络流量
 
 
@@ -31,11 +34,11 @@ subcollection: billing-usage
 
 为了简化示例，假设下表中的价格在某个时间范围（例如，一个月）内不波动。此示例中的所有定价使用美元。
 
-|服务|	功能|	价格|
+|服务|	特色|	价格|
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	每月 375 GB-小时可用（在所有运行时共享）|	0.07 美元/GB-小时|
 | {{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 服务的免费服务套餐|	免费|
-| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - 轻量|包含 20 GB 免费数据存储</br>按以下增量扩展供应的吞吐量容量：</br>每秒 100 个查找</br>每秒 50 次写入</br>每秒 5 个查询|1.00 美元/GB 数据存储</br>每秒 0.25 美元/查找</br>每秒 0.50 美元/写入</br>每秒 5.00 美元/查询|
+| {{site.data.keyword.cloudant_short_notm}} | 标准套餐包括 20 GB 免费数据存储</br>按以下增量扩展供应的吞吐量容量</br>每秒 100 次查找</br>每秒 50 次写入</br>每秒 5 次查询 |数据存储器 1.00 美元/GB</br>每秒每次查找 0.25 美元</br>每秒每次写入 0.50 美元</br>每秒每次查询 5.00 美元|
 {:caption="表 1. 资源的定价" caption-side="top"}
 
 

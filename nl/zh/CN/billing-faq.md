@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-18"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# 常见问题
+# 计费和使用情况常见问题
 {: #billusagefaqs}
+
+计费和使用情况常见问题可能包括有关信用卡、促销码或预订的问题。要查找 {{site.data.keyword.cloud}} 的所有常见问题，请参阅我们的[常见问题库](/docs/faqs)。
+{: shortdesc}
 
 ## 如何更新信用卡？
 {: #updatecard}
@@ -47,10 +50,12 @@ subcollection: billing-usage
 {: #cancelmyaccount}
 {: faq}
 
-对于现收现付帐户或预订帐户，取消帐户的最快方法是通过[实时交谈](https://{DomainName}/unifiedsupport/supportcenter)或致电 1-866-325-0045 并选择第三个选项来联系我们。也可以打开一个支持案例。
+您要取消帐户，我们非常遗憾！在此之前，如果有任何方法我们可以帮助您解决您的帐户问题，请与我们的支持人员联系。
 
-要取消轻量帐户，请转至**管理** > **帐户** > **帐户设置**，然后单击**停用帐户**。
+如果您决定取消帐户，请查看您的帐户类型，它决定了您可以如何取消帐户。您可以转至[帐户设置](https://cloud.ibm.com/account/settings)，然后在_帐户类型_下查看您的帐户类型。
 
+* 对于现收现付帐户或预订帐户，取消帐户的最快方法是通过[实时交谈](https://{DomainName}/unifiedsupport/supportcenter)或致电 1-866-325-0045 并选择第三个选项来联系我们。也可以打开一个支持案例。
+* 要取消轻量帐户，请转至[帐户设置](https://{DomainName}/account/settings)，然后单击**取消激活帐户**。
 
 ## 如何删除帐户？
 {: #deleteaccount}
@@ -114,7 +119,7 @@ subcollection: billing-usage
 {: #subscriptioncode}
 {: faq}
 
-购买预订后，您会收到一封电子邮件，其中包含用于向您的帐户添加信用值的特征代码。要应用特征代码，请转至[帐户设置](https://{DomainName}/account/settings)，然后单击**应用代码**。有关更多信息，请参阅[应用特征代码](/docs/account?topic=account-codes)。
+购买预订后，您会收到一封电子邮件，其中包含用于向您的帐户添加信用值的特征代码。要应用预订代码，请转至[帐户设置](https://{DomainName}/account/settings)，然后单击**应用代码**。有关更多信息，请参阅[应用特征代码](/docs/account?topic=account-codes)。
 
 ## 如果我已超出预订总额，如何对我计费？
 {: #subs-overage}
@@ -165,7 +170,10 @@ subcollection: billing-usage
 {: #access-invoices}
 {: faq}
 
-在控制台中，单击**管理 > 计费和使用情况**，然后选择**发票**。
+如果您有现收现付或预订帐户，那么可以通过单击**管理 > 计费和使用情况**并选择**发票**来查看发票。在控制台之外，您还可以在
+[客户支持发票站点 ](https://www.ibm.com/invoices){: new_window} ![外部链接图标](../icons/launch-glyph.svg) 上查看发票。
+
+轻量帐户没有发票，因为轻量套餐使用从来不收取费用。
 
 ## 为什么使用量与发票不一致？
 {: #usage-not-match-invoice}

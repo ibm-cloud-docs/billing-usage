@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-05"
 
-keywords: SoftLayer, SoftLayer billing, infrastructure billing, IaaS, cost, orders, IaaS usage, invoice
+keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 檢視標準基礎架構資源的用量
 {: #infra-usage}
 
-您可以移至**管理 > 計費及用量**，檢視標準基礎架構裝置及服務的用量。  
+您可以透過移至**管理 > 計費及用量**來檢視標準基礎架構裝置和服務的裝置使用情況和服務購買情況。  
 {:shortdesc}
 
 ## 檢視計費及用量資訊

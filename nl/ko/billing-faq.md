@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-18"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# FAQ
+# 청구 및 사용량에 대한 FAQ
 {: #billusagefaqs}
+
+청구 및 사용량에 대한 FAQ에는 신용카드, 프로모션 코드 또는 구독에 대한 질문이 포함될 수 있습니다. {{site.data.keyword.cloud}}에 대한 모든 FAQ를 찾으려면 [FAQ 라이브러리](/docs/faqs)를 참조하십시오.
+{: shortdesc}
 
 ## 내 신용카드는 어떻게 업데이트합니까?
 {: #updatecard}
@@ -47,10 +50,12 @@ subcollection: billing-usage
 {: #cancelmyaccount}
 {: faq}
 
-종량과금제 또는 구독 계정의 경우, 가장 빠른 계정 취소 방법은 [실시간 대화](https://{DomainName}/unifiedsupport/supportcenter)를 통해 또는 1-866-325-0045 번호로 전화한 후 세 번째 옵션을 선택하여 당사에 요청하는 것입니다. 또는 지원 케이스를 열 수도 있습니다.
+만족스럽지 못한 점이 있으면 나가기로 결정하기 전에 지원 담당자에게 지원에 대해 문의해 주십시오.
 
-Lite 계정을 취소하려면 **관리** > **계정** > **계정 설정**으로 이동하여 **계정 비활성화**를 클릭하십시오.
+나가기로 결정한 경우 계정 유형에 따라 계정을 취소하는 방법이 다릅니다. [계정 설정](https://cloud.ibm.com/account/settings)으로 이동하여 _계정 유형_ 아래에서 계정 유형을 확인할 수 있습니다.
 
+* 종량과금제 또는 구독 계정의 경우, 가장 빠른 계정 취소 방법은 [실시간 대화](https://{DomainName}/unifiedsupport/supportcenter)를 통해 또는 1-866-325-0045 번호로 전화한 후 세 번째 옵션을 선택하여 당사에 요청하는 것입니다. 또는 지원 케이스를 열 수도 있습니다.
+* Lite 계정을 취소하려면 [계정 설정](https://{DomainName}/account/settings)으로 이동하여 **계정 비활성화**를 클릭하십시오.
 
 ## 내 계정은 어떻게 삭제합니까?
 {: #deleteaccount}
@@ -58,13 +63,13 @@ Lite 계정을 취소하려면 **관리** > **계정** > **계정 설정**으로
 
 [{{site.data.keyword.Bluemix_notm}} 지원 센터 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}에 문의하여 지원 케이스를 열고 계정 삭제를 요청하십시오. 새 계정으로 이동할 이전 계정과 연관된 데이터가 있으면 이 정보를 이메일에 포함하십시오.
 
-삭제된 계정의 데이터는 복구할 수 없습니다. 
+삭제된 계정의 데이터는 복구할 수 없습니다.
 
 ## 도움이 필요하십니까?
 {: #contactsupport}
 {: faq}
 
-콘솔 메뉴 표시줄에서 **지원**을 클릭하여 지원 센터에 액세스하십시오. 여기에서 먼저 일반 FAQ 목록을 활용하십시오. 필요한 답변을 찾을 수 없는 경우에는 **추가 도움이 필요하십니까?** 절을 참조하여 IBM Cloud 지원에 문의하십시오. 
+콘솔 메뉴 표시줄에서 **지원**을 클릭하여 지원 센터에 액세스하십시오. 여기에서 먼저 일반 FAQ 목록을 활용하십시오. 필요한 답변을 찾을 수 없는 경우에는 **추가 도움이 필요하십니까?** 절을 참조하여 IBM Cloud 지원에 문의하십시오.
 
 ## GB-시간의 개념
 {: #gb-hour}
@@ -114,7 +119,7 @@ Lite 플랜 인스턴스의 할당량 한계에 도달하면 해당 월의 서�
 {: #subscriptioncode}
 {: faq}
 
-구독을 구매하면 계정에 크레딧을 추가하는 기능 코드가 포함된 이메일을 받습니다. 기능 코드를 적용하려면 [계정 설정](https://{DomainName}/account/settings)으로 이동한 후 **코드 적용**을 클릭하십시오. 자세한 정보는 [기능 코드 적용](/docs/account?topic=account-codes)을 참조하십시오.
+구독을 구매하면 계정에 크레딧을 추가하는 기능 코드가 포함된 이메일을 받습니다. 구독 코드를 적용하려면 [계정 설정](https://{DomainName}/account/settings)으로 이동한 후 **코드 적용**을 클릭하십시오. 자세한 정보는 [기능 코드 적용](/docs/account?topic=account-codes)을 참조하십시오.
 
 ## 내 구독의 총 금액을 초과하면 어떻게 비용이 청구됩니까?
 {: #subs-overage}
@@ -141,7 +146,7 @@ Lite 플랜 인스턴스의 할당량 한계에 도달하면 해당 월의 서�
 {: #subs-cancel-early}
 {: faq}
 
-구독은 특정 기간 및 지출 금액만큼 {{site.data.keyword.Bluemix_notm}}를 사용할 것을 약속하는, 사용자와 IBM 간의 계약입니다. 기간이 종료되기 전에 구독을 취소하도록 요청할 수도 있지만 구독 취소 여부는 IBM에서 결정합니다. 구독에 대해 남아있는 크레딧은 몰수될 수 있습니다. 이 가능성에 대해 문의하려면 지원 센터에 문의하십시오. 구독을 취소해야 하는 이유에 대한 세부사항을 반드시 제공하십시오. 
+구독은 특정 기간 및 지출 금액만큼 {{site.data.keyword.Bluemix_notm}}를 사용할 것을 약속하는, 사용자와 IBM 간의 계약입니다. 기간이 종료되기 전에 구독을 취소하도록 요청할 수도 있지만 구독 취소 여부는 IBM에서 결정합니다. 구독에 대해 남아있는 크레딧은 몰수될 수 있습니다. 이 가능성에 대해 문의하려면 지원 센터에 문의하십시오. 구독을 취소해야 하는 이유에 대한 세부사항을 반드시 제공하십시오.
 
 
 ## 기간이 끝나기 전에 내 지출 약정에 도달하면 어떻게 됩니까?  
@@ -159,13 +164,15 @@ Lite 플랜 인스턴스의 할당량 한계에 도달하면 해당 월의 서�
 {: #spending-notify}
 {: faq}
 
-계정, 컨테이너, 런타임, 모든 서비스 및 특정 서비스에 대해 각각 별도의 지출 임계값을 설정할 수 있습니다. 이러한 임계값의 80%, 90%, 100%에  도달하면 자동으로 알림을 수신합니다. 지출 알림을 설정하려면 **관리 > 청구 및 사용량**을 클릭하고 **지출 알림**을 선택하십시오. 자세한 정보는 [지출 알림 설정](/docs/billing-usage?topic=billing-usage-spending)을 참조하십시오.
+계정, 컨테이너, 런타임, 모든 서비스 및 특정 서비스에 대해 각각 별도의 지출 임계값을 설정할 수 있습니다. 이러한 임계값의 80%, 90%, 100%에 도달하면 자동으로 알림을 수신합니다. 지출 알림을 설정하려면 **관리 > 청구 및 사용량**을 클릭하고 **지출 알림**을 선택하십시오. 자세한 정보는 [지출 알림 설정](/docs/billing-usage?topic=billing-usage-spending)을 참조하십시오.
 
 ## 어디서 내 송장에 액세스할 수 있습니까?
 {: #access-invoices}
 {: faq}
 
-콘솔에서 **관리 > 청구 및 사용량**을 클릭하고 **송장**을 선택하십시오.
+종량과금제 또는 구독 계정이 있으면 **관리 > 청구 및 사용량**을 클릭하고 **송장**을 선택하여 송장을 볼 수 있습니다. 또한 콘솔 외부에서 [고객 지원 송장 사이트](https://www.ibm.com/invoices){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)에서 송장을 볼 수 있습니다.
+
+Lite 플랜 사용량에 대해서는 과금되지 않으므로 Lite 계정에는 송장이 없습니다.
 
 ## 내 사용량이 내 송장과 일치하지 않는 이유는 무엇입니까?
 {: #usage-not-match-invoice}

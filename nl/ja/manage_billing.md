@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 支払いの管理
 {: #linkedusage}
 
-「請求および使用量」ダッシュボードを使用して、一回限りの支払い、クレジット・カードの詳細の変更、請求項目の表示、および送り状の表示を行うことができます。
+{{site.data.keyword.cloud}} の「請求および使用量」ダッシュボードを使用して、一回限りの支払い、クレジット・カードの詳細の変更、請求項目の表示、および送り状の表示を行うことができます。
 {: shortdesc}
 
 

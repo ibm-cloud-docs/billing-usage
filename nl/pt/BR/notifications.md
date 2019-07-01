@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Configurando notificações de gastos
 {: #spending}
 
-Se você for um proprietário da conta pré-paga ou de assinatura, será possível configurar notificações de gastos por e-mail. Configure as notificações para a conta total, tempo de execução, contêiner e gastos de serviço ou os gastos
+Se você for um proprietário de conta Pré-paga ou Assinatura do {{site.data.keyword.cloud}}, será possível configurar notificações de gasto por e-mail. Configure as notificações para a conta total, tempo de execução, contêiner e gastos de serviço ou os gastos
 para serviços individuais, exceto serviços de terceiros.
 {: shortdesc}
 

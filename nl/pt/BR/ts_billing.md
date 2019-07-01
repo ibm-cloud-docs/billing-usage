@@ -23,7 +23,7 @@ subcollection: billing-usage
 # Resolução de problemas para gerenciar faturamento e uso
 {: #troubleshoot}
 
-Problemas gerais ao gerenciar seu faturamento e uso podem incluir a autoridade necessária para acessar suas informações de faturamento. Em muitos casos, é possível recuperar-se do problema seguindo algumas etapas simples.
+Problemas gerais com o gerenciamento de seu faturamento e uso do {{site.data.keyword.cloud}} podem incluir a autoridade necessária para acessar suas informações de faturamento. Em muitos casos, é possível recuperar-se do problema seguindo algumas etapas simples.
 {:shortdesc}
 
 

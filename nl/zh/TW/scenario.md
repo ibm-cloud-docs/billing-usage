@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -18,11 +18,14 @@ subcollection: billing-usage
 # 情境：預估範例 Node 應用程式的成本
 {: #sample}
 
-假設您的 Node.js Web 應用程式具有擴充功能，而且該應用程式使用 {{site.data.keyword.Bluemix}} 所提供的數個服務。您可以在此範例中瞭解如何計算應用程式的實際成本。Web 應用程式使用下列 {{site.data.keyword.Bluemix_notm}} 服務及項目：
+假設您的 Node.js Web 應用程式具有擴充功能，而且該應用程式使用 {{site.data.keyword.Bluemix}} 所提供的數個服務。您可以在此範例中瞭解如何計算應用程式的實際成本。
+{: shortdesc}
+
+Web 應用程式使用下列 {{site.data.keyword.Bluemix_notm}} 服務及項目：
 
 * 四個 256 MB Node.js 運行環境實例
 * 兩個 {{site.data.keyword.autoscaling}} 原則：處理器及記憶體
-* 每月 150 GB 的 {{site.data.keyword.cloudant_short_notm}} 資料庫、1,000 次查閱、500 次寫入，及 50 次查詢。
+* 每個月 150 GB 用於 {{site.data.keyword.cloudant_short_notm}} 資料庫的 1,000 次查閱、500 次寫入及 50 次查詢
 * 20 GB 的入埠或出埠網路資料流量
 
 
@@ -35,7 +38,7 @@ subcollection: billing-usage
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	每個月有 375 GB-小時免費（跨所有運行環境共用）|	美金 0.07 元/GB-小時|
 | {{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 服務的免費服務方案|	免費|
-| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite |包含 20 GB 的免費資料儲存空間</br>擴充佈建的傳輸量，使用增量為：</br>每秒 100 次查閱</br>每秒 50 次寫入</br>每秒 5 次查詢|美金 1.00 元/GB 的資料儲存空間</br>美金 0.25 元/每秒查閱</br>美金 0.50 元/每秒寫入</br>美金 5.00 元/每秒查詢|
+| {{site.data.keyword.cloudant_short_notm}} | 標準方案包括 20 GB 免費資料儲存空間</br>按以下增量擴展佈建的傳輸量容量</br>每秒 100 次查閱</br>每秒 50 次寫入</br>每秒 5 次查詢 | 資料儲存空間每 GB 1.00 美元</br>0.25 美元/查閱（每秒）</br>0.50 美元/寫入（每秒）</br>5.00 美元/查詢（每秒）|
 {:caption="表 1. 資源的定價" caption-side="top"}
 
 

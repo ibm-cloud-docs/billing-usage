@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 設定消費通知
 {: #spending}
 
-如果您是「隨收隨付制」或「訂閱」帳戶擁有者，即可設定電子郵件消費通知。設定對於下列項目的通知：總帳戶消費、總運行環境消費、總容器消費及總服務消費，或個別服務的消費（協力廠商服務除外）。
+如果您是 {{site.data.keyword.cloud}} 隨收隨付制帳戶或訂閱帳戶擁有者，則可以設定電子郵件消費通知。設定對於下列項目的通知：總帳戶消費、總運行環境消費、總容器消費及總服務消費，或個別服務的消費（協力廠商服務除外）。
 {: shortdesc}
 
 您會在達到所指定消費臨界值的 80%、90% 和 100% 時收到通知。您可以在需求變更時隨時編輯每一個消費通知。

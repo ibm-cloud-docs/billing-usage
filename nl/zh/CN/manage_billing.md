@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 管理付款
 {: #linkedusage}
 
-您可以使用“计费和使用情况”仪表板来执行一次性付款，更改信用卡详细信息，查看计费项目和查看发票。
+您可以使用 {{site.data.keyword.cloud}} 计费和使用情况仪表板来执行一次性付款，更改信用卡详细信息，查看计费项目和查看发票。
 {: shortdesc}
 
 

@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 결제 관리
 {: #linkedusage}
 
-청구 및 사용량 대시보드를 사용하여 일회성 결제를 진행하고 신용카드 세부사항을 변경하며 청구 항목 및 송장을 볼 수 있습니다.
+{{site.data.keyword.cloud}} 청구 및 사용량 대시보드를 사용하여 일회성 결제를 진행하고 신용카드 세부사항을 변경하며 청구 항목 및 송장을 볼 수 있습니다.
 {: shortdesc}
 
 

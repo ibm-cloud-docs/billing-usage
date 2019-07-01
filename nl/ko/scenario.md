@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -18,11 +18,14 @@ subcollection: billing-usage
 # 시나리오: 예제 Node 앱의 비용 추정
 {: #sample}
 
-스케일링 기능이 있는 Node.js 웹 앱이 있으며 이 앱이 {{site.data.keyword.Bluemix}}에서 제공하는 여러 서비스를 사용한다고 가정하십시오. 이 예제를 통해 앱의 실제 비용이 어떻게 계산되는지 이해할 수 있습니다. 웹 앱이 사용하는 {{site.data.keyword.Bluemix_notm}} 서비스와 항목은 다음과 같습니다.
+스케일링 기능이 있는 Node.js 웹 앱이 있으며 이 앱이 {{site.data.keyword.Bluemix}}에서 제공하는 여러 서비스를 사용한다고 가정하십시오. 이 예제를 통해 앱의 실제 비용이 어떻게 계산되는지 이해할 수 있습니다. 
+{: shortdesc}
+
+웹 앱이 사용하는 {{site.data.keyword.Bluemix_notm}} 서비스와 항목은 다음과 같습니다.
 
 * 256MB Node.js 런타임 인스턴스 4개
 * 2개의 {{site.data.keyword.autoscaling}} 정책, 프로세서 및 메모리
-* 월별 150GB {{site.data.keyword.cloudant_short_notm}} 데이터베이스, 1,000개의 검색, 500개의 쓰기 및 50개의 조회.
+* 월별 150GB {{site.data.keyword.cloudant_short_notm}} 데이터베이스, 1,000개의 검색, 500개의 쓰기 및 50개의 조회
 * 20GB의 인바운드 또는 아웃바운드 네트워크 트래픽
 
 
@@ -35,7 +38,7 @@ subcollection: billing-usage
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	매월 375GB-시간 무료(모든 런타임에서 공유됨)            |	$0.07 USD/GB-시간 |
 | {{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} 서비스에 대한 무료 서비스 플랜 |	무료              |
-| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite | 20GB의 사용 가능한 데이터 스토리지 포함</br>프로비저닝된 처리량 용량을 다음과 같은 증분으로 스케일링합니다.</br>초당 100개의 검색</br>초당 50개의 쓰기</br>초당 5개의 조회 | $1.00USD/GB의 데이터 스토리지</br>$0.25USD/초당 검색</br>$0.50USD/초당 쓰기</br>$5.00USD/초당 조회 |
+| {{site.data.keyword.cloudant_short_notm}} | 표준 플랜에는 20GB의 무료 데이터 스토리지가 포함됨</br>프로비저닝된 처리량 용량을 다음과 같은 증분으로 스케일링합니다.</br>초당 100개의 검색</br>초당 50개의 쓰기</br>초당 5개의 조회 | $1.00USD/GB의 데이터 스토리지</br>$0.25USD/초당 검색</br>$0.50USD/초당 쓰기</br>$5.00USD/초당 조회|
 {:caption="표 1. 리소스 가격" caption-side="top"}
 
 

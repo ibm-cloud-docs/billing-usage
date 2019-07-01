@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-05"
 
-keywords: SoftLayer, SoftLayer billing, infrastructure billing, IaaS, cost, orders, IaaS usage, invoice
+keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 查看经典基础架构资源的使用情况
 {: #infra-usage}
 
-您可以查看经典基础架构设备和服务的使用情况，方法是转至**管理 > 计费和使用情况**。  
+您可以通过转至**管理 > 计费和使用情况**来查看经典基础架构设备和服务的设备使用情况和服务购买情况。  
 {:shortdesc}
 
 ## 查看计费和使用情况信息

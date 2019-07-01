@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-18"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# FAQ
+# 請求および使用量の管理に関する FAQ
 {: #billusagefaqs}
+
+請求および使用量に関する FAQ には、クレジット・カード、プロモーション・コード、またはサブスクリプションについての質問が含まれていることがあります。{{site.data.keyword.cloud}} に関するすべての FAQ を見つけるには、[FAQ ライブラリー](/docs/faqs)を参照してください。
+{: shortdesc}
 
 ## クレジット・カードを更新するには、どのようにすればいいですか?
 {: #updatecard}
@@ -33,7 +36,7 @@ subcollection: billing-usage
 
 お客様の身元を保護するのは優先事項であるため、クレジット・カード検査は入念に行われます。
 
-お問い合わせについては、1-866-325-0045 に電話して、3 番目のオプションを選択してください。あるいは、IBMid と、表示されたエラー・メッセージがある場合はそのコピーを含む E メールを `verify@us.ibm.com` に送信することもできます。 クレジット・カード情報は含めないでください。
+お問い合わせについては、1-866-325-0045 に電話して、3 番目のオプションを選択してください。 あるいは、IBMid と、表示されたエラー・メッセージがある場合はそのコピーを含む E メールを `verify@us.ibm.com` に送信することもできます。 クレジット・カード情報は含めないでください。
 
 ## 割引フィーチャー・コードを適用するには、どのようにすればよいですか?
 {: #entercode}
@@ -47,10 +50,12 @@ subcollection: billing-usage
 {: #cancelmyaccount}
 {: faq}
 
-従量課金 (PAYG) アカウントまたはサブスクリプション・アカウントの場合、アカウントを取り消す最も簡単な方法は、[ライブ・チャット](https://{DomainName}/unifiedsupport/supportcenter)で連絡するか、1-866-325-0045 に電話をかけて 3 番目のオプションを選択することです。 あるいは、サポート Case を開くこともできます。
+取り消しをご希望でしょうか。 取り消しを行う前に、アカウントに関してお手伝いさせていただくことがあれば、サポートにお問い合わせください。
 
-ライト・アカウントをキャンセルするには、**「管理」** > **「アカウント」** > **「アカウント設定」**に移動して、**「アカウントの非アクティブ化」**をクリックします。
+取り消しを行う場合、アカウントを取り消す方法は、アカウントのタイプによって異なります。 アカウントのタイプをチェックするには、[「アカウント設定」](https://cloud.ibm.com/account/settings) に移動し、_「アカウント・タイプ」_の下で確認してください。
 
+* 従量課金 (PAYG) アカウントまたはサブスクリプション・アカウントの場合、アカウントを取り消す最も簡単な方法は、[ライブ・チャット](https://{DomainName}/unifiedsupport/supportcenter)で連絡するか、1-866-325-0045 に電話をかけて 3 番目のオプションを選択することです。 あるいは、サポート Case を開くこともできます。
+* ライト・アカウントを取り消すには、[「アカウント設定」](https://{DomainName}/account/settings)に進み、**「アカウントの非アクティブ化」**をクリックします。
 
 ## アカウントを削除するには、どのようにすればよいですか?
 {: #deleteaccount}
@@ -114,7 +119,7 @@ subcollection: billing-usage
 {: #subscriptioncode}
 {: faq}
 
-サブスクリプションの購入後、アカウントにクレジットを追加するフィーチャー・コードが記載された E メールが送られてきます。 このフィーチャー・コードを適用するには、[「アカウント設定」](https://{DomainName}/account/settings)に移動し、**「コードの適用」**をクリックします。 詳しくは、[フィーチャー・コードの適用](/docs/account?topic=account-codes)を参照してください。
+サブスクリプションの購入後、アカウントにクレジットを追加するフィーチャー・コードが記載された E メールが送られてきます。 このサブスクリプション・コードを適用するには、[「アカウント設定」](https://{DomainName}/account/settings)に移動し、**「コードの適用」**をクリックします。詳しくは、[フィーチャー・コードの適用](/docs/account?topic=account-codes)を参照してください。
 
 ## サブスクリプションの合計金額を超えたときの課金はどうなりますか?
 {: #subs-overage}
@@ -165,7 +170,9 @@ subcollection: billing-usage
 {: #access-invoices}
 {: faq}
 
-コンソールから**「管理」>「請求および使用量」**をクリックし、**「送り状」**を選択します。
+従量課金 (PAYG) アカウントまたはサブスクリプション・アカウントを持っている場合は、**「管理」>「請求および使用量」**をクリックして**「送り状」**を選択すると、送り状を表示できます。コンソールの外では、[Customer Support の Invoices のサイト](https://www.ibm.com/invoices){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg) でも送り状を表示できます。
+
+ライト・プランの使用について課金されないため、ライト・アカウントには送り状はありません。
 
 ## 使用量が送り状と一致しないのはなぜですか?
 {: #usage-not-match-invoice}

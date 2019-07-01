@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-18"
 
-keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
+keywords: payment, charges, pricing plan, service cost, cost, pricing tier
 
 subcollection: billing-usage
 
@@ -20,9 +20,11 @@ subcollection: billing-usage
 # 收费方式
 {: #charges}
 
-费用根据特定服务、运行时、容器或支持选项所使用的资源而定。资源可以是 API 调用数、实例数、内存或存储量。{{site.data.keyword.Bluemix}} 提供了详细的成本估算工具，帮助您规划费用。
+{{site.data.keyword.cloud}} 费用根据特定服务、运行时、容器或支持选项所使用的资源而有所不同。资源可以是 API 调用数、实例数、内存或存储量。此外，分层定价以简单层、累进层或包量层形式提供。
 {:shortdesc}
 
+{{site.data.keyword.Bluemix_notm}} 提供了详细的[成本估算工具](/docs/billing-usage?topic=billing-usage-cost)，帮助您规划费用。
+{: tip}
 
 构建资源后，可以检查实际成本。转至**管理 > 计费和使用情况**，然后选择**使用情况**。使用 {{site.data.keyword.Bluemix_notm}} 计费帐户时，会针对您组织中使用的计算、容器和服务向您收费。其他 {{site.data.keyword.Bluemix_notm}} 用户可能会邀请您以其他帐户参与组织。对于您在受邀加入的组织中使用的应用程序或服务，其使用情况的费用将计入包含这些组织的帐户。您可以在每个资源详细信息页面中查看有关特定费用的更多信息。
 

@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 消費量通知の設定
 {: #spending}
 
-従量課金 (PAYG) またはサブスクリプションのアカウント所有者の場合、E メールによる消費量の通知をセットアップできます。 合計アカウント消費量、合計ランタイム消費量、合計コンテナー消費量、および合計サービス消費量または個別サービスの消費量 (サード・パーティーのサービスを除く) について、通知を設定します。
+{{site.data.keyword.cloud}} の従量課金 (PAYG) またはサブスクリプションのアカウント所有者の場合、E メールによる消費量の通知をセットアップできます。合計アカウント消費量、合計ランタイム消費量、合計コンテナー消費量、および合計サービス消費量または個別サービスの消費量 (サード・パーティーのサービスを除く) について、通知を設定します。
 {: shortdesc}
 
 指定した使用しきい値の 80%、90%、および 100% に達すると、通知を受け取ります。 いつでもニーズの変更に応じて、それぞれの消費量の通知を編集できます。

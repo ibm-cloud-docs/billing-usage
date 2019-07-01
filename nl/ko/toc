@@ -6,6 +6,7 @@
 
     {: .navgroup id="learn"}
     scenario.md
+    bp_billing.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -21,6 +22,15 @@
     사용량 관리
         viewing_usage.md
         infra_usage.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [명령 참조](/cli/cloud-cli-ibmcloud_billing)
+
+    {: .topicgroup}
+    API 참조
+        [사용량 측정](https://{DomainName}/apidocs/usage-metering){: new_window}
+        [사용량 보고서](https://{DomainName}/apidocs/metering-reporting){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

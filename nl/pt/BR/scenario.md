@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -19,12 +19,14 @@ subcollection: billing-usage
 {: #sample}
 
 Suponha que você tenha um app da web Node.js com recursos de ajuste de escala e o app usa
-vários serviços que são fornecidos pelo {{site.data.keyword.Bluemix}}. É possível aprender como o custo real de seu app é calculado neste exemplo. O app da web usa os serviços e itens do {{site.data.keyword.Bluemix_notm}} a seguir:
+vários serviços que são fornecidos pelo {{site.data.keyword.Bluemix}}. É possível aprender como o custo real de seu app é calculado neste exemplo. 
+{: shortdesc}
+
+O app da web usa os serviços e itens do {{site.data.keyword.Bluemix_notm}} a seguir:
 
 * Quatro instâncias de tempo de execução do Node.js de 256 MB
 * Duas políticas de {{site.data.keyword.autoscaling}}, processador e memória
-* Banco de dados {{site.data.keyword.cloudant_short_notm}} de 150 GB por mês, 1.000 procuras, 500 gravações
-e 50 consultas.
+* Banco de dados {{site.data.keyword.cloudant_short_notm}} de 150 GB por mês, 1.000 lookups, 500 gravações e 50 consultas
 * 20 GB de tráfego de rede de entrada e saída
 
 
@@ -38,8 +40,7 @@ prazo, por exemplo, um mês. Toda a precificação neste exemplo é em moeda dos
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	375 GB/horas grátis por mês (compartilhados entre todos os tempos de execução)            |	$0,07 USD/GB/hora |
 | {{site.data.keyword.autoscaling}} |	Plano de serviço grátis para o serviço {{site.data.keyword.autoscaling}} |	Grátis              |
-| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - Lite | Inclui 20 GB de
-armazenamento de dados grátis</br>Escale a capacidade de rendimento provisionada em incrementos de:</br>100 consultas por segundo</br>50 gravações por segundo</br>5 consultas por segundo | $1,00 USD/GB de armazenamento de dados</br>$0,25 USD/Lookup por segundo</br>$0,50 USD/Gravação por segundo</br>US$ 5,00/consulta por segundo |
+| {{site.data.keyword.cloudant_short_notm}} | O plano padrão inclui 20 GB de armazenamento de dados grátis</br>Capacidade de rendimento provisionada de escala em incrementos de:</br>100 lookups por segundo</br>50 gravações por segundo</br>5 consultas por segundo | US$1,00/GB de armazenamento de dados</br>US$0,25/Lookup por segundo</br>US$0,50/Gravação por segundo</br>US$5,00/Consulta por segundo |
 {:caption="Tabela 1.  Preços para recursos" caption-side="top"}
 
 

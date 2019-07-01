@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-05"
 
-keywords: SoftLayer, SoftLayer billing, infrastructure billing, IaaS, cost, orders, IaaS usage, invoice
+keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Visualizando o uso de seus recursos da infraestrutura clássica
 {: #infra-usage}
 
-É possível visualizar seu uso para dispositivos e serviços de infraestrutura clássica acessando **Gerenciar > Faturamento e uso**.  
+É possível visualizar o uso do dispositivo e as compras de serviço para dispositivos e serviços de infraestrutura clássica acessando **Gerenciar > Faturamento e uso**.  
 {:shortdesc}
 
 ## Visualizando as informações de faturamento e uso

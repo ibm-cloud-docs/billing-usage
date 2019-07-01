@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -18,12 +18,15 @@ subcollection: billing-usage
 # シナリオ: Node アプリの例のコスト見積もり
 {: #sample}
 
-スケーリング機能を持つ Node.js Web アプリを使用しており、そのアプリは {{site.data.keyword.Bluemix}} が提供する複数のサービスを使用していると仮定します。 この例で、ご使用のアプリの実際のコストがどのように計算されるかを学習することができます。 この Web アプリは、以下の {{site.data.keyword.Bluemix_notm}}
+スケーリング機能を持つ Node.js Web アプリを使用しており、そのアプリは {{site.data.keyword.Bluemix}} が提供する複数のサービスを使用していると仮定します。 この例では、ご使用のアプリの実際のコストがどのように計算されるかを説明します。
+{: shortdesc}
+
+この Web アプリは、以下の {{site.data.keyword.Bluemix_notm}}
 サービスとアイテムを使用します。
 
 * 4 個の 256 MB Node.js ランタイム・インスタンス
 * 2 個の {{site.data.keyword.autoscaling}} ポリシー、およびプロセッサーとメモリー
-* 1 カ月当たり 150 GB の {{site.data.keyword.cloudant_short_notm}} データベース、1,000 件のルックアップ、500 件の書き込み、および 50 件の照会。
+* 1 カ月当たり 150 GB の {{site.data.keyword.cloudant_short_notm}} データベース、1,000 件のルックアップ、500 件の書き込み、および 50 件の照会
 * 20 GB のインバウンドまたはアウトバウンドのネットワーク・トラフィック
 
 
@@ -36,7 +39,7 @@ subcollection: billing-usage
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	1 月あたり 375 GB 時間無料 (すべてのランタイム間で共有)            |	$0.07 (米ドル)/GB 時間 |
 | {{site.data.keyword.autoscaling}} |	{{site.data.keyword.autoscaling}} サービスの無料サービス・プラン |	無料              |
-| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.Bluemix_notm}} - ライト | 20 GB の無料データ・ストレージを含む</br>プロビジョンされたスループット容量を以下の単位でスケール:</br>1 秒当たり 100 件のルックアップ</br>1 秒当たり 50 件の書き込み</br>1 秒当たり 5 件の照会 | $1.00 USD/GB のデータ・ストレージ</br>$0.25 USD/1 秒当たりのルックアップ</br>$0.50 USD/1 秒当たりの書き込み</br>$5.00 USD/1 秒当たりの照会 |
+| {{site.data.keyword.cloudant_short_notm}} | 標準プランには、20 GB の無料データ・ストレージが含まれます</br>プロビジョンされたスループットのキャパシティーを次の単位でスケーリングします。</br>1 秒あたり 100 件のルックアップ</br>1 秒あたり 50 件の書き込み</br>1 秒あたり 5 件の照会 |1 GB のデータ・ストレージにつき $1.00 (米ドル)</br>1 秒あたりのルックアップにつき $0.25 (米ドル)</br>1 秒あたりの書き込みにつき $0.50 (米ドル)</br>1 秒あたりの照会につき $5.00 (米ドル)|
 {:caption="表 1. リソースの価格設定" caption-side="top"}
 
 

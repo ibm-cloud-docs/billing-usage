@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-18"
 
-keywords: pricing, billing, payment, charges, pricing plan, service cost, cost
+keywords: payment, charges, pricing plan, service cost, cost, pricing tier
 
 subcollection: billing-usage
 
@@ -20,9 +20,11 @@ subcollection: billing-usage
 # 收費方式
 {: #charges}
 
-費用會視特定服務、運行環境、容器或支援選項所使用的資源而改變。資源可以是 API 呼叫數、實例數、記憶體或儲存空間。{{site.data.keyword.Bluemix}} 提供詳細的成本預估器，可協助您規劃費用。
+{{site.data.keyword.cloud}} 費用會根據特定服務、運行環境、容器或支援選項所使用的資源而有所不同。資源可以是 API 呼叫數、實例數、記憶體或儲存空間。此外，分層級定價以簡單、累進或區塊的形式提供。
 {:shortdesc}
 
+{{site.data.keyword.Bluemix_notm}} 提供了詳細的[成本預估器](/docs/billing-usage?topic=billing-usage-cost)，協助您規劃費用。
+{: tip}
 
 建置資源之後，即可檢查實際成本。請移至**管理 > 計費及用量**，然後選取**用量**。使用 {{site.data.keyword.Bluemix_notm}} 計費帳戶，會依照貴組織使用的運算、容器和服務向您收費。其他 {{site.data.keyword.Bluemix_notm}} 使用者可能會邀請您參與不同帳戶下的組織。您在受邀加入之組織中使用的應用程式或服務用量，會向包含那些組織的帳戶收取費用。您可以從每一個資源詳細資料頁面中，查看特定費用的相關資訊。
 

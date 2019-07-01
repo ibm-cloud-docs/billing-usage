@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-06-20"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -27,7 +27,9 @@ subcollection: billing-usage
 
      Dependendo do serviço, uma página informativa provisória pode ser exibida. Por exemplo, se você selecionar {{site.data.keyword.baremetal_short}}, uma página informativa que descreve vários recursos será exibida. Clique em **Continuar**.
 1. Na página de detalhes do serviço, selecione seu plano de precificação e insira outros detalhes de configuração, se necessário. Em seguida, clique em **Incluir na estimativa**.
-1. Insira seu uso mensal estimado e clique em **Calcular custo**. É possível ajustar o uso estimado e recalcular o custo para ver como os diferentes níveis de uso afetam o custo geral. Se necessário, é possível mudar a moeda de faturamento, selecionando uma região diferente.
+1. Insira seu uso mensal estimado e clique em **Calcular custo**. É possível ajustar o uso estimado e recalcular o custo para ver como os diferentes níveis de uso afetam o custo geral. 
+
+   Por padrão, o estimador mostra a precificação e a moeda de faturamento para sua localização. A precificação pode variar por região. Se você estiver estimando custos para uma localização diferente, selecione a região correta para visualizar a precificação precisa.
 1. Inclua o custo calculado em sua estimativa, clicando em **Salvar**.
 
    Se você desejar estimar custos para outros serviços, retorne ao catálogo e selecione mais serviços para incluir na estimativa.

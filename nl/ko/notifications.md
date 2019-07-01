@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 지출 알림 설정
 {: #spending}
 
-종량과금제 또는 구독 계정 소유자인 경우에는 이메일 지출 알림을 설정할 수 있습니다. 서드파티 서비스를 제외하고 개별 서비스에 대한 지출 또는 총 계정, 런타임, 컨테이너 및 서비스 지출에 대한 알림을 설정하십시오.
+{{site.data.keyword.cloud}} 종량과금제 또는 구독 계정 소유자인 경우에는 이메일 지출 알림을 설정할 수 있습니다. 서드파티 서비스를 제외하고 개별 서비스에 대한 지출 또는 총 계정, 런타임, 컨테이너 및 서비스 지출에 대한 알림을 설정하십시오.
 {: shortdesc}
 
 지정한 지출 임계값의 80%, 90%, 및 100% 에 도달하면 알림을 받게 됩니다. 요구가 변경되면 언제든지 각 지출 알림을 편집할 수 있습니다.

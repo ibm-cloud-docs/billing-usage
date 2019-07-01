@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # 设置花费通知
 {: #spending}
 
-如果您是现收现付帐户或预订帐户所有者，那么可以设置电子邮件花费通知。针对总帐户花费、总运行时花费、总容器花费和总服务花费或者各个单独服务（不包括第三方服务）的花费设置通知。
+如果您是 {{site.data.keyword.cloud}} 现收现付帐户或预订帐户所有者，那么可以设置电子邮件花费通知。针对总帐户花费、总运行时花费、总容器花费和总服务花费或者各个单独服务（不包括第三方服务）的花费设置通知。
 {: shortdesc}
 
 在达到所指定花费阈值的 80%、90% 和 100% 时，您会收到通知。您可以在您的需要发生变化时，随时编辑每个花费通知。
