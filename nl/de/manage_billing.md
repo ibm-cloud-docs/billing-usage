@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-19"
 
-keywords: payment method, credit card, payment, billing method, invoice, pay
+keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Zahlungen verwalten
 {: #linkedusage}
 
-Über das Dashboard für Abrechnung und Nutzung können Sie Einmalzahlungen vornehmen, Ihre Kreditkartendetails ändern und Ihre Rechnungspositionen sowie Ihre Rechnungen anzeigen.
+Über das {{site.data.keyword.cloud}}-Dashboard für Abrechnung und Nutzung können Sie Einmalzahlungen vornehmen, Ihre Kreditkartendetails ändern und Ihre Rechnungspositionen sowie Ihre Rechnungen anzeigen.
 {: shortdesc}
 
 

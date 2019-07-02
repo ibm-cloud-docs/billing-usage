@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-06-20"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
 
@@ -27,7 +27,9 @@ Mithilfe des Kostenschätzers können Sie die voraussichtlichen Kosten der {{sit
 
      Je nach Service wird möglicherweise eine Seite mit einleitenden Informationen angezeigt. Wenn Sie die Option für {{site.data.keyword.baremetal_short}} auswählen, wird beispielsweise eine Informationsseite mit einer Beschreibung der verschiedenen Features angezeigt. Klicken Sie auf **Weiter**.
 1. Wählen Sie auf der Servicedetailseite ihren Preisstrukturplan aus und geben Sie bei Bedarf weitere Konfigurationsdetails ein. Klicken Sie anschließend auf **Zur Schätzung hinzufügen**.
-1. Geben Sie die geschätzte monatliche Nutzung ein und klicken Sie auf **Kosten berechnen**. Sie können die geschätzte Nutzung anpassen und die Kosten neu berechnen, um anzuzeigen, wie sich die unterschiedlichen Nutzungsstufen auf die Gesamtkosten auswirken. Bei Bedarf können Sie die Abrechnungswährung ändern, indem sie eine andere Region auswählen. 
+1. Geben Sie die geschätzte monatliche Nutzung ein und klicken Sie auf **Kosten berechnen**. Sie können die geschätzte Nutzung anpassen und die Kosten neu berechnen, um anzuzeigen, wie sich die unterschiedlichen Nutzungsstufen auf die Gesamtkosten auswirken. 
+
+   Standardmäßig werden die Preisstruktur und die Abrechnung vom Schätzer in der geltenden Währung für Ihren Standort angezeigt. Die Preisstruktur kann je nach Region variieren. Wenn Sie eine Schätzung der Kosten für einen anderen Standort benötigen, wählen Sie die entsprechende Region aus, sodass die richtige Preisstruktur angezeigt wird.
 1. Fügen Sie die berechneten Kosten zur Schätzung hinzu, indem Sie auf **Speichern** klicken.
 
    Wenn Sie Kosten für andere Services schätzen möchten, können Sie den Katalog erneut aufrufen und weitere Services auswählen, die zur Schätzung hinzugefügt werden sollen.

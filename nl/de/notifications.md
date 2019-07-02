@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: billing notification, spending notification, spending alert, cost threshold, spending threshold, alert, notification
+keywords: spending notification, spending alert, cost threshold, spending threshold
 
 subcollection: billing-usage
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Ausgabebenachrichtigungen einstellen
 {: #spending}
 
-Wenn Sie Eigner eines Abonnementkontos oder eines nutzungsabhängigen Kontos sind, können Sie E-Mail-Benachrichtigungen über Ausgaben konfigurieren. Legen Sie Benachrichtigungen über Gesamtausgaben, Laufzeit, Container und Serviceausgaben oder Ausgaben für einzelne Services ausschließlich der Services anderer Anbieter fest.
+Wenn Sie Eigner eines {{site.data.keyword.cloud}}- Abonnementkontos oder nutzungsabhängigen Kontos sind, können Sie E-Mail-Benachrichtigungen über Ausgaben konfigurieren. Legen Sie Benachrichtigungen über Gesamtausgaben, Laufzeit, Container und Serviceausgaben oder Ausgaben für einzelne Services ausschließlich der Services anderer Anbieter fest.
 {: shortdesc}
 
 Sie erhalten Benachrichtigungen, wenn Sie 80 %, 90 % und 100 % des angegebenen Schwellenwerts für die Ausgaben erreicht haben. Sie können jede Benachrichtigung über Ausgaben jederzeit bearbeiten, wenn sich Ihre Anforderungen ändern.

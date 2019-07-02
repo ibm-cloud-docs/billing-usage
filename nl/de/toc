@@ -6,6 +6,7 @@ Abrechnung und Nutzung verwalten
 
     {: .navgroup id="learn"}
     scenario.md
+    bp_billing.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -21,6 +22,15 @@ Abrechnung und Nutzung verwalten
     Nutzung verwalten
         viewing_usage.md
         infra_usage.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [Befehlsreferenz](/cli/cloud-cli-ibmcloud_billing)
+
+    {: .topicgroup}
+    API-Referenz
+        [Nutzungsmessung](https://{DomainName}/apidocs/usage-metering){: new_window}
+        [Nutzungsberichte](https://{DomainName}/apidocs/metering-reporting){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

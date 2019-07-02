@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-18"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
 subcollection: billing-usage
 
@@ -16,8 +16,11 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# Häufig gestellte Fragen (FAQs)
+# Häufig gestellte Fragen (FAQs) zur Abrechnung und Nutzung
 {: #billusagefaqs}
+
+Zu den FAQs in Hinblick auf Abrechnung und Nutzung können Fragen zu Kreditkarten, Werbeaktionscodes oder Abonnements gehören. Die vollständigen FAQs zu {{site.data.keyword.cloud}} finden Sie in unserer [FAQ-Bibliothek](/docs/faqs).
+{: shortdesc}
 
 ## Wie aktualisiere ich meine Kreditkartendaten?
 {: #updatecard}
@@ -33,7 +36,7 @@ Wenn Sie zu einer anderen Zahlungsmethode wechseln möchten, wählen Sie die Opt
 
 Der Schutz Ihrer Identität hat für uns eine hohe Priorität. Daher nehmen wir die Kreditkartenprüfung ernst.
 
-Wenden Sie sich unter der Nummer 1-866-325-0045 an uns und wählen Sie dritte Option aus. Alternativ dazu können Sie eine E-Mail mit Ihrer IBMid sowie einer Kopie von gegebenenfalls angezeigten Fehlernachrichten an `verify@us.ibm.com` senden. Geben Sie keine Kreditkarteninformationen an. 
+Wenden Sie sich unter der Nummer 1-866-325-0045 an uns und wählen Sie dritte Option aus. Alternativ dazu können Sie eine E-Mail mit Ihrer IBMid sowie einer Kopie von gegebenenfalls angezeigten Fehlernachrichten an `verify@us.ibm.com` senden. Geben Sie keine Kreditkarteninformationen an.
 
 ## Wie wende ich einen Werbeaktionscode an?
 {: #entercode}
@@ -47,10 +50,12 @@ Für Infrastrukturkäufe erhalten Sie unter Umständen einen Werbeaktionscode vo
 {: #cancelmyaccount}
 {: faq}
 
-Für nutzungsabhängige Konten oder Abonnementkonten besteht die schnellste Möglichkeit, das Konto zu stornieren, darin, über den [Live-Chat](https://{DomainName}/unifiedsupport/supportcenter) Kontakt aufzunehmen oder die Telefonnummer 1-866-325-0045 anzurufen und Option 3 auszuwählen. Alternativ dazu können Sie auch einen Supportfall öffnen.
+Schade, dass Sie schon gehen! Wenn wir Ihnen mit Ihrem Konto behilflich sein können, wenden Sie sich an unseren Support.
 
-Zum Stornieren eines Lite-Kontos rufen Sie **Verwalten** > **Konto** > **Kontoeinstellungen** auf und klicken Sie auf **Konto inaktivieren**.
+Wenn Sie Ihr Konto beenden möchten, ist das weitere Vorgehen von Ihrem Kontotyp abhängig. Sie können Ihren Kontotyp überprüfen, indem Sie in den [Kontoeinstellungen](https://cloud.ibm.com/account/settings) die Einstellung _Kontotyp_ aufrufen.
 
+* Für nutzungsabhängige Konten oder Abonnementkonten besteht die schnellste Möglichkeit, das Konto zu stornieren, darin, über den [Live-Chat](https://{DomainName}/unifiedsupport/supportcenter) Kontakt aufzunehmen oder die Telefonnummer 1-866-325-0045 anzurufen und Option 3 auszuwählen. Alternativ dazu können Sie auch einen Supportfall öffnen.
+* Zum Stornieren eines Lite-Kontos rufen Sie [Kontoeinstellungen](https://{DomainName}/account/settings) auf und klicken Sie auf **Konto inaktivieren**.
 
 ## Wie kann ich mein Konto löschen?
 {: #deleteaccount}
@@ -58,7 +63,7 @@ Zum Stornieren eines Lite-Kontos rufen Sie **Verwalten** > **Konto** > **Kontoei
 
 Wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support ![Symbol für externen Link](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}, um einen Supportfall für das Löschen Ihres Kontos zu öffnen. Wenn Sie über Daten verfügen, die Ihrem alten Konto zugeordnet sind, die jedoch in ein neues Konto übernommen werden sollen, dann geben Sie die entsprechenden Informationen in Ihrer E-Mail an.
 
-Daten in gelöschten Konten können nicht wiederhergestellt werden. 
+Daten in gelöschten Konten können nicht wiederhergestellt werden.
 
 ## Wie erhalte ich Unterstützung?
 {: #contactsupport}
@@ -114,7 +119,7 @@ Ja. Pro Monat ist eine Mindestausgabe von $ 100,00 USD erforderlich.
 {: #subscriptioncode}
 {: faq}
 
-Nach dem Kauf eines Abonnements erhalten Sie eine E-Mail mit einem Feature-Code, der das Guthaben zu Ihrem Konto hinzufügt. Um den Feature-Code anzuwenden, wechseln Sie zu [Kontoeinstellungen](https://{DomainName}/account/settings) und klicken Sie auf **Code anwenden**. Weitere Informationen finden Sie unter [Feature-Codes anwenden](/docs/account?topic=account-codes).
+Nach dem Kauf eines Abonnements erhalten Sie eine E-Mail mit einem Feature-Code, der das Guthaben zu Ihrem Konto hinzufügt. Um den Abonnementcode anzuwenden, wechseln Sie zu [Kontoeinstellungen](https://{DomainName}/account/settings) und klicken Sie auf **Code anwenden**. Weitere Informationen finden Sie unter [Feature-Codes anwenden](/docs/account?topic=account-codes).
 
 ## Welche Gebühren fallen an, wenn die Gesamtsumme des Abonnements überschritten wird?
 {: #subs-overage}
@@ -141,7 +146,7 @@ Ja. Sie können die monatliche Ausgabe nach Bedarf bestimmen. Jeden Monat kann e
 {: #subs-cancel-early}
 {: faq}
 
-Ein Abonnement ist ein Vertrag zwischen Ihnen und IBM, der die Verwendung von {{site.data.keyword.Bluemix_notm}} für eine bestimmte Laufzeit und einen bestimmten Ausgabebetrag festschreibt. Sie können die Stornierung des Abonnements vor dem Ende der Laufzeit anfordern, es liegt jedoch im Ermessen von IBM, ob das Abonnement storniert werden kann. Gegebenenfalls im Abonnement noch vorhandenes Guthaben kann verfallen. Wenden Sie sich an den Support, um Informationen zu dieser Möglichkeit zu erhalten. Die Angabe von Details zum Grund der Stornierung des Abonnements ist erforderlich. 
+Ein Abonnement ist ein Vertrag zwischen Ihnen und IBM, der die Verwendung von {{site.data.keyword.Bluemix_notm}} für eine bestimmte Laufzeit und einen bestimmten Ausgabebetrag festschreibt. Sie können die Stornierung des Abonnements vor dem Ende der Laufzeit anfordern, es liegt jedoch im Ermessen von IBM, ob das Abonnement storniert werden kann. Gegebenenfalls im Abonnement noch vorhandenes Guthaben kann verfallen. Wenden Sie sich an den Support, um Informationen zu dieser Möglichkeit zu erhalten. Die Angabe von Details zum Grund der Stornierung des Abonnements ist erforderlich.
 
 
 ## Was passiert, wenn die Ausgabeverpflichtung vor dem Ende der Laufzeit erreicht wird?  
@@ -165,7 +170,9 @@ Sie können separate Ausgabenschwellenwerte für das Konto, den Container, die L
 {: #access-invoices}
 {: faq}
 
-Klicken Sie in der Konsole auf **Verwalten > Abrechnung und Nutzung** und wählen Sie **Rechnungen** aus.
+Wenn Sie über ein Konto mit nutzungsabhängiger Zahlung oder ein Abonnementkonto verfügen, können Sie Ihre Rechnung einsehen, indem Sie auf **Verwalten > Abrechnung und Nutzung** klicken und **Rechnungen** auswählen. Außerhalb der Konsole können Sie auch Rechnungen über die [Site für Rechnungen über Kundenunterstützung](https://www.ibm.com/invoices){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg) anzeigen.
+
+Für Lite-Konten gibt es keine Rechnungen, weil für die Nutzung des Lite-Plans keine Gebühren erhoben werden.
 
 ## Warum entspricht die Nutzung nicht der Rechnung?
 {: #usage-not-match-invoice}

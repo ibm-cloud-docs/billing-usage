@@ -23,7 +23,7 @@ subcollection: billing-usage
 # Fehlerbehebung für die Verwaltung der Abrechnung und Nutzung
 {: #troubleshoot}
 
-Zu den allgemeinen Problemen bei der Verwaltung der Abrechnung und Nutzung können auch Probleme im Zusammenhang mit dem Zugriffsberechtigung für die Abrechnungsinformationen gehören. In vielen Fällen können Sie dieses Problem durch Ausführen weniger einfacher Schritte beheben.
+Zu den allgemeinen Problemen bei der Verwaltung der {{site.data.keyword.cloud}}-Abrechnung und -Nutzung können auch Probleme im Zusammenhang mit der Zugriffsberechtigung für die Abrechnungsinformationen gehören. In vielen Fällen können Sie dieses Problem durch Ausführen weniger einfacher Schritte beheben.
 {:shortdesc}
 
 
@@ -60,6 +60,6 @@ Beim Versuch, einen Feature-Code anzuwenden, wird eine Fehlernachricht angezeigt
 Ihr Konto erfüllt die Voraussetzungen für den Feature-Code nicht oder Sie verfügen nicht über die erforderliche Zugriffsebene in diesem Konto.
 {: tsCauses}
 
-- Stellen Sie sicher, dass der Kontotyp korrekt ist. So sind einige Feature-Codes für Schulungswerbeaktionen nur für Lite-Konten vorgesehen. Zum Anzeigen des Kontotyps rufen Sie **Verwalten > Konto** auf und wählen Sie **Kontoeinstellungen** aus. Details hierzu finden Sie in [Feature-Codes anwenden](/docs/account?topic=account-codes). 
+- Stellen Sie sicher, dass der Kontotyp korrekt ist. So sind einige Feature-Codes für Schulungswerbeaktionen nur für Lite-Konten vorgesehen. Zum Anzeigen des Kontotyps rufen Sie **Verwalten > Konto** auf und wählen Sie **Kontoeinstellungen** aus. Details hierzu finden Sie in [Feature-Codes anwenden](/docs/account?topic=account-codes).
 - Stellen Sie sicher, dass Sie über die Zugriffsberechtigung für das Anwenden des Feature-Codes verfügen. Zum Anwenden eines Feature-Codes benötigen Sie die Rolle eines Bearbeiters oder eine Rolle mit umfassenderen Berechtigungen für alle Kontenverwaltungsservices. Informationen zum Überprüfen oder Ändern von Rollen finden Sie in [Zugriff auf Kontoverwaltungsservices zuweisen](/docs/iam?topic=iam-account-services).
 {: tsResolve}

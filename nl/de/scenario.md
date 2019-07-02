@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-15"
+  years: 2015, 2019
+lastupdated: "2019-04-30"
 
-keywords: estimate cost, cost example, billing example, payment example
+keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
 subcollection: billing-usage
 
@@ -18,7 +18,10 @@ subcollection: billing-usage
 # Szenario: Schätzen der Kosten für ein Beispiel-Knoten-App
 {: #sample}
 
-Angenommen, Sie haben eine Node.js-Web-App mit Skalierfunktionalität und die App nutzt verschiedene Services, die von {{site.data.keyword.Bluemix}} bereitgestellt werden. Dieses Beispiel zeigt, wie die tatsächlichen Kosten Ihrer App berechnet werden. Die Web-App nutzt die folgenden {{site.data.keyword.Bluemix_notm}}-Services und -Elemente:
+Angenommen, Sie haben eine Node.js-Web-App mit Skalierfunktionalität und die App nutzt verschiedene Services, die von {{site.data.keyword.Bluemix}} bereitgestellt werden. Dieses Beispiel zeigt, wie die tatsächlichen Kosten Ihrer App berechnet werden. 
+{: shortdesc}
+
+Die Web-App nutzt die folgenden {{site.data.keyword.Bluemix_notm}}-Services und -Elemente:
 
 * Vier 256-MB-Node.js-Laufzeitinstanzen
 * Zwei {{site.data.keyword.autoscaling}}-Richtlinien (Prozessor und Speicher)
@@ -35,7 +38,7 @@ Nehmen Sie an, um das Beispiel einfach zu halten, dass die Preise in der folgend
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
 | {{site.data.keyword.runtime_nodejs_short}}                   |	375 GB-Stunden pro Monat kostenfrei (für alle Laufzeiten gemeinsam)            |	$0,07 USD/GB-Stunde |
 | {{site.data.keyword.autoscaling}} |	Kostenfreier Serviceplan für den {{site.data.keyword.autoscaling}}-Service |	Kostenfrei              |
-| {{site.data.keyword.cloudant_short_notm}} für {{site.data.keyword.Bluemix_notm}} - Lite | 20 GB Datenspeicher kostenfrei</br>Skalierung der bereitgestellten Durchsatzkapazität in folgenden Schritten:</br>100 Suchvorgänge pro Sekunde</br>50 Schreibvorgänge pro Sekunde</br>5 Abfragen pro Sekunde | $ 1,00 USD/GB Datenspeicher</br>$ 0,25 USD/Suchvorgang pro Sekunde</br>$ 0,50 USD/Schreibvorgang pro Sekunde</br>$ 5,00 USD/Abfrage pro Sekunde |
+| {{site.data.keyword.cloudant_short_notm}} | Der Standardplan umfasst 20 GB freie Datenspeicherung</br>Die bereitgestellte Durchsatzkapazität kann in den Stufen </br>100 Suchvorgänge pro Sekunde </br>50 Schreibvorgänge pro Sekunde</br>5 Abfragen pro Sekunde skaliert werden | 1,00 USD/GB Datenspeicherung</br>0,25 USD/Suchvorgang pro Sekunde</br>0,50 USD/Schreibvorgang pro Sekunde</br>5,00 USD/Abfrage pro Sekunde |
 {:caption="Tabelle 1. Preisstruktur für Ressourcen" caption-side="top"}
 
 
