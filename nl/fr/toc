@@ -25,7 +25,10 @@ Gestion de la facturation et de l'utilisation
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Guide de référence des commandes](/cli/cloud-cli-ibmcloud_billing)
+    {: .topicgroup}
+    Référence de commande
+        [Affichage de l'utilisation pour les comptes, les organisations, les groupes de ressources et les ressources](/cli/cloud-cli-ibmcloud_billing)
+        [Gestion des devis et des commandes de l'infrastructure classique](/cli/cloud-cli-sl-manage-classic-orders)
 
     {: .topicgroup}
     Référence d'API
