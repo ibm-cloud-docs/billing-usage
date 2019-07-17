@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-07-17"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
@@ -179,3 +179,15 @@ Lite accounts don't have invoices because you're never charged for Lite plan usa
 {: faq}
 
 Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](https://{DomainName}/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg).
+
+## Does the price of the offering that I'm ordering reflect the discounted price?
+{: #discount-price}
+{: faq}
+
+Yes, if your account includes any discounts, the price of the offering that's displayed in your infrastructure order summary does reflect the discounted price of that offering. 
+
+## Why can't I manage my invoices?
+{: #slperm-manage-invoices}
+{: faq}
+
+The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/iam?topic=iam-migrated_permissions).
