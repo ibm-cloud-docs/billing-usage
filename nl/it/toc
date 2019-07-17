@@ -6,6 +6,7 @@ Gestione della fatturazione e dell'utilizzo
 
     {: .navgroup id="learn"}
     scenario.md
+    bp_billing.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -21,6 +22,18 @@ Gestione della fatturazione e dell'utilizzo
     Gestione del tuo utilizzo
         viewing_usage.md
         infra_usage.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Guida di riferimento ai comandi
+        [Visualizzazione dell'utilizzo per gli account, le organizzazioni, i gruppi di risorse e le risorse](/cli/cloud-cli-ibmcloud_billing)
+        [Gestione degli ordini e dei preventivi dell'infrastruttura classica](/cli/cloud-cli-sl-manage-classic-orders)
+
+    {: .topicgroup}
+    Guida di riferimento API
+        [Misurazione utilizzo](https://{DomainName}/apidocs/usage-metering){: new_window}
+        [Report sull'utilizzo](https://{DomainName}/apidocs/metering-reporting){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

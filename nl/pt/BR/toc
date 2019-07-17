@@ -25,7 +25,10 @@ Gerenciando o faturamento e o uso
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Referência de Comandos](/cli/cloud-cli-ibmcloud_billing)
+    {: .topicgroup}
+    Referência de comando
+        [Visualizando o uso de contas, organizações, grupos de recursos e recursos](/cli/cloud-cli-ibmcloud_billing)
+        [Gerenciando ordens e cotas de infraestrutura clássica](/cli/cloud-cli-sl-manage-classic-orders)
 
     {: .topicgroup}
     Referência da API
