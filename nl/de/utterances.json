@@ -1,60 +1,62 @@
 {
     "updatecard": [
-      "Kreditkarte aktualisieren",
-      "meine Kreditkarte ändern",
-      "meine Kreditkartennummer ändern",
-      "Wie wechsele ich meine Kreditkarte?",
-      "meine Kreditkarte wechseln",
-      "neue Kreditkarteninformationen"
+      "Kreditkarteninformationen ändern",
+      "Meine Kreditkarte bearbeiten",
+      "Meine Kreditkarteninformationen aktualisieren",
+      "Meine Kreditkarte ändern",
+      "Meine Zahlungsoptionen bearbeiten",
+      "Meine Zahlungsoptionen ändern",
+      "Zahlungsdetails aktualisieren"
     ],
     "addcard": [
-      "Warum wird meine Kreditkarte nicht akzeptiert?",
-      "Kreditkarte wird nicht akzeptiert",
       "Kreditkarte nicht akzeptiert",
-      "Warum wird meine Kreditkarte nicht angenommen?",
-      "Kreditkarte wird nicht angenommen",
-      "Kreditkarte nicht verarbeitet",
+      "Karte wird nicht akzeptiert",
+      "Kreditkarte wird nicht akzeptiert",
       "Kreditkarte wird nicht verarbeitet",
-      "Keine Verarbeitung von Kreditkarte"
+      "Verifizierung der Kreditkarte funktioniert nicht",
+      "Fehler bei Kreditkarte",
+      "Keine Verarbeitung der Kreditkarte"
     ],
     "entercode": [
-      "Was sind Feature-Codes?",
-      "Sind Feature-Codes dasselbe wie Werbeaktionscodes?",
-      "Feature-Codes dasselbe wie Werbeaktionscodes",
-      "Feature-Codes dasselbe wie Werbeaktionen",
-      "Feature-Codes dasselbe wie Werbecodes",
-      "Unterscheiden sich Feature-Codes von Werbeaktionscode?",
-      "Unterschied zwischen Feature-Codes und Werbeaktionscodes",
-      "Feature-Codes versus Werbeaktionscodes"
+      "Feature-Code",
+      "Feature-Codes und Werbeaktionscodes identisch",
+      "Feature-Codes und Werbeaktionscodes nicht identisch",
+      "Einlösung von Feature-Codes im Vergleich zu Werbeaktionscodes",
+      "Werbeaktionscode eingeben",
+      "Werbecode eingeben",
+      "Werbeaktionscode verwenden",
+      "Werbeaktionscode",
+      "Werbeaktionscode anwenden",
+      "Anwenden von Werbeaktionscodes",
+      "Eingabe eines Werbeaktionscodes"  
     ],
     "cancelmyaccount": [
-      "mein Konto kündigen",
-      "Kündigung meines Kontos",
-      "Konto kündigen",
-      "Kontokündigung",
-      "Wie kündige ich mein Konto?",
-      "Wie kündige ich ein Konto?",
-      "Konto kündigen"
+      "Mein Konto stornieren",
+      "Ich möchte mein Konto stornieren",
+      "Stornieren des Kontos",
+      "Konto stornieren",
+      "Mein Konto stornieren",
+      "Dieses Konto aussetzen"
     ],
     "deleteaccount": [
       "Mein Konto löschen",
-      "Löschung meines Kontos",
-      "Konto löschen",
-      "Kontolöschung",
-      "Kontolöschvorgang",
-      "Wie lösche ich mein Konto?",
-      "Wie lösche ich ein Konto?"
+      "Löschen meines Kontos",
+      "Ich möchte mein Konto löschen",
+      "Informationen zum Löschen des Kontos",
+      "IBM Cloud-Konto schließen",
+      "Cloud-Konto beenden",
+      "Konto entfernen",
+      "Dieses Konto wird nicht benötigt. Informationen zum Löschen",
+      "Dieses Konto schließen",
+      "Kontolöschvorgang"
     ],
     "contactsupport": [
-      "Wie bekomme ich Unterstützung?",
-      "Wo finde ich Unterstützung?",
-      "Wie kann ich den Support kontaktieren?",
-      "Wie bekomme ich Hilfe?",
-      "Ich will den Support kontaktieren",
-      "Ich brauche Hilfe",
-      "Ich will mit dem technischen Support sprechen",
-      "Unterstützung",
-      "Hilfe"
+      "Support kontaktieren",
+      "Support anfordern",
+      "Kontaktaufnahme mit Support",
+      "IBM Support kontaktieren",
+      "Technischen Support kontaktieren",
+      "Verbindung mit Support aufnehmen"
     ],
     "gb-hour": [
       "GB-Stunde",
@@ -63,116 +65,97 @@
       "Containernutzungsgebühren"
     ],
     "howmanyapps": [
-      "Anzahl von Apps, die ich erstellen kann",
-      "Wie viele Apps kann ich erstellen?",
-      "Wie viele Apps sind erlaubt?",
-      "Apps, die erstellt werden dürfen",
+      "Anzahl der Apps, die ich erstellen kann",
+      "Apps, die ich erstellen kann",
       "Apps, die erstellt werden können",
-      "Gibt es ein Limit für Apps?",
-      "Apps-Limit",
-      "Wie viele Apps darf ich in meinem Konto haben?",
-      "Wie viele Apps darf ich haben?",
-      "Was ist mein Limit für Apps?"
+      "Gibt es einen Grenzwert für Apps",
+      "Wie viele Anwendungen darf mein Konto enthalten",
+      "Wie viele Apps sind zulässig",
+      "Grenzwert für Apps"
     ],
     "monthlyquota": [
-      "Was passiert, wenn mein Plan sein Limit erreicht?",
-      "monatliches Kontingent erreichen",
-      "monatliches Limit erreichen",
-      "Kontingent Lite-Plan",
-      "Limit Lite-Plan",
-      "Was passiert, wenn ich mein Limit erreiche?",
-      "Was passiert, wenn ich mein Kontingent erreiche?",
-      "Was passiert, wenn ich alle meine Lite-Planinstanzen verwendet habe?",
-      "Monatliches Kontingent von Lite-Plan erreicht",
-      "Monatliches Limit von Lite-Plan erreicht"
+      "Gibt es ein Kontingent für einen Lite-Plan",
+      "Wird mir ein Lite-Plan in Rechnung gestellt",
+      "Wird ein Lite-Plan ausgesetzt",
+      "Kontingent im Lite-Plan ausgeschöpft",
+      "Lite-Plan-Kontingente pro Monat",
+      "Kontingente für Lite-Konten pro Instanz",
+      "Lite-Kontingente pro Monat zurückgesetzt",
+      "Monatliche Lite-Plan-Kontingente",
+      "Kontingent für Lite-Plan-Instanzen"
     ],
     "subs-order": [
       "Bestellung mit Abonnementkonto",
-      "Bestellung mit Abonnement",
-      "Abonnementkonto-Bestellung",
+      "Bestellung mit meinem Abonnement",
       "Abonnementbestellung",
-      "Was darf ich mit meinem Abonnementkonto bestellen?"
+      "Bestellung mit einem Abonnementkonto"
     ],
     "subs-discount": [
-      "Wie bekomme ich einen Rabatt für ein Abonnementkonto?",
-      "für Rabatt qualifizieren",
-      "Kann ich einen Rabatt für ein Abonnementkonto bekommen?",
-      "Gibt es einen Rabatt für ein Abonnementkonto?",
-      "Wie gehe ich vor, um einen Rabatt für ein Abonnementkonto zu bekommen?",
-      "Kann ich mich für einen Rabatt für ein Abonnementkonto qualifizieren?",
-      "Rabatt erhalten"
+      "Rabatt für ein Abonnementkonto",
+      "Für Rabatt qualifizieren",
+      "Rabatt für Abonnementkonten",
+      "Kein Rabatt für mein Konto",
+      "Abonnementrabatte"
     ],
     "subs-minimum": [
-      "Wie hoch ist der monatliche Mindestbetrag, der für das Abonnementkonto benötigt wird?",
-      "Was ist das Minimum für Abonnementkonten?",
-      "Abonnementkonto monatliches Minimum",
-      "Minimum für Abonnementkonto",
-      "Abonnementkonto Mindestanforderung",
-      "Mindestbetrag für ein Abonnement",
-      "niedrigster erforderlicher Betrag für Abonnementkonto"
+      "Monatliche erforderlicher Mindestbetrag für Abonnementkonto",
+      "Minimum für Abonnementkonten",
+      "Monatliches Minimum für Abonnementkonto",
+      "Erforderliches Minimum für mein Konto",
+      "Mindestbetrag für Abonnement",
+      "Niedrigster erforderlicher Betrag für dieses Konto"
     ],
     "subscriptioncode": [
       "Abonnementguthaben",
-      "Abonnement-Feature-Code"
+      "Abonnement-Feature-Code",
+      "Abonnementguthaben suchen",
+      "Abonnementguthaben anwenden"
     ],
     "subs-overage": [
-      "Wie viel muss ich bezahlten, wenn drüber komme?",
-      "Welche Gebühren fallen an, wenn die Gesamtsumme überschritten wird?",
-      "Wie viel muss ich bezahlten, wenn ich den Betrag überschreite?",
-      "Was passiert, wenn ich mein Limit überschreite?",
-      "Berechneter Betrag, wenn ich die Gesamtsumme überschreite",
-      "Berechneter Betrag, wenn ich Limit überschreite",
-      "insgesamt berechnet, wenn über Betrag",
-      "Gebühr für Überschreiten der Gesamtsumme",
-      "Gebühr für Überschreiten von Limit",
-      "Limit überschritten Gebühr"
+      "Gebühren für Überschreiten des Gesamtbetrags",
+      "Überschreiten des Gesamtbetrags",
+      "Gebühren für Überschreiten des Betrags",
+      "Grenzwert für Abonnement überschritten",
+      "Anfallende Gebühren für das Überschreiten des Gesamtbetrags",
+      "Gesamtgebühr für Überschreitung",
+      "Gebühr für Überschreiten des Grenzwerts"
     ],
     "subs-pay-schedule": [
-      "Darf die gesamte Ausgabeverpflichtung vorab oder vierteljährlich bezahlt werden?",
-      "Darf ich vorab oder vierteljährlich bezahlen?",
-      "Kann ich vorab oder vierteljährlich bezahlen?",
-      "vorab oder vierteljährlich bezahlen",
-      "Was muss ich tun, um vorab oder vierteljährlich zu bezahlen?",
-      "Wechseln zu vorab oder vierteljährlich bezahlen",
+      "Gesamte Ausgabeverpflichtung vorab oder vierteljährlich bezahlen",
+      "Vorab oder vierteljährlich bezahlen",
+      "Zahlungshäufigkeit wechseln",
       "Ändern in vorab oder vierteljährlich bezahlen",
-      "Vorauszahlungen oder vierteljährliche Zahlungen"
+      "Zahlungshäufigkeit anpassen"
     ],
     "subs-spending": [
-      "Ist es zulässig. meine monatliche Ausgabeverpflichtung zu über- oder unterschreiten?",
-      "Kann ich einen von meiner monatlichen Ausgabeverpflichtung abweichenden Betrag ausgeben?",
-      "Kann ich einen anderen Betrag als meine monatliche Ausgabeverpflichtung ausgeben?",
+      "Monatliche Ausgabeverpflichtung über- oder unterschreiten",
+      "Von der monatlichen Ausgabeverpflichtung abweichenden Betrag ausgeben",
       "Kann ich meine Ausgabeverpflichtung über- oder unterschreiten?",
       "Ausgabeverpflichtung über- oder unterschreiten"
     ],
     "subs-cancel-early": [
-      "Ist es zulässig, mein Abonnementkonto vor dem Ende meiner Laufzeitverpflichtung zu kündigen?",
-      "Kann ich vor dem Ende meiner Laufzeitverpflichtung kündigen?",
-      "Ist es zulässig, vor dem Ende meiner Laufzeitverpflichtung zu kündigen?",
-      "Kann ich kündigen, bevor meine Laufzeit endet?",
-      "Ist es zulässig zu kündigen, bevor meine Laufzeit endet?",
-      "Kann ich mein Konto kündigen, bevor es abläuft?",
-      "Ist es zulässig, mein Konto zu kündigen, bevor es abläuft?",
+      "Abonnementkonto vor dem Ende der Laufzeitverpflichtung stornieren",
+      "Verpflichtung für Abonnementlaufzeit",
+      "Konto vor Ablauf stornieren",
       "Abonnementkonto vor Ende der Laufzeit kündigen",
       "Konto vor Ablauf kündigen",
-      "Kann ich meine Laufzeitverpflichtung frühzeitig beenden?",
-      "Ist es zulässig, meine Laufzeit frühzeitig zu beenden?",
-      "Abonnementkonto frühzeitig beenden"
+      "Laufzeitverpflichtung vorzeitig beenden",
+      "Laufzeit vorzeitig beenden",
+      "Abonnementkonto vorzeitig beenden"
     ],
     "subs-spend-before-term-end": [
-      "Was passiert, wenn ich mein Limit erreiche, bevor die Laufzeit endet?",
-      "Was passiert, wenn ich meine Ausgabeverpflichtung erreiche?",
-      "Was passiert, wenn ich an meine Ausgabenverpflichtung herankomme, bevor die Laufzeit endet?",
-      "Was passiert, wenn ich an mein Ausgabelimit herankomme?",
-      "Was passiert, wenn ich die Ausgabenverpflichtung erreiche, bevor die Laufzeit endet?",
-      "Was passiert, wenn ich mein Ausgabelimit erreiche?",
-      "Ausgabeverpflichtung erreichen",
-      "Limit erreichen, bevor Laufzeit endet"
+      "Erreichen des Grenzwerts vor Ende der Laufzeit",
+      "Erreichen der Ausgabeverpflichtung",
+      "Erreichen der Ausgabeverpflichtung vor dem Ende der Laufzeit",
+      "Ausgabegrenzwert erreicht",
+      "Ausgabeverpflichtung erreicht"
     ],
     "monitor-spending": [
-      "monatliche Laufzeitnutzung anzeigen",
-      "monatliche Servicenutzung anzeigen",
+      "Monatliche Laufzeitnutzung anzeigen",
+      "Monatliche Servicenutzung anzeigen",
       "Nutzung anzeigen",
-      "wie viel hab ich ausgegeben"
+      "Ausgaben anzeigen",
+      "Ausgaben überwachen"
     ],
     "spending-notify": [
       "Benachrichtigungen über Ausgaben",
@@ -181,35 +164,32 @@
       "Benachrichtigung zur Nutzung festlegen"
     ],
     "access-invoices": [
-      "Wo ist meine Rechnung?",
-      "Wo finde ich meine Rechnung?",
-      "Position der Rechnung",
-      "Position der Anweisung",
-      "Wo kann ich auf meine Anweisung zugreifen?",
-      "Wo ist meine Anweisung?",
-      "Position meiner Rechnung",
-      "Position meiner Anweisung",
+      "Wo ist meine Rechnung",
       "Rechnung suchen",
-      "Anweisung suchen",
-      "Auf Rechnung zugreifen",
-      "Auf Anweisung zugreifen"
+      "Position der Rechnung",
+      "Kontoauszug aufrufen",
+      "Rechnung anzeigen",
+      "Ausgegebenen Betrag anzeigen",
+      "Zugriff auf Kontoauszug"
     ],
     "usage-not-match-invoice": [
-      "Warum ist die Nutzung auf meiner Rechnung anders?",
-      "Warum stimmt meine Rechnung nicht mit meiner Nutzung überein?",
-      "Nutzung wird in meiner Rechnung nicht korrekt wiedergegeben",
+      "Nutzung weicht auf Rechnung ab",
+      "Rechnung entspricht nicht der Nutzung",
+      "Nutzung ist auf der Rechnung nicht korrekt wiedergegeben",
       "Nutzung anders als Rechnung",
-      "meine Anweisung stimmt nicht mit meiner Nutzung überein",
+      "Kontoauszug stimmt nicht mit Nutzung überein",
       "Rechnung stimmt nicht mit Nutzung überein",
-      "Nutzung entspricht nicht Rechnung",
-      "meine Nutzung in Rechnung nicht korrekt"
+      "Nutzung entspricht nicht der Rechnung",
+      "Nutzung auf Rechnung nicht korrekt"
     ],
     "cannot-access-billing-info": [
-      "Ich kann nicht auf meine Abrechnungsinformationen zugreifen",
-      "kann nicht auf meine Abrechnungsinformationen zugreifen",
-      "kann meine Abrechnungsinformationen nicht anzeigen",
-      "kann meine Zahlungen und Rechnungen nicht anzeigen",
-      "Ich habe keine Berechtigung, meine Abrechnungsinformationen anzuzeigen",
-      "Ich bekomme eine Fehlernachricht, wenn ich versuche, meine Abrechnungsinformationen anzuzeigen"
+      "Abrechnungsinformationen werden nicht angezeigt",
+      "Zugriff auf Abrechnungsinformationen nicht möglich",
+      "Anzeigen der Abrechnungsinformationen nicht möglich",
+      "Anzeigen der Zahlungen und Rechnungen nicht möglich",
+      "Keine Berechtigung zum Anzeigen meiner Abrechnungsinformationen",
+      "Fehlernachricht beim Anzeigen meiner Abrechnungsinformationen",
+      "Zugriff auf Nutzungsinformationen nicht möglich",
+      "Rechnungsinformationen suchen"
     ]
 }

@@ -25,7 +25,10 @@
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [명령 참조](/cli/cloud-cli-ibmcloud_billing)
+    {: .topicgroup}
+    명령 참조
+        [계정, 조직, 리소스 그룹 및 리소스의 사용량 보기](/cli/cloud-cli-ibmcloud_billing)
+        [클래식 인프라 주문 및 견적 관리](/cli/cloud-cli-sl-manage-classic-orders)
 
     {: .topicgroup}
     API 참조

@@ -25,7 +25,10 @@
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [命令参考](/cli/cloud-cli-ibmcloud_billing)
+    {: .topicgroup}
+    命令参考
+        [查看帐户、组织、资源组和资源的使用情况](/cli/cloud-cli-ibmcloud_billing)
+        [管理经典基础架构订单和报价](/cli/cloud-cli-sl-manage-classic-orders)
 
     {: .topicgroup}
     API 参考

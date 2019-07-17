@@ -25,7 +25,10 @@ Abrechnung und Nutzung verwalten
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Befehlsreferenz](/cli/cloud-cli-ibmcloud_billing)
+    {: .topicgroup}
+    Befehlsreferenz
+        [Nutzungsinformationen für Konten, Organisationen, Ressourcengruppen und Ressourcen anzeigen](/cli/cloud-cli-ibmcloud_billing)
+        [Bestellungen und Angebote der klassischen Infrastruktur verwalten](/cli/cloud-cli-sl-manage-classic-orders)
 
     {: .topicgroup}
     API-Referenz

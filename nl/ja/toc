@@ -25,7 +25,10 @@
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [コマンド解説書](/cli/cloud-cli-ibmcloud_billing)
+    {: .topicgroup}
+    コマンド・リファレンス
+        [アカウント、組織、リソース・グループ、およびリソースの使用量の表示](/cli/cloud-cli-ibmcloud_billing)
+        [クラシック・インフラストラクチャー注文および見積もりの管理](/cli/cloud-cli-sl-manage-classic-orders)
 
     {: .topicgroup}
     API リファレンス
