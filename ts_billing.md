@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-15"
+lastupdated: "2019-07-18"
 
 keywords: troubleshoot billing, billing error, payment error, error message, feature code, subscription code
 

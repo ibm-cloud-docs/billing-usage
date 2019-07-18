@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-16"
+lastupdated: "2019-07-18"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
@@ -184,11 +184,10 @@ Your usage might not match your invoice because the months that are used to comp
 {: #discount-price}
 {: faq}
 
-Yes, if your account includes any discounts, the price of the offering that's displayed in your infrastructure order summary does reflect the discounted price of that offering. 
+Yes, if your account includes any discounts, the price of the offering that's displayed in your infrastructure order summary does reflect the discounted price of that offering.
 
 ## Why can't I manage my invoices?
 {: #slperm-manage-invoices}
 {: faq}
 
 The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/iam?topic=iam-migrated_permissions).
-
