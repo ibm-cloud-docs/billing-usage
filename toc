@@ -17,6 +17,7 @@ Managing billing and usage
         notifications.md
 
     manage_billing.md
+    subscriptions.md
 
     {: .topicgroup}
     Managing your usage

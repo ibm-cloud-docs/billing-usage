@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-17"
+lastupdated: "2019-07-16"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
@@ -119,7 +119,7 @@ Yes, you must spend a minimum of $100.00 USD each month.
 {: #subscriptioncode}
 {: faq}
 
-After you purchase a subscription, you'll receive an email with a feature code that adds the credit to your account. To apply the subscription code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
+After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
 ## What am I charged if I go over the total amount of my Subscription?
 {: #subs-overage}
@@ -191,3 +191,4 @@ Yes, if your account includes any discounts, the price of the offering that's di
 {: faq}
 
 The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/iam?topic=iam-migrated_permissions).
+
