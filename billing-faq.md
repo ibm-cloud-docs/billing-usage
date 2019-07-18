@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-17"
+lastupdated: "2019-07-18"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
@@ -119,7 +119,7 @@ Yes, you must spend a minimum of $100.00 USD each month.
 {: #subscriptioncode}
 {: faq}
 
-After you purchase a subscription, you'll receive an email with a feature code that adds the credit to your account. To apply the subscription code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
+After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
 ## What am I charged if I go over the total amount of my Subscription?
 {: #subs-overage}
@@ -184,7 +184,7 @@ Your usage might not match your invoice because the months that are used to comp
 {: #discount-price}
 {: faq}
 
-Yes, if your account includes any discounts, the price of the offering that's displayed in your infrastructure order summary does reflect the discounted price of that offering. 
+Yes, if your account includes any discounts, the price of the offering that's displayed in your infrastructure order summary does reflect the discounted price of that offering.
 
 ## Why can't I manage my invoices?
 {: #slperm-manage-invoices}
