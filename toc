@@ -7,6 +7,7 @@ Managing billing and usage
     {: .navgroup id="learn"}
     scenario.md
     bp_billing.md
+    enterprise.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -23,6 +24,7 @@ Managing billing and usage
     Managing your usage
         viewing_usage.md
         infra_usage.md
+        enterprise-usage.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -35,6 +37,8 @@ Managing billing and usage
     API reference
         [Usage Metering](https://{DomainName}/apidocs/usage-metering){: new_window}
         [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: new_window}
+        [Enterprise Billing Units](https://{DomainName}/apidocs/enterprise-apis/billing-unit){: new_window}
+        [Enterprise Usage Reports](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}
