@@ -61,7 +61,7 @@ Only data for usage that is incurred by accounts in the enterprise is displayed 
 ### Viewing enterprise usage by using the API
 {: #enterprise-usage-api}
 
-You can get usage reports from an enterprise and its accounts by calling the [Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}. You can base the query in your API call on an enterprise, an account group, or an account and specify whether to view the entity or its children. The Enterprise Usage Reports API is a beta release.
+You can get usage reports from an enterprise and its accounts by calling the <!--[Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}--> Enterprise Usage Reports API (Beta). You can base the query in your API call on an enterprise, an account group, or an account and specify whether to view the entity or its children. The Enterprise Usage Reports API is a beta release.
 
 The following examples show queries that you can use to get different usage reports. When you call the API, replace the ID variables and IAM token with the values from your enterprise.
 
