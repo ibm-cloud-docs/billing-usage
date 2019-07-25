@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-18"
+lastupdated: "2019-07-25"
 
 keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code
 
@@ -36,6 +36,7 @@ To view your subscription usage, go to **Manage > Billing and usage**, and selec
 
   * Click the tabs to view spending details and trends about your subscription usage, including any usage overages that your account incurred. For example, the credit burndown view displays how your credit balance has changed over time, and the spending by month view displays your monthly spending from all subscriptions.
   * View all active and inactive subscriptions in your account in the tables. If a subscription spans more than a year, it's divided into multiple terms up to one year each. Active subscriptions are subscriptions that still have remaining credit to spend and time left in the subscription term. Upcoming subscriptions are subscriptions were added to the account but have not yet reached their term period. A subscription is inactive if its term expires or all of its credit is spent.
+  * If you're in an {{site.data.keyword.cloud_notm}} enterprise, you can also view monthly credit from your support subscriptions. Otherwise, you can view support credit spending on the **Usage** page.
 
 You can use the spending and usage information on the Subscriptions page to evaluate whether your subscriptions suit your usage needs. For example, if you consistently have overages, you might increase your monthly spending commitment to save money on that usage. To purchase new subscriptions or change future subscription amounts, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg).
 
