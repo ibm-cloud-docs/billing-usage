@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-06-20"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -40,7 +40,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 
 1. Track costs for the tagged resources by exporting the usage report for your instances. To export the report, go to **Manage > Billing and usage**, and select **Usage**. Then click **Export CSV > Instance**.
 
-   Use the Tags column in the instance CSV file to help analyze the resources in your account. You can sort the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. If you tagged your resources with key:value pairs, you'll also see columns in the usage report that correspond with the key. For example, resources tagged `project:abc` and `project:xyz` appear in a Project column as "abc" and "xyz".
+   Use the Tags column in the instance CSV file to help analyze the resources in your account. You can sort the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. If you tagged your resources with key:value pairs, you'll also see columns in the usage report that correspond with the key. For example, resources tagged `project:abc` and `project:xyz` appear in a Project column as `abc` and `xyz`.
 
    For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
 
