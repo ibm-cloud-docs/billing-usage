@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -46,10 +46,10 @@ In an enterprise, billing is managed by the enterprise rather than in the indivi
 
 Enterprises require subscription billing, which means that you purchase a subscription for an amount of credit to spend during the subscription term, and usage is deducted from the subscription credit at a discounted rate. The account that you use to create the enterprise must be a [Subscription account](/docs/account?topic=account-accounts#subscription-account). After the enterprise is created, you can add any type of account to the enterprise. If you add a Lite or trial account, it's automatically upgraded to a Pay-As-You-Go account.
 
-Each enterprise supports only a single billing currency. All accounts must use the enterprise billing currency before you add them to the enterprise.
+Some Pay-As-You-Go accounts can't be directly imported into an enterprise, such as many Pay-As-You-Go accounts that are billed in United States dollars (USD). However, you can still import these accounts into your enterprise by converting them to Subscription accounts and then importing them. To convert an account, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg).
 {: note}
 
-Accounts that are added to the enterprise no longer separately manage their billing. As a result, subscription credit can't be added to individual child accounts. Subscription credit must be added to the enterprise account, where it becomes part of the enterprise credit pool.
+Each enterprise supports only a single billing currency. All accounts must use the enterprise billing currency before you add them to the enterprise. Existing accounts that are imported into the enterprise no longer separately manage their billing. As a result, subscription credit can't be added to individual child accounts. Subscription credit must be added to the enterprise account, where it becomes part of the enterprise credit pool.
 
 ### Billing transition when adding accounts
 {: #billing-transition}
