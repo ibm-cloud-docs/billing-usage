@@ -7,6 +7,7 @@ Abrechnung und Nutzung verwalten
     {: .navgroup id="learn"}
     scenario.md
     bp_billing.md
+    enterprise.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -17,11 +18,13 @@ Abrechnung und Nutzung verwalten
         notifications.md
 
     manage_billing.md
+    subscriptions.md
 
     {: .topicgroup}
     Nutzung verwalten
         viewing_usage.md
         infra_usage.md
+        enterprise-usage.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
