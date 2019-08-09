@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-06"
+lastupdated: "2019-08-08"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -44,17 +44,17 @@ In an enterprise, billing is managed by the enterprise rather than in the indivi
 ## Billing options
 {: #enterprise-billing-options}
 
-Enterprises require subscription billing, which means that you purchase a subscription for an amount of credit to spend during the subscription term, and usage is deducted from the subscription credit at a discounted rate. The account that you use to create the enterprise must be a [Subscription account](/docs/account?topic=account-accounts#subscription-account). After the enterprise is created, you can add any type of account to the enterprise. If you add a Lite or trial account, it's automatically upgraded to a Pay-As-You-Go account.
+Enterprises require subscription billing, which means that you purchase a subscription for an amount of credit to spend during the subscription term, and usage is deducted from the subscription credit at a discounted rate. The account that you use to create the enterprise must be a [Subscription account](/docs/account?topic=account-accounts#subscription-account). After the enterprise is created, you can add more accounts to the enterprise. If you add a Lite or trial account, it's automatically upgraded to a Pay-As-You-Go account.
 
 Some Pay-As-You-Go accounts can't be directly imported into an enterprise, such as many Pay-As-You-Go accounts that are billed in United States dollars (USD). However, you can still import these accounts into your enterprise by converting them to Subscription accounts and then importing them. To convert an account, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![External link icon](../icons/launch-glyph.svg).
 {: note}
 
 Each enterprise supports only a single billing currency. All accounts must use the enterprise billing currency before you add them to the enterprise. Existing accounts that are imported into the enterprise no longer separately manage their billing. As a result, subscription credit can't be added to individual child accounts. Subscription credit must be added to the enterprise account, where it becomes part of the enterprise credit pool.
 
-### Billing transition when adding accounts
+### Billing transition when importing accounts
 {: #billing-transition}
 
-When you add an existing account to an enterprise, its billing and invoicing transitions to being managed by the enterprise account. This transition includes the following changes to the account.
+When you import an existing account to an enterprise, its billing and invoicing transitions to being managed by the enterprise account. This transition includes the following changes to the account.
 
    * For Subscription accounts that are added, the account type is changed to Pay-As-You-Go. This change reflects that the account does not have its own subscriptions, but it still has full access to production-ready, billable services.
    * Subscriptions and promotions from each account are moved to the enterprise account, where they become part of the credit pool. After the move, each subscription has the same remaining credit and term period, but it's given a new unique ID.
@@ -66,14 +66,30 @@ When you add an existing account to an enterprise, its billing and invoicing tra
 
 The enterprise credit pool consolidates credit from all accounts in the enterprise and shares it with the accounts. The pool includes credit from all sources, including platform subscription credit, promotional credit, and support credit. When accounts in the enterprise create and use resources, the cost for this usage is deducted from the credit pool.
 
-The billing administrator in the enterprise account can view and monitor the total amount of available credit in the enterprise dashboard. If more credit is needed to cover the enterprise's usage, a new subscription can be purchased and then added to the enterprise account. Subscriptions can be added only to the enterprise account and cannot be added to other accounts in the enterprise.
+When existing subscriptions are added to the enterprise, each individual subscription term is recreated within the credit pool, including characteristics such as the remaining credit balance, start dates, and end dates. As credit is used, the subscription terms burn down individually according to when they expire. For example, say you imported two accounts with existing subscriptions in August 2019. One subscription, `32100456`, is for $1,000 for 18 months that began in January 2019. Because it spans multiple years, it's divided into terms of up to one year each. The other subscription, `55543210` is for $500 for two years that began in April 2019, which is also divided into multiple terms. Then, you purchased a new one-year subscription, `00012345`, through your enterprise for $1,500 a month starting in July 2020. As users in the enterprise use resources, the credit is deducted from the first term that came from subscription `32100456` because it expires the soonest, then the first term from subscription `55543210` because it expires next, and so on. This behavior ensures optimum usage of your purchased subscription credit.
+
+| Originating Subscription | Remaining Credit | Valid From | Valid Until |
+| --- | --- | --- | --- |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, term 1 | $5,000       | 2019-01-01 | 2019-12-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, term 1 | $4,000       | 2019-04-01 | 2020-03-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, term 2 | $6,000       | 2020-01-01 | 2020-06-30 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, term 2 | $6,000       | 2020-04-01 | 2021-03-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 00012345 | $18,000       | 2020-07-01 | 2021-06-30 |
+| **Credit pool total**                                  | **$39,000**  |   **--**   |   **--**   |
+{: caption="Table 1. Subscriptions in an enterprise credit pool" caption-side="top"}
+{: summary="This table has column headers and a summary row. The row headers identify the subscription and attributes. The last row has a header in the first column and a summation of values from previous rows in the second column."}
+
+The billing administrator in the enterprise account can view and monitor the total amount of available credit in the enterprise dashboard. If more credit is needed to cover the enterprise's usage, a new subscription can be purchased and then added to the enterprise account. 
+
+Subscriptions can be added only to the enterprise account and cannot be added to other accounts in the enterprise.
+{: note}
 
 Because subscriptions can be sized for the entire enterprise rather than per account, you get the following benefits:
    * Simpler subscription sizing because the subscriptions apply to more than one account
    * Better discounts on usage costs because subscriptions are larger
    * Fewer expiration dates to track and manage after existing subscriptions expire
 
-In an enterprise, subscriptions are managed from the enterprise account the same way as for a stand-alone account. See [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions) for more information for more information about managing your platform and support subscriptions.
+In an enterprise, subscriptions are managed from the enterprise account the same way as for a stand-alone account. See [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions) for more information about managing your platform and support subscriptions.
 
 ## Usage reporting
 {: #enterprise-usage-reporting}
