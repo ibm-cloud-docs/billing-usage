@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -17,7 +17,7 @@ subcollection: billing-usage
 {:note: .note}
 {:new_window: target="_blank"}
 
-# Gestione centralizzata di fatturazione e utilizzo con le aziende 
+# Gestione centralizzata di fatturazione e utilizzo con le aziende
 {: #enterprise}
 
 Le aziende ti consentono di gestire in modo centralizzato più account {{site.data.keyword.Bluemix}}. Poiché la fatturazione è separata dai singoli account secondari e consolidata al livello aziendale, le aziende semplificano la gestione di fatturazione e pagamenti per gli account.
@@ -46,10 +46,10 @@ In un'azienda, la fatturazione viene gestita dall'azienda invece che nei singoli
 
 Le aziende richiedono la fatturazione di sottoscrizione, che significa che acquisti una sottoscrizione per l'ammontare di crediti che spendi durante il termine di sottoscrizione e l'utilizzo viene dedotto dal credito di sottoscrizione ad una tariffa scontata. L'account che utilizzi per creare l'azienda deve essere un [account Sottoscrizione](/docs/account?topic=account-accounts#subscription-account). Dopo aver creato l'azienda, puoi aggiungere qualsiasi tipo di account all'azienda. Se aggiungi un account Lite o di prova, ne viene automaticamente eseguito l'upgrade a un account Pagamento a consumo.
 
-Ogni azienda supporta una sola valuta di fatturazione. Tutti gli account devono utilizzare la valuta di fatturazione aziendale prima di aggiungerli all'azienda.
+Alcuni account Pagamento a consumo non possono essere importati direttamente in un'azienda, come molti account Pagamento a consumo che sono fatturati in dollari americani (USD). Tuttavia, puoi ancora importare questi account nella tua azienda convertendoli in account Sottoscrizione e poi importandoli. Per convertire un account, contatta il settore [Vendite di {{site.data.keyword.Bluemix_notm}} ](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icona link esterno](../icons/launch-glyph.svg).
 {: note}
 
-Gli account che vengono aggiunti all'azienda non possono più gestire in modo separato la propria fatturazione. Di conseguenza, il credito di sottoscrizione non può essere aggiunto a singoli account secondari. Il credito di sottoscrizione deve essere aggiunto all'account aziendale, dove diventa parte del pool di crediti aziendale.
+Ogni azienda supporta una sola valuta di fatturazione. Tutti gli account devono utilizzare la valuta di fatturazione aziendale prima di aggiungerli all'azienda. Gli account esistenti che vengono importati nell'azienda non possono più gestire in modo separato la propria fatturazione. Di conseguenza, il credito di sottoscrizione non può essere aggiunto a singoli account secondari. Il credito di sottoscrizione deve essere aggiunto all'account aziendale, dove diventa parte del pool di crediti aziendale.
 
 ### Fatturazione della transizione quando aggiungi degli account
 {: #billing-transition}
@@ -58,7 +58,7 @@ Quando aggiungi un account esistente a un'azienda, la sua fatturazione delle tra
 
    * Per gli account Sottoscrizione che vengono aggiunti, il tipo di account viene modificato con Pagamento a consumo. Questa modifica rispecchia il fatto che l'account non ha le proprie sottoscrizioni, ma ha ancora accesso completo ai servizi fatturabili e pronti per la produzione.
    * Le sottoscrizioni e le promozioni da ogni account vengono spostate all'account aziendale, dove diventano parte del pool di crediti. Dopo lo spostamento, ciascuna sottoscrizione ha gli stessi credito rimanente e periodo di termine, ma gli viene fornito un nuovo ID univoco.
-   * L'accesso alle informazioni di fatturazione e pagamento per i successivi periodi di fatturazione è limitato agli utenti nell'account aziendale. Gli utenti in un account secondario non possono accedere alle informazioni di fatturazione e pagamento, ad esempio le fatture, i pagamenti o le sottoscrizioni, anche se precedentemente ne avevano accesso nell'account. Per visualizzare o gestire la fatturazione, gli utenti devono essere invitati nell'account aziendale e gli deve essere dato l'accesso al servizio di fatturazione in tale account. 
+   * L'accesso alle informazioni di fatturazione e pagamento per i successivi periodi di fatturazione è limitato agli utenti nell'account aziendale. Gli utenti in un account secondario non possono accedere alle informazioni di fatturazione e pagamento, ad esempio le fatture, i pagamenti o le sottoscrizioni, anche se precedentemente ne avevano accesso nell'account. Per visualizzare o gestire la fatturazione, gli utenti devono essere invitati nell'account aziendale e gli deve essere dato l'accesso al servizio di fatturazione in tale account.
    * L'utilizzo viene fatturato dall'account aziendale per l'intero mese quando è stato aggiunto l'account. Ad esempio, se aggiungi un account all'azienda il 15 giugno, tutto l'utilizzo del mese di giugno viene rispecchiato nella fattura di luglio.
 
 ### Pool di crediti condiviso
@@ -92,7 +92,7 @@ Puoi visualizzare l'utilizzo dalla pagina Utilizzo nella console, dalla CLI o da
 ## Fatturazione e pagamenti
 {: #enterprise-invoicing}
 
-L'utilizzo nell'azienda viene fatturato tramite l'account aziendale. Come per gli account fatturabili, l'utilizzo viene fatturato su una base mensile e la fattura deve essere pagata alla data di fatturazione del tuo account. Durante ogni ciclo di fatturazione, viene resa disponibile una sola fattura con i costi di utilizzo da tutti gli account nell'account aziendale. La fattura contiene i costi di tutto l'utilizzo di piattaforma e infrastruttura come un elemento a singola riga nella tua fattura. Se vengono utilizzati tutti i crediti nel pool di crediti, la fattura contiene un elemento riga per ogni spesa eccedente.
+L'utilizzo nell'azienda viene fatturato tramite l'account aziendale.  Come per gli account fatturabili, l'utilizzo viene fatturato su una base mensile e la fattura deve essere pagata alla data di fatturazione del tuo account. Durante ogni ciclo di fatturazione, viene resa disponibile una sola fattura con i costi di utilizzo da tutti gli account nell'account aziendale. La fattura contiene i costi di tutto l'utilizzo di piattaforma e infrastruttura come un elemento a singola riga nella tua fattura. Se vengono utilizzati tutti i crediti nel pool di crediti, la fattura contiene un elemento riga per ogni spesa eccedente.
 
 Poiché tutto l'utilizzo viene fatturato tramite l'account aziendale, gli account secondari all'interno dell'azienda non ricevono fatture separate.
 

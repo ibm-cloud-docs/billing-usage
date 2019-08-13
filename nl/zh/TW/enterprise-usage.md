@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-29"
+lastupdated: "2019-07-26"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -118,7 +118,7 @@ Sales            account_group   456.78          0                   USD        
 ### 使用 API 檢視企業用量
 {: #enterprise-usage-api}
 
-您可以藉由呼叫<!-- [Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external} -->「企業用量報告 API（測試版）」，來取得企業及其帳戶的用量報告。您可以根據企業、帳戶群組或帳戶進行 API 呼叫中的查詢，並指定是要檢視實體還是其子項。「企業用量報告 API」是測試版。
+您可以呼叫[「企業用量報告 API（測試版）」](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}，來取得企業及其帳戶的用量報告。您可以根據企業、帳戶群組或帳戶進行 API 呼叫中的查詢，並指定是要檢視實體還是其子項。「企業用量報告 API」是測試版。
 
 下列範例顯示您可以使用來取得不同用量報告的查詢。當您呼叫 API 時，請將 ID 變數及 IAM 記號取代為您企業的值。
 

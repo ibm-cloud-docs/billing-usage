@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-29"
+lastupdated: "2019-07-26"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -118,9 +118,9 @@ Sales            account_group   456.78          0                   USD        
 ### Visualizzazione dell'utilizzo aziendale utilizzando l'API
 {: #enterprise-usage-api}
 
-Puoi ottenere i report di utilizzo da un'azienda e i propri account richiamando l'<!-- [Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external} -->API Enterprise Usage Reports (Beta). Puoi basare la query nella tua chiamata API su un'azienda, un gruppo di account o un account e specificare se visualizzare l'entità o i suoi elementi secondari. L'API Enterprise Usage Reports è una release beta.
+Puoi ottenere i report di utilizzo da un'azienda e i relativi account richiamando l'[API Enterprise Usage Reports (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}. Puoi basare la query nella tua chiamata API su un'azienda, un gruppo di account o un account e specificare se visualizzare l'entità o i suoi elementi secondari. L'API Enterprise Usage Reports è una release beta.
 
-I seguenti esempi mostrano le query che puoi utilizzare per ottenere report di utilizzo diversi. Quando richiami l'API, sostituisci le variabili ID e il token IAM con i valori dalla tua azienda. 
+I seguenti esempi mostrano le query che puoi utilizzare per ottenere report di utilizzo diversi. Quando richiami l'API, sostituisci le variabili ID e il token IAM con i valori dalla tua azienda.
 
 Visualizza l'utilizzo per l'intera azienda per il mese corrente.
 

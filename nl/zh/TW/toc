@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
+{: .toc subcollection="billing-usage" category="platform_services" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
 管理計費及用量
 
     {: .navgroup id="learn"}
@@ -37,6 +37,8 @@
     API 參考資料
         [用量計量](https://{DomainName}/apidocs/usage-metering){: new_window}
         [用量報告](https://{DomainName}/apidocs/metering-reporting){: new_window}
+        [企業計費單位](https://{DomainName}/apidocs/enterprise-apis/billing-unit){: new_window}
+        [企業用量報告](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

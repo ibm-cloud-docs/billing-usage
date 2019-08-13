@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
+{: .toc subcollection="billing-usage" category="platform_services" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
 Abrechnung und Nutzung verwalten
 
     {: .navgroup id="learn"}
@@ -37,6 +37,8 @@ Abrechnung und Nutzung verwalten
     API-Referenz
         [Nutzungsmessung](https://{DomainName}/apidocs/usage-metering){: new_window}
         [Nutzungsberichte](https://{DomainName}/apidocs/metering-reporting){: new_window}
+        [Abrechnungseinheiten für Unternehmen](https://{DomainName}/apidocs/enterprise-apis/billing-unit){: new_window}
+        [Nutzungsberichte für Unternehmen](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

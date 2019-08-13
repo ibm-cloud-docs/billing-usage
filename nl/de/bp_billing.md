@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-06-20"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -40,7 +40,7 @@ Sie können Ihren Ressourcen Tags hinzufügen, um die Kosten für verwandte Ress
 
 1. Sie können die Kosten für die getaggten Ressourcen verfolgen, indem Sie den Nutzungsbericht für Ihre Instanzen exportieren. Zum Exportieren des Berichts wechseln Sie zu **Verwalten > Abrechnung und Nutzung** und wählen Sie **Nutzung** aus. Anschließend klicken Sie auf **CSV exportieren > Instanz**.
 
-   Mithilfe der Tagspalte in der CSV-Datei der Instanz können Sie die Ressourcen in Ihrem Konto leichter analysieren. Sie können die CSV-Daten gemäß den Projekt-Tags der einzelnen Instanzen sortieren, sodass Sie die Kosten eines einzelnen Projekts besser analysieren können. Wenn Sie Ihre Ressourcen mit Schlüssel/Werte-Paaren getaggt haben, werden Ihnen im Nutzungsbericht auch Spalten entsprechend dem Schlüssel angezeigt. Zum Beispiel werden mit `project:abc` und `project:xyz` getaggte Ressourcen in einer Projektspalte mit "abc" und "xyz" angezeigt.
+   Mithilfe der Tagspalte in der CSV-Datei der Instanz können Sie die Ressourcen in Ihrem Konto leichter analysieren. Sie können die CSV-Daten gemäß den Projekt-Tags der einzelnen Instanzen sortieren, sodass Sie die Kosten eines einzelnen Projekts besser analysieren können. Wenn Sie Ihre Ressourcen mit Schlüssel/Werte-Paaren getaggt haben, werden Ihnen im Nutzungsbericht auch Spalten entsprechend dem Schlüssel angezeigt. So werden zum Beispiel Ressourcen mit den Tags `project:abc` und `project:xyz` in einer Projektspalte als `abc` und `xyz` angezeigt. 
 
    Weitere Informationen finden Sie unter [Nutzung anzeigen](/docs/billing-usage?topic=billing-usage-viewingusage).
 

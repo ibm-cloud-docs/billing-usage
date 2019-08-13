@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -46,10 +46,11 @@ subcollection: billing-usage
 
 企業需要訂閱計費，這表示您購買訂閱，以取得要在訂閱期限使用的額度，而且用量會以折扣率從訂閱額度中扣除。您用來建立企業的帳戶必須是[訂閱帳戶](/docs/account?topic=account-accounts#subscription-account)。在建立企業之後，您可以將任何類型的帳戶新增至企業。如果新增「精簡」或試用帳戶，則會自動將它升級至「隨收隨付制」帳戶。
 
-每一個企業都只支援單一計費貨幣。在將帳戶新增至企業之前，所有帳戶都必須使用企業計費貨幣。
+某些「隨收隨付制」帳戶無法直接匯入至企業，例如，許多使用美元 (USD) 計費的「隨收隨付制」帳戶。不過，您仍然可以將這些帳戶轉換為訂閱帳戶，然後進行匯入來將這些帳戶匯入至您的企業。若要轉換帳戶，請聯絡 [{{site.data.keyword.Bluemix_notm}} 銷售人員](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![「外部鏈結」圖示](../icons/launch-glyph.svg)。
 {: note}
 
-新增至企業的帳戶不再個別管理其計費。因此，訂閱額度無法新增至個別子帳戶。訂閱額度必須新增至企業帳戶，並在這裡變成企業額度儲存區的一部分。
+每一個企業都只支援單一計費貨幣。在將帳戶新增至企業之前，所有帳戶都必須使用企業計費貨幣。
+匯入至企業的現有帳戶不再個別管理其計費。因此，訂閱額度無法新增至個別子帳戶。訂閱額度必須新增至企業帳戶，並在這裡變成企業額度儲存區的一部分。
 
 ### 新增帳戶時的計費轉移
 {: #billing-transition}

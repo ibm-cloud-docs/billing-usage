@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -46,10 +46,10 @@ In einem Unternehmen wird die Abrechnung durch das Unternehmen und nicht in den 
 
 Unternehmen erfordern eine Abonnementabrechnung, d. h. Sie erwerben ein Abonnement für ein bestimmtes Guthaben, das während der Laufzeit des Abonnements ausgegeben wird, und die Nutzung wird vom Abonnementguthaben zu einem ermäßigten Satz abgezogen. Das Konto, das Sie zur Erstellung des Unternehmens verwenden, muss ein [Abonnementkonto](/docs/account?topic=account-accounts#subscription-account) sein. Nachdem das Unternehmen erstellt wurde, können Sie dem Unternehmen jede Art von Konto hinzufügen. Wenn Sie ein Lite- oder Testkonto hinzufügen, erfolgt ein automatisches Upgrade auf ein nutzungsabhängiges Konto.
 
-Jedes Unternehmen unterstützt nur eine einzige Abrechnungswährung. Alle Konten müssen die Abrechnungswährung des Unternehmens verwenden, bevor Sie sie dem Unternehmen hinzufügen.
+Einige nutzungsabhängige Konten können nicht direkt in ein Unternehmen importiert werden, wie z. B. zahlreiche nutzungsabhängige Konten, deren Abrechnung in US-Dollar (USD) erfolgt. Sie können diese Konten aber trotzdem in Ihr Unternehmen importieren, indem Sie sie in Abonnementkonten konvertieren und anschließend importieren. Wenn Sie ein Konto konvertieren möchten, wenden Sie sich an den [{{site.data.keyword.Bluemix_notm}}-Vertrieb](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg).
 {: note}
 
-Für Konten, die dem Unternehmen hinzugefügt wurden, wird die Abrechnung nicht mehr separat verwaltet. Als Ergebnis kann das Abonnementguthaben nicht einzelnen untergeordneten Konten hinzugefügt werden. Das Abonnementguthaben muss dem Unternehmenskonto hinzugefügt werden, wenn es Teil des Unternehmensguthabenpools wird.
+Jedes Unternehmen unterstützt nur eine einzige Abrechnungswährung. Alle Konten müssen die Abrechnungswährung des Unternehmens verwenden, bevor Sie sie dem Unternehmen hinzufügen. Wenn vorhandene Konten in das Unternehmen importiert werden, wird die Abrechnung für diese Konten nicht mehr separat verwaltet. Als Ergebnis kann das Abonnementguthaben nicht einzelnen untergeordneten Konten hinzugefügt werden. Das Abonnementguthaben muss dem Unternehmenskonto hinzugefügt werden, wenn es Teil des Unternehmensguthabenpools wird.
 
 ### Übertragung der Abrechnung beim Hinzufügen von Konten
 {: #billing-transition}
@@ -92,7 +92,7 @@ Sie können die Nutzung über die Seite "Nutzung" in der Konsole, über die CLI 
 ## Rechnungsstellung und Zahlungen
 {: #enterprise-invoicing}
 
-Die Nutzung im Unternehmen wird über das Unternehmenskonto in Rechnung gestellt. Wie bei allen gebührenpflichtigen Konten wird die Nutzung monatlich in Rechnung gestellt und die Rechnung ist zum Abrechnungsdatum für Ihr Konto fällig. Während jedes Abrechnungszyklus wird eine einzelne Rechnung mit den Nutzungskosten aller Konten auf dem Unternehmenskonto bereitgestellt. Die Rechnung enthält die Kosten für die gesamte Plattform- und Infrastrukturnutzung als einzelne Position. Wenn das gesamte Guthaben im Guthabenpool aufgebraucht ist, enthält die Rechnung eine Positionsnummer für jede Überschreitungsgebühr.
+Die Nutzung im Unternehmen wird über das Unternehmenskonto in Rechnung gestellt.  Wie bei allen gebührenpflichtigen Konten wird die Nutzung monatlich in Rechnung gestellt und die Rechnung ist zum Abrechnungsdatum für Ihr Konto fällig. Während jedes Abrechnungszyklus wird eine einzelne Rechnung mit den Nutzungskosten aller Konten auf dem Unternehmenskonto bereitgestellt. Die Rechnung enthält die Kosten für die gesamte Plattform- und Infrastrukturnutzung als einzelne Position. Wenn das gesamte Guthaben im Guthabenpool aufgebraucht ist, enthält die Rechnung eine Positionsnummer für jede Überschreitungsgebühr.
 
 Da die gesamte Nutzung über das Unternehmenskonto in Rechnung gestellt wird, erhalten untergeordnete Konten innerhalb des Unternehmens keine separaten Rechnungen.
 
