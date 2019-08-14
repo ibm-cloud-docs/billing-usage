@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -46,10 +46,11 @@ subcollection: billing-usage
 
 企业需要预订计费，这意味着在预订期限内，购买预订需要花费一定量的信用值，并且使用量会按折扣率从预订信用值中扣除。用于创建企业的帐户必须是[预订帐户](/docs/account?topic=account-accounts#subscription-account)。创建企业后，可以向企业添加任何类型的帐户。如果添加轻量或试用帐户，那么会自动将其升级为现收现付帐户。
 
-每个企业仅支持一种开票货币。所有帐户必须使用这种企业开票货币，然后才能将其添加到企业。
+有些“现收现付”帐户无法直接导入企业，比如很多以美元 (USD) 计费的“现收现付”帐户。但您仍可以将这些帐户导入到企业中，方法是将其转换为预订帐户然后再进行导入。要转换帐户，请与 [{{site.data.keyword.Bluemix_notm}} 销售人员](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![外部链接图标](../icons/launch-glyph.svg) 联系。
 {: note}
 
-添加到企业的帐户不再单独管理自己的计费。因此，无法将预订信用值添加到各个子帐户。必须将预订信用值添加到企业帐户，以成为企业信用值池的一部分。
+每个企业仅支持一种开票货币。所有帐户必须使用这种企业开票货币，然后才能将其添加到企业。
+导入到企业的现有帐户不再单独管理自己的计费。因此，无法将预订信用值添加到各个子帐户。必须将预订信用值添加到企业帐户，以成为企业信用值池的一部分。
 
 ### 添加帐户时的计费转换
 {: #billing-transition}

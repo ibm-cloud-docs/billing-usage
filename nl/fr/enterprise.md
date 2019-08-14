@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -46,10 +46,11 @@ Dans une entreprise, la facturation est gérée par l'entreprise et non par les 
 
 Les entreprises ont besoin de facturation d'abonnement, ce qui signifie que vous achetez un abonnement pour une quantité de crédit à dépenser pendant la durée de l'abonnement. L'utilisation est déduite du crédit d'abonnement à un tarif réduit. Le compte que vous utilisez pour créer l'entreprise doit être un [compte Abonnement](/docs/account?topic=account-accounts#subscription-account). Une fois que l'entreprise est créée, vous pouvez ajouter tout type de compte à l'entreprise. Si vous ajoutez un compte Lite ou d'essai, il est automatiquement mis à niveau en compte Paiement à la carte.
 
-Chaque entreprise prend en charge une seule devise de facturation. Tous les comptes doivent utiliser la devise de facturation de l'entreprise pour pouvoir être ajoutés à l'entreprise.
+Certains comptes Pay-As-You-Go ne peuvent pas être importés directement dans une entreprise, tels la plupart des comptes Pay-As-You-Go facturés en dollars américains (USD). Cependant, vous pouvez toujours importer ces comptes dans votre entreprise en les convertissant en comptes d'abonnement avant de les importer. Pour convertir un compte, contactez le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg).
 {: note}
 
-Les comptes ajoutés à l'entreprise ne gèrent plus séparément leur facturation. Par conséquent, le crédit d'abonnement ne peut pas être ajouté à des comptes enfant individuels. Il doit être ajouté au compte d'entreprise, où il est intégré au pool de crédit de l'entreprise.
+Chaque entreprise prend en charge une seule devise de facturation. Tous les comptes doivent utiliser la devise de facturation de l'entreprise pour pouvoir être ajoutés à l'entreprise. 
+Les comptes existants importés dans l'entreprise ne gèrent plus séparément leur facturation. Par conséquent, le crédit d'abonnement ne peut pas être ajouté à des comptes enfant individuels. Il doit être ajouté au compte d'entreprise, où il est intégré au pool de crédit de l'entreprise.
 
 ### Transfert de la facturation lors de l'ajout de comptes
 {: #billing-transition}
@@ -92,7 +93,7 @@ Vous pouvez consulter l'utilisation sur la page Utilisation de la console, à pa
 ## Facturation et paiements
 {: #enterprise-invoicing}
 
-L'utilisation dans l'entreprise est facturée via le compte d'entreprise. Tout comme avec les comptes facturables, l'utilisation est facturée sur une base mensuelle et la facture doit être réglée à la date de facturation pour votre compte. Durant chaque cycle de facturation, une seule facture avec les coûts d'utilisation de tous les comptes est disponible dans le compte de l'entreprise. La facture inclut les coûts pour l'ensemble de l'utilisation de plateforme et d'infrastructure sur une seule ligne. Si l'ensemble du crédit du pool de crédit est utilisé, la facture inclut une ligne pour tout frais d'utilisation excédentaire.
+L'utilisation dans l'entreprise est facturée via le compte d'entreprise.  Tout comme avec les comptes facturables, l'utilisation est facturée sur une base mensuelle et la facture doit être réglée à la date de facturation pour votre compte. Durant chaque cycle de facturation, une seule facture avec les coûts d'utilisation de tous les comptes est disponible dans le compte de l'entreprise. La facture inclut les coûts pour l'ensemble de l'utilisation de plateforme et d'infrastructure sur une seule ligne. Si l'ensemble du crédit du pool de crédit est utilisé, la facture inclut une ligne pour tout frais d'utilisation excédentaire.
 
 Etant donné que l'ensemble de l'utilisation est facturée via le compte d'entreprise, les comptes enfant ne reçoivent pas de factures séparées.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-29"
+lastupdated: "2019-07-26"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -53,7 +53,7 @@ Pour accéder à une procédure détaillée permettant d'affecter un accès d'en
 
 1. Pour afficher l'utilisation par ressource, accédez au niveau de compte en cliquant sur les groupes de comptes dans le tableau ou en sélectionnant le compte dans le menu **Niveau de l'entreprise**. Les coûts de chaque type de ressource utilisé pendant la période définie sont affichés.
 
-   A partir du compte d'entreprise, vous ne pouvez pas consulter les données d'utilisation de l'instance ou du plan de ressources car l'accès dans le compte est requis. Si vous êtes un utilisateur du compte, accédez au compte pour afficher ces données. Vous avez besoin de l'accès de facturation aux ressources et aux services du compte, comme cela est décrit dans [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage). 
+   A partir du compte d'entreprise, vous ne pouvez pas consulter les données d'utilisation de l'instance ou du plan de ressources car l'accès dans le compte est requis. Si vous êtes un utilisateur du compte, accédez au compte pour afficher ces données. Vous avez besoin de l'accès de facturation aux ressources et aux services du compte, comme cela est décrit dans [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 Seules les données de l'utilisation liées aux comptes de l'entreprise s'affichent dans le compte de l'entreprise. Pour afficher l'utilisation avant l'ajout d'un compte à l'entreprise, connectez-vous à ce compte et sélectionnez la période adaptée.
 {: note}
@@ -118,7 +118,7 @@ Sales            account_group   456.78          0                   USD        
 ### Affichage de l'utilisation de l'entreprise à l'aide de l'API
 {: #enterprise-usage-api}
 
-Vous pouvez obtenir des rapports d'utilisation d'une entreprise et de ses comptes en appelant l'API <!-- [Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external} --> (version bêta). Vous pouvez créer la requête dans votre appel d'API en fonction d'une entreprise, d'un groupe de comptes ou d'un compte et indiquer si vous souhaitez afficher l'entité ou ses enfants. L'API Enterprise Usage Reports est une version bêta.
+Vous pouvez obtenir des rapports d'utilisation d'une entreprise et de ses comptes en appelant l'[API Enterprise Usage Reports (version bêta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}. Vous pouvez créer la requête dans votre appel d'API en fonction d'une entreprise, d'un groupe de comptes ou d'un compte et indiquer si vous souhaitez afficher l'entité ou ses enfants. L'API Enterprise Usage Reports est une version bêta.
 
 Les exemples suivants présentent des requêtes que vous pouvez utiliser pour obtenir différents rapports d'utilisation. Lorsque vous appelez l'API, remplacez les variables d'ID et le jeton IAM par les valeurs de votre entreprise.
 

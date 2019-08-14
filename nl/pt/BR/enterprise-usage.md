@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-29"
+lastupdated: "2019-07-26"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -118,7 +118,7 @@ Sales            account_group   456.78          0                   USD        
 ### Visualizando o uso corporativo usando a API
 {: #enterprise-usage-api}
 
-É possível obter relatórios de uso de uma empresa e suas contas chamando a <!-- [Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external} -->API de relatórios de uso corporativo (Beta). É possível basear a consulta em sua chamada de API em uma empresa, em um grupo de contas ou em uma conta e especificar se deve visualizar a entidade ou seus filhos. A API de Relatórios de uso corporativo é uma liberação beta.
+É possível obter relatórios de uso de uma empresa e suas contas chamando a [API de relatórios de uso corporativo (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}. É possível basear a consulta em sua chamada de API em uma empresa, em um grupo de contas ou em uma conta e especificar se deve visualizar a entidade ou seus filhos. A API de Relatórios de uso corporativo é uma liberação beta.
 
 Os exemplos a seguir mostram consultas que podem ser usadas para obter relatórios de uso diferentes. Quando você chamar a API, substitua as variáveis de ID e o token do IAM pelos valores de sua empresa.
 

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
+{: .toc subcollection="billing-usage" category="platform_services" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
 Gerenciando o faturamento e o uso
 
     {: .navgroup id="learn"}
@@ -34,9 +34,11 @@ Gerenciando o faturamento e o uso
         [Gerenciando ordens e cotas de infraestrutura clássica](/cli/cloud-cli-sl-manage-classic-orders)
 
     {: .topicgroup}
-    Referência da API
+    Referência de API
         [Medição de uso](https://{DomainName}/apidocs/usage-metering){: new_window}
         [Relatórios de uso](https://{DomainName}/apidocs/metering-reporting){: new_window}
+        [Unidades de faturamento corporativo](https://{DomainName}/apidocs/enterprise-apis/billing-unit){: new_window}
+        [Relatórios de uso corporativo](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

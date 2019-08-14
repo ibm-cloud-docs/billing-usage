@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-06-20"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -40,7 +40,7 @@ Inclua tags em seus recursos para organizar, rastrear e gerenciar custos para re
 
 1. Rastreie custos para os recursos identificados exportando o relatório de uso para suas instâncias. Para exportar o relatório, acesse **Gerenciar > Faturamento e uso** e selecione **Uso**. Em seguida, clique em **Exportar CSV > Instância**.
 
-   Use a coluna Tags no arquivo CSV de instância para ajudar a analisar os recursos em sua conta. É possível classificar os dados CSV de acordo com a tag do projeto em cada instância para que seja possível analisar melhor o custo dos projetos individuais. Se você identificou seus recursos com os pares key:value, também será possível ver colunas no relatório de uso que correspondam à chave. Por exemplo, recursos identificados como `project:abc` e `project:xyz` aparecem em uma coluna Projeto como "abc" e "xyz".
+   Use a coluna Tags no arquivo CSV de instância para ajudar a analisar os recursos em sua conta. É possível classificar os dados CSV de acordo com a tag do projeto em cada instância para que seja possível analisar melhor o custo dos projetos individuais. Se você identificou seus recursos com os pares key:value, também será possível ver colunas no relatório de uso que correspondam à chave. Por exemplo, recursos identificados como `project:abc` e `project:xyz` aparecem em uma coluna Projeto como `abc` e `xyz`.
 
    Para obter mais informações, consulte [Visualizando seu uso](/docs/billing-usage?topic=billing-usage-viewingusage).
 

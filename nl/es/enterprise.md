@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -46,10 +46,10 @@ En una empresa, la facturación se gestiona en la empresa en lugar de en las cue
 
 Las empresas requieren una facturación de suscripción, lo que significa que se compra una suscripción para una cantidad de crédito que se debe gastar durante el período de suscripción, y el uso se deduce del crédito de suscripción a una tasa de descuento. La cuenta que se utiliza para crear la empresa debe ser una [Cuenta de suscripción](/docs/account?topic=account-accounts#subscription-account). Una vez que se ha creado la empresa, puede añadir cualquier tipo de cuenta a la empresa. Si añade una cuenta Lite o de prueba, se actualiza automáticamente a una cuenta de Pago según uso.
 
-Cada empresa admite únicamente una sola moneda de facturación. Todas las cuentas deben utilizar la moneda de facturación de empresa para poder añadirlas a la empresa.
+Algunas cuentas de Pago según uso no se pueden importar directamente en una empresa, como por ejemplo las cuentas de Pago según uso que se facturan en dólares de Estados Unidos (USD). No obstante, puede importar estas cuentas en la empresa convirtiéndolas en cuentas de suscripción y después importándolas. Para convertir una cuenta, póngase en contacto con [el equipo de Ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg).
 {: note}
 
-Las cuentas que se añaden a la empresa dejan de gestionar su facturación por separado. Como resultado, no se puede añadir crédito de suscripción a cuentas hijo individuales. El crédito de suscripción debe añadirse a la cuenta de empresa, donde se pasa a ser parte de la agrupación de crédito de empresa.
+Cada empresa admite únicamente una sola moneda de facturación. Todas las cuentas deben utilizar la moneda de facturación de empresa para poder añadirlas a la empresa. Las cuentas existentes que se importan en la empresa dejan de gestionar su facturación de forma independiente. Como resultado, no se puede añadir crédito de suscripción a cuentas hijo individuales. El crédito de suscripción debe añadirse a la cuenta de empresa, donde se pasa a ser parte de la agrupación de crédito de empresa.
 
 ### Transición de facturación al agregar cuentas
 {: #billing-transition}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -45,10 +45,10 @@ Em uma empresa, o faturamento é gerenciado pela empresa em vez de em contas-fil
 
 As empresas requerem faturamento de assinatura, o que significa que você adquire uma assinatura por uma quantia de crédito para gastar durante o prazo de assinatura, e o uso é deduzido do crédito de assinatura a uma taxa descontada. A conta que você usa para criar a empresa deve ser uma [Conta de assinatura](/docs/account?topic=account-accounts#subscription-account). Depois que a empresa é criada, é possível incluir qualquer tipo de conta na empresa. Se você incluir uma conta Lite ou para teste, ela será submetida a upgrade automático para uma conta Pré-paga.
 
-Cada empresa suporta apenas uma moeda de faturamento único. Todas as contas devem usar a moeda de faturamento corporativo antes de você incluí-las na empresa.
+Algumas contas Pré-pagas não podem ser diretamente importadas em uma empresa, como muitas contas Pré-pagas que são faturadas em dólares dos Estados Unidos (USD). No entanto, ainda é possível importar essas contas em sua empresa, convertendo-as em Contas de assinatura e, em seguida, importando-as. Para converter uma conta, entre em contato com [Vendas do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}![Ícone de link externo](../icons/launch-glyph.svg).
 {: note}
 
-As contas que são incluídas na empresa não gerenciam mais separadamente seu faturamento. Como resultado, o crédito de assinatura não pode ser incluído em contas-filhas individuais. O crédito de assinatura deve ser incluído na conta corporativa, na qual ele se torna parte do conjunto de crédito corporativo.
+Cada empresa suporta apenas uma moeda de faturamento único. Todas as contas devem usar a moeda de faturamento corporativo antes de você incluí-las na empresa. As contas existentes que são importadas na empresa não gerenciam mais seu faturamento separadamente. Como resultado, o crédito de assinatura não pode ser incluído em contas-filhas individuais. O crédito de assinatura deve ser incluído na conta corporativa, na qual ele se torna parte do conjunto de crédito corporativo.
 
 ### Transição de faturamento ao incluir contas
 {: #billing-transition}
@@ -91,7 +91,7 @@ Como o acesso na empresa é separado do acesso em cada conta, os usuários corpo
 ## Faturamento e pagamentos
 {: #enterprise-invoicing}
 
-O uso na empresa é faturado por meio da conta corporativa. Assim como com todas as contas faturáveis, o uso é faturado mensalmente e a fatura vence na data de faturamento para sua conta. Durante cada ciclo de faturamento, uma única fatura com os custos de uso de todas as contas é disponibilizada na conta corporativa. A fatura contém custos para todo o uso de plataforma e de infraestrutura como um item de linha único em sua fatura. Se todo o crédito no conjunto de crédito for usado, a fatura conterá um item de linha para quaisquer encargos excedentes.
+O uso na empresa é faturado por meio da conta corporativa.  Assim como com todas as contas faturáveis, o uso é faturado mensalmente e a fatura vence na data de faturamento para sua conta. Durante cada ciclo de faturamento, uma única fatura com os custos de uso de todas as contas é disponibilizada na conta corporativa. A fatura contém custos para todo o uso de plataforma e de infraestrutura como um item de linha único em sua fatura. Se todo o crédito no conjunto de crédito for usado, a fatura conterá um item de linha para quaisquer encargos excedentes.
 
 Como todo o uso é faturado por meio da conta corporativa, as contas-filhas dentro da empresa não recebem faturas separadas.
 

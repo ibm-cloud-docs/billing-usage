@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-06-20"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -43,8 +43,7 @@ Añada etiquetas a sus recursos para organizar, realizar un seguimiento y gestio
 
 1. Realice un seguimiento de los costes de los recursos etiquetados exportando el informe de uso para las instancias. Para exportar el informe, vaya a **Gestionar > Facturación y uso**, y seleccione **Uso**. A continuación, pulse **Exportar CSV > Instancia**.
 
-   Utilice la columna Etiquetas del archivo CSV de instancia como ayuda para analizar los recursos en la cuenta. Puede ordenar los datos de CSV de acuerdo con la etiqueta del proyecto en cada instancia para poder analizar mejor el coste de cada proyecto individual. Si ha etiquetado sus recursos con pares clave:valor, también verá columnas en el informe de uso que correspondan con la clave. Por ejemplo, los recursos etiquetados con
-`project:abc` y `project:xyz` aparecen en una columna Proyecto como "abc" y "xyz".
+   Utilice la columna Etiquetas del archivo CSV de instancia como ayuda para analizar los recursos en la cuenta. Puede ordenar los datos de CSV de acuerdo con la etiqueta del proyecto en cada instancia para poder analizar mejor el coste de cada proyecto individual. Si ha etiquetado sus recursos con pares clave:valor, también verá columnas en el informe de uso que correspondan con la clave. Por ejemplo, los recursos etiquetados como `project:abc` y `project:xyz` aparecen en la columna Proyecto como `abc` y `xyz`.
 
    Para obtener más información, consulte
 [Visualización del uso](/docs/billing-usage?topic=billing-usage-viewingusage).

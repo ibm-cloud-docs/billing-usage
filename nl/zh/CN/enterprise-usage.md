@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-29"
+lastupdated: "2019-07-26"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -24,7 +24,7 @@ subcollection: billing-usage
 您可以通过查看 {{site.data.keyword.Bluemix}} 企业中帐户的使用情况，跟踪这些帐户中的资源和支持成本。可以查看其使用情况的帐户和帐户组取决于分配给您的访问权。
 {: shortdesc}
 
-通过 {{site.data.keyword.Bluemix_notm}} 企业，您能够集中管理多个 {{site.data.keyword.Bluemix_notm}} 帐户。作为企业用户，您可以关注企业中任何帐户的资源使用情况以及关联成本。有关更多信息，请参阅[什么是企业？](/docs/account?topic=account-enterprise)。
+通过 {{site.data.keyword.Bluemix_notm}} 企业，您能够集中管理多个 {{site.data.keyword.Bluemix_notm}} 帐户。作为企业用户，您可以关注企业中任何帐户的资源使用情况以及关联成本。请参阅[什么是企业？](/docs/account?topic=account-enterprise)。
 
 
 ## 查看企业使用情况所必需的访问权
@@ -119,7 +119,7 @@ Sales            account_group   456.78          0                   USD        
 ### 使用 API 查看企业使用情况
 {: #enterprise-usage-api}
 
-您可以通过调用<!-- [Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external} -->企业使用情况报告 API (Beta)，从企业及其帐户中获取使用情况报告。可以将 API 中的查询基于企业、帐户组或帐户，并指定是查看实体还是其子代。企业使用情况报告 API 是 Beta 发行版。
+您可以通过调用[企业使用情况报告 API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}，从企业及其帐户中获取使用情况报告。可以将 API 中的查询基于企业、帐户组或帐户，并指定是查看实体还是其子代。企业使用情况报告 API 是 Beta 发行版。
 
 以下示例显示了可用于获取不同使用情况报告的查询。调用 API 时，请将标识变量和 IAM 令牌替换为企业中的值。
 

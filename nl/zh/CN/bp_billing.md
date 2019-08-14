@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-06-20"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -40,7 +40,7 @@ subcollection: billing-usage
 
 1. 通过导出实例的使用情况报告来跟踪已标记资源的成本。要导出报告，请转至**管理 > 计费和使用情况**，并选择**使用情况**。然后，单击**导出 CSV > 实例**。
 
-   使用实例 CSV 文件中的“标记”列来帮助分析帐户中的资源。您可以根据每个实例上的项目标记对 CSV 数据分类，以便您可以更好地分析单个项目的成本。如果您使用“键:值”对标记了资源，那么您还将在使用情况报告中看到与键对应的列。例如，标记为 `project:abc` 的资源和标记为 `project:xyz` 的资源在“项目”列中分别显示为“abc”和“xyz”。
+   使用实例 CSV 文件中的“标记”列来帮助分析帐户中的资源。您可以根据每个实例上的项目标记对 CSV 数据分类，以便您可以更好地分析单个项目的成本。如果您使用“键:值”对标记了资源，那么您还将在使用情况报告中看到与键对应的列。例如，标记为 `project:abc` 的资源和标记为 `project:xyz` 的资源在“项目”列中分别显示为 `abc` 和 `xyz`。
 
    有关更多信息，请参阅[查看使用情况](/docs/billing-usage?topic=billing-usage-viewingusage)。
 

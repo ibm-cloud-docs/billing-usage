@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="billing-usage" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
+{: .toc subcollection="billing-usage" category="platform_services" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
 청구 및 사용량 관리
 
     {: .navgroup id="learn"}
@@ -37,6 +37,8 @@
     API 참조
         [사용량 측정](https://{DomainName}/apidocs/usage-metering){: new_window}
         [사용량 보고서](https://{DomainName}/apidocs/metering-reporting){: new_window}
+        [엔터프라이즈 청구 단위](https://{DomainName}/apidocs/enterprise-apis/billing-unit){: new_window}
+        [엔터프라이즈 사용량 보고서](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

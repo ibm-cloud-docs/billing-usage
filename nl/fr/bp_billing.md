@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-06-20"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -40,7 +40,8 @@ Ajoutez des étiquettes à vos ressources pour organiser les ressources connexes
 
 1. Effectuez le suivi des coûts pour les ressources étiquetées en exportant le rapport d'utilisation pour vos instances. Pour exporter le rapport, accédez à **Gérer > Facturation et utilisation** et sélectionnez **Utilisation**. Cliquez ensuite sur **Exporter au format CSV > Instance**.
 
-   Utilisez la colonne Etiquettes du fichier CSV de l'instance pour analyser plus facilement les ressources de votre compte. Vous pouvez trier les données CSV en fonction de l'étiquette du projet sur chaque instance de manière à mieux analyser le coût de chaque projet. Si vous avez étiqueté vos ressources avec des paires clé:valeur, vous voyez également les colonnes du rapport d'utilisation qui correspondent à la clé. Par exemple, les ressources étiquetées avec la mention `project:abc` et `project:xyz` s'affichent dans une colonne Projet sous la forme "abc" et "xyz".
+   Utilisez la colonne Etiquettes du fichier CSV de l'instance pour analyser plus facilement les ressources de votre compte. Vous pouvez trier les données CSV en fonction de l'étiquette du projet sur chaque instance de manière à mieux analyser le coût de chaque projet. Si vous avez étiqueté vos ressources avec des paires clé:valeur, vous voyez également les colonnes du rapport d'utilisation qui correspondent à la clé. Par
+exemple, les ressources étiquetées avec la mention `project:abc` et `project:xyz` s'affichent dans une colonne Projet sous la forme `abc` et `xyz`.
 
    Pour plus d'informations, voir [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage).
 
