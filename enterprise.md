@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -79,7 +79,7 @@ When existing subscriptions are added to the enterprise, each individual subscri
 {: caption="Table 1. Subscriptions in an enterprise credit pool" caption-side="top"}
 {: summary="This table has column headers and a summary row. The row headers identify the subscription and attributes. The last row has a header in the first column and a summation of values from previous rows in the second column."}
 
-The billing administrator in the enterprise account can view and monitor the total amount of available credit in the enterprise dashboard. If more credit is needed to cover the enterprise's usage, a new subscription can be purchased and then added to the enterprise account. 
+The billing administrator in the enterprise account can view and monitor the total amount of available credit in the enterprise dashboard. If more credit is needed to cover the enterprise's usage, a new subscription can be purchased and then added to the enterprise account.
 
 Subscriptions can be added only to the enterprise account and cannot be added to other accounts in the enterprise.
 {: note}
