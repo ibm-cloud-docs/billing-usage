@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-06"
+lastupdated: "2019-08-15"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -43,17 +43,17 @@ Em uma empresa, o faturamento é gerenciado pela empresa em vez de em contas-fil
 ## Opções de Faturamento
 {: #enterprise-billing-options}
 
-As empresas requerem faturamento de assinatura, o que significa que você adquire uma assinatura por uma quantia de crédito para gastar durante o prazo de assinatura, e o uso é deduzido do crédito de assinatura a uma taxa descontada. A conta que você usa para criar a empresa deve ser uma [Conta de assinatura](/docs/account?topic=account-accounts#subscription-account). Depois que a empresa é criada, é possível incluir qualquer tipo de conta na empresa. Se você incluir uma conta Lite ou para teste, ela será submetida a upgrade automático para uma conta Pré-paga.
+As empresas requerem faturamento de assinatura, o que significa que você adquire uma assinatura por uma quantia de crédito para gastar durante o prazo de assinatura, e o uso é deduzido do crédito de assinatura a uma taxa descontada. A conta que você usa para criar a empresa deve ser uma [Conta de assinatura](/docs/account?topic=account-accounts#subscription-account). Depois que a empresa é criada, é possível incluir mais contas na empresa. Se você incluir uma conta Lite ou para teste, ela será submetida a upgrade automático para uma conta Pré-paga.
 
 Algumas contas Pré-pagas não podem ser diretamente importadas em uma empresa, como muitas contas Pré-pagas que são faturadas em dólares dos Estados Unidos (USD). No entanto, ainda é possível importar essas contas em sua empresa, convertendo-as em Contas de assinatura e, em seguida, importando-as. Para converter uma conta, entre em contato com [Vendas do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window}![Ícone de link externo](../icons/launch-glyph.svg).
 {: note}
 
 Cada empresa suporta apenas uma moeda de faturamento único. Todas as contas devem usar a moeda de faturamento corporativo antes de você incluí-las na empresa. As contas existentes que são importadas na empresa não gerenciam mais seu faturamento separadamente. Como resultado, o crédito de assinatura não pode ser incluído em contas-filhas individuais. O crédito de assinatura deve ser incluído na conta corporativa, na qual ele se torna parte do conjunto de crédito corporativo.
 
-### Transição de faturamento ao incluir contas
+### Transição de faturamento ao importar contas
 {: #billing-transition}
 
-Ao incluir uma conta existente em uma empresa, a cobrança e o faturamento passam a ser gerenciados pela conta corporativa. Essa transição inclui as mudanças a seguir na conta.
+Ao importar uma conta existente para uma empresa, suas transições de faturamento e fatura são gerenciadas pela conta corporativa. Essa transição inclui as mudanças a seguir na conta.
 
    * Para contas de Assinatura que são incluídas, o tipo de conta é mudado para Pré-paga. Essa mudança reflete que a conta não tem suas próprias assinaturas, mas que ainda tem acesso total aos serviços faturáveis prontos para produção.
    * As assinaturas e as promoções de cada conta são movidas para a conta corporativa, na qual elas se tornam parte do conjunto de crédito. Após a movimentação, cada assinatura tem o mesmo crédito restante e período de prazo, mas recebe um novo ID exclusivo.
@@ -65,14 +65,30 @@ Ao incluir uma conta existente em uma empresa, a cobrança e o faturamento passa
 
 O conjunto de crédito corporativo consolida o crédito de todas as contas na empresa e compartilha-o com as contas. O conjunto inclui crédito de todas as origens, incluindo crédito de assinatura de plataforma, crédito promocional e crédito de suporte. Quando as contas na empresa criam e usam recursos, o custo para esse uso é deduzido do conjunto de crédito.
 
-O administrador de faturamento na conta corporativa pode visualizar e monitorar a quantia total de crédito disponível no painel corporativo. Se mais crédito for necessário para cobrir o uso da empresa, uma nova assinatura poderá ser comprada e, em seguida, incluída na conta corporativa. As assinaturas podem ser incluídas somente na conta corporativa e não podem ser incluídas em outras contas na empresa.
+Quando as assinaturas existentes são incluídas na empresa, cada prazo de assinatura individual é recriado dentro do conjunto de crédito, incluindo suas características, como o saldo de crédito restante, as datas de início e as datas de encerramento. À medida que o crédito é usado, os prazos de assinatura são consumidos individualmente de acordo com sua expiração. Por exemplo, digamos que você importou duas contas com assinaturas existentes em agosto de 2019. Uma assinatura, `32100456`, é de US$ 1.000 por 18 meses e começou em janeiro de 2019. Como se estende por vários anos, ela é dividida em prazos de até um ano. A outra assinatura, `55543210`, iniciada em abril de 2019, é de US$ 500 por dois anos e também está dividida em múltiplos prazos. Depois, por meio de sua empresa você comprou uma nova assinatura de um ano, `00012345`, por US$ 1.500 por mês, iniciada em julho de 2020. À medida que os usuários na empresa usarem os recursos, o crédito será deduzido do primeiro prazo que veio da assinatura `32100456` porque ele expira mais cedo e, depois, o primeiro prazo da assinatura `55543210` porque expira em seguida e assim por diante. Esse comportamento assegura o uso ideal de seu crédito de assinatura comprado.
+
+| Assinatura de origem | Crédito restante | Válido a partir de | Válido até |
+| --- | --- | --- | --- |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, prazo 1 | $ 5.000       | 01/01/2019 | 31/12/2019 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, prazo 1 | US$ 4.000       | 01/04/2019 | 31/03/2020 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, prazo 2 | US$ 6.000       | 01/01/2020 | 30/06/2020 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, prazo 2 | US$ 6.000       | 01/04/2020 | 31/03/2021 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 00012345 | US$ 18.000       | 01/07/2020 | 30/06/2021 |
+| **Conjunto de crédito total**                                  | **US$ 39.000**  |   **--**   |   **--**   |
+{: caption="Tabela 1. Assinaturas em um conjunto de crédito corporativo" caption-side="top"}
+{: summary="This table has column headers and a summary row. The row headers identify the subscription and attributes. The last row has a header in the first column and a summation of values from previous rows in the second column."}
+
+O administrador de faturamento na conta corporativa pode visualizar e monitorar a quantia total de crédito disponível no painel corporativo. Se mais crédito for necessário para cobrir o uso da empresa, uma nova assinatura poderá ser comprada e, em seguida, incluída na conta corporativa.
+
+As assinaturas podem ser incluídas somente na conta corporativa e não podem ser incluídas em outras contas na empresa.
+{: note}
 
 Como as assinaturas podem ser dimensionadas para a empresa inteira em vez de por conta, você obterá os benefícios a seguir:
    * Dimensionamento de assinatura mais simples porque as assinaturas se aplicam a mais de uma conta
    * Melhores descontos nos custos de uso porque as assinaturas são maiores
    * Menos datas de expiração para rastrear e gerenciar após a expiração de assinaturas existentes
 
-Em uma empresa, as assinaturas são gerenciadas por meio da conta corporativa da mesma maneira que para uma conta independente. Consulte [Gerenciando assinaturas](/docs/billing-usage?topic=billing-usage-subscriptions) para obter mais informações sobre o gerenciamento de suas assinaturas de plataforma e suporte.
+Em uma empresa, as assinaturas são gerenciadas por meio da conta corporativa da mesma maneira que para uma conta independente. Consulte [Gerenciando assinaturas](/docs/billing-usage?topic=billing-usage-subscriptions) para obter mais informações sobre como gerenciar suas assinaturas de plataforma e de suporte.
 
 ## Relatório de uso
 {: #enterprise-usage-reporting}

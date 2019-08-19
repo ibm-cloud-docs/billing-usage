@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-06"
+lastupdated: "2019-08-15"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -44,17 +44,17 @@ In un'azienda, la fatturazione viene gestita dall'azienda invece che nei singoli
 ## Opzioni di fatturazione
 {: #enterprise-billing-options}
 
-Le aziende richiedono la fatturazione di sottoscrizione, che significa che acquisti una sottoscrizione per l'ammontare di crediti che spendi durante il termine di sottoscrizione e l'utilizzo viene dedotto dal credito di sottoscrizione ad una tariffa scontata. L'account che utilizzi per creare l'azienda deve essere un [account Sottoscrizione](/docs/account?topic=account-accounts#subscription-account). Dopo aver creato l'azienda, puoi aggiungere qualsiasi tipo di account all'azienda. Se aggiungi un account Lite o di prova, ne viene automaticamente eseguito l'upgrade a un account Pagamento a consumo.
+Le aziende richiedono la fatturazione di sottoscrizione, che significa che acquisti una sottoscrizione per l'ammontare di crediti che spendi durante il termine di sottoscrizione e l'utilizzo viene dedotto dal credito di sottoscrizione ad una tariffa scontata. L'account che utilizzi per creare l'azienda deve essere un [account Sottoscrizione](/docs/account?topic=account-accounts#subscription-account). Dopo aver creato l'azienda, puoi aggiungere ulteriori account all'azienda. Se aggiungi un account Lite o di prova, ne viene automaticamente eseguito l'upgrade a un account Pagamento a consumo.
 
 Alcuni account Pagamento a consumo non possono essere importati direttamente in un'azienda, come molti account Pagamento a consumo che sono fatturati in dollari americani (USD). Tuttavia, puoi ancora importare questi account nella tua azienda convertendoli in account Sottoscrizione e poi importandoli. Per convertire un account, contatta il settore [Vendite di {{site.data.keyword.Bluemix_notm}} ](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icona link esterno](../icons/launch-glyph.svg).
 {: note}
 
 Ogni azienda supporta una sola valuta di fatturazione. Tutti gli account devono utilizzare la valuta di fatturazione aziendale prima di aggiungerli all'azienda. Gli account esistenti che vengono importati nell'azienda non possono più gestire in modo separato la propria fatturazione. Di conseguenza, il credito di sottoscrizione non può essere aggiunto a singoli account secondari. Il credito di sottoscrizione deve essere aggiunto all'account aziendale, dove diventa parte del pool di crediti aziendale.
 
-### Fatturazione della transizione quando aggiungi degli account
+### Fatturazione della transizione quando importi degli account
 {: #billing-transition}
 
-Quando aggiungi un account esistente a un'azienda, la sua fatturazione delle transizioni viene gestita dall'account aziendale. Questa transizione include le seguenti modifiche all'account.
+Quando importi un account esistente a un'azienda, la sua fatturazione delle transizioni viene gestita dall'account aziendale. Questa transizione include le seguenti modifiche all'account.
 
    * Per gli account Sottoscrizione che vengono aggiunti, il tipo di account viene modificato con Pagamento a consumo. Questa modifica rispecchia il fatto che l'account non ha le proprie sottoscrizioni, ma ha ancora accesso completo ai servizi fatturabili e pronti per la produzione.
    * Le sottoscrizioni e le promozioni da ogni account vengono spostate all'account aziendale, dove diventano parte del pool di crediti. Dopo lo spostamento, ciascuna sottoscrizione ha gli stessi credito rimanente e periodo di termine, ma gli viene fornito un nuovo ID univoco.
@@ -66,7 +66,23 @@ Quando aggiungi un account esistente a un'azienda, la sua fatturazione delle tra
 
 Il pool di crediti aziendale consolida i crediti da tutti gli account nell'azienda e li condivide con gli account. Il pool include i crediti da tutte le origini, inclusi il credito di sottoscrizione della piattaforma, il credito promozionale e il credito di supporto. Quando gli account nell'azienda creano e utilizzano le risorse, il costo di questo utilizzo viene dedotto dal pool di crediti.
 
-L'amministratore della fatturazione nell'account aziendale può visualizzare e monitorare l'importo totale del credito disponibile nel dashboard aziendale. Se è necessario ulteriore credito per coprire l'utilizzo dell'azienda, può essere acquistata una nuova sottoscrizione e poi aggiunta all'account aziendale. Le sottoscrizioni possono essere aggiunte solo all'account aziendale e non possono essere aggiunte ad altri account nell'azienda.
+Quando le sottoscrizioni esistenti vengono aggiunte all'azienda, ogni singolo termine di sottoscrizione viene ricreato all'interno del pool di crediti, incluse caratteristiche come il saldo del credito rimanente, le date di inizio e le date di fine. Quando viene utilizzato il credito, i termini di sottoscrizione vengono utilizzati individualmente in base a quando scadono. Ad esempio, diciamo che importi due account con delle sottoscrizioni esistenti ad agosto 2019. Una sottoscrizione, `32100456`, è per $1.000 per 18 mesi ed è iniziata a gennaio 2019. Poiché è suddivisa in più anni, viene divisa in termini di massimo un anno ognuno. L'altra sottoscrizione, `55543210` è per $500 per due anni ed è iniziata ad aprile 2019, che a sua volta viene divisa in più termini. Quindi, hai acquistato una nuova sottoscrizione di un anno, `00012345`, tramite la tua azienda per $1.500 al mese a partire da gennaio 2020. Quando gli utenti nell'azienda utilizzano le risorse, il credito viene dedotto dal primo termine proveniente dalla sottoscrizione `32100456` perché è la prima a scadere, poi il primo termine dalla sottoscrizione `55543210` perché scade successivamente e così via. Questo funzionamento assicura l'utilizzo ottimale del tuo credito di sottoscrizione acquistato.
+
+| Sottoscrizione di origine |Credito rimanente| Valida da| Valida fino a |
+| --- | --- | --- | --- |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, termine 1 | $5.000       | 2019-01-01 | 2019-12-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, termine 1 | $4.000       | 2019-04-01 | 2020-03-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, termine 2 | $6.000       | 2020-01-01 | 2020-06-30 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, termine 2 | $6.000       | 2020-04-01 | 2021-03-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 00012345 | $18.000       | 2020-07-01 | 2021-06-30 |
+| **Totale pool di crediti**                                  | **$39.000**  |   **--**   |   **--**   |
+{: caption="Tabella 1. Sottoscrizioni in un pool di crediti aziendale" caption-side="top"}
+{: summary="This table has column headers and a summary row. The row headers identify the subscription and attributes. The last row has a header in the first column and a summation of values from previous rows in the second column."}
+
+L'amministratore della fatturazione nell'account aziendale può visualizzare e monitorare l'importo totale del credito disponibile nel dashboard aziendale. Se è necessario ulteriore credito per coprire l'utilizzo dell'azienda, può essere acquistata una nuova sottoscrizione e poi aggiunta all'account aziendale.
+
+Le sottoscrizioni possono essere aggiunte solo all'account aziendale e non possono essere aggiunte ad altri account nell'azienda.
+{: note}
 
 Poiché le sottoscrizioni possono essere dimensionate per l'intera azienda invece che per account, hai i seguenti vantaggi:
    * Dimensionamento della sottoscrizione più semplice perché le sottoscrizioni si applicano a più di un account

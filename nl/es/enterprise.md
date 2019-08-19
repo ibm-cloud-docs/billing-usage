@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-06"
+lastupdated: "2019-08-15"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -44,17 +44,17 @@ En una empresa, la facturación se gestiona en la empresa en lugar de en las cue
 ## Opciones de facturación
 {: #enterprise-billing-options}
 
-Las empresas requieren una facturación de suscripción, lo que significa que se compra una suscripción para una cantidad de crédito que se debe gastar durante el período de suscripción, y el uso se deduce del crédito de suscripción a una tasa de descuento. La cuenta que se utiliza para crear la empresa debe ser una [Cuenta de suscripción](/docs/account?topic=account-accounts#subscription-account). Una vez que se ha creado la empresa, puede añadir cualquier tipo de cuenta a la empresa. Si añade una cuenta Lite o de prueba, se actualiza automáticamente a una cuenta de Pago según uso.
+Las empresas requieren una facturación de suscripción, lo que significa que se compra una suscripción para una cantidad de crédito que se debe gastar durante el período de suscripción, y el uso se deduce del crédito de suscripción a una tasa de descuento. La cuenta que se utiliza para crear la empresa debe ser una [Cuenta de suscripción](/docs/account?topic=account-accounts#subscription-account). Una vez que se ha creado la empresa, puede añadir más cuentas a la empresa. Si añade una cuenta Lite o de prueba, se actualiza automáticamente a una cuenta de Pago según uso.
 
 Algunas cuentas de Pago según uso no se pueden importar directamente en una empresa, como por ejemplo las cuentas de Pago según uso que se facturan en dólares de Estados Unidos (USD). No obstante, puede importar estas cuentas en la empresa convirtiéndolas en cuentas de suscripción y después importándolas. Para convertir una cuenta, póngase en contacto con [el equipo de Ventas de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg).
 {: note}
 
 Cada empresa admite únicamente una sola moneda de facturación. Todas las cuentas deben utilizar la moneda de facturación de empresa para poder añadirlas a la empresa. Las cuentas existentes que se importan en la empresa dejan de gestionar su facturación de forma independiente. Como resultado, no se puede añadir crédito de suscripción a cuentas hijo individuales. El crédito de suscripción debe añadirse a la cuenta de empresa, donde se pasa a ser parte de la agrupación de crédito de empresa.
 
-### Transición de facturación al agregar cuentas
+### Transición de facturación al importar cuentas
 {: #billing-transition}
 
-Cuando se añade una cuenta existente a una empresa, sus transiciones de facturación las gestiona la cuenta de empresa. Esta transición incluye los siguientes cambios en la cuenta.
+Cuando se importa una cuenta existente a una empresa, sus transiciones de facturación las gestiona la cuenta de empresa. Esta transición incluye los siguientes cambios en la cuenta.
 
    * Para las cuentas de suscripción que se añaden, el tipo de cuenta se cambia a Pago según uso. Este cambio refleja que la cuenta no tiene sus propias suscripciones, pero que todavía tiene acceso completo a servicios facturables preparados para la producción.
    * Las suscripciones y promociones de cada cuenta se trasladan a la cuenta de empresa, donde pasan a formar parte de la agrupación de crédito. Después de la acción de mover, cada suscripción tiene el mismo período de crédito y de plazo, pero se le da un nuevo ID exclusivo.
@@ -66,7 +66,23 @@ Cuando se añade una cuenta existente a una empresa, sus transiciones de factura
 
 La agrupación de crédito de empresa consolida el crédito de todas las cuentas de la empresa y lo comparte con las cuentas. La agrupación incluye el crédito de todas las fuentes, incluyendo el crédito de suscripción a la plataforma, el crédito promocional y el crédito de soporte. Cuando las cuentas de la empresa crean y utilizan recursos, el coste de este uso se deduce de la agrupación de crédito.
 
-El administrador de facturación de la cuenta de empresa puede ver y supervisar la cantidad total de crédito disponible en el panel de control de la empresa. Si se necesita más crédito para cubrir el uso de la empresa, se puede adquirir una nueva suscripción y luego añadirla a la cuenta de empresa. Las suscripciones sólo se pueden añadir a la cuenta de empresa y no a otras cuentas de la empresa.
+Cuando se añaden suscripciones existentes a la empresa, el plazo de cada suscripción individual se recrea dentro de la agrupación de crédito, incluyendo características como el saldo de crédito restante, las fechas de inicio y las fechas de fin. A medida que se utiliza el crédito, los plazos de suscripción se van consumiendo individualmente en función de cuándo es su vencimiento. Por ejemplo, suponga que ha importado dos cuentas con suscripciones existentes en agosto de 2019. Una suscripción, `32100456`, es de $1.000 durante 18 meses que empezó en enero de 2019. Debido a que se extiende a lo largo de varios años, se divide en plazos de hasta un año cada una. La otra suscripción, `55543210`, es de $500 durante dos años que empezó en abril de 2019, que también se divide en varios plazos. Posteriormente, adquirió una nueva suscripción de un año, `00012345`, a través de su empresa por $1.500 al mes que empieza en julio de 2020. A medida que los usuarios de la empresa utilizan los recursos, el crédito se deduce del primer plazo correspondiente a la suscripción `32100456`, porque es el que vence más pronto, y luego del primer plazo de la suscripción `55543210` porque vence después, etc. Este comportamiento garantiza un uso óptimo del crédito de suscripción que ha adquirido.
+
+| Suscripción de origen | Crédito restante | Válida desde | Válida hasta |
+| --- | --- | --- | --- |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, plazo 1 | $5.000       | 2019-01-01 | 2019-12-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, plazo 1 | $4.000       | 2019-04-01 | 2020-03-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, plazo 2 | $6.000       | 2020-01-01 | 2020-06-30 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, plazo 2 | $6.000       | 2020-04-01 | 2021-03-31 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 00012345 | $18.000       | 2020-07-01 | 2021-06-30 |
+| **Total de agrupación de crédito**                                  | **$39.000**  |   **--**   |   **--**   |
+{: caption="Tabla 1. Suscripciones en una agrupación de crédito de empresa" caption-side="top"}
+{: summary="This table has column headers and a summary row. The row headers identify the subscription and attributes. The last row has a header in the first column and a summation of values from previous rows in the second column."}
+
+El administrador de facturación de la cuenta de empresa puede ver y supervisar la cantidad total de crédito disponible en el panel de control de la empresa. Si se necesita más crédito para cubrir el uso de la empresa, se puede adquirir una nueva suscripción y luego añadirla a la cuenta de empresa.
+
+Las suscripciones sólo se pueden añadir a la cuenta de empresa y no a otras cuentas de la empresa.
+{: note}
 
 Debido a que las suscripciones se pueden dimensionar para toda la empresa en lugar de por cuenta, obtiene las siguientes ventajas:
    * Dimensionamiento de la suscripción más simple porque las suscripciones se aplican a más de una cuenta

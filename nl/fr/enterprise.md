@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-06"
+lastupdated: "2019-08-15"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -44,20 +44,19 @@ Dans une entreprise, la facturation est gérée par l'entreprise et non par les 
 ## Options de facturation
 {: #enterprise-billing-options}
 
-Les entreprises ont besoin de facturation d'abonnement, ce qui signifie que vous achetez un abonnement pour une quantité de crédit à dépenser pendant la durée de l'abonnement. L'utilisation est déduite du crédit d'abonnement à un tarif réduit. Le compte que vous utilisez pour créer l'entreprise doit être un [compte Abonnement](/docs/account?topic=account-accounts#subscription-account). Une fois que l'entreprise est créée, vous pouvez ajouter tout type de compte à l'entreprise. Si vous ajoutez un compte Lite ou d'essai, il est automatiquement mis à niveau en compte Paiement à la carte.
+Les entreprises ont besoin de facturation d'abonnement, ce qui signifie que vous achetez un abonnement pour une quantité de crédit à dépenser pendant la durée de l'abonnement. L'utilisation est déduite du crédit d'abonnement à un tarif réduit. Le compte que vous utilisez pour créer l'entreprise doit être un [compte Abonnement](/docs/account?topic=account-accounts#subscription-account). Une fois l'entreprise créée, vous pouvez ajouter d'autres comptes à l'entreprise. Si vous ajoutez un compte Lite ou d'essai, il est automatiquement mis à niveau en compte Paiement à la carte.
 
 Certains comptes Pay-As-You-Go ne peuvent pas être importés directement dans une entreprise, tels la plupart des comptes Pay-As-You-Go facturés en dollars américains (USD). Cependant, vous pouvez toujours importer ces comptes dans votre entreprise en les convertissant en comptes d'abonnement avant de les importer. Pour convertir un compte, contactez le [service commercial {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg).
 {: note}
 
-Chaque entreprise prend en charge une seule devise de facturation. Tous les comptes doivent utiliser la devise de facturation de l'entreprise pour pouvoir être ajoutés à l'entreprise. 
-Les comptes existants importés dans l'entreprise ne gèrent plus séparément leur facturation. Par conséquent, le crédit d'abonnement ne peut pas être ajouté à des comptes enfant individuels. Il doit être ajouté au compte d'entreprise, où il est intégré au pool de crédit de l'entreprise.
+Chaque entreprise prend en charge une seule devise de facturation. Tous les comptes doivent utiliser la devise de facturation de l'entreprise pour pouvoir être ajoutés à l'entreprise. Les comptes existants importés dans l'entreprise ne gèrent plus séparément leur facturation. Par conséquent, le crédit d'abonnement ne peut pas être ajouté à des comptes enfant individuels. Il doit être ajouté au compte d'entreprise, où il est intégré au pool de crédit de l'entreprise.
 
-### Transfert de la facturation lors de l'ajout de comptes
+### Transfert de la facturation lors de l'importation de comptes
 {: #billing-transition}
 
-Lorsque vous ajoutez un compte existant à une entreprise, sa facturation est alors gérée par le compte de l'entreprise. Cette transition inclut les modifications suivantes apportées au compte.
+Lorsque vous importez un compte existant dans une entreprise, sa facturation est transférée de manière à être gérée par le compte de l'entreprise. Cette transition inclut les modifications suivantes apportées au compte.
 
-   * Pour les comptes Abonnement ajoutés, le type de compte devient Paiement à la carte. Cette modification indique que la compte ne dispose pas de ses propres abonnements mais qu'il a toujours un accès total aux services prêts pour la production et facturables.
+   * Pour les comptes Abonnement ajoutés, le type de compte devient Paiement à la carte. Cette modification indique que le compte ne dispose pas de ses propres abonnements mais qu'il a toujours un accès total aux services prêts pour la production et facturables.
    * Les abonnements et les promotions de chaque compte sont déplacés dans le compte de l'entreprise, où ils sont alors intégrés au pool de crédit. Après le déplacement, chaque abonnement a le même crédit restant et la même durée mais un nouvel ID unique lui est attribué.
    * L'accès aux informations de facturation et de paiement pour les périodes de facturation futures est restreint aux utilisateurs du compte de l'utilisateur. Les utilisateurs d'un compte enfant ne peuvent pas accéder aux informations de facturation et de paiement (factures, paiements ou abonnements, par exemple) même s'ils avaient précédemment accès au compte. Pour afficher ou gérer la facturation, les utilisateurs doivent être invités dans le compte de l'entreprise et ils doivent disposer de l'accès au service de facturation dans ce compte.
    * L'utilisation est facturée au compte de l'entreprise pour l'ensemble du mois durant lequel le compte a été ajouté. Par exemple, si vous ajoutez un compte à l'entreprise le 15 juin, l'ensemble de l'utilisation du mois de juin apparaît dans la facture du mois de juillet.
@@ -67,7 +66,23 @@ Lorsque vous ajoutez un compte existant à une entreprise, sa facturation est al
 
 Le pool de crédit d'entreprise consolide le crédit de tous les comptes de l'entreprise et le partage avec les comptes. Le pool inclut le crédit de toutes les sources, notamment le crédit d'abonnement de plateforme, le crédit promotionnel et le crédit de support. Lorsque les comptes de l'entreprise créent et utilisent des ressources, le coût de cette utilisation est déduit du pool de crédit.
 
-L'administrateur de facturation du compte d'entreprise peut afficher et surveiller la quantité totale du crédit disponible dans le tableau de bord de l'entreprise. Si du crédit supplémentaire est requis pour couvrir l'utilisation de l'entreprise, un nouvel abonnement peut être acheté puis ajouté au compte de l'entreprise. Il n'est possible d'ajouter des abonnements qu'au compte de l'entreprise et non à d'autres comptes au sein de l'entreprise.
+Lorsque des abonnements existants sont ajoutés à l'entreprise, la durée d'abonnement de chacun est redéfinie au sein du pool de crédits, y compris des caractéristiques telles que le solde créditeur restant, les dates de début et les dates de fin. A mesure que le crédit est consommé, les durées d'abonnement se réduisent en fonction de leur expiration. Par exemple, disons que vous avez importé deux comptes ayant des abonnements existants en août 2019. L'un des abonnements, `32100456`, est de 1 000 $ pour 18 mois à compter de janvier 2019. Etant donné qu'il s'étend sur plusieurs années, il est divisé en durées d'un an chacune. L'autre abonnement, `55543210`, est de 500 $ pour deux ans à compter d'avril 2019 est également divisé en plusieurs durées. Ensuite, vous avez acheté un nouvel abonnement d'un an, `00012345`, par l'intermédiaire de votre entreprise pour 1 500 $ par mois à compter de juillet 2020. A mesure que les utilisateurs de l'entreprise utilisent des ressources, le crédit est déduit de la première durée de l'abonnement `32100456` qui expire le plus tôt, puis de la première durée de l'abonnement `55543210` qui expire ensuite, etc. Ce comportement garantit une utilisation optimale du crédit d'abonnement que vous avez acheté.
+
+| Abonnement d'origine | Crédit restant | Début de validité | Fin de validité |
+| --- | --- | --- | --- |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, durée 1 | 5 000 $     | 01-01-2019 | 31-12-2019 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, durée 1 | 4 000 $     | 01-04-2019 | 31-03-2020 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 32100456, durée 2 | 6 000 $     | 01-01-2020 | 30-06-2020 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 55543210, durée 2 | 6 000 $     | 01-04-2020 | 31-03-2021 |
+| {{site.data.keyword.Bluemix_notm}} Platform - 00012345 | 18 000 $     | 01-07-2020 | 30-06-2021 |
+| **Total du pool de crédits**                                  | **39 000 $**  |   **--**   |   **--**   |
+{: caption="Tableau 1. Abonnements dans le pool de crédits d'une entreprise" caption-side="top"}
+{: summary="This table has column headers and a summary row. The row headers identify the subscription and attributes. The last row has a header in the first column and a summation of values from previous rows in the second column."}
+
+L'administrateur de facturation du compte d'entreprise peut afficher et surveiller la quantité totale du crédit disponible dans le tableau de bord de l'entreprise. Si du crédit supplémentaire est requis pour couvrir l'utilisation de l'entreprise, un nouvel abonnement peut être acheté puis ajouté au compte de l'entreprise.
+
+Il n'est possible d'ajouter des abonnements qu'au compte de l'entreprise et non à d'autres comptes au sein de l'entreprise.
+{: note}
 
 Les abonnements pouvant cibler l'entreprise dans son ensemble et non chaque compte, vous disposez des avantages suivants :
    * Définition plus simple de la taille de l'abonnement, les abonnements s'appliquant à plusieurs comptes

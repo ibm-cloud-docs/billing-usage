@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-06"
+lastupdated: "2019-08-15"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -44,17 +44,17 @@ In einem Unternehmen wird die Abrechnung durch das Unternehmen und nicht in den 
 ## Abrechnungsoptionen
 {: #enterprise-billing-options}
 
-Unternehmen erfordern eine Abonnementabrechnung, d. h. Sie erwerben ein Abonnement für ein bestimmtes Guthaben, das während der Laufzeit des Abonnements ausgegeben wird, und die Nutzung wird vom Abonnementguthaben zu einem ermäßigten Satz abgezogen. Das Konto, das Sie zur Erstellung des Unternehmens verwenden, muss ein [Abonnementkonto](/docs/account?topic=account-accounts#subscription-account) sein. Nachdem das Unternehmen erstellt wurde, können Sie dem Unternehmen jede Art von Konto hinzufügen. Wenn Sie ein Lite- oder Testkonto hinzufügen, erfolgt ein automatisches Upgrade auf ein nutzungsabhängiges Konto.
+Unternehmen erfordern eine Abonnementabrechnung, d. h. Sie erwerben ein Abonnement für ein bestimmtes Guthaben, das während der Laufzeit des Abonnements ausgegeben wird, und die Nutzung wird vom Abonnementguthaben zu einem ermäßigten Satz abgezogen. Das Konto, das Sie zur Erstellung des Unternehmens verwenden, muss ein [Abonnementkonto](/docs/account?topic=account-accounts#subscription-account) sein. Nachdem das Unternehmen erstellt wurde, können Sie weitere Konten zum Unternehmen hinzufügen. Wenn Sie ein Lite- oder Testkonto hinzufügen, erfolgt ein automatisches Upgrade auf ein nutzungsabhängiges Konto.
 
 Einige nutzungsabhängige Konten können nicht direkt in ein Unternehmen importiert werden, wie z. B. zahlreiche nutzungsabhängige Konten, deren Abrechnung in US-Dollar (USD) erfolgt. Sie können diese Konten aber trotzdem in Ihr Unternehmen importieren, indem Sie sie in Abonnementkonten konvertieren und anschließend importieren. Wenn Sie ein Konto konvertieren möchten, wenden Sie sich an den [{{site.data.keyword.Bluemix_notm}}-Vertrieb](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg).
 {: note}
 
 Jedes Unternehmen unterstützt nur eine einzige Abrechnungswährung. Alle Konten müssen die Abrechnungswährung des Unternehmens verwenden, bevor Sie sie dem Unternehmen hinzufügen. Wenn vorhandene Konten in das Unternehmen importiert werden, wird die Abrechnung für diese Konten nicht mehr separat verwaltet. Als Ergebnis kann das Abonnementguthaben nicht einzelnen untergeordneten Konten hinzugefügt werden. Das Abonnementguthaben muss dem Unternehmenskonto hinzugefügt werden, wenn es Teil des Unternehmensguthabenpools wird.
 
-### Übertragung der Abrechnung beim Hinzufügen von Konten
+### Übertragung der Abrechnung beim Importieren von Konten
 {: #billing-transition}
 
-Wenn Sie ein vorhandenes Konto zu einem Unternehmen hinzufügen, werden die Abrechnung und Rechnungsstellung vom Unternehmenskonto übernommen. Diese Übernahme umfasst die folgenden Änderungen am Konto:
+Wenn Sie ein vorhandenes Konto in ein Unternehmen importieren, werden die Abrechnung und Rechnungsstellung vom Unternehmenskonto übernommen. Diese Übernahme umfasst die folgenden Änderungen am Konto:
 
    * Bei Abonnementkonten, die hinzugefügt werden, wird der Kontotyp in "nutzungsabhängig" geändert. Diese Änderung bedeutet, dass das Konto nicht über eigene Abonnements verfügt, es aber immer noch vollen Zugriff auf produktionsbereite, abrechnungsfähige Services hat.
    * Abonnements und Werbeaktionen von jedem Konto werden auf das Unternehmenskonto übertragen, wo sie Teil des Guthabenpools werden. Nach der Übertragung hat jedes Abonnement dasselbe verbleibende Guthaben und dieselbe Restlaufzeit, aber es erhält eine neue eindeutige ID.
@@ -66,7 +66,23 @@ Wenn Sie ein vorhandenes Konto zu einem Unternehmen hinzufügen, werden die Abre
 
 Der Guthabenpool des Unternehmens konsolidiert das Guthaben aus allen Konten im Unternehmen und stellt sie den Konten zur gemeinsamen Nutzung zur Verfügung. Der Pool umfasst Guthaben aus allen Quellen, einschließlich Plattformabonnementguthaben, Werbeguthaben und Supportguthaben. Wenn Konten im Unternehmen Ressourcen erstellen und verwenden, werden die Kosten für diese Nutzung vom Guthabenpool in Abzug gebracht.
 
-Der Abrechnungsadministrator im Unternehmenskonto kann den Gesamtbetrag des verfügbaren Guthabens im Dashboard für das Unternehmen anzeigen und überwachen. Wenn mehr Guthaben benötigt wird, um die Nutzung des Unternehmens zu decken, kann ein neues Abonnement erworben und dann dem Unternehmenskonto hinzugefügt werden. Abonnements können nur dem Unternehmenskonto hinzugefügt werden. Sie können nicht anderen Konten im Unternehmen hinzugefügt werden.
+Wenn vorhandene Abonnements zum Unternehmen hinzugefügt werden, werden die einzelnen Abonnementlaufzeiten innerhalb des Guthabenpools erneut erstellt. Dies schließt auch Merkmale wie das verbleibende Guthaben, Startdatum und Enddatum ein. Während die Guthaben genutzt werden, werden die Laufzeiten individuell dem jeweiligen Ablaufdatum entsprechend verbraucht. Beispiel: Sie haben zwei Konten mit vorhandenen Abonnements im August 2019 importiert. Ein Abonnement, `32100456`, umfasst $ 1.000 für 18 Monate ab Januar 2019. Da es mehrere Jahre umfasst, wird es in Laufzeiten von jeweils einem Jahr aufgeteilt. Das andere Abonnement, `55543210`, umfasst $ 500 für zwei Jahre ab April 2019 und wird ebenfalls in mehrere Laufzeiten unterteilt. Dann kaufen Sie über das Unternehmen ein neues einjähriges Abonnement, `00012345`, das $ 1.500 pro Monat umfasst und im Juli 2020 beginnt. Während die Benutzer im Unternehmen Ressourcen nutzen, wird das Guthaben von der ersten Laufzeit abgezogen, die aus `32100456` stammt, da diese das früheste Ablaufdatum aufweist; anschließend wird das Guthaben von der ersten Laufzeit des Abonnements `55543210` abgezogen, da diese das nächste Ablaufdatum aufweist, usw. Hierdurch wird sichergestellt, das das gekaufte Abonnementguthaben optimal genutzt wird. 
+
+| Ausgangsabonnement | Verbleibendes Guthaben | Gültig ab | Gültig bis |
+| --- | --- | --- | --- |
+| {{site.data.keyword.Bluemix_notm}}-Plattform - 32100456, Laufzeit 1 | $ 5.000       | 01.01.2019 | 31.12.2019 |
+| {{site.data.keyword.Bluemix_notm}}-Plattform - 55543210, Laufzeit 1 | $ 4.000       | 01.04.2019 | 31.03.2012 |
+| {{site.data.keyword.Bluemix_notm}}-Plattform - 32100456, Laufzeit 2 | $ 6.000       | 01.01.2020 | 30.06.2020 |
+| {{site.data.keyword.Bluemix_notm}}-Plattform - 55543210, Laufzeit 2 | $ 6.000       | 01.04.2020 | 31.03.2021 |
+| {{site.data.keyword.Bluemix_notm}}-Plattform - 00012345 | $ 18.000       | 01.07.2020 | 30.06.2021 |
+| **Gesamter Guthabenpool**                                  | **$ 39.000**  |   **--**   |   **--**   |
+{: caption="Tabelle 1. Abonnements in einem Guthabenpool eines Unternehmens" caption-side="top"}
+{: summary="This table has column headers and a summary row. The row headers identify the subscription and attributes. The last row has a header in the first column and a summation of values from previous rows in the second column."}
+
+Der Abrechnungsadministrator im Unternehmenskonto kann den Gesamtbetrag des verfügbaren Guthabens im Dashboard für das Unternehmen anzeigen und überwachen. Wenn mehr Guthaben benötigt wird, um die Nutzung des Unternehmens zu decken, kann ein neues Abonnement erworben und dann dem Unternehmenskonto hinzugefügt werden.
+
+Abonnements können nur dem Unternehmenskonto hinzugefügt werden. Sie können nicht anderen Konten im Unternehmen hinzugefügt werden.
+{: note}
 
 Da Abonnements für das gesamte Unternehmen anstatt für ein Konto ausgelegt werden können, erhalten Sie die folgenden Vorteile:
    * Einfachere Abonnementdimensionierung, da die Abonnements für mehr als ein Konto gelten
