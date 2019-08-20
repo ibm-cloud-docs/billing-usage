@@ -191,5 +191,12 @@
       "I get a message when trying to view my billing info",
       "unable to access usage statement",
       "where is my billing info"
+    ],
+    "receive-credit": [
+     "didn't receive any credit",
+     "where can I see my $200 credit",
+     "find credit",
+     "see credit from upgrade",
+     "check for my credit"
     ]
 }

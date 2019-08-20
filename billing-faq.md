@@ -19,7 +19,7 @@ subcollection: billing-usage
 # FAQs for billing and usage
 {: #billusagefaqs}
 
-FAQs for billing and usage might include questions about credit cards, promo codes, or subscriptions. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
+FAQs for billing and usage might include questions about credit cards, promo codes, or subscriptions. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](https://{DomainName}/docs/faqs).
 {: shortdesc}
 
 ## How do I update my credit card?
@@ -191,3 +191,13 @@ Yes, if your account includes any discounts, the price of the offering that's di
 {: faq}
 
 The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/iam?topic=iam-migrated_permissions).
+
+## How do I confirm that I received an expected credit?
+{: #receive-credit}
+{: faq}
+
+Credit might take a few hours to appear in your account.  To see whether a credit was added, go to **Manage > Billing and usage**, and select **Usage**. The credit might be listed in the Active subscriptions and credits section.
+
+If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it's not yet added to your account. Check back later to verify that you received the credit.
+
+
