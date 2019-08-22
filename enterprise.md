@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-15"
+lastupdated: "2019-08-08"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -66,7 +66,7 @@ When you import an existing account to an enterprise, its billing and invoicing 
 
 The enterprise credit pool consolidates credit from all accounts in the enterprise and shares it with the accounts. The pool includes credit from all sources, including platform subscription credit, promotional credit, and support credit. When accounts in the enterprise create and use resources, the cost for this usage is deducted from the credit pool.
 
-When existing subscriptions are added to the enterprise, each individual subscription term is recreated within the credit pool, including characteristics such as the remaining credit balance, start dates, and end dates. As credit is used, the subscription terms burn down individually according to when they expire. For example, say you imported two accounts with existing subscriptions in August 2019. One subscription, `32100456`, is for $1,000 for 18 months that began in January 2019. Because it spans multiple years, it's divided into terms of up to one year each. The other subscription, `55543210` is for $500 for two years that began in April 2019, which is also divided into multiple terms. Then, you purchased a new one-year subscription, `00012345`, through your enterprise for $1,500 a month starting in July 2020. As users in the enterprise use resources, the credit is deducted from the first term that came from subscription `32100456` because it expires the soonest, then the first term from subscription `55543210` because it expires next, and so on. This behavior ensures optimum usage of your purchased subscription credit.
+When existing subscriptions are added to the enterprise, each individual subscription term is recreated within the credit pool, including characteristics such as the remaining credit balance, start dates, and end dates. As credit is used, the subscription terms burn down individually according to when they expire. For example, say you imported two accounts with existing subscriptions in August 2019. One subscription, `32100456`, is for $1,000 for 18 months that began in January 2019. Because it spans multiple years, it's divided into terms of up to one year each. The other subscription, `55543210` is for $500 a month for two years that began in April 2019, which is also divided into multiple terms. Then, you purchased a new one-year subscription, `00012345`, through your enterprise for $1,500 a month starting in July 2020. As users in the enterprise use resources, the credit is deducted from the first term that came from subscription `32100456` because it expires the soonest, then the first term from subscription `55543210` because it expires next, and so on. This behavior ensures optimum usage of your purchased subscription credit.
 
 | Originating Subscription | Remaining Credit | Valid From | Valid Until |
 | --- | --- | --- | --- |
@@ -122,8 +122,8 @@ As with other enterprise management roles, access to enterprise billing and usag
 
 In an enterprise, billing access and usage access are assigned separately.
 
-   * Billing access is provided by assigning enterprise users a role on the Billing service. For example, you can assign the Viewer role to an enterprise user so that they can view the amount of available subscription credit in the credit pool, or you can assign the Editor or Administrator role so that they can add new subscriptions or manage payment methods.
-   * Usage access is provided by assigning enterprise users the Usage Reports Viewer, Editor, or Administrator role on the Enterprise service. You can assign this access for the entire enterprise or for specific account groups and accounts.
+   * Billing access is provided by assigning enterprise users a role on the Billing account management service. For example, you can assign the Viewer role to an enterprise user so that they can view the amount of available subscription credit in the credit pool, or you can assign the Editor or Administrator role so that they can add new subscriptions or manage payment methods.
+   * Usage access is provided by assigning enterprise users the Usage Reports Viewer, Editor, or Administrator role on the Enterprise account management service. You can assign this access for the entire enterprise or for specific account groups and accounts.
 
 If you want your billing administrator to be able to view costs by account or account group, be sure to assign them the appropriate access on both the Enterprise service and Billing service.
 {: tip}

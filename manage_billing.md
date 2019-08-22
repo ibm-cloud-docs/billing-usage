@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-08-16"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
@@ -23,6 +23,7 @@ subcollection: billing-usage
 You can use the {{site.data.keyword.cloud}} billing and usage dashboard to make a one-time payment, change your credit card details, view your billing items, and view your invoices.
 {: shortdesc}
 
+To manage payments, you need an access policy with the Operator role or higher on the Billing account management service. See [IAM access](/docs/iam?topic=iam-userroles) for more information.
 
 ## Making a one-time payment
 {: #makepayment}

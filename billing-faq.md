@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-18"
+lastupdated: "2019-08-21"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
@@ -164,13 +164,13 @@ You can view your monthly runtime and service usage by clicking **Manage > Billi
 {: #spending-notify}
 {: faq}
 
-You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifcations when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notificaations, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
+You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifications when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notifications, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Where can I access my invoice?
 {: #access-invoices}
 {: faq}
 
-If you have a Pay-As-You-Go or Suscription account, you can view your invoice by clicking **Manage > Billing and usage**, and selecting **Invoices**. Outside of the console, you can also view invoices on the [Customer Support Invoices site](https://www.ibm.com/invoices){: new_window} ![External link icon](../icons/launch-glyph.svg).
+If you have a Pay-As-You-Go or Subscription account, you can view your invoice by clicking **Manage > Billing and usage**, and selecting **Invoices**. Outside of the console, you can also view invoices on the [Customer Support Invoices site](https://www.ibm.com/invoices){: new_window} ![External link icon](../icons/launch-glyph.svg).
 
 Lite accounts don't have invoices because you're never charged for Lite plan usage.
 
@@ -184,7 +184,7 @@ Your usage might not match your invoice because the months that are used to comp
 {: #discount-price}
 {: faq}
 
-Yes, if your account includes any discounts, the price of the offering that's displayed in your infrastructure order summary does reflect the discounted price of that offering.
+Yes, if your account includes any discounts, the price of the offering that is displayed in your infrastructure order summary does reflect the discounted price of that offering.
 
 ## Why can't I manage my invoices?
 {: #slperm-manage-invoices}
@@ -198,6 +198,6 @@ The SoftLayer permission for managing invoices might not have been migrated corr
 
 Credit might take a few hours to appear in your account.  To see whether a credit was added, go to **Manage > Billing and usage**, and select **Usage**. The credit might be listed in the Active subscriptions and credits section.
 
-If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it's not yet added to your account. Check back later to verify that you received the credit.
+If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it is not yet added to your account. Check back later to verify that you received the credit.
 
 

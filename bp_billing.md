@@ -27,7 +27,7 @@ Follow our best practices to track costs and automate billing in {{site.data.key
 ## Track costs for related resources by adding tags
 {:#track-billing-tags}
 
-Add tags to your resources to organize, track, and manage costs for related resources. When you use a consistent tagging schema to identify which resources are tied to specific projects, you can group and filter by those tags when analyzing costs within your exported usage report.
+Add tags to your resources to organize, track, and manage costs for related resources. When you use a consistent tagging schema to identify which resources are tied to specific projects, you can group and filter by those tags when you analyze costs within your exported usage report.
 
 1. Tag your resources by using a consistent tagging schema, such as creating tags to differentiate cost centers, data centers, projects, or teams. To add tags, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Resource list**. In the Tag column, click **Add tag** for each resource that you want to tag.
 
@@ -38,7 +38,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 
    For more information about adding and using tags, see [Working with tags](/docs/resources?topic=resources-tag).
 
-1. Track costs for the tagged resources by exporting the usage report for your instances. To export the report, go to **Manage > Billing and usage**, and select **Usage**. Then click **Export CSV > Instance**.
+1. Track costs for the tagged resources by exporting the usage report for your instances. To export the report, go to **Manage > Billing and usage**, and select **Usage**. Then, click **Export CSV > Instance**.
 
    Use the Tags column in the instance CSV file to help analyze the resources in your account. You can sort the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. If you tagged your resources with key:value pairs, you'll also see columns in the usage report that correspond with the key. For example, resources tagged `project:abc` and `project:xyz` appear in a Project column as `abc` and `xyz`.
 

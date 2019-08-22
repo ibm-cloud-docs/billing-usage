@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-08-22"
 
 keywords: spending notification, spending alert, cost threshold, spending threshold
 
@@ -25,7 +25,7 @@ If you are an {{site.data.keyword.cloud}} Pay-As-You-Go or Subscription account 
 
 You receive notifications when you reach 80%, 90%, and 100% of the spending thresholds that you specify. You can edit each spending notification at any time as your needs change.
 
-If you have a Lite account, you can upgrade to a Pay-As-You-Go or Subscription account to set spending limits. For more information, see [Account types](/docs/account?topic=account-accounts).
+Lite accounts can't enable spending notifications because they can use only no-cost Lite services, so you never have any spending. After you upgrade to a Pay-As-You-Go or Subscription account, you can set spending thresholds. For more information, see [Account types](/docs/account?topic=account-accounts).
 
 To set up your notifications:
 

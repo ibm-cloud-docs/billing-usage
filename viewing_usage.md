@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-03"
+lastupdated: "2019-08-16"
 
-keywords: view usage, view cost, service usage, usage access, usage report
+keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
 subcollection: billing-usage
 
@@ -20,17 +20,18 @@ subcollection: billing-usage
 # Viewing your usage
 {: #viewingusage}
 
-You can view your usage details, including a summary of estimated charges for all resources, services, and support plans that are used per month in your organizations, from the Usage page in the {{site.data.keyword.Bluemix}} console.
+You can view your {{site.data.keyword.cloud}} usage details, including a summary of estimated charges for all resources, services, and support plans that are used per month in your organizations, from the Usage page in the console.
 {:shortdesc}
 
-Billing managers can see the details for only the organizations in which they are assigned the Billing manager role.
-{: note}
-
-
-## Viewing usage permissions
+## Before you begin
 {: #view-usage-permissions}
 
-For resources that are managed by Cloud Foundry, the Billing manager role must be applied at the org level. To see {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) resource usage, the Viewer role must be applied to the resource group. For more information about permission roles, see [IAM access](/docs/iam?topic=iam-userroles), [Cloud foundry access](/docs/iam?topic=iam-cfaccess), or [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission).
+Ensure that you have the access that's required to view usage data for the resources. Access can be assigned at the account level or to individual resource groups and Cloud Foundry orgs.
+* To view usage for all resources in the account, you need an access policy with the Administrator role on the Billing account management service. 
+* To view usage only for specific {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) resources, you need the Viewer role on the resource group.
+* To view usage only for specific Cloud Foundry services, you need the Billing manager role must be applied at the org level. Billing managers can see the details for only the organizations in which they are assigned the Billing manager role.
+
+For more information about access roles, see [IAM access](/docs/iam?topic=iam-userroles) and [Cloud foundry access](/docs/iam?topic=iam-cfaccess).
 
 ## Viewing service usage details
 {: #services}
@@ -41,18 +42,18 @@ In the services section, you can view a list of your services and the estimated 
 2. Click **View instances** to view all the instances of a specific type of resource.  
 3. To see a detailed summary of estimated charges for each instance of a specific resource type, click **View instance details**. You can also see the detailed monthly usage metrics for the selected instance.
 
-The account owner is charged for the total usage that is incurred across all organizations at the end of each billing cycle. Each billing cycle lasts one month.
+The account is billed for the total usage that is incurred across all groups and organizations at the end of each billing cycle. Each billing cycle lasts one month.
 
-Account owners can filter the usage summary by group and select the time frame for usage. The charges that are shown represent the amount that you, as the account owner, are billed for that month.
+You can filter the usage summary by group and select the time frame for usage. The charges that are shown represent the amount that is billed to the account for that particular month.
 
 If you select a specific organization from the **Filter by group** list, you can see the total usage for that organization, including any usage as part of a free tier. The free tier usage is shown as free at the account level, but not at the organizational level. When you view the organizational usage, you see the real usage for that organization, which includes both free and charged usage. All organizational usage is rolled up to the account usage after the free tier is removed.
 
-The account manager of a Pay-As-You-Go account can set spending notifications against the total cost of the account, for runtime, services, and for individual services, excluding third-party services. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
+The account owner of a billable account can set spending notifications against the total cost of the account, for runtime, services, and for individual services, excluding third-party services. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 
 ## Exporting your usage details to a `.csv` file
 {: #export-csv}
 
-You can export a summary of your usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs.
+You can export a summary of your account's usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details.
 
 1. Go to **Manage > Billing and usage**, and select **Usage**.
 1. Click **Export CSV** and select one of the options:
