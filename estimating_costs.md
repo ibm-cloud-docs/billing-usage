@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-08-16"
+lastupdated: "2019-09-04"
 
-keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost
+keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator
 
 subcollection: billing-usage
 
@@ -23,22 +23,23 @@ subcollection: billing-usage
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} offerings by customizing plans for your needs.
 {:shortdesc}
 
-1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the service that you're interested in.
+1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the offering that you're interested in.
 
-     Depending on the service, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
-1. From the service details page, select your pricing plan and enter other configuration details if needed. Then, click **Add to estimate**.
+     Depending on the offering, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
+1. From the offering details page, select your pricing plan and enter other configuration details if needed. Then, click **Add to estimate**.
 
-   Some services might require that you log in to add them to an estimate.
+   Some offerings might require that you log in to add them to an estimate.
+   {: note}
 1. Enter in your estimated usage, and click **Calculate cost**. You can adjust the estimated usage and recalculate the cost to see how different usage levels affect the overall cost.
 
    By default, the estimator shows the pricing and billing currency for your location. Pricing can vary by region. If you're estimating costs for a different location, select the correct region to view accurate pricing.
 1. Add the calculated cost to your estimate by clicking **Save**.
 
-   If you want to estimate costs for other services, you can return to the catalog and select more services to add to the estimate.
+   If you want to estimate costs for other offerings, you can return to the catalog and select more offerings to add to the estimate.
 
    At any point, you can click the Cost estimator icon ![Estimator icon](../icons/Estimator.svg) in the console menu to get a summary of your estimated costs.
    {: tip}
-1. When you're done adding services to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF of the estimate by clicking **Download PDF**.
+1. When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF of the estimate by clicking **Download PDF**.
 
 ## Creating quotes for classic infrastructure services
 {: #quotes}
