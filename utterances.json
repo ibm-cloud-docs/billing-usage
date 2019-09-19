@@ -166,6 +166,13 @@
       "set spending limit",
       "set usage notification"
     ],
+    "discount-price": [
+      "the discounted price",
+      "price include the discount",
+      "add my discount",
+      "price with the discount added",
+      "including discount"   
+     ],   
     "access-invoices": [
       "Where is my invoice",
       "find my invoice",
@@ -201,5 +208,15 @@
      "find credit",
      "see credit from upgrade",
      "check for my credit"
-    ]
+    ],
+    "cannot-apply-feature-code": [
+      "can not apply my feature code",
+      "promo code does not work",
+      "subscription code issue",
+      "code cannot be applied",
+      "unable to apply code",
+      "unable to use promo code",
+      "can't use feature code",
+      "cant apply promo code"
+    ]   
 }
