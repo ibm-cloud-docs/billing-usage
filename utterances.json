@@ -218,5 +218,12 @@
       "unable to use promo code",
       "can't use feature code",
       "cant apply promo code"
-    ]   
+    ],
+    "ts_ccibm": [
+      "Your payments are managed through IBM.com",
+      "can't add credit card",
+      "no option to add a credit card",
+      "credit card option not available",
+      "option to add credit card unavailable"    
+    ]
 }
