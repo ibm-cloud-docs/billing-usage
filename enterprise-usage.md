@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-21"
+lastupdated: "2019-09-04"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -44,7 +44,9 @@ For detailed steps about assigning enterprise access, see [Assigning enterprise 
 1. Log in to the enterprise account.
 1. Go to **Manage > Billing and usage**, and select **Usage**.
 
-   The Usage page displays the costs for all resource usage in your enterprise, broken down by account and account group. You can also view support credit usage for the entire enterprise and any overage that was incurred.
+   The Usage page displays the costs for all resource usage in the entire enterprise during the current month. Usage is organized according to your enterprise hierarchy, so costs are broken down by the accounts and account groups that are directly under the enterprise. 
+   
+   In the Support section, you can view the total support costs for all accounts within your enterprise. The starting credit reflects the monthly amount in your support subscription. If the support usage for the month was more than this amount, it's displayed as overage.
 
    Usage information for classic infrastructure services is not included for the current billing period. However, it is included for previous billing periods, which you can view by selecting an earlier month from the **Time frame** menu. For more information, see [Viewing usage for your classic infrastructure resources](/docs/billing-usage?topic=billing-usage-infra-usage).
 1. To view usage within an account group, click the account group name in the table or in the **Enterprise level** menu. Similar to the enterprise level, usage is broken down by the account and account group.

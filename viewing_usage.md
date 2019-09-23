@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-08-16"
+lastupdated: "2019-08-30"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -20,7 +20,7 @@ subcollection: billing-usage
 # Viewing your usage
 {: #viewingusage}
 
-You can view your {{site.data.keyword.cloud}} usage details, including a summary of estimated charges for all resources, services, and support plans that are used per month in your organizations, from the Usage page in the console.
+You can view your {{site.data.keyword.cloud}} usage details, including a summary of estimated charges for all services and resources that are used per month in your organizations, from the Usage page in the console.
 {:shortdesc}
 
 ## Before you begin
@@ -36,7 +36,7 @@ For more information about access roles, see [IAM access](/docs/iam?topic=iam-us
 ## Viewing service usage details
 {: #services}
 
-In the services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps:
+In the Services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps:
 
 1. Go to **Manage > Billing and usage**, and select **Usage**.
 2. Click **View instances** to view all the instances of a specific type of resource.  
