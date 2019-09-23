@@ -25,6 +25,8 @@ Managing billing and usage
         viewing_usage.md
         infra_usage.md
         enterprise-usage.md
+
+    support.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
