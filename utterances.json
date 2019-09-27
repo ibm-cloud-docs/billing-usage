@@ -221,7 +221,7 @@
     ],
     "ts_ccibm": [
       "Your payments are managed through IBM.com",
-      "can't add credit card",
+      "can't add credit card as option not available",
       "no option to add a credit card",
       "credit card option not available",
       "option to add credit card unavailable"    
