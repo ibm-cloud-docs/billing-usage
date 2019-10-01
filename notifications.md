@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-08-22"
+lastupdated: "2019-10-01"
 
 keywords: spending notification, spending alert, cost threshold, spending threshold
 
@@ -31,12 +31,12 @@ To set up your notifications:
 
 1. From the console, go to **Manage > Billing and usage**, and select **Spending notifications**.
 2. Set the dollar amount for each area you would like to receive a notification.
-3. Make sure to check the box in the email column for that specific area.
+3. Make sure to select the checkbox in the email column for that specific area.
 
 You can also set email spending notifications for specific services.
 
 1. From the console, go to **Manage > Billing and usage**, and select **Spending notifications**.
-2. Expand the `Add a service` menu, select a service, and set the dollar amount for each area you would like to receive a notification.
+2. Expand the **Add a service** menu, select a service, and set the dollar amount for each area you would like to receive a notification.
 3. When you are finished, click **Save** to save your changes.
 
 Spending for third-party services is not included in the notifications.
