@@ -209,15 +209,13 @@
      "see credit from upgrade",
      "check for my credit"
     ],
-    "cannot-apply-feature-code": [
-      "can not apply my feature code",
-      "promo code does not work",
+    "cannot-apply-subscription-code": [
+      "can not apply my subscription code",
+      "subscription code does not work",
       "subscription code issue",
       "code cannot be applied",
-      "unable to apply code",
-      "unable to use promo code",
-      "can't use feature code",
-      "cant apply promo code"
+      "unable to use subscription code",
+      "cant apply subscription code"
     ],
     "ts_ccibm": [
       "Your payments are managed through IBM.com",

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-19"
+lastupdated: "2019-09-25"
 
 keywords: troubleshoot billing, billing error, payment error, feature code, subscription , cant add credit card
 
@@ -49,20 +49,19 @@ Check your access by completing the following steps:
 
 For more information about account management services, see [Assigning access to account management services](/docs/iam?topic=iam-account-services).
 
-## Why can't I apply a subscription or feature code?
-{: #cannot-apply-feature-code}
+## Why can't I apply a subscription code?
+{: #cannot-apply-subscription-code}
 {: troubleshoot}
 
-When you try to apply a subscription or feature code, you see an error that states that the code cannot be applied.
+When you try to apply a subscription code, you see an error that states that the code cannot be applied.
 {: tsSymptoms}
 
-Your account doesn't meet the requirements for the feature code, or you don't have the required access in the account.
+You might see this error if you don't have the required access in the account or the code expired.
 {: tsCauses}
 
-- Verify that you have the correct account type. For example, some feature codes for educational promotions are only for Lite accounts. To view your account type, go to **Manage > Account**, and select **Account settings**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
 - Verify that you have access to apply the code. To apply any code, you must have an Editor role or higher on all account management services. To view or change roles, see [Assigning access to account management services](/docs/iam?topic=iam-account-services).
+- Contact the person who provided the code for help with reissuing an expired code.
 {: tsResolve}
-
 
 ## How do I add a credit card when the option is unavailable through the console?
 {: #ts_ccibm}
