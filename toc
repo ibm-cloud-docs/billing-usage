@@ -15,6 +15,7 @@ Managing billing and usage
     Managing your costs
         estimating_costs.md
         how_charged.md
+        promo_codes.md
         notifications.md
 
     manage_billing.md
