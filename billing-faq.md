@@ -38,13 +38,31 @@ Protecting your identity is a priority for us, so we take credit card verificati
 
 Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Do not include any credit card information.
 
-## How do I apply a promotional feature code?
+## What's the difference between promo codes and feature codes?
+{: #promo-feature-codes}
+{: faq}
+
+Promo codes are for Pay-As-You-Go and Subscription accounts and give you limited-time credits toward your account and services. The codes are typically short phrases, like `PROMO200`. For more information about promo codes, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
+
+Feature codes provide enhancements for Lite accounts, such as an unlimited number of organizations or converting a Lite account to a trial account. They're typically random alphanumeric codes, like `a1b2c3def456`. For more information about feature codes, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes).
+
+## Where can I get a promo code?
+{: #get-promo-code}
+{:faq}
+
+Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales on a limited basis. Promotions are meant for select groups and are typically given out at hackathons, conferences, and other events. 
+
+## How do I apply a promo code?
+{: #how-apply-promo}
+{: faq}
+
+To apply your promo code, go to the [Promotions](https://{DomainName}/billing/promotions) page in the console, enter your promo code, and click **Apply**. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
+
+## How do I apply a feature code?
 {: #entercode}
 {: faq}
 
-Feature codes add extra capabilities to Lite accounts and are typically provided for educational initiatives or special events. You might also see these codes referred to as promo codes. To redeem your code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**.
-
-For infrastructure purchases, you might receive a promo code from the Sales team to get a discount on your order. Enter these infrastructure-specific promo codes in the customer portal at checkout.
+Feature codes add extra capabilities to Lite accounts and are typically provided for educational initiatives or special events. To redeem your code, go to the [Account settings](https://{DomainName}/account/settings) page in the console, and click **Apply code**.
 
 ## How do I cancel my account?
 {: #cancelmyaccount}
