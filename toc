@@ -18,16 +18,15 @@ Managing billing and usage
         promo_codes.md
         notifications.md
 
-    manage_billing.md
-    subscriptions.md
-
     {: .topicgroup}
-    Managing your usage
+    Viewing your usage
         viewing_usage.md
         infra_usage.md
         enterprise-usage.md
-
+    
     support.md
+    manage_billing.md
+    subscriptions.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
