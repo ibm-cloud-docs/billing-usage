@@ -32,7 +32,7 @@ Promo codes are typically based on short phrases, like `PROMO200`. If you have a
 
 You can apply promo codes to Pay-As-You-Go and Subscription accounts. Any user in the account has access to view and apply promo codes. You can have any number of promo codes that are applied to your account and services at a time. You can use each promo code only once, and you can't remove them after you apply them.  
 
-Promo codes can't be applied to enterprise accounts.
+Promo codes can't be applied to hierarchial modal accounts or IBM Cloud Enterprises.
 {: note}
 
 Complete the following steps to apply promo codes to your account and services:  
