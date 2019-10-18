@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-08"
+lastupdated: "2019-10-18"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
