@@ -1,4 +1,21 @@
 {
+    "gb-hour": [
+      "gb-hour",
+      "gigabyte hour",
+      "runtime usage charges",
+      "container usage charges"
+    ],
+    "monthlyquota": [
+      "is there a quota for a lite plan",
+      "do I get charged for a lite plan",
+      "does a lite plan get suspended",
+      "quota is met on a lite plan",
+      "lite plan quotas per month",
+      "lite account quotas per instance",
+      "lite quotas reset per month",
+      "lite plan monthly quotas",
+      "quotas for lite plan instances"
+    ],  
     "updatecard": [
       "change credit card info",
       "edit my credit card",
@@ -17,18 +34,139 @@
       "credit card failed",
       "credit card won't process"
     ],
-    "entercode": [
-      "feature code",
+    "promo-feature-code": [
       "feature codes the same as promo codes",
       "feature codes different than promotional codes",
       "redeeming feature codes versus promo codes",
+      "promo code",
+      "feature code"
+    ],
+    "how-apply-promo": [
       "enter promo code",
       "enter promocode",
       "use promo code",
       "promotion code",
       "want to apply a promo code",
       "where to apply promocode",
-      "Where do I put in a promotion code"  
+      "Where do I put in a promotion code"
+    ],
+    "entercode": [
+      "feature code",
+      "enter feature code",
+      "enter promotional feature code",
+      "trial account",
+      "convert Lite account",
+      "Lite promo code"
+    ],
+    "subs-minimum": [
+      "monthly minimum amount required for Subscription account",
+      "minimum on Subscription accounts",
+      "subscription account monthly minimum",
+      "minimum requirement for my account",
+      "minimum amount for subscription",
+      "lowest amount required on this account",
+      "subscription discount",
+      "qualify for discount"
+    ],
+    "subscriptioncode": [
+      "subscription credit",
+      "subscription feature code",
+      "Looking for subscription credit",
+      "apply subscription credit"
+    ],
+    "subs-pay-schedule": [
+      "pay the total spending commitment up-front or quarterly",
+      "pay up-front or quarterly",
+      "switch pay frequency",
+      "change to paying up-front or quarterly",
+      "adjust how often I pay my bill"
+    ],
+    "subs-spending": [
+      "spend more or less than my monthly commitment",
+      "spend an amount different than my monthly agreement",
+      "Can I spend greater than or less than my commitment?",
+      "pay more or less than usual"
+    ],
+    "subs-spend-before-term-end": [
+      "reach my subscription limit before the term ends",
+      "reached my spending commitment",
+      "get to my spending commitment before end of term",
+      "achieve the spending commitment",
+      "subscription overage",
+      "exceed total subscription",
+      "overage charges subscription",
+      "went over subscription amount"
+    ],
+    "subs-cancel-early": [
+      "cancel my Subscription account before the end of my term commitment",
+      "subscription term commitment",
+      "cancel my account before it expires",
+      "cancel subscription account before term ends",
+      "cancel account before expiration",
+      "end my term commitment early",
+      "finish my term early",
+      "end subscription account early"
+    ],
+    "monitor-spending": [
+      "view monthly runtime usage",
+      "view monthly service usage",
+      "view usage",
+      "how much have i spent",
+      "monitor my spending"
+    ],
+    "spending-notify": [
+      "spending notifications",
+      "get spending alert",
+      "set spending limit",
+      "set usage notification"
+    ], 
+    "access-invoices": [
+      "Where is my invoice",
+      "find my invoice",
+      "invoice location",
+      "access statement on my account",
+      "see my bill",
+      "view amount spent",
+      "access statement"
+    ],
+    "usage-not-match-invoice": [
+      "usage different on my invoice",
+      "invoice isn't matching my usage",
+      "usage is not reflected correctly on my invoice",
+      "usage different than invoice",
+      "my statement does not match my usage",
+      "invoice not matching usage",
+      "usage not as same as invoice",
+      "invoice not correct with my usage"
+    ],
+    "slperm-manage-invoices": [
+      "view softlayer invoice",
+      "infrastructure invoice",
+      "can't view invoice in portal",
+      "softlayer invoice permission",
+      "you don't have access to view invoice"
+    ],
+    "discount-price": [
+      "the discounted price",
+      "price include the discount",
+      "add my discount",
+      "price with the discount added",
+      "including discount"   
+     ],  
+    "receive-credit": [
+     "didn't receive any credit",
+     "where can I see my $200 credit",
+     "find credit",
+     "see credit from upgrade",
+     "check for my credit"
+    ],
+    "contactsupport": [
+      "How do I contact support",
+      "Where is support",
+      "Contact support",
+      "I want to contact IBM support",
+      "talk to tech support",
+      "connect me with support"
     ],
     "cancelmyaccount": [
       "cancel my account",
@@ -53,145 +191,6 @@
       "close this account",
       "account deletion"
     ],
-    "contactsupport": [
-      "How do I contact support",
-      "Where is support",
-      "Contact support",
-      "I want to contact IBM support",
-      "talk to tech support",
-      "connect me with support"
-    ],
-    "gb-hour": [
-      "gb-hour",
-      "gigabyte hour",
-      "runtime usage charges",
-      "container usage charges"
-    ],
-    "howmanyapps": [
-      "number of apps I can build",
-      "apps can I make",
-      "apps allowed to build",
-      "Is there a limit on apps",
-      "How many applications can I have in my account",
-      "How many apps am I allowed to have",
-      "limit on apps"
-    ],
-    "monthlyquota": [
-      "is there a quota for a lite plan",
-      "do I get charged for a lite plan",
-      "does a lite plan get suspended",
-      "quota is met on a lite plan",
-      "lite plan quotas per month",
-      "lite account quotas per instance",
-      "lite quotas reset per month",
-      "lite plan monthly quotas",
-      "quotas for lite plan instances"
-    ],
-    "subs-order": [
-      "order with subscription account",
-      "order with my subscription",
-      "subscription ordering",
-      "ordering with a subscription account"
-    ],
-    "subs-discount": [
-      "get a discount on a Subscription account",
-      "qualify for discount",
-      "Is there a discount for a Subscription account",
-      "can't get a discount for my account",
-      "subscription discounts"
-    ],
-    "subs-minimum": [
-      "monthly minimum amount required for Subscription account",
-      "minimum on Subscription accounts",
-      "subscription account monthly minimum",
-      "minimum requirement for my account",
-      "minimum amount for subscription",
-      "lowest amount required on this account"
-    ],
-    "subscriptioncode": [
-      "subscription credit",
-      "subscription feature code",
-      "Looking for subscription credit",
-      "apply subscription credit"
-    ],
-    "subs-overage": [
-      "getting charged if I go over my total amount",
-      "exceed the total amount",
-      "What am I charged if I go over",
-      "went over limit on my Subscription",
-      "amount charged if I go over the total amount",
-      "total charged if over amount",
-      "charge for exceeding the limit"
-    ],
-    "subs-pay-schedule": [
-      "pay the total spending commitment up-front or quarterly",
-      "pay up-front or quarterly",
-      "switch pay frequency",
-      "change to paying up-front or quarterly",
-      "adjust how often I pay my bill"
-    ],
-    "subs-spending": [
-      "spend more or less than my monthly commitment",
-      "spend an amount different than my monthly agreement",
-      "Can I spend greater than or less than my commitment?",
-      "pay more or less than usual"
-    ],
-    "subs-cancel-early": [
-      "cancel my Subscription account before the end of my term commitment",
-      "subscription term commitment",
-      "cancel my account before it expires",
-      "cancel subscription account before term ends",
-      "cancel account before expiration",
-      "end my term commitment early",
-      "finish my term early",
-      "end subscription account early"
-    ],
-    "subs-spend-before-term-end": [
-      "reach my limit before the term ends",
-      "reached my spending commitment",
-      "get to my spending commitment before end of term",
-      "got to spending limit",
-      "achieve the spending commitment"
-    ],
-    "monitor-spending": [
-      "view monthly runtime usage",
-      "view monthly service usage",
-      "view usage",
-      "how much have i spent",
-      "monitor my spending"
-    ],
-    "spending-notify": [
-      "spending notifications",
-      "get spending alert",
-      "set spending limit",
-      "set usage notification"
-    ],
-    "discount-price": [
-      "the discounted price",
-      "price include the discount",
-      "add my discount",
-      "price with the discount added",
-      "including discount"   
-     ],   
-    "access-invoices": [
-      "Where is my invoice",
-      "find my invoice",
-      "invoice location",
-      "access statement on my account",
-      "see my bill",
-      "view amount spent",
-      "access statement"
-    ],
-    "usage-not-match-invoice": [
-      "usage different on my invoice",
-      "invoice isn't matching my usage",
-      "usage is not reflected correctly on my invoice",
-      "usage different than invoice",
-      "my statement does not match my usage",
-      "invoice not matching usage",
-      "usage not as same as invoice",
-      "invoice not correct with my usage"
-    ],
     "cannot-access-billing-info": [
       "cannot see billing info",
       "can't access my billing information",
@@ -201,13 +200,6 @@
       "I get a message when trying to view my billing info",
       "unable to access usage statement",
       "where is my billing info"
-    ],
-    "receive-credit": [
-     "didn't receive any credit",
-     "where can I see my $200 credit",
-     "find credit",
-     "see credit from upgrade",
-     "check for my credit"
     ],
     "cannot-apply-subscription-code": [
       "can not apply my subscription code",
@@ -219,9 +211,18 @@
     ],
     "ts_ccibm": [
       "Your payments are managed through IBM.com",
-      "can't add credit card as option not available",
+      "can't add credit card option not available",
       "no option to add a credit card",
       "credit card option not available",
       "option to add credit card unavailable"    
+    ],
+    "ts_cant-view-invoice": [
+      "Your invoices are managed through IBM.com",
+      "can't view invoice option not available",
+      "no option to view my invoices",
+      "invoice option not available",
+      "option to view invoices unavailable",
+      "can't find invoice",
+      "can't view my invoice"
     ]
 }
