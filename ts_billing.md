@@ -13,7 +13,7 @@ subcollection: billing-usage
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:external: target="_blank"}
+{:external: target="_blank" .external}
 {:tsSymptoms: .tsSymptoms}
 {:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
