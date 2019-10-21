@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-25"
+lastupdated: "2019-10-17"
 
 keywords: troubleshoot billing, billing error, payment error, feature code, subscription , cant add credit card
 
@@ -13,7 +13,7 @@ subcollection: billing-usage
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank"}
 {:tsSymptoms: .tsSymptoms}
 {:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
@@ -63,7 +63,7 @@ You might see this error if you don't have the required access in the account or
 - Contact the person who provided the code for help with reissuing an expired code.
 {: tsResolve}
 
-## How do I add a credit card when the option is unavailable through the console?
+## How do I add a credit card when the option isn't available through the console?
 {: #ts_ccibm}
 {: troubleshoot}
 
@@ -82,10 +82,38 @@ Credit card transactions are securely processed through the {{site.data.keyword.
 To provide your credit card information for payment, complete the following steps:
 {: tsResolve}
 
-  1. Go to [ibm.com ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www.ibm.com){: new_window} and log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
+  1. Go to [ibm.com](http://www.ibm.com){: external} and log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
   1. Click the **{{site.data.keyword.avatar}}** icon ![Avatar icon](../icons/i-avatar-icon.svg), and select **Billing**.
   1. Click **Manage payment method**.
   1. Enter your credit card information, and click **Register**.
 
 The information is verified and added to your {{site.data.keyword.Bluemix_notm}} account as your payment method for any charges.
+
+## Why can't I view the invoices for my Pay-As-You-Go or Subscription account in the console?
+{: #ts_cant-view-invoice}
+{: troubleshoot}
+
+As a Pay-As-You-Go or Subscription account owner, you might not be able to view your invoices from the Invoices page in the {{site.data.keyword.Bluemix_notm}} console.
+
+When you try to view your invoices, one of the following messages is displayed: 
+{: tsSymptoms}
+
+`Your invoices are managed through IBM.com.`
+
+`This account is invoiced on a separate billing platform.`
+
+If you have a Pay-As-You-Go account that is billed in a currency other than US dollars or a Subscription account, you view your invoices on the [IBM Invoices](http://ibm.com/invoices){: external} website, which is linked from the Invoices page in the console.
+{: tsCauses}
+
+If you're visiting the Invoices website for the first time, sign up with your IBMid and complete your profile. Then, add access to your account with your IBM customer number.
+{: tsResolve}
+
+1. Go to [IBM Invoices](http://ibm.com/invoices){: external}, and select your region.
+1. Log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}. 
+1. Complete your profile on the Invoices website. 
+1. From the Invoices website, go to the **Accesses** tab. Add access to your account and provide your IBM customer number. If you don't know your customer number, contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help.
+
+
+To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external invoices website to go to it directly. For more information, see [How to use IBM Invoices for IBM Cloud billing and payment](https://www.ibm.com/support/docview.wss?uid=ibm10967367){: external}.
+{: tip}
 
