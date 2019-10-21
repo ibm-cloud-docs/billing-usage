@@ -1,10 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="billing-usage" category="platform_services" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-charges" path="billing-usage"}
+{: .toc subcollection="billing-usage" category="platform_services" audience="platform" arm="3661777" href="/docs/billing-usage?topic=billing-usage-overview" path="billing-usage"}
 Managing billing and usage
 
     {: .navgroup id="learn"}
+    billing-overview.md
     scenario.md
     bp_billing.md
     enterprise.md
