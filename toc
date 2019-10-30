@@ -26,7 +26,12 @@ Managing billing and usage
         enterprise-usage.md
     
     support.md
-    manage_billing.md
+    
+    {: .topicgroup}
+    Managing your invoices and payments
+        invoices.md
+        manage_billing.md
+
     subscriptions.md
     {: .navgroup-end}
 
