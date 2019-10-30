@@ -116,4 +116,3 @@ If you're visiting the Invoices website for the first time, sign up with your IB
 
 
 To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external invoices website to go to it directly. For more information, see [Managing your invoices](/docs/billing-usage?topic=billing-usage-viewing-invoices).
-{: tip}
