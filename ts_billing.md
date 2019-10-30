@@ -17,6 +17,7 @@ subcollection: billing-usage
 {:tsSymptoms: .tsSymptoms}
 {:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
+{:tip: .tip}
 {:troubleshoot: data-hd-content-type='troubleshoot'}
 
 
