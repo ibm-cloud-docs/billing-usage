@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-10-28"
+lastupdated: "2019-10-30"
 
 keywords: troubleshoot billing, billing error, payment error, feature code, subscription , cant add credit card
 
@@ -111,9 +111,8 @@ If you're visiting the Invoices website for the first time, sign up with your IB
 1. Go to [IBM Invoices](http://ibm.com/invoices){: external}, and select your region.
 1. Log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}. 
 1. Complete your profile on the Invoices website. 
-1. From the Invoices website, go to the **Accesses** tab. Add access to your account and provide your IBM customer number. If you don't know your customer number, contact the Revenue Support Enablement Team by phone at 1-(866)-325-0045. 
+1. From the Invoices website, go to the **Accesses** tab. Add access to your account and provide your IBM customer number. If you don't know your customer number, contact IBM Support through [live chat](https://{DomainName}/unifiedsupport/supportcenter) or by calling 1-866-325-0045 and selecting the third option. 
 
 
-To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external invoices website to go to it directly. For more information, see [How to use IBM Invoices for IBM Cloud billing and payment](https://www.ibm.com/support/docview.wss?uid=ibm10967367){: external}.
+To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external invoices website to go to it directly. For more information, see [Managing your invoices](/docs/billing-usage?topic=billing-usage-viewing-invoices).
 {: tip}
-
