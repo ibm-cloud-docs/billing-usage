@@ -14,10 +14,10 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:external: target="_blank" .external}
+{:tip: .tip}
 {:tsSymptoms: .tsSymptoms}
 {:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
-{:tip: .tip}
 {:troubleshoot: data-hd-content-type='troubleshoot'}
 
 
