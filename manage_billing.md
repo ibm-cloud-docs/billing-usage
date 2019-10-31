@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-08-16"
+lastupdated: "2019-10-31"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill
 
@@ -28,7 +28,7 @@ To manage payments, you need an access policy with the Operator role or higher o
 ## Making a one-time payment
 {: #makepayment}
 
-You can make a one-time payment at any time, for any amount, whether it is for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't filled out with a defaulted sum.  
+You can make a one-time payment at any time, for any amount, whether it is for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't filled out with a defaulted amount. Payment methods for one-time payments include credit card and PayPal. 
 
 To make a one-time payment, go to **Manage > Billing and usage**, and select **Payments**. Complete the fields in the make a one-time payment section. The account balance is updated after the payment is accepted.
 
