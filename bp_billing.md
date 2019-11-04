@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-10-29"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -23,6 +23,14 @@ subcollection: billing-usage
 Follow our best practices to track costs and automate billing in {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
+## Choose an account type that fits your usage
+{: #choose-account-types}
+
+{{site.data.keyword.cloud_notm}} has two billable account types, Pay-As-You-Go and Subscription accounts. Being billable means that if you have these account types, you can use {{site.data.keyword.cloud_notm}} resources and services that cost money. The account type that you choose impacts how you're billed for your resource usage.
+* With Pay-As-You-Go accounts, you're billed monthly for your resource usage. You pay only for what you use, with no long-term contracts. As your resource usage fluctuates, so does your invoice, similar to a utility bill. This account type is a good fit for developers or companies that want to explore the entire {{site.data.keyword.cloud_notm}} catalog but have smaller or variable workloads.
+* With Subscription accounts, you buy a subscription for an amount of credit to spend on resource usage within a certain time period. In exchange for this spending commitment, you get a discount on your usage costs. For example, you might buy a subscription for $12,000 a year that comes with a 10% discount. No matter when you incur usage costs within the year, you get fixed billing for the subscription amount, such as $1,000 a month. This account type is ideal for enterprise organizations with large cloud workloads that want the predictability of fixed billing for their financial planning. For more information about how subscriptions work, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+Each of these account types includes more benefits for your production workloads on {{site.data.keyword.cloud_notm}}, including access to the entire catalog, extra free runtime memory, and support plans. For more information, see [Account types](/docs/account?topic=account-accounts).
 
 ## Track costs for related resources by adding tags
 {:#track-billing-tags}
