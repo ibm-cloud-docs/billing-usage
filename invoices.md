@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-21"
+lastupdated: "2019-11-14"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website 
 
@@ -17,7 +17,7 @@ subcollection: billing-usage
 {:new_window: target="_blank"}
 
 # Managing your invoices 
-{: #viewing-invoices}
+{: #managing-invoices}
 
 To manage and view your invoices, you can use the {{site.data.keyword.cloud}} billing and usage dashboard. If your account is billed through a separate billing platform, you can use IBM Invoices.
 
