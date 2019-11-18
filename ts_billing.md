@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-11-18"
 
-keywords: troubleshoot billing, billing error, payment error, feature code, subscription , cant add credit card
+keywords: troubleshoot billing, billing error, payment error, feature code, subscription , cant add credit card, invoices, view invoice
 
 subcollection: billing-usage
 
