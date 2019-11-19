@@ -154,6 +154,18 @@ Your usage might not match your invoice because the months that are used to comp
 
 The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/iam?topic=iam-migrated_permissions).
 
+## How do I request paperless invoicing? 
+{: #paperless-invoices}
+{: faq}
+
+To switch to paperless invoicing, you must submit a request to {{site.data.keyword.IBM_notm}} in writing through the {{site.data.keyword.IBM_notm}} Customer Support site. Paperless invoicing isn't available in all regions. 
+
+1. Go to [{{site.data.keyword.IBM_notm}} Customer Support ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html){: new_window}, and select your region. 
+2. Click **Contact us**. 
+3. Click **Email us** in the Invoice, payment section.
+4. Provide your {{site.data.keyword.IBM_notm}} customer number in your request to change to paperless billing. Click **Save**. If you don't know your customer number, contact {{site.data.keyword.Bluemix_notm}} Support by calling 1-866-325-0045 and selecting the third option or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help. 
+5. Click **My Requests** to track the status your request.
+
 ## Does the price of the offering that I'm ordering reflect the discounted price?
 {: #discount-price}
 {: faq}
