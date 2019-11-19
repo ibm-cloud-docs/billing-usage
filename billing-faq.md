@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-10-17"
+lastupdated: "2019-11-19"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
 
@@ -193,3 +193,9 @@ If you do decide to leave, how you cancel your account depends on your account t
 Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} to open a support case and request to delete your account. If you have data that is associated with your old account that you want to move to a new account, include this information in your email.
 
 Data in deleted accounts is not recoverable.
+
+## Where can I view the billing address for my account? 
+{: #billing-address}
+{: faq}
+
+You can view the primary contact and address that is associated with an account by going to **Manage** > **Account**, and selecting **Company profile**. 
