@@ -44,9 +44,12 @@ When you reach any quota limit for Lite plan instances, the service for that mon
 {: faq}
 {: support}
 
-Updating your credit card is just like adding a new one. Go to the [Payments](https://{DomainName}/billing/payments) page in the {{site.data.keyword.cloud_notm}} console, and in the Add Payment Method section, enter the billing information for your new card, then click **Add credit card**.
+Updating your credit card is just like adding a new one. Go to the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console. In the Add Payment Method section, enter the billing information for your new card, and click **Add credit card**.
 
-To switch to a different payment method, select **Pay with Other** and then click **Submit change request**. A support case to change your payment method will be created for you.
+To switch to a different payment method, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you. 
+
+Some payment methods, such as PayPal, aren't accepted as recurring payment methods. You must manually submit the payment each month.
+{: note}
 
 ## Why won't my credit card go through?
 {: #addcard}
