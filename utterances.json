@@ -23,7 +23,10 @@
       "change my credit card",
       "edit my payment options",
       "change my payment options",
-      "update payment details"
+      "update payment details",
+      "can I use paypal",
+      "pay with paypal",
+      "pay using Paypal"
     ],
     "addcard": [
       "credit card not going through",
