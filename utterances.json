@@ -156,6 +156,16 @@
       "softlayer invoice permission",
       "you don't have access to view invoice"
     ],
+    "paperless-invoices": [
+      "paperless invoices",
+      "email my invoice",
+      "electronic billing",
+      "receive a paperless bill",
+      "paperless invoicing",
+      "electronic invoices",
+      "not want paper bills",   
+      "not send a paper invoice"
+    ],
     "discount-price": [
       "the discounted price",
       "price include the discount",
