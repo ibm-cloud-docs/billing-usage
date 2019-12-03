@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-11-14"
+lastupdated: "2019-12-03"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website 
 
@@ -39,3 +39,14 @@ If you're visiting the Invoices website for the first time you can sign up with 
 1. From the Invoices website, go to the **Accesses** tab. Add access to your account and provide your IBM customer number. If you don't know your customer number, contact IBM Cloud Support by calling 1-866-325-0045 and selecting the third option or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help. 
 
 To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external invoices website to go to it directly.
+
+## Requesting paperless invoices
+{: #request-paperless-invoices}
+
+To switch to paperless invoicing, you must submit a request to {{site.data.keyword.IBM_notm}} in writing through the {{site.data.keyword.IBM_notm}} Customer Support site. Paperless invoicing isn't available in all regions. 
+
+1. Go to [{{site.data.keyword.IBM_notm}} Customer Support ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html){: new_window}, and select your region. 
+2. Click **Contact us**. 
+3. Click **Email us** in the Invoice, payment section.
+4. Provide your {{site.data.keyword.IBM_notm}} customer number in your request to change to paperless billing. Click **Save**. If you don't know your customer number, contact {{site.data.keyword.Bluemix_notm}} Support by calling 1-866-325-0045 and selecting the third option or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help. 
+5. Click **My Requests** to track the status your request.
