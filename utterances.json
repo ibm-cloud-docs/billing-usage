@@ -35,6 +35,9 @@
       "not processing my credit card",
       "verification of credit card not working",
       "credit card failed",
+      "account upgrade is declined due to risk management",
+      "card declined due to risk management",
+      "risk management error",
       "credit card won't process"
     ],
     "promo-feature-codes": [
