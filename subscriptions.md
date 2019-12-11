@@ -82,12 +82,6 @@ After {{site.data.keyword.Bluemix_notm}} Sales places the order, an email with t
 
 Only the account owner or a user with the Editor or Administrator role on the Billing account management service can apply the subscription code. If you don't have access to apply subscription codes, the account owner or administrator can provide access. See [Assigning access to account management services](/docs/iam?topic=iam-account-services) for more information.
 
-1. Open the email with the subscription code. If you bought a subscription and didn't receive your subscription code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us){: new_window} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
-2. Click **Add subscription**. 
-3. Sign in to the IBM Cloud console with your IBMid and password. 
-4. From the modal, choose the account you'd like to add the subscription to, select **I understand**, and then click **Add**. 
-
-To manually apply the subscription code, complete the following steps:
 1. From the {{site.data.keyword.Bluemix_notm}} console, go to **Manage > Account**, and select **Account settings**.
 1. Click **Apply code**.
 
