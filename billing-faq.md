@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-12-03"
+lastupdated: "2019-12-16"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing 
 
 subcollection: billing-usage
 
@@ -161,7 +161,7 @@ The SoftLayer permission for managing invoices might not have been migrated corr
 {: #paperless-invoices}
 {: faq}
 
-Yes, you can switch to paperless invoices by submitting a request on the IBM Customer Support site. For more information, see [Requesting paperless invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#request-paperless-invoices).
+Yes, you can switch to paperless invoices by submitting a request on the [IBM Customer Support](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html) site. For more information, see [Requesting paperless invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#request-paperless-invoices).
 
 ## Does the price of the offering that I'm ordering reflect the discounted price?
 {: #discount-price}
