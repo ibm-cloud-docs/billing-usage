@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-08-08"
+  years: 2019, 2020
+lastupdated: "2020-01-09"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -96,7 +96,7 @@ In an enterprise, subscriptions are managed from the enterprise account the same
 
 Enterprises provide top-down usage reporting so that you can track the costs of resource usage from all accounts in the enterprise. Starting at the enterprise level, you can navigate within the enterprise structure to see the estimated usage costs within each account or account group. At the account level, enterprise users can view costs for each type of resource or service in the account.
 
-Enterprise administrators can provide granular access to users so that they can view usage only for certain account groups or accounts. For example, say your enterprise has account groups for each department, and each department has account groups for each team.
+Enterprise administrators can provide granular access to users so that they can view usage only for certain account groups or accounts. For example, say that your enterprise has account groups for each department, and each department has account groups for each team.
    * You give your financial officer access to view the entire enterprise so that they can track and recover costs for each department.
    * You give each department lead access to view usage for everything in their department's account group.
    * You give each team lead access to view only the accounts in their team's account group.
@@ -108,7 +108,7 @@ You can view usage from the Usage page in the console, from the CLI, or from the
 ## Invoicing and payments
 {: #enterprise-invoicing}
 
-Usage in the enterprise is invoiced through the enterprise account.  As with all billable accounts, usage is invoiced on a monthly basis, and the invoice is due on the billing date for your account. During each billing cycle, a single invoice with the usage costs from all accounts is made available in the enterprise account. The invoice contains costs for all platform and infrastructure usage as a single line item in your invoice. If all of the credit in the credit pool is used, the invoice contains a line item for any overage charges.
+Usage in the enterprise is invoiced through the enterprise account. As with all billable accounts, usage is invoiced on a monthly basis, and the invoice is due on the billing date for your account. During each billing cycle, a single invoice with the usage costs from all accounts is made available in the enterprise account. The invoice contains costs for all platform and infrastructure usage as a single line item in your invoice. If all of the credit in the credit pool is used, the invoice contains a line item for any overage charges.
 
 Because all usage is invoiced through the enterprise account, child accounts within the enterprise don't receive separate invoices.
 
