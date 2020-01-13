@@ -2,10 +2,9 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-01-09"
+lastupdated: "2020-01-13"
 
-keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice
-
+keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice, billing item
 subcollection: billing-usage
 
 ---
