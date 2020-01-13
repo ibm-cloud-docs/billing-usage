@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-10-31"
+  years: 2015, 2020
+lastupdated: "2020-01-13"
 
-keywords: payment method, credit card, payment, billing method, pay, pay my bill
+keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing item, billing items
 
 subcollection: billing-usage
 

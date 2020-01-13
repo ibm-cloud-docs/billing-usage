@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-12-16"
+  years: 2015, 2020
+lastupdated: "2020-01-13"
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing 
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing items
 
 subcollection: billing-usage
 
