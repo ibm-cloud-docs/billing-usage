@@ -67,9 +67,10 @@
     ],
     "entercode": [
       "feature code",
-      "enter feature code",
+      "apply feature code",
       "enter promotional feature code",
       "trial account",
+      "code for trial account",
       "convert Lite account",
       "Lite promo code"
     ],
@@ -87,7 +88,8 @@
       "subscription credit",
       "subscription feature code",
       "Looking for subscription credit",
-      "apply subscription credit"
+      "apply subscription credit",
+      "add subscription credits"
     ],
     "subs-pay-schedule": [
       "pay the total spending commitment up-front or quarterly",
@@ -249,5 +251,27 @@
       "option to view invoices unavailable",
       "can't find invoice",
       "can't view my invoice"
-    ]
+    ],
+    "cannot-apply-feature-code": [
+     "can not apply my feature code",
+     "feature code does not work",
+     "feature code not working",   
+     "promo code does not work",
+     "feature code cannot be applied",
+     "unable to apply feature code",
+     "can't use feature code",
+     "can't apply promo code",  
+     "promotional code for a trial account does not work",  
+     "can't use the promo code"
+   ],
+   "cant-create-service-feature-code": [
+     "feature code doesn't work for a new service",
+     "feature code doesn't work as cant add a service",
+     "can't create service with my feature code",
+     "cannot create service feature code",
+     "unable to create resource after code",
+     "cant add service Lite account",
+     "cant provision service for course"
+   ]
 }
+
