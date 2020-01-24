@@ -218,6 +218,15 @@
       "close this account",
       "account deletion"
     ],
+    "billing-address": [
+      "update my billing address",
+      "delete my bank details",
+      "update my billing details",
+      "change my billing address",
+      "billing details update",
+      "delete my billing information",
+      "updating billing info" 
+    ],
     "cannot-access-billing-info": [
       "cannot see billing info",
       "can't access my billing information",
