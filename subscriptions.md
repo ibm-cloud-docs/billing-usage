@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-16"
+  years: 2019, 2020
+lastupdated: "2019-01-27"
 
 keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code
 
@@ -36,7 +36,7 @@ Subscriptions can provide the following two types of credit, which are divided i
 * Credit from platform subscriptions that pays for resource usage
 * Credit from support subscriptions that pays for support costs
 
-Each platform or support subscription is purchased for a given credit amount and duration. If the subscription duration is more than a year, the subscription is separated into terms of up to one year each. Each term has distinct start dates, end dates, and available credit. You can use the available credit at any point during the term, but credit doesn't roll over to any following terms in the subscription. You can get extra flexibility to use credit from terms that haven't yet started by paying up-front for the entire subscription rather than using monthly, quarterly, or another recurring billing cadence. If your usage exceeds your available credit, the extra usage is billed as overage at the non-discounted rate.
+Each platform or support subscription is purchased for a credit amount and duration. If the subscription duration is more than a year, the subscription is separated into terms of up to one year each. Each term has distinct start dates, end dates, and available credit. You can use the available credit at any point during the term, but credit doesn't roll over to any following terms in the subscription. You can get extra flexibility to use credit from terms that haven't yet started by paying up-front for the entire subscription rather than using monthly, quarterly, or another recurring billing cadence. If your usage exceeds your available credit, the extra usage is billed as overage at the non-discounted rate.
 
 For example, say that you buy an {{site.data.keyword.cloud_notm}} platform subscription for $1,000 a month for two years, and the subscription starts 1 July 2019. The subscription is divided into two terms that each contain $12,000 of credit, with one term valid from 1 July 2019 through 30 June 2020, and the next term valid from 1 July 2020 through 30 June 2021. You can use the $12,000 credit of the first term at any time during its one-year period, whether it's $6,500 the first month and $500 a month afterward or $1,000 each month. If you spend $13,000 during that time period and don't have any other active subscriptions, the extra $1,000 is billed as overage.
 
@@ -74,34 +74,11 @@ You can use the spending and usage information on the Subscriptions page to eval
 
 To view support subscription usage, go to **Manage > Billing and usage**, and select **Support costs**. You can view the remaining credit in your active support subscriptions and any upcoming subscriptions that aren't yet valid. For more information, see [Viewing your support costs](/docs/billing-usage?topic=billing-usage-support).
 
-## Adding subscription credit
+## Subscription credit
 {: #subscription-codes}
 {: help} 
 {: support}
 
-After you buy a subscription for platform or support credit, you add the credit to your account by applying a subscription code. Applying the code ensures that the credit is added to your account and you don't have unexpected overage charges.
+After you buy a subscription for platform or support credit, you add the credit to your account by applying a subscription code. Applying the code ensures that the credit is added to your account and you don't have unexpected overage charges. 
 
-If you set up your first subscription through the Subscriptions page, the credit for this subscription is automatically added to your account - no code required.
-{: tip}
-
-After {{site.data.keyword.Bluemix_notm}} Sales places the order, an email with the subscription code for each subscription and support line item is sent to the appropriate contact. If you bought a subscription and didn't receive your subscription code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/contact-us/){: new_window} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
-
-Only the account owner or a user with the Editor or Administrator role on the Billing account management service can apply the subscription code. If you don't have access to apply subscription codes, the account owner or administrator can provide access. See [Assigning access to account management services](/docs/iam?topic=iam-account-services) for more information.
-
-1. Open the email with the subscription code. If you bought a subscription and didn't receive your subscription code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/contact-us/){: new_window} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
-2. Click **Add subscription**. 
-3. Sign in to the console with your IBMid and password. 
-4. From the modal, choose the account you'd like to add the subscription to, select **I understand**, and then click **Add**. 
-
-To manually apply the subscription code, complete the following steps:
-1. From the console, go to **Manage > Account**, and select **Account settings**.
-1. Click **Apply code**.
-
-  Each code can be redeemed only once, and the codes must be redeemed before their expiration date. Credit that is added to an account cannot be removed.
-  {: important}
-
-1. Enter the subscription code, and click **Apply**.
-
-   If you have separate codes for platform and support credit, apply the platform subscription code first, then apply the support subscription code.
-
-If you don't know your seller, the codes are applied in the wrong order, or you experience issues with applying the codes, [contact {{site.data.keyword.Bluemix_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support).
+For more information, see [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
