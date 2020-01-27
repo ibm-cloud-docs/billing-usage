@@ -16,7 +16,6 @@ Managing billing and usage
     Managing your costs
         estimating_costs.md
         how_charged.md
-        promo_codes.md
         notifications.md
 
     {: .topicgroup}
@@ -25,13 +24,19 @@ Managing billing and usage
         infra_usage.md
         enterprise-usage.md
     
-    support.md
+    {: .topicgroup}
+    Working with codes and credits
+        promo_codes.md
+        subscription_codes.md
+        /account/account-codes
     
+    support.md
+
     {: .topicgroup}
     Managing your invoices and payments
         invoices.md
         manage_billing.md
-
+    
     subscriptions.md
     {: .navgroup-end}
 
@@ -40,7 +45,7 @@ Managing billing and usage
     Command reference
         [Viewing usage for accounts, orgs, resource groups, and resources](/cli/cloud-cli-ibmcloud_billing)
         [Managing classic infrastructure orders and quotes](/cli/cloud-cli-sl-manage-classic-orders)
-
+    
     {: .topicgroup}
     API reference
         [Usage Metering](https://{DomainName}/apidocs/usage-metering){: new_window}
