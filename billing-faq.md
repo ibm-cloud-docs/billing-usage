@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-13"
+lastupdated: "2020-02-06"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing items
 
@@ -73,6 +73,8 @@ Feature codes provide enhancements for Lite accounts, such as an unlimited numbe
 
 Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales on a limited basis. Promotions are meant for select groups and are typically given out at hackathons, conferences, and other events. 
 
+You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+
 ## How do I apply a promo code?
 {: #how-apply-promo}
 {: faq}
@@ -86,6 +88,8 @@ To apply your promo code, go to the [Promotions](https://{DomainName}/billing/pr
 
 Feature codes add extra capabilities to Lite accounts and are typically provided for educational initiatives or special events. To redeem your code, go to the [Account settings](https://{DomainName}/account/settings) page in the console, and click **Apply code**.
 
+You might be looking for information about promo codes and subscription codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+
 ## Is there a monthly minimum amount required for Subscription accounts?
 {: #subs-minimum}
 {: faq}
@@ -98,6 +102,8 @@ Yes, your subscription must have a combined minimum spending and term commitment
 {: support}
 
 After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+You might be looking for information about promo codes and feature codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes). 
 
 ## Can I pay the total spending commitment up-front or quarterly?
 {: #subs-pay-schedule}
@@ -182,7 +188,7 @@ If the credit isn't on the Usage page, go to **Invoices** and click link with th
 {: #contactsupport}
 {: faq}
 
-Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud support.
+Click **Support** in the console menu bar to access the Support Center. From there, start with using the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud support.
 
 ## How do I cancel my account?
 {: #cancelmyaccount}
