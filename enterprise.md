@@ -16,11 +16,12 @@ subcollection: billing-usage
 {:screen: .screen}
 {:note: .note}
 {:new_window: target="_blank"}
+{:term: .term}
 
 # Centrally managing billing and usage with enterprises
 {: #enterprise}
 
-Enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix}} accounts. Because billing is separate from the individual child accounts and consolidated to the enterprise level, enterprises simplify managing billing, invoicing, and payments for the accounts.
+[Enterprises](#x2026915){: term} enable you to centrally manage multiple {{site.data.keyword.Bluemix}} accounts. Because billing is separate from the individual child accounts and consolidated to the enterprise level, enterprises simplify managing billing, invoicing, and payments for the accounts.
 {: shortdesc}
 
 New to {{site.data.keyword.Bluemix_notm}} enterprises? See [What is an enterprise?](/docs/account?topic=account-enterprise) for more details about how enterprises can help you centrally manage billing and usage.
