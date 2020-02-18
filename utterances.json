@@ -144,6 +144,9 @@
       "access statement on my account",
       "see my bill",
       "view amount spent",
+      "access my invoice",
+      "access invoicing",
+      "how much is my bill",
       "access statement"
     ],
     "usage-not-match-invoice": [
@@ -259,6 +262,10 @@
       "invoice option not available",
       "option to view invoices unavailable",
       "can't find invoice",
+      "can't view my invoice",
+      "cant access invoice",
+      "can't access invoice",
+      "cant access invoicing",
       "can't view my invoice"
     ],
     "cannot-apply-feature-code": [
