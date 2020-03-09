@@ -36,6 +36,7 @@ To keep the example simple, assume the prices in the following table don't fluct
 
 | Service                           |	Features                                                            |	Price             |
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
+| {{site.data.keyword.runtime_nodejs_short}}                   |	Charges for runtime by GB-hours          |	$0.07 USD/GB-hour | 
 | {{site.data.keyword.autoscaling}} |	Free service plan for the {{site.data.keyword.autoscaling}} service |	Free              |
 | {{site.data.keyword.cloudant_short_notm}} | Standard plan includes 20 GB of free data storage</br>Scale provisioned throughput capacity in increments of:</br>100 lookups per second</br>50 writes per second</br>5 queries per second | $1.00 USD/GB of data storage</br>$0.25 USD/Lookup per second</br>$0.50 USD/Write per second</br>$5.00 USD/Query per second |
 {:caption="Table 1. Pricing for resources" caption-side="top"}
@@ -50,7 +51,7 @@ The price of the app can be calculated in the following way:
 <dt>Four 256-MB Node.js runtime instances</dt>
 <dd>{{site.data.keyword.Bluemix_notm}} charges for a runtime by GB-hours. The number of GB used per month is <code>4 x 256 = 1024 MB or 1 GB per month</code>. Assume that there are <code>24 x 30 = 720 hours in a month</code>, so the application is charged for <code>1 x 720 = 720 GB-hours</code>.
 <p>
-375 GB-hours are included in a free allowance per month, which is shared across all {{site.data.keyword.Bluemix_notm}} runtimes. So the total cost for the runtime is <code>$0.07 x (720-375) = $24.15</code>.</p></dd>
+The total cost for the runtime is $0.07 x 720 = $50.4.</code>.</p></dd>
 
 <dt>Two {{site.data.keyword.autoscaling}} policies (processor and memory)</dt>
 <dd>The {{site.data.keyword.autoscaling}} policies are free of charge.</dd>
