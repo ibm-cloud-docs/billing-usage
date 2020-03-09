@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-04-30"
+  years: 2015, 2020
+lastupdated: "2020-03-09"
 
 keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
@@ -36,7 +36,6 @@ To keep the example simple, assume the prices in the following table don't fluct
 
 | Service                           |	Features                                                            |	Price             |
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
-| {{site.data.keyword.runtime_nodejs_short}}                   |	375 GB-hours free per month (shared across all runtimes)            |	$0.07 USD/GB-hour |
 | {{site.data.keyword.autoscaling}} |	Free service plan for the {{site.data.keyword.autoscaling}} service |	Free              |
 | {{site.data.keyword.cloudant_short_notm}} | Standard plan includes 20 GB of free data storage</br>Scale provisioned throughput capacity in increments of:</br>100 lookups per second</br>50 writes per second</br>5 queries per second | $1.00 USD/GB of data storage</br>$0.25 USD/Lookup per second</br>$0.50 USD/Write per second</br>$5.00 USD/Query per second |
 {:caption="Table 1. Pricing for resources" caption-side="top"}
