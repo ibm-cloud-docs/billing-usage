@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-06-18"
+  years: 2015, 2020
+lastupdated: "2020-03-09"
 
-keywords: payment, charges, pricing plan, service cost, cost, pricing tier
+keywords: payment, charges, pricing plan, service cost, cost, pricing tier, pricing model, pricing
 
 subcollection: billing-usage
 
@@ -57,11 +57,12 @@ You can easily find services for Lite plans in the catalog. By default, all serv
 
 You're charged for the time that your apps run and the memory that's used in *GB-hours*. GB-hours is the calculation of the number of application instances that are multiplied by the memory per instance and by the hours that the instances run. You can customize the number of instances and the amount of memory per instance based on your needs. You can also add memory or instances to scale for more users. To get the amount charged, take your application instances that are multiplied by memory per instance and by hours running.
 
-For example, consider a runtime that costs $0.07 per GB-hour in two 512-MB instances, running for 30 days (720 hours). These resources would cost $24.15 USD, including a free allowance of 375 GB-hours, with the following calculations:
+For example, consider a runtime that costs $0.07 per GB-hour in two 512-MB instances, running for 30 days (720 hours). These resources would cost $50.4 USD, with the following calculations:
+
 
 ```
 2 instances x 0.5 GB x 720 hours = 720 GB-hours.
-(720 - 375) GB-hours x $0.07 per GB-hour = $24.15
+720 GB-hours x $0.07 per GB-hour = $50.4
 ```
 
 ## Charges for services
