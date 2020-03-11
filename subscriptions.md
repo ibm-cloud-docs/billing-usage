@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2019-03-09"
+lastupdated: "2019-03-10"
 
-keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code
+keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code, expiring subscription, expired subscription
 
 subcollection: billing-usage
 
@@ -82,3 +82,12 @@ To view support subscription usage, go to **Manage > Billing and usage**, and se
 After you buy a subscription for platform or support credit, you add the credit to your account by applying a subscription code. Applying the code ensures that the credit is added to your account and you don't have unexpected overage charges. 
 
 For more information, see [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+
+## Expiring subscriptions 
+{: #expiring-subscription-date}
+{: help} 
+{: support}
+
+You are notified by email and on the [Subscriptions](https://{DomainName}/billing/subscriptions) page 60, 30, 14, and 1 day before the expiration date of the last subscription on the account. After the subscription expires, your account is converted to a Pay-As-You Go account, which means you pay only for billable services that you use with no contracts or commitments. The discounts that are associated with the subscription account won't apply to the Pay-As-You-Go account. The IBM Sales team is happy to help extend your subscription before you reach its expiration date. If you extend your subscription within 30 days from the expiration date, you won't get charged at the Pay-As-You-Go account rate. After 30 days, you are invoiced as a Pay-As-You-Go account. 
+
+To learn more, see [Pay-As-You-Go accounts](/docs/account?topic=account-accounts#paygo). 
