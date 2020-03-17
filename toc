@@ -6,6 +6,7 @@ Managing billing and usage
 
     {: .navgroup id="learn"}
     billing-overview.md
+    [How can I manage billing and usage in IBM Cloud?](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-overview)
     scenario.md
     bp_billing.md
     enterprise.md
