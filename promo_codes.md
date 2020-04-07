@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-10-18"
+  years: 2019, 2020
+lastupdated: "2020-04-07"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -32,7 +32,7 @@ Promo codes are typically based on short phrases, like `PROMO200`. If you have a
 
 You can apply promo codes to Pay-As-You-Go and Subscription accounts. Any user in the account has access to view and apply promo codes. You can have any number of promo codes that are applied to your account and services at a time. You can use each promo code only once, and you can't remove them after you apply them.  
 
-Promo codes can't be applied to IBM Cloud Enterprises.
+Promo codes can't be applied to accounts that belong to IBM Cloud Enterprises.
 {: note}
 
 Complete the following steps to apply promo codes to your account and services:  
