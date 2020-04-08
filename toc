@@ -55,6 +55,18 @@ Managing billing and usage
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    billing-faq.md
-    ts_billing.md
+    {: .topicgroup}
+    FAQs
+        billing-faq.md
+        subscription_acct_faq.md
+        invoice_faqs.md
+
+    {: .topicgroup}
+    Troubleshooting
+        ts_billinginfo.md
+        ts_subscriptioncode.md
+        ts_payment_console.md
+        ts_invoice_trouble.md
+        ts_apply_feature_code.md
+        ts_service_feature_code.md
     {: .navgroup-end}
