@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-03-25"
+lastupdated: "2020-04-10"
 
 keywords: subscription code, subscription credit, discount code, promo code, feature code 
 
@@ -40,7 +40,7 @@ Only the account owner or a user with the Editor or Administrator role on the Bi
 4. From the modal, choose the account you'd like to add the subscription to, select **I understand**, and then click **Add**. 
 
 To manually apply the subscription code, complete the following steps:
-1. From the console, go to **Manage > Account**, and select **Account settings**.
+1. In the IBM Cloud console, go to **Manage > Account**, and select **Account settings**.
 1. Click **Apply code**.
 
   Each code can be redeemed only once, and the codes must be redeemed before their expiration date. Credit that is added to an account cannot be removed.

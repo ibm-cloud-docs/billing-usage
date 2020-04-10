@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-09-04"
+  years: 2019, 2020
+lastupdated: "2020-04-10"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -42,7 +42,7 @@ For detailed steps about assigning enterprise access, see [Assigning enterprise 
 {: #enterprise-usage-console}
 
 1. Log in to the enterprise account.
-1. Go to **Manage > Billing and usage**, and select **Usage**.
+1. In the IBM Cloud console, go to **Manage > Billing and usage**, and select **Usage**.
 
    The Usage page displays the costs for all resource usage in the entire enterprise during the current month. Usage is organized according to your enterprise hierarchy, so costs are broken down by the accounts and account groups that are directly under the enterprise. 
    

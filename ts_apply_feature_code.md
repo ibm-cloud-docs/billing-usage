@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-08"
+lastupdated: "2020-04-10"
 
 keywords: troubleshoot billing, feature code, can't apply code, can't apply feature code, lite account, trial account
 
@@ -38,6 +38,6 @@ You might see this error for any of the following reasons:
 
 Use the following steps to successfully apply a feature code: 
 {: tsResolve}
-- Verify that you have the correct account type. For example, some feature codes for educational promotions are only for Lite accounts. To view your account type, go to **Manage > Account**, and select **Account settings**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
+- Verify that you have the correct account type. For example, some feature codes for educational promotions are only for Lite accounts. To view your account type in the IBM Cloud console, go to **Manage > Account**, and select **Account settings**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
 - Verify that you have access to apply the code. To apply any code, you must have an Editor role or higher on all account management services. To view or change roles, see [Assigning access to account management services](/docs/iam?topic=iam-account-services).
 - Contact the person who provided the code for help with reissuing an expired code.

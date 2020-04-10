@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-27"
+lastupdated: "2020-04-10"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items 
 
@@ -31,7 +31,7 @@ To manage payments, you need an access policy with the Operator role or higher o
 
 You can make a one-time payment at any time, for any amount, whether it is for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't filled out with a defaulted amount. Payment methods for one-time payments include credit card and PayPal. PayPal can’t be used as a payment method for recurring payments.
 
-To make a one-time payment, go to **Manage > Billing and usage**, and select **Payments**. Complete the fields in the make a one-time payment section. The account balance is updated after the payment is accepted.
+To make a one-time payment  in the IBM Cloud console, go to **Manage > Billing and usage**, and select **Payments**. Complete the fields in the make a one-time payment section. The account balance is updated after the payment is accepted.
 
 
 ## Managing your payment method
@@ -49,7 +49,7 @@ Updating your credit card is just like adding a new one. Go to the [Payments](/b
 
 If you using a payment method other than a credit card like PayPal, complete the following steps to switch to a different payment method: 
 
-1. Go to **Manage** > **Billing and usage**, and select **Payments**. Then, click **Payment method**.
+1. In the console, go to **Manage** > **Billing and usage**, and select **Payments**. Then, click **Payment method**.
 2. In the Add Payment Method section, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you. 
 
 Some payment methods, such as PayPal, aren't accepted as recurring payment methods. You must manually submit the payment each month.

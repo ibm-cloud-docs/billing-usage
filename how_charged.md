@@ -26,7 +26,7 @@ subcollection: billing-usage
 {{site.data.keyword.Bluemix_notm}} provides detailed [cost estimators](/docs/billing-usage?topic=billing-usage-cost) to help you plan for charges.
 {: tip}
 
-After you build your resources, you can check the actual cost. Go to **Manage > Billing and usage**, and select **Usage**. With an {{site.data.keyword.Bluemix_notm}} billable account, you're charged for the compute, containers, and services that your organization used. You might be invited by other {{site.data.keyword.Bluemix_notm}} users to participate in organizations under a different account. The usage of the apps or services that you use in the organizations that you're invited to are charged to the account that contains those organizations. You can see more information about a specific charge from each resource details page.
+After you build your resources, you can check the actual cost. In the IBM Cloud console, go to **Manage > Billing and usage**, and select **Usage**. With an {{site.data.keyword.Bluemix_notm}} billable account, you're charged for the compute, containers, and services that your organization used. You might be invited by other {{site.data.keyword.Bluemix_notm}} users to participate in organizations under a different account. The usage of the apps or services that you use in the organizations that you're invited to are charged to the account that contains those organizations. You can see more information about a specific charge from each resource details page.
 
 Different types of charges apply depending on the features of {{site.data.keyword.Bluemix_notm}} that you're using. The following table provides a high-level overview:
 

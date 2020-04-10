@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-09-04"
+  years: 2015, 2020
+lastupdated: "2020-04-10"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator
 
@@ -50,7 +50,7 @@ You can generate and view quotes for only {{site.data.keyword.baremetal_short}},
 
       If you're in a Lite account, select **Email quote** when you enter your contact details so that you can view your quote after you create it. Only billable accounts can view quotes in the console.
 
-   2. View your quote by going to **Manage > Billing and usage**, and select **Sales > Device quotes**. If you have access, you can purchase the quoted offering by clicking the quote and confirming the order.
+   2. View your quote in the IBM Cloud console by going to **Manage > Billing and usage**, and select **Sales > Device quotes**. If you have access, you can purchase the quoted offering by clicking the quote and confirming the order.
 
 
 ## Supported billing currencies

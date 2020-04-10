@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-30"
+  years: 2017, 2020
+lastupdated: "2020-04-10"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -38,7 +38,7 @@ For more information about access roles, see [IAM access](/docs/iam?topic=iam-us
 
 In the Services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps:
 
-1. Go to **Manage > Billing and usage**, and select **Usage**.
+1. In the IBM Cloud console, go to **Manage > Billing and usage**, and select **Usage**.
 2. Click **View instances** to view all the instances of a specific type of resource.  
 3. To see a detailed summary of estimated charges for each instance of a specific resource type, click **View instance details**. You can also see the detailed monthly usage metrics for the selected instance.
 
@@ -55,7 +55,7 @@ The account owner of a billable account can set spending notifications against t
 
 You can export a summary of your account's usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details.
 
-1. Go to **Manage > Billing and usage**, and select **Usage**.
+1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
 1. Click **Export CSV** and select one of the options:
    - Click **Summary** for a high-level overview of the usage and associated costs for your account.
    - Click **Instance** for detailed usage information about each service instance.

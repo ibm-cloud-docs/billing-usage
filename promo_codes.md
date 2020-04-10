@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-07"
+lastupdated: "2020-04-10"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -51,7 +51,7 @@ Existing classic infrastructure promo codes can be applied only through the cata
 
 You can view details about active promotions in your account, including your promotion start and end dates and the history of redeemed promos, from the table on the Promotions page. 
 
-1. Go to **Manage** > **Billing and usage**, and select **Promotions**. 
+1. In the console, go to **Manage** > **Billing and usage**, and select **Promotions**. 
 1. Click a promotion to expand the table and view a description of each promotion and the offerings it applies to.
 
 Promo codes can't be removed from your account, but they expire and become inactive when they reach their end date.
