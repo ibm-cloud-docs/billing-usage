@@ -34,7 +34,7 @@ Lite accounts can't enable spending notifications because they can use only no-c
 
 To set up your notifications:
 
-1. From the IBM Cloud console, go to **Manage** > **Billing and usage**, and select **Spending notifications**.
+1. In the {{site.data.keyword.cloud}} console, go to **Manage** > **Billing and usage**, and select **Spending notifications**.
 2. Select the checkbox to enable email notifications for the specific service area. 
 3. Enter the dollar amount to set a spending threshold. 
 4. Next, you can add email recipients. You can select up to 10 users from your account to receive email notifications about a service.

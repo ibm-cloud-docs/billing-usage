@@ -43,7 +43,7 @@ To manage invoices and payments, you need an IAM access policy with the Operator
 Check your access by completing the following steps:
 {: tsResolve}
 
-  1. In the IBM Cloud console, go to **Manage > Access (IAM)**, and select **Users**.
+  1. In the {{site.data.keyword.cloud}} console, go to **Manage > Access (IAM)**, and select **Users**.
   2. Click your name from the Users page.
   3. Click **Access policies** to view your assigned IAM access policies.
   4. If you don't have the required access, contact the account owner to request it.
@@ -133,7 +133,7 @@ You might see this error for any of the following reasons:
 - The code expired.
 
 
-- Verify that you have the correct account type. For example, some feature codes for educational promotions are only for Lite accounts. To view your account type in the console, go to **Manage > Account**, and select **Account settings**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
+- Verify that you have the correct account type. For example, some feature codes for educational promotions are only for Lite accounts. To view your account type, in the console, go to **Manage > Account**, and select **Account settings**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
 - Verify that you have access to apply the code. To apply any code, you must have an Editor role or higher on all account management services. To view or change roles, see [Assigning access to account management services](/docs/iam?topic=iam-account-services).
 - Contact the person who provided the code for help with reissuing an expired code.
 {: tsResolve}

@@ -24,7 +24,7 @@ To manage and view your invoices, you can use the {{site.data.keyword.cloud}} bi
 ## Viewing your invoices 
 {: #viewing-invoices}
 
-To view your invoice for a Pay-As-You-Go account that's billed by using US dollars, in the IBM Cloud console, go to **Manage** > **Billing and usage**, and select **Invoices**. 
+To view your invoice for a Pay-As-You-Go account that's billed by using US dollars, in the {{site.data.keyword.cloud}} console, go to **Manage** > **Billing and usage**, and select **Invoices**. 
 
 You can now view your IBM Cloud classic infrastructure invoices from the Billing and usage section of the console. To learn more about migrating from SoftLayer to IBM Cloud, see [Transitioning to the IBM Cloud experience](/docs/overview?topic=overview-ui#redirect-cloud).
 {: tip} 

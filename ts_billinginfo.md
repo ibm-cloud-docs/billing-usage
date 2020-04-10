@@ -38,7 +38,7 @@ To manage invoices and payments, you need an IAM access policy with the Operator
 Check your access by completing the following steps:
 {: tsResolve}
 
-  1. In the IBM Cloud console, go to **Manage > Access (IAM)**, and select **Users**.
+  1. In the {{site.data.keyword.cloud}} console, go to **Manage, > Access (IAM)**, and select **Users**.
   2. Click your name from the Users page.
   3. Click **Access policies** to view your assigned IAM access policies.
   4. If you don't have the required access, contact the account owner to request it.

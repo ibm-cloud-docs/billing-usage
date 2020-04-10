@@ -62,7 +62,7 @@ You can view the subscriptions in your account to track your credit spending. To
 ### Platform subscriptions
 {: #platform-service-subscriptions}
 
-To view your platform and service subscription usage in the IBM Cloud console, go to **Manage > Billing and usage**, and select **Subscriptions**.
+To view your platform and service subscription usage, in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Subscriptions**.
 
   * Click the tabs to view spending details and trends about your subscription usage, including any usage overages that your account incurred. For example, the credit burndown view displays how your credit balance changes over time, and the spending by month view displays your monthly spending from all subscriptions.
   * View all active and inactive subscriptions in your account in the tables. For multi-year subscriptions, each term is displayed separately. Active subscriptions are subscriptions that still have remaining credit to spend and time that's left in the subscription term. Upcoming subscriptions are subscriptions were added to the account but haven't yet reached their term period. A subscription is inactive if its term expires or all of its credit is spent.
@@ -72,7 +72,7 @@ You can use the spending and usage information on the Subscriptions page to eval
 ### Support subscriptions
 {: #view-support-subscriptions}
 
-To view support subscription usage in the console, go to **Manage > Billing and usage**, and select **Support costs**. You can view the remaining credit in your active support subscriptions and any upcoming subscriptions that aren't yet valid. For more information, see [Viewing your support costs](/docs/billing-usage?topic=billing-usage-support).
+To view support subscription usage, in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Billing and usage**, and select **Support costs**. You can view the remaining credit in your active support subscriptions and any upcoming subscriptions that aren't yet valid. For more information, see [Viewing your support costs](/docs/billing-usage?topic=billing-usage-support).
 
 ## Subscription credit
 {: #subscription-codes}

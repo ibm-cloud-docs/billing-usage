@@ -38,7 +38,7 @@ For more information about access roles, see [IAM access](/docs/iam?topic=iam-us
 
 In the Services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps:
 
-1. In the IBM Cloud console, go to **Manage > Billing and usage**, and select **Usage**.
+1. {{site.data.keyword.cloud}} **Manage > Billing and usage**, and select **Usage**.
 2. Click **View instances** to view all the instances of a specific type of resource.  
 3. To see a detailed summary of estimated charges for each instance of a specific resource type, click **View instance details**. You can also see the detailed monthly usage metrics for the selected instance.
 
