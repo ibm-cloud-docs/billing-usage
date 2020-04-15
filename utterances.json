@@ -1,293 +1,331 @@
 {
-    "gb-hour": [
-      "gb-hour",
-      "gigabyte hour",
-      "runtime usage charges",
-      "container usage charges"
-    ],
-    "monthlyquota": [
-      "is there a quota for a lite plan",
-      "do I get charged for a lite plan",
-      "does a lite plan get suspended",
-      "quota is met on a lite plan",
-      "lite plan quotas per month",
-      "lite account quotas per instance",
-      "lite quotas reset per month",
-      "lite plan monthly quotas",
-      "quotas for lite plan instances"
-    ],  
-    "updatecard": [
-      "change credit card info",
-      "edit my credit card",
-      "update my credit card information",
-      "change my credit card",
-      "edit my payment options",
-      "change my payment options",
-      "update payment details",
-      "can I use paypal",
-      "pay with paypal",
-      "pay using Paypal"
-    ],
-    "addcard": [
-      "credit card not going through",
-      "card won't go through",
-      "credit card isn't going through",
-      "not processing my credit card",
-      "verification of credit card not working",
-      "credit card failed",
-      "account upgrade is declined due to risk management",
-      "card declined due to risk management",
-      "risk management error",
-      "credit card won't process"
-    ],
-    "promo-feature-codes": [
-      "feature codes the same as promo codes",
-      "feature codes different than promotional codes",
-      "redeeming feature codes versus promo codes",
-      "promo code",
-      "feature codes"
-    ],
-    "how-apply-promo": [
-      "enter promo code",
-      "enter promocode",
-      "use promo code",
-      "promotion code",
-      "want to apply a promo code",
-      "where to apply promocode",
-      "apply promo code to lite account",
-      "activate my trial account promotion code",
-      "Where do I put in a promotion code"
-    ],
-    "get-promo-code": [
-      "get a promo code",
-      "get my promotion code",
-      "receive a promo code",
-      "go to get promotion",
-      "where are promo codes"
-    ],
-    "entercode": [
-      "feature code",
-      "apply feature code",
-      "enter promotional feature code",
-      "trial account",
-      "code for trial account",
-      "convert Lite account",
-      "Lite promo code"
-    ],
-    "subs-minimum": [
-      "monthly minimum amount required for Subscription account",
-      "minimum on Subscription accounts",
-      "subscription account monthly minimum",
-      "minimum requirement for my account",
-      "minimum amount for subscription",
-      "lowest amount required on this account",
-      "subscription discount",
-      "qualify for discount"
-    ],
-    "subscriptioncode": [
-      "subscription credit",
-      "subscription feature code",
-      "Looking for subscription credit",
-      "apply subscription credit",
-      "add subscription credits"
-    ],
-    "subs-pay-schedule": [
-      "pay the total spending commitment up-front or quarterly",
-      "pay up-front or quarterly",
-      "switch pay frequency",
-      "change to paying up-front or quarterly",
-      "adjust how often I pay my bill"
-    ],
-    "subs-spending": [
-      "spend more or less than my monthly commitment",
-      "spend an amount different than my monthly agreement",
-      "Can I spend greater than or less than my commitment?",
-      "pay more or less than usual"
-    ],
-    "subs-spend-before-term-end": [
-      "reach my subscription limit before the term ends",
-      "reached my spending commitment",
-      "get to my spending commitment before end of term",
-      "achieve the spending commitment",
-      "subscription overage",
-      "exceed total subscription",
-      "overage charges subscription",
-      "went over subscription amount"
-    ],
-    "subs-cancel-early": [
-      "cancel my Subscription account before the end of my term commitment",
-      "subscription term commitment",
-      "cancel my account before it expires",
-      "cancel subscription account before term ends",
-      "cancel account before expiration",
-      "end my term commitment early",
-      "finish my term early",
-      "end subscription account early"
-    ],
-    "monitor-spending": [
-      "view monthly runtime usage",
-      "view monthly service usage",
-      "view usage",
-      "how much have i spent",
-      "monitor my spending"
-    ],
-    "spending-notify": [
-      "spending notifications",
-      "get spending alert",
-      "set spending limit",
-      "set usage notification"
-    ], 
-    "access-invoices": [
-      "Where is my invoice",
-      "find my invoice",
-      "invoice location",
-      "access statement on my account",
-      "see my bill",
-      "view amount spent",
-      "access my invoice",
-      "access invoicing",
-      "how much is my bill",
-      "access statement"
-    ],
-    "usage-not-match-invoice": [
-      "usage different on my invoice",
-      "invoice isn't matching my usage",
-      "usage is not reflected correctly on my invoice",
-      "usage different than invoice",
-      "my statement does not match my usage",
-      "invoice not matching usage",
-      "usage not as same as invoice",
-      "invoice not correct with my usage"
-    ],
-    "slperm-manage-invoices": [
-      "view softlayer invoice",
-      "infrastructure invoice",
-      "can't view invoice in portal",
-      "softlayer invoice permission",
-      "you don't have access to view invoice"
-    ],
-    "paperless-invoices": [
-      "paperless invoices",
-      "email my invoice",
-      "electronic billing",
-      "receive a paperless bill",
-      "paperless invoicing",
-      "electronic invoices",
-      "not want paper bills",   
-      "not send a paper invoice"
-    ],
-    "discount-price": [
-      "the discounted price",
-      "price include the discount",
-      "add my discount",
-      "price with the discount added",
-      "including discount"   
-     ],  
-    "receive-credit": [
-     "didn't receive any credit",
-     "where can I see my $200 credit",
-     "find credit",
-     "see credit from upgrade",
-     "check for my credit"
-    ],
-    "contactsupport": [
-      "How do I contact support",
-      "Where is support",
-      "Contact support",
-      "I want to contact IBM support",
-      "talk to tech support",
-      "connect me with support"
-    ],
-    "cancelmyaccount": [
-      "cancel my account",
-      "i would like to cancel my account",
-      "How do I cancel my account",
-      "cancelling an account",
-      "cancel my account",
-      "need my account cancelled",
-      "suspend this account",
-      "how to deactivate the account",
-      "deactivate account"  
-    ],
-    "deleteaccount": [
-      "delete my account",
-      "Where do I delete my account",
-      "I want to delete my account",
-      "Tell me how to delete my account",
-      "close my IBM Cloud account",
-      "terminate my cloud account",
-      "remove my account",
-      "don't need this account. how can i delete it",
-      "close this account",
-      "account deletion"
-    ],
-    "billing-address": [
-      "update my billing address",
-      "delete my bank details",
-      "update my billing details",
-      "change my billing address",
-      "billing details update",
-      "delete my billing information",
-      "updating billing info" 
-    ],
-    "cannot-access-billing-info": [
-      "cannot see billing info",
-      "can't access my billing information",
-      "can't view my billing info",
-      "can't view my payment and invoices",
-      "I don't have authorization to view my billing information",
-      "I get a message when trying to view my billing info",
-      "unable to access usage statement",
-      "where is my billing info"
-    ],
-    "cannot-apply-subscription-code": [
-      "can not apply my subscription code",
-      "subscription code does not work",
-      "subscription code issue",
-      "subscription code cannot be applied",
-      "unable to use subscription code",
-      "cant apply subscription code"
-    ],
-    "ts_ccibm": [
-      "Your payments are managed through IBM.com",
-      "can't add credit card option not available",
-      "no option to add a credit card",
-      "credit card option not available",
-      "option to add credit card unavailable"    
-    ],
-    "ts_cant-view-invoice": [
-      "Your invoices are managed through IBM.com",
-      "can't view invoice option not available",
-      "no option to view my invoices",
-      "invoice option not available",
-      "option to view invoices unavailable",
-      "can't find invoice",
-      "can't view my invoice",
-      "cant access invoice",
-      "can't access invoice",
-      "cant access invoicing",
-      "can't view my invoice"
-    ],
-    "cannot-apply-feature-code": [
-     "can not apply my feature code",
-     "feature code does not work",
-     "feature code not working",   
-     "promo code does not work",
-     "feature code cannot be applied",
-     "unable to apply feature code",
-     "can't use feature code",
-     "can't apply promo code",  
-     "promotional code for a trial account does not work",  
-     "can't use the promo code"
+  "gb-hour": [
+    "gb-hour",
+    "gigabyte hour",
+    "runtime usage charges",
+    "container usage charges"
+  ],
+  "monthlyquota": [
+    "is there a quota for a lite plan",
+    "do I get charged for a lite plan",
+    "does a lite plan get suspended",
+    "quota is met on a lite plan",
+    "lite plan quotas per month",
+    "lite account quotas per instance",
+    "lite quotas reset per month",
+    "lite plan monthly quotas",
+    "quotas for lite plan instances"
+  ],  
+  "updatecard": [
+    "change credit card info",
+    "edit my credit card",
+    "update my credit card information",
+    "change my credit card",
+    "edit my payment options",
+    "change my payment options",
+    "update payment details",
+    "can i use a prepaid card",  
+    "change payment method",
+    "need to update my credit card",
+    "add payment method",  
+    "can I use paypal",
+    "pay with paypal",
+    "pay using Paypal"
    ],
-   "cant-create-service-feature-code": [
-     "feature code doesn't work for a new service",
-     "feature code doesn't work as cant add a service",
-     "can't create service with my feature code",
-     "cannot create service feature code",
-     "unable to create resource after code",
-     "cant add service Lite account",
-     "cant provision service for course"
-   ]
+   "addcard": [
+    "credit card not going through",
+    "card won't go through",
+    "credit card isn't going through",
+    "not processing my credit card",
+    "verification of credit card not working",
+    "CC details the error is Cannot communicate with your bank", 
+    "credit card failed",
+    "credit card attempts exceeded",
+    "CC is not upgrading",
+    "account upgrade is declined due to risk management",
+    "Declined due to Risk management",
+    "Problem authorizing the credit card. We are unable to process your request",
+    "card declined due to risk management",
+    "Unable to verify the credit card. Authorization declined",
+    "error Credit card authorization issue",   
+    "risk management error",   
+    "credit card won't process"
+  ],
+  "promo-feature-codes": [
+    "feature codes the same as promo codes",
+    "feature codes different than promotional codes",
+    "redeeming feature codes versus promo codes",
+    "promo code",
+    "Find Feature or Promo Codes",
+    "feature code"
+  ],
+  "how-apply-promo": [
+    "enter promo code",
+    "enter promocode",
+    "apply promo code",
+    "use promo code",
+    "claim promo code",
+    "promotion code",
+    "billing promo code",  
+    "want to apply a promo code",
+    "where to apply promocode",
+    "I have promo code",  
+    "apply promo code to lite account",  
+    "activate my trial account promotion code",  
+    "Where do I put in a promotion code"
+  ],
+  "get-promo-code": [
+    "get a promo code",
+    "get my promotion code",
+    "receive a promo code",
+    "go to get promotion",
+    "where are promo codes"
+  ],
+  
+  "entercode": [
+    "apply feature code",
+    "apply a feature code",  
+    "enter feature code",
+    "enter promotional feature code",
+    "code for trial account",
+    "convert Lite account",
+    "Lite promo code"
+  ],
+  "subs-minimum": [
+    "monthly minimum amount required for Subscription account",
+    "minimum on Subscription accounts",
+    "subscription account monthly minimum",
+    "minimum requirement for my account",
+    "minimum amount for subscription",
+    "lowest amount required on this account",
+    "subscription discount",
+    "qualify for discount"
+  ],
+  "subscriptioncode": [
+    "subscription credit",
+    "subscription feature code",
+    "Looking for subscription credit",
+    "apply subscription credit",
+    "add subscription credits",
+    "trying to set up the $12k of credits",
+    "load my $1000 credits" 
+  ],
+  "subs-pay-schedule": [
+    "pay the total spending commitment up-front or quarterly",
+    "pay up-front or quarterly",
+    "switch pay frequency",
+    "change to paying up-front or quarterly",
+    "adjust how often I pay my bill"
+  ],
+  "subs-spending": [
+    "spend more or less than my monthly commitment",
+    "spend an amount different than my monthly agreement",
+    "Can I spend greater than or less than my commitment?",
+    "pay more or less than usual"
+  ],
+  "subs-spend-before-term-end": [
+    "reach my subscription limit before the term ends",
+    "reached my spending commitment",
+    "get to my spending commitment before end of term",
+    "achieve the spending commitment",
+    "subscription overage",
+    "exceed total subscription",
+    "overage charges subscription",
+    "went over subscription amount"
+  ],
+  "subs-cancel-early": [
+    "cancel my Subscription account before the end of my term commitment",
+    "subscription term commitment",
+    "cancel my account before it expires",
+    "cancel subscription account before term ends",
+    "cancel account before expiration",
+    "end my term commitment early",
+    "finish my term early",
+    "end subscription account early"
+  ],
+  "monitor-spending": [
+    "view monthly runtime usage",
+    "view monthly service usage",
+    "view usage",
+    "how much have i spent",
+    "how is usage calculated",
+    "current month costs",
+    "inquire about usage",
+    "documentation on how usage is calculated",
+    "monitor my spending"
+  ],
+  "spending-notify": [
+    "spending notifications",
+    "get spending alert",
+    "set spending limit",
+    "set usage notification"
+  ], 
+  "access-invoices": [
+    "Where is my invoice",
+    "find my invoice",
+    "invoice location",
+    "access statement on my account",
+    "see my bill",
+    "view amount spent",
+    "access my invoice",
+    "access invoicing",
+    "how much is my bill",
+    "billing access",
+    "access statement"
+  ],
+  "usage-not-match-invoice": [
+    "usage different on my invoice",
+    "invoice isn't matching my usage",
+    "usage is not reflected correctly on my invoice",
+    "usage different than invoice",
+    "my statement does not match my usage",
+    "invoice not matching usage",
+    "usage not as same as invoice",
+    "invoice not correct with my usage"
+  ],
+  "slperm-manage-invoices": [
+    "view softlayer invoice",
+    "infrastructure invoice",
+    "can't view invoice in portal",
+    "softlayer invoice permission",
+    "you don't have access to view invoice"
+  ],
+  "paperless-invoices": [
+    "paperless invoices",
+    "email my invoice",
+    "electronic billing",
+    "receive a paperless bill",
+    "paperless invoicing",
+    "electronic invoices",
+    "not want paper bills",   
+    "not send a paper invoice"
+   ],  
+  "discount-price": [
+    "the discounted price",
+    "price include the discount",
+    "add my discount",
+    "price with the discount added",
+    "including discount"   
+   ],  
+  "receive-credit": [
+   "didn't receive any credit",
+   "where can I see my $200 credit",
+   "find credit",
+   "check credit balance",   
+   "see credit from upgrade",
+   "Cannot see my $300 credit",
+   "can not see my credit",
+   "check for my credit"
+  ],
+  "contactsupport": [
+    "How do I contact support",
+    "Where is support",
+    "Contact support",
+    "I want to contact IBM support",
+    "talk to tech support",
+    "connect me with support"
+  ],
+  "cancelmyaccount": [
+    "cancel my account",
+    "i would like to cancel my account",
+    "How do I cancel my account",
+    "cancelling an account",
+    "cancel my account",
+    "deactivate my account",
+    "cancel trial account", 
+    "need my account cancelled",
+    "suspend this account",
+    "deactivate my IBM cloud account",
+    "how to deactivate the account",
+    "deactivate account"  
+  ],
+  "deleteaccount": [
+    "delete my account",
+    "account delete",  
+    "Where do I delete my account",
+    "I want to delete my account",
+    "Tell me how to delete my account",
+    "close my IBM Cloud account",
+    "terminate my cloud account",
+    "Close account",
+    "delete account",
+    "remove my account",
+    "close my account",  
+    "don't need this account. how can i delete it",
+    "close this account",
+    "like to decommission my account",
+    "account closure",
+    "account deletion"
+  ],
+  "billing-address": [
+    "update my billing address",
+    "delete my bank details",
+    "update my billing details",
+    "change my billing address",
+    "billing details update",
+    "delete my billing information",
+    "updating billing info" 
+  ],
+    "cannot-access-billing-info": [
+    "cannot see billing info",
+    "can't access my billing information",
+    "can't view my billing info",
+    "can't view my payment and invoices",
+    "I don't have authorization to view my billing information",
+    "don't have permission to access invoices",  
+    "I get a message when trying to view my billing info",
+    "unable to access usage statement",
+    "where is my billing info"
+  ],
+  "cannot-apply-subscription-code": [
+    "can not apply my subscription code",
+    "subscription code does not work",
+    "subscription code issue",
+    "subscription code cannot be applied",
+    "unable to use subscription code",
+    "cant apply subscription code"
+  ],
+  "ts_ccibm": [
+    "Your payments are managed through IBM.com",
+    "can't add credit card option not available",
+    "no option to add a credit card",
+    "credit card option not available",
+    "add credit card is disabled", 
+    "option to add credit card unavailable"    
+  ],
+  "ts_cant-view-invoice": [
+    "Your invoices are managed through IBM.com",
+    "can't view invoice option not available",
+    "no option to view my invoices",
+    "invoice option not available",
+    "option to view invoices unavailable",
+    "can't find invoice",
+    "cant do billing",  
+    "can't view my invoice",
+    "cant access invoice",
+    "can't access invoice",
+    "cant access invoicing"
+  ],
+   "cannot-apply-feature-code": [
+    "can not apply my feature code",
+    "feature code does not work",
+    "feature code not working",   
+    "promo code does not work",
+    "feature code cannot be applied",
+    "unable to apply feature code",
+    "can't use feature code",
+    "can't apply promo code",  
+    "promotional code for a trial account does not work",  
+    "can't use the promo code"
+  ],
+  "cant-create-service-feature-code": [
+    "feature code doesn't work for a new service",
+    "feature code doesn't work as cant add a service",
+    "can't create service with my feature code",
+    "cannot create service feature code",
+    "unable to create resource after code",
+    "cant add service Lite account",
+    "cant provision service for course"
+  ]
 }
 
