@@ -27,6 +27,7 @@
     "can i use a prepaid card",  
     "change payment method",
     "need to update my credit card",
+    "help adding a credit card",
     "add payment method",  
     "can I use paypal",
     "pay with paypal",
@@ -46,7 +47,10 @@
     "Declined due to Risk management",
     "Problem authorizing the credit card. We are unable to process your request",
     "card declined due to risk management",
+    "Unable to bind credit card",
+    "unable to add my credit card. it shows failed due to risk management",
     "Unable to verify the credit card. Authorization declined",
+    "Your credit card attempt limit has been exceeded",
     "error Credit card authorization issue",   
     "risk management error",   
     "credit card won't process"
@@ -56,6 +60,8 @@
     "feature codes different than promotional codes",
     "redeeming feature codes versus promo codes",
     "promo code",
+    "promocodes",
+    "promo",  
     "Find Feature or Promo Codes",
     "feature code"
   ],
@@ -70,7 +76,15 @@
     "want to apply a promo code",
     "where to apply promocode",
     "I have promo code",  
+    "I have a promo code",
+    "how to apply promo code",
     "apply promo code to lite account",  
+    "have a promo code for gift",
+    "Where to apply promo code",
+    "managing promotions",
+    "where promo code must apply",
+    "where can I type promo code",
+    "where should i enter promo code",
     "activate my trial account promotion code",  
     "Where do I put in a promotion code"
   ],
@@ -88,7 +102,7 @@
     "enter feature code",
     "enter promotional feature code",
     "code for trial account",
-    "convert Lite account",
+    "got a discount code, where should I use it",
     "Lite promo code"
   ],
   "subs-minimum": [
@@ -108,6 +122,10 @@
     "apply subscription credit",
     "add subscription credits",
     "trying to set up the $12k of credits",
+    "what my subscription code gives me", 
+    "can I register my subscription code",
+    "need a free ibm lite plan subscription code",
+    "subscription code",
     "load my $1000 credits" 
   ],
   "subs-pay-schedule": [
@@ -158,11 +176,13 @@
     "spending notifications",
     "get spending alert",
     "set spending limit",
+    "set spending limits on my account",
     "set usage notification"
   ], 
   "access-invoices": [
     "Where is my invoice",
     "find my invoice",
+    "invoice",
     "invoice location",
     "access statement on my account",
     "see my bill",
@@ -213,8 +233,12 @@
    "find credit",
    "check credit balance",   
    "see credit from upgrade",
+   "Where do I see my free credit",
    "Cannot see my $300 credit",
+   "Remaining Credit",
+   "do i have credit",
    "can not see my credit",
+   "check my available credits in IBM Cloud",
    "check for my credit"
   ],
   "contactsupport": [
@@ -237,6 +261,9 @@
     "suspend this account",
     "deactivate my IBM cloud account",
     "how to deactivate the account",
+    "how can i deactivate my account",
+    "i want to deactivate my account",
+    "how do I cancel my account",  
     "deactivate account"  
   ],
   "deleteaccount": [
@@ -255,6 +282,7 @@
     "close this account",
     "like to decommission my account",
     "account closure",
+    "like to unsubscribe your ibm account",
     "account deletion"
   ],
   "billing-address": [
@@ -275,6 +303,7 @@
     "don't have permission to access invoices",  
     "I get a message when trying to view my billing info",
     "unable to access usage statement",
+     "Billing & Usage is not working",
     "where is my billing info"
   ],
   "cannot-apply-subscription-code": [
@@ -283,6 +312,7 @@
     "subscription code issue",
     "subscription code cannot be applied",
     "unable to use subscription code",
+    "how do i use my $1200 credit",
     "cant apply subscription code"
   ],
   "ts_ccibm": [
@@ -302,6 +332,7 @@
     "can't find invoice",
     "cant do billing",  
     "can't view my invoice",
+    "I can not find my invoice",
     "cant access invoice",
     "can't access invoice",
     "cant access invoicing"
@@ -328,4 +359,3 @@
     "cant provision service for course"
   ]
 }
-
