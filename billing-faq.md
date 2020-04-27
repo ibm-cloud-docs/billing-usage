@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-04-08"
+lastupdated: "2020-04-27"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -126,25 +126,6 @@ If the credit isn't on the Usage page, go to **Invoices** and click link with th
 {: faq}
 
 Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud support.
-
-## How do I cancel my account?
-{: #cancelmyaccount}
-{: faq}
-
-We're sad to see you go! If there's any way we can assist you with your account before you go, reach out to us by contacting support.
-
-If you do decide to leave, how you cancel your account depends on your account type. You can check your account type by going to [Account settings](https://cloud.ibm.com/account/settings) and looking under _Account Type_.
-
-* For Pay-As-You-Go or Subscription accounts, the quickest way to cancel your account is to contact us through [live chat](https://{DomainName}/unifiedsupport/supportcenter) or by calling 1-866-325-0045 and selecting the third option. Alternatively, you can open a support case.
-* To cancel a Lite account, go to [Account settings](https://{DomainName}/account/settings) and click **Deactivate account**.
-
-## How do I delete my account?
-{: #deleteaccount}
-{: faq}
-
-Contact [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} to open a support case and request to delete your account. If you have data that is associated with your old account that you want to move to a new account, include this information in your email.
-
-Data in deleted accounts is not recoverable.
 
 ## Where can I view the billing address for my account? 
 {: #billing-address}
