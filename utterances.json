@@ -28,7 +28,8 @@
     "change payment method",
     "need to update my credit card",
     "help adding a credit card",
-    "add payment method",  
+    "add payment method",
+    "adding a credit card",
     "can I use paypal",
     "pay with paypal",
     "pay using Paypal"
@@ -93,6 +94,7 @@
     "get my promotion code",
     "receive a promo code",
     "go to get promotion",
+    "I need promo code", 
     "where are promo codes"
   ],
   
@@ -102,6 +104,7 @@
     "enter feature code",
     "enter promotional feature code",
     "code for trial account",
+    "how do i find my feature code", 
     "got a discount code, where should I use it",
     "Lite promo code"
   ],
@@ -125,6 +128,8 @@
     "what my subscription code gives me", 
     "can I register my subscription code",
     "need a free ibm lite plan subscription code",
+    "add credit to my domain reseller account",
+    "How can I apply $200 Credit",
     "subscription code",
     "load my $1000 credits" 
   ],
@@ -169,6 +174,8 @@
     "how is usage calculated",
     "current month costs",
     "inquire about usage",
+    "what are my costs to date",
+    "what have I spent so far", 
     "documentation on how usage is calculated",
     "monitor my spending"
   ],
@@ -191,6 +198,7 @@
     "access invoicing",
     "how much is my bill",
     "billing access",
+    "Do I receive invoices",
     "access statement"
   ],
   "usage-not-match-invoice": [
@@ -263,6 +271,7 @@
     "how to deactivate the account",
     "how can i deactivate my account",
     "i want to deactivate my account",
+    "CANCEL MY ACCOUNT PLEASE", 
     "how do I cancel my account",  
     "deactivate account"  
   ],
@@ -283,6 +292,11 @@
     "like to decommission my account",
     "account closure",
     "like to unsubscribe your ibm account",
+    "delete or sunset my account, how can I do that",
+    "Delete my IBM account",
+    "I would like to terminate my account",
+    "I would like to close my cloud account",
+    "please close this account with immediate effect",
     "account deletion"
   ],
   "billing-address": [
@@ -333,6 +347,7 @@
     "cant do billing",  
     "can't view my invoice",
     "I can not find my invoice",
+    "I cannot find any related invoice",
     "cant access invoice",
     "can't access invoice",
     "cant access invoicing"
