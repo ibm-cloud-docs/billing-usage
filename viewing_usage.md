@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-04-29"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -13,6 +13,8 @@ subcollection: billing-usage
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:help: data-hd-content-type='help'} 
+{:support: data-reuse='support'} 
 {:new_window: target="_blank"}
 {:tip: .tip}
 
@@ -35,12 +37,14 @@ For more information about access roles, see [IAM access](/docs/iam?topic=iam-us
 
 ## Viewing service usage details
 {: #services}
+{: help} 
+{: support}
 
 In the Services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps:
 
-1. {{site.data.keyword.cloud}} **Manage > Billing and usage**, and select **Usage**.
-2. Click **View instances** to view all the instances of a specific type of resource.  
-3. To see a detailed summary of estimated charges for each instance of a specific resource type, click **View instance details**. You can also see the detailed monthly usage metrics for the selected instance.
+1. In the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Usage**.
+2. Click **View plans** to view all the instances of a specific type of resource.  
+3. To see a detailed summary of estimated charges for each instance of a specific resource type, click **View details**. You can also see the detailed monthly usage metrics for the selected instance.
 
 The account is billed for the total usage that is incurred across all groups and organizations at the end of each billing cycle. Each billing cycle lasts one month.
 
@@ -52,6 +56,8 @@ The account owner of a billable account can set spending notifications against t
 
 ## Exporting your usage details to a `.csv` file
 {: #export-csv}
+{: help} 
+{: support}
 
 You can export a summary of your account's usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details.
 
