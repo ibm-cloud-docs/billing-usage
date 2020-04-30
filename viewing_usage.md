@@ -31,7 +31,7 @@ You can view your {{site.data.keyword.cloud}} usage details, including a summary
 Ensure that you have the access that's required to view usage data for the resources. Access can be assigned at the account level or to individual resource groups and Cloud Foundry orgs.
 * To view usage for all resources in the account, you need an access policy with the Administrator role on the Billing account management service. 
 * To view usage only for specific {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) resources, you need the Viewer role on the resource group.
-* To view usage only for specific Cloud Foundry services, you need the Billing manager role must be applied at the org level. Billing managers can see the details for only the organizations in which they are assigned the Billing manager role.
+* To view usage only for specific Cloud Foundry services, the Billing manager role must be applied at the org level. Billing managers can see the details for only the organizations in which they are assigned the Billing manager role.
 
 For more information about access roles, see [IAM access](/docs/iam?topic=iam-userroles) and [Cloud foundry access](/docs/iam?topic=iam-cfaccess).
 
