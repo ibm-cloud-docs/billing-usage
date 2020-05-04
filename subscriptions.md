@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2019-04-10"
+lastupdated: "2020-05-04"
 
-keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code, expiring subscription, expired subscription
+keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code, expiring subscription, expired subscription 
 
 subcollection: billing-usage
 
@@ -36,7 +36,7 @@ Subscriptions can provide the following two types of credit, which are divided i
 * Credit from platform subscriptions that pays for resource usage
 * Credit from support subscriptions that pays for support costs
 
-Each platform or support subscription is purchased for a credit amount and duration. If the subscription duration is more than a year, the subscription is separated into terms of up to one year each. Each term has distinct start dates, end dates, and available credit. You can use the available credit at any point during the term, but credit doesn't roll over to any following terms in the subscription. You can get extra flexibility to use credit from terms that haven't yet started by paying up-front for the entire subscription rather than using monthly, quarterly, or another recurring billing cadence. If your usage exceeds your available credit, the extra usage is billed as overage at the non-discounted rate.
+Each platform or support subscription is purchased for a given credit amount and duration. If the subscription duration is more than a year, the subscription is separated into terms of up to one year each. Each term has distinct start dates, end dates, and available credit. You can use the available credit at any point during the term, but credit doesn't roll over to any following terms in the subscription. You can get extra flexibility to use credit from terms that haven't yet started by paying up-front for the entire subscription rather than using monthly, quarterly, or another recurring billing cadence. If your usage exceeds your available credit, the extra usage is billed as overage at the non-discounted rate.
 
 For example, say that you buy an {{site.data.keyword.cloud_notm}} platform subscription for $1,000 a month for two years, and the subscription starts 1 July 2019. The subscription is divided into two terms that each contain $12,000 of credit, with one term valid from 1 July 2019 through 30 June 2020, and the next term valid from 1 July 2020 through 30 June 2021. You can use the $12,000 credit of the first term at any time during its one-year period, whether it's $6,500 the first month and $500 a month afterward or $1,000 each month. If you spend $13,000 during that time period and don't have any other active subscriptions, the extra $1,000 is billed as overage.
 
@@ -57,7 +57,7 @@ Support subscriptions that you buy after 24 September 2019 can be spent as descr
 {: help} 
 {: support}
 
-You can view the subscriptions in your account to track your credit spending. To access this information, you need an access policy with the Administrator role on the Billing account management service. See [IAM access](/docs/iam?topic=iam-userroles) for more information.
+You can view the subscriptions in your account to track your credit spending. To access this information, you need an access policy with the Viewer role or higher on the Billing account management service. See [IAM access](/docs/iam?topic=iam-userroles) for more information.
 
 ### Platform subscriptions
 {: #platform-service-subscriptions}
@@ -72,7 +72,7 @@ You can use the spending and usage information on the Subscriptions page to eval
 ### Support subscriptions
 {: #view-support-subscriptions}
 
-To view support subscription usage, in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Billing and usage**, and select **Support costs**. You can view the remaining credit in your active support subscriptions and any upcoming subscriptions that aren't yet valid. For more information, see [Viewing your support costs](/docs/billing-usage?topic=billing-usage-support).
+To view support subscription usage, in the console, go to **Manage > Billing and usage**, and select **Support costs**. You can view the remaining credit in your active support subscriptions and any upcoming subscriptions that aren't yet valid. For more information, see [Viewing your support costs](/docs/billing-usage?topic=billing-usage-support).
 
 ## Subscription credit
 {: #subscription-codes}
