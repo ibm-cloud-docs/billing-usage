@@ -53,6 +53,9 @@
     "Unable to verify the credit card. Authorization declined",
     "Your credit card attempt limit has been exceeded",
     "error Credit card authorization issue",   
+    "Why is my credit card not accepted",
+    "message i am receiving is that my credit card has expired",
+    "unable to upgrade my account by adding a credit card",   
     "risk management error",   
     "credit card won't process"
   ],
@@ -87,6 +90,7 @@
     "where can I type promo code",
     "where should i enter promo code",
     "activate my trial account promotion code",  
+    "have a promo code for IBM Cloud, how do I use it",  
     "Where do I put in a promotion code"
   ],
   "get-promo-code": [
@@ -172,6 +176,9 @@
     "view usage",
     "how much have i spent",
     "how is usage calculated",
+    "view recently created cost estimates",
+    "I need to know about cost",
+    "what my will my next payment be",  
     "current month costs",
     "inquire about usage",
     "what are my costs to date",
@@ -199,6 +206,9 @@
     "how much is my bill",
     "billing access",
     "Do I receive invoices",
+    "How do I use Invoices",  
+    "use IBM Invoices for IBM Cloud billing and payment", 
+    "would like to get my invoice",  
     "access statement"
   ],
   "usage-not-match-invoice": [
@@ -221,6 +231,8 @@
   "paperless-invoices": [
     "paperless invoices",
     "email my invoice",
+    "send invoice to email address every month",
+    "send invoices to email address",  
     "electronic billing",
     "receive a paperless bill",
     "paperless invoicing",
@@ -238,6 +250,9 @@
   "receive-credit": [
    "didn't receive any credit",
    "where can I see my $200 credit",
+   "how much credits do i have",
+   "know credits in my account",
+   "How many credits remaining in my account",
    "find credit",
    "check credit balance",   
    "see credit from upgrade",
@@ -318,6 +333,8 @@
     "I get a message when trying to view my billing info",
     "unable to access usage statement",
      "Billing & Usage is not working",
+    "I cannot access my bills",
+    "cannot access my invoice",   
     "where is my billing info"
   ],
   "cannot-apply-subscription-code": [
