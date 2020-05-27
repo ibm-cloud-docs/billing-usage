@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-05-27"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -55,7 +55,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 ## Automate billing and usage management by using the CLI or APIs
 {: #billing-cli-apis}
 
-If you want to automate how you review your resource usage and any associated costs, you can use the [`ibmcloud billing`](/docs/cli?topic=cloud-cli-ibmcloud_billing) CLI or the [Usage Metering ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/apidocs/usage-metering){: new_window} and [Usage Reports ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/apidocs/metering-reporting){: new_window} APIs to integrate this functionality into your own apps.
+If you want to automate how you review your resource usage and any associated costs, you can use the [`ibmcloud billing`](/docs/cli?topic=cli-ibmcloud_billing#ibmcloud_billing_org_usage) CLI or the [Usage Metering ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/apidocs/usage-metering){: new_window} and [Usage Reports ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/apidocs/metering-reporting){: new_window} APIs to integrate this functionality into your own apps.
 
 To get started using the APIs, set up the [{{site.data.keyword.Bluemix_notm}} usage sample dashboard ![External link icon](../icons/launch-glyph.svg)](https://github.com/IBM-Cloud/openwhisk-cloud-usage-sample){: new_window}. Using {{site.data.keyword.openwhisk}}, the sample implements an API-driven approach to obtain and visualize {{site.data.keyword.Bluemix_notm}} usage and billing data.
 {: tip}
