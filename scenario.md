@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-03-12"
+lastupdated: "2020-06-02"
 
 keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
@@ -51,8 +51,8 @@ The price of the app can be calculated in the following way:
   
    {{site.data.keyword.Bluemix_notm}} charges for a runtime by GB-hours. The number of GB used per month is `4 x 256 = 1024 MB or 1 GB per month`. Assume that there are `24 x 30 = 720 hours in a month`, so the application is charged for `1 x 720 = 720 GB-hours`.
 
-   375 GB-hours are included in a free allowance per month, which is shared across all {{site.data.keyword.Bluemix_notm}} runtimes. So the total cost for the runtime is `$0.07 x (720-375) = $24.15`.
-
+   {{site.data.keyword.Bluemix_notm}} offers a free tier of [Cloud Foundry application usage](/docs/account?topic=account-accounts) that affects the overall cost of an application that's running.
+   
 * **Two {{site.data.keyword.autoscaling}} policies (processor and memory)**
   
    The {{site.data.keyword.autoscaling}} policies are free of charge.
