@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-04-27"
+lastupdated: "2020-06-16"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -39,7 +39,7 @@ Multiply the two values together, and the result is the GB-hour.
 {: #monthlyquota}
 {: faq}
 
-When you reach any quota limit for Lite plan instances, the service for that month is suspended. Quota limits are per org and not per instance. New instances that are created in the same org show any usage from previous instances. The quota limits reset on the first of every month.
+When you reach any quota for Lite plan instances, the service for that month is suspended. Quotas are based per org and not per instance. New instances that are created in the same org show any usage from previous instances. The quota resets on the first of every month.
 
 ## How do I update my credit card?
 {: #updatecard}
