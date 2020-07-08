@@ -16,7 +16,6 @@ subcollection: billing-usage
 {:screen: .screen}
 {:help: data-hd-content-type='help'} 
 {:support: data-reuse='support'} 
-{:new_window: target="_blank"}
 {:note: .note}
 
 # Setting spending notifications

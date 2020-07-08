@@ -13,7 +13,6 @@ subcollection: billing-usage
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
 {:external: target="_blank" .external}
 {:faq: data-hd-content-type='faq'}
 {:support: data-reuse='support'}
@@ -41,7 +40,7 @@ You might be looking for information about promo codes and feature codes, which 
 {: #subs-pay-schedule}
 {: faq}
 
-Yes! By default, you're billed monthly for your subscriptions. If you'd like to pay up-front or quarterly, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: new_window} ![External link icon](../icons/launch-glyph.svg).
+Yes! By default, you're billed monthly for your subscriptions. If you'd like to pay up-front or quarterly, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} ![External link icon](../icons/launch-glyph.svg).
 
 ## Can I spend more or less than my monthly commitment?  
 {: #subs-spending}
@@ -53,7 +52,7 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 {: #subs-spend-before-term-end}
 {: faq}
 
-You're required to continue paying your monthly charges until the end of your term. You're charged the non-discounted rate for any usage that goes over your total subscription amount. To avoid overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: new_window} ![External link icon](../icons/launch-glyph.svg) to sign up for a new subscription.
+You're required to continue paying your monthly charges until the end of your term. You're charged the non-discounted rate for any usage that goes over your total subscription amount. To avoid overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} ![External link icon](../icons/launch-glyph.svg) to sign up for a new subscription.
 
 ## Can I cancel my Subscription account before the end of my term commitment?  
 {: #subs-cancel-early}

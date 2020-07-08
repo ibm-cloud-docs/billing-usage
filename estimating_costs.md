@@ -15,7 +15,7 @@ subcollection: billing-usage
 {:tip: .tip}
 {:note: .note}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Estimating your costs
 {: #cost}
@@ -23,7 +23,7 @@ subcollection: billing-usage
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} offerings by customizing plans for your needs.
 {:shortdesc}
 
-1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the offering that you're interested in.
+1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: external} ![External link icon](../icons/launch-glyph.svg "External link icon"), and select the offering that you're interested in.
 
      Depending on the offering, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
 1. From the offering details page, select your pricing plan and enter other configuration details if needed. Then, click **Add to estimate**.

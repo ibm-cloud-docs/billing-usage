@@ -14,7 +14,7 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 
 # How you're charged

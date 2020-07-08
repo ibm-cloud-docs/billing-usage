@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-07-08"
 
 keywords: subscription code, subscription credit, discount code, promo code, feature code 
 
@@ -17,7 +17,7 @@ subcollection: billing-usage
 {:screen: .screen}
 {:help: data-hd-content-type='help'} 
 {:support: data-reuse='support'}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:note: .note}
 
 # Applying subscription codes 
@@ -30,11 +30,11 @@ After you buy a subscription for platform or support credit, you add the credit 
 If you set up your first subscription through the Subscriptions page, the credit for this subscription is automatically added to your account - no code required.
 {: tip}
 
-After {{site.data.keyword.Bluemix_notm}} Sales places the order, an email with the subscription code for each subscription and support line item is sent to the appropriate contact. If you bought a subscription and didn't receive your subscription code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/contact-us/){: new_window} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
+After {{site.data.keyword.Bluemix_notm}} Sales places the order, an email with the subscription code for each subscription and support line item is sent to the appropriate contact. If you bought a subscription and didn't receive your subscription code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/contact-us/){: external} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
 
 Only the account owner or a user with the Editor or Administrator role on the Billing account management service can apply the subscription code. If you don't have access to apply subscription codes, the account owner or administrator can provide access. See [Assigning access to account management services](/docs/iam?topic=iam-account-services) for more information.
 
-1. Open the email with the subscription code. If you bought a subscription and didn't receive your subscription code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/contact-us/){: new_window} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
+1. Open the email with the subscription code. If you bought a subscription and didn't receive your subscription code, [contact us ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/contact-us/){: external} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
 2. Click **Add subscription**. 
 3. Sign in to the console with your IBMid and password. 
 4. From the modal, choose the account you'd like to add the subscription to, select **I understand**, and then click **Add**. 

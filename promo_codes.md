@@ -15,7 +15,6 @@ subcollection: billing-usage
 {:tip: .tip}
 {:important: .important}
 {:screen: .screen}
-{:new_window: target="_blank"}
 {:note: .note}
 
 # Applying promo codes

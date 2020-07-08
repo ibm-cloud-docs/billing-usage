@@ -1,10 +1,11 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-01-13"
+  years: 2018, 2019
+lastupdated: "2019-08-16"
 
-keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice, billing item
+keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice, billing item 
+
 subcollection: billing-usage
 
 ---
@@ -12,7 +13,8 @@ subcollection: billing-usage
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:help: data-hd-content-type='help'} 
+{:support: data-reuse='support'} 
 {:tip: .tip}
 
 
@@ -39,6 +41,8 @@ To view billing and usage for classic infrastructure resources, you need an acce
 
 ## Viewing device and service purchase information
 {: #infra-orders}
+{: help} 
+{: support}
 
 You can view information about your classic infrastructure device and service purchases by selecting an option from the **Sales** navigation.
 
@@ -48,5 +52,5 @@ You can view information about your classic infrastructure device and service pu
 * Select **Orders** to view a list of all the orders made in your account. To view this page, you need the Add/Upgrade Storage (StorageLayer), Add Server, or Add/Upgrade Services [classic infrastructure permission](/docs/iam?topic=iam-mngclassicinfra). 
 * Select **Cancellations** to view all cancellations on your account. To view this page, you need both the Cancel server and Cancel services classic infrastructure permissions.
 
-  You can view a list of all of the cancellations that are made in the account, and you can view them by type of device or service. The cancellations show the device name and the case number. This list tracks ongoing and closed cases, and you can view your messages with support.  
+  You can view a list of all of the cancellations made in the account, and you can view them by type of device or service. The cancellations show the device name and the case number. This list tracks ongoing and closed cases, and you can view your messages with support.  
 * Select **Shipments** to view your digital shipments, such as data transfer requests or physical shipments. To view this page, you need an access policy with the Viewer role or higher on the Billing service.

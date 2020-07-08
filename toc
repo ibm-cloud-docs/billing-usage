@@ -49,10 +49,10 @@ Managing billing and usage
     
     {: .topicgroup}
     API reference
-        [Usage Metering](https://{DomainName}/apidocs/usage-metering){: new_window}
-        [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: new_window}
-        [Enterprise Billing Units](https://{DomainName}/apidocs/enterprise-apis/billing-unit){: new_window}
-        [Enterprise Usage Reports](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: new_window}
+        [Usage Metering](https://{DomainName}/apidocs/usage-metering){: external }
+        [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: external}
+        [Enterprise Billing Units](https://{DomainName}/apidocs/enterprise-apis/billing-unit){: external}
+        [Enterprise Usage Reports](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

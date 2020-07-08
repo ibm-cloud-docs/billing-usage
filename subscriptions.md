@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-05-04"
+lastupdated: "2020-07-08"
 
 keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code, expiring subscription, expired subscription 
 
@@ -17,7 +17,7 @@ subcollection: billing-usage
 {:screen: .screen}
 {:help: data-hd-content-type='help'} 
 {:support: data-reuse='support'}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:note: .note}
 
 # Managing subscriptions
@@ -67,7 +67,7 @@ To view your platform and service subscription usage, in the {{site.data.keyword
   * Click the tabs to view spending details and trends about your subscription usage, including any usage overages that your account incurred. For example, the credit burndown view displays how your credit balance changes over time, and the spending by month view displays your monthly spending from all subscriptions.
   * View all active and inactive subscriptions in your account in the tables. For multi-year subscriptions, each term is displayed separately. Active subscriptions are subscriptions that still have remaining credit to spend and time that's left in the subscription term. Upcoming subscriptions are subscriptions were added to the account but haven't yet reached their term period. A subscription is inactive if its term expires or all of its credit is spent.
 
-You can use the spending and usage information on the Subscriptions page to evaluate whether your subscriptions suit your usage needs. For example, if you consistently have overages, you might increase your monthly spending commitment to save money on that usage. To buy new subscriptions or change future subscription amounts, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: new_window} ![External link icon](../icons/launch-glyph.svg).
+You can use the spending and usage information on the Subscriptions page to evaluate whether your subscriptions suit your usage needs. For example, if you consistently have overages, you might increase your monthly spending commitment to save money on that usage. To buy new subscriptions or change future subscription amounts, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} ![External link icon](../icons/launch-glyph.svg).
 
 ### Support subscriptions
 {: #view-support-subscriptions}

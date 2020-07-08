@@ -13,7 +13,7 @@ subcollection: billing-usage
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 
 # Viewing your support costs
@@ -25,7 +25,7 @@ If you have Advanced or Premium support, you can keep track of your monthly supp
 ## How you're charged for support
 {: #how-support}
 
-Each [{{site.data.keyword.Bluemix_notm}} support plan](/docs/get-support?topic=get-support-support-plans) has a minimum monthly price for providing support for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost. For details about your purchased support plan, contact [{{site.data.keyword.Bluemix_notm}} Sales ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog?contactmodule){: new_window}.
+Each [{{site.data.keyword.Bluemix_notm}} support plan](/docs/get-support?topic=get-support-support-plans) has a minimum monthly price for providing support for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost. For details about your purchased support plan, contact [{{site.data.keyword.Bluemix_notm}} Sales ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog?contactmodule){: external}.
 
 ## Viewing support costs
 {: #view-support}

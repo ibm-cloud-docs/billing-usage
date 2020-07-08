@@ -13,7 +13,6 @@ subcollection: billing-usage
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
 
 # Scenario: Estimating costs of an example Node app
 {: #sample}

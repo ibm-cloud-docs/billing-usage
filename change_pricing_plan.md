@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-07-07"
+lastupdated: "2020-06-03"
 
 keywords: change service, upgrade service, service plan, pricing plan
 
@@ -14,7 +14,7 @@ subcollection: account
 {:tip: .tip}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 
 # Updating your pricing plan
