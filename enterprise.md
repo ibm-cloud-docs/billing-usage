@@ -16,6 +16,7 @@ subcollection: billing-usage
 {:screen: .screen}
 {:note: .note}
 {:term: .term}
+{:external: target="_blank" .external}
 
 # Centrally managing billing and usage with enterprises
 {: #enterprise}
