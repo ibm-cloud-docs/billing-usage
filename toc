@@ -16,6 +16,7 @@ Managing billing and usage
     Managing your costs
         estimating_costs.md
         how_charged.md
+        change_pricing_plan.md
         notifications.md
 
     {: .topicgroup}
