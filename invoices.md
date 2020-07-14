@@ -48,7 +48,7 @@ To access your invoices in the future, you can click the link from the Invoices 
 
 To switch to paperless invoicing, you must submit a request to {{site.data.keyword.IBM_notm}} in writing through the {{site.data.keyword.IBM_notm}} Customer Support site. Paperless invoicing isn't available in all regions. 
 
-1. Go to [{{site.data.keyword.IBM_notm}} Customer Support ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html){: external}, and select your region. 
+1. Go to [{{site.data.keyword.IBM_notm}} Customer Support](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html){: external}, and select your region. 
 2. Click **Contact us**. 
 3. Click **Email us** in the Invoice, payment section.
 4. Provide your {{site.data.keyword.IBM_notm}} customer number in your request to change to paperless billing. Click **Save**. If you don't know your customer number, contact {{site.data.keyword.Bluemix_notm}} Support by calling 1-866-325-0045 and selecting the third option or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help. 

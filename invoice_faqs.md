@@ -34,14 +34,14 @@ Review the following FAQs to find helpful information about invoices. To find al
 
 If you have a billable account, you can access your invoice by clicking **Manage > Billing and usage**, and selecting **Invoices**. If you have a Lite account, you don't have an invoice because you're never charged for Lite plan usage.
 
-For Pay-As-You-Go accounts that aren't billed in US dollars or Subscription accounts, you can also view your invoices on the [IBM Invoices website](https://www.ibm.com/invoices){: external} ![External link icon](../icons/launch-glyph.svg). See [How do I view invoices for Pay-As-You-Go or Subscription accounts?](/docs/billing-usage?topic=billing-usage-ts_cant-view-invoice).
+For Pay-As-You-Go accounts that aren't billed in US dollars or Subscription accounts, you can also view your invoices on the [IBM Invoices website](https://www.ibm.com/invoices){: external}. See [How do I view invoices for Pay-As-You-Go or Subscription accounts?](/docs/billing-usage?topic=billing-usage-ts_cant-view-invoice).
 
 ## Why does my usage not match my invoice?
 {: #usage-not-match-invoice}
 {: faq}
 {: support}
 
-Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](https://{DomainName}/unifiedsupport/supportcenter){: external} ![External link icon](../icons/launch-glyph.svg).
+Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## Why can't I manage my invoices?
 {: #slperm-manage-invoices}
