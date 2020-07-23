@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-08"
+lastupdated: "2020-07-23"
 
 keywords: GB-hour, container usage, runtime, charge
 
@@ -47,7 +47,7 @@ Your usage might not match your invoice because the months that are used to comp
 {: #slperm-manage-invoices}
 {: faq}
 
-The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/iam?topic=iam-migrated_permissions).
+The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/account?topic=account-migrated_permissions).
 
 ## How do I request paperless invoicing? 
 {: #paperless-invoices}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-07-23"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -43,7 +43,7 @@ Complete the following steps to apply promo codes to your account and services:
 You can also apply promo codes for specific services from the catalog when you create a resource. To apply the code, select a billable plan, enter the promo code, and click **Apply**. The promo code is added to your account even if you don't create the service. 
 {: tip}
 
-Existing classic infrastructure promo codes can be applied only through the catalog when you create those classic infrastructure services. To apply these promo codes, you must have one of the following classic infrastructure permissions on the account: add or upgrade storage, add or upgrade services, or add server. For more information, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission). 
+Existing classic infrastructure promo codes can be applied only through the catalog when you create those classic infrastructure services. To apply these promo codes, you must have one of the following classic infrastructure permissions on the account: add or upgrade storage, add or upgrade services, or add server. For more information, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission). 
 
 ## Viewing your promotions
 {: #viewing-promotions}

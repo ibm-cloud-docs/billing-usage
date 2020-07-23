@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-07-23"
 
 keywords: troubleshoot billing, billing error, billing info, can't access billing, function unavailable
 
@@ -43,4 +43,4 @@ Check your access by completing the following steps:
   3. Click **Access policies** to view your assigned IAM access policies.
   4. If you don't have the required access, contact the account owner to request it.
 
-For more information about account management services, see [Assigning access to account management services](/docs/iam?topic=iam-account-services).
+For more information about account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services).

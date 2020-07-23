@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-09"
+lastupdated: "2020-07-23"
 
 keywords: troubleshoot billing, subscription code, subscription code error, can't apply subscription code, code applied 
 
@@ -35,5 +35,5 @@ You might see this error if you don't have the required access in the account or
 Use the following options: 
 {: tsResolve}
 
-- Verify that you have access to apply the code. To apply any code, you must have an Editor role or higher on all account management services. To view or change roles, see [Assigning access to account management services](/docs/iam?topic=iam-account-services).
+- Verify that you have access to apply the code. To apply any code, you must have an Editor role or higher on all account management services. To view or change roles, see [Assigning access to account management services](/docs/account?topic=account-account-services).
 - Contact the person who provided the code for help with reissuing an expired code.

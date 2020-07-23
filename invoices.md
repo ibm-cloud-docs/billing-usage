@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-07-23"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website 
 
@@ -32,11 +32,11 @@ You can now view your IBM Cloud classic infrastructure invoices from the Billing
 ## Viewing your invoices outside of the console
 {: #viewing-external-invoices}
 
-If you have a Pay-As-You-Go account that is billed in a currency other than US dollars or a Subscription account, you view your invoices on the [IBM Invoices](http://ibm.com/invoices){: external} website that's linked from the Invoices page in the console.
+If you have a Pay-As-You-Go account that is billed in a currency other than US dollars or a Subscription account, you view your invoices on the [IBM Invoices](https://www.ibm.com/support/customer/invoices/){: external} website that's linked from the Invoices page in the console.
 
 If you're visiting the Invoices website for the first time you can sign up with your IBMid and complete your profile, then add access to your account with your IBM customer number. An IBM customer number identifies IBM customers during registration and during other interactions with IBM Support.
 
-1. Go to [IBM Invoices](http://ibm.com/invoices){: external}, and select your region.
+1. Go to [IBM Invoices](https://www.ibm.com/support/customer/invoices/){: external}, and select your region.
 1. Log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}. 
 1. Complete your profile on the Invoices website. 
 1. Go to the **Active and pending accesses** tab. Add access to your account and provide your IBM customer number. If you don't know your customer number, contact IBM Cloud Support by calling 1-866-325-0045 and selecting the third option or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help. 

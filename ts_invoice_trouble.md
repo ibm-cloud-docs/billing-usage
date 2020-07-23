@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-27"
+lastupdated: "2020-07-23"
 
 keywords: troubleshoot billing, manage invoice, can't view invoice
 
@@ -35,13 +35,13 @@ When you try to view your invoices, one of the following messages is displayed:
 
 `This account is invoiced on a separate billing platform.`
 
-If you have a Pay-As-You-Go account that is billed in a currency other than US dollars or a Subscription account, you view your invoices on the [IBM Invoices](http://ibm.com/invoices){: external} website, which is linked from the Invoices page in the console.
+If you have a Pay-As-You-Go account that is billed in a currency other than US dollars or a Subscription account, you view your invoices on the [IBM Invoices](https://www.ibm.com/support/customer/invoices/){: external} website, which is linked from the Invoices page in the console.
 {: tsCauses}
 
 If you're visiting the Invoices website for the first time, sign up with your IBMid and complete your profile. Then, add access to your account with your IBM customer number.
 {: tsResolve}
 
-1. Go to [IBM Invoices](http://ibm.com/invoices){: external}, and select your region.
+1. Go to [IBM Invoices](https://www.ibm.com/support/customer/invoices/){: external}, and select your region.
 1. Log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}. 
 1. Complete your profile on the Invoices website. 
 1. From the Invoices website, go to the Accesses tab. Add access to your account and provide your IBM customer number. If you don't know your customer number, contact IBM Cloud Support by calling 1-866-325-0045 and selecting the third option or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help. 

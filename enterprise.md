@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-07-08"
+lastupdated: "2020-07-23"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -129,4 +129,4 @@ In an enterprise, billing access and usage access are assigned separately.
 If you want your billing administrator to be able to view costs by account or account group, be sure to assign them the appropriate access on both the Enterprise service and Billing service.
 {: tip}
 
-For more information, see [User and access management for enterprises](/docs/iam?topic=iam-enterprise-access).
+For more information, see [User and access management for enterprises](/docs/account?topic=account-enterprise-access).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-07-23"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator
 
@@ -44,7 +44,7 @@ You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluem
 ## Creating quotes for classic infrastructure services
 {: #quotes}
 
-You can generate and view quotes for only {{site.data.keyword.baremetal_short}}, Virtual Server, and Gateway add-ons. Any user with access to the account can create quotes. To view quotes, you need to either be the account owner or have the Add/Upgrade Storage (StorageLayer), Add Server, or Add/Upgrade Services [classic infrastructure permission](/docs/iam?topic=iam-mngclassicinfra).
+You can generate and view quotes for only {{site.data.keyword.baremetal_short}}, Virtual Server, and Gateway add-ons. Any user with access to the account can create quotes. To view quotes, you need to either be the account owner or have the Add/Upgrade Storage (StorageLayer), Add Server, or Add/Upgrade Services [classic infrastructure permission](/docs/account?topic=account-mngclassicinfra).
 
    1. Generate a quote by clicking **Save as quote** from the Order Summary section on the offering details page. Or contact a {{site.data.keyword.Bluemix_notm}} sales representative.
 

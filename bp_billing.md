@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-05-27"
+lastupdated: "2020-07-23"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -44,7 +44,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 
    For example, you might have resources for two projects in a single account, Project ABC and Project XYZ. Project ABC has a {{site.data.keyword.containershort_notm}} cluster, a few Cloud Foundry app deployments, and an {{site.data.keyword.cloudant_short_notm}} database. You can add the `project:abc` tag to all of these resources to distinguish these resources for Project ABC from similar resources in Project XYZ that are tagged `project:xyz`.
 
-   For more information about adding and using tags, see [Working with tags](/docs/resources?topic=resources-tag).
+   For more information about adding and using tags, see [Working with tags](/docs/account?topic=account-tag).
 
 1. Track costs for the tagged resources by exporting the usage report for your instances. To export the report in the IBM Cloud console, go to **Manage > Billing and usage**, and select **Usage**. Then, click **Export CSV > Instance**.
 
