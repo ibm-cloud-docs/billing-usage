@@ -5,17 +5,6 @@
     "runtime usage charges",
     "container usage charges"
   ],
-  "monthlyquota": [
-    "is there a quota for a lite plan",
-    "do I get charged for a lite plan",
-    "does a lite plan get suspended",
-    "quota is met on a lite plan",
-    "lite plan quotas per month",
-    "lite account quotas per instance",
-    "lite quotas reset per month",
-    "lite plan monthly quotas",
-    "quotas for lite plan instances"
-  ],  
   "updatecard": [
     "change credit card info",
     "edit my credit card",
@@ -79,8 +68,7 @@
     "billing promo code",  
     "want to apply a promo code",
     "where to apply promocode",
-    "I have promo code",  
-    "I have a promo code",
+    "have promo code",  
     "how to apply promo code",
     "apply promo code to lite account",  
     "have a promo code for gift",
@@ -100,8 +88,7 @@
     "go to get promotion",
     "I need promo code", 
     "where are promo codes"
-  ],
-  
+  ], 
   "entercode": [
     "apply feature code",
     "apply a feature code",  
@@ -264,56 +251,6 @@
    "check my available credits in IBM Cloud",
    "check for my credit"
   ],
-  "contactsupport": [
-    "How do I contact support",
-    "Where is support",
-    "Contact support",
-    "I want to contact IBM support",
-    "talk to tech support",
-    "connect me with support"
-  ],
-  "cancelmyaccount": [
-    "cancel my account",
-    "i would like to cancel my account",
-    "How do I cancel my account",
-    "cancelling an account",
-    "cancel my account",
-    "deactivate my account",
-    "cancel trial account", 
-    "need my account cancelled",
-    "suspend this account",
-    "deactivate my IBM cloud account",
-    "how to deactivate the account",
-    "how can i deactivate my account",
-    "i want to deactivate my account",
-    "CANCEL MY ACCOUNT PLEASE", 
-    "how do I cancel my account",  
-    "deactivate account"  
-  ],
-  "deleteaccount": [
-    "delete my account",
-    "account delete",  
-    "Where do I delete my account",
-    "I want to delete my account",
-    "Tell me how to delete my account",
-    "close my IBM Cloud account",
-    "terminate my cloud account",
-    "Close account",
-    "delete account",
-    "remove my account",
-    "close my account",  
-    "don't need this account. how can i delete it",
-    "close this account",
-    "like to decommission my account",
-    "account closure",
-    "like to unsubscribe your ibm account",
-    "delete or sunset my account, how can I do that",
-    "Delete my IBM account",
-    "I would like to terminate my account",
-    "I would like to close my cloud account",
-    "please close this account with immediate effect",
-    "account deletion"
-  ],
   "billing-address": [
     "update my billing address",
     "delete my bank details",
@@ -323,7 +260,7 @@
     "delete my billing information",
     "updating billing info" 
   ],
-    "cannot-access-billing-info": [
+  "cannot-access-billing-info": [
     "cannot see billing info",
     "can't access my billing information",
     "can't view my billing info",
