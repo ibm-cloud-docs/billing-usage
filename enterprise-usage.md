@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-07-23"
+lastupdated: "2020-07-27"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -24,7 +24,7 @@ subcollection: billing-usage
 You can track resource and support costs from accounts in your {{site.data.keyword.Bluemix}} enterprise by viewing their usage. The accounts and account groups that you can view usage for depends on your assigned access.
 {: shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/account?topic=account-enterprise) for more information.
+{{site.data.keyword.Bluemix_notm}} enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/account?topic=account-what-is-enterprise) for more information.
 
 ## Required access for viewing enterprise usage
 {: #enterprise-usage-access}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-06-19"
+lastupdated: "2020-07-27"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -36,7 +36,7 @@ Ensure that you have the access that's required to view usage data for the resou
 You can limit the access to view the usage for a specific resource group by assigning the viewer role or higher on all Identity and Access enabled services within that resource group.
 {: note}
 
-For more information about access roles, see [IAM access](/docs/iam?topic=iam-userroles) and [Cloud foundry access](/docs/iam?topic=iam-cfaccess).
+For more information about access roles, see [IAM access](/docs/account?topic=account-userroles#iamusermanrol) and [Cloud foundry access](/docs/account?topic=account-cfaccess).
 
 ## Viewing service usage details
 {: #services}
@@ -69,5 +69,5 @@ You can export a summary of your account's usage, or information about your serv
    - Click **Summary** for a high-level overview of the usage and associated costs for your account.
    - Click **Instance** for detailed usage information about each service instance.
 
-   You can use the **Tags** column in the instance CSV file to help analyze the resources in your account. For example, you might have multiple projects in an account, each with a Kubernetes cluster and a few Cloud Foundry app deployments. You can organize the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. For more information about tagging, see [Working with tags](/docs/resources?topic=resources-tag).
+   You can use the **Tags** column in the instance CSV file to help analyze the resources in your account. For example, you might have multiple projects in an account, each with a Kubernetes cluster and a few Cloud Foundry app deployments. You can organize the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. For more information about tagging, see [Working with tags](/docs/account?topic=account-tag).
    {: tip}
