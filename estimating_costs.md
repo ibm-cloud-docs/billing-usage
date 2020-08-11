@@ -39,7 +39,7 @@ You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluem
 
    At any point, you can click the Cost estimator icon ![Estimator icon](../icons/Estimator.svg) in the console menu to get a summary of your estimated costs.
    {: tip}
-1. When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF of the estimate by clicking **Download PDF**.
+1. When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF, an XLSX, or a CSV of the estimate by selecting the appropriate option from the Actions menu.
 
 ## Creating quotes for classic infrastructure services
 {: #quotes}
