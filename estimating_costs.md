@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-11"
+lastupdated: "2020-08-17"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator, infrastructure quote, compute quote, vsi quote, bare metal quote
 
@@ -23,7 +23,7 @@ subcollection: billing-usage
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} products by customizing plans for your needs. Explore the catalog to find offerings to add to an estimate. 
 {:shortdesc}
 
-1. Go to the {{site.data.keyword.Bluemix_notm}} [catalog](https://cloud.ibm.com/catalog){: external}, and select the offering that you're interested in.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the Cost estimator icon ![Estimator icon](../icons/Estimator.svg). From here, you are directed to the estimate detail page.  
 2. Click **Go to catalog** to explore the available products you can add to your estimate. 
 3. Select the product you are interested in. You will be directed to the product details page in the Catalog. 
 
@@ -42,7 +42,7 @@ You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluem
 
    If you want to estimate costs for other products, you can return to the catalog and select additional products to add to the estimate.
 
-7.  When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download the estimate as a PDF by clicking **Download PDF**. 
+7.  When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download the estimate as an XLSX, CSV, or PDF by clicking **Download**. 
 
 ## Creating quotes for classic infrastructure services
 {: #quotes}
