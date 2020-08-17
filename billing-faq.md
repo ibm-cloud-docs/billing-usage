@@ -21,7 +21,7 @@ subcollection: billing-usage
 # FAQs for billing and usage
 {: #billusagefaqs}
 
-FAQs for billing and usage might include questions about credit cards, promo codes, or other billing related issues. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](https://{DomainName}/docs/faqs).
+FAQs for billing and usage might include questions about credit cards, promo codes, or other billing-related issues. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](https://{DomainName}/docs/faqs).
 {: shortdesc}
 
 ## What is a GB-hour?
@@ -49,6 +49,8 @@ Updating your credit card is just like adding a new one. Go to the [Payments](/b
 
 To switch to a different payment method, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you. 
 
+If your payments are managed outside of the console, go to IBM.com and log in to the Manage Payment Method application to update your credit card. For more information, see [How do I add a credit card when the option isn't available through the console?](docs/billing-usage?topic=billing-usage-ts_ccibm)
+
 Some payment methods, such as PayPal, aren't accepted as recurring payment methods. You must manually submit the payment each month.
 {: note}
 
@@ -58,7 +60,7 @@ Some payment methods, such as PayPal, aren't accepted as recurring payment metho
 
 Protecting your identity is a priority for us, so we take credit card verification seriously.
 
-Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Do not include any credit card information.
+Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Don’t include any credit card information.
 
 ## What's the difference between promo codes and feature codes?
 {: #promo-feature-codes}
@@ -118,7 +120,7 @@ Yes, if your account includes any discounts, the price of the offering that is d
 
 Credit might take a few hours to appear in your account. To see whether a credit was added, go to **Manage > Billing and usage**, and select **Usage**. The credit might be listed in the Active subscriptions and credits section.
 
-If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it is not yet added to your account. Check back later to verify that you received the credit.
+If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it’s not yet added to your account. Check back later to verify that you received the credit.
 
 ## How do I get support?
 {: #contactsupport}
