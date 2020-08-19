@@ -6,7 +6,7 @@ lastupdated: "2020-06-03"
 
 keywords: change service, upgrade service, service plan, pricing plan
 
-subcollection: account
+subcollection: billing-usage
 
 ---
 
