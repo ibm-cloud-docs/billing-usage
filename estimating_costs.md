@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-17"
+lastupdated: "2020-09-17"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator, infrastructure quote, compute quote, vsi quote, bare metal quote
 
@@ -42,7 +42,7 @@ You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluem
 
    If you want to estimate costs for other products, you can return to the catalog and select additional products to add to the estimate.
 
-7.  When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download the estimate as an XLSX, CSV, or PDF by clicking **Download**. 
+7.  When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF, an XLSX, or a CSV of the estimate by selecting the appropriate option from the Actions menu.
 
 ## Creating quotes for classic infrastructure services
 {: #quotes}
