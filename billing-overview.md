@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-21"
+lastupdated: "2020-09-17"
 
 keywords: IBM Cloud billing, payments, costs, usage, spending
 
@@ -14,6 +14,7 @@ subcollection: billing-usage
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
+{:video: .video}
 {:external: target="_blank"}
 {:script: data-hd-video='script'}
 
@@ -24,9 +25,7 @@ subcollection: billing-usage
 Learn about the {{site.data.keyword.cloud}} billing options and tools that you can use to track your usage and manage invoicing and payments.
 {:shortdesc}
 
-<div class="embed-responsive embed-responsive-16by9" data-hd-video="video">
-  <iframe class="embed-responsive-item" id="youtubeplayer" title="Introduction to {{site.data.keyword.cloud_notm}} billing and usage" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/9_jDXSKbMFA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
-</div>
+![Introduction to IBM Cloud billing and usage](https://www.youtube.com/embed/9_jDXSKbMFA){: video output="iframe" data-script="none" id="youtubeplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 
 ## Video transcript
 {: #video-transcript-billing-usage}
