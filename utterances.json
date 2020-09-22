@@ -1,12 +1,4 @@
 {
-  "gb-hour": [
-    "gb-hour",
-    "what's gigabyte hour",
-    "how is runtime usage charged",
-    "GB_HOURS_PER_MONTH",
-    "GB-Hour calculated",
-    "hows container usage charged"
-  ],
   "updatecard": [
     "change credit card info",
     "edit my credit card",
@@ -68,6 +60,8 @@
     "make a payment however your system is not approving the card",
     "Credit card issue",
     "credit card was rejected",
+    "error when I enter my credit card",
+    "get an error when I enter my credit card",
     "My card was rejected",
     "system is producing error when tried to pay by credit card",
     "I cannot add my credit card info",
@@ -148,6 +142,7 @@
     "How Do I Start Using the Promo",
     "can´t apply promotion code",
     "can't apply promo code",
+    "promo code input for billing",
     "not able to apply the promo code",
     "apply promo code error",
     "Looking to insert promo code",
@@ -265,14 +260,6 @@
     "change how often I pay my bill",
     "adjust how often I pay my bill"
   ],
-  "subs-spending": [
-    "spend more or less than my monthly commitment",
-    "spend more than my monthly subscription",
-    "spend less than my monthly subscription",
-    "spend an amount different than my monthly agreement",
-    "Can I spend greater than or less than my commitment?",
-    "pay more or less than usual for subscription"
-  ],
   "subs-spend-before-term-end": [
     "reach my subscription limit before the term ends",
     "reached my spending commitment",
@@ -357,6 +344,8 @@
     "can i set usage notifications",
     "notifications be set up about billing and usage",
     "set the email for spending notifications",
+    "can I limit the spending of my account",
+    "limit the spending on my account",
     "spending notification page",
     "set spending limits on my account",
     "spending notifications on a monthly basis",
@@ -429,20 +418,15 @@
     "one time charge that don't know where does it come from",
     "usage different than invoice",
     "my statement does not match my usage",
+    "Spending summary shows last month spend was more than my bill, which is correct",
+    "spending summary is different from my invoice",
+    "spending usage is different from my bill",
     "invoice not matching usage",
     "usage not as same as invoice",
     "my usage not match my invoices",
     "usage dashboard shows different numbers then I see on the invoice",
     "erroneous charge on my June 2020 invoice",
     "invoice not correct with my usage"
-  ],
-  "slperm-manage-invoices": [
-    "view softlayer invoice",
-    "infrastructure invoice",
-    "can't view invoice in portal",
-    "softlayer invoice permission",
-    "unable to view any invoices in my softlayer portal",
-    "you don't have access to view softlayer invoice"
   ],
   "paperless-invoices": [
     "paperless invoices",
@@ -460,16 +444,7 @@
     "electronic versions of my invoices",
     "paperless billing",
     "electronic invoices",
-    "not want paper bills",
-    "not send a paper invoice"
-  ],
-  "discount-price": [
-    "the discounted price",
-    "price include the discount",
-    "added my discount to the price",
-    "this price include the discount",
-    "price with the discount added",
-    "price including discount"
+    "not want paper bills"
   ],
   "receive-credit": [
     "didn't receive any credit",
@@ -559,6 +534,8 @@
     "I cannot access my bills",
     "can't see billing info",
     "I can't see bills",
+    "Invoice Issue",
+    "Invoice error",
     "can´t view my billings",
     "can't see my billing information",
     "cant get acces to any billing page",
@@ -658,3 +635,4 @@
     "cant provision service for course"
   ]
 }
+
