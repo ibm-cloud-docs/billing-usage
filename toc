@@ -44,8 +44,8 @@ Managing billing and usage
     {: .navgroup id="reference"}
     {: .topicgroup}
     Command reference
-        [Viewing usage for accounts, orgs, resource groups, and resources](/cli/cloud-cli-ibmcloud_billing)
-        [Managing classic infrastructure orders and quotes](/cli/cloud-cli-sl-manage-classic-orders)
+        [Viewing usage for accounts, orgs, resource groups, and resources](/cli/cli-ibmcloud_billing)
+        [Managing classic infrastructure orders and quotes](/cli/cli-sl-manage-classic-orders)
     
     {: .topicgroup}
     API reference
