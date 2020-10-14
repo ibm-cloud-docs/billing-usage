@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-23"
+lastupdated: "2020-10-13"
 
 keywords: GB-hour, container usage, runtime, charge
 
@@ -23,9 +23,9 @@ subcollection: billing-usage
 
 # FAQs for invoices
 {: #invoice-faq}
-{: faq}
 
 Review the following FAQs to find helpful information about invoices. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](https://{DomainName}/docs/faqs).
+{: shortdesc}
 
 ## Where can I access my invoice?
 {: #access-invoices}

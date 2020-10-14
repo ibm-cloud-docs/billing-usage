@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-08"
+lastupdated: "2020-10-13"
 
 keywords: GB-hour, container usage, runtime, charge
 
@@ -16,16 +16,14 @@ subcollection: billing-usage
 {:external: target="_blank" .external}
 {:faq: data-hd-content-type='faq'}
 {:support: data-reuse='support'}
-{:note: .note}## How do I update my credit card?
-{: #updatecard}
-{: faq}
-{: support}
+{:note: .note}
 
 # FAQs for subscription accounts
 {: #subscription-account}
-{: faq}
+
 
 FAQs for subscription accounts include entires about subscription credit, subscription terms, and other subscription related self-help information. 
+{: shortdesc}
 
 ## How do I add subscription credit to my account?
 {: #subscriptioncode}
