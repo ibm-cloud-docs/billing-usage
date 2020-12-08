@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-23"
+lastupdated: "2020-12-08"
 
 keywords: subscription code, subscription credit, discount code, promo code, feature code 
 
@@ -50,6 +50,6 @@ To manually apply the subscription code, complete the following steps:
 
    If you have separate codes for platform and support credit, apply the platform subscription code first, then apply the support subscription code.
 
-If you don't know your seller, the codes are applied in the wrong order, or you experience issues with applying the codes, [contact {{site.data.keyword.Bluemix_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support).
+If you don't know your seller, the codes are applied in the wrong order, or you experience issues with applying the codes, [contact {{site.data.keyword.Bluemix_notm}} Support](/docs/get-support?topic=get-support-using-avatar).
 
 For information about other codes and credits that can be applied to different account types, see [Applying feature codes to a Lite account](/docs/account?topic=account-codes) or [Applying promo codes](/docs/billing-usage?topic=billing-usage-applying-promo-codes). 
