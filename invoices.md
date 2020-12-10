@@ -24,12 +24,10 @@ To manage and view your invoices, you can use the billing and usage dashboard in
 ## Before you begin
 {: #setting-prereqs}
 
-To view invoices, you need an access policy with the Operator role or higher on the Billing account management service. See [IAM access](/docs/account?topic=account-userroles) for more information.
+To view your invoices, you need to be assigned the operator role or higher on the billing account management service. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
 
 ## Viewing invoices for new US-based Pay-As-You-Go accounts with credit card billing
 {: #viewing-invoices-tob}
-
-<!--some staging only content for SLTOB -hlucey-->
 
 New {{site.data.keyword.cloud_notm}} Pay-As-You-Go accounts for US customers with credit card billing can now view all classic infrastructure and platform services on one invoice. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Invoices**. 
 
