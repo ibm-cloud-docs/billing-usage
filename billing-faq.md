@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-12-08"
+lastupdated: "2020-12-10"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -40,7 +40,7 @@ Multiply the two values together, and the result is the GB-hour.
 
 When you reach any quota for Lite plan instances, the service for that month is suspended. Quotas are based per org and not per instance. New instances that are created in the same org show any usage from previous instances. The quota resets on the first of every month.
 
-## How do I update my credit card?
+## Can I update my credit card?
 {: #updatecard}
 {: faq}
 {: support}
@@ -61,6 +61,16 @@ Some payment methods, such as PayPal, aren't accepted as recurring payment metho
 Protecting your identity is a priority for us, so we take credit card verification seriously.
 
 Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Don’t include any credit card information.
+
+## Can I delete my credit card?
+{: #removecard}
+{:faq}
+
+You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one. 
+
+* As of 10 December 2020, if you're using a new US-based Pay-As-You-Go account with credit card billing, you can replace your credit card by going to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} and opening a support case. 
+* For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
+* If you manage your payment method on a separate billing platform, you can remove your credit card by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/){: external}. 
 
 ## What's the difference between promo codes and feature codes?
 {: #promo-feature-codes}
