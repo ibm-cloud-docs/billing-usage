@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-13"
+lastupdated: "2020-12-10"
 
-keywords: GB-hour, container usage, runtime, charge
+keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicing, adjustments
 
 subcollection: billing-usage
 
@@ -49,8 +49,14 @@ Your usage might not match your invoice because the months that are used to comp
 
 The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/account?topic=account-migrated_permissions).
 
-## How do I request paperless invoicing? 
+## Is paperless invoicing available? 
 {: #paperless-invoices}
 {: faq}
 
-Yes, you can switch to paperless invoices by submitting a request on the [IBM Customer Support site](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For more information, see [Requesting paperless invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#request-paperless-invoices).
+Yes, you can switch to paperless invoices by submitting a request on the [{{site.data.keyword.IBM_notm}} Customer Support site](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For more information, see [Requesting paperless invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#request-paperless-invoices).
+
+## What are the adjustments that are shown on my invoice? 
+{: #adjustments-invoices}
+{: faq}
+
+The adjustments section of your current invoice includes charges or credits from previous billing periods that weren't included on your previous invoice.
