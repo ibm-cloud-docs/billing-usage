@@ -39,6 +39,7 @@ Managing billing and usage
         manage_billing.md
     
     subscriptions.md
+    paygo_committed_use.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
