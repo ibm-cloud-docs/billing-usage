@@ -62,6 +62,7 @@ Managing billing and usage
         billing-faq.md
         subscription_acct_faq.md
         invoice_faqs.md
+        commitment-faqs.md
 
     {: .topicgroup}
     Troubleshooting
