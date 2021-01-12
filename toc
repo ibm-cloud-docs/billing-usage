@@ -72,4 +72,5 @@ Managing billing and usage
         ts_invoice_trouble.md
         ts_apply_feature_code.md
         ts_service_feature_code.md
+        ts_billing_address.md
     {: .navgroup-end}
