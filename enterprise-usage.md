@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-07-27"
+lastupdated: "2020-11-27"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -59,6 +59,14 @@ For detailed steps about assigning enterprise access, see [Assigning enterprise 
 
 Only data for usage that is incurred by accounts in the enterprise is displayed in the enterprise account. To view usage from before an account was added to the enterprise, log in to that account and select the relevant time frame.
 {: note}
+
+### Exporting your enterprise usage details to a `.csv` file
+{: #export-enterprise-csv}
+
+You can export a summary of your account's usage, child account usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details.
+
+1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
+1. Click **Export CSV**.
 
 ### Viewing enterprise usage by using the CLI
 {: #enterprise-usage-cli}
