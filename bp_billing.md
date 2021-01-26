@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-07-23"
+  years: 2019, 2021
+lastupdated: "2021-01-26"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -44,7 +44,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 
    For example, you might have resources for two projects in a single account, Project ABC and Project XYZ. Project ABC has a {{site.data.keyword.containershort_notm}} cluster, a few Cloud Foundry app deployments, and an {{site.data.keyword.cloudant_short_notm}} database. You can add the `project:abc` tag to all of these resources to distinguish these resources for Project ABC from similar resources in Project XYZ that are tagged `project:xyz`.
 
-   For more information about adding and using tags, see [Working with tags](/docs/account?topic=account-tag).
+   For more information about tags, see [Working with tags](/docs/account?topic=account-tag).
 
 1. Track costs for the tagged resources by exporting the usage report for your instances. To export the report in the IBM Cloud console, go to **Manage > Billing and usage**, and select **Usage**. Then, click **Export CSV > Instance**.
 
@@ -55,7 +55,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 ## Automate billing and usage management by using the CLI or APIs
 {: #billing-cli-apis}
 
-If you want to automate how you review your resource usage and any associated costs, you can use the [`ibmcloud billing`](/docs/cli?topic=cli-ibmcloud_billing#ibmcloud_billing_org_usage) CLI or the [Usage Metering](https://{DomainName}/apidocs/usage-metering){: external} and [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: external} APIs to integrate this functionality into your own apps.
+If you want to automate how you review your resource usage and associated costs, use the [`ibmcloud billing`](/docs/cli?topic=cli-ibmcloud_billing#ibmcloud_billing_org_usage) CLI or [Usage Metering](https://{DomainName}/apidocs/usage-metering){: external} and [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: external} APIs to integrate this functionality into your own apps.
 
 To get started using the APIs, set up the [{{site.data.keyword.Bluemix_notm}} usage sample dashboard](https://github.com/IBM-Cloud/openwhisk-cloud-usage-sample){: external}. Using {{site.data.keyword.openwhisk}}, the sample implements an API-driven approach to obtain and visualize {{site.data.keyword.Bluemix_notm}} usage and billing data.
 {: tip}
