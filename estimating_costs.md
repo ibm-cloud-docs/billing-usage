@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-09-17"
+  years: 2015, 2021
+lastupdated: "2021-01-26"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator, infrastructure quote, compute quote, vsi quote, bare metal quote
 
@@ -25,7 +25,7 @@ You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluem
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the Cost estimator icon ![Estimator icon](../icons/Estimator.svg). From here, you are directed to the estimate detail page.  
 2. Click **Go to catalog** to explore the available products you can add to your estimate. 
-3. Select the product you are interested in. You will be directed to the product details page in the Catalog. 
+3. Select the product that you are interested in. You are directed to the product details page in the catalog. 
 
      Depending on the product, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
 
