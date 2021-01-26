@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-12-10"
+  years: 2019, 2021
+lastupdated: "2021-01-26"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 
@@ -24,7 +24,7 @@ To manage and view your invoices, you can use the billing and usage dashboard in
 ## Before you begin
 {: #setting-prereqs}
 
-To view your invoices, you need to be assigned the operator role or higher on the billing account management service. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
+To view your invoices, you need to be assigned the operator role or higher on the billing account management service. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
 
 ## Viewing invoices for new US-based Pay-As-You-Go accounts with credit card billing
 {: #viewing-invoices-tob}
@@ -40,10 +40,10 @@ The charges on your invoice are consistent with the usage dashboard. On the Invo
 
 You can check the status of your invoice on the [Invoices page](/billing/invoices): 
 
-* **Invoiced**: You have received the latest invoice from {{site.data.keyword.cloud_notm}}. 
-* **Paid**: Your payment for the charges on your latest invoice has been received.
+* **Invoiced**: You received the latest invoice from {{site.data.keyword.cloud_notm}}. 
+* **Paid**: Your payment for the charges on your latest invoice was received.
 * **Unpaid**: The charges on your latest invoice have not been paid.
-* **Pending**: Your payment for your latest charges has not yet been applied due to a payment processing error. In this case, you can contact {{site.data.keyword.cloud_notm}} Support for more details about the error. 
+* **Pending**: Your payment for your latest charges has not been applied due to a payment processing error. In this case, you can contact {{site.data.keyword.cloud_notm}} Support for more details about the error. 
 
 ### Downloading your invoice 
 {: #download-invoices}
@@ -55,14 +55,14 @@ To save a copy of your invoice, first download it from the {{site.data.keyword.I
 
 If you own one of the following accounts, you can view your invoice on the [{{site.data.keyword.IBM_notm}} Invoices](http://ibm.com/invoices){: external} website, which is linked from the [Invoices page](/billing/invoices) in the console.
 
- * New and existing Pay-As-You-Go accounts based in the US with any payment method other than a credit card
+ * New and existing Pay-As-You-Go accounts that are based in the US with any payment method other than a credit card
  * New and existing Pay-As-You-Go accounts not based in the US
  * New and existing Subscription accounts worldwide
  
 ### Getting access to {{site.data.keyword.IBM_notm}} Invoices  
 {: #access-external-invoices}
 
-If you're visiting the {{site.data.keyword.IBM_notm}} Invoices website for the first time, you can sign up with your IBMid, complete your profile, and provide your {{site.data.keyword.IBM_notm}} customer number to then access your account. Your {{site.data.keyword.IBM_notm}} customer number is used for identification purposes during your registration process with the {{site.data.keyword.IBM_notm}} Invoices website and during other interactions with [{{site.data.keyword.IBM_notm}} Support](https://www.ibm.com/support/home/){: external}.
+If you're at the {{site.data.keyword.IBM_notm}} Invoices website for the first time, you can sign up with your IBMid, complete your profile, and provide your {{site.data.keyword.IBM_notm}} customer number to access your account. Your {{site.data.keyword.IBM_notm}} customer number is used for identification purposes during your registration process with the {{site.data.keyword.IBM_notm}} Invoices website and during other interactions with [{{site.data.keyword.IBM_notm}} Support](https://www.ibm.com/support/home/){: external}.
 
 1. Go to [{{site.data.keyword.IBM_notm}} Invoices](http://ibm.com/invoices){: external}, and select your region.
 1. Log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}. 
@@ -72,7 +72,7 @@ If you're visiting the {{site.data.keyword.IBM_notm}} Invoices website for the f
   If you don't know your customer number, contact {{site.data.keyword.cloud_notm}} Support by calling 1-866-325-0045 and selecting the third option, or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external}. 
   {: tip}
 
-To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external  website to go to it directly.
+To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external website to go to it directly.
 
 ## Requesting paperless invoices
 {: #request-paperless-invoices}
