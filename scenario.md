@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-06-02"
+  years: 2015, 2021
+lastupdated: "2021-01-26"
 
 keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
@@ -31,7 +31,7 @@ The web app uses the following {{site.data.keyword.Bluemix_notm}} services and i
 ## Prices for {{site.data.keyword.Bluemix_notm}} resources
 {: #sample_resources}
 
-To keep the example simple, assume the prices in the following table don't fluctuate within or between a time frame, for example, a month. All pricing in this example is in US currency.
+To keep the example simple, assume the prices in the following table don't fluctuate within or between a timeframe, for example, a month. All pricing in this example is in US currency.
 
 | Service                           |	Features                                                            |	Price             |
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
