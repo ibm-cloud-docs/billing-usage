@@ -62,7 +62,7 @@ Protecting your identity is a priority for us, so we take credit card verificati
 
 Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Don’t include any credit card information.
 
-You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to ]IBM Billing](https://myibm.ibm.com/billing/). For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
+You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/). For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
 
 ## Can I delete my credit card?
 {: #removecard}
