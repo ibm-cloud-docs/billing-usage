@@ -8,6 +8,8 @@ keywords: troubleshoot billing, feature code, can't apply code, can't apply feat
 
 subcollection: billing-usage
 
+content-type: troubleshoot
+
 ---
 
 {:shortdesc: .shortdesc}
