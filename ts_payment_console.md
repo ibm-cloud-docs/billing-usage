@@ -8,6 +8,7 @@ keywords: troubleshoot billing, add card, payment outside console, myibm.com/bil
 
 subcollection: billing-usage
 
+content-type: troubleshoot
 ---
 
 {:shortdesc: .shortdesc}

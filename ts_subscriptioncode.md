@@ -8,6 +8,7 @@ keywords: troubleshoot billing, subscription code, subscription code error, can'
 
 subcollection: billing-usage
 
+content-type: troubleshoot
 ---
 
 {:shortdesc: .shortdesc}

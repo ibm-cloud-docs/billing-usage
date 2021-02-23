@@ -8,6 +8,8 @@ keywords: troubleshoot billing, manage invoice, can't view invoice
 
 subcollection: billing-usage
 
+content-type: troubleshoot
+
 ---
 
 {:shortdesc: .shortdesc}

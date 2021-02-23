@@ -8,6 +8,7 @@ keywords: troubleshoot billing, payment error, update billing address, billing a
 
 subcollection: billing-usage
 
+content-type: troubleshoot
 ---
 
 {:shortdesc: .shortdesc}

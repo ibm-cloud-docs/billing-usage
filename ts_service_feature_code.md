@@ -8,6 +8,8 @@ keywords: troubleshoot billing, feature code, can't create service, create servi
 
 subcollection: billing-usage
 
+content-type: troubleshoot
+
 ---
 
 {:shortdesc: .shortdesc}

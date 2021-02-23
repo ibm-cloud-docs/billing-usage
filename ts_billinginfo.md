@@ -8,6 +8,8 @@ keywords: troubleshoot billing, billing error, billing info, can't access billin
 
 subcollection: billing-usage
 
+content-type: troubleshoot
+
 ---
 
 {:shortdesc: .shortdesc}
