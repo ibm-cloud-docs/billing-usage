@@ -8,6 +8,8 @@ keywords: promo code, feature code, Subscription account, Lite account, payment,
 
 subcollection: billing-usage
 
+content-type: faq
+
 ---
 
 {:shortdesc: .shortdesc}

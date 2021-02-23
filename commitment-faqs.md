@@ -8,6 +8,8 @@ keywords: IBM Cloud billing, commitment model, using commitments, FAQs
 
 subcollection: billing-usage
 
+content-type: faq
+
 ---
 
 {:shortdesc: .shortdesc}

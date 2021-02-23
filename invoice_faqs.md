@@ -8,6 +8,8 @@ keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicin
 
 subcollection: billing-usage
 
+content-type: faq
+
 ---
 
 {:shortdesc: .shortdesc}

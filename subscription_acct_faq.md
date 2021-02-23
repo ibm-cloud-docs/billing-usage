@@ -8,6 +8,8 @@ keywords: GB-hour, container usage, runtime, charge
 
 subcollection: billing-usage
 
+content-type: faq
+
 ---
 
 {:shortdesc: .shortdesc}
