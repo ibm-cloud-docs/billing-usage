@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-07-23"
+  years: 2020, 2021
+lastupdated: "2021-02-23"
 
 keywords: troubleshoot billing, billing error, billing info, can't access billing, function unavailable
 
