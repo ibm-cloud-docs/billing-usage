@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-12"
+lastupdated: "2021-02-25"
 
 keywords: troubleshoot billing, payment error, update billing address, billing address
 
@@ -21,7 +21,7 @@ content-type: troubleshoot
 {:troubleshoot: data-hd-content-type='troubleshoot'}
 
 # Why can't I update my billing address?
-{: #cannot-access-billing-info}
+{: #update-billing-address}
 {: troubleshoot}
 
 You can't update the billing address for a credit card in the IBM Cloud console. You must contact support to update the billing address on an existing credit card. 
