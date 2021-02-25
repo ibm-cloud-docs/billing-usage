@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-24"
+lastupdated: "2021-02-25"
 
 keywords: troubleshoot billing, manage invoice, can't view invoice
 
@@ -49,5 +49,5 @@ If you're visiting the Invoices website for the first time, sign up with your IB
 1. From the Invoices website, go to the Accesses tab. Add access to your account and provide your IBM customer number. If you don't know your customer number, contact IBM Cloud Support by calling 1-866-325-0045 and selecting the third option or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){:external} for help. 
 
 
-To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external invoices website to go to it directly. If you are able to view your invoices and think information is incorrect or missing, go to [IBM Customer Support](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html) to open a request for assistance with the IBM Invoices team. For more information, see [Managing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#viewing-invoices).
+To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external invoices website to go to it directly. If you are able to view your invoices and think information is incorrect or missing, go to [IBM Customer Support](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html) to open a request for assistance with the IBM Invoices team. For more information, see [Managing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#setting-prereqs).
 {: tip}
