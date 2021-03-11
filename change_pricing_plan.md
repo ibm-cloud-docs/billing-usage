@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-11"
+lastupdated: "2021-03-09"
 
 keywords: change service, upgrade service, service plan, pricing plan
 
@@ -102,7 +102,7 @@ curl -X PATCH https://resource-controller.cloud.ibm.com/v2/resource_instances/8d
     "resource_plan_id": "744bfc56-d12c-4866-88d5-dac9139e0e5d"
   }'
 ```
-{: pre}
+{: codeblock}
 {: curl}
 
 ```java
@@ -162,3 +162,6 @@ fmt.Printf("\nUpdateResourceInstance() response:\n%s\n", string(b))
 ```
 {: codeblock}
 {: go}
+
+
+
