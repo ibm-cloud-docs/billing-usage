@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-11-27"
+  years: 2019, 2021
+lastupdated: "2021-03-12"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -16,15 +16,22 @@ subcollection: billing-usage
 {:screen: .screen}
 {:external: target="_blank" .external}
 {:note: .note}
-
+{:api: .ph data-hd-interface='api'}
+{:cli: .ph data-hd-interface='cli'}
+{:ui: .ph data-hd-interface='ui'}
+{:java: .ph data-hd-programlang='java'}
+{:python: .ph data-hd-programlang='python'}
+{:curl: .ph data-hd-programlang='curl'}
+{:go: .ph data-hd-programlang='go'}
+{:javascript: .ph data-hd-programlang='javascript'}
 
 # Viewing usage in an enterprise
 {: #enterprise-usage}
 
-You can track resource and support costs from accounts in your {{site.data.keyword.Bluemix}} enterprise by viewing their usage. The accounts and account groups that you can view usage for depends on your assigned access.
+You can track resource and support costs from accounts in your {{site.data.keyword.Bluemix}} enterprise by viewing their usage. The accounts and account groups that you can view usage for depend on your assigned access.
 {: shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/account?topic=account-what-is-enterprise) for more information.
+{{site.data.keyword.Bluemix_notm}} enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/account?topic=account-enterprise) for more information.
 
 ## Required access for viewing enterprise usage
 {: #enterprise-usage-access}
@@ -38,8 +45,9 @@ You can give users granular access so that they can view usage for a certain acc
 
 For detailed steps about assigning enterprise access, see [Assigning enterprise access](/docs/account?topic=account-assign-access-enterprise).
 
-## Viewing enterprise usage
+## Viewing enterprise usage in the console
 {: #enterprise-usage-console}
+{: ui}
 
 1. Log in to the enterprise account.
 1. In the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Usage**.
@@ -49,6 +57,7 @@ For detailed steps about assigning enterprise access, see [Assigning enterprise 
    In the Support section, you can view the total support costs for all accounts within your enterprise. The starting credit reflects the monthly amount in your support subscription. If the support usage for the month was more than this amount, it's displayed as overage.
 
    Usage information for classic infrastructure services is not included for the current billing period. However, it is included for previous billing periods, which you can view by selecting an earlier month from the **Time frame** menu. For more information, see [Viewing usage for your classic infrastructure resources](/docs/billing-usage?topic=billing-usage-infra-usage).
+
 1. To view usage within an account group, click the account group name in the table or in the **Enterprise level** menu. Similar to the enterprise level, usage is broken down by the account and account group.
 
    If an account group doesn't contain any accounts, it isn't displayed on the Usage page.
@@ -60,16 +69,10 @@ For detailed steps about assigning enterprise access, see [Assigning enterprise 
 Only data for usage that is incurred by accounts in the enterprise is displayed in the enterprise account. To view usage from before an account was added to the enterprise, log in to that account and select the relevant time frame.
 {: note}
 
-### Exporting your enterprise usage details to a `.csv` file
-{: #export-enterprise-csv}
 
-You can export a summary of your account's usage, child account usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details.
-
-1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
-1. Click **Export CSV**.
-
-### Viewing enterprise usage by using the CLI
+## Viewing enterprise usage by using the CLI
 {: #enterprise-usage-cli}
+{: cli}
 
 You can get a report of usage for the enterprise, an account group, or a specific account.
 
@@ -112,7 +115,7 @@ You can get a report of usage for the enterprise, an account group, or a specifi
       ```
       {:codeblock}
 
-   By default, the commands output the usage report for the current month in the following format. Most costs are listed as billable costs. Non-billable costs are listed only in rare cases, such as for the month when you add a trial account to the enterprise.
+By default, the commands output the usage report for the current month in the following format. Most costs are listed as billable costs. Non-billable costs are listed only in rare cases, such as for the month when you add a trial account to the enterprise.
 
    ```
    Name             Type            Billable Cost   Non-billable Cost   Currency   Month   
@@ -121,47 +124,67 @@ Development      account_group   234.56          0                   USD        
 Marketing        account_group   345.67          0                   USD        2019-07   
 Sales            account_group   456.78          0                   USD        2019-07
    ```
+   {: screen}
 
    You can output the report in JSON format by specifying the `--output JSON` option.
    {: tip}
 
-### Viewing enterprise usage by using the API
+## Viewing enterprise usage by using the API
 {: #enterprise-usage-api}
+{: api}
 
-You can get usage reports from an enterprise and its accounts by calling the [Enterprise Usage Reports API (Beta)](https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports){: external}. You can base the query in your API call on an enterprise, an account group, or an account and specify whether to view the entity or its children. The Enterprise Usage Reports API is a beta release.
+You can get usage reports from an enterprise and its accounts by calling the [Enterprise Usage Reports API (Beta)](/apidocs/enterprise-apis/resource-usage-reports). You can base the query in your API call on an enterprise, an account group, or an account and specify whether to view the entity or its children. The Enterprise Usage Reports API is a beta release.
 
 The following examples show queries that you can use to get different usage reports. When you call the API, replace the ID variables and IAM token with the values from your enterprise.
 
-View usage for the entire enterprise for the current month.
-
 ```
-curl -X GET \
-"https://enterprise.test.cloud.ibm.com/v1/resource-usage-reports?enterprise_id=$ENTERPRISE_ID" \
--H "Authorization: Bearer <IAM_Token>" \
--H 'Content-Type: application/json'
+curl -X GET 'https://enterprise.cloud.ibm.com/v1/resource-usage-reports?enterprise_id=abc12340d4bf4e36b0423d209b286f24&month=2019-07' -H 'Authorization: Bearer <IAM Token>'
 ```
 {: codeblock}
+{: curl}
 
-View usage for an account group for July 2019.
-
-```
-curl -X GET \
-"https://enterprise.test.cloud.ibm.com/v1/resource-usage-reports?account_group_id=$ACCOUNT_GROUP_ID&month=2019-07" \
--H "Authorization: Bearer <IAM_Token>" \
--H 'Content-Type: application/json'
+```java
+ServiceCall<Reports> getResourceUsageReport(GetResourceUsageReportOptions getResourceUsageReportOptions)
 ```
 {: codeblock}
-
-View usage for account groups and accounts directly under the enterprise.
+{: java}
 
 ```
-curl -X GET \
-"https://enterprise.test.cloud.ibm.com/v1/resource-usage-reports?enterprise_id=$ENTERPRISE_ID&children=true" \
--H "Authorization: Bearer <IAM_Token>" \
--H 'Content-Type: application/json'
+getResourceUsageReport(params)
 ```
 {: codeblock}
+{: javascript}
 
+```python
+get_resource_usage_report(self,
+        *,
+        enterprise_id: str = None,
+        account_group_id: str = None,
+        account_id: str = None,
+        children: bool = None,
+        month: str = None,
+        billing_unit_id: str = None,
+        limit: int = None,
+        offset: str = None,
+        **kwargs
+    ) -> DetailedResponse
+```
+{: codeblock}
+{: python}
+
+```go
+(enterpriseUsageReports *EnterpriseUsageReportsV1) GetResourceUsageReport(getResourceUsageReportOptions *GetResourceUsageReportOptions) (result *Reports, response *core.DetailedResponse, err error)
+```
+{: codeblock}
+{: go}
+
+## Exporting your enterprise usage details to a `.csv` file
+{: #export-enterprise-csv}
+
+You can export a summary of your account's usage, child account usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details.
+
+1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
+1. Click **Export CSV**.
 
 ## Recovering costs for enterprise usage
 {: #enterprise-cost-recovery}
