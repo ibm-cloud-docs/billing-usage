@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-09"
+lastupdated: "2021-03-11"
 
 keywords: change service, upgrade service, service plan, pricing plan
 
@@ -94,7 +94,7 @@ As an alternative to the console, you can change a service's pricing plan by usi
 {: #changing-plan-api}
 {: api}
 
-You can programmatically Change pricing plan for a resource service instance by calling the [{{site.data.keyword.cloud_notm}} Resource Controller API](/apidocs/resource-controller/resource-controller#update-resource-instance) as shown in the following sample request. The example changes a pricing plan for an instance: 
+You can programmatically change the pricing plan for an instance by calling the [{{site.data.keyword.cloud_notm}} Resource Controller API](/apidocs/resource-controller/resource-controller#update-resource-instance) as shown in the following sample request. 
 
 ```
 curl -X PATCH https://resource-controller.cloud.ibm.com/v2/resource_instances/8d7af921-b136-4078-9666-081bd8470d94 -H 'Authorization: Bearer <>' -H 'Content-Type: application/json' -d '{
