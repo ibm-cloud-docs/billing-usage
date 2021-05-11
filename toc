@@ -24,6 +24,7 @@ Managing billing and usage
         viewing_usage.md
         infra_usage.md
         enterprise-usage.md
+        enterprise-report.md
     
     {: .topicgroup}
     Working with codes and credits
