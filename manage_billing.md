@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-12-10"
+  years: 2015, 2021
+lastupdated: "2021-05-18"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -82,7 +82,7 @@ Some payment methods, such as PayPal, aren't accepted as recurring payment metho
 
 You can make a one-time payment at any time for any amount, whether it is for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't filled out with a defaulted amount. Payment methods for one-time payments include credit card and PayPal. PayPal can’t be used as a payment method for recurring payments.
 
-To make a one-time payment, in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Billing and usage**, and select **Payments**. Complete the fields in the make a one-time payment section. The account balance is updated after the payment is accepted.
+To make a one-time payment, in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Billing and usage**, and select **Payments**. Click **Manual Payment** and complete the fields in the one-time payment section. One-time payments are reviewed and processed each day. The account balance is updated after the payment is accepted. If a late fee is assessed and you have submitted a one-time payment, contact the [{{site.data.keyword.cloud_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}. 
 
 ## Managing your payment method outside of the console 
 {: #payment-method-ibm}
