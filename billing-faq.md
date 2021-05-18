@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-01-28"
+lastupdated: "2021-05-18"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -72,7 +72,7 @@ You might manage your payment method on a separate billing platform. You can eas
 
 You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one. 
 
-* As of 10 December 2020, if you're using a new US-based Pay-As-You-Go account with credit card billing, you can replace your credit card by going to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} and opening a support case. 
+* If you're using a new US-based Pay-As-You-Go account with credit card billing, you can replace your credit card by going to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} and opening a support case. 
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
 * If you manage your payment method on a separate billing platform, you can remove your credit card by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/){: external}. 
 
@@ -136,11 +136,16 @@ Credit might take a few hours to appear in your account. To see whether a credit
 
 If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it’s not yet added to your account. Check back later to verify that you received the credit.
 
+## How do I get answers to my Startup with IBM questions?
+{: #startup-ibm}
+{: faq}
+Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://developer.ibm.com/startups/){: external}. The awarding and extension of credits through this IBM corporate program isn'te directly supported by IBM Cloud Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an IBM Cloud Invoice. For more information about the program and its credits, visit the [Frequently Asked Questions for the Startup with IBM Program](https://developer.ibm.com/startups/faq){: external}.
+
 ## How do I get support?
 {: #contactsupport}
 {: faq}
 
-Click **Support** in the console menu bar to access the Support Center. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud support.
+Click **Support** in the console menu bar to access the Support Center by going to the [Support Center page](https://{DomainName}/unifiedsupport/supportcenter){: external} directly. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud support.
 
 ## Where can I view the billing address for my account? 
 {: #billing-address}
