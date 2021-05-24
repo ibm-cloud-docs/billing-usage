@@ -1,0 +1,64 @@
+{
+    "title": "IBM Cloud Billing and Usage docs",
+    "lastupdated": "2021-04-29",
+    "introduction": "IBM Cloud offers multiple billing options and tools for every business whether it’s tracking your usage or managing invoice and payments. Leverage the docs, API & SDK reference, architecture references, and more to support your billing and usage needs.",
+    "section_devtools": {
+      "api": "/docs?tab=api-docs&category=platform_services&subCategory=billing-usage",
+      "cli": "/docs/cli?topic=cli-ibmcloud_billing"
+    },
+    "section_recommended": [
+      {
+        "title": "Best practices for billing and usage",
+        "description": "Follow our best practices to track costs, automate billing, and explore billing options in IBM Cloud.",
+        "href": "/docs/billing-usage?topic=billing-usage-best-practices"
+      },
+      {
+        "title": "Viewing your usage",
+        "description": "You can view your IBM Cloud usage details, including a summary of estimated charges for all services and resources that are used per month in your organizations, from the Usage page in the console",
+        "href": "/docs/billing-usage?topic=billing-usage-viewingusage"
+      },
+      {
+        "title": "Managing payments",
+        "description": "Depending on your account type, we offer multiple ways to best manage your payment methods. ",
+        "href": "/docs/billing-usage?topic=billing-usage-linkedusage"
+      }
+    ],
+    "section_videos": [
+      {
+        "title": "How can I manage billing and usage in IBM Cloud?",
+        "href": "/docs/billing-usage?topic=billing-usage-overview",
+        "thumbnail": "/images/billingvideo.png"
+      },
+      {
+        "title": "IBM Cloud's latest unification project",
+        "href": "https://www.youtube.com/watch?v=AAdwp4npjvc",
+        "thumbnail": "/images/tobvideo.png"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
+      "architecture": "https://www.ibm.com/cloud/pricing",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community/user/publiccloud/home"
+    },
+    "section_updates": {
+      "view_more": "/docs/overview?topic=overview-whatsnew",
+      "tiles": [
+        {
+          "date": "12 January 2021",
+          "title": "Pay as you go with Committed Use pricing model",
+          "description": "Customers with a Subscription account can use the new pricing model, IBM Cloud Pay as you go with Committed Use. The new pricing model provides you with additional benefits as you navigate and build on IBM Cloud."
+        },
+        {
+            "date": "9 February 2021",
+            "title": "Types of available promotion credits",
+            "description": "In addition to one-time promotion credits, recurring dollar credit promotion's are available."
+          },
+        {
+          "date": "10 December 2020",
+          "title": "Enhanced payments & invoicing for new US-based Pay-As-You-Go accounts with credit card billing",
+          "description": "We are excited to announce our latest unification project for new US-based IBM Cloud Pay-As-You-Go accounts with credit card billing. This update provides increased clarification and consistency for payments and invoicing."
+        }
+      ]
+    }
+  }
