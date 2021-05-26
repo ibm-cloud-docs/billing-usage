@@ -90,7 +90,7 @@ Feature codes provide enhancements for Lite accounts, such as an unlimited numbe
 {: #get-promo-code}
 {:faq}
 
-Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales on a limited basis. Promotions are meant for select groups and are typically given out at hackathons, conferences, and other events.
+Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales and educational providers on a limited basis. Promotions are meant for select groups and are typically given out at hackathons, conferences, and other events.
 
 You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
