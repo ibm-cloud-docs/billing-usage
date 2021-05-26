@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-05-18"
+lastupdated: "2021-05-26"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -51,7 +51,7 @@ Updating your credit card is just like adding a new one. Go to the [Payments](/b
 
 To switch to a different payment method, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you. 
 
-If your payments are managed outside of the console, go to IBM.com and log in to the Manage Payment Method application to update your credit card. For more information, see [How do I add a credit card when the option isn't available through the console?](/docs/billing-usage?topic=billing-usage-ts_ccibm)
+If your payments are managed outside of the console, go to IBM.com and log in to the Manage Payment Method application to update your credit card. For more information, see [How do I add a credit card when the option isn't available through the console?](/docs/billing-usage?topic=billing-usage-ts_ccibm).
 
 Some payment methods, such as PayPal, aren't accepted as recurring payment methods. You must manually submit the payment each month.
 {: note}
@@ -65,6 +65,8 @@ Protecting your identity is a priority for us, so we take credit card verificati
 Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Don’t include any credit card information.
 
 You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/). For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
+
+For additional information about specific error messages, see [Why can't I upgrade my IBM Cloud account?](/docs/account?topic=account-ts_upgrade_cc).
 
 ## Can I delete my credit card?
 {: #removecard}
@@ -139,13 +141,14 @@ If the credit isn't on the Usage page, go to **Invoices** and click link with th
 ## How do I get answers to my Startup with IBM questions?
 {: #startup-ibm}
 {: faq}
+
 Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://developer.ibm.com/startups/){: external}. The awarding and extension of credits through this IBM corporate program isn'te directly supported by IBM Cloud Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an IBM Cloud Invoice. For more information about the program and its credits, visit the [Frequently Asked Questions for the Startup with IBM Program](https://developer.ibm.com/startups/faq){: external}.
 
 ## How do I get support?
 {: #contactsupport}
 {: faq}
 
-Click **Support** in the console menu bar to access the Support Center by going to the [Support Center page](https://{DomainName}/unifiedsupport/supportcenter){: external} directly. From there, start with leveraging the list of common FAQs. If you don't find the answers that you need, see the **Need more help?** section to contact IBM Cloud support.
+Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} page by clicking **Support** on the {{site.data.keyword.cloud}} console header. From there, review the list of common FAQs. If you don't find the answers that you need, see the **Contact Support** section to contact IBM Cloud Support. For more information on account types and support offerings, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
 
 ## Where can I view the billing address for my account? 
 {: #billing-address}
