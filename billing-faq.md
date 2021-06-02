@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-05-26"
+lastupdated: "2021-06-02"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -137,6 +137,17 @@ Yes, if your account includes any discounts, the price of the offering that is d
 Credit might take a few hours to appear in your account. To see whether a credit was added, go to **Manage > Billing and usage**, and select **Usage**. The credit might be listed in the Active subscriptions and credits section.
 
 If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it’s not yet added to your account. Check back later to verify that you received the credit.
+
+## How can I add funds to my ResellOne account?
+{: #resell}
+{: faq}
+
+If you have a separate ResellOne account with IBM, you can add funds through {{site.data.keyword.cloud_notm}}. To add funds to your ResellOne account, you must make a one-time payment by going to the [Manual payments](https://{DomainName}/billing/payments/manualpayment){: external} page in the {{site.data.keyword.cloud_notm}} console.
+
+This amount must include any applicable tax. 
+{: note}
+
+After you submit the payment, contact the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} to request that the funds are applied to your ResellOne Account. You must submit the name of the ResellOne account and the amount before any applicable tax to {{site.data.keyword.cloud_notm}} Support. 
 
 ## How do I get answers to my Startup with IBM questions?
 {: #startup-ibm}
