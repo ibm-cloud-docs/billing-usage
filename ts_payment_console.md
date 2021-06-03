@@ -21,7 +21,7 @@ content-type: troubleshoot
 {:troubleshoot: data-hd-content-type='troubleshoot'}
 
 # How do I add a credit card when the option isn't available through the console?
-{: #ts_ccibm}
+{: #ts-ccibm}
 {: troubleshoot}
 
 If your payments are managed outside of the console, you can't use [Billing and usage](https://{DomainName}/billing){: external} to add a credit card. 
