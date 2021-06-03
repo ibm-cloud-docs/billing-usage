@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-06-05"
+  years: 2020, 2021
+lastupdated: "2021-06-03"
 
 keywords: troubleshoot billing, add card, payment outside console, myibm.com/billing, manage payment 
 
@@ -37,9 +37,6 @@ You click **Explore** to access the ibm.com website, but you don't see a locatio
 
 Credit card transactions are securely processed through the {{site.data.keyword.Bluemix_notm}} console. However, in some countries, extra steps are taken to ensure the integrity of the credit card data. Those credit card requests are completed through the IBM.com website. Both methods ensure that your credit card information is securely processed.   
 {: tsCauses}
-
-To provide your credit card information for payment, complete the following steps:
-{: tsResolve}
 
 To provide your credit card information for payment, complete the following steps:
 {: tsResolve}
