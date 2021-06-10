@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-06-02"
+lastupdated: "2021-06-10"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -122,6 +122,9 @@ You can view your monthly runtime and service usage by clicking **Manage > Billi
 {: support}
 
 You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifications when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notifications, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
+
+Your account is charged if your usage exceeds 100% of the spending threshold. 
+{: note} 
 
 ## Does the price of the offering that I'm ordering reflect the discounted price?
 {: #discount-price}
