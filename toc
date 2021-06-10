@@ -75,4 +75,6 @@ Managing billing and usage
         ts_service_feature_code.md
         ts_billing_address.md
         ts-view-commit.md
+        ts_commit_access_page.md
+        ts_commit_cannot_apply.md
     {: .navgroup-end}
