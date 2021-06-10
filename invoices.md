@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-05-26"
+lastupdated: "2021-06-10"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 
@@ -19,7 +19,7 @@ subcollection: billing-usage
 # Viewing your invoices 
 {: #managing-invoices}
 
-To manage and view your invoices, visit the [Invoices](https://cloud.ibm.com/billing/invoices){: external} page from the billing and usage dashboard in the {{site.data.keyword.cloud}} console. If your account is billed through a separate billing platform, you can see the following message at the top of the Invoices page:
+To manage and view your invoices, visit the [Invoices](https://cloud.ibm.com/billing/invoices){: external} page from the billing and usage dashboard in the {{site.data.keyword.cloud}} console. If your account is billed through a separate billing platform, you can see the following message on the Invoices page:
 
 `The account is invoiced on a separate billing platform. Please click here for invoice or pricing inquires or here to modify your payment method.`
 
@@ -52,7 +52,7 @@ You can check the status of your invoice on the [Invoices page](/billing/invoice
 ### Viewing and downloading your invoice
 {: #download-invoices}
 
-View and download your invoice from the {{site.data.keyword.IBM_notm}} console by clicking the **Download** icon > **PDF invoice** next to each invoice. For some accounts, invoices are available through the [Invoices@IBM](http://ibm.com/invoices){: external} website. See the [Viewing and downloading invoices for all other accounts](#viewing-external-invoices) section for more information.
+View and download your invoice from the {{site.data.keyword.IBM_notm}} console by clicking the **Download** icon ![Download icon](../icons/download.svg "Download")> **PDF invoice** next to each invoice. For some accounts, invoices are available through the [Invoices@IBM](http://ibm.com/invoices){: external} website. See the [Viewing and downloading invoices for all other accounts](#viewing-external-invoices) section for more information.
 
 ## Viewing and downloading invoices for all other accounts 
 {: #viewing-external-invoices}
@@ -63,7 +63,7 @@ If you own one of the following accounts, you can view your invoice on the [Invo
  * New and existing Pay-As-You-Go accounts not based in the US
  * New and existing Subscription accounts worldwide
  
-To save a copy of your invoice, click the PDF icon in the **Invoice Number** column. Then, click the **Download** icon in the upper-right corner of the page.
+To save a copy of your invoice, click the PDF icon in the **Invoice Number** column. Then, click the **Download** icon ![Download icon](../icons/download.svg "Download").
 
 ### Getting access to Invoices@IBM   
 {: #access-external-invoices}
