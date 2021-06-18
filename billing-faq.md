@@ -102,6 +102,21 @@ To apply your promo code, go to the [Promotions](https://{DomainName}/billing/pr
 
 You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
+## Why did I get billed if I have remaining promotion credits?
+{: #billed-promo}
+{: faq}
+
+If you think your invoice didn't include your promotion credits, first determine that the credits are still active on your account by using the following steps: 
+
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions**.  
+1. Click a promotion to expand the table and view a description of each promotion and the offerings it applies to.
+1. Check the following to make sure that your promo code is still applicable:
+  - Verify the maximum value of the promo code per month. Some monthly recurring promo codes have a monthly limit. If your usage exceeded that limit, you're billed for the remaining amount.  
+  - Compare the date of your invoice to the start and end dates of the promo code. If you applied the promo code after the invoice was issued, it was not applied to that month's invoice. 
+  - If you didn't use the products that are impacted by the promo code before it expired, you don't receive the promotion credits.
+  
+After you complete these steps, if you still believe that the invoice amount is an error, create a support case. Go to the [Support Center](https://{Domain}/unifiedsupport/supportcenter) and click **Create a case**. 
+
 ## How do I apply a feature code?
 {: #entercode}
 {: faq}
