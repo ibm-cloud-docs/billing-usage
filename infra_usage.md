@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-07-23"
+  years: 2018, 2021
+lastupdated: "2021-06-22"
 
 keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice, billing item 
 
@@ -36,7 +36,7 @@ To view billing and usage for classic infrastructure resources, you need an acce
 
    To view your billed usage for the current invoicing period, click the link with your next invoice date under Next Recurring Invoice.
 
-   You can download a PDF or spreadsheet copy of an invoice for your offline records by clicking the download icon and selecting your download options.
+   You can download a PDF or spreadsheet copy of an invoice for your offline records by clicking the **Download** icon ![Download icon](../icons/download.svg "Download") and selecting your download options.
    {: tip}
 
 ## Viewing device and service purchase information

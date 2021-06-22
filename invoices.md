@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-06-10"
+lastupdated: "2021-06-22"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 

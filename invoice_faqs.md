@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-10"
+lastupdated: "2021-06-22"
 
 keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicing, adjustments
 
@@ -55,7 +55,7 @@ The SoftLayer permission for managing invoices might not have been migrated corr
 {: #invoice-spreadsheet}
 {: faq}
 To download your invoice, go to **Manage > Billing and usage**, and select **Invoices**. Then, click the **Download** icon ![Download icon](../icons/download.svg "Download") and choose an invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet. 
-For Pay-As-You-Go accounts that aren't billed in US dollars or Subscription accounts, you can download your invoices on the [IBM Invoices website](https://www.ibm.com/invoices){: external}. From the Invoices page, click the **Actions** icon ![Action icon](../icons/action-menu-icon.svg) and select the invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet. 
+For Pay-As-You-Go accounts that aren't billed in US dollars or Subscription accounts, you can download your invoices on the [IBM Invoices website](https://www.ibm.com/invoices){: external}. From the Invoices page, click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") and select the invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet. 
 
 ## Is paperless invoicing available? 
 {: #paperless-invoices}

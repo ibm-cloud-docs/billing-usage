@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-01-26"
+lastupdated: "2021-06-22"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -37,7 +37,7 @@ Each of these account types includes more benefits for your production workloads
 
 Add tags to your resources to organize, track, and manage costs for related resources. When you use a consistent tagging schema to identify which resources are tied to specific projects, you can group and filter by those tags when you analyze costs within your exported usage report.
 
-1. Tag your resources by using a consistent tagging schema, such as creating tags to differentiate cost centers, data centers, projects, or teams. To add tags, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Resource list**. In the Tag column, click **Add tag** for each resource that you want to tag.
+1. Tag your resources by using a consistent tagging schema, such as creating tags to differentiate cost centers, data centers, projects, or teams. To add tags, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Resource list**. In the Tag column, click **Add tag** for each resource that you want to tag.
 
    Add tags in key:value pairs to add custom columns based on the key in the usage report. Create keys based on the categories that you use to organize your resources, such as using `costcenter:` to group by cost center or `project:` to group by project.
    {: tip}

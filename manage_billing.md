@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-05-18"
+lastupdated: "2021-06-22"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -47,7 +47,7 @@ You can have only one credit card on file. When you add a new card, your existin
 
 Complete the following steps to edit your active card:
 
-1. Click the **Actions** icon ![List of actions icon](../icons/action-menu-icon.svg) > **Edit**.  menu. 
+1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Edit**.  menu. 
 2. Update the card number or expiration date. 
 3. To update the billing address, contact [{{site.data.keyword.cloud_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
@@ -91,7 +91,7 @@ You might manage your payment method on a separate billing platform. You can eas
 
 Your payment methods might be managed outside of the console. To manage your payment, complete the following steps: 
   1. Go to [ibm.com](http://www.ibm.com){: external} and log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
-  1. Click the **{{site.data.keyword.avatar}}** icon ![Avatar icon](../icons/i-avatar-icon.svg), and select **Billing**.
+  1. Click the **Avatar** icon ![Avatar icon](../icons/i-avatar-icon.svg "Avatar"), and select **Billing**.
   1. Click **Manage payment method**.
   1. Enter your credit card information, and click **Register**.
 

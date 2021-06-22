@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-03-12"
+lastupdated: "2021-06-22"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator, infrastructure quote, compute quote, vsi quote, bare metal quote
 
@@ -23,7 +23,7 @@ subcollection: billing-usage
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} products by customizing plans for your needs. Explore the catalog to find offerings to add to an estimate. 
 {:shortdesc}
 
-1. In the {{site.data.keyword.cloud_notm}} console, go to the Cost estimator icon ![Estimator icon](../icons/calculator.svg). From here, you are directed to the estimate detail page.  
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Cost estimator** icon![Cost estimator icon](../icons/calculator.svg "Cost estimator"). From here, you are directed to the estimate detail page.  
 2. Click **Go to catalog** to explore the available products you can add to your estimate. 
 3. Select the product that you are interested in. You are directed to the product details page in the catalog. 
 

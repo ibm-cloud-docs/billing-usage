@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-04-20"
+lastupdated: "2021-06-22"
 
 keywords: payment, charges, pricing plan, service cost, cost, pricing tier, pricing model, pricing
 
@@ -49,7 +49,7 @@ Lite plans are structured as a free quota. You can work on your projects worry f
    * Encrypted data storage limit, for example 1 GB
    * Provisioned throughput capacity
 
-You can easily find services for Lite plans in the catalog. By default, all services with a Lite plan are displayed with a Lite tag ![Lite tag](../icons/Lite.svg). Select a service to view the quota details for the associated Lite plan.
+You can easily find services for Lite plans in the catalog. By default, all services with a Lite plan are displayed with a **Lite** tag ![Lite tag](../icons/Lite.svg "Lite"). Select a service to view the quota details for the associated Lite plan.
 
 
 ## Charges for compute resources

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-04-05"
+lastupdated: "2021-06-22"
 
 keywords: change service, upgrade service, service plan, pricing plan
 
@@ -39,7 +39,7 @@ You can update the pricing plan only for certain services. If plan updates are e
 {: #changing-plan-ui}
 {: ui}
 
-1. From the {{site.data.keyword.Bluemix_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Resource List**, and select the service. 
+1. From the {{site.data.keyword.Bluemix_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Resource List**, and select the service. 
 1. Click **Plan** in the service instance dashboard. Select the pricing plan that you want, and click **Save**.
 
     Some services have pricing plans that are not selectable from the Plan page. Typically, these plans aren't selectable because they require assistance from the {{site.data.keyword.Bluemix_notm}} Sales team or they require a migration before you can update plans. See the documentation for the specific service for information about the required next steps.
@@ -48,7 +48,7 @@ Depending on the type of plan updates you make, your next steps can vary. For ex
   
 Complete the following steps to restart your app:
 
-1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Resource List**, and find the app that the service is bound to. 
+1. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Resource List**, and find the app that the service is bound to. 
 1. From the app menu, select **Restart App**.
 
 For more information about any further required actions, see the documentation for the specific service.
