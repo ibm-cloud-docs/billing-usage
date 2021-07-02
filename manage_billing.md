@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-06-22"
+lastupdated: "2021-07-02"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -64,6 +64,9 @@ The steps to update your credit card apply to the following types of accounts:
  
 The process for updating a credit card requires a manual review that might take a few days to process. To view your open change request cases, go to [{{site.data.keyword.cloud_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter).
 {: tip}
+
+American Express can't be used as a payment method for India, Singapore, and South Africa based accounts that are billed in US dollars.
+{: note}
 
 ### Updating PayPal or other payment methods
 {: #changepaymethod-paypal}
