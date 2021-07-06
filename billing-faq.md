@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-07-02"
+lastupdated: "2021-07-06"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -67,6 +67,13 @@ Contact us by calling 1-866-325-0045 and selecting the third option. Alternative
 You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/). For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
 
 For additional information about specific error messages, see [Why can't I upgrade my IBM Cloud account?](/docs/account?topic=account-ts_upgrade_cc).
+
+## Can I check the status of my account's updated payment method?
+{: #payment-method-status}
+{: faq}
+
+Yes, you can. When you request to change your payment method, a support case is created automatically. Go to the [Manage cases](https://{DomainName}/unifiedsupport/cases) page in the {{site.data.keyword.cloud_notm}} console to view the status of your request. 
+
 
 ## Can I delete my credit card?
 {: #removecard}
