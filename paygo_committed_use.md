@@ -60,7 +60,7 @@ If you don't spend the total committed amount by the end of the commitment term,
 ## Service-level discounts
 {: #service-discount-commit}
 
-In addition to the platform-level discount applied to a commitment, you can receive additional discounts that apply to a service. Discounts on services vary depending on your account type. To view the discounts that are applied to your commitment in the {{site.data.keyword.cloud.notm}} console, go to **Manage** > **Billing and usage**, and select **Commitments and subscriptions**. In the discounts section, use the table to view your active discounts. 
+In addition to the platform-level discount applied to a commitment, you can receive additional discounts that apply to a service. Discounts on services vary depending on your account type. To view the discounts that are applied to your commitment in the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Commitments and subscriptions**. In the discounts section, use the table to view your active discounts. 
  
 Multiple discounts can't be applied to a single resource.
 {: note}
