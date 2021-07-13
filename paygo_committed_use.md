@@ -57,7 +57,7 @@ To view your platform and service subscription usage in the {{site.data.keyword.
 
 If you don't spend the total committed amount by the end of the commitment term, you are invoiced for the amount that you didn't consume. The graph on the Commitments and subscriptions page provides details about what you've spent toward your overall committed amount, so you can easily track what you've consumed and how much time is left in your commitment.
 
-## Service level discounts
+## Service-level discounts
 {: #service-discount-commit}
 
 In addition to the platform-level discount applied to a commitment, you can receive additional discounts that apply to a service. Discounts on services vary depending on your account type. To view the discounts that are applied to your commitment in the {{site.data.keyword.cloud}} console, go to **Manage** > **Billing and usage**, and select **Commitments and subscriptions**. In the discounts section, use the table to view your active discounts. 
@@ -65,4 +65,4 @@ In addition to the platform-level discount applied to a commitment, you can rece
 Multiple discounts can't be applied to a single resource.
 {: note}
 
-For more information about service level discounts, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external}. 
+For more information about service-level discounts, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external}. 
