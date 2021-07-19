@@ -1,6 +1,6 @@
 {
     "title": "IBM Cloud Billing and Usage docs",
-    "lastupdated": "2021-04-29",
+    "lastupdated": "2021-07-19",
     "introduction": "IBM Cloud offers multiple billing options and tools for every business whether it’s tracking your usage or managing invoice and payments. Leverage the docs, API & SDK reference, architecture references, and more to support your billing and usage needs.",
     "section_devtools": {
       "api": "/docs?tab=api-docs&category=platform_services&subCategory=billing-usage",
@@ -45,9 +45,9 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
-          "date": "12 January 2021",
-          "title": "Pay as you go with Committed Use pricing model",
-          "description": "Customers with a Subscription account can use the new pricing model, IBM Cloud Pay as you go with Committed Use. The new pricing model provides you with additional benefits as you navigate and build on IBM Cloud."
+          "date": "7 July 2021",
+          "title": "Service level discounts for accounts with the Pay as you go with Committed Use billing model",
+          "description": "If you have an account with the Pay as you go with Committed Use billing model, you might be eligible to receive service-level discounts."
         },
         {
             "date": "9 February 2021",
