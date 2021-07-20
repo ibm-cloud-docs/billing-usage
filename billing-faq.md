@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-07-06"
+lastupdated: "2021-07-19"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -35,6 +35,18 @@ Runtime and container usage is charged based on the following variables:
  * The duration that memory is used.
 
 Multiply the two values together, and the result is the GB-hour.
+
+## How are bandwidth overage charges calculated for Bare Metal Servers and Virtual Servers?
+{: #bandwidth-usage}
+{: faq}
+
+IBM Cloud systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs). 
+
+## How do I prevent bandwidth overages?
+{: #bandwidth-usage-overages}
+{: faq}
+
+If you have multiple servers provisioned, you can potentially reduce the liklihood of future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Alternatively, you can contact an [IBM Cloud Sales](https://{DomainName}/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
 
 ## What happens if my Lite plan instance reaches the monthly quota?
 {: #monthlyquota}
