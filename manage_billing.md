@@ -53,7 +53,7 @@ Complete the following steps to edit your active card:
 
 ##  Managing payment methods for all other accounts 
 
-The steps to update your credit card apply to the following types of accounts: 
+The steps to update a payment method apply to the following types of accounts: 
 
  * New and existing Pay-As-You-Go accounts based in the US with any payment method other than a credit card
  * New and existing Pay-As-You-Go accounts not based in the US
