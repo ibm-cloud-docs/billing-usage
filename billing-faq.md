@@ -145,6 +145,13 @@ Feature codes add extra capabilities to Lite accounts and are typically provided
 
 You might be looking for information about promo codes and subscription codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
+## Why did I get billed for a resource I deleted?
+{: #stop-billing}
+{: faq}
+
+A [resource](x2004267){: term} is anything that you can create from the catalog that is managed by and contained within a resource group. You're billed for resources in your account until you cancel them. If you deleted a resource or have resources in your account that are no longer used, make sure to cancel all billing items associated with those resources. Billing items can't be recovered after they are canceled. For more information, see [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items). 
+
+
 ## How can I monitor spending?
 {: #monitor-spending}
 {: faq}
