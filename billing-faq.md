@@ -143,7 +143,19 @@ After you complete these steps, if you still believe that the invoice amount is 
 
 Feature codes add extra capabilities to Lite accounts and are typically provided for educational initiatives or special events. To redeem your code, go to the [Account settings](https://{DomainName}/account/settings) page in the console, and click **Apply code**.
 
-You might be looking for information about promo codes and subscription codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+You might be looking for information about promo codes and subscription codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code).
+
+
+## Why did my account get billed for additional services charges?
+{: #getting-billed}
+{: faq}
+
+As the account owner, you're responsible for all charges that are incurred by users in your account, including invited users. Ensure that each user is assigned only the level of access that is required to complete their job, including the ability to create new instances that might incur extra charges in your account. For more information, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).  
+
+Resources and applications that are left running in an account are subject to charges based on the pricing and description of the product. For example, this includes buildpacks, Platform as a Service, and Infrastructure as a Service. 
+
+If you believe that charges on your invoice are incorrect, [contact Support](https://{DomainName}/unifiedsupport/supportcenter){: external} within 30 calendar days of the invoice due date or use the contact information that is found on your invoice. 
+
 
 ## Why did I get billed for a resource I deleted?
 {: #stop-billing}
