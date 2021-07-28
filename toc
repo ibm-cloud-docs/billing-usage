@@ -32,6 +32,7 @@ Managing billing and usage
         subscription_codes.md
         /account/account-codes
     
+    cancel-billing-items.md
     support.md
 
     {: .topicgroup}
