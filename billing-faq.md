@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-07-19"
+lastupdated: "2021-07-29"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -162,6 +162,15 @@ If you believe that charges on your invoice are incorrect, [contact Support](htt
 {: faq}
 
 A [resource](x2004267){: term} is anything that you can create from the catalog that is managed by and contained within a resource group. You're billed for resources in your account until you cancel them. If you deleted a resource or have resources in your account that are no longer used, make sure to cancel all billing items associated with those resources. Billing items can't be recovered after they are canceled. For more information, see [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items). 
+
+## Can I add a tax identification number to my account?
+{: #tax-assessment}
+{: faq}
+
+If you are not subject to tax, you can provide us with a tax identification number by using the contact information that is found on your most recent invoice. After your tax identification number is accepted, you are not charged taxes on any future invoices. The removal of tax charges from your account is not retroactive and can't be refunded.  
+
+{{site.data.keyword.cloud_notm}} complies with all tax regulations. Taxes are assessed based on the laws that correspond to the address on your account.   
+{: note}
 
 
 ## How can I monitor spending?
