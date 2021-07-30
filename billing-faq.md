@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-07-29"
+lastupdated: "2021-07-30"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -96,6 +96,22 @@ You must have an active credit card or PayPal account on file. You can replace a
 * If you're using a new US-based Pay-As-You-Go account with credit card billing, you can replace your credit card by going to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} and opening a support case. 
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
 * If you manage your payment method on a separate billing platform, you can remove your credit card by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/){: external}. 
+
+
+## What is Business Continuity Insurance?
+{: #BCI-invoice}
+{: faq}
+
+Business Continuity Insurance is insurance that protects you from illegitimate charges against your servers. You can request this insurance through [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://{DomainName}/catalog?contactmodule){: external} to avoid overage charges if a documented network attack occurs against a covered server. {{site.data.keyword.Bluemix_notm}} credits back any overages incurred on the affected server. 
+
+To obtain the credits for illegitimate charges against your servers, contact [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external} and open a support case.
+
+
+## What is the `Service: Support and Services` charge on my invoice?
+{: #supserve-invoice}
+{: faq}
+
+If you provision a VMWare cluster on your {{site.data.keyword.Bluemix_notm}} account, you are charged for VMWare Level 2 Support for each cluster instance. This charge is in addition to any {{site.data.keyword.Bluemix_notm}} Support charges for Premium or Advanced Support.
 
 ## What's the difference between promo codes and feature codes?
 {: #promo-feature-codes}
