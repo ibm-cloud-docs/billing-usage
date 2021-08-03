@@ -111,7 +111,7 @@ To obtain the credits for illegitimate charges against your servers, contact [{{
 {: #supserve-invoice}
 {: faq}
 
-If you provision a VMWare cluster on your {{site.data.keyword.Bluemix_notm}} account, you are charged for VMWare Level 2 Support for each cluster instance. This charge is in addition to any {{site.data.keyword.Bluemix_notm}} Support charges for Premium or Advanced Support.
+If you create a VMWare cluster on your {{site.data.keyword.Bluemix_notm}} account, you are charged for VMWare Level 2 Support for each cluster instance. This charge is in addition to any {{site.data.keyword.Bluemix_notm}} Support charges for Premium or Advanced Support.
 
 ## What's the difference between promo codes and feature codes?
 {: #promo-feature-codes}
