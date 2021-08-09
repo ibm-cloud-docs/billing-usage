@@ -68,3 +68,9 @@ Yes, you can switch to paperless invoices by submitting a request on the [{{site
 {: faq}
 
 The adjustments section of your current invoice includes charges or credits from previous billing periods that weren't included on your previous invoice.
+
+## How do I know if my invoice is paid? 
+{: #paid-invoices}
+{: faq}
+
+If you manage your invoices through the {{site.data.keyword.IBM_notm}} Console, you can see the invoice status by clicking **Manage > Billing and usage**, and selecting **Invoices**. When the invoice is paid, the status is `Closed`. If your invoices are managed through the [IBM Invoices website](https://www.ibm.com/invoices){: external}, it's paid when the status is `Settled`. 
