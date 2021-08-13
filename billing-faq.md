@@ -234,7 +234,7 @@ After you submit the payment, contact the [Support Center](https://{DomainName}/
 {: #startup-ibm}
 {: faq}
 
-Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://developer.ibm.com/startups/){: external}. The awarding and extension of credits through this IBM corporate program isn'te directly supported by IBM Cloud Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an IBM Cloud Invoice. For more information about the program and its credits, visit the [Frequently Asked Questions for the Startup with IBM Program](https://developer.ibm.com/startups/faq){: external}.
+Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://developer.ibm.com/startups/){: external}. The awarding and extension of credits through this IBM corporate program isn't directly supported by IBM Cloud Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an IBM Cloud Invoice. For more information about the program and its credits, visit the [Frequently Asked Questions for the Startup with IBM Program](https://developer.ibm.com/startups/faq){: external}.
 
 ## Where can I find my credits for {{site.data.keyword.IBM_notm}} corporate programs? 
 {: #ibm-corporate-credits}
