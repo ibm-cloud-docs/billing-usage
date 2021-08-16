@@ -21,7 +21,7 @@ subcollection: billing-usage
 {: #applying-promo-codes}
 
 Promotions are limited-time credits toward your {{site.data.keyword.Bluemix}} account and services that you can get by applying promo codes. Each promo code can be used one time and is valid only for a certain amount of time. Promo codes are provided on a limited basis by {{site.data.keyword.Bluemix_notm}} sales to customers with billable accounts. 
-{:shortdesc} 
+{: shortdesc} 
 
 Promo codes are typically based on short phrases, like `PROMO200`. If you have an alphanumeric code, such as `a1b2c3def456`, it's a different type of code that is referred to as a feature code. You can apply these codes to Lite accounts on the **Manage > Accounts > Account settings** page. For more information, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes). 
 {: tip}

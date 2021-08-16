@@ -28,7 +28,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You are unable to view your account's commitments and subscriptions in the {{site.data.keyword.Bluemix}} console.  
-{:shortdesc}
+{: shortdesc}
 
 You try to view the Commitments and Subscriptions page, but a message is displayed that says `Looks like you don't have access to view this page.` 
 {: tsSymptoms}

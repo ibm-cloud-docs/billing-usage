@@ -64,7 +64,7 @@ Complete the following steps to update a pricing plan by using the {{site.data.k
    ```
    ibmcloud catalog service <service_name>
    ```
-   {:codeblock}
+   {: codeblock}
 
    The output lists `RC Compatible true`. Make a note of the ID of the plan that you want to update to.
 
@@ -91,7 +91,7 @@ Complete the following steps to update a pricing plan by using the {{site.data.k
      ```
      ibmcloud cf update-service <service_instance_name> [-p <plan_name>]
      ```
-     {:codeblock}
+     {: codeblock}
 
 ## Updating a pricing plan by using the API
 {: #changing-plan-api}

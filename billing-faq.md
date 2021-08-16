@@ -89,7 +89,7 @@ Yes, you can. When you request to change your payment method, a support case is 
 
 ## Can I delete my credit card?
 {: #removecard}
-{:faq}
+{: faq}
 
 You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one. 
 
@@ -123,7 +123,7 @@ Feature codes provide enhancements for Lite accounts, such as an unlimited numbe
 
 ## Where can I get a promo code?
 {: #get-promo-code}
-{:faq}
+{: faq}
 
 Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales and educational providers on a limited basis. Promotions are meant for select groups and are typically given out at hackathons, conferences, and other events.
 

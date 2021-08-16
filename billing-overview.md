@@ -23,7 +23,7 @@ subcollection: billing-usage
 {: #overview}
 
 Learn about the {{site.data.keyword.cloud}} billing options and tools that you can use to track your usage and manage invoicing and payments.
-{:shortdesc}
+{: shortdesc}
 
 ![Introduction to IBM Cloud billing and usage](https://video.ibm.com/embed/recorded/128825308){: video output="iframe" data-script="#video-transcript-billing-usage" id="watson-media-player" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 

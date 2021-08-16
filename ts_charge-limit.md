@@ -28,7 +28,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You can't make a full payment on your invoice because of a charge limit.   
-{:shortdesc}
+{: shortdesc}
 
 You try to make a payment on an invoice that is over $1,000.00 USD, but you get the following error message:
 {: tsSymptoms}

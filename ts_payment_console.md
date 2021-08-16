@@ -25,7 +25,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 If your payments are managed outside of the console, you can't use [Billing and usage](https://{DomainName}/billing){: external} to add a credit card. 
-{:shortdesc}
+{: shortdesc}
 
 You want to enter a credit card to pay for {{site.data.keyword.Bluemix_notm}} services, but the option doesn't appear.
 {: tsSymptoms}

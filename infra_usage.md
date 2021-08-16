@@ -22,7 +22,7 @@ subcollection: billing-usage
 {: #infra-usage}
 
 You can view your device usage and service purchases for classic infrastructure devices and services by going to **Manage > Billing and usage**.  
-{:shortdesc}
+{: shortdesc}
 
 ## Viewing billing and usage information
 {: #infra-billing}

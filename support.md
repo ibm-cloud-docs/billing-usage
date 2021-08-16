@@ -20,7 +20,7 @@ subcollection: billing-usage
 {: #support}
 
 If you have Advanced or Premium support, you can keep track of your monthly support costs from the Support costs page in the {{site.data.keyword.Bluemix}} console. 
-{:shortdesc}
+{: shortdesc}
 
 ## How you're charged for support
 {: #how-support}

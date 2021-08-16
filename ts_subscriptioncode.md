@@ -25,7 +25,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 To successfully apply a subscription code, make sure the code is valid and you have the required access.
-{:shortdesc}
+{: shortdesc}
 
 When you try to apply a subscription code, you see an error that states that the code cannot be applied.
 {: tsSymptoms}

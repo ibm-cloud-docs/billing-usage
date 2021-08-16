@@ -32,7 +32,7 @@ subcollection: billing-usage
 {: #viewingusage}
 
 You can view your {{site.data.keyword.cloud}} usage details, including a summary of estimated charges for all services and resources that are used per month in your organizations, from the Usage page in the console.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
 {: #view-usage-permissions}
@@ -99,7 +99,7 @@ As an alternative to the console, you can view your usage by using the {{site.da
    ```
    ibmcloud login
    ```
-   {:codeblock}
+   {: codeblock}
 
 1. View usage by running the **`ibmcloud billing`** command as shown in the following examples.
 
@@ -115,21 +115,21 @@ As an alternative to the console, you can view your usage by using the {{site.da
       ```
       ibmcloud billing org-usage ORG_NAME [-d YYYY-MM] [--output FORMAT] [-q, --quiet]
       ```
-      {:codeblock}
+      {: codeblock}
 
    * View monthly usage for a resource group (account admin or resource group admin only):
 
       ```
       ibmcloud billing resource-group-usage GROUP_NAME [-d YYYY-MM] [--output FORMAT] [-q, --quiet]
       ```
-      {:codeblock}
+      {: codeblock}
 
    * View monthly resource instances usage under the current account:
 
       ```
       ibmcloud billing resource-instances-usage [-o ORG] [-g RESOURCE_GROUP] [-d YYYY-MM] [--output FORMAT] [-q, --quiet]
       ```
-      {:codeblock}
+      {: codeblock}
 
 ### Viewing your usage by using the API
 {: #view-usage-api}
