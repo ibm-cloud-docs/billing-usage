@@ -26,7 +26,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You tried to change your payment method by adding a new credit card in the {{site.data.keyword.cloud_notm}} console [Payments page](https://{DomainName}/billing/payments){: external}.  
-{:shortdesc}
+{: shortdesc}
 
 After you entered your credit card information and saved it, the following message displayed:
 {: tsSymptoms}

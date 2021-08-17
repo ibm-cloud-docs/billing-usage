@@ -21,7 +21,7 @@ subcollection: billing-usage
 {: #best-practices}
 
 Follow our best practices to track costs and automate billing in {{site.data.keyword.Bluemix}}.
-{:shortdesc}
+{: shortdesc}
 
 ## Choose an account type that fits your usage
 {: #choose-account-types}
@@ -33,7 +33,7 @@ Follow our best practices to track costs and automate billing in {{site.data.key
 Each of these account types includes more benefits for your production workloads on {{site.data.keyword.cloud_notm}}, including access to the entire catalog, extra free runtime memory, and support plans. For more information, see [Account types](/docs/account?topic=account-accounts).
 
 ## Track costs for related resources by adding tags
-{:#track-billing-tags}
+{: #track-billing-tags}
 
 Add tags to your resources to organize, track, and manage costs for related resources. When you use a consistent tagging schema to identify which resources are tied to specific projects, you can group and filter by those tags when you analyze costs within your exported usage report.
 

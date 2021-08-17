@@ -26,7 +26,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 To successfully apply a feature code, make sure the code is valid and that you have the correct account type. 
-{:shortdesc}
+{: shortdesc}
 
 When you try to apply a feature code, you see an error that states that the code cannot be applied.
 {: tsSymptoms}

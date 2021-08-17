@@ -27,7 +27,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You must have the correct authorization on the account to view billing information. 
-{:shortdesc}
+{: shortdesc}
 
 When you try to access your billing information, such as payments and invoices, you get a message that says the function isn't available.
 {: tsSymptoms}

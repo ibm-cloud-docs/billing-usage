@@ -21,7 +21,7 @@ subcollection: billing-usage
 {: #cost}
 
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} products by customizing plans for your needs. Explore the catalog to find offerings to add to an estimate. 
-{:shortdesc}
+{: shortdesc}
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the **Cost estimator** icon![Cost estimator icon](../icons/calculator.svg "Cost estimator"). From here, you are directed to the estimate detail page.  
 2. Click **Go to catalog** to explore the available products you can add to your estimate. 
@@ -78,4 +78,4 @@ The following table lists the supported billing currencies.
 |SEK            |	Swedish krona        |
 |USD            | United States dollar |
 |ZAR            |	South African rand   |
-{:caption="Table 1. Supported currencies" caption-side="top"}
+{: caption="Table 1. Supported currencies" caption-side="top"}

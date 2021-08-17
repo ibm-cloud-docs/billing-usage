@@ -81,7 +81,7 @@ You can get a report of usage for the enterprise, an account group, or a specifi
    ```
    ibmcloud login
    ```
-   {:codeblock}
+   {: codeblock}
 
 1. If you want to view usage for a specific account group or account, find the name or ID by running the **`ibmcloud enterprise`** command.
 
@@ -106,14 +106,14 @@ You can get a report of usage for the enterprise, an account group, or a specifi
       ```
       ibmcloud billing enterprise-usage --account-group Development --month 2019-07
       ```
-      {:codeblock}
+      {: codeblock}
 
    * View the usage for the account groups and accounts that are directly under the enterprise.
 
       ```
       ibmcloud billing enterprise-usage --children
       ```
-      {:codeblock}
+      {: codeblock}
 
 By default, the commands output the usage report for the current month in the following format. Most costs are listed as billable costs. Non-billable costs are listed only in rare cases, such as for the month when you add a trial account to the enterprise.
 

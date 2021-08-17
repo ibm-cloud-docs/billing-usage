@@ -38,7 +38,7 @@ To keep the example simple, assume the prices in the following table don't fluct
 | {{site.data.keyword.runtime_nodejs_short}}                   |	Charges for runtime by GB-hours          |	$0.07 USD/GB-hour | 
 | {{site.data.keyword.autoscaling}} |	Free service plan for the {{site.data.keyword.autoscaling}} service |	Free              |
 | {{site.data.keyword.cloudant_short_notm}} | Standard plan includes 20 GB of free data storage</br>Scale provisioned throughput capacity in increments of:</br>100 lookups per second</br>50 writes per second</br>5 queries per second | $1.00 USD/GB of data storage</br>$0.25 USD/Lookup per second</br>$0.50 USD/Write per second</br>$5.00 USD/Query per second |
-{:caption="Table 1. Pricing for resources" caption-side="top"}
+{: caption="Table 1. Pricing for resources" caption-side="top"}
 
 
 ## Calculating the app price
