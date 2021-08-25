@@ -199,7 +199,7 @@ To view your enterprise hierarchy and any usage, you need an access policy with 
 
 1. Identify the departments within your company that correspond with the account groups.
 
-   If the contacts that are assigned to your account groups are associated with the department that you want to recover costs from, finding the contact is one way to find this information. Go to **Manage > Enterprise** and select **Accounts**. The contact for each account group is listed in the table.
+    If the contacts that are assigned to your account groups are associated with the department that you want to recover costs from, finding the contact is one way to find this information. Go to **Manage > Enterprise** and select **Accounts**. The contact for each account group is listed in the table.
 
    However, billing practices vary by company. For example, the account group contact might be a technical focal that's not associated with the department that you want to charge. Always verify the correct department according to your company's accounting processes.
 

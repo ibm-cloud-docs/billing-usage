@@ -27,9 +27,9 @@ You're billed for resources in your account until you cancel them. If you delete
 To cancel billing items, complete the following steps:
 
 1. If you haven't deleted the resource, you need to do so: 
-  1. From your dashboard, click **View resources** in the Resources summary widget.
-  1. Expand the sections to locate the service instance that you want to delete.
-  1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Delete** for the row.
+   1. From your dashboard, click **View resources** in the Resources summary widget.
+   1. Expand the sections to locate the service instance that you want to delete.
+   1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Delete** for the row.
 1. After you delete your resource, from the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage** and select **Billing items**. 
 1. Expand the items to find any associated billing items to resources that you deleted. 
 1. Click **Actions** > **Cancel Billing Item**.  

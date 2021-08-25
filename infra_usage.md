@@ -31,7 +31,7 @@ To view billing and usage for classic infrastructure resources, you need an acce
 
 * Select **Billing items** to view billing items and their associated devices. Billing items are services and offerings that are not a server, such as storage. Associating a billing item with a device helps you track and organize costs in your invoice.
 
-  By default, the Billing items page displays all associated billing items. You can change your view by clicking the **Associated Billing Items** menu and selecting another option. You can associate or disassociate one item, or expand the **Bulk Actions** operation for multiple items at a time. You can cancel individual billing items at any time.
+   By default, the Billing items page displays all associated billing items. You can change your view by clicking the **Associated Billing Items** menu and selecting another option. You can associate or disassociate one item, or expand the **Bulk Actions** operation for multiple items at a time. You can cancel individual billing items at any time.
 * Select **Invoices** to view detailed invoices that list your device and service usage and the billed amount for each item.
 
    To view your billed usage for the current invoicing period, click the link with your next invoice date under Next Recurring Invoice.
@@ -48,9 +48,9 @@ You can view information about your classic infrastructure device and service pu
 
 * Select **Device upgrades** to view specific information, such as which devices are upgraded and the date the case was created and completed. To view this page, you need an access policy with the Viewer role or higher on the Billing service. 
 
-  You can view all open and closed cases for your infrastructure device upgrades. You can also track the progress of the case, view a logged correspondence with support, and keep track of cases that are opened and completed.
+   You can view all open and closed cases for your infrastructure device upgrades. You can also track the progress of the case, view a logged correspondence with support, and keep track of cases that are opened and completed.
 * Select **Orders** to view a list of all the orders made in your account. To view this page, you need the Add/Upgrade Storage (StorageLayer), Add Server, or Add/Upgrade Services [classic infrastructure permission](/docs/account?topic=account-mngclassicinfra). 
 * Select **Cancellations** to view all cancellations on your account. To view this page, you need both the Cancel server and Cancel services classic infrastructure permissions.
 
-  You can view a list of all of the cancellations made in the account, and you can view them by type of device or service. The cancellations show the device name and the case number. This list tracks ongoing and closed cases, and you can view your messages with support.  
+   You can view a list of all of the cancellations made in the account, and you can view them by type of device or service. The cancellations show the device name and the case number. This list tracks ongoing and closed cases, and you can view your messages with support.  
 * Select **Shipments** to view your digital shipments, such as data transfer requests or physical shipments. To view this page, you need an access policy with the Viewer role or higher on the Billing service.

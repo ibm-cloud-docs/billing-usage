@@ -78,7 +78,7 @@ To ensure that access is granted to the correct individuals, you must register u
 1. Complete your profile on the Invoices@IBM website. 
 1. From the Active and pending accesses tab, add access to your account and provide your {{site.data.keyword.IBM_notm}} customer number. 
   
-  If you don't know, or the website does not accept your customer number, contact {{site.data.keyword.cloud_notm}} Support by calling 1-866-325-0045 and selecting the third option, or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){: external}. 
+   If you don't know, or the website does not accept your customer number, contact {{site.data.keyword.cloud_notm}} Support by calling 1-866-325-0045 and selecting the third option, or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){: external}. 
 
 To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external website to go to it directly.
 
@@ -92,6 +92,6 @@ Depending on which region your account is located in, you can switch to paperles
 3. Click **Email us** in the Invoice, payment section.
 4. Provide your {{site.data.keyword.IBM_notm}} customer number in your request to switch to paperless billing. Click **Save**. 
 
-  If you don't know your customer number, contact {{site.data.keyword.Bluemix_notm}} Support by calling 1-866-325-0045 and selecting the third option, or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){: external}. 
-  {: tip}
+   If you don't know your customer number, contact {{site.data.keyword.Bluemix_notm}} Support by calling 1-866-325-0045 and selecting the third option, or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){: external}. 
+   {: tip}
 5. To track the status your request, click **My Requests**.

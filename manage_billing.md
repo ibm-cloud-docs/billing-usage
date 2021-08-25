@@ -93,8 +93,8 @@ To make a one-time payment, in the {{site.data.keyword.cloud_notm}} console, go 
 You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/). You must log in with your IBMid and password. You are also required to enter the temporary passcode that's emailed to you. From there, select **Manage payment method** and then **Manage my wallet** to register, update, or remove your payment method. 
 
 Your payment methods might be managed outside of the console. To manage your payment, complete the following steps: 
-  1. Go to [ibm.com](http://www.ibm.com){: external} and log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
-  1. Click the **Avatar** icon ![Avatar icon](../icons/i-avatar-icon.svg "Avatar"), and select **Billing**.
-  1. Click **Manage payment method**.
-  1. Enter your credit card information, and click **Register**.
+   1. Go to [ibm.com](http://www.ibm.com){: external} and log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
+   1. Click the **Avatar** icon ![Avatar icon](../icons/i-avatar-icon.svg "Avatar"), and select **Billing**.
+   1. Click **Manage payment method**.
+   1. Enter your credit card information, and click **Register**.
 
