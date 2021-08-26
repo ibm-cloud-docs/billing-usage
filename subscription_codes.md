@@ -43,8 +43,8 @@ To manually apply the subscription code, complete the following steps:
 1. In the {{site.data.keyword.cloud}} console, go to **Manage > Account**, and select **Account settings**.
 1. Click **Apply code**.
 
-  Each code can be redeemed only once, and the codes must be redeemed before their expiration date. Credit that is added to an account cannot be removed.
-  {: important}
+   Each code can be redeemed only once, and the codes must be redeemed before their expiration date. Credit that is added to an account cannot be removed.
+   {: important}
 
 1. Enter the subscription code, and click **Apply**.
 

@@ -52,9 +52,9 @@ When a promo code is applied to an {{site.data.keyword.Bluemix_notm}} enterprise
 
 Complete the following steps to apply promo codes to your account and services:  
 
-  1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions**. 
-  1. Enter your promo code, and click **Apply**. 
-  1. Review the promotion details, and click **Apply**. After the promo code is applied, a success message is displayed.
+   1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions**. 
+   1. Enter your promo code, and click **Apply**. 
+   1. Review the promotion details, and click **Apply**. After the promo code is applied, a success message is displayed.
 
 You can also apply promo codes for specific services from the catalog when you create a resource. To apply the code, select a billable plan, enter the promo code, and click **Apply**. The promo code is added to your account even if you don't create the service. Promo codes for enterprise parent accounts can't be applied to specific services. 
 {: tip}
