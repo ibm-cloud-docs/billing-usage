@@ -43,13 +43,6 @@ toc:
         - enterprise-usage.md
         - enterprise-report.md
         - quotas.md
-        - topicgroup: 
-          label: Using data analytics for customized views of your usage
-          topics: 
-          - data-template.md
-          - data-create.md
-          - data-access.md
-          - data-manage.md
       - topicgroup: 
         label: Working with codes and credits
         topics: 
