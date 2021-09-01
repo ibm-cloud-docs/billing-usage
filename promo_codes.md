@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-06-07"
+lastupdated: "2021-08-31"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -31,7 +31,7 @@ Promotions are one type of credit for your account. For example, if you have a P
 ## Types of available promotion credits
 {: # available-promo-credit}
 
-Both one-time credit promotions and recurring dollar credit promotions are available.  
+Both one-time credit promotions and recurring dollar credit promotions are available for all {{site.data.keyword.Bluemix_notm}} products. 
 
 1. One-time credit promotion 
     * Credit promotions can be used only one time, for a set time period, and you can't remove them after you apply them. Credit promotions use the following format: `$X off for Y days.` 
@@ -50,13 +50,13 @@ You can apply promo codes to Pay-As-You-Go, Subscription, and {{site.data.keywor
 When a promo code is applied to an {{site.data.keyword.Bluemix_notm}} enterprise parent account, it applies to all child accounts within the enterprise. 
 {: note}
 
-Complete the following steps to apply promo codes to your account and services:  
+Complete the following steps to apply promo codes to your account and {{site.data.keyword.Bluemix_notm}} products:  
 
-   1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions**. 
-   1. Enter your promo code, and click **Apply**. 
-   1. Review the promotion details, and click **Apply**. After the promo code is applied, a success message is displayed.
+1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions**. 
+1. Enter your promo code, and click **Apply**. 
+1. Review the promotion details, and click **Apply**. After the promo code is applied, a success message is displayed.
 
-You can also apply promo codes for specific services from the catalog when you create a resource. To apply the code, select a billable plan, enter the promo code, and click **Apply**. The promo code is added to your account even if you don't create the service. Promo codes for enterprise parent accounts can't be applied to specific services. 
+You can also apply promo codes for {{site.data.keyword.Bluemix_notm}} products from the catalog when you create a resource. To apply the code, select a billable plan, enter the promo code, and click **Apply**. The promo code is added to your account even if you don't create the service. Promo codes for enterprise parent accounts can't be applied to specific products. 
 {: tip}
 
 Existing classic infrastructure promo codes can be applied only through the catalog when you create those classic infrastructure services. To apply these promo codes, you must have one of the following classic infrastructure permissions on the account: add or upgrade storage, add or upgrade services, or add server. For more information, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission). 
