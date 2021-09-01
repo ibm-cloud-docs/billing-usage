@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-07-30"
+lastupdated: "2021-08-31"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -117,7 +117,7 @@ If you create a VMWare cluster on your {{site.data.keyword.Bluemix_notm}} accoun
 {: #promo-feature-codes}
 {: faq}
 
-Promo codes are for Pay-As-You-Go and Subscription accounts and give you limited-time credits toward your account and services. The codes are typically short phrases, like `PROMO200`. For more information about promo codes, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
+Promo codes are for Pay-As-You-Go and Subscription accounts and give you limited-time credits toward your account {{site.data.keyword.Bluemix_notm}} products. The codes are typically short phrases, like `PROMO200`. For more information about promo codes, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
 
 Feature codes provide enhancements for Lite accounts, such as an unlimited number of organizations or converting a Lite account to a trial account. They're typically random alphanumeric codes, like `a1b2c3def456`. For more information about feature codes, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes).
 
