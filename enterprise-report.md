@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-11"
+lastupdated: "2021-09-21"
 
 keywords: enterprise usage, view enterprise costs, account hierarchy, report organization, enterprise report organization
 
@@ -60,7 +60,6 @@ AG -> Account group entity
 A  -> Account entity
 BU -> Billing unit
 ```
-<center>`Cloud Provider` enterprise hierarchy</center>
 
 Given this structure, the `Cloud-Provider` enterprise has the following effective billing units:
 
