@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-06-22"
+lastupdated: "2021-09-21"
 
 keywords: payment, charges, pricing plan, service cost, cost, pricing tier, pricing model, pricing
 
@@ -69,17 +69,19 @@ For example, consider a runtime that costs $0.07 per GB-hour in two 512-MB insta
 {: #charges-services}
 
 Many services include monthly free allowances. Usage of services that aren't included as part of the free allowance is charged in one of the following ways:
-<dl>
-<dt>Fixed charges</dt>
-    <dd>You select a plan and pay on a flat rate basis. For example, the Bare Metal Servers are charged at a flat-rate.</dd>
-<dt>Metered charges</dt>
-    <dd>You pay based on your runtime and service consumption. For example, with the Push service, any usage over the free monthly allowance is charged.</dd>
-<dt>Reserved charges</dt>
-    <dd><p>As the account owner of a Pay As You Go account or a Subscription account, you can reserve a service instance, with a long-term commitment, for a discounted price. For example, you can reserve the standard large Db2 on Cloud offering for 12 months.</p>
-    <p>Some {{site.data.keyword.Bluemix_notm}} services offer reserved plans. You can request a reserved plan from the {{site.data.keyword.Bluemix_notm}} catalog by clicking the tile of the service. Then, select the service plan that best meets your needs. If a reserved plan is available, click <strong>Request</strong>, and follow the prompts to send your request. You receive an email that contains the price information of the reserved plan. An {{site.data.keyword.Bluemix_notm}} sales representative also contacts you soon to complete the purchase.</p></dd>
-<dt>Tiered charges</dt>
-    <dd>Similar to metered charges, you pay based on your runtime and service consumption. However, tiered charges add more pricing tiers, often offering discounted charges in tiers with larger consumption. Tiered pricing is offered in simple, graduated, or block.</dd>
-</dl>
+
+Fixed charges>
+:   You select a plan and pay on a flat rate basis. For example, the Bare Metal Servers are charged at a flat-rate.
+
+Metered charges
+:   You pay based on your runtime and service consumption. For example, with the Push service, any usage over the free monthly allowance is charged.
+
+Reserved charges
+:   As the account owner of a Pay As You Go account or a Subscription account, you can reserve a service instance, with a long-term commitment, for a discounted price. For example, you can reserve the standard large Db2 on Cloud offering for 12 months.
+:   Some {{site.data.keyword.Bluemix_notm}} services offer reserved plans. You can request a reserved plan from the {{site.data.keyword.Bluemix_notm}} catalog by clicking the tile of the service. Then, select the service plan that best meets your needs. If a reserved plan is available, click **Request**, and follow the prompts to send your request. You receive an email that contains the price information of the reserved plan. An {{site.data.keyword.Bluemix_notm}} sales representative also contacts you soon to complete the purchase.
+
+Tiered charges
+:   Similar to metered charges, you pay based on your runtime and service consumption. However, tiered charges add more pricing tiers, often offering discounted charges in tiers with larger consumption. Tiered pricing is offered in simple, graduated, or block.
 
 ### Simple tier
 {: #simple_tier}
