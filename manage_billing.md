@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-07-02"
+lastupdated: "2021-09-26"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -90,11 +90,13 @@ To make a one-time payment, in the {{site.data.keyword.cloud_notm}} console, go 
 ## Managing your payment method outside of the console 
 {: #payment-method-ibm}
 
-You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/). You must log in with your IBMid and password. You are also required to enter the temporary passcode that's emailed to you. From there, select **Manage payment method** and then **Manage my wallet** to register, update, or remove your payment method. 
+You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/) and log in with your IBMid and password. You are also required to enter the temporary passcode that's emailed to you. 
 
-Your payment methods might be managed outside of the console. To manage your payment, complete the following steps: 
-   1. Go to [ibm.com](http://www.ibm.com){: external} and log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
-   1. Click the **Avatar** icon ![Avatar icon](../icons/i-avatar-icon.svg "Avatar"), and select **Billing**.
-   1. Click **Manage payment method**.
-   1. Enter your credit card information, and click **Register**.
+To add a payment method, complete the following steps: 
+1. Go to [ibm.com](http://www.ibm.com){: external} and log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
+1. Click the **Avatar** icon ![Avatar icon](../icons/i-avatar-icon.svg "Avatar"), and select **Billing**.
+1. Click **Manage payment method**.
+1. Enter your payment information, and click **Register**. A temporary passcode is emailed to you after the registration process is complete.
 
+After you register a payment method, when you click **Manage payment method**, you can view the Manage my wallet page to update or delete your payment methods by clicking the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). 
+{: tip}
