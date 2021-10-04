@@ -28,7 +28,7 @@ If you have an {{site.data.keyword.cloud}} Pay-As-You-Go or Subscription account
 
 You receive notifications when you reach 80%, 90%, and 100% of the spending thresholds that you specify. As your needs change, you can edit the spending threshold. If you're interested, you can use our latest enhancement to select up to 10 users from your account to receive notifications about the service. 
 
-Lite accounts can't enable spending notifications because they can use only no-cost Lite services, so you never have any spending. After you upgrade to a Pay-As-You-Go or Subscription account, you can set spending thresholds. For more information, see [Account types](/docs/account?topic=account-accounts).
+Lite accounts can't enable spending notifications because they can use only no-cost services, so you never have any spending. After you upgrade to a Pay-As-You-Go or Subscription account, you can set spending thresholds. For more information, see [Account types](/docs/account?topic=account-accounts).
 {: note}
 
 To set up your notifications:

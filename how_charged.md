@@ -70,7 +70,7 @@ For example, consider a runtime that costs $0.07 per GB-hour in two 512-MB insta
 
 Many services include monthly free allowances. Usage of services that aren't included as part of the free allowance is charged in one of the following ways:
 
-Fixed charges>
+Fixed charges
 :   You select a plan and pay on a flat rate basis. For example, the Bare Metal Servers are charged at a flat-rate.
 
 Metered charges
