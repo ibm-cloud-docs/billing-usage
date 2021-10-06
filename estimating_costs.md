@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-06-22"
+lastupdated: "2021-10-06"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator, infrastructure quote, compute quote, vsi quote, bare metal quote
 
@@ -10,12 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:note: .note}
-{:screen: .screen}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Estimating your costs
 {: #cost}
@@ -23,7 +18,7 @@ subcollection: billing-usage
 You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluemix}} products by customizing plans for your needs. Explore the catalog to find offerings to add to an estimate. 
 {: shortdesc}
 
-1. In the {{site.data.keyword.cloud_notm}} console, go to the **Cost estimator** icon![Cost estimator icon](../icons/calculator.svg "Cost estimator"). From here, you are directed to the estimate detail page.  
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Cost estimator** icon![Cost estimator icon](../icons/calculator.svg "Cost estimator"). From here, you are directed to the estimate detail page.  
 2. Click **Go to catalog** to explore the available products you can add to your estimate. 
 3. Select the product that you are interested in. You are directed to the product details page in the catalog. 
 
@@ -60,6 +55,11 @@ You can generate and view quotes for only {{site.data.keyword.baremetal_short}},
 {: supported-bill-currencies}
 
 The following table lists the supported billing currencies.
+
+<!-- staging only for paygo transition work -->
+
+Any Pay-As-You-Go accounts created after 6 October 2021 are billed in USD. There are exceptions that apply to users in India who are billed in INR by using a credit card. Also, users working with the Sales team to set up a Subscription account or the Pay as you go with Committed Use billing model can still be billed in their local currency.
+{: note}
 
 | ISO 4217 code | Currency             |
 |---------------|----------------------|
