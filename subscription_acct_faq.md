@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-13"
+lastupdated: "2021-10-07"
 
 keywords: GB-hour, container usage, runtime, charge
 
@@ -54,14 +54,18 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 
 You're required to continue paying your monthly charges until the end of your term. You're charged the non-discounted rate for any usage that goes over your total subscription amount. To avoid overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to sign up for a new subscription.
 
-## Can I cancel my Subscription account before the end of my term commitment?  
-{: #subs-cancel-early}
-{: faq}
-
-A subscription is a contract between you and IBM that commits you to use {{site.data.keyword.Bluemix_notm}} for a specific term and spending amount. You can request to cancel your subscription before the end of the term, but whether the subscription can be canceled is at the discretion of IBM. Any remaining credit on your subscription might be forfeited. To inquire about this possibility, contact support. Make sure that you provide details about why you need to cancel your subscription.
 
 ## Is there a monthly minimum amount required for Subscription accounts?
 {: #subs-minimum}
 {: faq}
 
 Yes, your subscription must have a combined minimum spending and term commitment of $100.00 USD each month for 12 months.
+
+
+## Can I cancel my Subscription account before the end of my term commitment?  
+{: #subs-cancel-early}
+{: faq}
+
+A subscription is a contract between you and {{site.data.keyword.IBM_notm}} that commits you to use {{site.data.keyword.Bluemix_notm}} for a specific term and spending amount. You can request to cancel your subscription before the end of the term, but whether the subscription can be canceled is at the discretion of {{site.data.keyword.IBM_notm}}. Any remaining credit on your subscription might be forfeited. For more information, contact [Support](/unifiedsupport/supportcenter){: external}. Make sure that you provide details about why you need to cancel your subscription.
+
+To close a Pay-As-You-Go account or a Lite account, see [Can I cancel my account?](/docs/account?topic=account-accountfaqs#cancelaccount).
