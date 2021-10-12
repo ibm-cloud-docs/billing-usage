@@ -56,9 +56,7 @@ You can generate and view quotes for only {{site.data.keyword.baremetal_short}},
 
 The following table lists the supported billing currencies.
 
-<!-- staging only for paygo transition work -->
-
-Any Pay-As-You-Go accounts created after 6 October 2021 are billed in USD. There are exceptions that apply to users in India who are billed in INR by using a credit card. Also, users working with the Sales team to set up a Subscription account or the Pay as you go with Committed Use billing model can still be billed in their local currency.
+Any Pay-As-You-Go accounts created after 12 October 2021 are billed in USD. There are exceptions that apply to users in India who are billed in INR by using a credit card. Also, users working with the Sales team to set up a Subscription account or the Pay as you go with Committed Use billing model can still be billed in their local currency.
 {: note}
 
 | ISO 4217 code | Currency             |
