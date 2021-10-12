@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-12"
+lastupdated: "2021-10-11"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -87,6 +87,10 @@ You can export a summary of your account's usage, or information about your serv
 
    You can use the **Tags** column in the instance CSV file to help analyze the resources in your account. For example, you might have multiple projects in an account, each with a Kubernetes cluster and a few Cloud Foundry app deployments. You can organize the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. For more information about tagging, see [Working with tags](/docs/account?topic=account-tag).
    {: tip}
+
+   Consider creating tags as a key:value pair to group related tags. The key becomes a column in the CSV file and the pairs are populated in the respective rows of the column. If you don't follow a key:value tag style, the tags appear in the other tags column.
+   {: tip}
+
 
 ### Viewing your usage by using the CLI
 {: #usage_command_line}
