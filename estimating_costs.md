@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-10-14"
+lastupdated: "2021-10-25"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator, infrastructure quote, compute quote, vsi quote, bare metal quote
 
@@ -56,7 +56,7 @@ You can generate and view quotes for only {{site.data.keyword.baremetal_short}},
 
 The following table lists the supported billing currencies.
 
-Any Pay-As-You-Go accounts created after 14 October 2021 are billed in USD. There are exceptions that apply to users in India who are billed in INR by using a credit card. Also, if you're working with {{site.data.keyword.cloud_notm}} Sales to set up a Subscription account or the Pay as you go with Committed Use billing model, you can still be billed in your local currency.
+Any Pay-As-You-Go accounts created after 25 October 2021 are billed in USD. There are exceptions that apply to users in India who are billed in INR by using a credit card. Also, if you're working with {{site.data.keyword.cloud_notm}} Sales to set up a Subscription account or the Pay as you go with Committed Use billing model, you can still be billed in your local currency.
 {: note}
 
 | ISO 4217 code | Currency             |
