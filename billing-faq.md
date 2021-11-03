@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-10-01"
+lastupdated: "2021-11-03"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -40,13 +40,13 @@ Multiply the two values together, and the result is the GB-hour.
 {: #bandwidth-usage}
 {: faq}
 
-IBM Cloud systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs). 
+{{site.data.keyword.cloud_notm}} systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs). 
 
 ## How do I prevent bandwidth overages?
 {: #bandwidth-usage-overages}
 {: faq}
 
-If you have multiple servers provisioned, you can potentially reduce the liklihood of future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Alternatively, you can contact an [IBM Cloud Sales](https://{DomainName}/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
+If you have multiple servers that are provisioned, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [IBM Cloud Sales](/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
 
 ## What happens if my Lite plan instance reaches the monthly quota?
 {: #monthlyquota}
@@ -104,8 +104,7 @@ You must have an active credit card or PayPal account on file. You can replace a
 
 Business Continuity Insurance is insurance that protects you from illegitimate charges against your servers. You can request this insurance through [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://{DomainName}/catalog?contactmodule){: external} to avoid overage charges if a documented network attack occurs against a covered server. {{site.data.keyword.Bluemix_notm}} credits back any overages incurred on the affected server. 
 
-To obtain the credits for illegitimate charges against your servers, contact [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external} and open a support case.
-
+To receive the credits for illegitimate charges against your servers, contact [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external} and open a support case.
 
 ## What is the `Service: Support and Services` charge on my invoice?
 {: #supserve-invoice}
@@ -223,18 +222,13 @@ If the credit isn't on the Usage page, go to **Invoices** and click link with th
 {: #resell}
 {: faq}
 
-If you have a separate ResellOne account with IBM, you can add funds through {{site.data.keyword.cloud_notm}}. To add funds to your ResellOne account, you must make a one-time payment by going to the [Manual payments](https://{DomainName}/billing/payments/manualpayment){: external} page in the {{site.data.keyword.cloud_notm}} console.
-
-This amount must include any applicable tax. 
-{: note}
-
-After you submit the payment, contact the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} to request that the funds are applied to your ResellOne Account. You must submit the name of the ResellOne account and the amount before any applicable tax to {{site.data.keyword.cloud_notm}} Support. 
+Effective 1 November 2021, IBM Cloud doesn't support the ResellOne Domain Resale service, which we offered in partnership with Tucows Inc. For more information, see [IBM ResellOne End of Service](docs/dns?topic=dns-resellone-eos).
 
 ## How do I get answers to my Startup with IBM questions?
 {: #startup-ibm}
 {: faq}
 
-Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://developer.ibm.com/startups/){: external}. The awarding and extension of credits through this IBM corporate program isn't directly supported by IBM Cloud Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an IBM Cloud Invoice. For more information about the program and its credits, visit the [Frequently Asked Questions for the Startup with IBM Program](https://developer.ibm.com/startups/faq){: external}.
+Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://developer.ibm.com/startups/){: external}. The awarding and extension of credits through this IBM corporate program isn't directly supported by {{site.data.keyword.cloud_notm}} Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an {{site.data.keyword.cloud_notm}} Invoice. For more information about the program and its credits, visit the [Frequently Asked Questions for the Startup with IBM Program](https://developer.ibm.com/startups/faq){: external}.
 
 ## Where can I find my credits for {{site.data.keyword.IBM_notm}} corporate programs? 
 {: #ibm-corporate-credits}
@@ -250,7 +244,7 @@ Credits for {{site.data.keyword.IBM_notm}} corporate programs, such as Startup w
 {: #contactsupport}
 {: faq}
 
-Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} page by clicking **Support** on the {{site.data.keyword.cloud}} console header. From there, review the list of common FAQs. If you don't find the answers that you need, see the **Contact Support** section to contact IBM Cloud Support. For more information on account types and support offerings, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
+Go to the [Support Center](/unifiedsupport/supportcenter){: external} page by clicking **Support** on the {{site.data.keyword.cloud}} console header. From there, review the list of common FAQs. If you don't find the answers that you need, see the **Contact Support** section to contact {{site.data.keyword.cloud_notm}} Support. For more information on account types and support offerings, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
 
 ## Where can I view the billing address for my account? 
 {: #billing-address}
