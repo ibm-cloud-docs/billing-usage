@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-11-05"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -36,7 +36,7 @@ In an enterprise, billing is managed by the enterprise rather than in the indivi
  * Usage from all accounts is deducted from the shared credit pool. If given access, enterprise users can view usage costs for all accounts and account groups in the enterprise. Users within each child account can continue to monitor usage in the particular account, but they don't have visibility to other accounts in the enterprise.
  * Usage is invoiced through the enterprise account. Only the enterprise billing administrator can view invoices and manage payments.
 
-![A diagram that shows that credit from accounts is added to the enterprise credit pool, which is managed by the billing administrator in the enterprise account. Usage access is managed separately and can be targeted to the enterprise, an account group, or an account.](images/enterprise-billing.svg){: caption="Figure 1.Enterprise billing and usage management" caption-side="bottom"}
+![A diagram that shows that credit from accounts is added to the enterprise credit pool, which is managed by the billing administrator in the enterprise account. Usage access is managed separately and can be targeted to the enterprise, an account group, or an account.](images/enterprise-billing-usage.svg){: caption="Figure 1.Enterprise billing and usage management" caption-side="bottom"}
 
 ## Billing options
 {: #enterprise-billing-options}
