@@ -36,5 +36,5 @@ After you entered your credit card information and saved it, the following messa
 Something went wrong when verifying your credit card, and the update wasn't successful.
 {: tsCauses}
 
-For information that is specific to this credit card verification, contact the {{site.data.keyword.cloud_notm}} Trust Enablement team at verify@us.ibm.com.
+Go to the [Support Center](https://{Domain}/unifiedsupport/supportcenter) and click **Create a case**. 
 {: tsResolve}
