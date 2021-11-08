@@ -68,18 +68,6 @@ If your payments are managed outside of the console, go to IBM.com and log in to
 Some payment methods, such as PayPal, aren't accepted as recurring payment methods. You must manually submit the payment each month.
 {: note}
 
-## Why won't my credit card go through?
-{: #addcard}
-{: faq}
-
-Protecting your identity is a priority for us, so we take credit card verification seriously.
-
-Contact us by calling 1-866-325-0045 and selecting the third option. Alternatively, you can email `verify@us.ibm.com` and include your IBMid and a copy of any error messages that displayed. Don’t include any credit card information.
-
-You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/). For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
-
-For additional information about specific error messages, see [Why can't I upgrade my IBM Cloud account?](/docs/account?topic=account-ts_upgrade_cc).
-
 ## Can I check the status of my account's updated payment method?
 {: #payment-method-status}
 {: faq}
