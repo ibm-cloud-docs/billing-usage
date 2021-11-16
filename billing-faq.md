@@ -84,7 +84,7 @@ For additional information about specific error messages, see [Why can't I upgra
 {: #payment-method-status}
 {: faq}
 
-Yes, you can. When you request to change your payment method, a support case is created automatically. Go to the [Manage cases](https://{DomainName}/unifiedsupport/cases) page in the {{site.data.keyword.cloud_notm}} console to view the status of your request. 
+Yes, you can. When you request to change your payment method, a support case is created automatically. Go to the [Manage cases](/unifiedsupport/cases) page in the {{site.data.keyword.cloud_notm}} console to view the status of your request. 
 
 
 ## Can I delete my credit card?
@@ -93,7 +93,7 @@ Yes, you can. When you request to change your payment method, a support case is 
 
 You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one. 
 
-* If you're using a new US-based Pay-As-You-Go account with credit card billing, you can replace your credit card by going to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} and opening a support case. 
+* If you're using a new US-based Pay-As-You-Go account with credit card billing, you can replace your credit card by going to the [Support Center](/unifiedsupport/supportcenter){: external} and opening a support case. 
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
 * If you manage your payment method on a separate billing platform, you can remove your credit card by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/){: external}. 
 
@@ -222,7 +222,7 @@ If the credit isn't on the Usage page, go to **Invoices** and click link with th
 {: #resell}
 {: faq}
 
-Effective 1 November 2021, IBM Cloud doesn't support the ResellOne Domain Resale service, which we offered in partnership with Tucows Inc. For more information, see [IBM ResellOne End of Service](docs/dns?topic=dns-resellone-eos).
+Effective 1 November 2021, IBM Cloud doesn't support the ResellOne Domain Resale service, which we offered in partnership with Tucows Inc. For more information, see [IBM ResellOne End of Service](/docs/dns?topic=dns-resellone-eos).
 
 ## How do I get answers to my Startup with IBM questions?
 {: #startup-ibm}
