@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-21"
+lastupdated: "2021-11-22"
 
 keywords: enterprise usage, view enterprise costs, account hierarchy, report organization, enterprise report organization
 
@@ -68,6 +68,7 @@ Given this structure, the `Cloud-Provider` enterprise has the following effectiv
 * The `Solutions`, `AI-Services`, and `Data-Services` account groups have two effective billing units: `Operations` and `Support`.
 
 ### Example queries and responses
+{: #example-enterprise-queries}
 
 Enterprise `Cloud-Provider` reports
 
@@ -75,9 +76,9 @@ Query: `https://enterprise.{DomainName}/v1/resource-usage-reports?enterprise_id=
 
 This query returns three reports:
 
-   * Usage aggregated towards (E)Cloud-Provider:(BU)Administration
-   * Usage aggregated towards (E)Cloud-Provider:(BU)Operations
-   * Usage aggregated towards (E)Cloud-Provider:(BU)Support
+* Usage aggregated towards (E)Cloud-Provider:(BU)Administration
+* Usage aggregated towards (E)Cloud-Provider:(BU)Operations
+* Usage aggregated towards (E)Cloud-Provider:(BU)Support
 
 Enterprise `Cloud-Provider` children reports
 
@@ -85,10 +86,10 @@ Query: `https://enterprise.{DomainName}/v1/resource-usage-reports?enterprise_id=
 
 This query returns four reports:
 
-   * Usage aggregated towards (A)Administration:(BU)Administration
-   * Usage aggregated towards (AG)Platform-Services:(BU)Operations
-   * Usage aggregated towards (AG)Solutions:(BU)Operations
-   * Usage aggregated towards (AG)Solutions:(BU)Support
+* Usage aggregated towards (A)Administration:(BU)Administration
+* Usage aggregated towards (AG)Platform-Services:(BU)Operations
+* Usage aggregated towards (AG)Solutions:(BU)Operations
+* Usage aggregated towards (AG)Solutions:(BU)Support
 
 Account group `Solutions` reports
 
@@ -96,8 +97,8 @@ Query: `https://enterprise.{DomainName}/v1/resource-usage-reports?account_group_
 
 This query returns two reports:
 
-   * Usage aggregated towards (AG)Solutions:(BU)Operations
-   * Usage aggregated towards (AG)Solutions:(BU)Support
+* Usage aggregated towards (AG)Solutions:(BU)Operations
+* Usage aggregated towards (AG)Solutions:(BU)Support
 
 Account group `Solutions` children reports
 
@@ -105,10 +106,10 @@ Query: `https://enterprise.{DomainName}/v1/resource-usage-reports?account_group_
 
 This query returns four reports:
 
-   * Usage aggregated towards (AG)AI-Services:(BU)Operations
-   * Usage aggregated towards (AG)AI-Services:(BU)Support
-   * Usage aggregated towards (AG)Data-Services:(BU)Operations
-   * Usage aggregated towards (AG)Data-Services:(BU)Support
+* Usage aggregated towards (AG)AI-Services:(BU)Operations
+* Usage aggregated towards (AG)AI-Services:(BU)Support
+* Usage aggregated towards (AG)Data-Services:(BU)Operations
+* Usage aggregated towards (AG)Data-Services:(BU)Support
 
 Account group `Data-Services` reports
 
@@ -116,8 +117,8 @@ Query: `https://enterprise.{DomainName}/v1/resource-usage-reports?account_group_
 
 This query returns two reports:
 
-   * Usage aggregated towards (AG)Data-Services:(BU)Operations
-   * Usage aggregated towards (AG)Data-Services:(BU)Support
+* Usage aggregated towards (AG)Data-Services:(BU)Operations
+* Usage aggregated towards (AG)Data-Services:(BU)Support
 
 Account group `Data-Services` children reports
 
@@ -125,8 +126,8 @@ Query: `https://enterprise.{DomainName}/v1/resource-usage-reports?account_group_
 
 This query returns two reports:
 
-   * Usage aggregated towards (A)Data-Services-Operations:(BU)Operations
-   * Usage aggregated towards (A)Data-Services-Support:(BU)Support
+* Usage aggregated towards (A)Data-Services-Operations:(BU)Operations
+* Usage aggregated towards (A)Data-Services-Support:(BU)Support
 
 Account `Data-Services-Operations` report
 

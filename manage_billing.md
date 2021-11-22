@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-09-26"
+lastupdated: "2021-11-22"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -52,6 +52,7 @@ Complete the following steps to edit your active card:
 3. To update the billing address, contact [{{site.data.keyword.cloud_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
 ##  Managing payment methods for all other accounts 
+{: #payment-for-all-other}
 
 The steps to update a payment method apply to the following types of accounts: 
 

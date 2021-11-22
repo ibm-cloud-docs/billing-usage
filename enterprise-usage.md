@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-03-12"
+lastupdated: "2021-11-22"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -195,7 +195,7 @@ To view your enterprise hierarchy and any usage, you need an access policy with 
 
 1. Find the usage costs for each department by going to **Manage > Usage** in the enterprise account. From the **Time frame** menu, select the previous month to view the usage that is included in the latest invoice.
 
-  The costs for your account groups are listed in the table. These costs include all charges except any tax that's charged in your billing region. If you want a further breakdown of usage costs, click the account group name to view the accounts and account groups that it contains.
+   The costs for your account groups are listed in the table. These costs include all charges except any tax that's charged in your billing region. If you want a further breakdown of usage costs, click the account group name to view the accounts and account groups that it contains.
 
 1. Identify the departments within your company that correspond with the account groups.
 

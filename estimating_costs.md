@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-10-25"
+lastupdated: "2021-11-22"
 
 keywords: quote cost, find cost, estimate cost, estimate bill, total cost, service cost, cost estimator, infrastructure quote, compute quote, vsi quote, bare metal quote
 
@@ -19,25 +19,25 @@ You can use the cost estimator to estimate the cost of {{site.data.keyword.Bluem
 {: shortdesc}
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the **Cost estimator** icon![Cost estimator icon](../icons/calculator.svg "Cost estimator"). From here, you are directed to the estimate detail page.  
-2. Click **Go to catalog** to explore the available products you can add to your estimate. 
-3. Select the product that you are interested in. You are directed to the product details page in the catalog. 
+1. Click **Go to catalog** to explore the available products you can add to your estimate. 
+1. Select the product that you are interested in. You are directed to the product details page in the catalog. 
 
      Depending on the product, an interim informational page might be displayed. For example, if you select {{site.data.keyword.baremetal_short}}, an informational page that describes various features is displayed. Click **Continue**.
 
-4. Select your pricing plan and enter other configuration details if needed. Then, click **Add to estimate**.
+1. Select your pricing plan and enter other configuration details if needed. Then, click **Add to estimate**.
 
    Some offerings might require that you log in to add them to an estimate.
    {: note}
 
-5.  Enter in your estimated usage, and click **Calculate cost**. You can adjust the estimated usage and recalculate the cost to see how different usage levels affect the overall cost.
+1.  Enter in your estimated usage, and click **Calculate cost**. You can adjust the estimated usage and recalculate the cost to see how different usage levels affect the overall cost.
 
    By default, the estimator shows the pricing and billing currency set for your account. Pricing can vary by region. If you're estimating costs for a different location or currency, you might have to select the appropriate currency on the order summary page for the product or change the currency on your account.   
 
-6. Add the calculated cost to your estimate by clicking **Save**. 
+1. Add the calculated cost to your estimate by clicking **Save**. 
 
    If you want to estimate costs for other products, you can return to the catalog and select additional products to add to the estimate.
 
-7.  When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF, an XLSX, or a CSV of the estimate by selecting the appropriate option from the Actions menu.
+1.  When you're done adding offerings to your estimate, click **Review estimate** to see your detailed estimate. You can download a PDF, an XLSX, or a CSV of the estimate by selecting the appropriate option from the Actions menu.
 
 ## Creating quotes for classic infrastructure services
 {: #quotes}
@@ -52,7 +52,7 @@ You can generate and view quotes for only {{site.data.keyword.baremetal_short}},
 
 
 ## Supported billing currencies
-{: supported-bill-currencies}
+{: #supported-bill-currencies}
 
 The following table lists the supported billing currencies.
 

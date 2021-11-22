@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-22"
+lastupdated: "2021-11-22"
 
 keywords: troubleshoot billing, add card, payment outside console, myibm.com/billing, manage payment 
 
@@ -29,6 +29,7 @@ If your payments are managed outside of the console, you can't use [Billing and 
 
 You want to enter a credit card to pay for {{site.data.keyword.Bluemix_notm}} services, but the option doesn't appear.
 {: tsSymptoms}
+
 When you try to enter your credit card information, you see the following message:
 
 `Your payments are managed through IBM.com. To view your payments and maintain your billing, you can visit the IBM.com portal which contains everything for your IBMid account.`

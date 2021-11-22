@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-06-22"
+lastupdated: "2021-11-22"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 
@@ -94,4 +94,5 @@ Depending on which region your account is located in, you can switch to paperles
 
    If you don't know your customer number, contact {{site.data.keyword.Bluemix_notm}} Support by calling 1-866-325-0045 and selecting the third option, or contact the [eCustomer Care team](https://www-112.ibm.com/software/howtobuy/passportadvantage/paocustomer/docs/en_US/ecare.html){: external}. 
    {: tip}
+
 5. To track the status your request, click **My Requests**.

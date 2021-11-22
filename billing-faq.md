@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-11-08"
+lastupdated: "2021-11-22"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -191,16 +191,17 @@ If you are not subject to tax, you can provide us with a tax identification numb
 ## How can I monitor spending?
 {: #monitor-spending}
 {: faq}
+
 You can view your monthly runtime and service usage by clicking **Manage > Billing and usage > Usage**. Learn more in [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
 
 ## Can I receive notifications when my spending reaches specific levels?
-{: #spending-notify}
-{: faq}
+{: #spending-notification}
+{: faq}	
 {: support}
 
-You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifications when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notifications, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
+You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifications when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notifications, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending). 
 
-Your account is charged if your usage exceeds 100% of the spending threshold. 
+Your account is charged if your usage exceeds 100% of the spending threshold. Spending notifications don't stop charges from incurring. 
 {: note} 
 
 ## Does the price of the offering that I'm ordering reflect the discounted price?
@@ -251,12 +252,3 @@ Go to the [Support Center](/unifiedsupport/supportcenter){: external} page by cl
 {: faq}
 
 You can view the primary contact and address that is associated with an account by going to **Manage** > **Account**, and selecting **Company profile**. 
-
-## Can I receive notifications when my spending reaches specific levels?
-{: #spending-notify}	
-{: faq}	
-
-You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifications when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notifications, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending). 
-
-Your account is charged if your usage exceeds 100% of the spending threshold. Spending notifications don't stop charges from incurring. 
-{: note} 
