@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-11-22"
+lastupdated: "2021-11-30"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -31,8 +31,9 @@ FAQs for billing and usage might include questions about credit cards, promo cod
 {: faq}
 
 Runtime and container usage is charged based on the following variables:
- * How much memory your runtime or container uses, in gigabytes (GB).
- * The duration that memory is used.
+
+* How much memory your runtime or container uses, in gigabytes (GB).
+* The duration that memory is used.
 
 Multiply the two values together, and the result is the GB-hour.
 
@@ -176,7 +177,7 @@ If you believe that charges on your invoice are incorrect, [contact Support](htt
 {: #stop-billing}
 {: faq}
 
-A [resource](x2004267){: term} is anything that you can create from the catalog that is managed by and contained within a resource group. You're billed for resources in your account until you cancel them. If you deleted a resource or have resources in your account that are no longer used, make sure to cancel all billing items associated with those resources. Billing items can't be recovered after they are canceled. For more information, see [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items). 
+A [resource](#x2004267){: term} is anything that you can create from the catalog that is managed by and contained within a resource group. You're billed for resources in your account until you cancel them. If you deleted a resource or have resources in your account that are no longer used, make sure to cancel all billing items associated with those resources. Billing items can't be recovered after they are canceled. For more information, see [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items). 
 
 ## Can I add a tax identification number to my account?
 {: #tax-assessment}
