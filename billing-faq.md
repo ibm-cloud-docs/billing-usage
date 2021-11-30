@@ -137,6 +137,9 @@ To apply your promo code, go to the [Promotions](https://{DomainName}/billing/pr
 
 You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
+If you can't apply a promo code, contact {{site.data.keyword.Bluemix_notm}} Sales or the educational provider for additional help. 
+{: note}
+
 ## Why did I get billed if I have remaining promotion credits?
 {: #billed-promo}
 {: faq}
