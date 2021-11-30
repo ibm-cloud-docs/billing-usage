@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-11-22"
+lastupdated: "2021-11-30"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -22,7 +22,7 @@ subcollection: billing-usage
 Depending on your account type, you can easily manage your payment methods by using the [Payments](/billing/payments) page in the {{site.data.keyword.cloud}} console or by going to [{{site.data.keyword.IBM}} Billing](https://myibm.ibm.com/billing/). 
 {: shortdesc}
 
-A valid credit card is required for all Pay-As-You-Go and Subscription accounts. Every month, the credit card is charged with the usage amount that is accumulated during that month. When updates to your payment details are approved, they are applied to your account within 24 hours. The contact specified in the billing address section receives an email confirming that the updates are applied. 
+A valid credit card is required for all Pay-As-You-Go and Subscription accounts. Every month, the credit card is charged with the usage amount that is accumulated during that month. When updates to your payment details are approved, they are applied to your account within 24 hours. The contact that is specified in the billing address section receives an email confirming that the updates are applied. 
 
 You can contact {{site.data.keyword.cloud_notm}} Support to get help with payment-related issues. From the console, click **Support** > **Create a case** to get in touch.
 {: tip}
@@ -35,7 +35,7 @@ To manage payments, you need to be assigned the operator role or higher on the b
 ## Managing payment methods for new US-based Pay-As-You-Go accounts with credit card billing
 {: #manage-paygo-us-account}
 
-If you're a new Pay-As-You-Go account owner located in the US and you are paying with a credit card, you can replace your current card with a new one or edit the details of an existing card. In either case, you manage your credit card from the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
+If you're a new Pay-As-You-Go account owner that is located in the US and you are paying with a credit card, you can replace your current card with a new one or edit the details of an existing card. In either case, you manage your credit card from the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
 
 Complete the following steps to replace your existing credit card with a new one: 
 
@@ -56,9 +56,9 @@ Complete the following steps to edit your active card:
 
 The steps to update a payment method apply to the following types of accounts: 
 
- * New and existing Pay-As-You-Go accounts based in the US with any payment method other than a credit card
- * New and existing Pay-As-You-Go accounts not based in the US
- * New and existing Subscription accounts worldwide
+* New and existing Pay-As-You-Go accounts based in the US with any payment method other than a credit card
+* New and existing Pay-As-You-Go accounts not based in the US
+* New and existing Subscription accounts worldwide
 
 1. Go to the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console. 
 2. In the Add Payment Method section, enter the billing information for your new card, and click **Add credit card**.
@@ -80,6 +80,14 @@ If you're using a payment method that's not a credit card, complete the followin
 
 Some payment methods, such as PayPal, aren't accepted as recurring payment methods. You must manually submit the payment each month.
 {: note}
+
+###  India-based customers with accounts that are billed in US Dollars
+{: #rupees-billing} 
+
+Due to current banking regulations, recurring credit card transactions might be unsuccessful for India-based customers with accounts that are billed in US Dollars. You can use one of the following methods to make a payment:
+* [Make a one-time payment](docs/billing-usage?topic=billing-usage-linkedusage#makepayment)
+* Request to migrate your account to be billed in India Rupees. To make a request, provide a credit card that is billed in India Rupees on the [Payment Method](billing/payments) page in the {{site.data.keyword.cloud_notm}} console. Specify that India Rupees are in the **Payment Currency** section. Additional information might be requested through a Support case during the migration process. 
+
 
 ### Making a one-time payment
 {: #makepayment}
