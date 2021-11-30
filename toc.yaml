@@ -14,10 +14,10 @@ toc:
   - navgroup:
       id: learn
       topics:
-        - billing-overview.md
-        - scenario.md
-        - bp_billing.md
-        - enterprise.md
+      - billing-overview.md
+      - scenario.md
+      - bp_billing.md
+      - enterprise.md
 
   - navgroup:
       id: tutorial
@@ -29,27 +29,27 @@ toc:
       id: howto
       topics:
       - topicgroup: 
-        label: Managing your costs
-        topics: 
-        - estimating_costs.md
-        - how_charged.md
-        - change_pricing_plan.md
-        - notifications.md
+          label: Managing your costs
+          topics: 
+          - estimating_costs.md
+          - how_charged.md
+          - change_pricing_plan.md
+          - notifications.md
       - topicgroup: 
-        label: Viewing your usage
-        topics: 
-        - viewing_usage.md
-        - infra_usage.md
-        - enterprise-usage.md
-        - enterprise-report.md
-        - quotas.md
+          label: Viewing your usage
+          topics: 
+          - viewing_usage.md
+          - infra_usage.md
+          - enterprise-usage.md
+          - enterprise-report.md
+          - quotas.md
       - topicgroup: 
-        label: Working with codes and credits
-        topics: 
-        - credit-types.md
-        - promo_codes.md
-        - subscription_codes.md
-        - feature_codes.md
+          label: Working with codes and credits
+          topics: 
+          - credit-types.md
+          - promo_codes.md
+          - subscription_codes.md
+          - feature_codes.md
       - topic: cancel-billing-items.md
       - topic: support.md
       - topicgroup: 
@@ -64,26 +64,26 @@ toc:
       id: reference
       topics:
       - topicgroup:
-        label: Command reference
-        topics:
-        - /cli/cli-ibmcloud_billing
-        - /cli/cli-sl-manage-classic-orders
+          label: Command reference
+          topics:
+          - /cli/cli-ibmcloud_billing
+          - /cli/cli-sl-manage-classic-orders
       - topic: metering_billing.md
       - topicgroup:
-        label: API reference
-        topics: 
-        - link: 
-          label: Usage Metering
-          href: https://{DomainName}/apidocs/usage-metering
-        - link: 
-          label: Usage Reports
-          href: https://{DomainName}/apidocs/metering-reporting
-        - link: 
-          label: Enterprise Billing Units
-          href: https://{DomainName}/apidocs/enterprise-apis/billing-unit
-        - link: 
-          label: Enterprise Usage Reports
-          href: https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports
+          label: API reference
+          topics: 
+          - link: 
+              label: Usage Metering
+              href: https://{DomainName}/apidocs/usage-metering
+          - link: 
+              label: Usage Reports
+              href: https://{DomainName}/apidocs/metering-reporting
+          - link: 
+              label: Enterprise Billing Units
+              href: https://{DomainName}/apidocs/enterprise-apis/billing-unit
+          - link: 
+              label: Enterprise Usage Reports
+              href: https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports
 
   - navgroup:
       id: help
