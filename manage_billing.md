@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-11-30"
+lastupdated: "2021-12-01"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -85,8 +85,8 @@ Some payment methods, such as PayPal, aren't accepted as recurring payment metho
 {: #rupees-billing} 
 
 Due to current banking regulations, recurring credit card transactions might be unsuccessful for India-based customers with accounts that are billed in US Dollars. You can use one of the following methods to make a payment:
-* [Make a one-time payment](docs/billing-usage?topic=billing-usage-linkedusage#makepayment)
-* Request to migrate your account to be billed in India Rupees. To make a request, provide a credit card that is billed in India Rupees on the [Payment Method](billing/payments) page in the {{site.data.keyword.cloud_notm}} console. Specify that India Rupees are in the **Payment Currency** section. Additional information might be requested through a Support case during the migration process. 
+* [Make a one-time payment](/docs/billing-usage?topic=billing-usage-linkedusage#makepayment)
+* Request to migrate your account to be billed in India Rupees. To make a request, provide a credit card that is billed in India Rupees on the [Payment Method](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console. Specify that India Rupees are in the **Payment Currency** section. Additional information might be requested through a Support case during the migration process. 
 
 
 ### Making a one-time payment
