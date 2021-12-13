@@ -50,15 +50,15 @@ toc:
           - promo_codes.md
           - subscription_codes.md
           - feature_codes.md
-      - topic: cancel-billing-items.md
-      - topic: support.md
+      - cancel-billing-items.md
+      - support.md
       - topicgroup: 
           label: Managing your invoices and payments
           topics:      
           - invoices.md
           - manage_billing.md
-      - topic: subscriptions.md
-      - topic: paygo_committed_use.md
+      - subscriptions.md
+      - paygo_committed_use.md
 
   - navgroup:
       id: reference
@@ -68,7 +68,7 @@ toc:
           topics:
           - /cli/cli-ibmcloud_billing
           - /cli/cli-sl-manage-classic-orders
-      - topic: metering_billing.md
+      - metering_billing.md
       - topicgroup:
           label: API reference
           topics: 
