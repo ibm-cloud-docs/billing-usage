@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-11-22"
+lastupdated: "2022-01-20"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 
@@ -21,7 +21,7 @@ subcollection: billing-usage
 
 To manage and view your invoices, visit the [Invoices](https://cloud.ibm.com/billing/invoices){: external} page from the billing and usage dashboard in the {{site.data.keyword.cloud}} console. If your account is billed through a separate billing platform, you can see the following message on the Invoices page:
 
-`The account is invoiced on a separate billing platform. Please click here for invoice or pricing inquires or here to modify your payment method.`
+`The account is invoiced on a separate billing platform. This page reflects only classic infrastructure charges. To view your official invoice and for any pricing inquiries, visit IBM Invoices.`
 
 In these situations, visit the [Invoices@IBM](http://ibm.com/invoices){: external} website to see your invoices.
 
