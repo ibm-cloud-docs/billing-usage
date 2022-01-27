@@ -222,9 +222,10 @@
     "how to use a promo code",
     "redeem a promo code",
     "have a promo code for IBM Cloud, how do I use it",
-	"IBM email with a $200 credit. How do I apply that credit",
-	"how do i spend my 200 dollar credit",
+    "IBM email with a $200 credit. How do I apply that credit",
+    "how do i spend my 200 dollar credit",
     "How can I apply $200 Credit",
+    "how can I apply the code",
     "Where do I put in a promotion code"
   ],
   "get-promo-code": [
@@ -514,6 +515,7 @@
     "where are my invoices",
     "use IBM Invoices for IBM Cloud billing and payment",
     "would like to get my invoice",
+    "I am getting daily emails on bills",
     "access statement"
   ],
   "usage-not-match-invoice": [
@@ -936,6 +938,7 @@
     "I am a startup and have a question on my program credits",
     "Startup with IBM",
     "Start up with IBM program", 
+    "Startup promotion",
     "Catalyst program",
     "IBM Global Entrepreneur Program (GEP)",
     "can we apply for startup credits",
@@ -966,6 +969,7 @@
     "do not charge tax",
     "don't tax",
     "from where I could change the VAT id for my company",
+    "I'm having difficulties updating my VAT number",
     "GST",
     "I am not paying tax",
     "I do not pay tax",
