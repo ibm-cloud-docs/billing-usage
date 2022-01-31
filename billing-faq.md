@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-12-01"
+lastupdated: "2022-01-31"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -19,6 +19,7 @@ content-type: faq
 {:faq: data-hd-content-type='faq'}
 {:support: data-reuse='support'}
 {:note: .note}
+{:tip: .tip}
 
 # FAQs for billing and usage
 {: #billusagefaqs}
@@ -256,3 +257,14 @@ Go to the [Support Center](/unifiedsupport/supportcenter){: external} page by cl
 {: faq}
 
 You can view the primary contact and address that is associated with an account by going to **Manage** > **Account**, and selecting **Company profile**. 
+
+## How can I ensure that my account is secure to avoid charges due to unauthorized access? 
+{: #unauth-charges}
+{: faq}
+
+As a self-managed platform, the security of an account is the responsibility of the account owner and all users with access to the account. Any charges that result from unauthorized access are the responsibility of the account owner. 
+
+To prevent unauthorized access, change your password regularly and require the use of multifactor authentication by all users on your account. These options include the use of time-based one-time passcode authentication, security questions, third-party authentication mechanisms, and password expiration rules. For more information, see [Types of multifactor authentication](/docs/account?topic=account-types). 
+
+You can regularly review the list of account users and remove users who don't need access to the account. For more information, see [Removing users from an account](/docs/account?topic=account-remove).
+{: tip}
