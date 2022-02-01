@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-11-22"
+  years: 2020, 2022
+lastupdated: "2022-02-01"
 
 keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicing, adjustments
 
@@ -43,7 +43,7 @@ For Pay-As-You-Go accounts that aren't billed in US dollars or Subscription acco
 {: faq}
 {: support}
 
-Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Your usage might not match your invoice because the months that are used to compare usage aren't the same, or the total amount of the orgs wasn't selected. For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage). If it still doesn't match, get in touch with us by calling 1-866-325-0045 and choosing the third option, or by opening a [support case](/unifiedsupport/supportcenter){: external}.
 
 ## Why can't I manage my invoices?
 {: #slperm-manage-invoices}
