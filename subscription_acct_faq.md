@@ -32,7 +32,7 @@ FAQs for subscription accounts include entires about subscription credit, subscr
 {: faq}
 {: support}
 
-After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](https://{DomainName}/account/settings), and click **Apply code**. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
+After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](/account/settings), and click **Apply code**. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
 You might be looking for information about promo codes and feature codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes). 
 
