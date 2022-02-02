@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2021-10-07"
+  years: 2020, 2022
+lastupdated: "2022-02-02"
 
 keywords: GB-hour, container usage, runtime, charge
 
@@ -12,17 +12,10 @@ content-type: faq
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs for subscription accounts
 {: #subscription-account}
-
 
 FAQs for subscription accounts include entires about subscription credit, subscription terms, and other subscription related self-help information. 
 {: shortdesc}
@@ -34,7 +27,7 @@ FAQs for subscription accounts include entires about subscription credit, subscr
 
 After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](/account/settings), and click **Apply code**. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
-You might be looking for information about promo codes and feature codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes). 
+You might be looking for information about promo codes and feature codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes to Lite accounts](/docs/account?topic=account-codes). 
 
 ## Can I pay the total spending commitment up-front or quarterly?
 {: #subs-pay-schedule}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2022-01-31"
+  years: 2015, 2022
+lastupdated: "2022-02-02"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -12,14 +12,7 @@ content-type: faq
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
-{:note: .note}
-{:tip: .tip}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs for billing and usage
 {: #billusagefaqs}
@@ -128,7 +121,7 @@ Feature codes provide enhancements for Lite accounts, such as an unlimited numbe
 
 Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales and educational providers on a limited basis. Promotions are meant for select groups and are typically given out at hackathons, conferences, and other events.
 
-You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
 ## How do I apply a promo code?
 {: #how-apply-promo}
@@ -136,7 +129,7 @@ You might be looking for information on feature codes and subscription codes, wh
 
 To apply your promo code, go to the [Promotions](https://{DomainName}/billing/promotions) page in the console, enter your promo code, and click **Apply**. For more information, see [Applying promo codes](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
 
-You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/billing-usage?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
 If you can't apply a promo code, contact {{site.data.keyword.Bluemix_notm}} Sales or the educational provider for additional help. 
 {: note}
