@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-10-11"
+  years: 2017, 2022
+lastupdated: "2022-02-04"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -10,22 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:help: data-hd-content-type='help'} 
-{:support: data-reuse='support'} 
-{:tip: .tip}
-{:note: .note}
-{:important:  .important}
-{:api: .ph data-hd-interface='api'}
-{:cli: .ph data-hd-interface='cli'}
-{:ui: .ph data-hd-interface='ui'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:curl: .ph data-hd-programlang='curl'}
-{:go: .ph data-hd-programlang='go'}
-{:javascript: .ph data-hd-programlang='javascript'}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Viewing your usage
@@ -47,16 +32,13 @@ You can limit the access to view the usage for a specific resource group by assi
 
 For more information about access roles, see [IAM access](/docs/account?topic=account-userroles) and [Cloud foundry access](/docs/account?topic=account-cfaccess).
 
-## Viewing service usage details
+## Viewing service usage details in the console 
 {: #services}
 {: help} 
 {: support}
+{: ui} 
 
 In the Services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps:
-
-### Viewing service usage details in the console 
-{: #usage-ui}
-{: ui} 
 
 1. In the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Usage**.
 2. Click **View plans** to view all the instances of a specific type of resource.  
@@ -91,8 +73,7 @@ You can export a summary of your account's usage, or information about your serv
    Consider creating tags as a key:value pair to group related tags. The key becomes a column in the CSV file and the pairs are populated in the respective rows of the column. If you don't follow a key:value tag style, the tags appear in the other tags column.
    {: tip}
 
-
-### Viewing your usage by using the CLI
+## Viewing your usage by using the CLI
 {: #usage_command_line}
 {: cli}
 
@@ -100,7 +81,7 @@ As an alternative to the console, you can view your usage by using the {{site.da
 
 1. Log in, and select the account.
 
-   ```
+   ```sh
    ibmcloud login
    ```
    {: codeblock}
@@ -109,37 +90,37 @@ As an alternative to the console, you can view your usage by using the {{site.da
 
    * View usage for the current month.
 
-      ```
+      ```sh
       ibmcloud billing account-usage [-d YYYY-MM] [--output FORMAT] [-q, --quiet]
       ```
       {: codeblock}
 
    * View monthly usage for an org (account admin or org billing manager only):
 
-      ```
+      ```sh
       ibmcloud billing org-usage ORG_NAME [-d YYYY-MM] [--output FORMAT] [-q, --quiet]
       ```
       {: codeblock}
 
    * View monthly usage for a resource group (account admin or resource group admin only):
 
-      ```
+      ```sh
       ibmcloud billing resource-group-usage GROUP_NAME [-d YYYY-MM] [--output FORMAT] [-q, --quiet]
       ```
       {: codeblock}
 
    * View monthly resource instances usage under the current account:
 
-      ```
+      ```sh
       ibmcloud billing resource-instances-usage [-o ORG] [-g RESOURCE_GROUP] [-d YYYY-MM] [--output FORMAT] [-q, --quiet]
       ```
       {: codeblock}
 
-### Viewing your usage by using the API
+## Viewing your usage by using the API
 {: #view-usage-api}
 {: api}
 
-You can programmatically view your usage by calling the [{{site.data.keyword.cloud_notm}} Usage Reports API](/apidocs/metering-reporting?code=python#get-account-usage)  You can base the query in your API call on an account, org, resource group, or resource instance. 
+You can programmatically view your usage by calling the [{{site.data.keyword.cloud_notm}} Usage Reports API](/apidocs/metering-reporting?code=python#get-account-usage). You can base the query in your API call on an account, org, resource group, or resource instance. 
 
 The following examples show queries that you can use to view account level usage:  
 
@@ -155,7 +136,7 @@ ServiceCall<AccountUsage> getAccountUsage(GetAccountUsageOptions getAccountUsage
 {: codeblock}
 {: java}
 
-```
+```javascript
 getAccountUsage(params)
 ```
 {: codeblock}
