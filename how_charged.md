@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-09-21"
+lastupdated: "2022-02-08"
 
 keywords: payment, charges, pricing plan, service cost, cost, pricing tier, pricing model, pricing
 
@@ -32,9 +32,9 @@ Different types of charges apply depending on the features of {{site.data.keywor
 
 | Type of Charge | Description      | Resource Type            | Example                  |
 |----------------|------------------|--------------------------|--------------------------|
-| Fixed          | Fixed-rate pricing is based on an agreed upon monthly charge. If you buy an additional bare metal server, virtual server, or storage resource after the start of the monthly billing period, the cost of the resource for the first month is prorated based on the number of days remaining in the billing period. The prorated cost is billed in a separate invoice.  | Services  | For Bare Metal Servers, there are fixed plans to choose from, and those plans are charged at a fixed monthly rate. |
-| Metered        | Metered-usage pricing is based on the number of GB hours that are consumed for runtimes and the number of IP addresses and storage for containers. | Services, Compute, and Containers | For the Push service, any usage over the free monthly allowance is charged. |
-| Tiered         | Some pricing plans are based on a tiered pricing model, so you can get a volume-based discount according to your actual usage. Services might offer simple, graduated, or block tier pricing plans. | Services | Tiered pricing is typically used for charge metrics that are expected to have high quantities per month, such as API calls. |
+| Fixed          | Fixed-rate pricing is based on an agreed upon monthly charge. If you buy an additional bare metal server, virtual server, or storage resource after the start of the monthly billing period, the cost of the resource for the first month is prorated based on the number of days remaining in the billing period. The prorated cost is billed in a separate invoice.  | Services  | For Bare Metal Servers, there are fixed plans to choose from, and those plans are charged at a fixed monthly rate.|
+| Metered        | Usage is a unit-based pricing model in which you pay for what you consume. In this case, the number of GB hours that are consumed for runtimes and the number of IP addresses and storage that is consumed for containers.  | Services, Compute, and Containers | For {{site.data.keyword.mobilepushshort}}, any usage that is consumed over the free monthly allowance of 100,000 digital messages per month, will be charged.  |
+| Tiered         | In this pricing model, you get a volumed-based discount according to your actual usage. Tiered pricing is typically used for charge metrics that are expected to have high quantities per month, such as API calls. Services might offer simple, graduated, or block tier pricing plans. | Services | For {{site.data.keyword.apiconnect_short}}, one of the tiered plans charges $10,000 for the first 25 million monthly API calls and $40.00 USD per 100,000 API calls per month thereafter.|
 | Reserved       | Reserved pricing is based on a long-term commitment for a service, so you can get a discounted price. With a reserved plan, you get a dedicated service instance that is easy to set up, deploy, and deliver in the public {{site.data.keyword.Bluemix_notm}} environment. | Services | Db2 on Cloud has reserved plans.|
 {: caption="Table 1. Charges based on features" caption-side="top"}
 
