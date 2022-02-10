@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-02-02"
+lastupdated: "2022-02-09"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -92,6 +92,14 @@ You must have an active credit card or PayPal account on file. You can replace a
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
 * If you manage your payment method on a separate billing platform, you can remove your credit card by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/){: external}. 
 
+## How do I change the invoice currency from US Dollars to my local currency?
+{: #localcurrency}
+{: faq}
+
+To request to be invoiced in your local currency, complete the Monthly Payment Method form on the [Payments](/billing/payments){: external} page. If your account supports another currency, you can request this change in the Payment Currency section.
+
+An account that is invoiced in a currency other than US Dollars can't be converted to US Dollar invoicing.
+{: note}
 
 ## What is Business Continuity Insurance?
 {: #BCI-invoice}
