@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-02-09"
+lastupdated: "2022-02-15"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -35,7 +35,7 @@ Multiply the two values together, and the result is the GB-hour.
 {: #bandwidth-usage}
 {: faq}
 
-{{site.data.keyword.cloud_notm}} systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs). 
+{{site.data.keyword.cloud_notm}} systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For more information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs). 
 
 ## How do I prevent bandwidth overages?
 {: #bandwidth-usage-overages}
@@ -86,11 +86,11 @@ Yes, you can. When you request to change your payment method, a support case is 
 {: #removecard}
 {: faq}
 
-You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one. 
+You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one.  
 
-* If you're using a new US-based Pay-As-You-Go account with credit card billing, you can replace your credit card by going to the [Support Center](/unifiedsupport/supportcenter){: external} and opening a support case. 
+* If you're using a new US-based Pay-As-You-Go account with credit card billing, you can add a new credit card in the Monthly Payment Method form on the [Payments](/billing/payments){: external} page.
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
-* If you manage your payment method on a separate billing platform, you can remove your credit card by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/){: external}. 
+* If you manage your payment method on a separate billing platform, you can remove your credit card by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/){: external}. For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
 
 ## How do I change the invoice currency from US Dollars to my local currency?
 {: #localcurrency}
