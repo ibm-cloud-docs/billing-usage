@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2022-02-09"
+  years: 2019, 2022
+lastupdated: "2022-02-21"
 
 keywords: IBM Cloud billing, payments, costs, usage, spending
 
@@ -78,7 +78,7 @@ The following are the various charging types:
 
 If you're a new Pay-As-You-Go account owner that is located in the US and you are paying with a credit card, you can replace your current card with a new one or edit the details of an existing card. In either case, you manage your credit card from the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
 
-If you own one of the following accounts, in the {{site.data.keyword.cloud}} console, you can go to **Manage** >  **Billing and usage** to make a one-time payment, change your credit card details, view your billing items, and manage your invoices.
+If you own one of the following accounts, in the {{site.data.keyword.cloud}} console, you can go to **Manage** > **Billing and usage** to make a one-time payment, change your credit card details, view your billing items, and manage your invoices.
 * New and existing Pay-As-You-Go accounts based in the US with any payment method other than a credit card
 * New and existing Pay-As-You-Go accounts not based in the US
 * New and existing Subscription accounts worldwide

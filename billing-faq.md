@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-02-21"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -243,7 +243,7 @@ Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program
 
 Credits for {{site.data.keyword.IBM_notm}} corporate programs, such as Startup with {{site.data.keyword.IBM_notm}} and PartnerWorld, are available within the applicable invoice in {{site.data.keyword.Bluemix_notm}}. To view the credits, complete the following steps:
 
-1. In the console, go to **Manage** > **Billing and usage**, and select **Invoices**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Invoices**.
 1. Select an applicable invoice. 
 1. Find the name of the program listed in the Current Payment Method section to see the monthly credit, applied credit, and remaining credit information. 
 
@@ -257,7 +257,7 @@ Go to the [Support Center](/unifiedsupport/supportcenter){: external} page by cl
 {: #billing-address}
 {: faq}
 
-You can view the primary contact and address that is associated with an account by going to **Manage** > **Account**, and selecting **Company profile**. 
+You can view the primary contact and address that is associated with an account by going to **Manage** > **Account** in the {{site.data.keyword.cloud_notm}} console, and selecting **Company profile**. 
 
 ## How can I ensure that my account is secure to avoid charges due to unauthorized access? 
 {: #unauth-charges}
