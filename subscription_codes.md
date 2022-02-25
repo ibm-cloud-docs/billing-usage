@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2022-02-03"
+  years: 2020, 2022
+lastupdated: "2022-02-28"
 
 keywords: subscription code, subscription credit, discount code, promo code, feature code 
 
@@ -10,22 +10,15 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:screen: .screen}
-{:help: data-hd-content-type='help'} 
-{:support: data-reuse='support'}
-{:external: target="_blank" .external}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Applying subscription codes 
 {: #subscription_code}
 {: help} 
 {: support}
 
-After you buy a subscription for platform or support credit, you add the credit to your account by applying a subscription code. Applying the code ensures that the credit is added to your account and you don't have unexpected overage charges.
+After you buy a subscription for platform or support credit, you add the credit to your account by applying a subscription code to an existing account or a new account when you register. Applying the code ensures that the credit is added to your account and you don't have unexpected overage charges.
+{: shortdesc}
 
 If you set up your first subscription through the Subscriptions page, the credit for this subscription is automatically added to your account - no code required.
 {: tip}
@@ -34,14 +27,17 @@ After {{site.data.keyword.Bluemix_notm}} Sales places the order, an email with t
 
 Only the account owner or a user with the Editor or Administrator role on the Billing account management service can apply the subscription code. If you don't have access to apply subscription codes, the account owner or administrator can provide access. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
 
-1. Open the email with the subscription code. 
+1. Open the email with the subscription code.
 
-    If you bought a subscription and didn't receive your subscription code, [contact us](https://www.ibm.com/cloud?contactmodule){: external} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.{: note}
-2. Click **Add subscription**. 
-3. Sign in to the console with your IBMid and password. 
-4. From the modal, choose the account you'd like to add the subscription to, select **I understand**, and then click **Add**. 
+    If you bought a subscription and didn't receive your subscription code, [contact us](https://www.ibm.com/cloud?contactmodule){: external} or email Sales at CloudDigitalSales@us.ibm.com to request for it to be sent again.
+    {: note}
 
-To manually apply the subscription code, complete the following steps:
+2. Click **Add subscription** to add it to an existing account.
+3. Sign in to the console with your IBMid and password.
+4. From the modal, choose the account you'd like to add the subscription to, select **I understand**, and then click **Add**.
+
+To manually apply the subscription code to an existing account, complete the following steps:
+
 1. In the {{site.data.keyword.cloud}} console, go to **Manage > Account**, and select **Account settings**.
 1. Click **Apply code**.
 
@@ -51,6 +47,12 @@ To manually apply the subscription code, complete the following steps:
 1. Enter the subscription code, and click **Apply**.
 
    If you have separate codes for platform and support credit, apply the platform subscription code first, then apply the support subscription code.
+
+To manually apply the subscription code to a new account, complete the following steps:
+
+1. Go [create an {{site.data.keyword.cloud_notm}} account](/registration), and enter the required information.
+1. Click **Register with a code** instead of entering your credit card information.
+1. Click **Create account**.
 
 If you don't know your seller, the codes are applied in the wrong order, or you experience issues with applying the codes, [contact {{site.data.keyword.Bluemix_notm}} Support](/docs/get-support?topic=get-support-using-avatar).
 
