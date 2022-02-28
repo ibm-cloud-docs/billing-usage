@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-02-21"
+lastupdated: "2022-02-28"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -46,6 +46,7 @@ If you have multiple servers that are provisioned, you can potentially reduce fu
 ## What happens if my Lite plan instance reaches the monthly quota?
 {: #monthlyquota}
 {: faq}
+{: support}
 
 When you reach any quota for Lite plan instances, the service for that month is suspended. Quotas are based per org and not per instance. New instances that are created in the same org show any usage from previous instances. The quota resets on the first of every month.
 
