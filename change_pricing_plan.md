@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-06-22"
+  years: 2017, 2022
+lastupdated: "2022-02-28"
 
 keywords: change service, upgrade service, service plan, pricing plan
 
@@ -61,14 +61,14 @@ Complete the following steps to update a pricing plan by using the {{site.data.k
 
 1. Check whether the service is enabled with the resource controller.
 
-   ```
+   ```bash
    ibmcloud catalog service <service_name>
    ```
    {: codeblock}
 
    The output lists `RC Compatible true`. Make a note of the ID of the plan that you want to update to.
 
-   ```
+   ```text
    RC Compatible      true
    RC Provisionable   true
    IAM Compatible     true
@@ -81,14 +81,14 @@ Complete the following steps to update a pricing plan by using the {{site.data.k
 
    - If the service is enabled with the resource controller, run the [`ibmcloud resource service-instance-update` command](/docs/cli?topic=cli-ibmcloud_commands_resource#ibmcloud_resource_service_instance_update).
 
-     ```
+     ```bash
      ibmcloud resource service-instance-update <service_instance_name> --service-plan-id <plan_id>
      ```
      {: codeblock}
 
    - If the service is based on Cloud Foundry, run the [`ibmcloud cf update-service` command](/docs/cli?topic=cli-ibmcloud_commands_services#ibmcloud_service_update).
 
-     ```
+     ```bash
      ibmcloud cf update-service <service_instance_name> [-p <plan_name>]
      ```
      {: codeblock}
@@ -99,7 +99,7 @@ Complete the following steps to update a pricing plan by using the {{site.data.k
 
 You can programmatically update the pricing plan for an instance by calling the [{{site.data.keyword.cloud_notm}} Resource Controller API](/apidocs/resource-controller/resource-controller#update-resource-instance) as shown in the following sample request. The example updates a pricing plan for an instance. 
 
-```
+```curl
 curl -X PATCH https://resource-controller.cloud.ibm.com/v2/resource_instances/8d7af921-b136-4078-9666-081bd8470d94 -H 'Authorization: Bearer <>' -H 'Content-Type: application/json' -d '{
     "name": "my-instance-new-binding-1",
     "resource_plan_id": "744bfc56-d12c-4866-88d5-dac9139e0e5d"

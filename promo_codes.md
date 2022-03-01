@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-02-21"
+lastupdated: "2022-02-28"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -10,12 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:screen: .screen}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Applying promo codes
 {: #applying-promo-codes}
@@ -23,7 +18,7 @@ subcollection: billing-usage
 Promotions are limited-time credits toward your {{site.data.keyword.Bluemix}} account and services that you can get by applying promo codes. Each promo code can be used one time and is valid only for a certain amount of time. Promo codes are provided on a limited basis by {{site.data.keyword.Bluemix_notm}} sales to customers with billable accounts. 
 {: shortdesc} 
 
-Promo codes are typically based on short phrases, like `PROMO200`. If you have an alphanumeric code, such as `a1b2c3def456`, it's a different type of code that is referred to as a feature code. You can apply these codes to Lite accounts on the **Manage > Accounts > Account settings** page. For more information, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes). 
+Promo codes are typically based on short phrases, like `PROMO200`. If you have an alphanumeric code, such as `a1b2c3def456`, it's a different type of code that is referred to as a feature code. You can apply these codes on the **Manage > Account > Account settings** page or when you register for a new account. For more information, see [Applying feature codes](/docs/account?topic=account-codes). 
 {: tip}
 
 Promotions are one type of credit for your account. For example, if you have a Pay-As-You-Go and Subscription account, you can use promo codes for limited-time credits toward your account and services. Promo codes are different from feature codes that provide enhancements for Lite accounts, or subscriptions that add credits as discounts to your account.
