@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-02-28"
+lastupdated: "2022-03-04"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -87,7 +87,7 @@ Yes, you can. When you request to change your payment method, a support case is 
 {: #removecard}
 {: faq}
 
-You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one.  
+You must have an active credit card on file. You can replace an existing credit card with a new one.  
 
 * If you're using a new US-based Pay-As-You-Go account with credit card billing, you can add a new credit card in the Monthly Payment Method form on the [Payments](/billing/payments){: external} page.
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
