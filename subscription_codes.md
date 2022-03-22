@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-28"
+lastupdated: "2022-03-22"
 
 keywords: subscription code, subscription credit, discount code, promo code, feature code 
 
@@ -14,8 +14,6 @@ subcollection: billing-usage
 
 # Applying subscription codes 
 {: #subscription_code}
-{: help} 
-{: support}
 
 After you buy a subscription for platform or support credit, you add the credit to your account by applying a subscription code to an existing account or a new account when you register. Applying the code ensures that the credit is added to your account and you don't have unexpected overage charges.
 {: shortdesc}
