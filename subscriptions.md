@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2021-11-22"
+  years: 2019, 2022
+lastupdated: "2022-03-22"
 
 keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code, expiring subscription, expired subscription 
 
@@ -78,8 +78,6 @@ To view support subscription usage, in the console, go to **Manage > Billing and
 
 ## Subscription credit
 {: #subscription-codes}
-{: help} 
-{: support}
 
 After you buy a subscription for platform or support credit, you add the credit to your account by applying a subscription code. Applying the code ensures that the credit is added to your account and you don't have unexpected overage charges. 
 
