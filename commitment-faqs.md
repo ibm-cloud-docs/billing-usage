@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-12"
+lastupdated: "2021-03-25"
 
 keywords: IBM Cloud billing, commitment model, using commitments, FAQs
 
@@ -34,7 +34,7 @@ The Pay as you go with Committed use model is similar to the Subscription model.
 {: #commit-signup}
 {: faq}
 
-Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Pay as you go with Committed Use. After you consult with a sales representative, you  receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions.
+Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Pay as you go with Committed Use. To view your account ID, select "Register with a Code" during account registration. After you consult with a sales representative, you receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions. Your account is activated upon order processing.
 
 ## How do I view existing commitments? 
 {: #existing-commit}
