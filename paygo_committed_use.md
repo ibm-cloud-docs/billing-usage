@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-01"
+lastupdated: "2022-04-07"
 
 keywords: IBM Cloud billing, commitment model, using commitments 
 
@@ -24,7 +24,7 @@ subcollection: billing-usage
 The {{site.data.keyword.cloud}} Pay as you go with Committed Use billing model is similar to the billing model for Subscription accounts but with a few added benefits. With this billing model, you commit to spend a certain amount on {{site.data.keyword.cloud_notm}} and receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. 
 {: shortdesc}
 
-The billing model will continue to roll out to new customers worldwide throughout 2021. For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external}. 
+For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external}. 
 {: note}
 
 The Commitments and subscriptions page in the console offers a view of any active or upcoming commitments. If you have an active subscription, or had subscriptions in the past, those details are also displayed on this page.
