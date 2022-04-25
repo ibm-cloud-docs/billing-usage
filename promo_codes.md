@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-02-28"
+lastupdated: "2022-04-25"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -35,7 +35,7 @@ Both one-time credit promotions and recurring dollar credit promotions are avail
     * Recurring dollar credits are offered for a set time period. For example, you can have a promotion of $100 USD value that is recurring every 30 days for 6 months. Recurring dollar credit promotions use the following format: `$X every Y months, repeats Z times.` 
     * Promo credit expires at the end of the committed term. Any credit that isn't used doesn't roll over to the next term.
 
-        With a recurring credit, if the amount of credit that is allocated to a client for a specific month or number of months is not used within the allocated time the credit expire. 
+         With a recurring credit, if the amount of credit that is allocated to a client is not used within the allocated time, the credit expires.
 
 ## Applying promo codes to your account
 {: #apply-promo-billing}
