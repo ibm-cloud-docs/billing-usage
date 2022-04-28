@@ -228,6 +228,19 @@
     "how can I apply the code",
     "Where do I put in a promotion code"
   ],
+  "get-feature-code": [
+    "get feature code",
+    "get my feature code",
+    "receive a feature code",
+    "request code for course", 
+    "finding promotional code for a course", 
+    "getting code for class", 
+    "feature code for a class",
+    "generate code to put in the apply code option",
+    "Obtain feature code",
+    "Where can I obtain the feature code",
+    "generate code to put in the apply code option"
+  ],
   "get-promo-code": [
     "get a promo code",
     "get my promotion code",
@@ -241,18 +254,10 @@
     "request a promo code",
     "to request IBM Cloud Promo Code",
     "get or generate the promo code",
-    "Obtain feature code",
-    "Where can I obtain the feature code",
     "can i requesting for a cloud promo code",
     "request a cloud promo code",
     "get feature codes",
-    "generate code to put in the apply code option",
-    "where are promo codes",
-	"request promo code for course", 
-    "promo code for a course", 
-    "finding promotional code for a course", 
-    "getting promo code for class", 
-    "promotional code for a class"
+    "where are promo codes"
   ],
   "entercode": [
     "apply feature code",

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2021-11-22"
+  years: 2020, 2022
+lastupdated: "2022-02-21"
 
 keywords: troubleshoot billing, manage invoice, can't view invoice
 
@@ -25,7 +25,7 @@ content-type: troubleshoot
 {: #ts_cant-view-invoice}
 {: troubleshoot}
 
-Invoices that are managed outside of the console can not be viewed by going to **Manage** > **Billing and Usage** > **Invoices**. 
+Invoices that are managed outside of the console can not be viewed by going to **Manage** > **Billing and Usage** > **Invoices** in the {{site.data.keyword.cloud_notm}} console. 
 {: shortdesc}
 
 As a Pay-As-You-Go or Subscription account owner, you might not be able to view your invoices from the Invoices page in the {{site.data.keyword.Bluemix_notm}} console.
