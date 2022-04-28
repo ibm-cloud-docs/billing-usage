@@ -148,8 +148,8 @@ If you can't apply a promo code, contact {{site.data.keyword.Bluemix_notm}} Sale
 
 If you think your invoice didn't include your promotion credits, first determine that the credits are still active on your account by using the following steps: 
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions**.  
-1. Click a promotion to expand the table and view a description of each promotion and the offerings it applies to.
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**.  
+1. Click a promotion to expand the table and view the amount of each promotion, the duration of each promotion and the offering it applies to.
 1. Check the following to make sure that your promo code is still applicable:
 - Verify the maximum value of the promo code per month. Some monthly recurring promo codes have a monthly limit. If your usage exceeded that limit, you're billed for the remaining amount.  
 - Compare the date of your invoice to the start and end dates of the promo code. If you applied the promo code after the invoice was issued, it was not applied to that month's invoice. 
