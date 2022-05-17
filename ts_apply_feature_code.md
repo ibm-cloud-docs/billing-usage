@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-23"
+lastupdated: "2022-05-17"
 
 keywords: troubleshoot billing, feature code, can't apply code, can't apply feature code, lite account, trial account
 
@@ -44,3 +44,4 @@ Use the following steps to successfully apply a feature code:
 - Verify that you have the correct account type. For example, some feature codes for educational promotions are only for Lite accounts. To view your account type, in the {{site.data.keyword.cloud}} console, go to **Manage > Account**, and select **Account settings**. For more information, see [Applying feature codes](/docs/account?topic=account-codes).
 - Verify that you have access to apply the code. To apply any code, you must have an Editor role or higher on all account management services. To view or change roles, see [Assigning access to account management services](/docs/account?topic=account-account-services).
 - Contact the person who provided the code for help with reissuing an expired code.
+- If you are unable to apply a feature code that you received from an educational provider, contact that educational provider for further assistance.
