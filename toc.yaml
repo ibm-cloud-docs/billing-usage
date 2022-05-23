@@ -110,6 +110,5 @@ toc:
           - ts_commit_cannot_apply.md
           - ts_commit_access_page.md
           - ts_charge-limit.md
-          - ts_cc-payment.md
-          - ts-credit-reject.md
+          - ts-cc-error-messages.md
       - /account/account-gettinghelp          
