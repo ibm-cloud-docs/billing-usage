@@ -52,8 +52,9 @@ When a promo code is applied to an {{site.data.keyword.Bluemix_notm}} enterprise
 
 Complete the following steps to apply promo codes to your account and {{site.data.keyword.Bluemix_notm}} products:  
 
-1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions**. 
-1. Enter your promo code, and click **Apply**. 
+1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**. 
+1. Click **Apply.** 
+1. In the side panel that appears, enter your promo code and click **Verify**.
 1. Review the promotion details, and click **Apply**. After the promo code is applied, a success message is displayed.
 
 You can also apply promo codes for {{site.data.keyword.Bluemix_notm}} products from the catalog when you create a resource. To apply the code, select a billable plan, enter the promo code, and click **Apply**. The promo code is added to your account even if you don't create the service. Promo codes for enterprise parent accounts can't be applied to specific products. 
@@ -64,9 +65,12 @@ Existing classic infrastructure promo codes can be applied only through the cata
 ## Viewing your promotions
 {: #viewing-promotions}
 
-You can view details about active promotions in your account, including your promotion start and end dates and the history of redeemed promos, from the table on the Promotions page. 
+You can view details about active promotions in your account, including your promotion start and end dates and the history of redeemed promos, from the table on the Promotions and credits page. 
 
-1. In the console, go to **Manage** > **Billing and usage**, and select **Promotions**. 
+1. In the console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**. 
 1. Click a promotion to expand the table and view a description of each promotion and the offerings it applies to.
+
+You can search for specific promotions, or you can filter by the status or type of promo code. To filter by status, you can select Active, Upcoming, Expired or All promotions. To filter by the type of promo code, you can select One-time, Recurring, or All promotions.
+{: tip}
 
 Promo codes can't be removed from your account, but they expire and become inactive when they reach their end date.
