@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-08-31"
+  years: 2019, 2022
+lastupdated: "2022-04-25"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -10,12 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:screen: .screen}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Applying promo codes
 {: #applying-promo-codes}
@@ -23,7 +18,7 @@ subcollection: billing-usage
 Promotions are limited-time credits toward your {{site.data.keyword.Bluemix}} account and services that you can get by applying promo codes. Each promo code can be used one time and is valid only for a certain amount of time. Promo codes are provided on a limited basis by {{site.data.keyword.Bluemix_notm}} sales to customers with billable accounts. 
 {: shortdesc} 
 
-Promo codes are typically based on short phrases, like `PROMO200`. If you have an alphanumeric code, such as `a1b2c3def456`, it's a different type of code that is referred to as a feature code. You can apply these codes to Lite accounts on the **Manage > Accounts > Account settings** page. For more information, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes). 
+Promo codes are typically based on short phrases, like `PROMO200`. If you have an alphanumeric code, such as `a1b2c3def456`, it's a different type of code that is referred to as a feature code. You can apply these codes on the **Manage > Account > Account settings** page or when you register for a new account. For more information, see [Applying feature codes](/docs/account?topic=account-codes). 
 {: tip}
 
 Promotions are one type of credit for your account. For example, if you have a Pay-As-You-Go and Subscription account, you can use promo codes for limited-time credits toward your account and services. Promo codes are different from feature codes that provide enhancements for Lite accounts, or subscriptions that add credits as discounts to your account.
@@ -40,7 +35,7 @@ Both one-time credit promotions and recurring dollar credit promotions are avail
     * Recurring dollar credits are offered for a set time period. For example, you can have a promotion of $100 USD value that is recurring every 30 days for 6 months. Recurring dollar credit promotions use the following format: `$X every Y months, repeats Z times.` 
     * Promo credit expires at the end of the committed term. Any credit that isn't used doesn't roll over to the next term.
 
-        With a recurring credit, if the amount of credit that is allocated to a client for a specific month or number of months is not used within the allocated time the credit expire. 
+         With a recurring credit, if the amount of credit that is allocated to a client is not used within the allocated time, the credit expires.
 
 ## Applying promo codes to your account
 {: #apply-promo-billing}
@@ -67,7 +62,8 @@ Existing classic infrastructure promo codes can be applied only through the cata
 
 You can view details about active promotions in your account, including your promotion start and end dates and the history of redeemed promos, from the table on the Promotions and credits page. 
 
-1. In the console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**. 
+
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**. 
 1. Click a promotion to expand the table and view a description of each promotion and the offerings it applies to.
 
 You can search for specific promotions, or you can filter by the status or type of promo code. To filter by status, you can select Active, Upcoming, Expired or All promotions. To filter by the type of promo code, you can select One-time, Recurring, or All promotions.

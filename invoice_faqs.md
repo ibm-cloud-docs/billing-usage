@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-01"
+lastupdated: "2022-03-16"
 
 keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicing, adjustments
 
@@ -36,7 +36,7 @@ Review the following FAQs to find helpful information about invoices. To find al
 
 If you have a billable account, you can access your invoice by clicking **Manage > Billing and usage**, and selecting **Invoices**. If you have a Lite account, you don't have an invoice because you're never charged for Lite plan usage.
 
-For Pay-As-You-Go accounts that aren't billed in US dollars or Subscription accounts, you can also view your invoices on the [IBM Invoices website](https://www.ibm.com/invoices){: external}. See [How do I view invoices for Pay-As-You-Go or Subscription accounts?](/docs/billing-usage?topic=billing-usage-ts_cant-view-invoice) and [Viewing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices) for more information.
+You might be redirected to [IBM Invoices website](https://www.ibm.com/invoices){: external}. See [How do I view invoices for Pay-As-You-Go or Subscription accounts?](/docs/billing-usage?topic=billing-usage-ts_cant-view-invoice) and [Viewing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices) for more information.
 
 ## Why does my usage not match my invoice?
 {: #usage-not-match-invoice}
@@ -49,14 +49,14 @@ Your usage might not match your invoice because the months that are used to comp
 {: #slperm-manage-invoices}
 {: faq}
 
-The SoftLayer permission for managing invoices might not have been migrated correctly in {{site.data.keyword.Bluemix_notm}}. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/account?topic=account-migrated_permissions).
+You might not have the correct permissions. Ask your account owner to add you to the View account summary access group. For more information, see [Managing migrated SoftLayer account permissions](/docs/account?topic=account-migrated_permissions).
 
 ## How can I download my invoice?
 {: #invoice-spreadsheet}
 {: faq}
 
 To download your invoice, go to **Manage > Billing and usage**, and select **Invoices**. Then, click the **Download** icon ![Download icon](../icons/download.svg "Download") and choose an invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet. 
-For Pay-As-You-Go accounts that aren't billed in US dollars or Subscription accounts, you can download your invoices on the [IBM Invoices website](https://www.ibm.com/invoices){: external}. From the Invoices page, click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") and select the invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet. 
+In some cases, you are redirected to the [IBM Invoices website](https://www.ibm.com/invoices){: external} where you can download your invoices. From the Invoices page, click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") and select the invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet. 
 
 ## Is paperless invoicing available? 
 {: #paperless-invoices}

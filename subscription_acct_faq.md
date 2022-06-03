@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-02"
+lastupdated: "2022-02-18"
 
 keywords: GB-hour, container usage, runtime, charge
 
@@ -17,7 +17,7 @@ content-type: faq
 # FAQs for subscription accounts
 {: #subscription-account}
 
-FAQs for subscription accounts include entires about subscription credit, subscription terms, and other subscription related self-help information. 
+FAQs for subscription accounts include entries about subscription credit, subscription terms, and other subscription related self-help information. 
 {: shortdesc}
 
 ## How do I add subscription credit to my account?
@@ -25,9 +25,9 @@ FAQs for subscription accounts include entires about subscription credit, subscr
 {: faq}
 {: support}
 
-After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](/account/settings), and click **Apply code**. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
+After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](/account/settings), and click **Apply code**. You can also apply your code to a new account by clicking **Register with a code** when you [sign up for a new account](/registration). For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
-You might be looking for information about promo codes and feature codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes to Lite accounts](/docs/account?topic=account-codes). 
+You might be looking for information about promo codes and feature codes. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes](/docs/account?topic=account-codes). 
 
 ## Can I pay the total spending commitment up-front or quarterly?
 {: #subs-pay-schedule}
@@ -47,13 +47,11 @@ Yes, what you spend monthly is up to you! You can spend any amount of the total 
 
 You're required to continue paying your monthly charges until the end of your term. You're charged the non-discounted rate for any usage that goes over your total subscription amount. To avoid overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to sign up for a new subscription.
 
-
 ## Is there a monthly minimum amount required for Subscription accounts?
 {: #subs-minimum}
 {: faq}
 
 Yes, your subscription must have a combined minimum spending and term commitment of $100.00 USD each month for 12 months.
-
 
 ## Can I cancel my Subscription account before the end of my term commitment?  
 {: #subs-cancel-early}

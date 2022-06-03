@@ -1,6 +1,6 @@
 {
     "title": "IBM Cloud Billing and Usage docs",
-    "lastupdated": "2021-07-19",
+    "lastupdated": "2022-03-01",
     "introduction": "IBM Cloud offers multiple billing options and tools for every business whether it’s tracking your usage or managing invoice and payments. Leverage the docs, API & SDK reference, architecture references, and more to support your billing and usage needs.",
     "section_devtools": {
       "api": "/docs?tab=api-docs&category=platform_services&subCategory=billing-usage",
@@ -45,19 +45,19 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
+          "date": "01 March 2022",
+          "title": "Use feature and subscription codes to create new accounts",
+          "description": "When you register for a new IBM Cloud account, you can use a feature code that you received from participating in a special event or a subscription code that you received by email. Instead of verifying your identity by entering your credit card information, click the option to Register with a code to complete the set up of your new account."
+        },
+        {
           "date": "7 July 2021",
           "title": "Service level discounts for accounts with the Pay as you go with Committed Use billing model",
           "description": "If you have an account with the Pay as you go with Committed Use billing model, you might be eligible to receive service-level discounts."
         },
         {
-            "date": "9 February 2021",
-            "title": "Types of available promotion credits",
-            "description": "In addition to one-time promotion credits, recurring dollar credit promotion's are available."
-          },
-        {
-          "date": "10 December 2020",
-          "title": "Enhanced payments & invoicing for new US-based Pay-As-You-Go accounts with credit card billing",
-          "description": "We are excited to announce our latest unification project for new US-based IBM Cloud Pay-As-You-Go accounts with credit card billing. This update provides increased clarification and consistency for payments and invoicing."
+          "date": "9 February 2021",
+          "title": "Types of available promotion credits",
+          "description": "In addition to one-time promotion credits, recurring dollar creditpromotion's are available."
         }
       ]
     }

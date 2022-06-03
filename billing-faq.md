@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-03-04"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -35,17 +35,19 @@ Multiply the two values together, and the result is the GB-hour.
 {: #bandwidth-usage}
 {: faq}
 
-{{site.data.keyword.cloud_notm}} systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For more information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs). 
+{{site.data.keyword.cloud_notm}} systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs). 
+
 
 ## How do I prevent bandwidth overages?
 {: #bandwidth-usage-overages}
 {: faq}
 
-If you have multiple servers that are provisioned, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [IBM Cloud Sales](/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
+If you provision multiple servers, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [IBM Cloud Sales](/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
 
 ## What happens if my Lite plan instance reaches the monthly quota?
 {: #monthlyquota}
 {: faq}
+{: support}
 
 When you reach any quota for Lite plan instances, the service for that month is suspended. Quotas are based per org and not per instance. New instances that are created in the same org show any usage from previous instances. The quota resets on the first of every month.
 
@@ -73,7 +75,7 @@ Contact us by calling 1-866-325-0045 and selecting the third option.
 
 You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/). For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
 
-For additional information about specific error messages, see [Why can't I upgrade my IBM Cloud account?](/docs/account?topic=account-ts_upgrade_cc).
+For more information about specific error messages, see [Why can't I upgrade my IBM Cloud account?](/docs/account?topic=account-ts_upgrade_cc).
 
 ## Can I check the status of my account's updated payment method?
 {: #payment-method-status}
@@ -81,12 +83,11 @@ For additional information about specific error messages, see [Why can't I upgra
 
 Yes, you can. When you request to change your payment method, a support case is created automatically. Go to the [Manage cases](/unifiedsupport/cases) page in the {{site.data.keyword.cloud_notm}} console to view the status of your request. 
 
-
 ## Can I delete my credit card?
 {: #removecard}
 {: faq}
 
-You must have an active credit card or PayPal account on file. You can replace an existing credit card with a new one.  
+You must have an active credit card on file. You can replace an existing credit card with a new one.  
 
 * If you're using a new US-based Pay-As-You-Go account with credit card billing, you can add a new credit card in the Monthly Payment Method form on the [Payments](/billing/payments){: external} page.
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
@@ -96,18 +97,18 @@ You must have an active credit card or PayPal account on file. You can replace a
 {: #localcurrency}
 {: faq}
 
-To request to be invoiced in your local currency, complete the Monthly Payment Method form on the [Payments](/billing/payments){: external} page. If your account supports another currency, you can request this change in the Payment Currency section.
+To request to be invoiced in your local currency, complete the Monthly Payment Method form on the [Payments](/billing/payments){: external} page. If your account supports another currency, you can request the change in the Payment Currency section. 
 
-An account that is invoiced in a currency other than US Dollars can't be converted to US Dollar invoicing.
-{: note}
+An account that is invoiced in a currency other than US Dollars can't be converted to US Dollar invoicing.{: note}
 
 ## What is Business Continuity Insurance?
 {: #BCI-invoice}
 {: faq}
 
-Business Continuity Insurance is insurance that protects you from illegitimate charges against your servers. You can request this insurance through [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://{DomainName}/catalog?contactmodule){: external} to avoid overage charges if a documented network attack occurs against a covered server. {{site.data.keyword.Bluemix_notm}} credits back any overages incurred on the affected server. 
+Business Continuity Insurance is insurance that protects you from illegitimate charges against your servers. You can request this insurance through [{{site.data.keyword.Bluemix_notm}} Cloud Sales](/catalog?contactmodule){: external} to avoid overage charges if a documented network attack occurs against a covered server. {{site.data.keyword.Bluemix_notm}} credits back any overages incurred on the affected server. 
 
 To receive the credits for illegitimate charges against your servers, contact [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external} and open a support case.
+
 
 ## What is the `Service: Support and Services` charge on my invoice?
 {: #supserve-invoice}
@@ -119,30 +120,34 @@ If you create a VMWare cluster on your {{site.data.keyword.Bluemix_notm}} accoun
 {: #promo-feature-codes}
 {: faq}
 
-Promo codes are for Pay-As-You-Go and Subscription accounts and give you limited-time credits toward your account {{site.data.keyword.Bluemix_notm}} products. The codes are typically short phrases, like `PROMO200`. For more information about promo codes, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
+Promo codes are for Pay-As-You-Go and Subscription accounts and give you limited-time credits toward your account and {{site.data.keyword.Bluemix_notm}} products. The codes are typically short phrases, like `PROMO200`. For more information about promo codes, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
 
-Feature codes provide enhancements for Lite accounts, such as an unlimited number of organizations or converting a Lite account to a trial account. They're typically random alphanumeric codes, like `a1b2c3def456`. For more information about feature codes, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes).
+Feature codes provide enhancements for an account, such as an unlimited number of organizations or creating a trial account. Feature codes are typically provided for online courses and certain events, such as educational sessions or conference workshops. They're typically random alphanumeric codes, like `a1b2c3def456`. For more information about feature codes, see [Applying feature codes](/docs/account?topic=account-codes).
 
 ## Where can I get a promo code?
 {: #get-promo-code}
 {: faq}
 
-Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales and educational providers on a limited basis. Promotions are meant for select groups and are typically given out at hackathons, conferences, and other events.
+Promo codes are provided on a limited basis by {{site.data.keyword.Bluemix_notm}} sales to customers with Pay-As-You-Go and Subscription accounts. Promotions provide specific discounts for a set amount of time. For more information, see [Applying promo codes](/docs/account?topic=billing-usage-applying-promo-codes). 
 
-You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+## Where can I get a feature code?
+{: #get-feature-code}
+{: faq}
+
+Feature codes are provided by {{site.data.keyword.Bluemix_notm}} sales and educational providers on a limited basis. Feature codes are meant for select groups and are typically given out at hackathons, conferences, and other events. If you are taking a course through an educational provider and need additional resources to complete the course, contact your educational provider to determine if a feature code is applicable.  
 
 ## How do I apply a promo code?
 {: #how-apply-promo}
 {: faq}
 
-To apply your promo code, go to the [Promotions](https://{DomainName}/billing/promotions) page in the console, enter your promo code, and click **Apply**. For more information, see [Applying promo codes](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
+To apply your promo code, go to the [Promotions](/billing/promotions) page in the console, enter your promo code, and click **Apply**. For more information, see [Applying promo codes](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
 
-You might be looking for information on feature codes and subscription codes, which are available for certain account types. For more information, see [Applying feature codes to Lite accounts](/docs/account?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
+You might be looking for information on feature codes and subscription codes. For more information, see [Applying feature codes](/docs/account?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
-If you can't apply a promo code, contact {{site.data.keyword.Bluemix_notm}} Sales or the educational provider for additional help. 
+If you can't apply a promo code that you received from {{site.data.keyword.Bluemix_notm}} Sales or an educational provider, contact sales or the provider for additional help. 
 {: note}
 
-## Why did I get billed if I have remaining promotion credits?
+## Why did I get billed when I have remaining promotion credits?
 {: #billed-promo}
 {: faq}
 
@@ -151,20 +156,21 @@ If you think your invoice didn't include your promotion credits, first determine
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**.  
 1. Click a promotion to expand the table and view the amount of each promotion, the duration, and the offering it applies to.
 1. Check the following to make sure that your promo code is still applicable:
-- Verify the maximum value of the promo code per month. Some monthly recurring promo codes have a monthly limit. If your usage exceeded that limit, you're billed for the remaining amount.  
-- Compare the date of your invoice to the start and end dates of the promo code. If you applied the promo code after the invoice was issued, it was not applied to that month's invoice. 
-- If you didn't use the products that are impacted by the promo code before it expired, you don't receive the promotion credits.
+   - Verify the maximum value of the promo code per month. Some monthly recurring promo codes have a monthly limit. If your usage exceeded that limit, you're billed for the remaining amount.  
+   - Compare the date of your invoice to the start and end dates of the promo code. If you applied the promo code after the invoice was issued, it was not applied to that month's invoice. 
+   - If you didn't use the products that are impacted by the promo code before it expired, you don't receive the promotion credits.
   
-After you complete these steps, if you still believe that the invoice amount is an error, create a support case. Go to the [Support Center](https://{Domain}/unifiedsupport/supportcenter) and click **Create a case**. 
+After you complete these steps, if you still believe that the invoice amount is an error, create a support case. Go to the [Support Center](/unifiedsupport/supportcenter) and click **Create a case**. 
+
 
 ## How do I apply a feature code?
 {: #entercode}
 {: faq}
 {: support}
 
-Feature codes add extra capabilities to Lite accounts and are typically provided for educational initiatives or special events. To redeem your code, go to the [Account settings](https://{DomainName}/account/settings) page in the console, and click **Apply code**.
+Feature codes add extra capabilities in an account and are typically provided for educational initiatives or special events. To redeem your code, go to the [Account settings](/account/settings) page in the console, and click **Apply code**. You can also apply your code to a new account by clicking **Register with a code** when you [sign up for a new account](/registration).
 
-You might be looking for information about promo codes and subscription codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code).
+You might be looking for information about promo codes and subscription codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code). 
 
 
 ## Why did my account get billed for additional services charges?
@@ -175,7 +181,7 @@ As the account owner, you're responsible for all charges that are incurred by us
 
 Resources and applications that are left running in an account are subject to charges based on the pricing and description of the product. For example, this includes buildpacks, Platform as a Service, and Infrastructure as a Service. 
 
-If you believe that charges on your invoice are incorrect, [contact Support](https://{DomainName}/unifiedsupport/supportcenter){: external} within 30 calendar days of the invoice due date or use the contact information that is found on your invoice. 
+If you believe that charges on your invoice are incorrect, [contact Support](/unifiedsupport/supportcenter){: external} within 30 calendar days of the invoice due date or use the contact information that is found on your invoice. 
 
 
 ## Why did I get billed for a resource I deleted?
@@ -193,7 +199,6 @@ If you are not subject to tax, you can provide us with a tax identification numb
 {{site.data.keyword.cloud_notm}} complies with all tax regulations. Taxes are assessed based on the laws that correspond to the address on your account.   
 {: note}
 
-
 ## How can I monitor spending?
 {: #monitor-spending}
 {: faq}
@@ -202,13 +207,13 @@ You can view your monthly runtime and service usage by clicking **Manage > Billi
 
 ## Can I receive notifications when my spending reaches specific levels?
 {: #spending-notification}
-{: faq}	
+{: faq}
 {: support}
 
 You can set separate spending thresholds for the account, container, runtime, all services, and specific services. You automatically receive notifications when your monthly spending reaches 80%, 90%, and 100% of those thresholds. To set spending notifications, click **Manage > Billing and usage** and select **Spending notifications**. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending). 
 
-Your account is charged if your usage exceeds 100% of the spending threshold. Spending notifications don't stop charges from incurring. 
-{: note} 
+Spending notifications don't stop charges from incurring. You continue to incur charges if your usage exceeds 100% of the spending threshold. 
+{: note}
 
 ## Does the price of the offering that I'm ordering reflect the discounted price?
 {: #discount-price}
@@ -223,7 +228,7 @@ Yes, if your account includes any discounts, the price of the offering that is d
 
 Credit might take a few hours to appear in your account. To see whether a credit was added, go to **Manage > Billing and usage**, and select **Usage**. The credit might be listed in the Active subscriptions and credits section.
 
-If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it’s not yet added to your account. Check back later to verify that you received the credit.
+If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it is not yet added to your account. Check back later to verify that you received the credit.
 
 ## How can I add funds to my ResellOne account?
 {: #resell}
@@ -243,7 +248,7 @@ Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program
 
 Credits for {{site.data.keyword.IBM_notm}} corporate programs, such as Startup with {{site.data.keyword.IBM_notm}} and PartnerWorld, are available within the applicable invoice in {{site.data.keyword.Bluemix_notm}}. To view the credits, complete the following steps:
 
-1. In the console, go to **Manage** > **Billing and usage**, and select **Invoices**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Invoices**.
 1. Select an applicable invoice. 
 1. Find the name of the program listed in the Current Payment Method section to see the monthly credit, applied credit, and remaining credit information. 
 
@@ -257,7 +262,7 @@ Go to the [Support Center](/unifiedsupport/supportcenter){: external} page by cl
 {: #billing-address}
 {: faq}
 
-You can view the primary contact and address that is associated with an account by going to **Manage** > **Account**, and selecting **Company profile**. 
+You can view the primary contact and address that is associated with an account by going to **Manage** > **Account** in the {{site.data.keyword.cloud_notm}} console, and selecting **Company profile**. 
 
 ## How can I ensure that my account is secure to avoid charges due to unauthorized access? 
 {: #unauth-charges}
