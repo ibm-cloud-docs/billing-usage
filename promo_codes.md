@@ -60,8 +60,7 @@ Existing classic infrastructure promo codes can be applied only through the cata
 ## Viewing your promotions
 {: #viewing-promotions}
 
-You can view details about active promotions in your account, including your promotion start and end dates and the history of redeemed promos, from the table on the Promotions and credits page. 
-
+You can view details about active promotions in your account, including the start and end dates and the history of redeemed promotions, from Promotions and credits page. 
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**. 
 1. Click a promotion to expand the table and view a description of each promotion and the offerings it applies to.
