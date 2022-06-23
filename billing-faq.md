@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-06-20"
+lastupdated: "2022-06-23"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item 
 
@@ -71,11 +71,9 @@ Some payment methods, such as PayPal, aren't accepted as recurring payment metho
 
 Protecting your identity is a priority for us, so we take credit card verification seriously.
 
-Contact us by calling 1-866-325-0045 and selecting the third option.
+If your credit card did not process successfully, contact us by calling 1-866-325-0045 and selecting the third option. For information about specific error messages, see [Credit Card error messages](/docs/billing-usage?topic=billing-usage-cc-error-messages).
 
-You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/). For more information, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
-
-For more information about specific error messages, see [Credit Card error messages](/docs/billing-usage?topic=billing-usage-cc-error-messages).
+You might manage your payment method on a separate billing platform, [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/). For more information about that process, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
 
 ## Can I check the status of my account's updated payment method?
 {: #payment-method-status}
