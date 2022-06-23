@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2022-01-20"
+  years: 2019, 2022
+lastupdated: "2022-06-23"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 
@@ -48,6 +48,10 @@ You can check the status of your invoice on the [Invoices page](/billing/invoice
 * **Paid**: Your payment for the charges on your latest invoice was received.
 * **Unpaid**: The charges on your latest invoice have not been paid.
 * **Pending**: Your payment for your latest charges has not been applied due to a payment processing error. In this case, you can contact {{site.data.keyword.cloud_notm}} Support for more details about the error. 
+
+Turning a resource "off" doesn't cancel the resource in your account. You will receive invoices for resources in your account until you cancel them. For more information, see [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items).
+{: note}
+
 
 ### Viewing and downloading your invoice
 {: #download-invoices}

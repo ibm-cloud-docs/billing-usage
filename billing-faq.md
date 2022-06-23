@@ -44,6 +44,14 @@ Multiply the two values together, and the result is the GB-hour.
 
 If you provision multiple servers, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [IBM Cloud Sales](/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
 
+##  What's the difference between a Pay-As-You-Go and Subscription account?
+{: #billable-account-types}
+{: faq}
+
+With Pay-As-You-Go accounts, you're billed monthly for your resource usage. Your resource usage consists of recurring and fluctuating costs. This account type is a good fit for developers or companies that want to explore the entire {{site.data.keyword.cloud_notm}} catalog but have smaller or variable workloads. You pay only for what you use or commit to on a monthly basis, with no long-term contracts. Usage consists of products, services, and resources. 
+
+With Subscription accounts, you buy a subscription for an amount of credit to spend on resource usage within a certain time period. In exchange for this spending commitment, you get a discount on your usage costs. For more information about the differences between account types, see [Account types](/docs/account?topic=account-accounts).
+
 ## What happens if my Lite plan instance reaches the monthly quota?
 {: #monthlyquota}
 {: faq}
