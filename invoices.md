@@ -49,10 +49,9 @@ You can check the status of your invoice on the [Invoices page](/billing/invoice
 * **Unpaid**: The charges on your latest invoice have not been paid.
 * **Pending**: Your payment for your latest charges has not been applied due to a payment processing error. In this case, you can contact {{site.data.keyword.cloud_notm}} Support for more details about the error. 
 
-Turning a resource "off" doesn't cancel the resource in your account. To cancel the resource, you must cancel the plan for the server. 
+Turning a resource "off" doesn't cancel the resource in your account. You will receive invoices for resources in your account until you cancel them. For more information, see [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items).
 {: note}
 
-You will receive invoices for resources in your account until you cancel them. See [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items) for more information. 
 
 ### Viewing and downloading your invoice
 {: #download-invoices}
