@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-04-25"
+lastupdated: "2022-07-27"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -42,7 +42,7 @@ Both one-time credit promotions and recurring dollar credit promotions are avail
 
 You can apply promo codes to Pay-As-You-Go, Subscription, and {{site.data.keyword.Bluemix_notm}} enterprise parent accounts. Any user in the account has access to view and apply promo codes. You can have multiple promo codes that are applied to an account at a time. You can use each promo code only once, and you can't remove them after you apply them.
 
-When a promo code is applied to an {{site.data.keyword.Bluemix_notm}} enterprise parent account, it applies to all child accounts within the enterprise. 
+To apply a promo code to an {{site.data.keyword.Bluemix_notm}} enterprise account, you must be assigned the enterprise billing administrator role. After the promo code is applied to an {{site.data.keyword.Bluemix_notm}} enterprise parent account, it applies to all child accounts within the enterprise. 
 {: note}
 
 Complete the following steps to apply promo codes to your account and {{site.data.keyword.Bluemix_notm}} products:  
