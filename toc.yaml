@@ -57,6 +57,7 @@ toc:
           topics:      
           - invoices.md
           - manage_billing.md
+          - understand-invoice.md
       - subscriptions.md
       - paygo_committed_use.md
 
