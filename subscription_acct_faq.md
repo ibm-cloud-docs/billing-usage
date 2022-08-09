@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-18"
+lastupdated: "2022-08-09"
 
 keywords: GB-hour, container usage, runtime, charge
 
@@ -17,7 +17,7 @@ content-type: faq
 # FAQs for subscription accounts
 {: #subscription-account}
 
-FAQs for subscription accounts include entries about subscription credit, subscription terms, and other subscription related self-help information. 
+FAQs for subscription accounts include entries about subscription credit, subscription terms, and other subscription-related self-help information. 
 {: shortdesc}
 
 ## How do I add subscription credit to my account?
@@ -28,6 +28,12 @@ FAQs for subscription accounts include entries about subscription credit, subscr
 After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](/account/settings), and click **Apply code**. You can also apply your code to a new account by clicking **Register with a code** when you [sign up for a new account](/registration). For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
 You might be looking for information about promo codes and feature codes. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes](/docs/account?topic=account-codes). 
+
+## What does the IN_PROGRESS status mean when I apply a subscription code?
+{: #pending-code}
+{: faq}
+
+When you apply a subscription code to a Pay-As-You-Go account, the status of the subscription might be IN_PROGRESS. This status indicates that your account must be reviewed to complete your order. When you see this status, contact the IBM Cloud Sales representative who helped you with the order.
 
 ## Can I pay the total spending commitment up-front or quarterly?
 {: #subs-pay-schedule}
