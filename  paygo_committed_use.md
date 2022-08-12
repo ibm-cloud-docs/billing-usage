@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2021-02-01"
+lastupdated: "2022-08-12"
 
 keywords: IBM Cloud billing, commitment model, using commitments 
 
@@ -24,7 +24,7 @@ subcollection: billing-usage
 The {{site.data.keyword.cloud}} Pay as you go with Committed Use billing model is similar to the billing model for Subscription accounts but with a few added benefits. With this billing model, you commit to spend a certain amount on {{site.data.keyword.cloud_notm}} and receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. 
 {: shortdesc}
 
-The billing model will continue to roll out to new customers worldwide throughout 2021. For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external}. 
+The billing model will continue to roll out to new customers worldwide throughout 2021. For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}. 
 {: note}
 
 The Commitments and subscriptions page in the console offers a view of any active or upcoming commitments. If you have an active subscription, or had subscriptions in the past, those details are also displayed on this page.
@@ -32,14 +32,14 @@ The Commitments and subscriptions page in the console offers a view of any activ
 ## Signing up for a commitment 
 {: #sign-up-commit}
 
-To leverage the {{site.data.keyword.cloud_notm}} Pay as you go with Committed Use billing model, you must have a Subscription account. After you have the correct account, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to sign up for this billing model. The sales team creates a commitment quote based on the spending amount for a certain period of time you want to commit to. 
+To leverage the {{site.data.keyword.cloud_notm}} Pay as you go with Committed Use billing model, you must have a Subscription account. After you have the correct account, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for this billing model. The sales team creates a commitment quote based on the spending amount for a certain period of time you want to commit to. 
 
 After you accept the commitment quote, you receive an additional email to confirm that your payment information is processed and that the commitment is added to your account. 
 
 ## Viewing your commitment quote 
 {: #committed-view}
 
-After you contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} and sign up for a commitment, you receive a quote. The commitment quote details your contract period, duration of the commitment, billing frequency, UOM, discount, and commitment terms. The sales team will email you a copy of your quote.
+After you contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} and sign up for a commitment, you receive a quote. The commitment quote details your contract period, duration of the commitment, billing frequency, UOM, discount, and commitment terms. The sales team will email you a copy of your quote.
 
 ## Viewing your commitment usage 
 {: #committed-usage}
