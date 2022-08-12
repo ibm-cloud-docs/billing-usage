@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-04"
+lastupdated: "2022-08-12"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -16,13 +16,13 @@ subcollection: billing-usage
 # Viewing your usage
 {: #viewingusage}
 
-You can view your {{site.data.keyword.cloud}} usage details, including a summary of estimated charges for all services and resources that are used per month in your organizations, from the Usage page in the console.
+You can view your {{site.data.keyword.cloud}} usage details from the billing and usage dashboard or from the Usage page in the console. Your usage details include a summary of estimated charges for all services and resources that are used per month in your organizations.
 {: shortdesc}
 
 ## Before you begin
 {: #view-usage-permissions}
 
-Ensure that you have the access that's required to view usage data for the resources. Access can be assigned at the account level or to individual resource groups and Cloud Foundry orgs.
+Ensure that you have the access that's required to view usage data for the resources. Access can be assigned at the account-level or to individual resource groups and Cloud Foundry orgs.
 * To view usage for all resources in the account, you need an access policy with the Administrator role on the Billing account management service. 
 * To view usage only for specific {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) resources, you need the Viewer role on the resource group.
 * To view usage only for specific Cloud Foundry services, the Billing manager role must be applied at the org level. Billing managers can see the details for only the organizations in which they are assigned the Billing manager role.
@@ -37,6 +37,26 @@ For more information about access roles, see [IAM access](/docs/account?topic=ac
 {: help} 
 {: support}
 {: ui} 
+
+The usage summary widget provides a view of your month-to date-spending, last month spending, average monthly spending, and next month's predicted usage at a glance. For a more granular view of your usage and specific costs that are associated with services, view your usage from the usage page. 
+
+### Viewing usage details from the usage summary widget
+{: #usage-summary} 
+
+In the usage summary widget on the billing and usage dashboard, you get view of your actual and predicted spending trends. 
+
+The predicted usage for the next month is calculated by finding the trend from the usage of the last three months, including the current month. For example, if it's August, predicted usage is calculated based on usage trends in June, July, and August to find the predicted usage for September.
+
+Let's say the usage is $950.00 USD for June, $1000.00 USD for July, and $1012.50 USD for August. The difference is calculated between the current month and the last month, and last month and the month before that. Then, the two calculations are averaged to find the trend. That trend amount of $1043.75 USD is the predicted next month's usage, with the following calculations: 
+
+* Change between August and July = $1012.50 - $1000.00 = $12.50 USD 
+* Change between July and June = $1000.00 - $950.00 = $50.00 USD 
+* Average change (trend) = ($12.50 + $50.00) / 2 = $31.25 USD 
+
+August usage ($1012.50) + Average change ($31.25) = The predicted usage for next month September ($1043.75 USD) 
+
+### Viewing usage details from the usage page 
+{: #usage-details-page} 
 
 In the Services section, you can view a list of your services and the estimated costs that are associated with those services. To view a summary of estimated charges for all instances of a specific resource, complete the following steps:
 
@@ -55,7 +75,7 @@ If you select a specific organization from the **Filter by group** list, you can
 
 The account owner of a billable account can set spending notifications against the total cost of the account, for runtime, services, and for individual services, excluding third-party services. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 
-## Exporting your usage details to a `.csv` file
+## Exporting your usage details to a .csv file
 {: #export-csv}
 {: help} 
 {: support}
@@ -70,7 +90,7 @@ You can export a summary of your account's usage, or information about your serv
    You can use the **Tags** column in the instance CSV file to help analyze the resources in your account. For example, you might have multiple projects in an account, each with a Kubernetes cluster and a few Cloud Foundry app deployments. You can organize the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. For more information about tagging, see [Working with tags](/docs/account?topic=account-tag).
    {: tip}
 
-   Consider creating tags as a key:value pair to group related tags. The key becomes a column in the CSV file and the pairs are populated in the respective rows of the column. If you don't follow a key:value tag style, the tags appear in the other tags column.
+   Consider creating tags as a key:value pair to group related tags. The key becomes a column in the CSV file and the pairs are populated in the respective rows of the column. If you don't follow a `key:value` tag style, the tags appear in the other tags column.
    {: tip}
 
 ## Viewing your usage by using the CLI

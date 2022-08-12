@@ -36,7 +36,7 @@ toc:
           - change_pricing_plan.md
           - notifications.md
       - topicgroup: 
-          label: Viewing your usage
+          label: Managing your usage
           topics: 
           - viewing_usage.md
           - infra_usage.md
