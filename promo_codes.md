@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-07-27"
+lastupdated: "2022-08-19"
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -29,10 +29,10 @@ Promotions are one type of credit for your account. For example, if you have a P
 Both one-time credit promotions and recurring dollar credit promotions are available for all {{site.data.keyword.Bluemix_notm}} products. 
 
 1. One-time credit promotion 
-    * Credit promotions can be used only one time, for a set time period, and you can't remove them after you apply them. Credit promotions use the following format: `$X off for Y days.` 
+    * Credit promotions can be used only one time, for a set time period, and you can't remove them after you apply them. Credit promotions use the following format: $X off for Y days.
 
 2. Recurring dollar credit promotion
-    * Recurring dollar credits are offered for a set time period. For example, you can have a promotion of $100 USD value that is recurring every 30 days for 6 months. Recurring dollar credit promotions use the following format: `$X every Y months, repeats Z times.` 
+    * Recurring dollar credits are offered for a set time period. For example, you can have a promotion of $100 USD value that is recurring every 30 days for 6 months. Recurring dollar credit promotions use the following format: $X every Y months, repeats Z times. 
     * Promo credit expires at the end of the committed term. Any credit that isn't used doesn't roll over to the next term.
 
          With a recurring credit, if the amount of credit that is allocated to a client is not used within the allocated time, the credit expires.

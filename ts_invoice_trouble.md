@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-21"
+lastupdated: "2022-08-19"
 
 keywords: troubleshoot billing, manage invoice, can't view invoice
 
@@ -34,9 +34,9 @@ As a Pay-As-You-Go or Subscription account owner, you might not be able to view 
 When you try to view your invoices, one of the following messages is displayed: 
 
 
-`Your invoices are managed through IBM.com.`
+*Your invoices are managed through IBM.com.*
 
-`This account is invoiced on a separate billing platform.`
+*This account is invoiced on a separate billing platform.*
 
 If you have a Pay-As-You-Go account that is billed in a currency other than US dollars or a Subscription account, you view your invoices on the [IBM Invoices](https://www.ibm.com/support/customer/invoices/){: external} website, which is linked from the Invoices page in the console.
 {: tsCauses}

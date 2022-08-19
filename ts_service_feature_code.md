@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-08"
+lastupdated: "2022-08-19"
 
 keywords: troubleshoot billing, feature code, can't create service, create service, lite account, trial account
 
@@ -28,7 +28,7 @@ content-type: troubleshoot
 You can recover from issues with creating service after a feature code is applied by following a few easy steps.
 {: shortdesc}
 
-When you try to create an instance of a service from the catalog, you're prompted to upgrade with a message such as `Upgrade your account to create instances of the offering.`
+When you try to create an instance of a service from the catalog, you're prompted to upgrade with a message such as *Upgrade your account to create instances of the offering.*
 {: tsSymptoms}
 
 Your account wasn't enabled to create resources of that type after you applied the feature code. The resources or capabilities that are provided vary for each feature code.
