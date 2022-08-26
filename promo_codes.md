@@ -2,7 +2,9 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-08-19"
+
+lastupdated: "2022-08-26"
+
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
 
@@ -21,7 +23,7 @@ Promotions are limited-time credits toward your {{site.data.keyword.Bluemix}} ac
 Promo codes are typically based on short phrases, like `PROMO200`. If you have an alphanumeric code, such as `a1b2c3def456`, it's a different type of code that is referred to as a feature code. You can apply these codes on the **Manage > Account > Account settings** page or when you register for a new account. For more information, see [Applying feature codes](/docs/account?topic=account-codes). 
 {: tip}
 
-Promotions are one type of credit for your account. For example, if you have a Pay-As-You-Go and Subscription account, you can use promo codes for limited-time credits toward your account and services. Promo codes are different from feature codes that provide enhancements for Lite accounts, or subscriptions that add credits as discounts to your account.
+Promotions are one type of credit for your account. For example, if you have a Pay-As-You-Go or Subscription account, you can use promo codes for limited-time credits toward your account and {{site.data.keyword.Bluemix_notm}} products. Promo codes are different from feature codes that provide access to Trial accounts, or subscriptions that add credits as discounts to your account.
 
 ## Types of available promotion credits
 {: # available-promo-credit}
@@ -35,24 +37,24 @@ Both one-time credit promotions and recurring dollar credit promotions are avail
     * Recurring dollar credits are offered for a set time period. For example, you can have a promotion of $100 USD value that is recurring every 30 days for 6 months. Recurring dollar credit promotions use the following format: $X every Y months, repeats Z times. 
     * Promo credit expires at the end of the committed term. Any credit that isn't used doesn't roll over to the next term.
 
-         With a recurring credit, if the amount of credit that is allocated to a client is not used within the allocated time, the credit expires.
+        With a recurring credit, if the amount of credit that is allocated to a client is not used within the allocated time, the credit expires. 
 
 ## Applying promo codes to your account
 {: #apply-promo-billing}
 
-You can apply promo codes to Pay-As-You-Go, Subscription, and {{site.data.keyword.Bluemix_notm}} enterprise parent accounts. Any user in the account has access to view and apply promo codes. You can have multiple promo codes that are applied to an account at a time. You can use each promo code only once, and you can't remove them after you apply them.
+You can apply promo codes to Pay-As-You-Go, Subscription, and {{site.data.keyword.Bluemix_notm}} enterprise parent accounts. Any user in the account has access to view promo codes. You can have multiple promo codes that are applied to an account at a time. You can use each promo code only one time, and you can't remove them after you apply them. 
 
-To apply a promo code to an {{site.data.keyword.Bluemix_notm}} enterprise account, you must be assigned the enterprise billing administrator role. After the promo code is applied to an {{site.data.keyword.Bluemix_notm}} enterprise parent account, it applies to all child accounts within the enterprise. 
-{: note}
+To apply a promo code to an {{site.data.keyword.Bluemix_notm}} enterprise account, you must be assigned the enterprise billing administrator role. After the promo code is applied to an {{site.data.keyword.Bluemix_notm}} enterprise parent account, it applies to all child accounts within the enterprise.
+{: note} 
 
 Complete the following steps to apply promo codes to your account and {{site.data.keyword.Bluemix_notm}} products:  
 
 1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**. 
-1. Click **Apply.** 
-1. In the side panel that appears, enter your promo code and click **Verify**.
+1. Click **Apply a promo code**.
+1. Enter your promo code and click **Verify**.
 1. Review the promotion details, and click **Apply**. After the promo code is applied, a success message is displayed.
 
-You can also apply promo codes for {{site.data.keyword.Bluemix_notm}} products from the catalog when you create a resource. To apply the code, select a billable plan, enter the promo code, and click **Apply**. The promo code is added to your account even if you don't create the service. Promo codes for enterprise parent accounts can't be applied to specific products. 
+You can also apply promo codes for {{site.data.keyword.Bluemix_notm}} products from the catalog when you create a resource. To apply the code, select a billable plan, enter the promo code, and click **Apply**. The promo code is added to your account even if you don't create the service.
 {: tip}
 
 Existing classic infrastructure promo codes can be applied only through the catalog when you create those classic infrastructure services. To apply these promo codes, you must have one of the following classic infrastructure permissions on the account: add or upgrade storage, add or upgrade services, or add server. For more information, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission). 
@@ -60,10 +62,10 @@ Existing classic infrastructure promo codes can be applied only through the cata
 ## Viewing your promotions
 {: #viewing-promotions}
 
-You can view details about active promotions in your account, including the start and end dates and the history of redeemed promotions, from Promotions and credits page. 
+You can view details about active promotions in your account, including your promotion start and end dates and the history of redeemed promo codes, from the table on the Promotions and credits page. 
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**. 
-1. Click a promotion to expand the table and view a description of each promotion and the offerings it applies to.
+1. Click a promotion to expand the table and view a description of each promotion and the products it applies to.
 
 You can search for specific promotions, or you can filter by the status or type of promo code. To filter by status, you can select Active, Upcoming, Expired or All promotions. To filter by the type of promo code, you can select One-time, Recurring, or All promotions.
 {: tip}
