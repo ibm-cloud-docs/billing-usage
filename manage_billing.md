@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-12-01"
+lastupdated: "2022-08-26"
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing, 
 
@@ -42,8 +42,8 @@ Complete the following steps to replace your existing credit card with a new one
 1. Click **Add card**. 
 2. Enter the card information, and click **Save**. Updates to your card details are reflected immediately. 
 
-You can have only one credit card on file. When you add a new card, your existing card is removed from the account.
-{: note}
+You can’t enter a PO Box as the billing address.
+{: important}
 
 Complete the following steps to edit your active card:
 
