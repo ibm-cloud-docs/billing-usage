@@ -22,6 +22,7 @@ toc:
   - navgroup:
       id: tutorial
       topics:
+      - reconcile-tutorial.md
       - data-create-tutorial.md
       - data-mult-query.md
 
