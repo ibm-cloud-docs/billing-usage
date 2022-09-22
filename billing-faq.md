@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-09-21"
+lastupdated: "2022-09-22"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item
 
@@ -267,7 +267,7 @@ Credits for {{site.data.keyword.IBM_notm}} corporate programs, such as Startup w
 {: #contactsupport}
 {: faq}
 
-Go to the [Support Center](/unifiedsupport/supportcenter){: external} page by clicking **Support** on the {{site.data.keyword.cloud}} console header. From there, review the list of common FAQs. If you don't find the answers that you need, see the **Contact Support** section to contact {{site.data.keyword.cloud_notm}} Support. For more information on account types and support offerings, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
+Go to the [Support Center](/unifiedsupport/supportcenter){: external} page by clicking the **Help** icon ![Help icon](../icons/help.svg "Help") > **Support center** from the console menu bar. From there, review the list of common FAQs. If you don't find the answers that you need, review the **Contact Support** section. For more information on account types and support products, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
 
 ## Where can I view the billing address for my account?
 {: #billing-address}
