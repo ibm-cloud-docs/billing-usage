@@ -28,11 +28,11 @@ content-type: troubleshoot
 You've already had a commitment on your account and you want to add another.
 {: shortdesc}
 
-You're Pay-as-you-go Committed Use account has expired and you try to add another commitment by using the Commitments and Subscriptions page in the {{site.data.keyword.cloud_notm}} console. 
+You're Pay-as-you-go Committed Use account has expired and you try to add another commitment by using the Commitments and Subscriptions page in the {{site.data.keyword.cloud_notm}} console.
 {: tsSymptoms}
 
-You can't add a commitment to the account by using the {{site.data.keyword.cloud_notm}} console. The only way to add a commitment is by contacting sales. 
+You can't add a commitment to the account by using the {{site.data.keyword.cloud_notm}} console. The only way to add a commitment is by contacting sales.
 {: tsCauses}
 
-To contact sales, go to [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to begin your chat.  
+To contact sales, go to [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to begin your chat.
 {: tsResolve}

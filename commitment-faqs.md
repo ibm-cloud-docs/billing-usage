@@ -24,19 +24,19 @@ content-type: faq
 # FAQs for PayGo  with Committed Use
 {: #commitmentfaqs}
 
-## What is the difference between Pay as you go with Committed use and a Subscription account? 
+## What is the difference between Pay as you go with Committed use and a Subscription account?
 {: #commitment-subscription}
 {: faq}
 
-The Pay as you go with Committed use model is similar to the Subscription model. Unlike a subscription, when you have a commitment, you commit to spend a certain amount and receive discounts across the platform even after your commitment term ends. Any overage that is incurred on the account continues to receive a discount. 
+The Pay as you go with Committed use model is similar to the Subscription model. Unlike a subscription, when you have a commitment, you commit to spend a certain amount and receive discounts across the platform even after your commitment term ends. Any overage that is incurred on the account continues to receive a discount.
 
-## How do I sign up for Pay as you go with Committed Use? 
+## How do I sign up for Pay as you go with Committed Use?
 {: #commit-signup}
 {: faq}
 
-Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Pay as you go with Committed Use. To view your account ID, select "Register with a Code" during account registration. After you consult with a sales representative, you receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions. Your account is activated upon order processing.
+Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Pay as you go with Committed Use. To view your account ID, select "Register with a Code" during account registration. After you consult with a sales representative, you receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions. Your account is activated upon order processing.
 
-## How do I view existing commitments? 
+## How do I view existing commitments?
 {: #existing-commit}
 {: faq}
 
@@ -44,7 +44,7 @@ To view your existing commitments, in the {{site.data.keyword.Bluemix}} console,
 
 Click the tabs to view the remaining credit in your active commitments and any upcoming commitments that aren't yet valid. A commitment is expired if its term expires or all of its credit is spent.
 
-## How do I view my commitment usage? 
+## How do I view my commitment usage?
 {: #view-commit}
 {: faq}
 
@@ -63,7 +63,7 @@ After you consult with a sales representative to sign up for {{site.data.keyword
 {: #add-commit}
 {: faq}
 
-Contact your [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} representative to add a new commitment to your account.
+Contact your [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to add a new commitment to your account.
 
 ## Why am I getting invoiced for a commitment I didn’t use?
 {: #invoice-commit}

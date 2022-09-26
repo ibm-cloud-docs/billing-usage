@@ -34,7 +34,7 @@ Learn about the {{site.data.keyword.cloud}} billing options and tools that you c
 
 As an account owner, you have full access to monitoring resource usage, viewing invoices, and managing payments in the console. However, if you want to delegate billing tasks to another user, you can assign a user an Identity and Access Management (IAM) policy with the Administrator role on the Billing account management service.
 
-When you're ready to start tracking your resource usage and managing your billing and payment preferences, go to the Billing and usage section of the {{site.data.keyword.cloud_notm}} console. Monitoring resource usage can help you understand what's coming in your next bill. On the Usage page, you can view current and past usage, and drill down by resource type to view the plans and instances in your account. 
+When you're ready to start tracking your resource usage and managing your billing and payment preferences, go to the Billing and usage section of the {{site.data.keyword.cloud_notm}} console. Monitoring resource usage can help you understand what's coming in your next bill. On the Usage page, you can view current and past usage, and drill down by resource type to view the plans and instances in your account.
 
 You can also export usage reports and choose from a high-level summary overview or a service instance view. If you use tags to organize your resources such as by team or cost center, you can sort your instance report by the tags to identify the associated usage.
 
@@ -53,21 +53,21 @@ When you have a Pay-As-You-Go account, you're billed monthly for your resource u
 
 When you have a Subscription account, you buy a subscription for an amount of credit to spend on resource usage within a certain time period. In exchange for this spending commitment, you get a discount on your usage costs. For example, you might buy a subscription for $12,000 USD a year that comes with a 10% discount. No matter when you incur usage costs within that year, you get fixed billing for the subscription amount, such as $1,000 a month. This account type is a good fit for enterprise organizations with large cloud workloads that want the predictability of fixed billing for their financial planning.
 
-In addition to the two billable account types, customers that have a Subscription account can sign up for the Pay as you go with Committed Use billing model. This billing model is similar to a Subscription account with a few added benefits. The following table details the two billable account types and billing model. 
+In addition to the two billable account types, customers that have a Subscription account can sign up for the Pay as you go with Committed Use billing model. This billing model is similar to a Subscription account with a few added benefits. The following table details the two billable account types and billing model.
 
-| Pay-As-You-Go | Subscription| Pay as you go with Committed Use| 
+| Pay-As-You-Go | Subscription| Pay as you go with Committed Use|
 |----------|---------|---------|
 | Monthly billing | Timely billing | Timely billing |
-| Invoiced on monthly consumption	| Invoices independent of usage | Invoiced on monthly consumption	| 
-| Best suited for developers and companies	| Best suited for enterprise organizations| Best suited for both developers and enterprise organizations| 
+| Invoiced on monthly consumption	| Invoices independent of usage | Invoiced on monthly consumption	|
+| Best suited for developers and companies	| Best suited for enterprise organizations| Best suited for both developers and enterprise organizations|
 {: caption="Table 1. Comparative analysis of account types" caption-side="bottom"}
 
-### Estimating your costs 
+### Estimating your costs
 {: #charges-cost-estimation}
 
 After you select the type of account that fits your organization's needs, it's time to understand how you will be charged for it. With an {{site.data.keyword.cloud_notm}} billable account, you're charged for the compute, containers, and services that your organization consumes. You might be invited by other {{site.data.keyword.cloud_notm}} users to participate in organizations under a different account. The usage for the apps or services that you use in the organizations that you're invited to are charged to the account that contains those organizations.
 
-The following are the various charging types: 
+The following are the various charging types:
 * **Fixed:** Fixed-rate pricing is based on an agreed upon monthly charge that isn't adjusted.
 * **Metered:** Metered-usage pricing is based on the number of GB hours that are consumed for runtimes and the number of IP addresses and storage for containers.
 * **Tiered:** Some pricing plans are based on a tiered pricing model, so you can get a volume-based discount according to your actual usage. Services might offer simple, graduated, or block tier pricing plans.
@@ -88,7 +88,7 @@ If you own one of the following accounts, in the {{site.data.keyword.cloud}} con
 
 You might manage your payment method on a separate billing platform. You can easily register, update, or delete a payment method by going to [IBM Billing](https://myibm.ibm.com/billing/).
 
-For more information about how to manage your payments, see [Managing your payment method](/docs/billing-usage?topic=billing-usage-linkedusage#prereqs-payments). 
+For more information about how to manage your payments, see [Managing your payment method](/docs/billing-usage?topic=billing-usage-linkedusage#prereqs-payments).
 
 ### Tracking your usage
 {: #tracking-usage}
@@ -112,17 +112,17 @@ If you own one of the following accounts, you can view your invoice on the [{{si
 * New and existing Pay-As-You-Go accounts not based in the US
 * New and existing Subscription accounts worldwide
 
-New {{site.data.keyword.cloud_notm}} Pay-As-You-Go accounts for US customers with credit card billing can now view all classic infrastructure and platform services on one invoice. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Invoices**. 
+New {{site.data.keyword.cloud_notm}} Pay-As-You-Go accounts for US customers with credit card billing can now view all classic infrastructure and platform services on one invoice. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Invoices**.
 {: note}
 
-For more information about invoices, see [Managing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices). 
+For more information about invoices, see [Managing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices).
 
 ### Pay as you go with Committed Use billing model
 {: #commitment-model}
 
-{{site.data.keyword.cloud_notm}} customers with a Subscription account can sign up for the Pay as you go with Committed Use billing model. With this billing model, you commit to spend a certain amount on {{site.data.keyword.Bluemix_notm}} and you receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. For more information about the billing model, see [Pay as you go with Committed Use billing model](/docs/billing-usage?topic=billing-usage-committed-use). 
+{{site.data.keyword.cloud_notm}} customers with a Subscription account can sign up for the Pay as you go with Committed Use billing model. With this billing model, you commit to spend a certain amount on {{site.data.keyword.Bluemix_notm}} and you receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. For more information about the billing model, see [Pay as you go with Committed Use billing model](/docs/billing-usage?topic=billing-usage-committed-use).
 
-Premium and advanced support options are available for Pay as you go with Committed Use. Support plan pricing falls into two tiers depending on the price level of your commitment. For more information, see [Support options for Pay as you go with Committed Use](/docs/get-support?topic=get-support-support-plans#support-plans). 
+Premium and advanced support options are available for Pay as you go with Committed Use. Support plan pricing falls into two tiers depending on the price level of your commitment. For more information, see [Support options for Pay as you go with Committed Use](/docs/get-support?topic=get-support-support-plans#support-plans).
 
-The billing model continues to roll out to new customers worldwide throughout 2022. For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external}. 
+The billing model continues to roll out to new customers worldwide throughout 2022. For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
 {: note}

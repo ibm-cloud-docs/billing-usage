@@ -17,7 +17,7 @@ content-type: faq
 # FAQs for subscription accounts
 {: #subscription-account}
 
-FAQs for subscription accounts include entries about subscription credit, subscription terms, and other subscription-related self-help information. 
+FAQs for subscription accounts include entries about subscription credit, subscription terms, and other subscription-related self-help information.
 {: shortdesc}
 
 ## How do I add subscription credit to my account?
@@ -27,7 +27,7 @@ FAQs for subscription accounts include entries about subscription credit, subscr
 
 After you purchase a subscription, you'll receive an email with a subscription code that adds the credit to your account. To apply the subscription code, go to [Account settings](/account/settings), and click **Apply code**. You can also apply your code to a new account by clicking **Register with a code** when you [sign up for a new account](/registration). For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
-You might be looking for information about promo codes and feature codes. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes](/docs/account?topic=account-codes). 
+You might be looking for information about promo codes and feature codes. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying feature codes](/docs/account?topic=account-codes).
 
 ## What does the IN_PROGRESS status mean when I apply a subscription code?
 {: #pending-code}
@@ -39,19 +39,19 @@ When you apply a subscription code to a Pay-As-You-Go account, the status of the
 {: #subs-pay-schedule}
 {: faq}
 
-Yes! By default, you're billed monthly for your subscriptions. If you'd like to pay up-front or quarterly, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external}.
+Yes! By default, you're billed monthly for your subscriptions. If you'd like to pay up-front or quarterly, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
 
-## Can I spend more or less than my monthly commitment?  
+## Can I spend more or less than my monthly commitment?
 {: #subs-spending}
 {: faq}
 
 Yes, what you spend monthly is up to you! You can spend any amount of the total commitment each month.
 
-## What happens if I spend my entire subscription amount before my term ends?  
+## What happens if I spend my entire subscription amount before my term ends?
 {: #subs-spend-before-term-end}
 {: faq}
 
-You're required to continue paying your monthly charges until the end of your term. You're charged the non-discounted rate for any usage that goes over your total subscription amount. To avoid overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://cloud.ibm.com/catalog?contactmodule){: external} to sign up for a new subscription.
+You're required to continue paying your monthly charges until the end of your term. You're charged the non-discounted rate for any usage that goes over your total subscription amount. To avoid overage charges, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for a new subscription.
 
 ## Is there a monthly minimum amount required for Subscription accounts?
 {: #subs-minimum}
@@ -59,7 +59,7 @@ You're required to continue paying your monthly charges until the end of your te
 
 Yes, your subscription must have a combined minimum spending and term commitment of $100.00 USD each month for 12 months.
 
-## Can I cancel my Subscription account before the end of my term commitment?  
+## Can I cancel my Subscription account before the end of my term commitment?
 {: #subs-cancel-early}
 {: faq}
 
