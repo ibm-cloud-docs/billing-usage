@@ -1,8 +1,9 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2022-09-22"
+  years: 2015, 2022
+lastupdated: "2022-09-27"
+
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing,
 
@@ -35,26 +36,37 @@ To manage payments, you need to be assigned the operator role or higher on the b
 ## Managing payment methods for new US-based Pay-As-You-Go accounts with credit card billing
 {: #manage-paygo-us-account}
 
-If you're a new Pay-As-You-Go account owner that is located in the US and you are paying with a credit card, you can replace your current card with a new one or edit the details of an existing card. In either case, you manage your credit card from the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
+If you're a new Pay-As-You-Go account owner that is located in the US and you are paying with a credit card, can you add multiple cards to the account, replace your default card with a saved one, or edit the details of a card. You manage your credit card from the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
 
-Complete the following steps to replace your existing credit card with a new one:
+Complete the following steps to add a new payment method to the account:
 
-1. Click **Add card**.
-2. Enter the card information, and click **Save**. Updates to your card details are reflected immediately.
+1. Click **Add payment method**.
+2. Enter the card details, and click **Save**. Updates to your card details are reflected immediately.
 
 You can’t enter a PO Box as the billing address.
 {: important}
 
-Complete the following steps to edit your active card:
+When you add a new credit card, it becomes the default credit card. Recurring payments are charged to the default payment method.
 
-1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Edit**.  menu.
-2. Update the card number or expiration date.
-3. To update the billing address, contact [{{site.data.keyword.cloud_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
+Complete the following steps to edit your active payment method:
+
+1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Edit** menu.
+1. To edit the billing address, click **Edit** and update the billing address.
+1. To edit the card details, click **Edit** and update the card number or expiration date.
+
+You can only have one address that's associated with your payment methods. All credit cards in the account will be updated to the same address.
+{: note}
+
+Complete the following steps to set a new default payment method:
+
+1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Set as default**.
+2. Confirm that you want to make this payment method the default. The default payment method is charged for recurring payments
+
 
 ##  Managing payment methods for all other accounts
-{: #payment-for-all-other}
+{: #manage-other-account}
 
-The steps to update a payment method apply to the following types of accounts:
+The steps to update your credit card apply to the following types of accounts:
 
 * New and existing Pay-As-You-Go accounts based in the US with any payment method other than a credit card
 * New and existing Pay-As-You-Go accounts not based in the US
@@ -64,7 +76,6 @@ The steps to update a payment method apply to the following types of accounts:
 2. In the Add Payment Method section, enter the billing information for your new card, and click **Add credit card**.
 
 The process for updating a credit card requires a manual review that might take a few days to process. To view your open change request cases, go to [{{site.data.keyword.cloud_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter).
-{: tip}
 
 American Express can't be used as a payment method for India, Singapore, and South Africa based accounts that are billed in US dollars.
 {: note}
@@ -85,14 +96,13 @@ Some payment methods, such as PayPal, aren't accepted as recurring payment metho
 {: #rupees-billing}
 
 Due to current banking regulations, recurring credit card transactions might be unsuccessful for India-based customers with accounts that are billed in US Dollars. You can use one of the following methods to make a payment:
-* [Make a one-time payment](/docs/billing-usage?topic=billing-usage-linkedusage#makepayment)
-* Request to migrate your account to be billed in India Rupees. To make a request, provide a credit card that is billed in India Rupees on the [Payment Method](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console. Specify that India Rupees are in the **Payment Currency** section. Additional information might be requested through a Support case during the migration process.
-
+ * [Make a one-time payment](/docs/billing-usage?topic=billing-usage-linkedusage#makepayment)
+ * Request to migrate your account to be billed in India Rupees. To make a request, provide a credit card that is billed in India Rupees on the [Payment Method](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console. Specify that India Rupees are in the **Payment Currency** section. Additional information might be requested through a Support case during the migration process.
 
 ### Making a one-time payment
 {: #makepayment}
 
-You can make a one-time payment at any time for any amount, whether it is for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't filled out with a defaulted amount. Payment methods for one-time payments include credit card and PayPal. PayPal can’t be used as a payment method for recurring payments.
+You can make a one-time payment at any time for any amount, whether it's for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't populated with a default amount. Payment methods for one-time payments include credit card and PayPal.
 
 To make a one-time payment, in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Billing and usage**, and select **Payments**. Click **Manual Payment** and complete the fields in the one-time payment section. One-time payments are reviewed and processed each day. The account balance is updated after the payment is accepted. If a late fee is assessed and you have submitted a one-time payment, contact the [{{site.data.keyword.cloud_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
