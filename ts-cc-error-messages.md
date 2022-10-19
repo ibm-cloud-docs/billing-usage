@@ -106,7 +106,7 @@ Your credit card issuer has declined the transaction.
 Contact your credit card issuer for more information.
 {: tsResolve}
 
-## Why is {{site.data.keyword.cloud_notm}} uable to process my order request?
+## Why is {{site.data.keyword.cloud_notm}} unable to process my order request?
 {: #ts-cc-enablement-issue}
 {: troubleshoot}
 
