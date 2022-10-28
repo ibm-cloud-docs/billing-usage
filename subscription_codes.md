@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-22"
+lastupdated: "2022-10-28"
 
 keywords: subscription code, subscription credit, discount code, promo code, feature code
 
@@ -23,7 +23,7 @@ If you set up your first subscription through the Subscriptions page, the credit
 
 After {{site.data.keyword.Bluemix_notm}} Sales places the order, an email with the subscription code for each subscription and support line item is sent to the appropriate contact.
 
-Only the account owner or a user with the Editor or Administrator role on the Billing account management service can apply the subscription code. If you don't have access to apply subscription codes, the account owner or administrator can provide access. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services). Applying the subscription code through the {{site.data.keyword.Bluemix}} console is essential to ensure that your account is migrated appropriately.
+Only the account owner, enterprise account owner, or a user with the Editor or Administrator role on the Billing account management service can apply the subscription code. If you don't have access to apply subscription codes, the account owner or administrator can provide access. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services). Applying the subscription code through the {{site.data.keyword.Bluemix}} console is essential to ensure that your account is migrated appropriately.
 
 1. Open the email with the subscription code.
 
