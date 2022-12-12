@@ -2,7 +2,7 @@ toc:
   properties:
     subcollection: billing-usage
     service-name: ibm-cloud-platform
-    version: 2 
+    version: 2
     category: platform_services
     audience: platform
     href: /docs/billing-usage
@@ -25,36 +25,36 @@ toc:
       topics:
       - reconcile-tutorial.md
 
-  - navgroup: 
+  - navgroup:
       id: howto
       topics:
-      - topicgroup: 
+      - topicgroup:
           label: Managing your costs
-          topics: 
+          topics:
           - estimating_costs.md
           - how_charged.md
           - change_pricing_plan.md
           - notifications.md
-      - topicgroup: 
+      - topicgroup:
           label: Managing your usage
-          topics: 
+          topics:
           - viewing_usage.md
           - infra_usage.md
           - enterprise-usage.md
           - enterprise-report.md
           - quotas.md
-      - topicgroup: 
+      - topicgroup:
           label: Working with codes and credits
-          topics: 
+          topics:
           - credit-types.md
           - promo_codes.md
           - subscription_codes.md
           - feature-codes.md
       - cancel-billing-items.md
       - support.md
-      - topicgroup: 
+      - topicgroup:
           label: Managing your invoices and payments
-          topics:      
+          topics:
           - invoices.md
           - manage_billing.md
           - understand-invoice.md
@@ -67,22 +67,22 @@ toc:
       - topicgroup:
           label: Command reference
           topics:
-          - /cli/cli-ibmcloud_billing
-          - /cli/cli-sl-manage-classic-orders
+          - include: ../cli/reference/ibmcloud/cli_billing.md
+          - include: /cli/reference/ibmcloud/cli_order.md
       - metering_billing.md
       - topicgroup:
           label: API reference
-          topics: 
-          - link: 
+          topics:
+          - link:
               label: Usage Metering
               href: https://{DomainName}/apidocs/usage-metering
-          - link: 
+          - link:
               label: Usage Reports
               href: https://{DomainName}/apidocs/metering-reporting
-          - link: 
+          - link:
               label: Enterprise Billing Units
               href: https://{DomainName}/apidocs/enterprise-apis/billing-unit
-          - link: 
+          - link:
               label: Enterprise Usage Reports
               href: https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports
 
@@ -98,7 +98,7 @@ toc:
           - commitment-faqs.md
           - faq-platform-analytics.md
       - topicgroup:
-          label: Troubleshooting 
+          label: Troubleshooting
           topics:
           - ts_billinginfo.md
           - ts_subscriptioncode.md
@@ -112,4 +112,4 @@ toc:
           - ts_commit_access_page.md
           - ts_charge-limit.md
           - ts-cc-error-messages.md
-      - /account/account-gettinghelp          
+      - include: /account/getting-help.md
