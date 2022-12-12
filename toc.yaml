@@ -68,7 +68,7 @@ toc:
           label: Command reference
           topics:
           - include: ../cli/reference/ibmcloud/cli_billing.md
-          - include: /cli/reference/ibmcloud/cli_order.md
+          - include: ../cli/reference/ibmcloud/cli_order.md
       - metering_billing.md
       - topicgroup:
           label: API reference
@@ -112,4 +112,4 @@ toc:
           - ts_commit_access_page.md
           - ts_charge-limit.md
           - ts-cc-error-messages.md
-      - include: /account/getting-help.md
+      - include: ../account/getting-help.md
