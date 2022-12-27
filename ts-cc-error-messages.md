@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-10-20"
+lastupdated: "2022-12-27"
 
 keywords: credit card, payment method, error credit card, credit card error, payment issue, card issue, card error, card error message, payment error message
 
@@ -29,7 +29,7 @@ Protecting your identity is a priority and {{site.data.keyword.cloud_notm}} take
 An issue occurred that caused the transaction to fail. For example, the name and address on file with {{site.data.keyword.cloud_notm}} doesn't match the information on file with the company that issued your credit card. This error might prompt the following message:
 {: tsSymptoms}
 
-`Error: Could not place order. Problem authorizing the credit card. We are unable to process your request: Transaction Rejected`
+> Error: Could not place order. Problem authorizing the credit card. We are unable to process your request: Transaction Rejected
 
 Something went wrong when verifying your credit card, and the transaction wasn't successful.
 {: tsCauses}
@@ -53,7 +53,7 @@ You tried to change your payment method by adding a new credit card in the {{sit
 After you entered your credit card information and saved it, the following message displayed:
 {: tsSymptoms}
 
-`Failed to complete the Change Request process due to the following error: We are unable to process your request: Transaction Rejected.`
+> Failed to complete the Change Request process due to the following error: We are unable to process your request: Transaction Rejected.
 
 Something went wrong when verifying your credit card, and the update wasn't successful.
 {: tsCauses}
@@ -68,7 +68,7 @@ Go to the [Support Center](/unifiedsupport/supportcenter) and click **Create a c
 You tried to make a payment or place an order in the {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external},  but you get the following error message:
 {: tsSymptoms}
 
-`Could not place order. Problem authorizing the credit card. We're afraid this transaction has been rejected. General decline of the card. No other information provided by the issuing bank.`
+> Could not place order. Problem authorizing the credit card. We're afraid this transaction has been rejected. General decline of the card. No other information provided by the issuing bank.
 
 Your credit card issuer has declined the transaction.
 {: tsCauses}
@@ -83,7 +83,7 @@ Contact your credit card issuer for more information.
 You tried to make a payment or place an order in the {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external}, but you get the following error message:
 {: tsSymptoms}
 
-`Could not place order. Problem authorizing the credit card. We're afraid this transaction has been rejected. Inactive card or card not authorized for card-not-present transactions.`
+> Could not place order. Problem authorizing the credit card. We're afraid this transaction has been rejected. Inactive card or card not authorized for card-not-present transactions.
 
 Some credit card issuers don't allow transactions when it is being initiated by using a credit card on file. You might see this error message if your credit card has been deactivated.
 {: tsCauses}
@@ -98,7 +98,7 @@ Contact your credit card issuer for more information.
 You tried to place an order in the {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external}, but you get the following error message:
 {: tsSymptoms}
 
-`Could not place order. Problem authorizing the credit card.`
+> Could not place order. Problem authorizing the credit card.
 
 Your credit card issuer has declined the transaction.
 {: tsCauses}
@@ -113,7 +113,7 @@ Contact your credit card issuer for more information.
 You tried to place an order in the {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external}, but you get the following error message:
 {: tsSymptoms}
 
-`Could not place order. Problem authorizing the credit card. We are unable to process your request: Transaction Rejected. Please contact Cloud Trust Enablement at verify@us.ibm.com.`
+> Could not place order. Problem authorizing the credit card. We are unable to process your request: Transaction Rejected. Please contact Cloud Trust Enablement at verify@us.ibm.com.
 
 {{site.data.keyword.Bluemix}} was unable to process your transaction.
 {: tsCauses}
@@ -128,9 +128,11 @@ Contact the Cloud Trust and Enablement team by email at verify@us.ibm.com.
 You tried to place an order in the {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external}, but you get one of the following error messages:
 {: tsSymptoms}
 
-`Failed to complete the Change Request process due to the following error: We're afraid this transaction has been rejected. Invalid account number.`
+> Failed to complete the Change Request process due to the following error: We're afraid this transaction has been rejected. Invalid account number.
 
-`Failed to complete the Change Request process due to the following error: We are unable to process your request: Transaction Rejected.`
+or
+
+> Failed to complete the Change Request process due to the following error: We are unable to process your request: Transaction Rejected.
 
 Your credit card number was not recognized by your credit card issuer.
 {: tsCauses}
@@ -145,7 +147,7 @@ Contact your credit card issuer for more information.
 You tried to complete a change request {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external}, but you get the following error message:
 {: tsSymptoms}
 
-`Failed to complete the Change Request process due to the following error: VAT ID is a required field for ...`
+> Failed to complete the Change Request process due to the following error: VAT ID is a required field for ...
 
 Your VAT ID, CST or other tax identification number cannot be validated.
 {: tsCauses}
@@ -163,7 +165,7 @@ Your VAT ID, CST or other tax identification number cannot be validated.
 An issue occurred that caused the payment process to fail. This error might prompt the following message:
 {: tsSymptoms}
 
-`There was an error in the payment process: We're afraid this transaction has been rejected. General decline of the card. No other information provided by the issuing bank.`
+> There was an error in the payment process: We're afraid this transaction has been rejected. General decline of the card. No other information provided by the issuing bank.
 
 Your credit card issuer has declined the transaction.
 {: tsCauses}
@@ -178,7 +180,7 @@ Contact your credit card issuer for more information.
 An issue occurred that caused the payment process to fail. This error might prompt the following message:
 {: tsSymptoms}
 
-`Transaction already processed.`
+> Transaction already processed.
 
 Our payment system has detected multiple similar payments within a short period of time. This issue can sometimes occur when you attempt to submit a PayPal payment. {{site.data.keyword.cloud_notm}} is attempting to avoid unintentional duplicate payments.
 {: tsCauses}
@@ -193,7 +195,7 @@ Wait 3-4 hours for the manual payment to be processed and posted to your {{site.
 An issue occurred that caused the payment process to fail. This error might prompt the following message:
 {: tsSymptoms}
 
-`Your account couldn't be upgraded. Click Upgrade account to try again.`
+> Your account couldn't be upgraded. Click Upgrade account to try again.
 
 {{site.data.keyword.cloud_notm}}} was unable to process your transaction.
 {: tsCauses}
@@ -208,7 +210,7 @@ Submit your account upgrade information again. If the error continues to occur, 
 An issue occurred that caused the payment process to fail. This error might prompt the following message:
 {: tsSymptoms}
 
-`Your card could not be saved. Please try another card.`
+> Your card could not be saved. Please try another card.
 
 Your card information was incorrect.
 {: tsCauses}
@@ -223,7 +225,7 @@ Use a different credit card to process your transaction.
 An issue occurred that caused your credit card to decline. This error might prompt the following message:
 {: tsSymptoms}
 
-`Your payment was declined for invoice number…`
+> Your payment was declined for invoice number…
 
 You have a credit card on file and it was declined.
 {: tsCauses}
