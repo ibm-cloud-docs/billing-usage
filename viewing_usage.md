@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-10-05"
+  years: 2017, 2023
+lastupdated: "2023-01-27"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -145,7 +145,7 @@ As an alternative to the console, you can view your usage by using the {{site.da
 
 You can programmatically view your usage by calling the [{{site.data.keyword.cloud_notm}} Usage Reports API](/apidocs/metering-reporting?code=python#get-account-usage). You can base the query in your API call on an account, org, resource group, or resource instance.
 
-The following examples show queries that you can use to view account level usage:
+The following examples show queries that you can use to view account-level usage:
 
 ```bash
 curl -X GET -H "Authorization: {iam_token}" -H "Accept: application/json" "{base_url}/v4/accounts/{account_id}/usage/{billingmonth}"
