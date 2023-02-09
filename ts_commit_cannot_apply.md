@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-06-10"
+  years: 2020, 2023
+lastupdated: "2023-02-09"
 
 keywords: troubleshoot billing
 
@@ -12,14 +12,7 @@ content-type: troubleshoot
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why can’t I apply a commitment to my account?
 {: #cannot-apply-commit}
@@ -28,7 +21,7 @@ content-type: troubleshoot
 You've already had a commitment on your account and you want to add another.
 {: shortdesc}
 
-You're Pay-as-you-go Committed Use account has expired and you try to add another commitment by using the Commitments and Subscriptions page in the {{site.data.keyword.cloud_notm}} console.
+Your Enterprise Savings Plan account has expired and you try to add another commitment by using the Commitments and Subscriptions page in the {{site.data.keyword.cloud_notm}} console.
 {: tsSymptoms}
 
 You can't add a commitment to the account by using the {{site.data.keyword.cloud_notm}} console. The only way to add a commitment is by contacting sales.

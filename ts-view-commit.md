@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-02-01"
+  years: 2020, 2023
+lastupdated: "2023-02-09"
 
 keywords: troubleshoot account, invoiced for commitment, unused commitment, commitment bill
 
@@ -12,16 +12,7 @@ content-type: troubleshoot
 
 ---
 
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:external: target="_blank" .external}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why can't I view any commitments?
 {: #ts_view_commit}
@@ -30,7 +21,7 @@ content-type: troubleshoot
 I can't view any commitments from the Commitments and subscriptions page in the {{site.data.keyword.cloud}} console.
 {: tsSymptoms}
 
-You can view active or existing commitments only if you signed up for the {{site.data.keyword.cloud_notm}} Pay As You Go with Committed Use billing model.
+You can view active or existing commitments only if you signed up for the {{site.data.keyword.cloud_notm}} Enterprise Savings Plan billing model.
 {: tsCauses}
 
 Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} or [{{site.data.keyword.cloud_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter).

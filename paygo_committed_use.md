@@ -1,31 +1,22 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2022-04-18"
+  years: 2021, 2023
+lastupdated: "2023-02-09"
 
-keywords: IBM Cloud billing, commitment model, using commitments
+keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
 subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:video: .video}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
-# Pay as you go with Committed Use billing model
+# Enterprise Savings Plan billing model
 {: #committed-use}
 
-The {{site.data.keyword.cloud}} Pay as you go with Committed Use billing model is similar to the billing model for Subscription accounts but with a few added benefits. With this billing model, you commit to spend a certain amount on {{site.data.keyword.cloud_notm}} and receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount.
+The {{site.data.keyword.cloud}} Enterprise Savings Plan billing model is similar to the billing model for Subscription accounts but with a few added benefits. With this billing model, you commit to spend a certain amount on {{site.data.keyword.cloud_notm}} and receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount.
 {: shortdesc}
-
-For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
-{: note}
 
 The Commitments and subscriptions page in the console offers a view of any active or upcoming commitments. If you have an active subscription, or had subscriptions in the past, those details are also displayed on this page.
 
@@ -35,13 +26,13 @@ The Commitments and subscriptions page in the console offers a view of any activ
 If you haven’t created an account, you can register for {{site.data.keyword.cloud_notm}} by completing the following steps:
 
 1. Consult with an [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative. {{site.data.keyword.Bluemix_notm}} Sales will direct you to the [registration page](https://cloud.ibm.com/registration/sales).
-1. Enter the required information. Make sure you provide your name, email, and account ID to the sales representative you are working with.
-1. Your account is activated upon order processing. After the account is activated, you can start leveraging the benefits of our Pay as you go with Committed Use billing model.
+1. Enter the required information. After registration is complete, provide your name, email, and the account ID to the sales representative you are working with.
+1. Your account is activated upon order processing. After the account is activated, you can start leveraging the benefits of our Enterprise Savings Plan billing model.
 
 ## Signing up for a commitment
 {: #sign-up-commit}
 
-To leverage the {{site.data.keyword.cloud_notm}} Pay as you go with Committed Use billing model, you must work with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for this billing model. The sales team creates a commitment quote based on the spending amount for a certain period of time that you want to commit to.
+To use the {{site.data.keyword.cloud_notm}} Enterprise Savings Plan billing model, you must have a Subscription account. After you have the correct account, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for this billing model. The sales team creates a commitment quote based on the spending amount for a certain period of time that you want to commit to.
 
 After you accept the commitment quote, you receive an additional email to confirm that your payment information is processed and that the commitment is added to your account.
 
@@ -75,3 +66,10 @@ Multiple discounts can't be applied to a single resource.
 {: note}
 
 For more information about service-level discounts, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
+
+## Getting support
+{: #committed-use-support}
+
+You can get Advanced or Premium support with your Enterprise Savings Plan. The level of support that you select determines the severity that you can assign to support cases and your level of access to the tools available in the Support Center. Both support plans cost just 10% of your annual commitment and usage. To get support, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
+
+For more information about {{site.data.keyword.Bluemix_notm}} support plans, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
