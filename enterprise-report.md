@@ -30,7 +30,7 @@ subcollection: billing-usage
 
 An enterprise account's usage charges come from the use of the resource instances that are created in the account. The resource instances belong to different plans, and the usage for those instances are aggregated towards their respective plans. The charges for all of the plans in an account are calculated every month and are billed to the billing unit of the account.
 
-Reports for any entity in the hierarchy that is not an account (the enterprise or an account group) has the usage of all the accounts under that entity rolled up to the billing unit.                           |
+Reports for any entity in the hierarchy that is not an account (the enterprise or an account group) has the usage of all the accounts under that entity rolled up to the billing unit.
 
 
 ## Example Hierarchy 
