@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-03-25"
+  years: 2021, 2023
+lastupdated: "2023-02-09"
 
-keywords: IBM Cloud billing, commitment model, using commitments, FAQs
+keywords: IBM Cloud billing, commitment model, using commitments, FAQs, enterprise savings plan, savings plan, pay as you go with committed use
 
 subcollection: billing-usage
 
@@ -12,29 +12,22 @@ content-type: faq
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
-# FAQs for PayGo  with Committed Use
+# FAQs for Enterprise Savings Plan
 {: #commitmentfaqs}
 
-## What is the difference between Pay as you go with Committed use and a Subscription account?
+## What is the difference between Enterprise Savings Plan and a Subscription account?
 {: #commitment-subscription}
 {: faq}
 
-The Pay as you go with Committed use model is similar to the Subscription model. Unlike a subscription, when you have a commitment, you commit to spend a certain amount and receive discounts across the platform even after your commitment term ends. Any overage that is incurred on the account continues to receive a discount.
+The Enterprise Savings Plan model is similar to the Subscription model. Unlike a subscription, when you have a commitment, you commit to spend a certain amount and receive discounts across the platform even after your commitment term ends. Any overage that is incurred on the account continues to receive a discount.
 
-## How do I sign up for Pay as you go with Committed Use?
+## How do I sign up for an Enterprise Savings Plan?
 {: #commit-signup}
 {: faq}
 
-Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Pay as you go with Committed Use. To view your account ID, select "Register with a Code" during account registration. After you consult with a sales representative, you receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions. Your account is activated upon order processing.
+Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Enterprise Savings Plan. To view your account ID, select "Register with a Code" during account registration. After you consult with a sales representative, you receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions. Your account is activated upon order processing.
 
 ## How do I view existing commitments?
 {: #existing-commit}
@@ -57,7 +50,7 @@ To view your commitment usage, in the {{site.data.keyword.Bluemix}} console, go 
 {: #view-terms}
 {: faq}
 
-After you consult with a sales representative to sign up for {{site.data.keyword.Bluemix_notm}} Pay as you go with Committed Use, the sales team will email you a copy of your quote and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions.
+After you consult with a sales representative to sign up for {{site.data.keyword.Bluemix_notm}} Enterprise Savings Plan, the sales team will email you a copy of your quote and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions.
 
 ## How do I add a new commitment?
 {: #add-commit}
@@ -75,4 +68,4 @@ Since you committed to a certain amount for a certain period of time and you did
 {: #paygo-to-subscription}
 {: faq}
 
-Yes, you can convert your account from US-based USD Pay-As-You-Go to Pay as you go with Committed Use, but it will be only effective after the term end of your former plan.
+Yes, you can convert your account from US-based USD Pay-As-You-Go to an Enterprise Savings Plan, but it will be only effective after the term end of your former plan.

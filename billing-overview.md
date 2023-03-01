@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2022
-lastupdated: "2022-02-21"
+  years: 2019, 2023
+lastupdated: "2023-02-09"
 
 keywords: IBM Cloud billing, payments, costs, usage, spending
 
@@ -10,13 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:video: .video}
-{:external: target="_blank"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Video - How can I manage billing and usage in {{site.data.keyword.cloud_notm}}?
 {: #overview}
@@ -53,9 +47,9 @@ When you have a Pay-As-You-Go account, you're billed monthly for your resource u
 
 When you have a Subscription account, you buy a subscription for an amount of credit to spend on resource usage within a certain time period. In exchange for this spending commitment, you get a discount on your usage costs. For example, you might buy a subscription for $12,000 USD a year that comes with a 10% discount. No matter when you incur usage costs within that year, you get fixed billing for the subscription amount, such as $1,000 a month. This account type is a good fit for enterprise organizations with large cloud workloads that want the predictability of fixed billing for their financial planning.
 
-In addition to the two billable account types, customers that have a Subscription account can sign up for the Pay as you go with Committed Use billing model. This billing model is similar to a Subscription account with a few added benefits. The following table details the two billable account types and billing model.
+In addition to the two billable account types, customers that have a Subscription account can sign up for the Enterprise Savings Plan billing model. This billing model is similar to a Subscription account with a few added benefits. The following table details the two billable account types and billing model.
 
-| Pay-As-You-Go | Subscription| Pay as you go with Committed Use|
+| Pay-As-You-Go | Subscription| Enterprise Savings Plan|
 |----------|---------|---------|
 | Monthly billing | Timely billing | Timely billing |
 | Invoiced on monthly consumption	| Invoices independent of usage | Invoiced on monthly consumption	|
@@ -117,12 +111,9 @@ New {{site.data.keyword.cloud_notm}} Pay-As-You-Go accounts for US customers wit
 
 For more information about invoices, see [Managing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices).
 
-### Pay as you go with Committed Use billing model
+### Enterprise Savings Plan billing model
 {: #commitment-model}
 
-{{site.data.keyword.cloud_notm}} customers with a Subscription account can sign up for the Pay as you go with Committed Use billing model. With this billing model, you commit to spend a certain amount on {{site.data.keyword.Bluemix_notm}} and you receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. For more information about the billing model, see [Pay as you go with Committed Use billing model](/docs/billing-usage?topic=billing-usage-committed-use).
+{{site.data.keyword.cloud_notm}} customers with a Subscription account can sign up for the Enterprise Savings Plan billing model. With this billing model, you commit to spend a certain amount on {{site.data.keyword.Bluemix_notm}} and you receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. For more information about the billing model, see [Enterprise Savings Plan billing model](/docs/billing-usage?topic=billing-usage-committed-use).
 
 Premium and advanced support options are available for Pay as you go with Committed Use. Support plan pricing falls into two tiers depending on the price level of your commitment. For more information, see [Support options for Pay as you go with Committed Use](/docs/get-support?topic=get-support-support-plans#support-plans).
-
-The billing model continues to roll out to new customers worldwide throughout 2022. For more information about the availability of the billing model in your location, contact [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
-{: note}
