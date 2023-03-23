@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2022-02-08"
+  years: 2015, 2023
+lastupdated: "2023-03-23"
 
 keywords: payment, charges, pricing plan, service cost, cost, pricing tier, pricing model, pricing
 
@@ -10,12 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # How you're charged
 {: #charges}
@@ -38,6 +33,14 @@ Different types of charges apply depending on the features of {{site.data.keywor
 | Reserved       | Reserved pricing is based on a long-term commitment for a service, so you can get a discounted price. With a reserved plan, you get a dedicated service instance that is easy to set up, deploy, and deliver in the public {{site.data.keyword.Bluemix_notm}} environment. | Services | Db2 on Cloud has reserved plans.|
 {: caption="Table 1. Charges based on features" caption-side="top"}
 
+## Understanding monthly and hourly tags
+{: #monthly-hourly-tags}
+
+On the usage dashboard, your products and resources can be labeled with `Monthly`, `Hourly`, or a combination of both tags to signify how often charges are updated.
+
+The `Monthly` tag signifies that resources within your account have a fixed cost. These charge show up immediately after purchase and are prorated in proportion to how many days are left in the month. The fixed costs is then shown at the first of every month.
+
+The `Hourly` tag signifies that resources within your account have variable costs that can change throughout the day. These resources are updated every day.
 
 ## Lite plans
 {: #liteplans}
