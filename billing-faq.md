@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-09-22"
+  years: 2015, 2023
+lastupdated: "2023-04-06"
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item
 
@@ -75,7 +75,7 @@ If your payments are managed outside of the console, go to IBM.com and log in to
 {: faq}
 {: support}
 
-PayPal is a manual, one-time payment method for some accounts that are billed in US Dollars. PayPal isn't accepted for recurring payments. Beginning 31 October 2022, payments to {{site.data.keyword.cloud_notm}} from a non-US, non-business PayPal account must be sent as a goods and services type payment. Due to a change in the [PayPal Policy](https://www.paypal.com/us/webapps/mpp/ua/upcoming-policies-full){: external}, friends and family type payments to IBM Cloud will not be processed. {{site.data.keyword.cloud_notm}} does not control this policy change.
+As of March 31, 2023, PayPal is no longer accepted.
 
 
 ## Why didn't my credit card process?

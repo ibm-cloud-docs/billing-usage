@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-12-27"
+  years: 2022, 2023
+lastupdated: "2023-04-06"
 
 keywords: credit card, payment method, error credit card, credit card error, payment issue, card issue, card error, card error message, payment error message
 
@@ -182,7 +182,7 @@ An issue occurred that caused the payment process to fail. This error might prom
 
 > Transaction already processed.
 
-Our payment system has detected multiple similar payments within a short period of time. This issue can sometimes occur when you attempt to submit a PayPal payment. {{site.data.keyword.cloud_notm}} is attempting to avoid unintentional duplicate payments.
+Our payment system has detected multiple similar payments within a short period of time. {{site.data.keyword.cloud_notm}} is attempting to avoid unintentional duplicate payments.
 {: tsCauses}
 
 Wait 3-4 hours for the manual payment to be processed and posted to your {{site.data.keyword.cloud_notm}}} account. Verify your account balance on the [Payments page](https://cloud.ibm.com/billing/payments).

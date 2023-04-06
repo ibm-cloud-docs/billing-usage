@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-09-27"
+  years: 2015, 2023
+lastupdated: "2022-04-06"
 
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing,
@@ -11,11 +11,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:note: .note}
-{:screen: .screen}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing payments
 {: #linkedusage}
@@ -80,7 +76,7 @@ The process for updating a credit card requires a manual review that might take 
 American Express can't be used as a payment method for India, Singapore, and South Africa based accounts that are billed in US dollars.
 {: note}
 
-### Updating PayPal or other payment methods
+### Updating your payment methods
 {: #changepaymethod-paypal}
 
 If you're using a payment method that's not a credit card, complete the following steps to switch to your payment method:
@@ -89,7 +85,7 @@ If you're using a payment method that's not a credit card, complete the followin
 2. Click **Payment method**.
 3. In the Add Payment Method section, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you.
 
-Some payment methods, such as PayPal, aren't accepted as recurring payment methods. You must manually submit the payment each month.
+Some payment methods aren't accepted as recurring payment methods. You must manually submit the payment each month.
 {: note}
 
 ###  India-based customers with accounts that are billed in US Dollars
@@ -102,7 +98,7 @@ Due to current banking regulations, recurring credit card transactions might be 
 ### Making a one-time payment
 {: #makepayment}
 
-You can make a one-time payment at any time for any amount, whether it's for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't populated with a default amount. Payment methods for one-time payments include credit card and PayPal.
+You can use a credit card to make a one-time payment at any time for any amount, whether it's for the full balance or a partial sum. The details that you enter for the one-time payment aren't recorded for future use, and aren't populated with a default amount.
 
 To make a one-time payment, in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Billing and usage**, and select **Payments**. Click **Manual Payment** and complete the fields in the one-time payment section. One-time payments are reviewed and processed each day. The account balance is updated after the payment is accepted. If a late fee is assessed and you have submitted a one-time payment, contact the [{{site.data.keyword.cloud_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
