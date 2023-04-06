@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-03-10"
+lastupdated: "2023-04-06"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -18,7 +18,7 @@ subcollection: billing-usage
 You can centrally manage multiple {{site.data.keyword.Bluemix}} accounts with [Enterprises](#x2026915){: term}. Because billing is separate from the individual child accounts and consolidated to the enterprise level, enterprises simplify managing billing, invoicing, and payments for the accounts.
 {: shortdesc}
 
-New to {{site.data.keyword.Bluemix_notm}} enterprises? See [What is an enterprise?](/docs/account?topic=account-what-is-enterprise) for more details about how enterprises can help you centrally manage billing and usage.
+New to {{site.data.keyword.Bluemix_notm}} enterprises? See [What is an enterprise?](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise) for more details about how enterprises can help you centrally manage billing and usage.
 {: tip}
 
 ## Enterprise billing model
@@ -121,4 +121,4 @@ In an enterprise, billing access and usage access are assigned separately.
 If you want your billing administrator to be able to view costs by account or account group, assign them the appropriate access on both the Enterprise service and Billing service.
 {: tip}
 
-For more information, see [User and access management for enterprises](/docs/account?topic=account-assign-access-enterprise).
+For more information, see [Assigning access for enterprise management](/docs/secure-enterprise?topic=secure-enterprise-assign-access-enterprise).
