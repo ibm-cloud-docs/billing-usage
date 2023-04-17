@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-11-22"
+  years: 2019, 2023
+lastupdated: "2023-04-17"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -10,20 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:note: .note}
-{:api: .ph data-hd-interface='api'}
-{:cli: .ph data-hd-interface='cli'}
-{:ui: .ph data-hd-interface='ui'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:curl: .ph data-hd-programlang='curl'}
-{:go: .ph data-hd-programlang='go'}
-{:javascript: .ph data-hd-programlang='javascript'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Viewing usage in an enterprise
 {: #enterprise-usage}
@@ -31,7 +18,7 @@ subcollection: billing-usage
 You can track resource and support costs from accounts in your {{site.data.keyword.Bluemix}} enterprise by viewing their usage. The accounts and account groups that you can view usage for depend on your assigned access.
 {: shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/account?topic=account-enterprise) for more information.
+{{site.data.keyword.Bluemix_notm}} enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise) for more information.
 
 ## Required access for viewing enterprise usage
 {: #enterprise-usage-access}
@@ -43,7 +30,7 @@ You can give users granular access so that they can view usage for a certain acc
    * Each department lead needs to view usage for their department, and they also need to create and manage accounts and account groups for their teams. Assign each department lead the Editor role for their department's account group.
    * Each team lead needs to view their team's usage, but you want them to get department approval to add new accounts to their team. Assign each team lead the Usage Reports Viewer role for their team's account group. They can view usage from all accounts within the account group, but not the usage from the account groups of other teams in the department.
 
-For detailed steps about assigning enterprise access, see [Assigning enterprise access](/docs/account?topic=account-assign-access-enterprise).
+For detailed steps about assigning enterprise access, see [Assigning enterprise access](/docs/secure-enterprise?topic=secure-enterprise-assign-access-enterprise).
 
 ## Viewing enterprise usage in the console
 {: #enterprise-usage-console}
@@ -52,8 +39,8 @@ For detailed steps about assigning enterprise access, see [Assigning enterprise 
 1. Log in to the enterprise account.
 1. In the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Usage**.
 
-   The Usage page displays the costs for all resource usage in the entire enterprise during the current month. Usage is organized according to your enterprise hierarchy, so costs are broken down by the accounts and account groups that are directly under the enterprise. 
-   
+   The Usage page displays the costs for all resource usage in the entire enterprise during the current month. Usage is organized according to your enterprise hierarchy, so costs are broken down by the accounts and account groups that are directly under the enterprise.
+
    In the Support section, you can view the total support costs for all accounts within your enterprise. The starting credit reflects the monthly amount in your support subscription. If the support usage for the month was more than this amount, it's displayed as overage.
 
    Usage information for classic infrastructure services is not included for the current billing period. However, it is included for previous billing periods, which you can view by selecting an earlier month from the **Time frame** menu. For more information, see [Viewing usage for your classic infrastructure resources](/docs/billing-usage?topic=billing-usage-infra-usage).
@@ -78,7 +65,7 @@ You can get a report of usage for the enterprise, an account group, or a specifi
 
 1. Log in, and select the enterprise account.
 
-   ```
+   ```bash
    ibmcloud login
    ```
    {: codeblock}
@@ -87,7 +74,7 @@ You can get a report of usage for the enterprise, an account group, or a specifi
 
    For example, the following command displays all account groups in an enterprise.
 
-   ```
+   ```bash
    ibmcloud enterprise account-groups --recursive
    ```
    {: codeblock}
@@ -96,32 +83,32 @@ You can get a report of usage for the enterprise, an account group, or a specifi
 
    * View usage for the entire enterprise for the current month.
 
-      ```
+      ```bash
       ibmcloud billing enterprise-usage
       ```
       {: codeblock}
 
    * View usage for the `Development` account group for July 2019.
 
-      ```
+      ```bash
       ibmcloud billing enterprise-usage --account-group Development --month 2019-07
       ```
       {: codeblock}
 
    * View the usage for the account groups and accounts that are directly under the enterprise.
 
-      ```
+      ```bash
       ibmcloud billing enterprise-usage --children
       ```
       {: codeblock}
 
 By default, the commands output the usage report for the current month in the following format. Most costs are listed as billable costs. Non-billable costs are listed only in rare cases, such as for the month when you add a trial account to the enterprise.
 
-   ```
-   Name             Type            Billable Cost   Non-billable Cost   Currency   Month   
-Example Corp     account         123.45          0                   USD        2019-07   
-Development      account_group   234.56          0                   USD        2019-07   
-Marketing        account_group   345.67          0                   USD        2019-07   
+   ```text
+   Name             Type            Billable Cost   Non-billable Cost   Currency   Month
+Example Corp     account         123.45          0                   USD        2019-07
+Development      account_group   234.56          0                   USD        2019-07
+Marketing        account_group   345.67          0                   USD        2019-07
 Sales            account_group   456.78          0                   USD        2019-07
    ```
    {: screen}
@@ -133,11 +120,11 @@ Sales            account_group   456.78          0                   USD        
 {: #enterprise-usage-api}
 {: api}
 
-You can get usage reports from an enterprise and its accounts by calling the [Enterprise Usage Reports API (Beta)](/apidocs/enterprise-apis/resource-usage-reports). You can base the query in your API call on an enterprise, an account group, or an account and specify whether to view the entity or its children. The Enterprise Usage Reports API is a beta release.
+You can get usage reports from an enterprise and its accounts by calling the [Enterprise Usage Reports API](/apidocs/enterprise-apis/resource-usage-reports). You can base the query in your API call on an enterprise, an account group, or an account and specify whether to view the entity or its children.
 
 The following examples show queries that you can use to get different usage reports. When you call the API, replace the ID variables and IAM token with the values from your enterprise.
 
-```
+```curl
 curl -X GET 'https://enterprise.cloud.ibm.com/v1/resource-usage-reports?enterprise_id=abc12340d4bf4e36b0423d209b286f24&month=2019-07' -H 'Authorization: Bearer <IAM Token>'
 ```
 {: codeblock}
@@ -149,7 +136,7 @@ ServiceCall<Reports> getResourceUsageReport(GetResourceUsageReportOptions getRes
 {: codeblock}
 {: java}
 
-```
+```java
 getResourceUsageReport(params)
 ```
 {: codeblock}
