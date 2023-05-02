@@ -274,11 +274,8 @@
     "cancel subscription",
     "cancel my account subscription",
     "are you sure you cannot help me to cancel my subscription",
-    "how do I cancel my subscription",
     "subscription cancelation and refund",
     "cancel my subscription and want a refund for my last bill",
-    "I need to cancel my subscription",
-    "I want to stop my subscription",
     "Stop subscription",
     "cancellation of the subscription",
     "cancel my subscription",
@@ -799,14 +796,11 @@
     "cancelling a credit card"
   ],
   "commit-signup": [
-    "How do I sign up for a Committed use model",
+    "How do I sign up for Enterprise Savings plan",
     "sign up for Pay as you go with Committed",
     "do I view my commitment terms",
     "information about Terms and Conditions for a commitment",
-    "IBM Cloud Pay as you go with Committed Use",
-    "get started with Pay As You Go with Commit",
-    "Pay As You Go with Commit",
-    "Pay-As-You-Go with Commit",
+    "get started with Enterprise Savings plan",
     "how add a new commitment",
     "how change a commitment"
   ],
@@ -847,20 +841,6 @@
     "free $12K applied to my account",
     "how to get $12,000 credit",
     "trying to set up the $12k of credits"
-  ],
-  "resell": [
-    "add credit to my domain reseller account",
-    "I want to add funds for my domain reseller account",
-    "adding funds for domain name reseller",
-    "we have made a payment that has to be charged over to our resellone account",
-    "I want to deposit funds to my reseller account",
-    "add funds to my domain reseller",
-    "check if your reseller account has proper registry premium settings",
-    "Domain is a registry premium name",
-    "we made a payment for Reseller Domains Credit",
-    "adding funds to my ResellOne account",
-    "get a reseller credit added",
-    "make a resellone payment"
   ],
   "tax-assessment": [
     "add tax id for my account",
