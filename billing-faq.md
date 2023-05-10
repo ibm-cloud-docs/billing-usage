@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2023
-lastupdated: "2023-04-06"
+
+lastupdated: "2023-05-10"
+
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item
 
@@ -42,7 +44,7 @@ Multiply the two values together, and the result is the GB-hour.
 {: #bandwidth-usage-overages}
 {: faq}
 
-If you provision multiple servers, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [IBM Cloud Sales](/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
+If you provision multiple servers, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [{{site.data.keyword.cloud_notm}} Sales](/catalog?contactmodule){: external} representative to request a quote for additional server bandwidth.
 
 ##  What's the difference between a Pay-As-You-Go and Subscription account?
 {: #billable-account-types}
@@ -77,7 +79,6 @@ If your payments are managed outside of the console, go to IBM.com and log in to
 
 As of March 31, 2023, PayPal is no longer accepted.
 
-
 ## Why didn't my credit card process?
 {: #addcard}
 {: faq}
@@ -108,9 +109,10 @@ You must have an active credit card on file. You can replace an existing credit 
 {: #localcurrency}
 {: faq}
 
-To request to be invoiced in your local currency, complete the Monthly Payment Method form on the [Payments](/billing/payments){: external} page. If your account supports another currency, you can request the change in the Payment Currency section.
+Invoicing in your local currency might be possible if you have a subscription or {{site.data.keyword.Bluemix_notm}} Cloud Enterprise Savings Plan account type. Contact [{{site.data.keyword.Bluemix_notm}} Cloud Sales](/catalog?contactmodule){: external} for more information.
 
-An account that is invoiced in a currency other than US Dollars can't be converted to US Dollar invoicing.{: note}
+An account that is invoiced in a currency other than US Dollars can't be converted to US Dollar invoicing.
+{: note}
 
 ## What is Business Continuity Insurance?
 {: #BCI-invoice}
@@ -158,14 +160,14 @@ You might be looking for information on feature codes and subscription codes. Fo
 If you can't apply a promo code that you received from {{site.data.keyword.Bluemix_notm}} Sales or an educational provider, contact sales or the provider for additional help.
 {: note}
 
-## Why did I get billed when I have remaining promotion credits?
+## Why did I get invoiced when I have remaining promotion credits?
 {: #billed-promo}
 {: faq}
 
 If you think your invoice didn't include your promotion credits, first determine that the credits are still active on your account by using the following steps:
 
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**.
-1. Click a promotion to expand the table and view the amount of each promotion, the duration, and the offering it applies to.
+1. Click a promotion to expand the table and view the amount of each promotion, the duration of each promotion and the product it applies to.
 1. Check the following to make sure that your promo code is still applicable:
    - Verify the maximum value of the promo code per month. Some monthly recurring promo codes have a monthly limit. If your usage exceeded that limit, you're billed for the remaining amount.
    - Compare the date of your invoice to the start and end dates of the promo code. If you applied the promo code after the invoice was issued, it was not applied to that month's invoice.
@@ -201,6 +203,7 @@ If you believe that charges on your invoice are incorrect, [contact Support](/un
 
 A [resource](#x2004267){: term} is anything that you can create from the catalog that is managed by and contained within a resource group. You're billed for resources in your account until you cancel them. If you deleted a resource or have resources in your account that are no longer used, make sure to cancel all billing items associated with those resources. Billing items can't be recovered after they are canceled. For more information, see [Cancelling your billing items](/docs/billing-usage?topic=billing-usage-cancel-billing-items).
 
+
 ## Can I add a tax identification number to my account?
 {: #tax-assessment}
 {: faq}
@@ -226,11 +229,11 @@ You can set separate spending thresholds for the account, container, runtime, al
 Spending notifications don't stop charges from incurring. You continue to incur charges if your usage exceeds 100% of the spending threshold.
 {: note}
 
-## Does the price of the offering that I'm ordering reflect the discounted price?
+## Does the price of the product that I'm ordering reflect the discounted price?
 {: #discount-price}
 {: faq}
 
-Yes, if your account includes any discounts, the price of the offering that is displayed in your infrastructure order summary does reflect the discounted price of that offering.
+Yes, if your account includes any discounts, the price of the product that is displayed in your infrastructure order summary does reflect the discounted price of that product.
 
 ## How do I confirm that I received an expected credit?
 {: #receive-credit}
@@ -240,12 +243,6 @@ Yes, if your account includes any discounts, the price of the offering that is d
 Credit might take a few hours to appear in your account. To see whether a credit was added, go to **Manage > Billing and usage**, and select **Usage**. The credit might be listed in the Active subscriptions and credits section.
 
 If the credit isn't on the Usage page, go to **Invoices** and click link with the date for your next recurring invoice. If you don't see the credit on the next recurring invoice, it is not yet added to your account. Check back later to verify that you received the credit.
-
-## How can I add funds to my ResellOne account?
-{: #resell}
-{: faq}
-
-Effective 1 November 2021, IBM Cloud doesn't support the ResellOne Domain Resale service, which we offered in partnership with Tucows Inc. For more information, see [IBM ResellOne End of Service](/docs/dns?topic=dns-resellone-eos).
 
 ## How do I get answers to my Startup with IBM questions?
 {: #startup-ibm}
@@ -262,6 +259,7 @@ Credits for {{site.data.keyword.IBM_notm}} corporate programs, such as Startup w
 1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Invoices**.
 1. Select an applicable invoice.
 1. Find the name of the program listed in the Current Payment Method section to see the monthly credit, applied credit, and remaining credit information.
+
 
 ## How do I get support?
 {: #contactsupport}
