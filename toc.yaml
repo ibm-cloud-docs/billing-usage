@@ -110,6 +110,7 @@ toc:
           - ts-view-commit.md
           - ts_commit_cannot_apply.md
           - ts_commit_access_page.md
+          - ts_section-error.md
           - ts_charge-limit.md
           - ts-cc-error-messages.md
       - include: ../account/getting-help.md
