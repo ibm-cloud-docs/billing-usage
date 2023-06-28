@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2023
 
-lastupdated: "2023-05-10"
+lastupdated: "2023-06-28"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item
@@ -61,6 +61,13 @@ With Subscription accounts, you buy a subscription for an amount of credit to sp
 
 When you reach any quota for Lite plan instances, the service for that month is suspended. Quotas are based per org and not per instance. New instances that are created in the same org show any usage from previous instances. The quota resets on the first of every month.
 
+## Can I use PayPal as a payment method?
+{: #paypal}
+{: faq}
+{: support}
+
+As of March 31, 2023, PayPal is no longer accepted.
+
 ## Can I update my credit card?
 {: #updatecard}
 {: faq}
@@ -70,14 +77,13 @@ Updating your credit card is just like adding a new one. Go to the [Payments](/b
 
 To switch to a different payment method, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you.
 
-If your payments are managed outside of the console, go to IBM.com and log in to the Manage Payment Method application to update your credit card. For more information, see [How do I add a credit card when the option isn't available through the console?](/docs/billing-usage?topic=billing-usage-ts-ccibm).
+If your payments are managed outside of the console, go to IBM.com and log in to the Manage Payment Method application to update your credit card. For more information, see [How do I add a credit card when the option isn't available through the console?](/docs/billing-usage?topic=billing-usage-ts-ccibm)
 
-## Can I use PayPal as a payment method?
-{: #paypal}
+## How do I change my payment method?
+{: #pay-method}
 {: faq}
-{: support}
 
-As of March 31, 2023, PayPal is no longer accepted.
+For a Pay-As-You-Go account, you must have an active credit card on file. Our Subscription and {{site.data.keyword.cloud_notm}} Enterprise Savings Plan account types might enable you to use other payment options. Contact an [{{site.data.keyword.cloud_notm}} Sales](/catalog?contactmodule){: external} representative to inquire about payment options.
 
 ## Why didn't my credit card process?
 {: #addcard}
@@ -99,7 +105,7 @@ Yes, you can. When you request to change your payment method, a support case is 
 {: #removecard}
 {: faq}
 
-You must have an active credit card on file. You can replace an existing credit card with a new one.
+For Pay-As-you-Go accounts, you must have an active credit card on file. You can replace an existing credit card with a new one.
 
 * If you're using a new US-based Pay-As-You-Go account with credit card billing, you can add a new credit card in the Monthly Payment Method form on the [Payments](/billing/payments){: external} page.
 * For all other accounts, you can remove a credit card and switch to a different payment method by clicking **Pay with Other** > **Submit change request**. To complete the change, review and update the support case that is created for you.
