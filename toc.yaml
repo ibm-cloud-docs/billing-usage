@@ -17,8 +17,11 @@ toc:
       topics:
       - billing-overview.md
       - scenario.md
-      - bp_billing.md
       - enterprise.md
+      - topicgroup:
+          label: Best practices
+          topics:
+          - cc-bp.md
 
   - navgroup:
       id: tutorial
@@ -60,6 +63,7 @@ toc:
           - understand-invoice.md
       - subscriptions.md
       - paygo_committed_use.md
+      - cc-working-with.md
 
   - navgroup:
       id: reference
@@ -97,6 +101,7 @@ toc:
           - invoice_faqs.md
           - commitment-faqs.md
           - faq-platform-analytics.md
+          - cc-faq.md
       - topicgroup:
           label: Troubleshooting
           topics:
