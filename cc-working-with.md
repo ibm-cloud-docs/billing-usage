@@ -20,7 +20,7 @@ Output that is provided by the carbon calculator is provided “as-is” for inf
 
 {{site.data.keyword.cloud_notm}}'s carbon calculator displays the carbon emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers. Tracking your carbon emissions is important so that you can know how much carbon emissions your account is associated with, and it helps you manage and mitigate your carbon footprint over time.
 
-Emission data is currently available for the following services:
+Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
 * Bare Metal Servers for Classic
 * Bare Metal Servers for VPC
@@ -52,7 +52,7 @@ Emission data is currently available for the following services:
 * Virtual Server for VPC
 * VPN for VPC - released planned for 7/17-->
 
-More services are under consideration to be added to the carbon calculator. After a service is added, it takes 30 days to collect and show data.
+Because emissions are reported after the close of each billing cycle, data for newly added services and current quarter results take about two months to populate.
 {: note}
 
 The carbon calculator provides a wide range of features to track your carbon emissions:
