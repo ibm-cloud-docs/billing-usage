@@ -38,7 +38,7 @@ The total emissions are calculated by comparing the energy-related usage with da
 {: #service-emissions}
 {: faq}
 
-Carbon Calculator has emission data for the following services:
+Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
 * Bare Metal Servers for Classic
 * Bare Metal Servers for VPC
@@ -49,16 +49,28 @@ Carbon Calculator has emission data for the following services:
 * Load Balancers for Classic
 * Virtual Server for Classic
 * Virtual Server for VPC
-<!--* Block Storage for Classic - released planned for 7/17-->
-<!--* Block Storage for VPC - released planned for 7/17-->
-<!--* DNS Services - release planned for 7/17-->
-<!--* File Storage for Classic - released planned for 7/17-->
-<!--* File Storage for VPC - released planned for 7/17-->
-<!--* Load Balancer for VPC (Application) - release planned for 7/17-->
-<!--* Load Balancer for VPC (Network) - release planned for 7/17-->
-<!--* VPN for VPC - released planned for 7/17-->
 
-More services are under consideration to be added to the carbon calculator. After a service is added, it takes 30 days to collect and show data.
+
+<!--
+* Bare Metal Servers for Classic
+* Bare Metal Servers for VPC
+* Block Storage for Classic - released planned for 7/17
+* Block Storage for VPC - released planned for 7/17
+* Cloud HSM
+* Cloud Object Storage
+* DNS Services - release planned for 7/17
+* File Storage for Classic - released planned for 7/17
+* File Storage for VPC - released planned for 7/17
+* FortiGate Security Appliance 10Gbps
+* Kubernetes Service
+* Load Balancers for Classic
+* Load Balancer for VPC (Application) - release planned for 7/17
+* Load Balancer for VPC (Network) - release planned for 7/17
+* Virtual Server for Classic
+* Virtual Server for VPC
+* VPN for VPC - released planned for 7/17-->
+
+Because emissions are reported after the close of each billing cycle, data for newly added services and current quarter results take about two months to populate.
 {: note}
 
 ## How do I use this data with Envizi or other third party ESG reporting tools?
@@ -87,7 +99,8 @@ Carbon Calculator data is currently available from 2022.-->
 
 In the carbon calculator, on the locations widget, you can hover over the location of their data center to see carbon intensity.
 
-<!--## Can I view emission data for enterprise accounts?
+<!--
+## Can I view emission data for enterprise accounts?
 {: #enterprise-data}
 {: faq}
 
