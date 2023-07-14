@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-07-14"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -107,8 +107,8 @@ For more in depth explanation about carbon calculators methodology and calculati
 
 Emissions from key greenhouse gases are measured in metric tons of carbon dioxide-equivalent (kgCO~2~e). You can view your account's emissions data in the {{site.data.keyword.cloud_notm}} console. Go to **Manage** > **Billing and Usage** > **Carbon Calculator** to view the following widgets:
 
-If you have an enterprise account, you can view emission data for your enterprise, account groups, and child accounts by logging in to your enterprise's parent account.
-{: note}
+<!--If you have an enterprise account, you can view emission data for your enterprise, account groups, and child accounts by logging in to your enterprise's parent account.
+{: note}-->
 
 * Total emissions: The total emissions are calculated by comparing the energy-related usage with data center energy sources. You can download the total emissions data in CSV format.
 

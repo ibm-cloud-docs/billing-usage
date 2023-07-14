@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-07-14"
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
 
@@ -87,8 +87,8 @@ Carbon Calculator data is currently available from 2022.-->
 
 In the carbon calculator, on the locations widget, you can hover over the location of their data center to see carbon intensity.
 
-## Can I view emission data for enterprise accounts?
+<!--## Can I view emission data for enterprise accounts?
 {: #enterprise-data}
 {: faq}
 
-Yes. You can view emission data for your enterprise, account groups, and child accounts by logging into your enterprise's parent account and navigating from the {{site.data.keyword.cloud_notm}} console and go to Go to **Manage** > **Billing and Usage** > **Carbon Calculator**.
+Yes. You can view emission data for your enterprise, account groups, and child accounts by logging into your enterprise's parent account and navigating from the {{site.data.keyword.cloud_notm}} console and go to Go to **Manage** > **Billing and Usage** > **Carbon Calculator**.-->
