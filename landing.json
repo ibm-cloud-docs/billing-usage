@@ -45,6 +45,11 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
+          "date": "17 July 2023",
+          "title": "Carbon calculator",
+          "description": "IBM Cloud's carbon calculator displays the carbon emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers."
+        },
+        {
           "date": "09 January 2023",
           "title": "Save and share cost estimates",
           "description": "When you create an estimate, you can save each estimate's unique link to share or revisit directly through your browser."
@@ -53,11 +58,6 @@
           "date": "01 March 2022",
           "title": "Use feature and subscription codes to create new accounts",
           "description": "When you register for a new IBM Cloud account, you can use a feature code that you received from participating in a special event or a subscription code that you received by email. Instead of verifying your identity by entering your credit card information, click the option to Register with a code to complete the set up of your new account."
-        },
-        {
-          "date": "7 July 2021",
-          "title": "Service level discounts for accounts with the Pay as you go with Committed Use billing model",
-          "description": "If you have an account with the Pay as you go with Committed Use billing model, you might be eligible to receive service-level discounts."
         }
       ]
     }
