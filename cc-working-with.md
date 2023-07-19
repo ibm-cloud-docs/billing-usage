@@ -22,35 +22,23 @@ Output that is provided by the carbon calculator is provided “as-is” for inf
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
-* Bare Metal Servers for Classic
-* Bare Metal Servers for VPC
+* {{site.data.keyword.baremetal_short}} for Classic
+* {{site.data.keyword.bm_is_short}}
+* {{site.data.keyword.blockstorageshort}}
+* {{site.data.keyword.block_storage_is_short}}
 * Cloud HSM
-* Cloud Object Storage
-* FortiGate Security Appliance 10Gbps
-* Kubernetes Service
-* Load Balancers for Classic
+* {{site.data.keyword.cos_full_notm}}
+* {{site.data.keyword.dns_short}}
+* {{site.data.keyword.filestorage_short}}
+* {{site.data.keyword.filestorage_vpc_short}}
+* {{site.data.keyword.fsa10_full}}
+* {{site.data.keyword.containershort}}
+* {{site.data.keyword.loadbalancer_short}} for Classic
+* {{site.data.keyword.loadbalancer_short}} for VPC (Application)
+* {{site.data.keyword.loadbalancer_short}} for VPC (Network)
 * Virtual Server for Classic
 * Virtual Server for VPC
-
-
-<!--
-* Bare Metal Servers for Classic
-* Bare Metal Servers for VPC
-* Block Storage for Classic - released planned for 7/17
-* Block Storage for VPC - released planned for 7/17
-* Cloud HSM
-* Cloud Object Storage
-* DNS Services - release planned for 7/17
-* File Storage for Classic - released planned for 7/17
-* File Storage for VPC - released planned for 7/17
-* FortiGate Security Appliance 10Gbps
-* Kubernetes Service
-* Load Balancers for Classic
-* Load Balancer for VPC (Application) - release planned for 7/17
-* Load Balancer for VPC (Network) - release planned for 7/17
-* Virtual Server for Classic
-* Virtual Server for VPC
-* VPN for VPC - released planned for 7/17-->
+* {{site.data.keyword.vpn_vpc_short}}
 
 Because emissions are reported after the close of each billing cycle, data for newly added services and current quarter results take about two months to populate.
 {: note}
