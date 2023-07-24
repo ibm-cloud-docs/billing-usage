@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-07-24"
+lastupdated: "2023-07-27"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -191,7 +191,7 @@ curl -X GET -H 'Authorization: Bearer <IAM Token>' '{base_url}/v1/resource-usage
 
 
 #### Understanding `.csv` table headings and JSON report fields for enterprise account summary
-{: #table-account-summary-csv}
+{: #enterprise-usage-table-account-summary-csv}
 {: api}
 
 The following table shows the correlation between the heading titles in your `.csv` report and JSON report fields.

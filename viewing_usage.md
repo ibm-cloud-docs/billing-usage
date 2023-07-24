@@ -167,7 +167,7 @@ curl -X GET -H "Authorization: {iam_token}" "{base_url}/v4/accounts/{account_id}
 This API returns the summary of the account for a given month in a `.csv` file, and the aggregated usage of each resource plan metric.
 
 #### Understanding `.csv` table headings and JSON report fields for account summary
-{: #table-account-summary-csv}
+{: #export-csv-api-table-account-summary-csv}
 {: api}
 
 The following table shows the correlation between the heading titles in your `.csv` report and JSON report fields. For more information about JSON report fields, see [Usage Reports: Get account summary](/apidocs/metering-reporting#get-account-summary){: external}.
