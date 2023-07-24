@@ -1,6 +1,6 @@
 {
     "title": "IBM Cloud Billing and Usage docs",
-    "lastupdated": "2023-01-09",
+    "lastupdated": "2023-07-17",
     "introduction": "IBM Cloud offers multiple billing options and tools for every business whether it’s tracking your usage or managing invoice and payments. Leverage the docs, API & SDK reference, architecture references, and more to support your billing and usage needs.",
     "section_devtools": {
       "api": "/docs?tab=api-docs&category=platform_services&subCategory=billing-usage",

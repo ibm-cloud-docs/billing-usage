@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-04-21"
+lastupdated: "2023-07-24"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -269,7 +269,7 @@ The following table shows the correlation between the heading titles in your `.c
 
 | JSON report section API | `.csv` Header      | JSON Report Fields  | Description        |
 |-------------------------|--------------------|---------------------|--------------------|
-| [Enterprise Usage Reports API: Get usage reports for enterprise entities](/apidocs/enterprise-apis/resource-usage-reports#get-resource-usage-report){: external} | | | |
+| [Enterprise Usage Reports API: Get usage reports for enterprise entities](/apidocs/enterprise-apis/resource-usage-reports#get-resource-usage-report-csv){: external} | | | |
 |                         | Entity ID          | `entity_id`         | The ID of the entity |
 |                         | Entity Type        | `entity_type`       | The type of the entity  \n Possible values: `enterprise` , `account-group`, or `account` |
 |                         | Entity Name        | `entity_name`       | A user-defined name for the entity, such as the enterprise name or account group name |
