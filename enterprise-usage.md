@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-07-27"
+lastupdated: "2023-08-14"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -282,7 +282,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: class="simple-tab-table"}
 {: caption="Table 1.  Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
-{: #entity-resource-usage}
+{: #entity-resource-usage1}
 {: tab-title="Enterprise Usage Summary"}
 
 | JSON report section API | `.csv` Header    | JSON Report Fields                       | Description        |
@@ -307,7 +307,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: class="simple-tab-table"}
 {: caption="Table 1. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
-{: #entity-resource-usage}
+{: #entity-resource-usage2}
 {: tab-title="Enterprise Resource Usage"}
 
 
