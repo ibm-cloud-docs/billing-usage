@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-04-21"
+lastupdated: "2023-08-18"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -120,7 +120,7 @@ get_account_usage(self,
 {: codeblock}
 {: go}
 
-## Exporting your usage details to a `.csv` file
+## Exporting your usage details to a CSV file
 {: #export-csv}
 {: help}
 {: support}
@@ -142,7 +142,7 @@ This is not an estimate of your final bill. Instance costs don’t reflect your 
    Consider creating tags as a `key:value` pair to group related tags. The `key` becomes a column in the CSV file and the `value` is populated in the respective rows of the column. If you don't follow a `key:value` tag style, the tags appear in the **Other Tags** column.
    {: tip}
 
-## Exporting your usage details to a `.csv` file by using the API
+## Exporting your usage details to a CSV file by using the API
 {: #export-csv-api}
 {: api}
 
@@ -152,7 +152,7 @@ This is not an estimate of your final bill. Instance costs don’t reflect your 
 {: note}
 
 
-### Exporting your account summary `.csv` report by using the API
+### Exporting your account summary CSV report by using the API
 {: #export-csv-api-acc-summary}
 {: api}
 
@@ -164,15 +164,15 @@ curl -X GET -H "Authorization: {iam_token}" "{base_url}/v4/accounts/{account_id}
 {: pre}
 {: curl}
 
-This API returns the summary of the account for a given month in a `.csv` file, and the aggregated usage of each resource plan metric.
+This API returns the summary of the account for a given month in a CSV file, and the aggregated usage of each resource plan metric.
 
-#### Understanding `.csv` table headings and JSON report fields for account summary
+#### Understanding CSV table headings and JSON report fields for account summary
 {: #export-csv-api-table-account-summary-csv}
 {: api}
 
-The following table shows the correlation between the heading titles in your `.csv` report and JSON report fields. For more information about JSON report fields, see [Usage Reports: Get account summary](/apidocs/metering-reporting#get-account-summary){: external}.
+The following table shows the correlation between the heading titles in your CSV report and JSON report fields. For more information about JSON report fields, see [Usage Reports: Get account summary](/apidocs/metering-reporting#get-account-summary){: external}. Each row of the **Account Resource Usage** section represents the aggregated usage of a service plan metric for all the resource instances in the account.
 
-| `.csv` Header       | Description                                      |
+| CSV Header       | Description                                      |
 |---------------------|--------------------------------------------------|
 | Account Owner ID    | ID of the account                    |
 | Account Name        | Name of the account                  |
@@ -185,7 +185,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: #account-owner-id}
 {: tab-title="Account Metadata"}
 
-| `.csv` Header       | JSON Report Fields                 | Description |
+| CSV Header       | JSON Report Fields                 | Description |
 |---------------------|-------------------------------|-------------|
 | Account ID          | `account_id`                  | ID of the account |
 | Month               | `month`                       | The month in which usages were incurred. Represented in `yyyy-mm` format |
@@ -199,7 +199,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: #account-id}
 {: tab-title="Account Usage Summary"}
 
-| `.csv` Header       | JSON Report Fields                                          | Description |
+| CSV Header       | JSON Report Fields                                          | Description |
 |---------------------|-------------------------------------------------------------|-------------|
 | Subscription ID | `subscription.subscriptions.subscription_id`                | The ID of the subscription |
 | CA                  | `subscription.subscriptions.charge_agreement_number`        | The charge agreement number of the subscription |
@@ -217,7 +217,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: #subscription-id}
 {: tab-title="Subscriptions"}
 
-| `.csv` Header       | JSON Report Fields                     | Description |
+| CSV Header       | JSON Report Fields                     | Description |
 |---------------------|-----------------------------------|-------------|
 | Offer ID            | `offers.offer_id`                 | The ID of the offer |
 | Credits Total       | `offers.credits_total`            | The total credits before applying the offer |
@@ -234,7 +234,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: #offer-id}
 {: tab-title="Offers"}
 
-| `.csv` Header       | JSON Report Fields | Description |
+| CSV Header       | JSON Report Fields | Description |
 |---------------------|--------------------|-------------|
 | Support Cost        | `support.cost`     | The monthly support cost |
 | Support Type        | `row.support.type` \n (`STANDARD` > `Advanced` and \n `PREMIUM` > `Premium`) | The type of support  |
@@ -245,7 +245,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: #support-cost}
 {: tab-title="Support Summary"}
 
-| `.csv` Header  | JSON Report Fields                 | Description |
+| CSV Header  | JSON Report Fields                 | Description |
 |----------------|------------------------------------|-------------|
 | Service Name   | `resources.resource_name`          | The name of the resource |
 | Service ID     | `resources.resource_id`            | The ID of the resource |
@@ -268,11 +268,8 @@ The following table shows the correlation between the heading titles in your `.c
 {: #service-name}
 {: tab-title="Account Resource Usage"}
 
-Each row of the **Account Resource Usage** section represents the aggregated usage of a service plan metric for all the resource instances in the account.
-{: note}
 
-
-### Exporting your instance `.csv` report by using the API
+### Exporting your instance CSV report by using the API
 {: #export-csv-api-instance}
 {: api}
 
@@ -285,13 +282,16 @@ curl -X GET -H "Authorization: {iam_token}" "{base_url}/v4/accounts/{account_id}
 {: curl}
 
 
-#### Understanding `.csv` table headings and API parameters for instances
+#### Understanding CSV table headings and API parameters for instances
 {: #table-account-summary-csv}
 {: api}
 
-The following table shows the correlation between the heading titles in your `.csv` report and API parameters. For more information about JSON report fields, see [Usage Reports: Get resource instance usage in an account](/apidocs/metering-reporting#get-resource-usage-account).
+The following table shows the correlation between the heading titles in your CSV report and API parameters. For more information about JSON report fields, see [Usage Reports: Get resource instance usage in an account](/apidocs/metering-reporting#get-resource-usage-account). Each row of the **Account Instance Usage** section represents an instance usage of a specific metric in a service plan.
 
-| `.csv` Header    | Description                                     |
+Regular account CSV reports are not real time and can be incomplete. Complete CSV reports are generated for previous months that have already been invoiced. In case of potentially inconsistent data in the CSV reports, it's advised to regenerate the CSV after couple of hours. For more accurate and real time usages, it's always recommended to use the JSON APIs.
+{: note}
+
+| CSV Header    | Description                                     |
 |------------------|-------------------------------------------------|
 | Account Owner ID | ID of the account                    |
 | Account Name     | Name of the account                  |
@@ -304,7 +304,7 @@ The following table shows the correlation between the heading titles in your `.c
 {: #account-owner-id-instance}
 {: tab-title="Account Metadata"}
 
-| `.csv` Header       | JSON Report Fields                 | Description |
+| CSV Header       | JSON Report Fields                 | Description |
 |---------------------|------------------------------------|-------------|
 | Service Name        | `resources.resource_name`          | The name of the resource |
 | Service ID          | `resources.resource_id`            | The ID of the resource |
@@ -330,16 +330,20 @@ The following table shows the correlation between the heading titles in your `.c
 | Pending             | `row.resources.pending`            | 	Pending charge from classic infrastructure |
 | Discount (%)        | `row.resources.plans.usage.discounts.discount`, semicolon(;) delimited | Discount percentage that is applied to the account |
 | Discount ID         | `row.resources.plans.usage.discounts.ref`, semicolon(;) delimited | Reference ID of the discount |
-| Other Tags          |                                    | Tags that are not of the `key:value` format |
-| Key                 | `value` of `key:value` tags        | `key` of `key:value` tags |
+| Other Tags          | `resources.tags`                   | Tags that are not of `key:value` format |
 {: class="simple-tab-table"}
 {: caption="Table 2. Account instance CSV header titles and JSON report fields for account instance usage" caption-side="bottom"}
 {: tab-group="account-instance"}
 {: #service-name-instance}
 {: tab-title="Account Instance Usage"}
 
-Each row of the **Account Instance Usage** section represents an instance usage of a specific metric in a service plan.
-{: note}
+For tags that are of `key:value` format, a new column is added for each and every unique `key`, with the `key` as the column name and the `value` as the column value for the corresponding instance usage row. For example, if there are two instances, `i1` and `i2`, with tag `env:prod` on `i1` and tags `env:test` and `team:backend` on `i2`, there would be two additional columns named `env` and `team`. And only the `i1` row will have value `prod` under the `env` column. The `i2` row will have values `test` and `backend` under the `env` and `team` columns. The following table shows the example layout.
+
+| Instance ID | Other tags | `env`  | `team`    |
+|-------------|------------|--------|-----------|
+| `i1`        |            | `prod` |           |
+| `i2`        |            | `test` | `backend` |
+{: caption="Table 3. Example of tag layout in the CSV report" caption-side="bottom"}
 
 
 ## Viewing your usage by using the CLI
