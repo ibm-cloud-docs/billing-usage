@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-14"
+lastupdated: "2023-08-21"
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
 
@@ -21,9 +21,9 @@ content-type: faq
 {: #carboncalc-emissions}
 {: faq}
 
-You might not be able to view your accounts emissions data because you don't have the right access or the service doesn't have enough data. For access, account owners, account administrators, and users with a viewer role or higher on the billing service can view and export emissions data for the entire account. Supported services must have at least 30 days of data to be viewed on the carbon calculator.
+You might not be able to view your accounts emissions data because you don't have the correct access or the service doesn't have enough data. For access, account owners, account administrators, and users with a viewer role or higher on the billing service can view and export emissions data for the entire account. Supported services must have at least 30 days of data to be viewed on the carbon calculator.
 
-<!--If you have the right access and still can't view data, there's some minimum requirements that your account needs. To view emissions data your account must be open for a minimum of 31 days and monthly usage must be higher than $250 USD. If you have a free account or your usage is less than $250 USD, {{site.data.keyword.cloud_notm}} might require a minimum number of service types to calculate and show emissions data.-->
+<!--If you have the correct access and still can't view data, there's some minimum requirements that your account needs. To view emissions data your account must be open for a minimum of 31 days and monthly usage must be higher than $250 USD. If you have a free account or your usage is less than $250 USD, {{site.data.keyword.cloud_notm}} might require a minimum number of service types to calculate and show emissions data.-->
 
 If you're still having issues viewing data, [create a support case](/unifiedsupport/cases/form) in the {{site.data.keyword.cloud_notm}} Support Center.
 

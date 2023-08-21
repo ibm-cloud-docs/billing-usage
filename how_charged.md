@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2023
-lastupdated: "2023-03-23"
+lastupdated: "2023-08-21"
 
 keywords: payment, charges, pricing plan, service cost, cost, pricing tier, pricing model, pricing
 
@@ -38,7 +38,7 @@ Different types of charges apply depending on the features of {{site.data.keywor
 
 On the usage dashboard, your products and resources can be labeled with `Monthly`, `Hourly`, or a combination of both tags to signify how often charges are updated.
 
-The `Monthly` tag signifies that resources within your account have a fixed cost. These charge show up immediately after purchase and are prorated in proportion to how many days are left in the month. Any recurring monthly fixed costs are then shown at the first of every month.
+The `Monthly` tag signifies that resources within your account have a fixed cost. These charge show up immediately after purchase and are prorated in proportion to how many days are remaining in the month. Any recurring monthly fixed costs are then shown at the first of every month.
 
 The `Hourly` tag signifies that resources within your account have variable costs. These resources are updated daily.
 
