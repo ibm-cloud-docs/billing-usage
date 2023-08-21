@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-07-24"
+lastupdated: "2023-08-21"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use
 
@@ -49,14 +49,14 @@ The Commitments and subscriptions page provides the usage details for any commit
 
 To view your platform and service subscription usage in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Commitments and subscriptions**.
 
-* Click the tabs to view information about active or upcoming commitments. Active commitments are commitments that still have a remaining committed amount to spend and time that's left in the commitment term. Upcoming commitments are commitments that were added to the account but haven't yet reached their term period. A commitment is inactive if its term expires or all of its committed amount is spent.
+* Click the tabs to view information about active or upcoming commitments. Active commitments are commitments that still have a remaining committed amount to spend and time that's remaining in the commitment term. Upcoming commitments are commitments that were added to the account but haven't yet reached their term period. A commitment is inactive if its term expires or all of its committed amount is spent.
 * Use the graph to view what you've spent toward your overall committed amount. You can view the days remaining in the commitment, discount, billing method, and billing frequency.
 * View a monthly breakdown of the spending history for the commitment. Monthly spending is broken out by month. You can manage your commitment by viewing any change in spending month to month as well as viewing your spending trends over time.
 
 ## Remaining commitment
 {: #unmet-commit}
 
-If you don't spend the total committed amount by the end of the commitment term, you are invoiced for the amount that you didn't consume. The graph on the Commitment and subscription page provides details about what you've spent toward your overall committed amount, so you can easily track what you've consumed and how much time is left in your commitment.
+If you don't spend the total committed amount by the end of the commitment term, you are invoiced for the amount that you didn't consume. The graph on the Commitment and subscription page provides details about what you've spent toward your overall committed amount, so you can easily track what you've consumed and how much time is remaining in your commitment.
 
 <!--This doc is staging only for now. Do not push to prod. -HL-->
 ## Product-level discounts
