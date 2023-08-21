@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2023
 
-lastupdated: "2023-06-28"
+lastupdated: "2023-08-21"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item
@@ -198,7 +198,7 @@ You might be looking for information about promo codes and subscription codes, w
 
 As the account owner, you're responsible for all charges that are incurred by users in your account, including invited users. Ensure that each user is assigned only the level of access that is required to complete their job, including the ability to create new instances that might incur extra charges in your account. For more information, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 
-Resources and applications that are left running in an account are subject to charges based on the pricing and description of the product. For example, this includes buildpacks, Platform as a Service, and Infrastructure as a Service.
+Resources and applications that remain running in an account are subject to charges based on the pricing and description of the product. For example, this includes buildpacks, Platform as a Service, and Infrastructure as a Service.
 
 If you believe that charges on your invoice are incorrect, [contact Support](/unifiedsupport/supportcenter){: external} within 30 calendar days of the invoice due date or use the contact information that is found on your invoice.
 
