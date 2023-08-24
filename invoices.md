@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-07-24"
+lastupdated: "2023-08-24"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 
@@ -20,7 +20,7 @@ To manage and view your invoices, visit the [Invoices](https://cloud.ibm.com/bil
 
 *This page reflects only classic infrastructure charges. To view your official invoice and for any pricing inquiries, visit IBM Invoices. To sign up and view your invoices, you must provide your IBM customer number. If you don't know your customer number, contact IBM Cloud Support by calling 1-866-325-0045 and selecting the third option.*
 
-In these situations, visit the [Invoices@IBM](http://ibm.com/invoices){: external} website to see your invoices.
+In these situations, visit the [Invoices@IBM](https://www.ibm.com/support/customer/invoices/welcome){: external} website to see your invoices.
 
 ## Before you begin
 {: #setting-prereqs}
@@ -54,12 +54,12 @@ You will receive invoices for resources in your account until you cancel them. S
 ### Viewing and downloading your invoice
 {: #download-invoices}
 
-View and download your invoice from the {{site.data.keyword.IBM_notm}} console by clicking the **Download** icon ![Download icon](../icons/download.svg "Download") > **PDF invoice** next to each invoice. For some accounts, invoices are available through the [Invoices@IBM](http://ibm.com/invoices){: external} website. See the [Viewing and downloading invoices for all other accounts](#viewing-external-invoices) section for more information.
+View and download your invoice from the {{site.data.keyword.IBM_notm}} console by clicking the **Download** icon ![Download icon](../icons/download.svg "Download") > **PDF invoice** next to each invoice. For some accounts, invoices are available through the [Invoices@IBM](https://www.ibm.com/support/customer/invoices/welcome){: external} website. See the [Viewing and downloading invoices for all other accounts](#viewing-external-invoices) section for more information.
 
 ## Viewing and downloading invoices for all other accounts
 {: #viewing-external-invoices}
 
-If you own one of the following accounts, you can view your invoice on the [Invoices@IBM](http://ibm.com/invoices){: external} website, which is linked from the [Invoices page](/billing/invoices) in the {{site.data.keyword.IBM_notm}} console.
+If you own one of the following accounts, you can view your invoice on the [Invoices@IBM](https://www.ibm.com/support/customer/invoices/welcome){: external} website, which is linked from the [Invoices page](/billing/invoices) in the {{site.data.keyword.IBM_notm}} console.
 
 * New and existing Pay-As-You-Go accounts that are based in the US with any payment method other than a credit card
 * New and existing Pay-As-You-Go accounts not based in the US
@@ -70,12 +70,12 @@ To save a copy of your invoice, click the PDF icon in the **Invoice Number** col
 ### Getting access to Invoices@IBM
 {: #access-external-invoices}
 
-If you are attempting to access the [Invoices@IBM](http://ibm.com/invoices){: external} website for the first time, you can sign up with your IBMid, complete your profile, and provide your {{site.data.keyword.IBM_notm}} customer number to access your account. Your {{site.data.keyword.IBM_notm}} customer number is used for identification purposes during your registration process with the {{site.data.keyword.IBM_notm}} Invoices page and during other interactions with [{{site.data.keyword.IBM_notm}} Support](https://www.ibm.com/support/home/){: external}.
+If you are attempting to access the [Invoices@IBM](https://www.ibm.com/support/customer/invoices/welcome){: external} website for the first time, you can sign up with your IBMid, complete your profile, and provide your {{site.data.keyword.IBM_notm}} customer number to access your account. Your {{site.data.keyword.IBM_notm}} customer number is used for identification purposes during your registration process with the {{site.data.keyword.IBM_notm}} Invoices page and during other interactions with [{{site.data.keyword.IBM_notm}} Support](https://www.ibm.com/support/home/){: external}.
 
 To ensure that access is granted to the correct individuals, you must register by using an email address that includes your company's domain, such as ibm.com. Requests that use personal, non-company-specific email addresses might not be approved. In these cases, contact the [{{site.data.keyword.Bluemix_notm}} Support Center](/unifiedsupport/supportcenter){: external}.
 {: note}
 
-1. Go to [Invoices@IBM](http://ibm.com/invoices){: external}, and select your region.
+1. Go to [Invoices@IBM](https://www.ibm.com/support/customer/invoices/welcome){: external}, and select your region.
 1. Log in with the same IBMid and password that you use to log in to {{site.data.keyword.Bluemix_notm}}.
 1. Complete your profile on the Invoices@IBM website.
 1. From the Active and pending accesses tab, add access to your account and provide your {{site.data.keyword.IBM_notm}} customer number.

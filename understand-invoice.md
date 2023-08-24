@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2023
 
-lastupdated: "2023-05-10"
+lastupdated: "2023-08-24"
 
 keywords: invoices, understanding invoice, iaas invoice, paas invoice, IBM invoices, invoice information, currency change
 
@@ -23,7 +23,7 @@ If your account is billed through a separate billing platform, you can see the f
 
 `The account is invoiced on a separate billing platform. This page reflects only classic infrastructure charges. To view your official invoice and for any pricing inquiries, visit IBM Invoices. To sign up and view your invoices, you must provide your IBM customer number. If you don't know your customer number, contact IBM Cloud Support by calling 1-866-325-0045 and selecting the third option.`
 
-In this situation, go to [Invoices@IBM](http://ibm.com/invoices){: external} to review your upcoming invoice, past invoices, or details about service charges.
+In this situation, go to [Invoices@IBM](https://www.ibm.com/support/customer/invoices/welcome){: external} to review your upcoming invoice, past invoices, or details about service charges.
 
 ## Invoicing for different account types
 {: #different-acct-invoice}
