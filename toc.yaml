@@ -64,6 +64,7 @@ toc:
       - subscriptions.md
       - paygo_committed_use.md
       - cc-working-with.md
+      - exporting-usage.md
 
   - navgroup:
       id: reference
