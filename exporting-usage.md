@@ -30,7 +30,7 @@ Before you can enable your account to share usage data, you need to have Adminis
 To enable your account to share usage data, use the following steps:
 
 1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Settings**.
-1. Click the **Connect**.
+1. Click **Connect**.
 1. Select a Cloud Object Storage instance and Bucket. By selecting these, you are choosing which bucket will store your usage reports.
    1. Optional: If you don't want to select an existing instance, you can click **Select an instance** > **Create new**.
    1. Optional: You can select a bucket or create a new bucket by clicking **Create new bucket** in the Bucket dropdown. For more information about buckets, see [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage). After you create your bucket
