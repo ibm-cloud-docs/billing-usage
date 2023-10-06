@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-05"
+lastupdated: "2023-10-06"
 
 keywords: apptio, cost benefit analysis
 
@@ -18,6 +18,8 @@ subcollection: billing-usage
 
 You can export your account's usage data for visibility, optimization, governance and more across cloud environments. For example, if you are an account administrator and want to learn more about your account's usage and get cost optimization analysis, you can integrate your account with Apptio or to gain insights about your accounts usage.
 {: shortdesc}
+
+When you set up your account to export usage report to a (COS) bucket you are enabling your account to continually export that data. To export data on a one time basis, see [Exporting your usage details to a CSV file](/docs/billing-usage?topic=billing-usage-viewingusage&interface=ui#export-csv).
 
 To enable your account to share usage data, you need to grant permissions to the Billing service to access usage details and export it to a Cloud Object Storage (COS) bucket. Because the report includes usage data for the entire account, child account usage and information about services and instances, the service ID used by the Billing service needs administrator access to export usage details. After this setup is complete, a CSV formatted cost and usage report is automatically exported to your COS bucket on a daily basis.
 
