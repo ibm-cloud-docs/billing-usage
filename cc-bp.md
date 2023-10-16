@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-06-26"
+lastupdated: "2023-10-16"
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, best practices
 
@@ -16,7 +16,7 @@ subcollection: billing-usage
 # Best practices for lowering your account's carbon emissions
 {: #account_setup}
 
-These best practices help you to learn about {{site.data.keyword.cloud_notm}}'s carbon calculator features and options that you can use to track carbon emissions and reduce the carbon footprint of your account. To view your carbon emissions data, go to the [carbon calculator page](/billing/carbon-calculator). If you'd like to know more about the carbon calculator, see [Working with {{site.data.keyword.Bluemix_notm}}'s carbon calculator](/docs/allowlist/carbon-calculator?topic=carbon-calculator-what-is-cloud-calc).
+These best practices help you to learn about {{site.data.keyword.cloud_notm}}'s carbon calculator features and options that you can use to track carbon emissions and reduce the carbon footprint of your account. To view your carbon emissions data, go to the [carbon calculator page](/billing/carbon-calculator). If you'd like to know more about the carbon calculator, see [Working with {{site.data.keyword.Bluemix_notm}}'s carbon calculator](/docs/billing-usage?topic=billing-usage-what-is-cloud-calc).
 
 
 ## Compress your data
