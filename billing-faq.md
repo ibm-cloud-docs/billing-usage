@@ -6,7 +6,7 @@ copyright:
 lastupdated: "2023-08-24"
 
 
-keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, paperless billing, billing item
+keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
 
 subcollection: billing-usage
 
@@ -84,6 +84,13 @@ If your payments are managed outside of the console, go to IBM.com and log in to
 {: faq}
 
 For a Pay-As-You-Go account, you must have an active credit card on file. Our Subscription and {{site.data.keyword.cloud_notm}} Enterprise Savings Plan account types might enable you to use other payment options. Contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to inquire about payment options.
+
+## How do I pay an invoice?
+{: #pay-invoice}
+{: faq}
+
+Use the [Payments](/billing/payments) page in the {{site.data.keyword.cloud}} console to make a one-time payment and to manage your payment methods for recurring monthly charges. Or for some account types, you manage payments by going to [{{site.data.keyword.IBM}} Billing](https://myibm.ibm.com/billing/).  For details, see [Managing payments](docs/billing-usage?topic=billing-usage-linkedusage).
+
 
 ## Why didn't my credit card process?
 {: #addcard}
