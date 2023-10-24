@@ -21,6 +21,7 @@ toc:
       - topicgroup:
           label: Best practices
           topics:
+          - bp_billing.md
           - cc-bp.md
 
   - navgroup:
