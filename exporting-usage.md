@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-06"
+lastupdated: "2023-10-26"
 
 keywords: apptio, cost benefit analysis
 
@@ -13,23 +13,23 @@ subcollection: billing-usage
 {{site.data.keyword.attribute-definition-list}}
 
 <!--staging only for now - Kent Hall-->
-# Exporting your usage data to a third party provider
+# Exporting your usage data for continual insights
 {: #exporting-your-usage}
 
-You can export your account's usage data for visibility, optimization, governance and more across cloud environments. For example, if you are an account administrator and want to learn more about your account's usage and get cost optimization analysis, you can integrate your account with Apptio or to gain insights about your accounts usage.
+You can export your account's usage data to a Cloud Object Storage (COS) bucket for continual visibility, optimization, governance and more across cloud environments. For example, if you are an account administrator and want to learn more about your account's usage and get cost optimization analysis, you can integrate your account with a third party provider to gain insights about your accounts usage.
 {: shortdesc}
 
-When you set up your account to export usage report to a (COS) bucket you are enabling your account to continually export that data. To export data on a one time basis, see [Exporting your usage details to a CSV file](/docs/billing-usage?topic=billing-usage-viewingusage&interface=ui#export-csv).
+When you set up your account to export usage report to a COS bucket you are enabling your account to continually export that data. To export data on a one time basis, see [Exporting your usage details to a CSV file](/docs/billing-usage?topic=billing-usage-viewingusage&interface=ui#export-csv).
 
-To enable your account to share usage data, you need to grant permissions to the Billing service to access usage details and export it to a Cloud Object Storage (COS) bucket. Because the report includes usage data for the entire account, child account usage and information about services and instances, the service ID used by the Billing service needs administrator access to export usage details. After this setup is complete, a CSV formatted cost and usage report is automatically exported to your COS bucket on a daily basis.
+To enable your account to share usage data, you need to grant permissions to the Billing service to access usage details and export it to a COS bucket. Because the report includes usage data for the entire account, child account usage and information about services and instances, the service ID used by the Billing service needs administrator access to export usage details. After this setup is complete, a CSV formatted cost and usage report is automatically exported to your COS bucket on a daily basis.
 
 
 ## Enabling your account to export usage data
 {: #enable-export-usage}
 
-Before you can enable your account to share usage data, you need to have Administrator or editor role on the Billing account management service. For more information, see [IAM access](/docs/account?topic=account-userroles).
+Before you can enable your account to export usage data, you need to have Administrator or editor role on the Billing account management service. For more information, see [IAM access](/docs/account?topic=account-userroles).
 
-To enable your account to share usage data, use the following steps:
+To enable your account to export usage data, use the following steps:
 
 1. From the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Settings**.
 1. Click **Connect**.
@@ -111,7 +111,7 @@ The bucket that you use to store your results does not require any particular se
 ## Disconnecting your account from sharing usage
 {: #disconnect-exporting-your-usage}
 
-If you've set up your account to share usage data to a third party provider, you can disconnect your chosen bucket so that you are no longer sharing data.
+If you've set up your account to export usage data, you can disconnect your chosen bucket so that you are no longer exporting data.
 
 To disconnect, use the following steps:
 
@@ -269,7 +269,7 @@ The following table shows the correlation between the heading titles in your CSV
 
 
 
-### Understanding CSV table headings and API parameters for instances
+### Understanding CSV table headings and JSON report fields for instances
 {: #table-account-summary-csv}
 
 The following table shows the correlation between the heading titles in your CSV report and API parameters. For more information about JSON report fields, see [Usage Reports: Get resource instance usage in an account](/apidocs/metering-reporting#get-resource-usage-account). Each row of the **Account Instance Usage** section represents an instance usage of a specific metric in a service plan.
@@ -443,6 +443,8 @@ The following table shows the correlation between the heading titles in your CSV
 | Quantity         | `reports.resources.plans.usage.quantity` | The aggregated value for the metric |
 | Cost             | `reports.resources.plans.usage.cost`     | The cost that was incurred by the metric |
 | Pending          | `reports.resources.plans.pending`        | Pending charge from classic infrastructure |
+| Classic Infrastructure Product ID | `resources.usage.additional_properties.classic_infrastructure_product_id`  | Product ID of classic infrastructure resource |
+| Classic Infrastructure Package ID |`resources.usage.additional_properties.classic_infrastructure_package_id` | Package ID of classic infrastructure resource |
 {: class="simple-tab-table"}
 {: caption="Table 1. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
