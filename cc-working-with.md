@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2023
-lastupdated: "2023-07-19"
+lastupdated: "2023-07-29"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -15,30 +15,48 @@ subcollection: billing-usage
 # Working with {{site.data.keyword.Bluemix_notm}}'s carbon calculator
 {: #what-is-cloud-calc}
 
-Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that are provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to GHG protocol standards. The data sources and tools used to calculate client's emissions are subject to change by IBM without notice. Client is responsible for confirming accuracy of any calculator output for purposes of client’s compliance with any applicable regulatory obligations or for any other purpose
+Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that are provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to GHG protocol standards. The data sources and tools used to calculate client's emissions are subject to change by IBM without notice. Client is responsible for confirming accuracy of any calculator output for purposes of client’s compliance with any applicable regulatory obligations or for any other purpose.
 {: important}
 
 {{site.data.keyword.cloud_notm}}'s carbon calculator displays the carbon emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers. Tracking your carbon emissions is important so that you can know how much carbon emissions your account is associated with, and it helps you manage and mitigate your carbon footprint over time.
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
-* {{site.data.keyword.baremetal_short}} for Classic
+* {{site.data.keyword.appconfig_short}}
+* Application Load Balancer
 * {{site.data.keyword.bm_is_short}}
+* {{site.data.keyword.baremetal_short}} for Classic
 * {{site.data.keyword.blockstorageshort}}
 * {{site.data.keyword.block_storage_is_short}}
 * Cloud HSM
-* {{site.data.keyword.cos_full_notm}}
+* Cloud Object Storage
+* {{site.data.keyword.codeengineshort}}
 * {{site.data.keyword.dns_short}}
+* {{site.data.keyword.databases-for-elasticsearch}}
+* {{site.data.keyword.databases-for-enterprisedb}}
+* {{site.data.keyword.databases-for-etcd}}
+* {{site.data.keyword.databases-for-mongodb}}
+* {{site.data.keyword.databases-for-mysql}}
+* {{site.data.keyword.databases-for-postgresql}}
+* {{site.data.keyword.databases-for-redis}}
+* {{site.data.keyword.en_short}}
+* {{site.data.keyword.messagehub}}
 * {{site.data.keyword.filestorage_short}}
 * {{site.data.keyword.filestorage_vpc_short}}
 * {{site.data.keyword.fsa10_full}}
-* {{site.data.keyword.containershort}}
+* {{site.data.keyword.keymanagementserviceshort}}
+* {{site.data.keyword.containershort_notm}}
 * {{site.data.keyword.loadbalancer_short}} for Classic
-* {{site.data.keyword.loadbalancer_short}} for VPC (Application)
-* {{site.data.keyword.loadbalancer_short}} for VPC (Network)
-* Virtual Server for Classic
-* Virtual Server for VPC
+* {{site.data.keyword.messages-for-rabbitmq}}
+* Network Load Balancer
+* SAP on Classic Infrastructure
+* SAP on VMware
+* {{site.data.keyword.secrets-manager_short}}
+* VMware Solutions
 * {{site.data.keyword.vpn_vpc_short}}
+* {{site.data.keyword.virtualmachinesshort}} for Classic
+* Virtual Server for VPC
+
 
 Because emissions are reported after the close of each billing cycle, data for newly added services and current quarter results take about two months to populate.
 {: note}
