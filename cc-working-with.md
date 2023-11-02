@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2023
-lastupdated: "2023-07-29"
+lastupdated: "2023-11-02"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -30,7 +30,6 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.block_storage_is_short}}
 * Cloud HSM
 * Cloud Object Storage
-* {{site.data.keyword.codeengineshort}}
 * {{site.data.keyword.dns_short}}
 * {{site.data.keyword.databases-for-elasticsearch}}
 * {{site.data.keyword.databases-for-enterprisedb}}
