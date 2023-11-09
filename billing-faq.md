@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2023
 
-lastupdated: "2023-08-24"
+lastupdated: "2023-11-09"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -37,16 +37,16 @@ Multiply the two values together, and the result is the GB-hour.
 {: #bandwidth-usage}
 {: faq}
 
-{{site.data.keyword.cloud_notm}} systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs).
+{{site.data.keyword.cloud_notm}} systems monitor all inbound and outbound traffic for a server regardless of the type of traffic. Based on the allocated bandwidth for a server, overages are assessed for excess traffic, which is monitored at the network switch level. Monitor your bandwidth usage with bandwidth graphs. For more information, see [Viewing bandwidth graphs](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs).
 
 
 ## How do I prevent bandwidth overages?
 {: #bandwidth-usage-overages}
 {: faq}
 
-If you provision multiple servers, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to request a quote for additional server bandwidth.
+If you provision multiple servers, you can potentially reduce future bandwidth overage charges by pooling your servers' bandwidth. For more information, see [Optimizing your bandwidth usage](/docs/bare-metal?topic=bare-metal-bm-view-bandwidth-graphs#bm-optimize-bandwidth-usage). Contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to request a quote for more server bandwidth.
 
-##  What's the difference between a Pay-As-You-Go and Subscription account?
+##  What's the difference between a Pay-As-You-Go and a Subscription account?
 {: #billable-account-types}
 {: faq}
 
@@ -66,7 +66,7 @@ When you reach any quota for Lite plan instances, the service for that month is 
 {: faq}
 {: support}
 
-As of March 31, 2023, PayPal is no longer accepted.
+As of 31 March 2023, PayPal is no longer accepted.
 
 ## Can I update my credit card?
 {: #updatecard}
@@ -77,7 +77,7 @@ Updating your credit card is just like adding a new one. Go to the [Payments](/b
 
 To switch to a different payment method, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you.
 
-If your payments are managed outside of the console, go to IBM.com and log in to the Manage Payment Method application to update your credit card. For more information, see [How do I add a credit card when the option isn't available through the console?](/docs/billing-usage?topic=billing-usage-ts-ccibm)
+If your payments are managed outside of the console, go to [{{site.data.keyword.IBM}}](https://www.ibm.com/) and log in to the Manage Payment Method application to update your credit card. For more information, see [How do I add a credit card when the option isn't available through the console?](/docs/billing-usage?topic=billing-usage-ts-ccibm).
 
 ## How do I change my payment method?
 {: #pay-method}
@@ -89,8 +89,21 @@ For a Pay-As-You-Go account, you must have an active credit card on file. Our Su
 {: #pay-invoice}
 {: faq}
 
-Use the [Payments](/billing/payments) page in the {{site.data.keyword.cloud}} console to make a one-time payment and to manage your payment methods for recurring monthly charges. Or for some account types, you manage payments by going to [{{site.data.keyword.IBM}} Billing](https://myibm.ibm.com/billing/).  For details, see [Managing payments](docs/billing-usage?topic=billing-usage-linkedusage).
+Use the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console to make a one-time payment and to manage your payment methods for recurring monthly charges. Or for some account types, you manage payments by going to [{{site.data.keyword.IBM}} Billing](https://myibm.ibm.com/billing/). For more information, see [Managing payments](/docs/billing-usage?topic=billing-usage-linkedusage).
 
+To make your payment outside of the console, complete these steps:
+1. Go to [Invoices](https://cloud.ibm.com/billing/invoices), and log in with the same IBMid and password that you use to log in to {{site.data.keyword.cloud_notm}}.
+1. Select **Pay** for the invoice that is to be paid.
+1. Select the credit card option or ACH.
+1. Enter your credit card information or ACH, and click **Pay**.
+
+   An option to save this information for future use is available.
+   {: note}
+
+A confirmation and a transaction number is displayed when the transaction is complete.
+
+The credit card payment option is available only for the US and Canada.
+{: note}
 
 ## Why didn't my credit card process?
 {: #addcard}
@@ -98,7 +111,7 @@ Use the [Payments](/billing/payments) page in the {{site.data.keyword.cloud}} co
 
 Protecting your identity is a priority for us, so we take credit card verification seriously.
 
-If your credit card did not process successfully, contact us by calling 1-866-325-0045 and selecting the third option. For information about specific error messages, see [Credit Card error messages](/docs/billing-usage?topic=billing-usage-cc-error-messages).
+If your credit card did not process successfully, contact us by calling 1-866-325-0045 and selecting the third option. For more information, see [Credit Card error messages](/docs/billing-usage?topic=billing-usage-cc-error-messages).
 
 You might manage your payment method on a separate billing platform, [{{site.data.keyword.IBM_notm}} Billing](https://myibm.ibm.com/billing/). For more information about that process, see [Managing your payment method outside of the console](/docs/billing-usage?topic=billing-usage-linkedusage#payment-method-ibm).
 
@@ -160,7 +173,7 @@ Promo codes are provided on a limited basis by {{site.data.keyword.Bluemix_notm}
 {: #get-feature-code}
 {: faq}
 
-Feature codes are provided by {{site.data.keyword.Bluemix_notm}} sales and educational providers on a limited basis. Feature codes are meant for select groups and are typically given out at hackathons, conferences, and other events. If you are taking a course through an educational provider and need additional resources to complete the course, contact your educational provider to determine if a feature code is applicable.
+Feature codes are provided by {{site.data.keyword.Bluemix_notm}} sales and educational providers on a limited basis. Feature codes are meant for select groups and are typically given out at hackathons, conferences, and other events. If you are taking a course through an educational provider and need more resources to complete the course, contact your educational provider to determine whether a feature code is applicable.
 
 ## How do I apply a promo code?
 {: #how-apply-promo}
@@ -170,7 +183,7 @@ To apply your promo code, go to the [Promotions](/billing/promotions) page in th
 
 You might be looking for information on feature codes and subscription codes. For more information, see [Applying feature codes](/docs/account?topic=account-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code).
 
-If you can't apply a promo code that you received from {{site.data.keyword.Bluemix_notm}} Sales or an educational provider, contact sales or the provider for additional help.
+If you can't apply a promo code that you received from {{site.data.keyword.Bluemix_notm}} Sales or an educational provider, contact sales or the provider for more help.
 {: note}
 
 ## Why did I get invoiced when I have remaining promotion credits?
@@ -208,7 +221,6 @@ As the account owner, you're responsible for all charges that are incurred by us
 Resources and applications that remain running in an account are subject to charges based on the pricing and description of the product. For example, this includes buildpacks, Platform as a Service, and Infrastructure as a Service.
 
 If you believe that charges on your invoice are incorrect, [contact Support](/unifiedsupport/supportcenter){: external} within 30 calendar days of the invoice due date or use the contact information that is found on your invoice.
-
 
 ## Why did I get billed for a resource I deleted?
 {: #stop-billing}
