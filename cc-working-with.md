@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2023
-lastupdated: "2023-11-02"
+lastupdated: "2023-12-05"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -46,6 +46,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.keymanagementserviceshort}}
 * {{site.data.keyword.containershort_notm}}
 * {{site.data.keyword.loadbalancer_short}} for Classic
+* Load Balancer for VPC
 * {{site.data.keyword.messages-for-rabbitmq}}
 * Network Load Balancer
 * SAP on Classic Infrastructure
