@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2023
-lastupdated: "2023-12-05"
+lastupdated: "2023-12-06"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -105,7 +105,7 @@ The goal of the calculation method is to associate electricity consumption and c
 * Per client account, cloud service, and location where the service is running
 * Per client account and Resource Group
 
-For more in depth explanation about carbon calculators methodology and calculations, see [Energy and carbon quantification methodology](https://cloud.ibm.com/media/docs/downloads/billing-usage/carbon-calc-method.pdf){: external}.
+For more in depth explanation about carbon calculators methodology and calculations, see [Energy and carbon quantification methodology](https://cloud.ibm.com/media/docs/downloads/billing-usage/carbon-calc-method-v2.pdf){: external}.
 
 ## Tracking your emissions with Carbon Calculator
 {: #tracking-emissions-widget}
