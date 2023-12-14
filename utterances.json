@@ -59,9 +59,14 @@
     "not processing my credit card",
     "Problem authorizing the credit card. We are unable to process your request",
     "problem with credit card",
-    "There was an error in the payment process",
     "trouble adding a credit card",
-    "can't register my credit card"
+    "can't register my credit card",
+    "I can't seem to get my account verified",
+    "my account won't verify",
+    "sign up for an account but I keep having credit card verification problems",
+    "We couldn't verify your credit card information",
+    "Why can't I verify my IBM Cloud account",
+    "why do i get an error while verifying my identity"
   ],
   "promo-feature-codes": [
     "feature codes the same as promo codes",
