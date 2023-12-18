@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2023
-lastupdated: "2023-12-06"
+lastupdated: "2023-12-18"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -15,7 +15,7 @@ subcollection: billing-usage
 # Working with {{site.data.keyword.Bluemix_notm}}'s carbon calculator
 {: #what-is-cloud-calc}
 
-Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that are provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to GHG protocol standards. The data sources and tools used to calculate client's emissions are subject to change by IBM without notice. Client is responsible for confirming accuracy of any calculator output for purposes of client’s compliance with any applicable regulatory obligations or for any other purpose.
+Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that are provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to GHG protocol standards. The data sources and tools that are used to calculate client's emissions are subject to change by IBM without notice. The client is responsible for confirming the accuracy of any calculator output for purposes of client’s compliance with any applicable regulatory obligations or for any other purpose.
 {: important}
 
 {{site.data.keyword.cloud_notm}}'s carbon calculator displays the carbon emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers. Tracking your carbon emissions is important so that you can know how much carbon emissions your account is associated with, and it helps you manage and mitigate your carbon footprint over time.
@@ -107,13 +107,13 @@ The goal of the calculation method is to associate electricity consumption and c
 
 For more in depth explanation about carbon calculators methodology and calculations, see [Energy and carbon quantification methodology](https://cloud.ibm.com/media/docs/downloads/billing-usage/carbon-calc-method-v2.pdf){: external}.
 
-## Tracking your emissions with Carbon Calculator
-{: #tracking-emissions-widget}
+
+## Tracking account emissions with Carbon Calculator
+{: #tracking-emissions-account}
+
+To view emissions data for your account, you must be assigned the viewer or higher role on the billing service to view and export the emissions data for the entire account. An account or billing administrator role is required to grant other users access to the Billing service. For more information about assigning access, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=api#billing-acct-mgmt-api).
 
 Emissions from key greenhouse gases are measured in metric tons of carbon dioxide-equivalent (kgCO~2~e). You can view your account's emissions data in the {{site.data.keyword.cloud_notm}} console. Go to **Manage** > **Billing and Usage** > **Carbon Calculator** to view the following widgets:
-
-<!--If you have an enterprise account, you can view emission data for your enterprise, account groups, and child accounts by logging in to your enterprise's parent account.
-{: note}-->
 
 * Total emissions: The total emissions are calculated by comparing the energy-related usage with data center energy sources. You can download the total emissions data in CSV format.
 
@@ -123,5 +123,22 @@ Emissions from key greenhouse gases are measured in metric tons of carbon dioxid
 
 * Emissions by resource group: The carbon emissions are broken down by group. Most services are displayed by resource group. However, Cloud Foundry is displayed by organization, and Classic Infrastructure is displayed in a dedicated group. The emissions are displayed only if a group contains those services.
 
-You must be assigned the viewer or higher role on the billing service to view and export the emissions data for the entire account. An account or billing administrator role is required to grant other users access to the Billing service. For more information about assigning access, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=api#billing-acct-mgmt-api).
-{: note}
+
+## Tracking enterprise emissions with Carbon Calculator
+{: #tracking-emissions-enterprise}
+​
+The enterprise level view of Carbon Calculator enables you to view and export emissions data for your entire enterprise account. You must be assigned the `Usage report viewer` role on the enterprise service in the enterprise parent account in order to view and export the emissions data at the enterprise level. For more information about assigning access, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=api#billing-acct-mgmt-api).
+
+In the enterprise level view, you can filter your emissions data down to a specific account group or account by clicking that entity in the account hierarchy. The enterprise view provides two additional widgets:
+​
+* Emissions by account group: Carbon emissions broken down by account group. This displays if the entity being viewed contains account groups. Emissions listed under "Miscellaneous" do not belong to an account group.
+​
+* Emissions by account: Carbon emissions broken down by account. This will display if the entity being viewed contains only accounts.
+​
+Learn more about setting up and managing [Enterprise accounts.](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise_)
+​
+<!--
+## Working with the Carbon Calculator API
+{: #tracking-emissions-api}
+​
+Users wishing to pull emissions data or incorporate that data into their own applications and processes can leverage the Carbon Calculator API. [View API documentation.](https://test.cloud.ibm.com/apidocs/carbon-calculator)-->
