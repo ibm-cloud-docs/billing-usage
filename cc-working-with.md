@@ -85,7 +85,7 @@ As organizations and users work together to achieve better outcomes for their bu
 
 One use case strategy for sustainability involves ESG reporting, which uses environmental, social, and governance reporting to integrate data silos. For more information, explore [IBM Envizi](https://www.ibm.com/products/envizi){: external}.
 
-## IBM Cloud Carbon Calculator methodology
+## IBM Cloud carbon calculator methodology
 {: #carbon-methodology}
 
 {{site.data.keyword.cloud_notm}} plays a critical role for achieving {{site.data.keyword.IBM_notm}}’s energy conservation, renewable electricity procurement, and greenhouse gas (GHG) emissions reduction targets. {{site.data.keyword.cloud_notm}} is improving the estimation approach by introducing the carbon calculator, which gives you a detailed view of your cloud electricity consumption and associated GHG emissions.
@@ -108,7 +108,7 @@ The goal of the calculation method is to associate electricity consumption and c
 For more in depth explanation about carbon calculators methodology and calculations, see [Energy and carbon quantification methodology](https://cloud.ibm.com/media/docs/downloads/billing-usage/carbon-calc-method-v2.pdf){: external}.
 
 
-## Tracking account emissions with Carbon Calculator
+## Tracking account emissions with carbon calculator
 {: #tracking-emissions-account}
 
 To view emissions data for your account, you must be assigned the viewer or higher role on the billing service to view and export the emissions data for the entire account. An account or billing administrator role is required to grant other users access to the Billing service. For more information about assigning access, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=api#billing-acct-mgmt-api).
@@ -124,10 +124,10 @@ Emissions from key greenhouse gases are measured in metric tons of carbon dioxid
 * Emissions by resource group: The carbon emissions are broken down by group. Most services are displayed by resource group. However, Cloud Foundry is displayed by organization, and Classic Infrastructure is displayed in a dedicated group. The emissions are displayed only if a group contains those services.
 
 
-## Tracking enterprise emissions with Carbon Calculator
+## Tracking enterprise emissions with carbon calculator
 {: #tracking-emissions-enterprise}
 ​
-The enterprise level view of Carbon Calculator enables you to view and export emissions data for your entire enterprise account. You must be assigned the `Usage report viewer` role on the enterprise service in the enterprise parent account in order to view and export the emissions data at the enterprise level. For more information about assigning access, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=api#billing-acct-mgmt-api).
+The enterprise level view of carbon calculator enables you to view and export emissions data for your entire enterprise account. You must be assigned the `Usage report viewer` role on the enterprise service in the enterprise parent account in order to view and export the emissions data at the enterprise level. For more information about assigning access, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=api#billing-acct-mgmt-api).
 
 In the enterprise level view, you can filter your emissions data down to a specific account group or account by clicking that entity in the account hierarchy. The enterprise view provides two additional widgets:
 ​
@@ -138,7 +138,7 @@ In the enterprise level view, you can filter your emissions data down to a speci
 Learn more about setting up and managing [Enterprise accounts.](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise_)
 ​
 <!--
-## Working with the Carbon Calculator API
+## Working with the carbon calculator API
 {: #tracking-emissions-api}
 ​
 Users wishing to pull emissions data or incorporate that data into their own applications and processes can leverage the Carbon Calculator API. [View API documentation.](https://test.cloud.ibm.com/apidocs/carbon-calculator)-->
