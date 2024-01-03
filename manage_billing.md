@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2023
-lastupdated: "2022-04-06"
+  years: 2015, 2024
+lastupdated: "2024-01-03"
 
 
 keywords: payment method, credit card, payment, billing method, pay, pay my bill, billing items, ibm billing,
@@ -76,17 +76,6 @@ The process for updating a credit card requires a manual review that might take 
 American Express can't be used as a payment method for India, Singapore, and South Africa based accounts that are billed in US dollars.
 {: note}
 
-### Updating your payment methods
-{: #changepaymethod-paypal}
-
-If you're using a payment method that's not a credit card, complete the following steps to switch to your payment method:
-
-1. Go to the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
-2. Click **Payment method**.
-3. In the Add Payment Method section, select **Pay with Other**, and click **Submit change request**. A support case to change your payment method is then created for you.
-
-Some payment methods aren't accepted as recurring payment methods. You must manually submit the payment each month.
-{: note}
 
 ###  India-based customers with accounts that are billed in US Dollars
 {: #rupees-billing}
