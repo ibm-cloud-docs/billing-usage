@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-02-28"
+  years: 2017, 2024
+lastupdated: "2024-01-11"
 
 keywords: change service, upgrade service, service plan, pricing plan
 
@@ -10,24 +10,12 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:tip: .tip}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:curl: .ph data-hd-programlang='curl'}
-{:go: .ph data-hd-programlang='go'}
-{:javascript: .ph data-hd-programlang='javascript'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Updating your pricing plan
 {: #changing}
 
-You can update the pricing plan of an {{site.data.keyword.Bluemix}} service if plan updates are enabled for that specific service. For example, you might want to upgrade or reduce your pricing plan. You can update the service's pricing plan from the service instance dashboard.
+You can update the pricing plan of an {{site.data.keyword.Bluemix}} service if plan updates are enabled for the specific service. For example, you might want to upgrade or reduce your pricing plan. You can update the service's pricing plan from the service instance dashboard.
 {: shortdesc}
 
 Are you looking for details about upgrading your account type? See [Upgrading your account](/docs/account?topic=account-upgrading-account) for more information.
@@ -39,7 +27,7 @@ You can update the pricing plan only for certain services. If plan updates are e
 {: #changing-plan-ui}
 {: ui}
 
-1. From the {{site.data.keyword.Bluemix_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Resource List**, and select the service.
+1. From the {{site.data.keyword.Bluemix_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Resource list**, and select the service.
 1. Click **Plan** in the service instance dashboard. Select the pricing plan that you want, and click **Save**.
 
     Some services have pricing plans that are not selectable from the Plan page. Typically, these plans aren't selectable because they require assistance from the {{site.data.keyword.Bluemix_notm}} Sales team or they require a migration before you can update plans. See the documentation for the specific service for information about the required next steps.
@@ -53,7 +41,7 @@ Complete the following steps to restart your app:
 
 For more information about any further required actions, see the documentation for the specific service.
 
-## Updating a plan by using the CLI
+## Updating a pricing plan by using the CLI
 {: #changing_command_line}
 {: cli}
 
@@ -61,14 +49,14 @@ Complete the following steps to update a pricing plan by using the {{site.data.k
 
 1. Check whether the service is enabled with the resource controller.
 
-   ```bash
+   ```
    ibmcloud catalog service <service_name>
    ```
    {: codeblock}
 
    The output lists `RC Compatible true`. Make a note of the ID of the plan that you want to update to.
 
-   ```text
+   ```
    RC Compatible      true
    RC Provisionable   true
    IAM Compatible     true
@@ -81,25 +69,19 @@ Complete the following steps to update a pricing plan by using the {{site.data.k
 
    - If the service is enabled with the resource controller, run the [`ibmcloud resource service-instance-update` command](/docs/cli?topic=cli-ibmcloud_commands_resource#ibmcloud_resource_service_instance_update).
 
-     ```bash
+     ```
      ibmcloud resource service-instance-update <service_instance_name> --service-plan-id <plan_id>
      ```
      {: codeblock}
 
-   - If the service is based on Cloud Foundry, run the [`ibmcloud cf update-service` command](/docs/cli?topic=cli-ibmcloud_commands_services#ibmcloud_service_update).
-
-     ```bash
-     ibmcloud cf update-service <service_instance_name> [-p <plan_name>]
-     ```
-     {: codeblock}
 
 ## Updating a pricing plan by using the API
 {: #changing-plan-api}
 {: api}
 
-You can programmatically update the pricing plan for an instance by calling the [{{site.data.keyword.cloud_notm}} Resource Controller API](/apidocs/resource-controller/resource-controller#update-resource-instance) as shown in the following sample request. The example updates a pricing plan for an instance.
+You can programmatically update a pricing plan for a service by calling the [{{site.data.keyword.cloud_notm}} Resource Controller API](/apidocs/resource-controller/resource-controller#update-resource-instance) as shown in the following sample request. The example updates a pricing plan for an instance.
 
-```curl
+```
 curl -X PATCH https://resource-controller.cloud.ibm.com/v2/resource_instances/8d7af921-b136-4078-9666-081bd8470d94 -H 'Authorization: Bearer <>' -H 'Content-Type: application/json' -d '{
     "name": "my-instance-new-binding-1",
     "resource_plan_id": "744bfc56-d12c-4866-88d5-dac9139e0e5d"
