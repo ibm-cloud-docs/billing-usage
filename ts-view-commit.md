@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-02-09"
+  years: 2020, 2024
+lastupdated: "2024-01-11"
 
 keywords: troubleshoot account, invoiced for commitment, unused commitment, commitment bill
 
-subcollection: account
+subcollection: billing-usage
 
 content-type: troubleshoot
 
