@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-26"
+  years: 2023, 2024
+lastupdated: "2024-01-12"
 
 keywords: apptio, cost benefit analysis
 
@@ -12,7 +12,6 @@ subcollection: billing-usage
 
 {{site.data.keyword.attribute-definition-list}}
 
-<!--staging only for now - Kent Hall-->
 # Exporting your usage data for continual insights
 {: #exporting-your-usage}
 
@@ -26,6 +25,7 @@ To enable your account to share usage data, you need to grant permissions to the
 
 ## Enabling your account to export usage data
 {: #enable-export-usage}
+{: ui}
 
 Before you can enable your account to export usage data, you need to have Administrator or editor role on the Billing account management service. For more information, see [IAM access](/docs/account?topic=account-userroles).
 
@@ -39,7 +39,6 @@ To enable your account to export usage data, use the following steps:
 1. For service to service authorizations, click **Authorize**. For the required access, select **Object Writer** and **Content Reader**. Click **Review** and then **Assign**.
 1. Click **Connect** after you review your folder details.
 
-<!--terraform steps won't release for Oct 2 GA
 ## Enabling your account to export usage data by using Terraform
 {: #attach-terraform}
 {: terraform}
@@ -47,13 +46,17 @@ To enable your account to export usage data, use the following steps:
 Before you can attach enable your account to export usage data by using Terraform, make sure that you have completed the following:
 
 - Install the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform. For more information, see the tutorial for [Getting started with Terraform on {{site.data.keyword.cloud}}](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started). The plug-in abstracts the {{site.data.keyword.cloud_notm}} APIs that are used to complete this task.
-- Create a Terraform configuration file that is named `main.tf`. In this file, you define resources by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
+- Create a Terraform configuration file that is named `main.tf`. In this file, you define resources by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language){: external}.
 
-To enable your account to export usage data, you need to authorize a policy between two instances and provision `billing_report_snaptshot` for a resource instance. Use the following steps to attach tags to a resource by using Terraform:
+To enable your account to export usage data, you need to authorize a policy between two instances and provision `billing_report_snaptshot` for a resource instance. For more information, see the terraform documentation for [ibm_billing_report_snapshot](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/billing_report_snapshot){: external}. Use the following steps to create an authorization policy and provision `billing_report_snaptshot` for a resource instance by using Terraform:
+
+Credentials need to be provided by setting the environment variable `IC_API_KEY` that corresponds to the API key of the respective account to run the billing snapshot configuration. For more information, see [IBM Cloud Provider terraform documentation](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs){: external}.
 
 1. The following example creates an authorization policy between two specific instances.
 
    ```terraform
+   provider "ibm" {
+   }
    resource "ibm_iam_authorization_policy" "policy" {
    source_service_name         = "billing"
    target_service_name         = "cloud-object-storage"
@@ -66,8 +69,9 @@ To enable your account to export usage data, you need to authorize a policy betw
 1. The following example provisions `billing_report_snaptshot` for a resource instance.
 
    ```terraform
+      provider "ibm" {
+   }
    resource "ibm_billing_report_snapshot" "billing_report_snapshot_instance" {
-   account_id = var.billing_report_snapshot_account_id
    interval = var.billing_report_snapshot_interval
    versioning = var.billing_report_snapshot_versioning
    report_types = var.billing_report_snapshot_report_types
@@ -79,14 +83,14 @@ To enable your account to export usage data, you need to authorize a policy betw
    ```
    {: codeblock}
 
-1. After you finish building your configuration file, initialize the Terraform CLI. For more information, see [Initializing Working Directories](https://www.terraform.io/cli/init){: external}.
+1. After you finish building your configuration file, initialize the Terraform CLI. For more information, see [Initializing Working Directories](https://developer.hashicorp.com/terraform/cli/init){: external}.
 
    ```terraform
    terraform init
    ```
    {: pre}
 
-1. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://www.terraform.io/cli/run){: external}.
+1. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
 
    1. Run `terraform plan` to generate a Terraform execution plan to preview the proposed actions.
 
@@ -101,15 +105,18 @@ To enable your account to export usage data, you need to authorize a policy betw
       terraform apply
       ```
       {: pre}
--->
+
+If a service-to-service authentication already exists, the `depends_on` constraint can be removed for creation of billing_report_snapshot_instance.
+{: note}
 
 ### Bucket requirements
 {: #enable-export-usage-bucket-requirements}
 
-The bucket that you use to store your results does not require any particular settings or naming format. All the traffic between Billing service and Cloud Object Storage is done over a private network. The retrieval of data for display purposes in the console does not cost you anything. However, if you choose to download the data directly from Cloud Object Storage after it is stored, you do incur a data transfer cost. See [Cloud Object Storage pricing](https://cloud.ibm.com/docs/cloud-object-storage/iam?topic=cloud-object-storage-billing) for more information.
+The bucket that you use to store your results does not require any particular settings or naming format. All the traffic between Billing service and Cloud Object Storage is done over a private network. The retrieval of data for display purposes in the console does not cost you anything. However, if you choose to download the data directly from Cloud Object Storage after it is stored, you do incur a data transfer cost. See [Cloud Object Storage pricing](/docs/cloud-object-storage/iam?topic=cloud-object-storage-billing) for more information.
 
 ## Disconnecting your account from sharing usage
 {: #disconnect-exporting-your-usage}
+{: ui}
 
 If you've set up your account to export usage data, you can disconnect your chosen bucket so that you are no longer exporting data.
 
@@ -334,6 +341,9 @@ For tags that are of `key:value` format, a new column is added for each and ever
 | `i2`        |            | `test` | `backend` |
 {: caption="Table 3. Example of tag layout in the CSV report" caption-side="bottom"}
 
+Tags are shown for both active and deleted resources. It might take up to 24 hours to reflect the updated or created tags.
+{: note}
+
 
 ### Understanding CSV table headings and JSON report fields for enterprise account summary
 {: #enterprise-usage-table-account-summary-csv}
@@ -455,7 +465,7 @@ The following are the JSON report section APIs for the different CVS headings:
 
 * Billing Units: [Enterprise Billing Units: List billing units](/apidocs/enterprise-apis/billing-unit#list-billing-units){: external}
 * Credit Pools and Overages: [Enterprise Billing Units: Get credit pools](/apidocs/enterprise-apis/billing-unit#get-credit-pools){: external}
-* Enterprise Usage Summary and Enterprise Resource Usage: [Enterprise Usage Reports API: Get usage reports for enterprise entities](/apidocs/enterprise-apis/resource-usage-reports#get-resource-usage-report-csv){: external}
+* Enterprise Usage Summary and Enterprise Resource Usage: [Enterprise Usage Reports API: Get usage reports for enterprise entities](/apidocs/enterprise-apis/resource-usage-reports#get-resource-usage-report){: external}
 
 <!--
 When `recurse=true`, the usage in the **Enterprise Resource Usage** section is aggregated by each metric of a service plan and it's broken down by child accounts. Each row represents the total usage of a service plan metric in some child account. When `recurse=false`, the usage is aggregated by each metric of a service plan and each row represents the total usage of a service plan metric of all the sub-accounts or child-accounts in the requested entity hierarchy. In the Hierarchy section, `recurse=true` shows all the child entities of the requested entity, and for `recurse=false`, it shows only the direct children of the requested entity.
