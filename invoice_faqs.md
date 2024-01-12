@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-07-24"
+  years: 2020, 2024
+lastupdated: "2024-01-12"
 
 keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicing, adjustments
 
@@ -27,7 +27,7 @@ Review the following FAQs to find helpful information about invoices. To find al
 
 If you have a billable account, you can access your invoice by clicking **Manage > Billing and usage**, and selecting **Invoices**. If you have a Lite account, you don't have an invoice because you're never charged for Lite plan usage.
 
-You might be redirected to view your invoices on the [IBM Invoices website](https://www.ibm.com/invoices){: external}. See [How do I view invoices for Pay-As-You-Go or Subscription accounts?](/docs/billing-usage?topic=billing-usage-ts_cant-view-invoice) and [Viewing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices) for more information.
+You might be redirected to view your invoices on the [IBM Invoices website](https://www.ibm.com/support/customer/invoices/){: external}. See [How do I view invoices for Pay-As-You-Go or Subscription accounts?](/docs/billing-usage?topic=billing-usage-ts_cant-view-invoice) and [Viewing your invoices](/docs/billing-usage?topic=billing-usage-managing-invoices) for more information.
 
 ## Why does my usage not match my invoice?
 {: #usage-not-match-invoice}
@@ -48,13 +48,15 @@ You might not have the correct permissions. Ask your account owner to add you to
 
 To download your invoice, go to **Manage > Billing and usage**, and select **Invoices**. Then, click the **Download** icon ![Download icon](../icons/download.svg "Download") and choose an invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet.
 
-In some cases, you are redirected to the [IBM Invoices website](https://www.ibm.com/invoices){: external} where you can download your invoices. From the Invoices page, click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") and select the invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet.
+In some cases, you are redirected to the [IBM Invoices website](https://www.ibm.com/support/customer/invoices/){: external} where you can download your invoices. From the Invoices page, click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") and select the invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet.
 
+<!-- link is broken and had to remove the linked doc until we can verify the steps
 ## Is paperless invoicing available?
 {: #paperless-invoices}
 {: faq}
 
 Yes, you can switch to paperless invoices by submitting a request on the [{{site.data.keyword.IBM_notm}} Customer Support site](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html){: external}. For more information, see [Requesting paperless invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#request-paperless-invoices).
+-->
 
 ## What are the adjustments that are shown on my invoice?
 {: #adjustments-invoices}
@@ -66,7 +68,7 @@ The adjustments section of your current invoice includes charges or credits from
 {: #paid-invoices}
 {: faq}
 
-If you manage your invoices through the {{site.data.keyword.IBM_notm}} Console, you can see their status by clicking **Manage > Billing and usage**, and selecting **Invoices**. When the invoice is paid, the status says Closed. If your invoices are managed through the [IBM Invoices website](https://www.ibm.com/invoices){: external}, it's paid when the status says Settled.
+If you manage your invoices through the {{site.data.keyword.IBM_notm}} Console, you can see their status by clicking **Manage > Billing and usage**, and selecting **Invoices**. When the invoice is paid, the status says Closed. If your invoices are managed through the [IBM Invoices website](https://www.ibm.com/support/customer/invoices/){: external}, it's paid when the status says Settled.
 
 ## Can my usage differ from what's reflected on my invoice?
 {: #invoice-usage-differ}
