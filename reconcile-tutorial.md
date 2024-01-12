@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2022
-lastupdated: "2022-08-30"
+   years: 2022, 2024
+lastupdated: "2024-01-12"
 
 keywords: invoice reconciliation, non-subscription invoice, map invoice, map usage, one time charges, recurring invoice, recurring charges
 
@@ -70,7 +70,7 @@ In this example, the Platform Services charge matches the total on the PaaS fina
 
 ## Identify the new and one-time charges
 {: #new-onetime-charge}
-{: #step}
+{: step}
 
 Next, you need to identify and find the sum of the new and one time charges. Your new and one-time charges are on the [Invoices page](/billing/invoices) in the console. There are three new charges on the invoices page during this time period: A charge of $500.52, $767.10, and $171.60.
 
@@ -81,7 +81,7 @@ The remaining infrastructure charges of $322,806.71 USD from the recurring invoi
 
 ## Granular view of the line item charges
 {: #understand-line-item-charges}
-{: #step}
+{: step}
 
 Now that we confirmed that the final invoice totals match the recurring and new and one time charges in the console, let’s find out what the charges on the final invoice represent.
 
