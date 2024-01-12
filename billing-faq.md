@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2015, 2023
+  years: 2015, 2024
 
-lastupdated: "2023-11-09"
+lastupdated: "2024-01-12"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -167,7 +167,7 @@ Feature codes provide enhancements for an account, such as an unlimited number o
 {: #get-promo-code}
 {: faq}
 
-Promo codes are provided on a limited basis by {{site.data.keyword.Bluemix_notm}} sales to customers with Pay-As-You-Go and Subscription accounts. Promotions provide specific discounts for a set amount of time. For more information, see [Applying promo codes](/docs/account?topic=billing-usage-applying-promo-codes).
+Promo codes are provided on a limited basis by {{site.data.keyword.Bluemix_notm}} sales to customers with Pay-As-You-Go and Subscription accounts. Promotions provide specific discounts for a set amount of time. For more information, see [Applying promo codes](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
 
 ## Where can I get a feature code?
 {: #get-feature-code}
@@ -273,7 +273,7 @@ If the credit isn't on the Usage page, go to **Invoices** and click link with th
 {: #startup-ibm}
 {: faq}
 
-Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://developer.ibm.com/startups/){: external}. The awarding and extension of credits through this IBM corporate program isn't directly supported by {{site.data.keyword.cloud_notm}} Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an {{site.data.keyword.cloud_notm}} Invoice. For more information about the program and its credits, visit the [Frequently Asked Questions for the Startup with IBM Program](https://developer.ibm.com/startups/faq){: external}.
+Startup with IBM Program, which was formerly the IBM Global Entrepreneur Program (GEP), is available by going to the [Startup with IBM Program](https://www.ibm.com/partnerplus/isv){: external}. The awarding and extension of credits through this IBM corporate program isn't directly supported by {{site.data.keyword.cloud_notm}} Support. If your application to the program is approved, credits might be referred to as the Technology Incubator Program on an {{site.data.keyword.cloud_notm}} Invoice.
 
 ## Where can I find my credits for {{site.data.keyword.IBM_notm}} corporate programs?
 {: #ibm-corporate-credits}
