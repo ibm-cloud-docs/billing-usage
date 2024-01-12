@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2023
-lastupdated: "2023-08-14"
+  years: 2019, 2024
+lastupdated: "2024-01-12"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -179,7 +179,7 @@ You can export a summary of your account's usage, child account usage, or inform
 {: #enterprise-usage-csv-api}
 {: api}
 
-You can export a summary of your account's usage, child account usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details. To get usage reports from an enterprise and get more information about acceptable parameters, see [Enterprise Usage Reports API (Beta)](/apidocs/enterprise-apis/resource-usage-reports). You can also use the Usage Reports API to get [account summary usage](https://github.ibm.com/BSS/metering-report-downloader/wiki/Regular-Usage-Reports#account-summary-report){: external} and [resource instance usage](https://github.ibm.com/BSS/metering-report-downloader/wiki/Regular-Usage-Reports#account-instance-report){: external}.
+You can export a summary of your account's usage, child account usage, or information about your services and instances, to a CSV file. By exporting your CSV file, you can easily find usage and cost information estimates for each resource for chargebacks to your customers or to understand more about your costs. Because the report includes usage data for the entire account, you need Administrator access on the Billing service to export usage details. To get usage reports from an enterprise and get more information about acceptable parameters, see [Enterprise Usage Reports API (Beta)](/apidocs/enterprise-apis/resource-usage-reports).
 
 The following examples show queries that you can use to download your enterprise account `.csv` report. When you call the API, replace the ID variables and IAM token with the values from your enterprise.
 
@@ -269,7 +269,7 @@ The following table shows the correlation between the heading titles in your `.c
 
 | JSON report section API | `.csv` Header      | JSON Report Fields  | Description        |
 |-------------------------|--------------------|---------------------|--------------------|
-| [Enterprise Usage Reports API: Get usage reports for enterprise entities](/apidocs/enterprise-apis/resource-usage-reports#get-resource-usage-report-csv){: external} | | | |
+| [Enterprise Usage Reports API: Get usage reports for enterprise entities](/apidocs/enterprise-apis/resource-usage-reports#get-resource-usage-report){: external} | | | |
 |                         | Entity ID          | `entity_id`         | The ID of the entity |
 |                         | Entity Type        | `entity_type`       | The type of the entity  \n Possible values: `enterprise` , `account-group`, or `account` |
 |                         | Entity Name        | `entity_name`       | A user-defined name for the entity, such as the enterprise name or account group name |
@@ -287,7 +287,7 @@ The following table shows the correlation between the heading titles in your `.c
 
 | JSON report section API | `.csv` Header    | JSON Report Fields                       | Description        |
 |-------------------------|------------------|------------------------------------------|--------------------|
-| [Enterprise Usage Reports API: Get usage reports for enterprise entities](/enterprise-apis/resource-usage-reports#get-resource-usage-report){: external} | | | |
+| [Enterprise Usage Reports API: Get usage reports for enterprise entities](/apidocs/enterprise-apis/resource-usage-reports#get-resource-usage-report){: external} | | | |
 |                         | Entity ID        | `reports.entity_id`                      | The ID of the entity |
 |                         | Entity Type      | `reports.entity_type`                    | The type of the entity. \n Possible values: `enterprise`, `account-group`, or `account` |
 |                         | Parent Entity ID | `reports.parent_entity_id`               | The ID of the parent of the requested entity |
