@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2023
-lastupdated: "2023-02-09"
+  years: 2019, 2024
+lastupdated: "2024-01-12"
 
 keywords: IBM Cloud billing, payments, costs, usage, spending
 
@@ -100,7 +100,7 @@ You can limit the access to view the usage for a specific resource group by assi
 
 If you have a Pay-As-You-Go account that's billed in US dollars, you can view your invoice in the {{site.data.keyword.cloud_notm}} console by going to **Manage** > **Billing and usage**, > and clicking **Invoices**.
 
-If you own one of the following accounts, you can view your invoice on the [{{site.data.keyword.IBM_notm}} Invoices](http://ibm.com/invoices){: external} website, which is linked from the [Invoices page](/billing/invoices) in the console.
+If you own one of the following accounts, you can view your invoice on the [{{site.data.keyword.IBM_notm}} Invoices](https://www.ibm.com/support/customer/invoices/){: external} website, which is linked from the [Invoices page](/billing/invoices) in the console.
 
 * New and existing Pay-As-You-Go accounts based in the US with any payment method other than a credit card
 * New and existing Pay-As-You-Go accounts not based in the US
@@ -116,4 +116,4 @@ For more information about invoices, see [Managing your invoices](/docs/billing-
 
 {{site.data.keyword.cloud_notm}} customers with a Subscription account can sign up for the Enterprise Savings Plan billing model. With this billing model, you commit to spend a certain amount on {{site.data.keyword.Bluemix_notm}} and you receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. For more information about the billing model, see [Enterprise Savings Plan billing model](/docs/billing-usage?topic=billing-usage-committed-use).
 
-Premium and advanced support options are available for Pay as you go with Committed Use. Support plan pricing falls into two tiers depending on the price level of your commitment. For more information, see [Support options for Pay as you go with Committed Use](/docs/get-support?topic=get-support-support-plans#support-plans).
+Premium and advanced support options are available for Enterprise Savings Plan. Support plan pricing falls into two tiers depending on the price level of your commitment. For more information, see [Support options for Enterprise Savings Plan](/docs/get-support?topic=get-support-support-plans#support-plans).
