@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-12-18"
+  years: 2022, 2024
+lastupdated: "2024-01-12"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -135,10 +135,10 @@ In the enterprise level view, you can filter your emissions data down to a speci
 ​
 * Emissions by account: Carbon emissions broken down by account. This will display if the entity being viewed contains only accounts.
 ​
-Learn more about setting up and managing [Enterprise accounts.](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise_)
+Learn more about setting up and managing [Enterprise accounts](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise_).
 ​
 <!--
 ## Working with the carbon calculator API
 {: #tracking-emissions-api}
 ​
-Users wishing to pull emissions data or incorporate that data into their own applications and processes can leverage the Carbon Calculator API. [View API documentation.](https://test.cloud.ibm.com/apidocs/carbon-calculator)-->
+Users wishing to pull emissions data or incorporate that data into their own applications and processes can leverage the Carbon Calculator API. [View API documentation.](/apidocs/carbon-calculator)-->
