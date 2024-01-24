@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-01-24"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -22,40 +22,55 @@ Output that is provided by the carbon calculator is provided “as-is” for inf
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
-* {{site.data.keyword.appconfig_short}}
-* Application Load Balancer
-* {{site.data.keyword.bm_is_short}}
-* {{site.data.keyword.baremetal_short}} for Classic
-* {{site.data.keyword.blockstorageshort}}
-* {{site.data.keyword.block_storage_is_short}}
-* Cloud HSM
-* Cloud Object Storage
-* {{site.data.keyword.dns_short}}
-* {{site.data.keyword.databases-for-elasticsearch}}
-* {{site.data.keyword.databases-for-enterprisedb}}
-* {{site.data.keyword.databases-for-etcd}}
-* {{site.data.keyword.databases-for-mongodb}}
-* {{site.data.keyword.databases-for-mysql}}
-* {{site.data.keyword.databases-for-postgresql}}
-* {{site.data.keyword.databases-for-redis}}
-* {{site.data.keyword.en_short}}
-* {{site.data.keyword.messagehub}}
-* {{site.data.keyword.filestorage_short}}
-* {{site.data.keyword.filestorage_vpc_short}}
-* {{site.data.keyword.fsa10_full}}
-* {{site.data.keyword.keymanagementserviceshort}}
-* {{site.data.keyword.containershort_notm}}
-* {{site.data.keyword.loadbalancer_short}} for Classic
-* Load Balancer for VPC
-* {{site.data.keyword.messages-for-rabbitmq}}
-* Network Load Balancer
-* SAP on Classic Infrastructure
-* SAP on VMware
-* {{site.data.keyword.secrets-manager_short}}
-* VMware Solutions
-* {{site.data.keyword.vpn_vpc_short}}
-* {{site.data.keyword.virtualmachinesshort}} for Classic
-* Virtual Server for VPC
+* {{site.data.keyword.cloudaccesstrailshort}}                   <!--Activity Tracker-->
+* {{site.data.keyword.iae_short}}                               <!--Analytics Engine-->
+* {{site.data.keyword.appconfig_short}}                         <!--App Configuration-->
+* Application Load Balancer                                     <!--Application Load Balancer-->
+* {{site.data.keyword.bm_is_short}}                             <!--Bare Metal Servers for VPC-->
+* {{site.data.keyword.baremetal_short}} for Classic             <!--Bare Metal Servers for Classic-->
+* {{site.data.keyword.blockstorageshort}}                       <!--Block Storage for Classic-->
+* {{site.data.keyword.block_storage_is_short}}                  <!--Block Storage for VPC-->
+* Cloud HSM                                                     <!--Cloud HSM-->
+* Cloud Object Storage                                          <!--Cloud Object Storage-->
+* {{site.data.keyword.cloudant}}                                <!--Cloudant-->
+* {{site.data.keyword.registryshort}}                           <!--Container Registry-->
+* {{site.data.keyword.contdelivery_short}}                      <!--Continuous Delivery-->
+* Data Engine (previously SQL Query)                            <!--Data Engine-->
+* {{site.data.keyword.databases-for-elasticsearch}}             <!--Databases for Elasticsearch-->
+* {{site.data.keyword.databases-for-enterprisedb}}              <!--Databases for EnterpriseDB-->
+* {{site.data.keyword.databases-for-etcd}}                      <!--Databases for etcd-->
+* {{site.data.keyword.databases-for-mongodb}}                   <!--Databases for MongoDB-->
+* {{site.data.keyword.databases-for-mysql}}                     <!--Databases for MySQL-->
+* {{site.data.keyword.databases-for-postgresql}}                <!--Databases for PostgreSQL-->
+* {{site.data.keyword.databases-for-redis}}                     <!--Databases for Redis-->
+* {{site.data.keyword.datastageshort}}                          <!--DataStage-->
+* {{site.data.keyword.dashdbshort_notm}}                        <!--Db2 Warehouse on Cloud-->
+* {{site.data.keyword.dns_short}}                               <!--DNS Services-->
+* {{site.data.keyword.en_short}}                                <!--Event Notifications-->
+* {{site.data.keyword.messagehub}}                              <!--Event Streams-->
+* {{site.data.keyword.filestorage_short}}                       <!--File Storage for Classic-->
+* {{site.data.keyword.filestorage_vpc_short}}                   <!--File Storage for VPC-->
+* {{site.data.keyword.fsa10_full}}                              <!--Fortigate Security Appliance 10 Gbps-->
+* Gateway Appliance                                             <!--Gateway Appliance-->
+* {{site.data.keyword.keymanagementserviceshort}}               <!--Key Protect-->
+* {{site.data.keyword.containershort_notm}}                     <!--Kubernetes Service-->
+* {{site.data.keyword.loadbalancer_short}} for Classic          <!--Load Balancer for Classic-->
+* Load Balancer for VPC                                         <!--Load Balancer for VPC-->
+* {{site.data.keyword.loganalysisshort}}                        <!--Log Analysis-->
+* {{site.data.keyword.messages-for-rabbitmq}}                   <!--Messages for RabbitMQ-->
+* {{site.data.keyword.monitoringshort}}                         <!--Monitoring-->
+* {{site.data.keyword.mq_short}}                                <!--MQ on Cloud-->
+* Network Load Balancer                                         <!--Network Load Balancer-->
+* SAP on Classic Infrastructure                                 <!--SAP on Classic Infrastructure-->
+* SAP on VMware                                                 <!--SAP on VMware-->
+* {{site.data.keyword.satelliteshort}}                          <!--Satellite-->
+* {{site.data.keyword.secrets-manager_short}}                   <!--Secrets Manager-->
+* {{site.data.keyword.compliance_short}}                        <!--Security and Compliance Center-->
+* {{site.data.keyword.sysdigsecure_full_notm}}                  <!--Security and Compliance Center Workload Protection-->
+* VMware Solutions                                              <!--VMware Solutions-->
+* {{site.data.keyword.vpn_vpc_short}}                           <!--VPN for VPC-->
+* {{site.data.keyword.virtualmachinesshort}} for Classic        <!--Virtual Servers for Classic-->
+* Virtual Server for VPC                                        <!--Virtual Server for VPC-->
 
 
 Because emissions are reported after the close of each billing cycle, data for newly added services and current quarter results take about two months to populate.
