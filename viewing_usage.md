@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-01-31"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -22,10 +22,9 @@ You can view your {{site.data.keyword.cloud}} usage details from the billing and
 ## Before you begin
 {: #view-usage-permissions}
 
-Ensure that you have the required access to view usage data for the resources. Access can be assigned at the account-level or to individual resource groups and Cloud Foundry orgs.
+Ensure that you have the required access to view usage data for the resources. Access can be assigned at the account-level or to individual resource groups.
 * To view usage for all resources in the account, you need an access policy with the Administrator role on the Billing account management service.
 * To view usage only for specific {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) resources, you need the Viewer role on the resource group.
-* To view usage only for specific Cloud Foundry services, the Billing manager role must be applied at the org level. Billing managers can see the details for only the organizations in which they are assigned the Billing manager role.
 
 You can limit the access to view the usage for a specific resource group by assigning the viewer role or higher on all Identity and Access enabled services within that resource group.
 {: note}
@@ -136,7 +135,7 @@ This is not an estimate of your final bill. Instance costs don’t reflect your 
    - Click **Summary** for a high-level overview of the usage and associated costs for your account.
    - Click **Instance** for detailed usage information about each service instance.
 
-   You can use the tag related columns in the instance CSV file to help analyze the resources in your account. For example, you might have multiple projects in an account, each with a Kubernetes cluster and a few Cloud Foundry app deployments. You can organize the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. For more information about tagging, see [Working with tags](/docs/account?topic=account-tag).
+   You can use the tag related columns in the instance CSV file to help analyze the resources in your account. For example, you might have multiple projects in an account, each with a Kubernetes cluster. You can organize the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. For more information about tagging, see [Working with tags](/docs/account?topic=account-tag).
    {: tip}
 
    Consider creating tags as a `key:value` pair to group related tags. The `key` becomes a column in the CSV file and the `value` is populated in the respective rows of the column. If you don't follow a `key:value` tag style, the tags appear in the **Other Tags** column.

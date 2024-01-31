@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-01-30"
 
 keywords: IBM Cloud billing, payments, costs, usage, spending
 
@@ -87,11 +87,10 @@ For more information about how to manage your payments, see [Managing your payme
 ### Tracking your usage
 {: #tracking-usage}
 
-To view usage data for resources, you must be assigned the correct access. Access can be assigned at the account level or to individual resource groups and Cloud Foundry orgs.
+To view usage data for resources, you must be assigned the correct access. Access can be assigned at the account level or to individual resource groups.
 
 * To view usage for all resources in the account, you need an access policy with the Administrator role on the Billing account management service.
 * To view usage only for specific {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) resources, you need the Viewer role or higher on the resource group.
-* To view usage for only specific Cloud Foundry services, the Billing manager role must be applied at the org level. Billing managers can see the details for only the organizations in which they are assigned the Billing manager role.
 
 You can limit the access to view the usage for a specific resource group by assigning the viewer role or higher on all Identity and Access enabled services within that resource group.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2023
-lastupdated: "2023-03-02"
+  years: 2019, 2024
+lastupdated: "2024-01-30"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -10,11 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Best practices for billing and usage
@@ -42,7 +38,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
    Add tags in key:value pairs to add custom columns based on the key in the usage report. Create keys based on the categories that you use to organize your resources, such as using `costcenter:` to group by cost center or `project:` to group by project.
    {: tip}
 
-   For example, you might have resources for two projects in a single account, Project ABC and Project XYZ. Project ABC has a {{site.data.keyword.containershort_notm}} cluster, a few Cloud Foundry app deployments, and an {{site.data.keyword.cloudant_short_notm}} database. You can add the `project:abc` tag to all of these resources to distinguish these resources for Project ABC from similar resources in Project XYZ that are tagged `project:xyz`.
+   For example, you might have resources for two projects in a single account, Project ABC and Project XYZ. Project ABC has a {{site.data.keyword.containershort_notm}} cluster and an {{site.data.keyword.cloudant_short_notm}} database. You can add the `project:abc` tag to all of these resources to distinguish these resources for Project ABC from similar resources in Project XYZ that are tagged `project:xyz`.
 
    For more information about tags, see [Working with tags](/docs/account?topic=account-tag).
 
