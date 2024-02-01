@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-02-09"
+  years: 2021, 2024
+lastupdated: "2024-02-01"
 
 keywords: IBM Cloud billing, commitment model, using commitments, FAQs, enterprise savings plan, savings plan, pay as you go with committed use
 
@@ -27,7 +27,7 @@ The Enterprise Savings Plan model is similar to the Subscription model. Unlike a
 {: #commit-signup}
 {: faq}
 
-Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Enterprise Savings Plan. To view your account ID, select "Register with a Code" during account registration. After you consult with a sales representative, you receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions. Your account is activated upon order processing.
+Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} to sign up for {{site.data.keyword.Bluemix_notm}} Enterprise Savings Plan. To view your account ID, select **Register with a Code** during account registration. After you consult with a sales representative, you receive a confirmation email with your commitment quote details and information about {{site.data.keyword.Bluemix_notm}}'s Terms and Conditions. Your account is activated upon order processing.
 
 ## How do I view existing commitments?
 {: #existing-commit}
