@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-01-24"
+lastupdated: "2024-01-30"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -22,7 +22,6 @@ Output that is provided by the carbon calculator is provided “as-is” for inf
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
-* {{site.data.keyword.cloudaccesstrailshort}}                   <!--Activity Tracker-->
 * {{site.data.keyword.iae_short}}                               <!--Analytics Engine-->
 * {{site.data.keyword.appconfig_short}}                         <!--App Configuration-->
 * Application Load Balancer                                     <!--Application Load Balancer-->
@@ -32,7 +31,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.block_storage_is_short}}                  <!--Block Storage for VPC-->
 * Cloud HSM                                                     <!--Cloud HSM-->
 * Cloud Object Storage                                          <!--Cloud Object Storage-->
-* {{site.data.keyword.cloudant}}                                <!--Cloudant-->
+* Cloudant                                                      <!--Cloudant-->
 * {{site.data.keyword.registryshort}}                           <!--Container Registry-->
 * {{site.data.keyword.contdelivery_short}}                      <!--Continuous Delivery-->
 * Data Engine (previously SQL Query)                            <!--Data Engine-->
@@ -44,7 +43,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.databases-for-postgresql}}                <!--Databases for PostgreSQL-->
 * {{site.data.keyword.databases-for-redis}}                     <!--Databases for Redis-->
 * {{site.data.keyword.datastageshort}}                          <!--DataStage-->
-* {{site.data.keyword.dashdbshort_notm}}                        <!--Db2 Warehouse on Cloud-->
+* Db2 Warehouse                                                 <!--Db2 Warehouse-->
 * {{site.data.keyword.dns_short}}                               <!--DNS Services-->
 * {{site.data.keyword.en_short}}                                <!--Event Notifications-->
 * {{site.data.keyword.messagehub}}                              <!--Event Streams-->
@@ -52,21 +51,21 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.filestorage_vpc_short}}                   <!--File Storage for VPC-->
 * {{site.data.keyword.fsa10_full}}                              <!--Fortigate Security Appliance 10 Gbps-->
 * Gateway Appliance                                             <!--Gateway Appliance-->
+* IBM Cloud Activity Tracker                                    <!--IBM Cloud Activity Tracker-->
+* IBM Cloud Monitoring                                          <!--IBM Cloud Monitoring-->
+* IBM Log Analysis                                              <!--IBM Log Analysis-->
 * {{site.data.keyword.keymanagementserviceshort}}               <!--Key Protect-->
 * {{site.data.keyword.containershort_notm}}                     <!--Kubernetes Service-->
 * {{site.data.keyword.loadbalancer_short}} for Classic          <!--Load Balancer for Classic-->
-* Load Balancer for VPC                                         <!--Load Balancer for VPC-->
-* {{site.data.keyword.loganalysisshort}}                        <!--Log Analysis-->
 * {{site.data.keyword.messages-for-rabbitmq}}                   <!--Messages for RabbitMQ-->
-* {{site.data.keyword.monitoringshort}}                         <!--Monitoring-->
-* {{site.data.keyword.mq_short}}                                <!--MQ on Cloud-->
+* MQ                                                            <!--MQ-->
 * Network Load Balancer                                         <!--Network Load Balancer-->
 * SAP on Classic Infrastructure                                 <!--SAP on Classic Infrastructure-->
 * SAP on VMware                                                 <!--SAP on VMware-->
 * {{site.data.keyword.satelliteshort}}                          <!--Satellite-->
 * {{site.data.keyword.secrets-manager_short}}                   <!--Secrets Manager-->
 * {{site.data.keyword.compliance_short}}                        <!--Security and Compliance Center-->
-* {{site.data.keyword.sysdigsecure_full_notm}}                  <!--Security and Compliance Center Workload Protection-->
+* Security and Compliance Center Workload Protection            <!--Security and Compliance Center Workload Protection-->
 * VMware Solutions                                              <!--VMware Solutions-->
 * {{site.data.keyword.vpn_vpc_short}}                           <!--VPN for VPC-->
 * {{site.data.keyword.virtualmachinesshort}} for Classic        <!--Virtual Servers for Classic-->
@@ -109,7 +108,10 @@ One use case strategy for sustainability involves ESG reporting, which uses envi
 
 {{site.data.keyword.cloud_notm}} has a resilient global network of locations to host data center workloads and provides three tiers of regions: multizone regions, single-campus multizone regions, and data centers.
 
-The calculation method depends on the gross electricity consumption and carbon emissions factor per location. It allocates a portion of the electricity consumption to each one of the services in a location based on the physical hosts that are being used. Then, it splits the electricity consumption per service, per location, across the tenants that are using the service based on their respective usage metrics.
+The calculation method depends on the gross electricity consumption and carbon emissions factor per location. It allocates a portion of the electricity consumption to each one of the services in a location based on the physical hosts that are being used. Then, it splits the electricity consumption per service, per location, across the tenants that are using the service based on their respective usage metrics. For Classic Infrastructure services, energy consumption is calculated using the average power consumption for the machine on which the server is running.
+
+Due to the large number of flexible profiles associated with Bare Metal for Classic, profiles were onboarded in phases. Complete data is available from December 2023 on. Users requiring a complete emissions report for previous months can submit a support case requesting a manual calculation. When creating a support case, select the **Billing and usage** topic. For more information, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
+{: note}
 
 The method uses the service units of individual {{site.data.keyword.cloud_notm}} offerings to allocate electricity consumption of shared resources to a service's individual resources. The per-account electricity consumption is multiplied by the location’s Power Usage Effectiveness (PUE) and carbon emission factor to yield the accounts carbon footprint.
 
@@ -136,7 +138,7 @@ Emissions from key greenhouse gases are measured in metric tons of carbon dioxid
 
 * Emissions by service: The carbon emissions are broken down by service.
 
-* Emissions by resource group: The carbon emissions are broken down by group. Most services are displayed by resource group. However, Cloud Foundry is displayed by organization, and Classic Infrastructure is displayed in a dedicated group. The emissions are displayed only if a group contains those services.
+* Emissions by resource group: The carbon emissions are broken down by group. Most services are displayed by resource group. However, Classic Infrastructure is displayed in a dedicated group. The emissions are displayed only if a group contains those services.
 
 
 ## Tracking enterprise emissions with carbon calculator
