@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-02-23"
 
 keywords: apptio, cost benefit analysis
 
@@ -112,7 +112,7 @@ If a service-to-service authentication already exists, the `depends_on` constrai
 ### Bucket requirements
 {: #enable-export-usage-bucket-requirements}
 
-The bucket that you use to store your results does not require any particular settings or naming format. All the traffic between Billing service and Cloud Object Storage is done over a private network. The retrieval of data for display purposes in the console does not cost you anything. However, if you choose to download the data directly from Cloud Object Storage after it is stored, you do incur a data transfer cost. See [Cloud Object Storage pricing](/docs/cloud-object-storage/iam?topic=cloud-object-storage-billing) for more information.
+The bucket that you use to store your results does not require any particular settings or naming format. All the traffic between Billing service and Cloud Object Storage is done over a private network. The retrieval of data for display purposes in the console does not cost you anything. However, if you choose to download the data directly from Cloud Object Storage after it is stored, you do incur a data transfer cost. See [Cloud Object Storage pricing](/docs/cloud-object-storage?topic=cloud-object-storage-billing) for more information.
 
 ## Disconnecting your account from sharing usage
 {: #disconnect-exporting-your-usage}
