@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-01-12"
+lastupdated: "2024-02-23"
 
 keywords: viewing invoices, invoices, IBM Customer Number, IBM Invoices, RSET, external invoice website, paperless invoice, request paperless invoice
 
@@ -85,13 +85,12 @@ To ensure that access is granted to the correct individuals, you must register b
 
 To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external website to go to it directly.
 
-<!-- link is broken. need to reach out to billing team to verify steps and get new URL
 ## Requesting paperless invoices
 {: #request-paperless-invoices}
 
 Depending on which region your account is located in, you can switch to paperless invoicing by submitting a request in writing through the {{site.data.keyword.IBM_notm}} Customer Support site. Paperless invoicing isn't available in all regions.
 
-1. Go to [{{site.data.keyword.IBM_notm}} Customer Support](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html){: external}, and select your region.
+1. Go to [{{site.data.keyword.IBM_notm}} Customer Support](https://www.ibm.com/support/pages/node/6465591){: external}, and select your region.
 2. Click **Contact us**.
 3. Click **Email us** in the Invoice, payment section.
 4. Provide your {{site.data.keyword.IBM_notm}} customer number in your request to switch to paperless billing. Click **Save**.
@@ -100,4 +99,3 @@ Depending on which region your account is located in, you can switch to paperles
     {: tip}
 
 5. To track the status your request, click **My Requests**.
--->

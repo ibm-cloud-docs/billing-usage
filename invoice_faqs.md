@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-02-23"
 
 keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicing, adjustments
 
@@ -50,13 +50,11 @@ To download your invoice, go to **Manage > Billing and usage**, and select **Inv
 
 In some cases, you are redirected to the [IBM Invoices website](https://www.ibm.com/support/customer/invoices/){: external} where you can download your invoices. From the Invoices page, click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") and select the invoice format. You can download an invoice as a simplified PDF, a detailed PDF, or as an excel spreadsheet.
 
-<!-- link is broken and had to remove the linked doc until we can verify the steps
 ## Is paperless invoicing available?
 {: #paperless-invoices}
 {: faq}
 
-Yes, you can switch to paperless invoices by submitting a request on the [{{site.data.keyword.IBM_notm}} Customer Support site](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html){: external}. For more information, see [Requesting paperless invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#request-paperless-invoices).
--->
+Yes, you can switch to paperless invoices by submitting a request on the [{{site.data.keyword.IBM_notm}} Customer Support site](https://www.ibm.com/support/pages/node/6465591){: external}. For more information, see [Requesting paperless invoices](/docs/billing-usage?topic=billing-usage-managing-invoices#request-paperless-invoices).
 
 ## What are the adjustments that are shown on my invoice?
 {: #adjustments-invoices}
