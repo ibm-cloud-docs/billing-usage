@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-01-20"
+  years: 2020, 2024
+lastupdated: "2024-02-26"
 
 keywords: quotas, resource group quotas
 
@@ -15,9 +15,9 @@ subcollection: billing-usage
 # Checking your resource group quotas
 {: #quotas}
 
-Quotas provide limits for accounts, {{site.data.keyword.ibmcf_full}} orgs and spaces, and resource groups. This documentation discusses quotas for resource groups. For more information about {{site.data.keyword.ibmcf_notm}} quotas, see [Creating your web app with the {{site.data.keyword.Bluemix_notm}} console](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started#ee_appui). Quotas are also different for {{site.data.keyword.vpc_full}}. For more information, see [Quotas and service limits](https://cloud.ibm.com/docs/vpc?topic=vpc-quotas). 
+Quotas provide limits for accounts, {{site.data.keyword.ibmcf_full}} orgs and spaces, and resource groups. This documentation discusses quotas for resource groups. For more information, see [Quotas and service limits](https://cloud.ibm.com/docs/vpc?topic=vpc-quotas).
 
-Quotas for [resource groups](/docs/account?topic=account-rgs) limit the number of apps, instances, and memory allowed for that specific resource group. Each resource group in your account has a specific set of quotas. Standard quotas are for resource groups that are created by users with a Lite account, and Pay-As-You-Go quotas are for resource groups that are created with a Pay-As-You-Go account. 
+Quotas for [resource groups](/docs/account?topic=account-rgs) limit the number of apps, instances, and memory allowed for that specific resource group. Each resource group in your account has a specific set of quotas. Standard quotas are for resource groups that are created by users with a Lite account, and Pay-As-You-Go quotas are for resource groups that are created with a Pay-As-You-Go account.
 
 The following table shows resource group quota limits.
 
@@ -27,7 +27,7 @@ The following table shows resource group quota limits.
 | Standard quota      | 4        | 2                     | 1G                       | 1G               | 1,000                 |
 {: caption="Table 1. Resource group quota limits" caption-side="bottom"}
 
-The following definitions explain the quota limit categories for resource groups. 
+The following definitions explain the quota limit categories for resource groups.
 
 
 Type
@@ -51,9 +51,9 @@ Max Service Instances
 ## Using the CLI to check your quotas
 {: #using-cli-quotas}
 
-If you're not sure what your resource group quotas are, you can check by using the {{site.data.keyword.Bluemix_notm}} CLI. The CLI is the only way to check your account's resource group quotas. Before you can check your quotas, you need the [{{site.data.keyword.Bluemix_notm}} CLI installed](/docs/cli?topic=cli-install-ibmcloud-cli). 
+If you're not sure what your resource group quotas are, you can check by using the {{site.data.keyword.Bluemix_notm}} CLI. The CLI is the only way to check your account's resource group quotas. Before you can check your quotas, you need the [{{site.data.keyword.Bluemix_notm}} CLI installed](/docs/cli?topic=cli-install-ibmcloud-cli).
 
-To check your quotas, type the following command into the CLI: 
+To check your quotas, type the following command into the CLI:
 
 ```
 ibmcloud resource quotas
