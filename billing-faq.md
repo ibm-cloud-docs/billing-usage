@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2024
 
-lastupdated: "2024-01-12"
+lastupdated: "2024-02-29"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -308,3 +308,9 @@ To prevent unauthorized access, change your password regularly and require the u
 
 You can regularly review the list of account users and remove users who don't need access to the account. For more information, see [Removing users from an account](/docs/account?topic=account-remove).
 {: tip}
+
+## Can I use my Pay-As-You-Go account to create an enterprise?
+{: #paygo-enterprise}
+{: faq}
+
+Pay-As-You-Go accounts that sign up with a credit card on cloud.ibm.com can create an enterprise. Pay-As-You-Go accounts that sign up through {{site.data.keyword.cloud_notm}} Sales or Softlayer can't create an enterprise.
