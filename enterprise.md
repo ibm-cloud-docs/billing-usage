@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-02-29"
+lastupdated: "2024-03-05"
 
 keywords: enterprise billing, enterprise, subscription, billing unit, billing option, invoice, credit pool
 
@@ -35,9 +35,9 @@ In an enterprise, billing is managed by the enterprise rather than in the indivi
 ## Billing options
 {: #enterprise-billing-options}
 
-Enterprises require subscription billing or an account with the [Enterprise Savings Plan billing model](/docs/billing-usage?topic=billing-usage-committed-use). In subscription billing, you purchase a subscription for an amount of credit to spend during the subscription term, and usage is deducted from the subscription credit at a discounted rate. The Enterprise Savings Plan billing model is similar to subscription billing. You commit to spend a certain amount on {{site.data.keyword.Bluemix_notm}} and receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount.
+Enterprises require subscription billing, an account with the [Enterprise Savings Plan billing model](/docs/billing-usage?topic=billing-usage-committed-use), or a Pay-As-You-Go account that signed up using a credit card on cloud.ibm.com. In subscription billing, you purchase a subscription for an amount of credit to spend during the subscription term, and usage is deducted from the subscription credit at a discounted rate. The Enterprise Savings Plan billing model is similar to subscription billing. You commit to spend a certain amount on {{site.data.keyword.Bluemix_notm}} and receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount. With Pay-As-You-Go accounts, you're billed monthly for your resource usage. Your resource usage consists of recurring and fluctuating costs. You pay only for what you use or commit to on a monthly basis, with no long-term contracts.
 
-The account that you use to create the enterprise must be a [Subscription account](/docs/account?topic=account-accounts#subscription-account), an account with the [Enterprise Savings Plan billing model](/docs/billing-usage?topic=billing-usage-committed-use), or a Pay-As-You-Go account that signed up using a credit card on cloud.ibm.com. After the enterprise is created, you can add more accounts to the enterprise. If you add a Lite or trial account, the account is automatically upgraded to a Pay-As-You-Go account.
+After the enterprise is created, you can add more accounts to the enterprise. If you add a Lite or trial account, the account is automatically upgraded to a Pay-As-You-Go account.
 
 Some Pay-As-You-Go accounts can't be directly imported into an enterprise, such as many Pay-As-You-Go accounts that are billed in United States dollars (USD). However, you can still import these accounts into your enterprise by converting them to Subscription accounts and then importing them. To convert an account, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
 {: note}
