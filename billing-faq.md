@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2024
 
-lastupdated: "2024-02-29"
+lastupdated: "2024-03-05"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -313,4 +313,4 @@ You can regularly review the list of account users and remove users who don't ne
 {: #paygo-enterprise}
 {: faq}
 
-Pay-As-You-Go accounts that sign up with a credit card on cloud.ibm.com can create an enterprise. Pay-As-You-Go accounts that sign up through {{site.data.keyword.cloud_notm}} Sales or Softlayer can't create an enterprise.
+Pay-As-You-Go accounts that sign up with a credit card on cloud.ibm.com can create an enterprise. Pay-As-You-Go accounts that sign up through {{site.data.keyword.cloud_notm}} Sales or Softlayer can't create an enterprise. For more information about creating an enterprise, see [Creating an enterprise](/docs/secure-enterprise?topic=secure-enterprise-create-enterprise).
