@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-02-23"
+lastupdated: "2024-03-06"
 
 keywords: apptio, cost benefit analysis
 
@@ -175,13 +175,14 @@ For more information about the usage snapshot API, see [Setup the snapshot confi
 
 The following table shows the correlation between the heading titles in your CSV report and JSON report fields. For more information about JSON report fields, see [Usage Reports: Get account summary](/apidocs/metering-reporting#get-account-summary){: external}. Each row of the **Account Resource Usage** section represents the aggregated usage of a service plan metric for all the resource instances in the account.
 
-| CSV Header       | Description                                      |
-|---------------------|--------------------------------------------------|
-| Account Owner ID    | ID of the account                    |
-| Account Name        | Name of the account                  |
+| CSV Header       | Description                                        |
+|---------------------|-------------------------------------------------|
+| Account Owner ID    | ID of the account                               |
+| Account Name        | Name of the account                             |
 | Billing Month       | The month in which usages were incurred. Represented in `yyyy-mm` format |
 | Currency Rate       | Currency Exchange Rate with USD as the base     |
-| Created Time        | Timestamp at which the CSV report was generated|
+| Created Time        | Timestamp at which the CSV report was generated |
+| Version             | The version number of the account summary CSV   |
 {: class="simple-tab-table"}
 {: caption="Table 1. Account summary CSV header titles and descriptions for account metadata" caption-side="bottom"}
 {: tab-group="account-summary"}
@@ -284,13 +285,14 @@ The following table shows the correlation between the heading titles in your CSV
 Regular account CSV reports are not real time and can be incomplete. Complete CSV reports are generated for previous months that have already been invoiced. In case of potentially inconsistent data in the CSV reports, it's advised to regenerate the CSV after couple of hours. For more accurate and real time usages, it's always recommended to use the JSON APIs.
 {: note}
 
-| CSV Header    | Description                                     |
+| CSV Header       | Description                                     |
 |------------------|-------------------------------------------------|
-| Account Owner ID | ID of the account                    |
-| Account Name     | Name of the account                  |
+| Account Owner ID | ID of the account                               |
+| Account Name     | Name of the account                             |
 | Billing Month    | The month in which usages were incurred. Represented in `yyyy-mm` format     |
 | Currency Rate    | Currency Exchange Rate with USD as the base     |
 | Created Time     | Timestamp at which the CSV report was generated |
+| Version          | The version number of the account instance CSV  |
 {: class="simple-tab-table"}
 {: caption="Table 2. Account instance CSV header titles and descriptions for account metadata" caption-side="bottom"}
 {: tab-group="account-instance"}
@@ -326,12 +328,17 @@ Regular account CSV reports are not real time and can be incomplete. Complete CS
 | Non Chargeable  | `resources.usage.non_chargeable` |  When set to `true`, the cost is for informational purpose and is not included while calculating the plan charges. |
 | Classic Infrastructure Product ID | `resources.usage.additional_properties.classic_infrastructure_product_id`  | Product ID of classic infrastructure resource |
 | Classic Infrastructure Package ID |`resources.usage.additional_properties.classic_infrastructure_package_id` | Package ID of classic infrastructure resource |
+| Parent Resource Instance ID | `resources.parent_resource_instance_id` | Resource instance ID of the parent resource associated with this instance |
 | Other Tags          | `resources.tags`                   | Tags that are not of `key:value` format |
 {: class="simple-tab-table"}
 {: caption="Table 2. Account instance CSV header titles and JSON report fields for account instance usage" caption-side="bottom"}
 {: tab-group="account-instance"}
 {: #service-name-instance}
 {: tab-title="Account Instance Usage"}
+
+
+#### User tags
+{: #acct-instance-user-tags}
 
 For tags that are of `key:value` format, a new column is added for each and every unique `key`, with the `key` as the column name and the `value` as the column value for the corresponding instance usage row. For example, if there are two instances, `i1` and `i2`, with tag `env:prod` on `i1` and tags `env:test` and `team:backend` on `i2`, there would be two additional columns named `env` and `team`. And only the `i1` row will have value `prod` under the `env` column. The `i2` row will have values `test` and `backend` under the `env` and `team` columns. The following table shows the example layout.
 
@@ -340,6 +347,22 @@ For tags that are of `key:value` format, a new column is added for each and ever
 | `i1`        |            | `prod` |           |
 | `i2`        |            | `test` | `backend` |
 {: caption="Table 3. Example of tag layout in the CSV report" caption-side="bottom"}
+
+
+#### Service tags
+{: #acct-instance-service-tags}
+
+If the account has [Projects](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understanding-projects) provisioned in it, then all the resource instances that are part of a project will have some service tags attached to them. These service tags are also of `key:value` type and they indicate the `project_id` and `config_id` that the project resource instance belongs to. Similar to the `key:value` user tags, a new column is added for each and every unique service tag `key`, with the `key` as the column name and the `value` as the column value for the corresponding instance usage row.
+
+For example, if there are two instances, `i1` and `i2`, with service tags `project::config_id:123` and `project::project_id:321` on `i1`, and service tags `schematics::config_id:456` and `schematics::project_id:654` on `i2`, there would be four additional columns named `service_tag::project::config_id`, `service_tag::project::project_id`, `service_tag::schematics::config_id` and `service_tag::schematics::project_id`. So, they would have the service tag keys with a prefix `service_tag::` prepended to it, which helps in visual distinction between user tag keys and service tag keys. And eventually, the `i1` row will have values `123` and `321` under the first two columns, and `i2` row will have values `456` and `654` under the next two columns respectively.
+
+The following table shows the example layout.
+
+| Instance ID | Other tags | `env`  | `team`    | `service_tag::project::config_id` | `service_tag::project::project_id` | `service_tag::schematics::config_id` | `service_tag::schematics::project_id` |
+|-------------|------------|--------|-----------|--------------------------------------|---------------------------------------|-----------------------------------|------------------------------------|
+| `i1`        |            | `prod` |           | `123`                                | `321`                 | | |
+| `i2`        |            | `test` | `backend` |                                      |                                       | `456`                             | `654` |
+{: caption="Table 4. Example of service tag layout in the CSV report" caption-side="bottom"}
 
 Tags are shown for both active and deleted resources. It might take up to 24 hours to reflect the updated or created tags.
 {: note}
@@ -350,15 +373,16 @@ Tags are shown for both active and deleted resources. It might take up to 24 hou
 
 The following table shows the correlation between the heading titles in your CSV report and JSON report fields. The usage in the **Enterprise Resource Usage** section is aggregated by each metric of a service plan.
 
-| CSV Header      | Description        |
+| CSV Header         | Description        |
 |--------------------|--------------------|
 | Entity ID          | ID of the requested entity (`enterprise_id`/`account_group_id`/`account_id`) |
 | Entity Type        | Type of the requested entity (enterprise/account_group/account) |
 | Billing Month      | The month in which usages were incurred. Represented in `yyyy-mm` format |
 | Currency Rate      | Currency Exchange Rate with USD as the base |
 | Created Time       | Timestamp at which the CSV report was generated |
+| Version            | The version number of the enterprise summary CSV |
 {: class="simple-tab-table"}
-{: caption="Table 1.  Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
+{: caption="Table 4.  Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
 {: #entity-metadata}
 {: tab-title="Entity Metadata"}
@@ -373,7 +397,7 @@ The following table shows the correlation between the heading titles in your CSV
 | Parent Entity Type | Type of the parent of the current hierarchy entity |
 | Entity CreatedOn   | Timestamp at which the hierarchy entity was created |
 {: class="simple-tab-table"}
-{: caption="Table 1.  Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
+{: caption="Table 4.  Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
 {: #entity-hierarchy}
 {: tab-title="Entity Hierarchy"}
@@ -384,7 +408,7 @@ The following table shows the correlation between the heading titles in your CSV
 | Billing Unit Name      | `resources.name`       | The name of the billing unit |
 | Billing Unit CreatedOn | `resources.created_at` | The creation date of the billing unit |
 {: class="simple-tab-table"}
-{: caption="Table 1. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
+{: caption="Table 4. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
 {: #billing-unit-id-enterprise}
 {: tab-title="Billing Units"}
@@ -402,7 +426,7 @@ The following table shows the correlation between the heading titles in your CSV
 | Used Credits      | `resources.term_credits.used_credits`     | The amount of credit used during the current month |
 | Current Balance   | `resources.term_credits.current_balance`  | The balance of remaining credit in the subscription term |
 {: class="simple-tab-table"}
-{: caption="Table 1. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
+{: caption="Table 4. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
 {: #credit-pool-type-enterprise}
 {: tab-title="Credit Pools"}
@@ -413,7 +437,7 @@ The following table shows the correlation between the heading titles in your CSV
 | Currency Code     | `resources.currency_code`| The currency code of the associated billing unit |
 | Overage           | `resources.overage.cost` | The number of credits that are used as overage |
 {: class="simple-tab-table"}
-{: caption="Table 1. Enterprise usage report CSV contents for overages" caption-side="bottom"}
+{: caption="Table 4. Enterprise usage report CSV contents for overages" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
 {: #overages-enterprise}
 {: tab-title="Overages"}
@@ -430,7 +454,7 @@ The following table shows the correlation between the heading titles in your CSV
 | Billable Cost      | `reports.billable_cost`     | Billable charges that are aggregated from all entities in the report |
 | Non Billable Cost  | `reports.non_billable_cost` | Non-billable charges that are aggregated from all entities in the report |
 {: class="simple-tab-table"}
-{: caption="Table 1.  Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
+{: caption="Table 4.  Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
 {: #entity-resource-usage1}
 {: tab-title="Enterprise Usage Summary"}
@@ -456,7 +480,7 @@ The following table shows the correlation between the heading titles in your CSV
 | Classic Infrastructure Product ID | `resources.usage.additional_properties.classic_infrastructure_product_id`  | Product ID of classic infrastructure resource |
 | Classic Infrastructure Package ID |`resources.usage.additional_properties.classic_infrastructure_package_id` | Package ID of classic infrastructure resource |
 {: class="simple-tab-table"}
-{: caption="Table 1. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
+{: caption="Table 4. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary"}
 {: #entity-resource-usage2}
 {: tab-title="Enterprise Resource Usage"}
