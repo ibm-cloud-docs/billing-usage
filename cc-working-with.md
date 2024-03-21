@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-02-23"
+lastupdated: "2024-03-21"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -15,10 +15,13 @@ subcollection: billing-usage
 # Working with {{site.data.keyword.Bluemix_notm}}'s carbon calculator
 {: #what-is-cloud-calc}
 
-Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that are provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to GHG protocol standards. The data sources and tools that are used to calculate client's emissions are subject to change by IBM without notice. The client is responsible for confirming the accuracy of any calculator output for purposes of client’s compliance with any applicable regulatory obligations or for any other purpose.
+Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that is provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to GHG protocol standards. The data sources and tools that are used to calculate client's emissions are subject to change by IBM without notice. The client is responsible for confirming the accuracy of any calculator output for purposes of client’s compliance with any applicable regulatory obligations or for any other purpose.
 {: important}
 
 {{site.data.keyword.cloud_notm}}'s carbon calculator displays the carbon emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers. Tracking your carbon emissions is important so that you can know how much carbon emissions your account is associated with, and it helps you manage and mitigate your carbon footprint over time.
+
+If service data is not displaying, it may be because emissions data is currently tracked for a subset of services, data for newly added services and current quarter results are not yet available because it can take roughly two months to populate, or some service instances might be running on [zero-emissions data centers](#zero-emission-data-centers).
+{: note}
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
@@ -43,7 +46,10 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.databases-for-postgresql}}                <!--Databases for PostgreSQL-->
 * {{site.data.keyword.databases-for-redis}}                     <!--Databases for Redis-->
 * {{site.data.keyword.datastageshort}}                          <!--DataStage-->
+* Db2                                                           <!--Db2-->
 * Db2 Warehouse                                                 <!--Db2 Warehouse-->
+* Direct Link Connect                                           <!--Direct Link Connect-->
+* Direct Link Dedicated                                         <!--Direct Link Dedicated-->
 * {{site.data.keyword.dns_short}}                               <!--DNS Services-->
 * {{site.data.keyword.en_short}}                                <!--Event Notifications-->
 * {{site.data.keyword.messagehub}}                              <!--Event Streams-->
@@ -53,6 +59,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * Gateway Appliance                                             <!--Gateway Appliance-->
 * IBM Cloud Activity Tracker                                    <!--IBM Cloud Activity Tracker-->
 * IBM Cloud Monitoring                                          <!--IBM Cloud Monitoring-->
+* IBM Cloud Platform - Core Services [^tabletext1]              <!--IBM Cloud Platform - Core Services-->
 * IBM Log Analysis                                              <!--IBM Log Analysis-->
 * {{site.data.keyword.keymanagementserviceshort}}               <!--Key Protect-->
 * {{site.data.keyword.containershort_notm}}                     <!--Kubernetes Service-->
@@ -66,24 +73,25 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.secrets-manager_short}}                   <!--Secrets Manager-->
 * {{site.data.keyword.compliance_short}}                        <!--Security and Compliance Center-->
 * Security and Compliance Center Workload Protection            <!--Security and Compliance Center Workload Protection-->
+* {{site.data.keyword.tg_short}}                                <!--Transit Gateway-->
 * VMware Solutions                                              <!--VMware Solutions-->
 * {{site.data.keyword.vpn_vpc_short}}                           <!--VPN for VPC-->
 * {{site.data.keyword.virtualmachinesshort}} for Classic        <!--Virtual Servers for Classic-->
 * Virtual Server for VPC                                        <!--Virtual Server for VPC-->
 
+[^tabletext1]: Contains multiple services that are not tracked individually but are combined into one service. IBM Cloud Platform includes the following: Command line interface, Billing and usage, Identity and access management, Global catalog, Global search & tagging, Console, Cloud shell, Projects, Paywall, Schematics, and Carbon calculator.
 
-Because emissions are reported after the close of each billing cycle, data for newly added services and current quarter results take about two months to populate.
-{: note}
+
+All service workloads across all sites are metered for electricity consumption or estimations based on hardware profiles. Service usage is also tracked by account, location, and over time. Data is then processed to produce a standards-based carbon emission estimate for each account per service, per location, and resource group. {{site.data.keyword.cloud_notm}} has a resilient global network of locations to host data center workloads and provides three tiers of regions: multizone regions, single-campus multizone regions, and data centers. For more information, see [IBM Cloud global data centers](https://www.ibm.com/cloud/data-centers){: external}.
 
 The carbon calculator provides a wide range of features to track your carbon emissions:
 
 * View total emissions by service, resource group, and location.
+* View total emissions for an enterprise account.
 * Filter emissions data by time period, service, or location.
 * Best practices for cloud sustainability.
-* Export data as a CSV file for additional analyses
-
-All service workloads across all sites are metered for electricity consumption or estimations based on hardware profiles. Service usage is also tracked by account, location, and over time. Data is then processed to produce a standards-based carbon emission estimate for each account per service, per location, and resource group.
-
+* Export data as a CSV file for additional analyses.
+* View emissions data by using [the API](/apidocs/carbon-calculator).
 
 ## Before you begin
 {: #carbon-calc-prereq}
@@ -108,7 +116,7 @@ One use case strategy for sustainability involves ESG reporting, which uses envi
 
 {{site.data.keyword.cloud_notm}} has a resilient global network of locations to host data center workloads and provides three tiers of regions: multizone regions, single-campus multizone regions, and data centers.
 
-The calculation method depends on the gross electricity consumption and carbon emissions factor per location. It allocates a portion of the electricity consumption to each one of the services in a location based on the physical hosts that are being used. Then, it splits the electricity consumption per service, per location, across the tenants that are using the service based on their respective usage metrics. For Classic Infrastructure services, energy consumption is calculated using the average power consumption for the machine on which the server is running.
+The calculation method depends on the gross electricity consumption and carbon emissions factor per location. It allocates a portion of the electricity consumption to each one of the services in a location based on the physical hosts that are being used. Then, it splits the electricity consumption per service, per location, across the tenants that are using the service based on their respective usage metrics. For Classic Infrastructure services, energy consumption is calculated by using the average power consumption for the machine on which the server is running.
 
 Due to the large number of flexible profiles associated with Bare Metal for Classic, profiles were onboarded in phases. Complete data is available from December 2023 on. Users requiring a complete emissions report for previous months can submit a support case requesting a manual calculation. When creating a support case, select the **Billing and usage** topic. For more information, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
 {: note}
@@ -122,7 +130,7 @@ The goal of the calculation method is to associate electricity consumption and c
 * Per client account, cloud service, and location where the service is running
 * Per client account and Resource Group
 
-For more in depth explanation about carbon calculators methodology and calculations, see [Energy and carbon quantification methodology](https://cloud.ibm.com/media/docs/downloads/billing-usage/carbon-calc-method-v2.pdf){: external}.
+For a more in depth explanation about carbon calculators methodology and calculations, see [Energy and carbon quantification methodology](https://cloud.ibm.com/media/docs/downloads/billing-usage/carbon-calc-method-v2.pdf){: external}.
 
 
 ## Tracking account emissions with carbon calculator
@@ -154,8 +162,68 @@ In the enterprise level view, you can filter your emissions data down to a speci
 ​
 Learn more about setting up and managing [Enterprise accounts](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise).
 ​
-<!--
+
 ## Working with the carbon calculator API
 {: #tracking-emissions-api}
 ​
-Users wishing to pull emissions data or incorporate that data into their own applications and processes can leverage the Carbon Calculator API. [View API documentation.](/apidocs/carbon-calculator)-->
+Users can pull emissions data or incorporate that data into their own applications and processes by leveraging the [Carbon Calculator API](/apidocs/carbon-calculator).
+
+## Zero-emissions data centers
+{: #zero-emission-data-centers}
+
+The following table shows the locations that are considered to be zero-emissions data centers for 2024. Data centers are considered zero-emissions either because they are powered by renewable energy or because their greenhouse gas emissions have been offset with certificates. Additional data centers may be added periodically.
+
+| Data Center | Location      |
+|-------------|---------------|
+| DAL02	      | Dallas        |
+| DAL06       | Dallas        |
+| DAL10	      | Dallas        |
+| DAL12	      | Dallas        |
+| DAL13	      | Dallas        |
+| MON01       |	Montreal      |
+| SAO01       |	Sao Paulo     |
+| SAO04       | Sao Paulo     |
+| SAO05       |	Sao Paulo     |
+| WDC04       | Washington DC |
+| WDC06       | Washington DC |
+| WDC07       | Washington DC |
+{: caption="Table 1. Carbon intensity of data centers in North and South America" caption-side="bottom"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="carbon-intesity"}
+{: class="simple-tab-table"}
+
+| Data Center | Location      |
+|-------------|---------------|
+| AMS01	      | Amsterdam     |
+| AMS03	      | Amsterdam     |
+| FRA02	      | Frankfurt     |
+| FRA04	      | Frankfurt     |
+| FRA05	      | Frankfurt     |
+| LON02	      | London        |
+| LON04	      | London        |
+| LON05	      | London        |
+| LON06	      | London        |
+| MAD02	      | Madrid        |
+| MAD04       | Madrid        |
+| MAD05       | Madrid        |
+| MIL01       |	Milan         |
+| PAR01       | Paris         |
+| PAR04       | Paris         |
+{: caption="Table 1. Carbon intensity of data centers in Europe" caption-side="bottom"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="carbon-intesity"}
+{: class="simple-tab-table"}
+
+| Data Center | Location      |
+|-------------|---------------|
+| OSA22       |	Osaka	        |
+{: caption="Table 1. Carbon intensity of data centers in Asia Pacific" caption-side="bottom"}
+{: #asia-pacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="carbon-intesity"}
+{: class="simple-tab-table"}
+
+Carbon intensity is the emission rate for grams of carbon dioxide-equivalent emissions that are released per unit of energy produced.
+{: note}
