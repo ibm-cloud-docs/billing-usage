@@ -39,6 +39,7 @@ toc:
           - how_charged.md
           - change_pricing_plan.md
           - notifications.md
+          - include: ../secure-enterprise/project-spend.md
       - topicgroup:
           label: Managing your usage
           topics:

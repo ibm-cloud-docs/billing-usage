@@ -48,6 +48,10 @@ Add tags to your resources to organize, track, and manage costs for related reso
 
    For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
 
+Use [projects](#x2035151){: term} to help you automatically tag related resources. Resources in a project are automatically given service tags with the project ID and configuration ID with which they are associated. For more information, see [Tracking usage and spend for projects](/secure-enterprise?topic=secure-enterprise-project-usage-spend).
+{: tip}
+
+
 ## Automate billing and usage management by using the CLI or APIs
 {: #billing-cli-apis}
 
