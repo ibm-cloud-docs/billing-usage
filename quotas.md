@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-01-26"
 
 keywords: quotas, resource group quotas
 
@@ -15,7 +15,7 @@ subcollection: billing-usage
 # Checking your resource group quotas
 {: #quotas}
 
-Quotas provide limits for accounts, {{site.data.keyword.ibmcf_full}} orgs and spaces, and resource groups. This documentation discusses quotas for resource groups. For more information, see [Quotas and service limits](https://cloud.ibm.com/docs/vpc?topic=vpc-quotas).
+Quotas provide limits for accounts and resource groups. This documentation discusses quotas for resource groups. Quotas are also different for {{site.data.keyword.vpc_full}}. For more information, see [Quotas and service limits](https://cloud.ibm.com/docs/vpc?topic=vpc-quotas).
 
 Quotas for [resource groups](/docs/account?topic=account-rgs) limit the number of apps, instances, and memory allowed for that specific resource group. Each resource group in your account has a specific set of quotas. Standard quotas are for resource groups that are created by users with a Lite account, and Pay-As-You-Go quotas are for resource groups that are created with a Pay-As-You-Go account.
 
