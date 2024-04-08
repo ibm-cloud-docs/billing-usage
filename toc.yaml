@@ -38,6 +38,7 @@ toc:
           - estimating_costs.md
           - how_charged.md
           - change_pricing_plan.md
+          - getting-pricing.md
           - notifications.md
           - include: ../secure-enterprise/project-spend.md
       - topicgroup:
