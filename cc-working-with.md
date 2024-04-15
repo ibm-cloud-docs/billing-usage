@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-03-21"
+lastupdated: "2024-04-15"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -15,12 +15,12 @@ subcollection: billing-usage
 # Working with {{site.data.keyword.Bluemix_notm}}'s carbon calculator
 {: #what-is-cloud-calc}
 
-Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that is provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to GHG protocol standards. The data sources and tools that are used to calculate client's emissions are subject to change by IBM without notice. The client is responsible for confirming the accuracy of any calculator output for purposes of client’s compliance with any applicable regulatory obligations or for any other purpose.
+Output that is provided by the carbon calculator is provided “as-is” for informational purposes only, and is based on cloud services information that is provisioned by client in client’s {{site.data.keyword.cloud_notm}} account. Output is provided in a format according to greenhouse gas (GHG) protocol standards. The data sources and tools that are used to calculate client's emissions are subject to change by IBM without notice. The client is responsible for confirming the accuracy of any calculator output for purposes of the client’s compliance with any applicable regulatory obligations or for any other purpose.
 {: important}
 
-{{site.data.keyword.cloud_notm}}'s carbon calculator displays the carbon emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers. Tracking your carbon emissions is important so that you can know how much carbon emissions your account is associated with, and it helps you manage and mitigate your carbon footprint over time.
+{{site.data.keyword.cloud_notm}}'s carbon calculator displays the greenhouse gas (GHG) emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers. Tracking your GHG emissions is important so that you can know how much GHG emissions your account is associated with, and it helps you manage and mitigate your carbon footprint over time.
 
-If service data is not displaying, it may be because emissions data is currently tracked for a subset of services, data for newly added services and current quarter results are not yet available because it can take roughly two months to populate, or some service instances might be running on [zero-emissions data centers](#zero-emission-data-centers).
+If service data is not displayed, it might be because emissions data isn't tracked for the service, data for newly added services and current quarter results are not yet available because it can take roughly two months to populate, or some service instances might be running on [zero-emissions data centers](#zero-emission-data-centers).
 {: note}
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
@@ -82,15 +82,15 @@ Emissions data is currently tracked for a subset of services, but more services 
 [^tabletext1]: Contains multiple services that are not tracked individually but are combined into one service. IBM Cloud Platform includes the following: Command line interface, Billing and usage, Identity and access management, Global catalog, Global search & tagging, Console, Cloud shell, Projects, Paywall, Schematics, and Carbon calculator.
 
 
-All service workloads across all sites are metered for electricity consumption or estimations based on hardware profiles. Service usage is also tracked by account, location, and over time. Data is then processed to produce a standards-based carbon emission estimate for each account per service, per location, and resource group. {{site.data.keyword.cloud_notm}} has a resilient global network of locations to host data center workloads and provides three tiers of regions: multizone regions, single-campus multizone regions, and data centers. For more information, see [IBM Cloud global data centers](https://www.ibm.com/cloud/data-centers){: external}.
+All service workloads across all sites are metered for electricity consumption or estimations based on hardware profiles. Service usage is also tracked by account, location, and over time. Data is then processed to produce a standards-based GHG emission estimate for each account per service, per location, and resource group. {{site.data.keyword.cloud_notm}} has a resilient global network of locations to host data center workloads and provides three tiers of regions: multizone regions, single-campus multizone regions, and data centers. For more information, see [IBM Cloud global data centers](https://www.ibm.com/cloud/data-centers){: external}.
 
-The carbon calculator provides a wide range of features to track your carbon emissions:
+The carbon calculator provides a wide range of features to track your GHG emissions:
 
 * View total emissions by service, resource group, and location.
 * View total emissions for an enterprise account.
 * Filter emissions data by time period, service, or location.
 * Best practices for cloud sustainability.
-* Export data as a CSV file for additional analyses.
+* Export the data as a CSV file for additional analyses.
 * View emissions data by using [the API](/apidocs/carbon-calculator).
 
 ## Before you begin
@@ -103,7 +103,7 @@ Account owners, account administrators, and users with a viewer role or higher o
 ## IBM Cloud and sustainability
 {: #cc-sustainability}
 
-As organizations and users work together to achieve better outcomes for their business and for the environment, digital technologies are a growing source of carbon emissions. There are four areas that are the main source for carbon emissions: data centers, big data analytics, security, and internet usage. For more information about sustainability, see [IT sustainability beyond the data center](https://www.ibm.com/thought-leadership/institute-business-value/report/it-sustainability){: external}.
+As organizations and users work together to achieve better outcomes for their business and for the environment, digital technologies are a growing source of GHG emissions. There are four areas that are the main source for GHG emissions: data centers, big data analytics, security, and internet usage. For more information about sustainability, see [IT sustainability beyond the data center](https://www.ibm.com/thought-leadership/institute-business-value/report/it-sustainability){: external}.
 
 One use case strategy for sustainability involves ESG reporting, which uses environmental, social, and governance reporting to integrate data silos. For more information, explore [IBM Envizi](https://www.ibm.com/products/envizi){: external}.
 
@@ -112,16 +112,16 @@ One use case strategy for sustainability involves ESG reporting, which uses envi
 
 {{site.data.keyword.cloud_notm}} plays a critical role for achieving {{site.data.keyword.IBM_notm}}’s energy conservation, renewable electricity procurement, and greenhouse gas (GHG) emissions reduction targets. {{site.data.keyword.cloud_notm}} is improving the estimation approach by introducing the carbon calculator, which gives you a detailed view of your cloud electricity consumption and associated GHG emissions.
 
-{{site.data.keyword.cloud_notm}}'s carbon calculator uses data from electricity consumption, server resource utilization measurements, server and process life-cycle events, and service usage data. Based on the data, it estimates the electricity consumption and carbon emission from each account and service offering, according to the location, time period, and resource groups.
+{{site.data.keyword.cloud_notm}}'s carbon calculator uses data from electricity consumption, server resource utilization measurements, server and process life-cycle events, and service usage data. Based on the data, it estimates the electricity consumption and GHG emission from each account and service offering, according to the location, time period, and resource groups.
 
 {{site.data.keyword.cloud_notm}} has a resilient global network of locations to host data center workloads and provides three tiers of regions: multizone regions, single-campus multizone regions, and data centers.
 
-The calculation method depends on the gross electricity consumption and carbon emissions factor per location. It allocates a portion of the electricity consumption to each one of the services in a location based on the physical hosts that are being used. Then, it splits the electricity consumption per service, per location, across the tenants that are using the service based on their respective usage metrics. For Classic Infrastructure services, energy consumption is calculated by using the average power consumption for the machine on which the server is running.
+The calculation method depends on the gross electricity consumption and GHG emissions factor per location. It allocates a portion of the electricity consumption to each one of the services in a location based on the physical hosts that are being used. Then, it splits the electricity consumption per service, per location, across the tenants that are using the service based on their respective usage metrics. For Classic Infrastructure services, energy consumption is calculated by using the average power consumption for the machine on which the server is running.
 
-Due to the large number of flexible profiles associated with Bare Metal for Classic, profiles were onboarded in phases. Complete data is available from December 2023 on. Users requiring a complete emissions report for previous months can submit a support case requesting a manual calculation. When creating a support case, select the **Billing and usage** topic. For more information, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
+Due to the large number of flexible profiles associated with Bare Metal for Classic, profiles were onboarded in phases. Complete data is available from December 2023 on. Users that require a complete emissions report for previous months can submit a support case to request a manual calculation. When creating a support case, select the **Billing and usage** topic. For more information, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
 {: note}
 
-The method uses the service units of individual {{site.data.keyword.cloud_notm}} offerings to allocate electricity consumption of shared resources to a service's individual resources. The per-account electricity consumption is multiplied by the location’s Power Usage Effectiveness (PUE) and carbon emission factor to yield the accounts carbon footprint.
+The method uses the service units of individual {{site.data.keyword.cloud_notm}} offerings to allocate electricity consumption of shared resources to a service's individual resources. The per-account electricity consumption is multiplied by the location’s Power Usage Effectiveness (PUE) and GHG emission factor to yield the accounts carbon footprint.
 
 The goal of the calculation method is to associate electricity consumption and carbon footprint allocation for the following:
 
@@ -144,9 +144,9 @@ Emissions from key greenhouse gases are measured in metric tons of carbon dioxid
 
 * Emissions by location: The energy consumption is calculated by using usage units such as CPU. Two or more resources are required to display the location data. The size represents how much energy is generated and the color represents the carbon intensity that is the emission rate for grams of carbon dioxide-equivalent emissions that are released per unit of energy produced.
 
-* Emissions by service: The carbon emissions are broken down by service.
+* Emissions by service: The GHG emissions are broken down by service.
 
-* Emissions by resource group: The carbon emissions are broken down by group. Most services are displayed by resource group. However, Classic Infrastructure is displayed in a dedicated group. The emissions are displayed only if a group contains those services.
+* Emissions by resource group: The GHG emissions are broken down by group. Most services are displayed by resource group. However, Classic Infrastructure is displayed in a dedicated group. The emissions are displayed only if a group contains those services.
 
 
 ## Tracking enterprise emissions with carbon calculator
@@ -156,9 +156,9 @@ The enterprise level view of carbon calculator enables you to view and export em
 
 In the enterprise level view, you can filter your emissions data down to a specific account group or account by clicking that entity in the account hierarchy. The enterprise view provides two additional widgets:
 ​
-* Emissions by account group: Carbon emissions broken down by account group. This displays if the entity being viewed contains account groups. Emissions listed under "Miscellaneous" do not belong to an account group.
+* Emissions by account group: GHG emissions broken down by account group. This displays if the entity being viewed contains account groups. Emissions listed under "Miscellaneous" do not belong to an account group.
 ​
-* Emissions by account: Carbon emissions broken down by account. This will display if the entity being viewed contains only accounts.
+* Emissions by account: GHG emissions are broken down by account. This will display if the entity that is being viewed contains only accounts.
 ​
 Learn more about setting up and managing [Enterprise accounts](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise).
 ​
@@ -171,7 +171,7 @@ Users can pull emissions data or incorporate that data into their own applicatio
 ## Zero-emissions data centers
 {: #zero-emission-data-centers}
 
-The following table shows the locations that are considered to be zero-emissions data centers for 2024. Data centers are considered zero-emissions either because they are powered by renewable energy or because their greenhouse gas emissions have been offset with certificates. Additional data centers may be added periodically.
+The following table shows the locations that are considered to be zero-emissions data centers for 2024. Data centers are considered zero-emissions because they are powered by renewable energy. Additional data centers can be added periodically.
 
 | Data Center | Location      |
 |-------------|---------------|
@@ -227,3 +227,44 @@ The following table shows the locations that are considered to be zero-emissions
 
 Carbon intensity is the emission rate for grams of carbon dioxide-equivalent emissions that are released per unit of energy produced.
 {: note}
+
+
+## Carbon calculator terms
+{: #carbon-calc-terms}
+
+The following are the terms that are used within the [carbon calculator documentation](/docs/billing-usage?topic=billing-usage-what-is-cloud-calc).
+
+Energy
+:   Electricity, fuels, and Purchased Energy Commodities used to operate facilities. It does not include energy used for transportation or similar activities.
+
+Energy Conservation
+:   Actions that avoid or reduce consumption of energy or improve operational energy efficiency. The results need to be supported by measurements and/or calculations based upon actual operating conditions. Examples of Energy Conservation actions include: using building monitoring and/or management and control software to optimize Energy Consumption; installing efficient lighting and cooling for buildings; using night setbacks on equipment; using variable frequency drives, replacing boilers or chillers and other infrastructure upgrades; optimizing efficiency through maintenance or operational actions; consolidating and virtualizing IT systems; reducing data center cooling delivery; raising IT equipment inlet temperatures.
+
+    Another example of Energy Conservation involves more efficient use of existing space and assets while maintaining the same general business mission and production output. In order to report Energy Conservation savings, specific actions must be taken by the local energy management team when moving or consolidating activities into more energy efficient space (e.g., office space, data centers), provided that there is no associated reduction in business mission and Energy Conservation can be demonstrated when normalized against applicable operational parameters.  Energy reduction due to downsizing or restructuring activities such as building shutdown, ramping down or outsourcing of operations do not qualify as energy conservation.
+
+
+    Savings from Energy Conservation are only applied to a maximum duration of one continuous 12-month period, which may span across two calendar years. Energy savings may be prorated for each calendar year if month-to-month savings are consistent (e.g., a lighting project) or reported monthly where savings differ or are absent in some months based on the time of year (e.g., a free cooling or chiller optimization project).
+
+Energy Consumption
+:   Quantity of energy applied per unit of time to perform work.
+
+Energy Efficiency
+:   Ratio or other quantitative relationship between an output of performance, service, goods, commodities, or energy, and an input of energy.  This can be used to demonstrate how effectively energy is used.
+
+Energy Management
+:   Activities associated with managing the Energy Consumption, Energy Use and efficiency, Energy Conservation, cost and procurement of Energy across IBM's business.
+
+Energy Use
+:   Manner or kind of application of energy to generate work. Examples include lighting, heating and cooling of buildings, manufacturing, and data center operations.
+
+Greenhouse Gas (GHG)
+:   Gaseous substance that, when released to the atmosphere, has a warming effect on Earth.
+
+Power Usage Effectiveness (PUE)
+:   Ratio of the data center total energy consumption to information technology equipment energy consumption, calculated, measured or assessed across the same period.
+
+Purchased Energy Commodities
+:   Steam, chilled water and hot water generated by a third-party and supplied to an IBM Location.
+
+Renewable Energy
+:   Energy sources that are naturally replenishing but which may be flow-limited, including biomass, biogas, bioethanol, hydro-power, solar photovoltaic, concentrated solar power, wind power, geothermal, ocean thermal, wave action, and tidal action.
