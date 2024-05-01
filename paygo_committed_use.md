@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2023
-lastupdated: "2023-08-21"
+  years: 2019, 2024
+lastupdated: "2024-05-01"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use
 
@@ -17,8 +17,6 @@ subcollection: billing-usage
 
 The {{site.data.keyword.cloud}} Enterprise Savings Plan billing model is similar to the billing model for Subscription accounts but with a few added benefits. With this billing model, you commit to spend a certain amount on {{site.data.keyword.cloud_notm}} and receive discounts across the platform. You are billed monthly based on your usage and you continue to receive a discount even after you reach your committed amount.
 {: shortdesc}
-
-The Commitments and subscriptions page in the console offers a view of any active or upcoming commitments. If you have an active subscription, or had subscriptions in the past, those details are also displayed on the Commitments and subscriptions page page.
 
 ## Before you begin
 {: #commit-prereq}
@@ -45,9 +43,9 @@ After you contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com
 ## Viewing your commitment usage
 {: #committed-usage}
 
-The Commitments and subscriptions page provides the usage details for any commitment on the account. You can track your usage month to month for a detailed view of your commitment usage history. To access this information, you need an access policy with the viewer role or higher on the billing account management service. See [IAM access](/docs/account?topic=account-userroles) for more information.
+The Enterprise Savings Plan page provides the usage details for your commitment on the account. You can track your usage month to month for a detailed view of your commitment usage history. To access this information, you need an access policy with the viewer role or higher on the billing account management service. See [IAM access](/docs/account?topic=account-userroles) for more information.
 
-To view your platform and service subscription usage in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Commitments and subscriptions**.
+To view your Enterprise Savings Plan usage in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage > Commitments** and select **Enterprise Savings Plan**.
 
 * Click the tabs to view information about active or upcoming commitments. Active commitments are commitments that still have a remaining committed amount to spend and time that's remaining in the commitment term. Upcoming commitments are commitments that were added to the account but haven't yet reached their term period. A commitment is inactive if its term expires or all of its committed amount is spent.
 * Use the graph to view what you've spent toward your overall committed amount. You can view the days remaining in the commitment, discount, billing method, and billing frequency.
@@ -56,18 +54,19 @@ To view your platform and service subscription usage in the {{site.data.keyword.
 ## Remaining commitment
 {: #unmet-commit}
 
-If you don't spend the total committed amount by the end of the commitment term, you are invoiced for the amount that you didn't consume. The graph on the Commitment and subscription page provides details about what you've spent toward your overall committed amount, so you can easily track what you've consumed and how much time is remaining in your commitment.
+If you don't spend the total committed amount by the end of the commitment term, you are invoiced for the amount that you didn't consume. The graph on the Enterprise Savings Plan  page provides details about what you've spent toward your overall committed amount, so you can easily track what you've consumed and how much time is remaining in your commitment.
 
-<!--This doc is staging only for now. Do not push to prod. -HL-->
+<!--This doc is staging only for now. Do not push to prod.
 ## Product-level discounts
 {: #service-discount-commit}
 
-In addition to the platform-level discount applied to a commitment, you can receive additional discounts that apply to a service, category, plan, and metric. Discounts on products vary depending on your account type. To view the discounts that are applied to your commitment in the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Commitments and subscriptions**. In the discounts section, use the table to view your active discounts.
+In addition to the platform-level discount applied to a commitment, you can receive additional discounts that apply to a service, category, plan, and metric. Discounts on products vary depending on your account type. To view the discounts that are applied to your commitment in the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage** > **Commitments** > . In the discounts section, use the table to view your active discounts.
 
 Multiple discounts can't be applied to a single resource.
 {: note}
 
 For more information about product-level discounts, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
+-HL-->
 
 ## Getting support
 {: #committed-use-support}

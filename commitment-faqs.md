@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-02-01"
+lastupdated: "2024-05-01"
 
 keywords: IBM Cloud billing, commitment model, using commitments, FAQs, enterprise savings plan, savings plan, pay as you go with committed use
 
@@ -33,7 +33,7 @@ Contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?con
 {: #existing-commit}
 {: faq}
 
-To view your existing commitments, in the {{site.data.keyword.Bluemix}} console, go to **Manage > Billing and usage**, and select **Commitments & subscriptions**.
+To view your existing Enterprise Savings Plan commitments, in the {{site.data.keyword.Bluemix}} console, go to **Manage > Billing and usage**, and select **Commitments** > **Enterprise Savings Plan**.
 
 Click the tabs to view the remaining credit in your active commitments and any upcoming commitments that aren't yet valid. A commitment is expired if its term expires or all of its credit is spent.
 
@@ -41,7 +41,7 @@ Click the tabs to view the remaining credit in your active commitments and any u
 {: #view-commit}
 {: faq}
 
-To view your commitment usage, in the {{site.data.keyword.Bluemix}} console, go to **Manage > Billing and usage**, and select **Commitments & subscriptions**.
+To view your Enterprise Savings Plan commitment usage, in the {{site.data.keyword.Bluemix}} console, go to **Manage > Billing and usage**, and select **Commitments** > **Enterprise Savings Plan**.
 * Click the tabs to view information on active or upcoming commitments.
 * Use the graph to view what you've spent toward your overall committed amount.
 * View monthly breakdown of the spending history for the commitment in the table. 

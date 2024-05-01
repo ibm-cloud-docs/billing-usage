@@ -66,6 +66,7 @@ toc:
           - understand-invoice.md
       - subscriptions.md
       - paygo_committed_use.md
+      - service-level-commit.md
       - cc-working-with.md
       - exporting-usage.md
 
