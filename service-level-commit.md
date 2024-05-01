@@ -15,7 +15,7 @@ subcollection: billing-usage
 # Service-level commitments
 {: #service-comit}
 
-With service-level commitments, you commit to spend a certain amount on a specific service and receive discounts based on your commitment. If you expect to generate a large amount of usage for a service, including on-premises services like PowerVS or Z, you might want to consider purchasing services this way.
+With service-level commitments, you commit to spend a certain amount on a specific service or group of services and receive discounts based on your commitment. If you expect to generate a large amount of usage for a service, including on-premises services like PowerVS or Z, you might want to consider purchasing services this way.
 
 All of your service usage is discounted with a service-level commitment, even if you exceed your commitment amount.
 {: note}
