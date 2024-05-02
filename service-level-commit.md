@@ -2,9 +2,9 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-01"
+lastupdated: "2024-05-02"
 
-keywords: IBM Cloud billing, commitment, using commitments, service commitments, service-level commitments
+keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
 subcollection: billing-usage
 
@@ -15,7 +15,7 @@ subcollection: billing-usage
 # Service-level commitments
 {: #service-comit}
 
-With service-level commitments, you commit to spend a certain amount on a specific service or group of services and receive discounts based on your commitment. If you expect to generate a large amount of usage for a service, including on-premises services like PowerVS or Z, you might want to consider purchasing services this way.
+With service-level commitments, you commit to spend a certain amount on a specific service or group of services and receive discounts based on your commitment. If you expect to generate a large amount of usage for a service, {{site.data.keyword.powerSysFull}} or {{site.data.keyword.IBMz}}, you might want to consider purchasing services this way.
 
 All of your service usage is discounted with a service-level commitment, even if you exceed your commitment amount.
 {: note}
@@ -29,14 +29,15 @@ Commitments include a term, discount rate, total commitment amount, a monthly mi
 ## Before you begin
 {: #before-service-commit}
 
-- Only in an individual account, such as a standalone account or an account within an enterprise, can you have commitments for on-premises usage. Service-level commitments cannot be shared across multiple accounts.
+- Only in an individual account, such as standalone account or an account within an enterprise, can you have commitments for on-premises usage.
+- Service-level commitments cannot be shared across multiple accounts.
 - Commitments for on-premises services include a one-time installation charge.
 - Commitments start at $1,000 minimum usage per month
 
 ## Signing up for a commitment
 {: #signup-slc}
 
-All account types, including trial accounts, can order a service-level commitment. Work with [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://www.ibm.com/cloud?contactmodule){: external} to create a commitment quote based on the spending amount for the period that you want to commit to.
+All account types, including trial accoutns, can order a service-level commitment. Work with [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://www.ibm.com/cloud?contactmodule){: external} to create a commitment quote based on the spending amount for the period that you want to commit to.
 
 You can have multiple commitments for different catalog services active at the same time.
 {: note}
