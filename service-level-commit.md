@@ -15,23 +15,23 @@ subcollection: billing-usage
 # Service-level commitments
 {: #service-comit}
 
-With service-level commitments, you commit to spend a certain amount on a specific service or group of services and receive discounts based on your commitment. If you expect to generate a large amount of usage for a service, {{site.data.keyword.powerSysFull}} or {{site.data.keyword.IBMz}}, you might want to consider purchasing services this way.
+With service-level commitments, you commit to spend a certain amount on a specific service or group of services and receive discounts based on your commitment. If you expect to generate a large amount of usage for a service, like {{site.data.keyword.powerSysFull}} or {{site.data.keyword.IBMz}}, you might want to consider purchasing services this way.
 
 All of your service usage is discounted with a service-level commitment, even if you exceed your commitment amount.
 {: note}
 
 Commitments include a term, discount rate, total commitment amount, a monthly minimum spend, and yearly minimum spend if applicable. For example, you might have a commitment with the following provisions:
 - 1 year term
-- 30% discount on PowerVS
+- 30% discount on {{site.data.keyword.powerSys_notm}}
 - $120,000 total commitment
 - $1,000 minimum usage per month
 
 ## Before you begin
 {: #before-service-commit}
 
-- Only in an individual account, such as standalone account or an account within an enterprise, can you have commitments for on-premises usage.
+- Only in an individual account, such as standalone account or an account within an enterprise, can you have commitments for services deployed on-premises.
 - Service-level commitments cannot be shared across multiple accounts.
-- Commitments for on-premises services include a one-time installation charge.
+- Commitments for services deployed on-premises include a one-time installation charge.
 - Commitments start at $1,000 minimum usage per month
 
 ## Signing up for a commitment
