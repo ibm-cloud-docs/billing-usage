@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-02"
+lastupdated: "2024-06-05"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -20,8 +20,8 @@ With service-level commitments, you commit to spend a certain amount on a specif
 All of your service usage is discounted with a service-level commitment, even if you exceed your commitment amount.
 {: note}
 
-Commitments include a term, discount rate, total commitment amount, a monthly minimum spend, and yearly minimum spend if applicable. For example, you might have a commitment with the following provisions:
-- 1 year term
+Commitments include a term, discount rate, and total commitment amount. You might also have a monthly or yearly minimum spend if applicable. A term might be 6 months, 1 year, or 5 years. For example, you might have a commitment with the following provisions:
+- 1-year term
 - 30% discount on {{site.data.keyword.powerSys_notm}}
 - $120,000 total commitment
 - $1,000 minimum usage per month
@@ -29,15 +29,14 @@ Commitments include a term, discount rate, total commitment amount, a monthly mi
 ## Before you begin
 {: #before-service-commit}
 
-- Only in an individual account, such as standalone account or an account within an enterprise, can you have commitments for services deployed on-premises.
+- You can have commitments for services deployed on-premises only in an individual account, such as standalone account or an account within an enterprise.
 - Service-level commitments cannot be shared across multiple accounts.
 - Commitments for services deployed on-premises include a one-time installation charge.
-- Commitments start at $1,000 minimum usage per month
 
 ## Signing up for a commitment
 {: #signup-slc}
 
-All account types, including trial accoutns, can order a service-level commitment. Work with [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://www.ibm.com/cloud?contactmodule){: external} to create a commitment quote based on the spending amount for the period that you want to commit to.
+Most account types can order a service-level commitment. Work with [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://www.ibm.com/cloud?contactmodule){: external} to create a commitment quote based on the spending amount for the period that you want to commit to.
 
 You can have multiple commitments for different catalog services active at the same time.
 {: note}
@@ -52,7 +51,7 @@ To view your service-level commitment usage, go to **Manage > Billing > Commitme
 ## Minimum spending
 {: #spending-min-slc}
 
-The monthly minimum spend for all commitments depends on your commitment amount and your utilization to date. Multi-year commitments also have a yearly minimum. If you don't meet the monthly or yearly minimum usage, you are charged the remaining amount. To make sure that you're using resources at a rate that fulfills your commitment, go to the Service-level commitments page and click a commitment. Here you can view a more detailed breakdown of your usage.
+Multi-year terms have a required yearly minimum spend. You might also have a monthly minimum spend for a commitment, which depends on your commitment amount. If you don't meet the monthly or yearly minimum usage, you are charged up to the minimum the remaining amount. To make sure that you're using resources at a rate that fulfills your commitment, go to the Service-level commitments page and click a commitment. Here you can view a more detailed breakdown of your usage.
 
 Set a spending notification to make sure that your usage is on track to fulfill your commitment. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 {: tip}
