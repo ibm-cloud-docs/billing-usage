@@ -11,11 +11,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:note: .note}
-{:screen: .screen}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing payments
 {: #linkedusage}
