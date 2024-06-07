@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2024
-lastupdated: "2024-01-31"
+lastupdated: "2024-01-26"
 
 keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
@@ -33,7 +33,6 @@ To keep the example simple, assume the prices in the following table don't fluct
 
 | Service                           |	Features                                                            |	Price             |
 |-----------------------------------|---------------------------------------------------------------------|-------------------|
-| {{site.data.keyword.runtime_nodejs_short}}                   |	Charges for runtime by GB-hours          |	$0.07 USD/GB-hour |
 | {{site.data.keyword.autoscaling}} |	Free service plan for the {{site.data.keyword.autoscaling}} service |	Free              |
 | {{site.data.keyword.cloudant_short_notm}} | Standard plan includes 20 GB of free data storage  \n Scale provisioned throughput capacity in increments of:  \n 100 lookups per second  \n 50 writes per second  \n 5 queries per second | $1.00 USD/GB of data storage  \n $0.25 USD/Lookup per second  \n $0.50 USD/Write per second  \n $5.00 USD/Query per second |
 {: caption="Table 1. Pricing for resources" caption-side="top"}
@@ -66,5 +65,6 @@ Two {{site.data.keyword.autoscaling}} policies (processor and memory)
 
 20 GB inbound or outbound network traffic
 :   Inbound and outbound network traffic is free of charge.
+
 
 When all the items are added, the total price of the application is $211.65.

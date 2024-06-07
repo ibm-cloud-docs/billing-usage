@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-22"
+  years: 2021, 2023
+lastupdated: "2021-09-17"
 
 keywords: enterprise usage, view enterprise costs, account hierarchy, report organization, enterprise report organization
 
@@ -10,20 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:note: .note}
-{:api: .ph data-hd-interface='api'}
-{:cli: .ph data-hd-interface='cli'}
-{:ui: .ph data-hd-interface='ui'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:curl: .ph data-hd-programlang='curl'}
-{:go: .ph data-hd-programlang='go'}
-{:javascript: .ph data-hd-programlang='javascript'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Enterprise usage report organization
 {: #enterprise-report}
@@ -33,7 +20,7 @@ An enterprise account's usage charges come from the use of the resource instance
 Reports for any entity in the hierarchy that is not an account (the enterprise or an account group) has the usage of all the accounts under that entity rolled up to the billing unit.
 
 
-## Example Hierarchy 
+## Example Hierarchy
 {: #enterprise-hierarchy-example}
 
 The following example depicts a hierarchy of an enterprise called `Cloud-Provider`. The `Cloud-Provider` enterprise contains an `Administration` account and the `Platform-Services` and `Solutions` account groups. Each account is assigned to one of the following billing units: `Administration`, `Operations`, or `Support`.
@@ -68,7 +55,6 @@ Given this structure, the `Cloud-Provider` enterprise has the following effectiv
 * The `Solutions`, `AI-Services`, and `Data-Services` account groups have two effective billing units: `Operations` and `Support`.
 
 ### Example queries and responses
-{: #example-enterprise-queries}
 
 Enterprise `Cloud-Provider` reports
 
@@ -134,4 +120,3 @@ Account `Data-Services-Operations` report
 Query: `https://enterprise.{DomainName}/v1/resource-usage-reports?account_id=account-data-services-operations&month=2019-06`
 
 This query returns one report: Usage aggregated towards (A)Data-Services-Operations:(BU)Operations
-

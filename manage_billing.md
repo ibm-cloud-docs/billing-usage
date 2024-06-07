@@ -11,7 +11,11 @@ subcollection: billing-usage
 
 ---
 
-{{site.data.keyword.attribute-definition-list}}
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:screen: .screen}
 
 # Managing payments
 {: #linkedusage}
@@ -50,16 +54,13 @@ Complete the following steps to edit your active payment method:
 1. To edit the billing address, click **Edit** and update the billing address.
 1. To edit the card details, click **Edit** and update the card number or expiration date.
 
-You can only have one address that's associated with your payment methods. All credit cards in the account will be updated to the same address.
-{: note}
-
 Complete the following steps to set a new default payment method:
 
 1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Set as default**.
 2. Confirm that you want to make this payment method the default. The default payment method is charged for recurring payments
 
 
-##  Managing payment methods for all other accounts
+## Managing payment methods for all other accounts
 {: #manage-other-account}
 
 The steps to update your credit card apply to the following types of accounts:

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-04-06"
+lastupdated: "2023-03-07"
 
 keywords: credit card, payment method, error credit card, credit card error, payment issue, card issue, card error, card error message, payment error message
 
@@ -13,7 +13,7 @@ subcollection: billing-usage
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Credit Card error messages
+# Credit card error messages
 {: #cc-error-messages}
 
 An issue might occur when you try to update, add, or remove a credit card. Review the following credit card error messages for detailed self-help information.
@@ -65,7 +65,7 @@ Go to the [Support Center](/unifiedsupport/supportcenter) and click **Create a c
 {: #ts-auth-card}
 {: troubleshoot}
 
-You tried to make a payment or place an order in the {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external},  but you get the following error message:
+You tried to make a payment or place an order in the {{site.data.keyword.cloud_notm}} console [Payments page](/billing/payments){: external}, but you get the following error message:
 {: tsSymptoms}
 
 > Could not place order. Problem authorizing the credit card. We're afraid this transaction has been rejected. General decline of the card. No other information provided by the issuing bank.
@@ -152,10 +152,12 @@ You tried to complete a change request {{site.data.keyword.cloud_notm}} console 
 Your VAT ID, CST or other tax identification number cannot be validated.
 {: tsCauses}
 
-1. Verify that tax identification number is valid.
+Complete the following steps to verify the VAT ID:
 {: tsResolve}
+
+1. Verify that tax identification number is valid.
 1. Verify that the tax identification number is associated with the same country as the physical country of residence in your {{site.data.keyword.cloud_notm}} profile.
-1. Verify whether a VAT ID is required to create an IBM Cloud account in your country of residence. For more information, see [Personal use availability](/docs/account?topic=account-account-getting-started#signup-personalaccts).
+1. Verify whether a VAT ID is required to create an {{site.data.keyword.cloud_notm}} account in your country of residence. For more information, see [Personal use availability](/docs/account?topic=account-account-getting-started#signup-personalaccts).
 1. Verify that you are creating the correct account type: personal or business.
 
 ## Why was there an error in the payment process?
@@ -185,7 +187,7 @@ An issue occurred that caused the payment process to fail. This error might prom
 Our payment system has detected multiple similar payments within a short period of time. {{site.data.keyword.cloud_notm}} is attempting to avoid unintentional duplicate payments.
 {: tsCauses}
 
-Wait 3-4 hours for the manual payment to be processed and posted to your {{site.data.keyword.cloud_notm}}} account. Verify your account balance on the [Payments page](https://cloud.ibm.com/billing/payments).
+Wait 3-4 hours for the manual payment to be processed and posted to your {{site.data.keyword.cloud_notm}} account. Verify your account balance on the [Payments page](https://cloud.ibm.com/billing/payments).
 {: tsResolve}
 
 ## Why can't I upgrade my account?
@@ -197,7 +199,7 @@ An issue occurred that caused the payment process to fail. This error might prom
 
 > Your account couldn't be upgraded. Click Upgrade account to try again.
 
-{{site.data.keyword.cloud_notm}}} was unable to process your transaction.
+{{site.data.keyword.cloud_notm}} was unable to process your transaction.
 {: tsCauses}
 
 Submit your account upgrade information again. If the error continues to occur, you can contact [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external}.
@@ -225,7 +227,7 @@ Use a different credit card to process your transaction.
 An issue occurred that caused your credit card to decline. This error might prompt the following message:
 {: tsSymptoms}
 
-> Your payment was declined for invoice number…
+*Your payment was declined for invoice number…*
 
 You have a credit card on file and it was declined.
 {: tsCauses}

@@ -25,59 +25,59 @@ If service data is not displayed, it might be because emissions data isn't track
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
 
-* {{site.data.keyword.iae_short}}                               <!--Analytics Engine-->
-* {{site.data.keyword.appconfig_short}}                         <!--App Configuration-->
-* Application Load Balancer                                     <!--Application Load Balancer-->
-* {{site.data.keyword.bm_is_short}}                             <!--Bare Metal Servers for VPC-->
-* {{site.data.keyword.baremetal_short}} for Classic             <!--Bare Metal Servers for Classic-->
-* {{site.data.keyword.blockstorageshort}}                       <!--Block Storage for Classic-->
-* {{site.data.keyword.block_storage_is_short}}                  <!--Block Storage for VPC-->
-* Cloud HSM                                                     <!--Cloud HSM-->
-* Cloud Object Storage                                          <!--Cloud Object Storage-->
-* Cloudant                                                      <!--Cloudant-->
-* {{site.data.keyword.registryshort}}                           <!--Container Registry-->
-* {{site.data.keyword.contdelivery_short}}                      <!--Continuous Delivery-->
-* Data Engine (previously SQL Query)                            <!--Data Engine-->
-* {{site.data.keyword.databases-for-elasticsearch}}             <!--Databases for Elasticsearch-->
-* {{site.data.keyword.databases-for-enterprisedb}}              <!--Databases for EnterpriseDB-->
-* {{site.data.keyword.databases-for-etcd}}                      <!--Databases for etcd-->
-* {{site.data.keyword.databases-for-mongodb}}                   <!--Databases for MongoDB-->
-* {{site.data.keyword.databases-for-mysql}}                     <!--Databases for MySQL-->
-* {{site.data.keyword.databases-for-postgresql}}                <!--Databases for PostgreSQL-->
-* {{site.data.keyword.databases-for-redis}}                     <!--Databases for Redis-->
-* {{site.data.keyword.datastageshort}}                          <!--DataStage-->
-* Db2                                                           <!--Db2-->
-* Db2 Warehouse                                                 <!--Db2 Warehouse-->
-* Direct Link Connect                                           <!--Direct Link Connect-->
-* Direct Link Dedicated                                         <!--Direct Link Dedicated-->
-* {{site.data.keyword.dns_short}}                               <!--DNS Services-->
-* {{site.data.keyword.en_short}}                                <!--Event Notifications-->
-* {{site.data.keyword.messagehub}}                              <!--Event Streams-->
-* {{site.data.keyword.filestorage_short}}                       <!--File Storage for Classic-->
-* {{site.data.keyword.filestorage_vpc_short}}                   <!--File Storage for VPC-->
-* {{site.data.keyword.fsa10_full}}                              <!--Fortigate Security Appliance 10 Gbps-->
-* Gateway Appliance                                             <!--Gateway Appliance-->
-* IBM Cloud Activity Tracker                                    <!--IBM Cloud Activity Tracker-->
-* IBM Cloud Monitoring                                          <!--IBM Cloud Monitoring-->
-* IBM Cloud Platform - Core Services [^tabletext1]              <!--IBM Cloud Platform - Core Services-->
-* IBM Log Analysis                                              <!--IBM Log Analysis-->
-* {{site.data.keyword.keymanagementserviceshort}}               <!--Key Protect-->
-* {{site.data.keyword.containershort_notm}}                     <!--Kubernetes Service-->
-* {{site.data.keyword.loadbalancer_short}} for Classic          <!--Load Balancer for Classic-->
-* {{site.data.keyword.messages-for-rabbitmq}}                   <!--Messages for RabbitMQ-->
-* MQ                                                            <!--MQ-->
-* Network Load Balancer                                         <!--Network Load Balancer-->
-* SAP on Classic Infrastructure                                 <!--SAP on Classic Infrastructure-->
-* SAP on VMware                                                 <!--SAP on VMware-->
-* {{site.data.keyword.satelliteshort}}                          <!--Satellite-->
-* {{site.data.keyword.secrets-manager_short}}                   <!--Secrets Manager-->
-* {{site.data.keyword.compliance_short}}                        <!--Security and Compliance Center-->
-* Security and Compliance Center Workload Protection            <!--Security and Compliance Center Workload Protection-->
-* {{site.data.keyword.tg_short}}                                <!--Transit Gateway-->
-* VMware Solutions                                              <!--VMware Solutions-->
-* {{site.data.keyword.vpn_vpc_short}}                           <!--VPN for VPC-->
-* {{site.data.keyword.virtualmachinesshort}} for Classic        <!--Virtual Servers for Classic-->
-* Virtual Server for VPC                                        <!--Virtual Server for VPC-->
+* {{site.data.keyword.iae_short}}                               
+* {{site.data.keyword.appconfig_short}}                         
+* Application Load Balancer                                     
+* {{site.data.keyword.bm_is_short}}                             
+* {{site.data.keyword.baremetal_short}} for Classic             
+* {{site.data.keyword.blockstorageshort}}                       
+* {{site.data.keyword.block_storage_is_short}}                  
+* Cloud HSM                                                     
+* Cloud Object Storage                                          
+* Cloudant                                                      
+* {{site.data.keyword.registryshort}}                           
+* {{site.data.keyword.contdelivery_short}}                      
+* Data Engine (previously SQL Query)                            
+* {{site.data.keyword.databases-for-elasticsearch}}             
+* {{site.data.keyword.databases-for-enterprisedb}}              
+* {{site.data.keyword.databases-for-etcd}}                      
+* {{site.data.keyword.databases-for-mongodb}}                   
+* {{site.data.keyword.databases-for-mysql}}                     
+* {{site.data.keyword.databases-for-postgresql}}                
+* {{site.data.keyword.databases-for-redis}}                     
+* {{site.data.keyword.datastageshort}}                          
+* Db2                                                           
+* Db2 Warehouse                                                 
+* Direct Link Connect                                           
+* Direct Link Dedicated                                         
+* {{site.data.keyword.dns_short}}                               
+* {{site.data.keyword.en_short}}                                
+* {{site.data.keyword.messagehub}}                              
+* {{site.data.keyword.filestorage_short}}                       
+* {{site.data.keyword.filestorage_vpc_short}}                   
+* {{site.data.keyword.fsa10_full}}                              
+* Gateway Appliance                                             
+* IBM Cloud Activity Tracker                                    
+* IBM Cloud Monitoring                                          
+* IBM Cloud Platform - Core Services [^tabletext1]              
+* IBM Log Analysis                                              
+* {{site.data.keyword.keymanagementserviceshort}}               
+* {{site.data.keyword.containershort_notm}}                     
+* {{site.data.keyword.loadbalancer_short}} for Classic          
+* {{site.data.keyword.messages-for-rabbitmq}}                   
+* MQ                                                            
+* Network Load Balancer                                         
+* SAP on Classic Infrastructure                                 
+* SAP on VMware                                                 
+* {{site.data.keyword.satelliteshort}}                          
+* {{site.data.keyword.secrets-manager_short}}                   
+* {{site.data.keyword.compliance_short}}                        
+* Security and Compliance Center Workload Protection            
+* {{site.data.keyword.tg_short}}                                
+* VMware Solutions                                              
+* {{site.data.keyword.vpn_vpc_short}}                           
+* {{site.data.keyword.virtualmachinesshort}} for Classic        
+* Virtual Server for VPC                                        
 
 [^tabletext1]: Contains multiple services that are not tracked individually but are combined into one service. IBM Cloud Platform includes the following: Command line interface, Billing and usage, Identity and access management, Global catalog, Global search & tagging, Console, Cloud shell, Projects, Paywall, Schematics, and Carbon calculator.
 
@@ -98,7 +98,7 @@ The carbon calculator provides a wide range of features to track your GHG emissi
 
 Account owners, account administrators, and users with a viewer role or higher on the billing service can view and export emissions data for the entire account. An account or billing administrator role is required to grant other users access to the Billing service. For more information about assigning access, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=api#billing-acct-mgmt-api).
 
-<!--To view emissions data, you must be assigned the viewer or higher role on the billing service. Your account must be open for a minimum of 31 days. and the average monthly usage over a span of three months must be higher than $250 USD. If you have a free account or your average usage is less than $250 USD, {{site.data.keyword.cloud_notm}} might require two or more cloud services in the same location to calculate and show emissions data.-->
+
 
 ## IBM Cloud and sustainability
 {: #cc-sustainability}

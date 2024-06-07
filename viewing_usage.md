@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-01-31"
+lastupdated: "2024-01-26"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 

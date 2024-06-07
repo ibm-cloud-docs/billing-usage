@@ -2,7 +2,7 @@
 
 copyright:
    years: 2022, 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-02-23"
 
 keywords: invoice reconciliation, non-subscription invoice, map invoice, map usage, one time charges, recurring invoice, recurring charges
 
@@ -35,9 +35,9 @@ Recurring invoice
 
 In this tutorial, you'll see a few invoice examples:
 
-* [Figure 1](/docs/billing-usage?topic=billing-usage-tutorial-reconcile-invoice#recurring-charge): The Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) invoice for March. This invoice is sent to the email associated with the account.
+* [Figure 1](/docs/billing-usage?topic=billing-usage-reconcile-invoice#IaaS-PaaS): The Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) invoice for March. This invoice is sent to the email associated with the account.
 * [Figure 2](/docs/billing-usage?topic=billing-usage-tutorial-reconcile-invoice#recurring-charge-view): The March recurring invoice. You can find your recurring invoice on the [Invoices page](/billing/invoices).
-* [Figure 3](/docs/billing-usage?topic=billing-usage-tutorial-reconcile-invoice#new-onetime-charge): A view of the invoice tab in the console with the new and one-time charges from 20 February to 19 March.
+* [Figure 3](/docs/billing-usage?topic=billing-usage-reconcile-invoice#new-charges): A view of the invoice tab in the console with the new and one-time charges from 20 February to 19 March.
 
 ## Review the totals on the final invoice
 {: #recurring-charge}
