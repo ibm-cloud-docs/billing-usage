@@ -596,7 +596,7 @@ You will get CSV version 1.0 if the data that you're viewing is from October 202
 | Balance             | `offers.credits.balance`          | The remaining credits in the offer |
 {: class="simple-tab-table"}
 {: caption="Table 2. Account summary CSV header titles and JSON report fields for offers" caption-side="bottom"}
-{: tab-group="account-summar-1-0"}
+{: tab-group="account-summary-1-0"}
 {: #offer-id-1-0}
 {: tab-title="Offers"}
 
