@@ -50,6 +50,9 @@ Complete the following steps to edit your active payment method:
 1. To edit the billing address, click **Edit** and update the billing address.
 1. To edit the card details, click **Edit** and update the card number or expiration date.
 
+You can only have one address that's associated with your payment methods. All credit cards in the account will be updated to the same address.
+{: note}
+
 Complete the following steps to set a new default payment method:
 
 1. Click the **Actions** icon ![Actions icon](../icons/action-menu-icon.svg "Actions") > **Set as default**.
