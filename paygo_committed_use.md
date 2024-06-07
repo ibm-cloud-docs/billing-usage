@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-04-29"
+lastupdated: "2024-05-01"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use
 
@@ -44,6 +44,8 @@ After you contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com
 {: #committed-usage}
 
 The Enterprise Savings Plan page provides the usage details for your commitment on the account. You can track your usage month to month for a detailed view of your commitment usage history. To access this information, you need an access policy with the viewer role or higher on the billing account management service. See [IAM access](/docs/account?topic=account-userroles) for more information.
+
+To view your Enterprise Savings Plan usage in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage > Commitments** and select **Enterprise Savings Plan**.
 
 * Click the tabs to view information about active or upcoming commitments. Active commitments are commitments that still have a remaining committed amount to spend and time that's remaining in the commitment term. Upcoming commitments are commitments that were added to the account but haven't yet reached their term period. A commitment is inactive if its term expires or all of its committed amount is spent.
 * Use the graph to view what you've spent toward your overall committed amount. You can view the days remaining in the commitment, discount, billing method, and billing frequency.
