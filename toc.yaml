@@ -1,6 +1,7 @@
 toc:
   properties:
     subcollection: billing-usage
+    service-name: ibm-cloud-platform
     version: 2
     category: platform_services
     audience: platform

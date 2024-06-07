@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-29"
+lastupdated: "2024-05-01"
 
 keywords: troubleshoot billing
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #cannot-apply-commit}
 {: troubleshoot}
 
-You've already had a commitment on your account and you want to add another.
+You've already had an Enterprise Savings Plan commitment on your account and you want to add another.
 {: shortdesc}
 
 Your Enterprise Savings Plan account has expired and you try to add another commitment by using the Enterprise Savings Plan page in the {{site.data.keyword.cloud_notm}} console.

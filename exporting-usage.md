@@ -608,7 +608,7 @@ Regular account CSV reports are not real time and can be incomplete. Complete CS
 
 You can view other versions of the CSV if you have earlier instances reports in your account. The CSV version depends on the date that the data is published. The following are the available versions:
 
-- June 2024 is to present [version 1.2](#instances-CSV-version-1-2)
+- June 2024 to present is [version 1.2](#instances-CSV-version-1-2)
 - March 2024 to June 2024 is [version 1.1](#instances-csv-version-1-1)
 - October 2023 to March 2024 is [version 1.0](#instances-csv-version-1-0)
 - February 2023 to October 2023 is [version 0.2](#instances-csv-version-0-2)
@@ -929,7 +929,7 @@ The following are the JSON report section APIs for the different CVS headings:
 
 You can view other versions of the CSV if you have earlier enterprise account summary reports in your account. The CSV version depends on the date that the data is published. The following are the available versions:
 
-- March 2024 is to present [version 1.1](#enterprise-account-summary-csv-version-1-1)
+- March 2024 to present is [version 1.1](#enterprise-account-summary-csv-version-1-1)
 - October 2024 to March 2024 is [version 1.0](#enterprise-account-summary-csv-version-1-0)
 - February 2023 to October 2024 is [version 0.2](#enterprise-account-summary-csv-version-0-2)
 - Before February 2023 is [version 0.1](#enterprise-account-summary-csv-version-0-1).
