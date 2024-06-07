@@ -1,7 +1,6 @@
 toc:
   properties:
     subcollection: billing-usage
-    service-name: ibm-cloud-platform
     version: 2
     category: platform_services
     audience: platform
@@ -66,6 +65,8 @@ toc:
       - service-level-commit.md
       - cc-working-with.md
       - exporting-usage.md
+      - migrate-billing.md
+      - migrate-billing-bp.md
   - navgroup:
       id: reference
       topics:
@@ -90,7 +91,6 @@ toc:
           - link:
               label: Enterprise Usage Reports
               href: https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports
-      - cc-terms.md
   - navgroup:
       id: help
       topics:
