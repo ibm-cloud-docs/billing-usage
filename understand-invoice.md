@@ -38,19 +38,4 @@ Third-party services, such as SendGrid, don't bill for their service through {{s
 
 An {{site.data.keyword.Bluemix_notm}} service might provide a free allocation before the start of your billing period. To determine whether your service instance provides a free allocation, go to the [Resources list](/resources) in the {{site.data.keyword.cloud_notm}} console. Click the service name, and then click **Plan**. Review the feature description for each plan to see whether the service offers free allocations. Free allocations are applied to the account level and not the organization level.
 
-<!-- Removed by Bill Wentworth on 20 April 2023 because we don't durrently support it
-## Updating currency on your invoice
-{: #invoice-currency}
 
-You can change the currency on an invoice by going to the [Monthly Payment Method](/billing/payments){: external} form in the {{site.data.keyword.cloud_notm}} console. Review the following before you update the currency:
-
-* Verify that your account has a $0.00 US dollar balance. Your account can't be changed to local currency if there's a remaining balance.
-* Ensure that the credit card information is for an account that can be billed in the new currency.
-* Verify that the billing address information in the form matches the billing information on the credit card in the account.
-* Provide a tax identification number in the VAT ID field if your account is a business.
-* Select the correct currency for the **Request Currency Change to** option.
-* Add a physical address to the account to change to a currency other than US dollars. Post office addresses are not accepted.
-
-An account that is invoiced in a currency other than US dollars can't be converted to US dollar invoicing.
-{: note}
--->

@@ -10,7 +10,6 @@ toc:
     product-page: https://ibm.com/cloud
     path: billing-usage
     label: Managing billing and usage
-
   entries:
   - navgroup:
       id: learn
@@ -23,12 +22,10 @@ toc:
           topics:
           - bp_billing.md
           - cc-bp.md
-
   - navgroup:
       id: tutorial
       topics:
       - reconcile-tutorial.md
-
   - navgroup:
       id: howto
       topics:
@@ -61,15 +58,14 @@ toc:
       - topicgroup:
           label: Managing your invoices and payments
           topics:
-          - invoices.md
           - manage_billing.md
+          - invoices.md
           - understand-invoice.md
       - subscriptions.md
       - paygo_committed_use.md
       - service-level-commit.md
       - cc-working-with.md
       - exporting-usage.md
-
   - navgroup:
       id: reference
       topics:
@@ -94,7 +90,6 @@ toc:
           - link:
               label: Enterprise Usage Reports
               href: https://{DomainName}/apidocs/enterprise-apis/resource-usage-reports
-
   - navgroup:
       id: help
       topics:
@@ -105,7 +100,6 @@ toc:
           - subscription_acct_faq.md
           - invoice_faqs.md
           - commitment-faqs.md
-          - faq-platform-analytics.md
           - cc-faqs.md
       - topicgroup:
           label: Troubleshooting
@@ -120,6 +114,7 @@ toc:
           - ts-view-commit.md
           - ts_commit_cannot_apply.md
           - ts_commit_access_page.md
+          - ts_cc-payment.md
           - ts_section-error.md
           - ts_charge-limit.md
           - ts-cc-error-messages.md

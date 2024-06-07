@@ -15,7 +15,7 @@ subcollection: billing-usage
 # Centrally managing billing and usage with enterprises
 {: #enterprise}
 
-You can centrally manage multiple {{site.data.keyword.Bluemix}} accounts with [Enterprises](#x2026915){: term}. Because billing is separate from the individual child accounts and consolidated to the enterprise level, enterprises simplify managing billing, invoicing, and payments for the accounts.
+You can centrally manage multiple {{site.data.keyword.Bluemix}} accounts with [enterprises](#x2026915){: term}. Because billing is separate from the individual child accounts and consolidated to the enterprise level, enterprises simplify managing billing, invoicing, and payments for the accounts.
 {: shortdesc}
 
 New to {{site.data.keyword.Bluemix_notm}} enterprises? See [What is an enterprise?](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise) for more details about how enterprises can help you centrally manage billing and usage.
@@ -26,11 +26,11 @@ New to {{site.data.keyword.Bluemix_notm}} enterprises? See [What is an enterpris
 
 In an enterprise, billing is managed by the enterprise rather than in the individual child accounts. This centralized billing model differs from a stand-alone account in the following ways.
 
- * Credit from any existing subscriptions or promotions in accounts that are added to the enterprise is consolidated into the enterprise's credit pool. The billing administrator adds new subscriptions to the credit pool from the enterprise account.
- * Usage from all accounts is deducted from the shared credit pool. If given access, enterprise users can view usage costs for all accounts and account groups in the enterprise. Users within each child account can continue to monitor usage in the particular account, but they don't have visibility to other accounts in the enterprise.
- * Usage is invoiced through the enterprise account. Only the enterprise billing administrator can view invoices and manage payments.
+* Credit from any existing subscriptions or promotions in accounts that are added to the enterprise is consolidated into the enterprise's credit pool. The billing administrator adds new subscriptions to the credit pool from the enterprise account.
+* Usage from all accounts is deducted from the shared credit pool. If given access, enterprise users can view usage costs for all accounts and account groups in the enterprise. Users within each child account can continue to monitor usage in the particular account, but they don't have visibility to other accounts in the enterprise.
+* Usage is invoiced through the enterprise account. Only the enterprise billing administrator can view invoices and manage payments.
 
-![A diagram that shows that credit from accounts is added to the enterprise credit pool, which is managed by the billing administrator in the enterprise account. Usage access is managed separately and can be targeted to the enterprise, an account group, or an account.](images/enterprise-billing-usage.svg){: caption="Figure 1.Enterprise billing and usage management" caption-side="bottom"}
+![A diagram that shows that credit from accounts is added to the enterprise credit pool, which is managed by the billing administrator in the enterprise account. Usage access is managed separately and can be targeted to the enterprise, an account group, or an account.](images/enterprise-billing.svg){: caption="Figure 1.Enterprise billing and usage management" caption-side="bottom"}
 
 ## Billing options
 {: #enterprise-billing-options}
@@ -49,10 +49,10 @@ Each enterprise supports only a single billing currency. All accounts must use t
 
 When you import an existing account to an enterprise, its billing and invoicing transitions to being managed by the enterprise account. This transition includes the following changes to the account.
 
-   * For Subscription accounts that are added, the account type is changed to Pay-As-You-Go. This change reflects that the account does not have its own subscriptions, but it still has full access to production-ready, billable services.
-   * Subscriptions and promotions from each account are moved to the enterprise account, where they become part of the credit pool. After the move, each subscription has the same remaining credit and term period, but the subscription is given a new unique ID.
-   * Access to billing and payment information for future billing periods is restricted to users in the enterprise account. Users in a child account can't access billing and payment information, such as invoices, payments, or subscriptions, even if they previously had access in the account. To view or manage billing, users need to be invited to the enterprise account and given access to the Billing service in that account.
-   * Usage is invoiced to the enterprise account for the entire month when the account was added. For example, if you add an account to the enterprise on 15 June, all of the usage for the month of June is reflected in the July invoice.
+* For Subscription accounts that are added, the account type is changed to Pay-As-You-Go. This change reflects that the account does not have its own subscriptions, but it still has full access to production-ready, billable services.
+* Subscriptions and promotions from each account are moved to the enterprise account, where they become part of the credit pool. After the move, each subscription has the same remaining credit and term period, but the subscription is given a new unique ID.
+* Access to billing and payment information for future billing periods is restricted to users in the enterprise account. Users in a child account can't access billing and payment information, such as invoices, payments, or subscriptions, even if they previously had access in the account. To view or manage billing, users need to be invited to the enterprise account and given access to the Billing service in that account.
+* Usage is invoiced to the enterprise account for the entire month when the account was added. For example, if you add an account to the enterprise on 15 June, all of the usage for the month of June is reflected in the July invoice.
 
 ### Shared credit pool
 {: #credit-pool}
@@ -78,9 +78,9 @@ Subscriptions can be added only to the enterprise account and cannot be added to
 {: note}
 
 Because subscriptions can be sized for the entire enterprise rather than per account, you get the following benefits:
-   * Simpler sizing for a subscription because the subscriptions apply to more than one account
-   * Better discounts on usage costs because subscriptions are larger
-   * Fewer expiration dates to track and manage after existing subscriptions expire
+* Simpler subscription sizing because the subscriptions apply to more than one account
+* Better discounts on usage costs because subscriptions are larger
+* Fewer expiration dates to track and manage after existing subscriptions expire
 
 In an enterprise, subscriptions are managed from the enterprise account the same way as for a stand-alone account. For more information about managing your platform and support subscriptions, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
 
@@ -90,9 +90,9 @@ In an enterprise, subscriptions are managed from the enterprise account the same
 Enterprises provide top-down usage reporting so that you can track the costs of resource usage from all accounts in the enterprise. Starting at the enterprise level, you can navigate within the enterprise structure to see the estimated usage costs within each account or account group. At the account level, enterprise users can view costs for each type of resource or service in the account.
 
 Enterprise administrators can provide granular access to users so that they can view usage only for certain account groups or accounts. For example, say that your enterprise has account groups for each department, and each department has account groups for each team.
-   * You give your financial officer access to view the entire enterprise so that they can track and recover costs for each department.
-   * You give each department lead access to view usage for everything in their department's account group.
-   * You give each team lead access to view only the accounts in their team's account group.
+* You give your financial officer access to view the entire enterprise so that they can track and recover costs for each department.
+* You give each department lead access to view usage for everything in their department's account group.
+* You give each team lead access to view only the accounts in their team's account group.
 
 Because access in the enterprise is separate from access in each account, enterprise users can't automatically manage resources within the child accounts. Similarly, users in each account can continue to view their past and current usage from the Usage page regardless of whether they have enterprise access.
 

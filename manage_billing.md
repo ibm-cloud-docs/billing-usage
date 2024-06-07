@@ -59,7 +59,7 @@ Complete the following steps to set a new default payment method:
 2. Confirm that you want to make this payment method the default. The default payment method is charged for recurring payments
 
 
-##  Managing payment methods for all other accounts
+## Managing payment methods for all other accounts
 {: #manage-other-account}
 
 The steps to update your credit card apply to the following types of accounts:

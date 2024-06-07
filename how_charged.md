@@ -28,7 +28,7 @@ Different types of charges apply depending on the features of {{site.data.keywor
 | Type of Charge | Description      | Resource Type            | Example                  |
 |----------------|------------------|--------------------------|--------------------------|
 | Fixed          | Fixed-rate pricing is based on an agreed upon monthly charge. If you buy an additional bare metal server, virtual server, or storage resource after the start of the monthly billing period, the cost of the resource for the first month is prorated based on the number of days remaining in the billing period. The prorated cost is billed in a separate invoice.  | Services  | For Bare Metal Servers, there are fixed plans to choose from, and those plans are charged at a fixed monthly rate.|
-| Metered        | Usage is a unit-based pricing model in which you pay for what you consume. In this case, the number of GB hours that are consumed for runtimes and the number of IP addresses and storage that is consumed for containers.  | Services, Compute, and Containers | For {{site.data.keyword.mobilepushshort}}, any usage that is consumed over the free monthly allowance of 100,000 digital messages per month, will be charged.  |
+| Metered        | Metered is a unit-based pricing model in which you pay for what you consume. In this case, the number of GB hours that are consumed for runtimes and the number of IP addresses and storage that is consumed for containers.  | Services, Compute, and Containers | For {{site.data.keyword.mobilepushshort}}, any usage that is consumed over the free monthly allowance of 100,000 digital messages per month, will be charged.  |
 | Tiered         | In this pricing model, you get a volumed-based discount according to your actual usage. Tiered pricing is typically used for charge metrics that are expected to have high quantities per month, such as API calls. Services might offer simple, graduated, or block tier pricing plans. | Services | For {{site.data.keyword.apiconnect_short}}, one of the tiered plans charges $10,000 for the first 25 million monthly API calls and $40.00 USD per 100,000 API calls per month thereafter.|
 | Reserved       | Reserved pricing is based on a long-term commitment for a service, so you can get a discounted price. With a reserved plan, you get a dedicated service instance that is easy to set up, deploy, and deliver in the public {{site.data.keyword.Bluemix_notm}} environment. | Services | Db2 on Cloud has reserved plans.|
 {: caption="Table 1. Charges based on features" caption-side="top"}
@@ -38,21 +38,22 @@ Different types of charges apply depending on the features of {{site.data.keywor
 
 On the usage dashboard, your products and resources can be labeled with `Monthly`, `Hourly`, or a combination of both tags to signify how often charges are updated.
 
-The `Monthly` tag signifies that resources within your account have a fixed cost. These charge show up immediately after purchase and are prorated in proportion to how many days are remaining in the month. Any recurring monthly fixed costs are then shown at the first of every month.
+The `Monthly` tag signifies that resources within your account have a fixed cost. These charge show up immediately after purchase and are prorated in proportion to how many days are remaining in the month. The fixed costs is then shown at the first of every month.
 
-The `Hourly` tag signifies that resources within your account have variable costs. These resources are updated daily.
+The `Hourly` tag signifies that resources within your account have variable costs that can change throughout the day. These resources are updated every day.
+
 
 ## Lite plans
 {: #liteplans}
 
 Lite plans are structured as a free quota. You can work on your projects worry free, without the risk of generating an accidental bill. The quota might operate for a specific time period, for example a month, or on a one-off usage basis. The following list provides some examples of Lite plan quotas:
 
-   * Maximum number of registered devices
-   * Maximum number of application bindings
-   * Encrypted data storage limit, for example 1 GB
-   * Provisioned throughput capacity
+* Maximum number of registered devices
+* Maximum number of application bindings
+* Encrypted data storage limit, for example 1 GB
+* Provisioned throughput capacity
 
-You can easily find services for Lite plans in the catalog. By default, all services with a Lite plan are displayed with a **Lite** tag ![Lite tag](../icons/Lite.svg "Lite"). Select a service to view the quota details for the associated Lite plan.
+You can easily find services for Lite plans in the catalog. By default, all services with a Lite plan are displayed with a **Lite tag** ![Lite tag](../icons/Lite.svg "Lite"). Select a service to view the quota details for the associated Lite plan.
 
 
 ## Charges for compute resources
@@ -73,18 +74,18 @@ For example, consider a runtime that costs $0.07 per GB-hour in two 512-MB insta
 
 Many services include monthly free allowances. Usage of services that aren't included as part of the free allowance is charged in one of the following ways:
 
-Fixed charges
+Fixed charges>
 :   You select a plan and pay on a flat rate basis. For example, the Bare Metal Servers are charged at a flat-rate.
 
 Metered charges
 :   You pay based on your runtime and service consumption. For example, with the Push service, any usage over the free monthly allowance is charged.
 
 Reserved charges
-:   As the account owner of a Pay As You Go account or a Subscription account, you can reserve a service instance, with a long-term commitment, for a discounted price. For example, you can reserve the standard large Db2 on Cloud offering for 12 months.
+:   As the account owner of a Pay As You Go account or a Subscription account, you can reserve a service instance, with a long-term commitment, for a discounted price. For example, you can reserve the standard large Db2 on Cloud product for 12 months.
 :   Some {{site.data.keyword.Bluemix_notm}} services offer reserved plans. You can request a reserved plan from the {{site.data.keyword.Bluemix_notm}} catalog by clicking the tile of the service. Then, select the service plan that best meets your needs. If a reserved plan is available, click **Request**, and follow the prompts to send your request. You receive an email that contains the price information of the reserved plan. An {{site.data.keyword.Bluemix_notm}} sales representative also contacts you soon to complete the purchase.
 
 Tiered charges
-:   Similar to metered charges, you pay based on your runtime and service consumption. However, tiered charges add more pricing tiers, often offering discounted charges in tiers with larger consumption. Tiered pricing is offered in simple, graduated, or block.
+:   Similar to metered charges, you pay based on your runtime and service consumption. However, tiered charges add more pricing tiers, often product discounted charges in tiers with larger consumption. Tiered pricing is offered in simple, graduated, or block.
 
 ### Simple tier
 {: #simple_tier}

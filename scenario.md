@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2024
-lastupdated: "2024-01-31"
+lastupdated: "2024-01-30"
 
 keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
@@ -66,5 +66,6 @@ Two {{site.data.keyword.autoscaling}} policies (processor and memory)
 
 20 GB inbound or outbound network traffic
 :   Inbound and outbound network traffic is free of charge.
+
 
 When all the items are added, the total price of the application is $211.65.

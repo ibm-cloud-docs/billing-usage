@@ -1,10 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2023
-
-lastupdated: "2023-08-30"
-
+  years: 2019, 2024
+lastupdated: "2024-01-12"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -167,7 +165,7 @@ get_resource_usage_report(self,
 {: codeblock}
 {: go}
 
-## Exporting your enterprise usage details to a CSV file
+## Exporting your enterprise usage details to a `.csv` file
 {: #export-enterprise-csv}
 {: ui}
 
@@ -175,10 +173,6 @@ You can export a summary of your account's usage, child account usage, or inform
 
 1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
 1. Click **Export CSV**.
-
-
-
-
 
 ## Recovering costs for enterprise usage
 {: #enterprise-cost-recovery}

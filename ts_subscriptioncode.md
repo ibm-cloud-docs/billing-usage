@@ -2,13 +2,15 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-23"
+lastupdated: "2020-07-27"
 
 keywords: troubleshoot billing, subscription code, subscription code error, can't apply subscription code, code applied 
 
 subcollection: billing-usage
 
 content-type: troubleshoot
+
+
 ---
 
 {:shortdesc: .shortdesc}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2022
-lastupdated: "2023-08-21"
+  years: 2019, 2024
+lastupdated: "2024-02-28"
 
 keywords: subscription, credit, subscription code, support code, subscription overage, subscription usage, feature code, expiring subscription, expired subscription
 
@@ -10,15 +10,7 @@ subcollection: billing-usage
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:screen: .screen}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
-{:external: target="_blank" .external}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing subscriptions
 {: #subscriptions}
@@ -49,9 +41,11 @@ If you have multiple subscriptions in your account that are valid at the same ti
 | {{site.data.keyword.Bluemix_notm}} Platform - 01234567, term 2 | $12,000 | 1 July 2020 | 30 June 2021 |
 {: caption="Table 1. Subscription credit spending order" caption-side="top"}
 
-Support subscriptions that you buy after 24 September 2019 can be spent as described in this section, with credit being available for the entire subscription term. For support subscriptions that were bought before this date, credit is available on a month-to-month basis. When you buy or renew a support subscription, any existing active support subscriptions are converted to the term-based model for the remainder of their term.
+If you have multiple subscriptions in your account that have terms greater than 12 months and you pay up-front for the entire subscription rather than using monthly, quarterly, or another recurring billing cadence, you won't receive an overage for spending faster than you planned.
 
-For example, you might have a support subscription for $200 per month with three months remaining. When you buy a new support subscription, the existing subscription is converted to a new one with $600 of credit that can be used anytime within those three months.
+For example, say you commit to spending $12,000 per year for 3 years and pay up-front. By month 10, you've consumed the first year's $12,000 credit and spend $2,000 in month 11. Instead of receiving an overage charge, we deduct $2,000 from the third year's credit leaving a balance of $10,000 remaining to spend in year 3. Assuming there are no other charges from the second year's spending, you have $10,000 to spend in year 3 before any overage charges are applied.
+
+Support subscriptions that you buy after 24 September 2019 can be spent as described in this section, with credit being available for the entire subscription term. For support subscriptions that were bought before this date, credit is available on a month-to-month basis. When you buy or renew a support subscription, any existing active support subscriptions are converted to the term-based model for the remainder of their term. \n For example, you might have a support subscription for $200 per month with three months remaining. When you buy a new support subscription, the existing subscription is converted to a new one with $600 of credit that can be used anytime within those three months.
 {: note}
 
 ## Viewing subscription usage
@@ -66,8 +60,8 @@ You can view the subscriptions in your account to track your credit spending. To
 
 To view your platform and service subscription usage, in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Subscriptions**.
 
-   * Click the tabs to view spending details and trends about your subscription usage, including any usage overages that your account incurred. For example, the credit burndown view displays how your credit balance changes over time, and the spending by month view displays your monthly spending from all subscriptions.
-   * View all active and inactive subscriptions in your account in the tables. For multi-year subscriptions, each term is displayed separately. Active subscriptions are subscriptions that still have remaining credit to spend and time that's remaining in the subscription term. Upcoming subscriptions are subscriptions were added to the account but haven't yet reached their term period. A subscription is inactive if its term expires or all of its credit is spent.
+* Click the tabs to view spending details and trends about your subscription usage, including any usage overages that your account incurred. For example, the credit burndown view displays how your credit balance changes over time, and the usage by month view displays your monthly usage from all subscriptions.
+* View all active and inactive subscriptions in your account in the tables. For multi-year subscriptions, each term is displayed separately. Active subscriptions are subscriptions that still have remaining credit to spend and time that's remaining in the subscription term. Upcoming subscriptions are subscriptions were added to the account but haven't yet reached their term period. A subscription is inactive if its term expires or all of its credit is spent.
 
 You can use the spending and usage information on the Subscriptions page to evaluate whether your subscriptions suit your usage needs. For example, if you consistently have overages, you might increase your monthly spending commitment to save money on that usage. To buy new subscriptions or change future subscription amounts, contact [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
 
@@ -88,6 +82,6 @@ For more information, see [Applying subscription codes](/docs/billing-usage?topi
 {: help}
 {: support}
 
-You are notified by email 60, 30, 14, and 1 day before the expiration date of the last subscription on the account. After the subscription expires, your account is converted to a Pay-As-You Go account, which means you pay only for billable services that you use with no contracts or commitments. The discounts that are associated with the subscription account won't apply to the Pay-As-You-Go account. The IBM Sales team is happy to help extend your subscription before you reach its expiration date. If you extend your subscription within 30 days from the expiration date, you won't get charged at the Pay-As-You-Go account rate. After 30 days, you are invoiced as a Pay-As-You-Go account.
+You are notified by email and on the [Subscriptions](/billing/subscriptions) page 60, 30, 14, and 1 day before the expiration date of the last subscription on the account. After the subscription expires, your account is converted to a Pay-As-You Go account, which means you pay only for billable services that you use with no contracts or commitments. The discounts that are associated with the subscription account don't apply to the Pay-As-You-Go account. To avoid getting charged at the Pay-As-You-Go, rate, set up a new subscription with Sales before the expiration date of the last subscription on the account.
 
 To learn more, see [Pay-As-You-Go accounts](/docs/account?topic=account-accounts#paygo).

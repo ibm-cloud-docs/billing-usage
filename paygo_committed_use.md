@@ -54,19 +54,9 @@ To view your Enterprise Savings Plan usage in the {{site.data.keyword.cloud}} co
 ## Remaining commitment
 {: #unmet-commit}
 
-If you don't spend the total committed amount by the end of the commitment term, you are invoiced for the amount that you didn't consume. The graph on the Enterprise Savings Plan  page provides details about what you've spent toward your overall committed amount, so you can easily track what you've consumed and how much time is remaining in your commitment.
+If you don't spend the total committed amount by the end of the commitment term, you are invoiced for the amount that you didn't consume. The graph on the Enterprise Savings Plan page provides details about what you've spent toward your overall committed amount, so you can easily track what you've consumed and how much time is remaining in your commitment.
 
-<!--This doc is staging only for now. Do not push to prod.
-## Product-level discounts
-{: #service-discount-commit}
 
-In addition to the platform-level discount applied to a commitment, you can receive additional discounts that apply to a service, category, plan, and metric. Discounts on products vary depending on your account type. To view the discounts that are applied to your commitment in the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage** > **Commitments** > . In the discounts section, use the table to view your active discounts.
-
-Multiple discounts can't be applied to a single resource.
-{: note}
-
-For more information about product-level discounts, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
--HL-->
 
 ## Getting support
 {: #committed-use-support}

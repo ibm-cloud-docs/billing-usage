@@ -10,6 +10,7 @@ subcollection: billing-usage
 
 content-type: troubleshoot
 
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -34,4 +35,5 @@ When you try to create an instance of a service from the catalog, you're prompte
 Your account wasn't enabled to create resources of that type after you applied the feature code. The resources or capabilities that are provided vary for each feature code.
 {: tsCauses}
 
-Contact the person who gave you the feature code to verify the capabilities that it can enable for your account. For example, contact your educational provider for feature codes that they gave you for use with coursework. {: tsResolve}
+Contact the person who gave you the feature code to verify the capabilities that it can enable for your account. For example, contact your educational provider for feature codes that they gave you for use with coursework. 
+{: tsResolve}

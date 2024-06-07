@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-01-30"
+lastupdated: "2024-03-26"
 
 keywords: best practice billing, best practice usage, automate billing, track costs
 
@@ -12,11 +12,10 @@ subcollection: billing-usage
 
 {{site.data.keyword.attribute-definition-list}}
 
-
 # Best practices for billing and usage
 {: #best-practices}
 
-Follow our best practices to track costs and automate billing in {{site.data.keyword.Bluemix}}.
+Follow our best practices to learn about {{site.data.keyword.cloud}} billing options and tools that you can use to track your usage and manage invoicing and payments.
 {: shortdesc}
 
 ## Choose an account type that fits your usage
@@ -42,7 +41,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 
    For more information about tags, see [Working with tags](/docs/account?topic=account-tag).
 
-1. Track costs for the tagged resources by exporting the usage report for your instances. To export the report in the IBM Cloud console, go to **Manage > Billing and usage**, and select **Usage**. Then, click **Export CSV > Instance**.
+1. Track costs for the tagged resources by exporting the usage report for your instances. To export the report, go to **Manage > Billing and usage**, and select **Usage**. Then, click **Export CSV > Instance**.
 
    Use the Tags column in the instance CSV file to help analyze the resources in your account. You can sort the CSV data according to the project tag on each instance so that you can better analyze the individual projects' cost. If you tagged your resources with key:value pairs, you'll also see columns in the usage report that correspond with the key. For example, resources tagged `project:abc` and `project:xyz` appear in a Project column as `abc` and `xyz`.
 
@@ -51,8 +50,7 @@ Add tags to your resources to organize, track, and manage costs for related reso
 Use [projects](#x2035151){: term} to help you automatically tag related resources. Resources in a project are automatically given service tags with the ID for the project and configuration that they are associated with. For more information, see [Tracking usage and spend for projects](/secure-enterprise?topic=secure-enterprise-project-usage-spend).
 {: tip}
 
-
 ## Automate billing and usage management by using the CLI or APIs
 {: #billing-cli-apis}
 
-If you want to automate how you review your resource usage and associated costs, use the [`ibmcloud billing`](/docs/cli?topic=cli-ibmcloud_billing#ibmcloud_billing_org_usage) CLI or [Usage Metering](https://{DomainName}/apidocs/usage-metering){: external} and [Usage Reports](https://{DomainName}/apidocs/metering-reporting){: external} APIs to integrate this functionality into your own apps.
+If you want to automate how you review your resource usage and associated costs, use the [`ibmcloud billing`](/docs/cli?topic=cli-ibmcloud_billing#ibmcloud_billing_org_usage) CLI or [Usage Metering](/apidocs/usage-metering){: external} and [Usage Reports](/apidocs/metering-reporting){: external} APIs to integrate this functionality into your own apps.

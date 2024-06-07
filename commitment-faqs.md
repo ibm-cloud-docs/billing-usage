@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-05-01"
+  years: 2019, 2024
+lastupdated: "2024-02-01"
 
 keywords: IBM Cloud billing, commitment model, using commitments, FAQs, enterprise savings plan, savings plan, pay as you go with committed use
 
@@ -69,3 +69,14 @@ Since you committed to a certain amount for a certain period of time and you did
 {: faq}
 
 Yes, you can convert your account from US-based USD Pay-As-You-Go to an Enterprise Savings Plan, but it will be only effective after the term end of your former plan.
+
+## Why can't I add a child account with an active commitment to an enterprise?
+{: #child-commitment}
+{: faq}
+
+Accounts with active commitments can't be imported to the enterprise until their commitment term ends. You will see the following message:
+
+*Unable to import account*
+*[Account name] can't be imported until the end of the commitment term.*
+
+Child accounts must complete any active commitment term before they are added to an enterprise.

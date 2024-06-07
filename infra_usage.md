@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2021
-lastupdated: "2021-06-22"
+  years: 2018, 2022
+lastupdated: "2022-06-15"
 
 keywords: SoftLayer billing, classic infrastructure usage, orders, IaaS usage, invoice, billing item 
 
@@ -15,6 +15,7 @@ subcollection: billing-usage
 {:screen: .screen}
 {:help: data-hd-content-type='help'} 
 {:support: data-reuse='support'} 
+{:new_window: target="_blank"}
 {:tip: .tip}
 
 
@@ -29,7 +30,7 @@ You can view your device usage and service purchases for classic infrastructure 
 
 To view billing and usage for classic infrastructure resources, you need an access policy with the Viewer role or higher on the Billing account management service. See [IAM access](/docs/account?topic=account-userroles) for more information.
 
-* Select **Billing items** to view billing items and their associated devices. Billing items are services and offerings that are not a server, such as storage. Associating a billing item with a device helps you track and organize costs in your invoice.
+* Select **Billing items** to view billing items and their associated devices. Billing items are services and products that are not a server, such as storage. Associating a billing item with a device helps you track and organize costs in your invoice.
 
    By default, the Billing items page displays all associated billing items. You can change your view by clicking the **Associated Billing Items** menu and selecting another option. You can associate or disassociate one item, or expand the **Bulk Actions** operation for multiple items at a time. You can cancel individual billing items at any time.
 * Select **Invoices** to view detailed invoices that list your device and service usage and the billed amount for each item.

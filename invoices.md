@@ -85,6 +85,7 @@ To ensure that access is granted to the correct individuals, you must register b
 
 To access your invoices in the future, you can click the link from the Invoices page in the console or bookmark the external website to go to it directly.
 
+
 ## Requesting paperless invoices
 {: #request-paperless-invoices}
 
