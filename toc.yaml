@@ -60,7 +60,6 @@ toc:
           - manage_billing.md
           - invoices.md
           - understand-invoice.md
-          - reconcile-invoice.md
       - subscriptions.md
       - paygo_committed_use.md
       - service-level-commit.md
