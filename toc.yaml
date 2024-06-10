@@ -65,8 +65,6 @@ toc:
       - service-level-commit.md
       - cc-working-with.md
       - exporting-usage.md
-      - migrate-billing.md
-      - migrate-billing-bp.md
   - navgroup:
       id: reference
       topics:
