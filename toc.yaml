@@ -49,7 +49,6 @@ toc:
       - topicgroup:
           label: Working with codes and credits
           topics:
-          - credit-types.md
           - promo_codes.md
           - subscription_codes.md
           - feature-codes.md
@@ -74,7 +73,6 @@ toc:
           topics:
           - include: ../cli/reference/ibmcloud/cli_billing.md
           - include: ../cli/reference/ibmcloud/cli_order.md
-      - metering_billing.md
       - topicgroup:
           label: API reference
           topics:
@@ -114,7 +112,6 @@ toc:
           - ts-view-commit.md
           - ts_commit_cannot_apply.md
           - ts_commit_access_page.md
-          - ts_cc-payment.md
           - ts_section-error.md
           - ts_charge-limit.md
           - ts-cc-error-messages.md
