@@ -62,27 +62,39 @@ The new invoice you will recieve in Figire 2. includes only charges from the pre
 ## Finding detailed billing
 {: #find-detials}
 
-Your old invoice has granular instance level usage information on the Detailed Billing tab. The Detailed Billing tab provides a breakdown of all of your infrastructure and platform charges that represent three major types of usage:
+Your old invoice has granular instance level usage information on the Detailed Billing tab. The Detailed Billing tab provides a breakdown of all of your infrastructure and platform charges that represent three major types of usage. Review the following sections to understand how your old experience maps to your new experience for a seamless transition.
 
-* In Advance (for example, the month of December) infrastructure monthly usage charges. These are recurring charges that you incur until you cancel the service. The charge is the same every month.
+### Your old experince
+{: #old-instance-details}
+
+Using Table 1. as an example, you might see similar charges to the following on an invoice that you recieve in December for the three major types of usage:
+
+In Advance infrastructure monthly usage charges
+:   For example, for the month of December. These are recurring charges that you incur until you cancel the service. The charge is the same every month.
 
 ![An example of an advanced infrastructure monthly usage charges on the detailed invoice tab from the downloaded Excel invoice.](images/advance-billing.png){: caption="Figure 4. In advance infrastructure monthly usage charges." caption-side="bottom"}
 
-* In Arrears (for example, the month of November) infrastructure hourly charges. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
+In Arrears infrastructure hourly charges
+:   For example, for the month of November. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
 
 ![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/arrears-hourly.png){: caption="Figure 5.In Arrears infrastructure hourly charges." caption-side="bottom"}
 
-* In arrears (for example, the month of October) platform service charges. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
+In Arrears platform service charges
+:   For example, for the month of October. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
 
 ![In arrears platform service charges.](images/arrears-platform-service-charges.png){: caption="Figure 6. In arrears platform service charges for the month of January." caption-side="bottom"}
 
-With your new billing experience, you can find the same instance level details for your monthly usage by completing the following steps:
+### Your new experince
+{: #new-instance-details}
+
+With your new billing experience, all three major usage types are now billed a single month in arrears and your new instance level usage report includes only charges accrued in the previous month. Aligning all usage types to the same billing cycle makes chargebacks for different teams in your organization quicker and easier.
+
+You can find instance level details for your monthly usage by completing the following steps:
 
 1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
 1. Click **Export CSV**.
 1. Select **Instance** for detailed usage information about each service instance.
 
-Since all three major usage types are now billed a single month in arrears, the instance level usage report also includes only charges accrued in the previous month. Aligning all usage types to the same billing cycle makes chargebacks for different teams in your organization quicker and easier.
 
 ## Updating your billing information
 {: #initiate-migration}
