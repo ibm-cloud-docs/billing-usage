@@ -56,7 +56,7 @@ The new invoice you will recieve in Figire 2. includes only charges from the pre
 | Platform                          | Watson, DevOps               | November             | In arrears   | December |
 {: caption="Table 2. Your new invoice has usage from only othe previous month on the invoice that you receive 8 days into the folowing month." caption-side="bottom"}
 
-![An image of an IBM Cloud invoice](images/Recurring-invoice.png){: caption="Figure 2. The invoice that you will recieve after moving to IBM billing systems." caption-side="bottom"}
+![An image of an IBM Cloud invoice](images/test-ierp-invoice.png){: caption="Figure 2. The invoice that you will recieve after moving to IBM billing systems." caption-side="bottom"}
 {: #new-invoice}
 
 ## Finding detailed billing
