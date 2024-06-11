@@ -31,7 +31,7 @@ Review the following upgrades and impacts to your billing experience:
 - During the transition to this new billing cycle, you might see prorated charges for services that are billed on different schedules. For example, advance-billed services, monthly servers, or hourly usage products that are billed in arrears.
 - The business entity and credit card merchant that is used to bill your account is changing, so the company name that is displayed on your credit card statement will change.
 
-## Comparing your old and new experience
+## Invoicing schedule and format
 {: #invoice-compare}
 
 The invoice in Figure 1. includes charges from multiple months on one invoice. For example, an invoice that you recieve in December consists of charges for differnt types of services, and each type of service has a differnet billing cycle. Review the following table to understand how usage is billed for a December invoice:
@@ -67,26 +67,34 @@ Your old invoice has granular instance level usage information on the Detailed B
 ### Your old experince
 {: #old-instance-details}
 
+To locate your old invoice, you would have completed the following steps:
+
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Invoices**.
+1. Click the invoice number. For this example, review the table and click the invoice with a 3/1/22 date of issue and recurring type.
+1. To download the recurring invoice, click the **Download** icon ![Download icon](../icons/download.svg "Download") and select Excel invoice.
+1. Click **Email selected documents**. You receive an email with the selected documents to the email address of the account that you're logged in to. You can also click the **Download** icon ![Download icon](../icons/download.svg "Download") to download the invoice directly to your device.
+1. Open the downloaded file, and click **Detailed Billing** tab.
+
 Using Table 1. as an example, you might see similar charges to the following on an invoice that you recieve in December for the three major types of usage:
 
 #### In Advance infrastructure monthly usage charges
 {: #advance-monthly}
 
-For example, for the month of December. These are recurring charges that you incur until you cancel the service. The charge is the same every month.
+On an invoice that you recieve for the month of December, infrastructure monthly usage is charged in advance. These are recurring charges that you incur until you cancel the service. The charge is the same every month.
 
 ![An example of an advanced infrastructure monthly usage charges on the detailed invoice tab from the downloaded Excel invoice.](images/advance-billing.png){: caption="Figure 4. In advance infrastructure monthly usage charges." caption-side="bottom"}
 
 #### In Arrears infrastructure hourly charges
 {: #arrears-hourly}
 
-For example, for the month of November. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
+On an invoice that you recieve for the month of December, infrastructure hourly usage is charged one month in arrears for the month of November. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
 
 ![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/arrears-hourly.png){: caption="Figure 5.In Arrears infrastructure hourly charges." caption-side="bottom"}
 
 #### In Arrears platform service charges
 {: #arrears-platform}
 
-For example, for the month of October. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
+On an invoice that you recieve for the month of December, platform service usage is charged 2 months in arrears for the month of October. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
 
 ![In arrears platform service charges.](images/arrears-platform-service-charges.png){: caption="Figure 6. In arrears platform service charges for the month of January." caption-side="bottom"}
 
