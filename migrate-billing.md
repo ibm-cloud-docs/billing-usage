@@ -69,18 +69,24 @@ Your old invoice has granular instance level usage information on the Detailed B
 
 Using Table 1. as an example, you might see similar charges to the following on an invoice that you recieve in December for the three major types of usage:
 
-In Advance infrastructure monthly usage charges
-:   For example, for the month of December. These are recurring charges that you incur until you cancel the service. The charge is the same every month.
+#### In Advance infrastructure monthly usage charges
+{: #advance-monthly}
+
+For example, for the month of December. These are recurring charges that you incur until you cancel the service. The charge is the same every month.
 
 ![An example of an advanced infrastructure monthly usage charges on the detailed invoice tab from the downloaded Excel invoice.](images/advance-billing.png){: caption="Figure 4. In advance infrastructure monthly usage charges." caption-side="bottom"}
 
-In Arrears infrastructure hourly charges
-:   For example, for the month of November. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
+#### In Arrears infrastructure hourly charges
+{: #arrears-hourly}
+
+For example, for the month of November. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
 
 ![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/arrears-hourly.png){: caption="Figure 5.In Arrears infrastructure hourly charges." caption-side="bottom"}
 
-In Arrears platform service charges
-:   For example, for the month of October. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
+#### In Arrears platform service charges
+{: #arrears-platform}
+
+For example, for the month of October. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
 
 ![In arrears platform service charges.](images/arrears-platform-service-charges.png){: caption="Figure 6. In arrears platform service charges for the month of January." caption-side="bottom"}
 
