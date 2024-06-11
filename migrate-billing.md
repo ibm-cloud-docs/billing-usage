@@ -31,6 +31,16 @@ Review the following upgrades and impacts to your billing experience:
 - During the transition to this new billing cycle, you might see prorated charges for services that are billed on different schedules. For example, advance-billed services, monthly servers, or hourly usage products that are billed in arrears.
 - The business entity and credit card merchant that is used to bill your account is changing, so the company name that is displayed on your credit card statement will change.
 
+## Updating your billing information
+{: #initiate-migration}
+
+As the owner of an account that uses a credit card as the payment method, you can initiate your move to {{site.data.keyword.IBM_notm}} billing systems by updating your billing and account information. Log in to the {{site.data.keyword.Bluemix_notm}} console and view the banner notification on your dashboard. Click **Update now** to update the necessary information for your account.
+
+If your account uses a PO box address, you're required to provide a physical address.
+{: note}
+
+If you don't receive a console notification that prompts you to update your information, contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to migrate your account. If you're an IBM Business Partner, see [Moving to IBM Partner Programs](link).
+
 ## Invoicing schedule and format
 {: #invoice-compare}
 
@@ -109,16 +119,6 @@ You can find instance level details for your monthly usage by completing the fol
 1. Click **Export CSV**.
 1. Select **Instance** for detailed usage information about each service instance.
 
-
-## Updating your billing information
-{: #initiate-migration}
-
-As the owner of an account that uses a credit card as the payment method, you can initiate your move to {{site.data.keyword.IBM_notm}} billing systems by updating your billing and account information. Log in to the {{site.data.keyword.Bluemix_notm}} console and view the banner notification on your dashboard. Click **Update now** to update the necessary information for your account.
-
-If your account uses a PO box address, you're required to provide a physical address.
-{: note}
-
-If you don't receive a console notification that prompts you to update your information, contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to migrate your account. If you're an IBM Business Partner, see [Moving to IBM Partner Programs](link).
 
 ## Finding your invoices
 {: #new-invoices}
