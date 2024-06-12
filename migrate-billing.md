@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-06-11"
+lastupdated: "2024-06-12"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -39,7 +39,7 @@ As the owner of an account that uses a credit card as the payment method, you ca
 If your account uses a PO box address, you're required to provide a physical address.
 {: note}
 
-If you don't receive a console notification that prompts you to update your information, contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to migrate your account. If you're an IBM Business Partner, see [Moving to IBM Partner Programs](link).
+
 
 ## Invoicing schedule and format
 {: #invoice-compare}
