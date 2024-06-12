@@ -21,14 +21,13 @@ If you receive invoices like the one in [Figure 1.](#old-invoice) then your acco
 If you're an IBM Business Partner, see [Moving to {{site.data.keyword.IBM_notm}} Partner Programs](link).
 {: note}
 
-
 ## Before you begin
 {: #before-billing-migration}
 
 Review the following upgrades and impacts to your billing experience:
 
 - Usage is now billed from the first to the last day of each month, with a single, consolidated invoice issued on the 8th of the following month.
-- During the transition to this new billing cycle, you might see prorated charges for services that are billed on different schedules. For example, advance-billed services, monthly servers, or hourly usage products that are billed in arrears.
+- During the transition to this new billing cycle, you might see prorated charges for services that are billed on different schedules. For example, you might have monthly infrastructure services that are billed in advance, hourly usage products that are billed one month in arrears, or platform resources that are billed two months in arrears. The new billing cycle aligns all services to a one-month in arrears model.
 - The business entity and credit card merchant that is used to bill your account is changing, so the company name that is displayed on your credit card statement will change.
 
 ## Updating your billing information
