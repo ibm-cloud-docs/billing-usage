@@ -119,7 +119,6 @@ You can find instance level details for your monthly usage by completing the fol
 1. Click **Export CSV**.
 1. Select **Instance** for detailed usage information about each service instance.
 
-
 ## Finding your invoices
 {: #new-invoices}
 
