@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-07"
+lastupdated: "2024-06-13"
 
 keywords: apptio, cost benefit analysis
 
@@ -656,7 +656,6 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Usage Metric        | `resources.usage.metric`           | ID of the metric |
 | Usage Unit          | `resources.usage.unit`             | Unit that qualifies the quantity |
 | Usage Quantity      | `resources.usage.quantity`         | Aggregated value for the metric |
-| Usage Cost          | `resources.usage.cost`             | Cost incurred by the metric |
 | Original Cost       | `resources.usage.rated_cost`       | The starting cost of a resource within your account |
 | Volume Discount [New]{: tag-new}  | `resources.usage.volume_discount` | This percentage reflects the reduction to the original cost that you receive under a volume based pricing structure |
 | Volume Cost [New]{: tag-new} | `resources.usage.volume_cost` | The original cost adjusted for volume based discounts that are applied at the account level |
