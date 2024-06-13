@@ -22,6 +22,8 @@ When you set up your account to export usage report to a COS bucket you are enab
 
 To enable your account to share usage data, you need to grant permissions to the Billing service to access usage details and export it to a COS bucket. Because the report includes usage data for the entire account, child account usage and information about services and instances, the service ID used by the Billing service needs administrator access to export usage details. After this setup is complete, a CSV formatted cost and usage report is automatically exported to your COS bucket on a daily basis.
 
+Usage data from the COS bucket can only be collected for as far back as a year. So if it's June 2024, you can only view usage as early as June 2023.
+{: note}
 
 ## Enabling your account to export usage data
 {: #enable-export-usage}
