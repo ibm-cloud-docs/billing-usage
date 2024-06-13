@@ -18,7 +18,7 @@ subcollection: billing-usage
 If you receive invoices like the one in [Figure 1.](#old-invoice) then your account or accounts must move to {{site.data.keyword.IBM_notm}} billing systems before 31 October 2024. You continue to enjoy the same services, pricing, and terms without any disruptions.
 {: shortdesc}
 
-If you're an IBM Business Partner, see [Moving to {{site.data.keyword.IBM_notm}} Partner Programs](link).
+If you're an IBM Business Partner, see [Moving to {{site.data.keyword.IBM_notm}} Partner Programs](/docs/billing-usage?topic=billing-usage-migrate-to-simple#migrate-to-partner).
 {: note}
 
 ## Before you begin
@@ -137,7 +137,7 @@ Any SoftLayer Partner that signed the following agreements prior to May 2021 is 
 
 Moving to IBM Partner Programs requires a new IBM Resell or ESA order. All IBM Business Partners are required to join [IBM Partner Plus](https://www.ibm.com/partnerplus/){: external}. --> so does this mean that all SoftLayer Partners will have to join Partner Plus?
 
-Migrating your current account or accounts is also a requirements --> does this mean that they will get totally new accounts and account IDs?
+Migrating your Softlayer account or accounts to an IBM account is also a requirement. --> does this mean that they will get totally new accounts and account IDs?
 
 Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs. To pay your invoice in the {{site.data.keyword.cloud_notm}} console, go to to **Manage** > **Billing and usage**, and select **Invoices**. Review the following sections to understand the changes that apply to only partners.
 
