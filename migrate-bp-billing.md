@@ -30,7 +30,12 @@ Direct accounts (--> is there a customer facing way to refer to this kind of acc
 ## Before you begin
 {: #before-bp-migration}
 
-Review the updates to the [invoicing schedule and format](/docs/billing-usage?topic=billing-usage-migrate-to-simple#invoice-compare), how to view your [detailed billing](/docs/billing-usage?topic=billing-usage-migrate-to-simple#find-detials), and where to find your new [invoices](/docs/billing-usage?topic=billing-usage-migrate-to-simple#new-invoices).
+- Usage is now billed from the first to the last day of each month, with a single, consolidated invoice issued on the 8th of the following month.
+- During the transition to this new billing cycle, you might see prorated charges for services that are billed on different schedules. For example, you might have monthly infrastructure services that are billed in advance, hourly usage products that are billed one month in arrears, or platform resources that are billed two months in arrears. The new billing cycle aligns all services to a one-month in arrears model.
+- The business entity and credit card merchant that is used to bill your account is changing, so the company name that is displayed on your credit card statement will change.
+- All usage information is available on the [billing and usage dashboard](/billing/) in the {{site.data.keyword.cloud}} console.
+
+For more information, review the updates to the [invoicing schedule and format](/docs/billing-usage?topic=billing-usage-migrate-to-simple#invoice-compare), how to view your [detailed billing](/docs/billing-usage?topic=billing-usage-migrate-to-simple#find-detials), and where to find your new [invoices](/docs/billing-usage?topic=billing-usage-migrate-to-simple#new-invoices).
 
 ## Getting a new account
 {: #new-accounts}
