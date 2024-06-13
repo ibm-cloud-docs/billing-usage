@@ -42,7 +42,7 @@ The following table maps your Softlayer Partner account type the equivilent IBM 
 | Child account in a SoftLayer Partner hierarchy | Cloud Marketplace Reseller (CMR) [^tabletext] | Enterprise Savings Plan or Pay-As-You-Go |
 | SoftLayer Partner Build Account [^tabletext2] | Cloud Direct ESA | Enterprise Savings Plan |
 | Child account with internal usage | Cloud Direct Client | Enterprise Savings Plan or Pay-As-You-Go |
-{: caption="Table 3. Mapping IBM Business Partner relationships to SoftLayer Partner relationships." caption-side="bottom"}
+{: caption="Table 1. Mapping IBM Business Partner relationships to SoftLayer Partner relationships." caption-side="bottom"}
 
 [^tabletext]: Resell – Partners who resell IBM offerings to end customers.
 [^tabletext2]: Build - Partners who design their own solutions or services that combine IBM offering and significant value-add.
