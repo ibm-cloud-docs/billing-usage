@@ -135,10 +135,34 @@ Any SoftLayer Partner that signed the following agreements prior to May 2021 is 
 - SoftLayer Solution & Service Provider Attachment (SSSPA) to the CSA
 - IBM Cloud ESA Click & Accept
 
+Moving to IBM Partner Programs requires a new IBM Resell or ESA order. All IBM Business Partners are required to join [IBM Partner Plus](https://www.ibm.com/partnerplus/). --> so does this mean that all SoftLayer Partners will have to join Partner Plus?
+
+Migrating your current account or accounts is also a requirements --> does this mean that they will get totally new accounts and account IDs?
+
+| Softlayer account | IBM Partner relationship | IBM account |
+|--------------|------------------|------------------------|
+| Child account in a SoftLayer Partner hierarchy | Cloud Marketplace Reseller (CMR) | Enterprise Savings Plan or Pay-As-You-Go |
+| SoftLayer Partner Build Account | Cloud Direct ESA | Enterprise Savings Plan |
+| Child account with internal usage | Cloud Direct Client | Enterprise Savings Plan or Pay-As-You-Go |
+{: caption="Table 3. Mapping IBM Business Partner relationships to SoftLayer Partner relationships." caption-side="bottom"}
+
+Resell
+SoftLayer Resellers or partners of SoftLayer Resellers can apply to become an IBM
+Cloud Marketplace Reseller and continue to support their End Clients. More
+information is provided in Seismic:
+
 Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs. To pay your invoice in the {{site.data.keyword.cloud_notm}} console, go to to **Manage** > **Billing and usage**, and select **Invoices**. Review the following sections to understand the changes that apply to only partners.
 
+### Getting a new account
+{: #new-accounts}
+
+
+
+Child accounts in a Softlayer Partner hierarchy
+
+
 ### Discounts
-{: #discoutns-migration}
+{: #discounts-migration}
 
 All discounts on all services are removed as part of the move to {{site.data.keyword.IBM_notm}} Partner Programs. You can negociate discounts as part of the order process.
 
