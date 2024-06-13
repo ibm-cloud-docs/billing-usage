@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-06-12"
+lastupdated: "2024-06-13"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -135,11 +135,23 @@ Any SoftLayer Partner that signed the following agreements prior to May 2021 is 
 - SoftLayer Solution & Service Provider Attachment (SSSPA) to the CSA
 - IBM Cloud ESA Click & Accept
 
-Review the following changes that apply to only partners:
-- All discounts on all services are removed as part of the move to {{site.data.keyword.IBM_notm}} Partner Programs. You can negociate discounts as part of the order process.
-- If you have flex credits and promo credits remaining in an account, they are added to your new account after your move to {{site.data.keyword.IBM_notm}} Partner Programs.
-- If you have support entitlements remaining in an account, they are added to your new account after your move to {{site.data.keyword.IBM_notm}} Partner Programs.
-- Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs.
+Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs by going to **Manage** > **Billing and usage**, and select **Invoices** in the {{site.data.keyword.cloud_notm}} console. Review the following sections to understand the changes that apply to only partners.
+
+### Discounts
+{: #discoutns-migration}
+
+All discounts on all services are removed as part of the move to {{site.data.keyword.IBM_notm}} Partner Programs. You can negociate discounts as part of the order process.
+
+### Credits
+{: #credits-migration}
+
+If you have flex credits and promo credits remaining in an account, they are added to your new account after your move to {{site.data.keyword.IBM_notm}} Partner Programs.
+
+### Support entitlements
+{: #support-migration}
+
+If you have support entitlements remaining in an account, they are added to your new account after your move to {{site.data.keyword.IBM_notm}} Partner Programs.
+
 
 ## Helpful links
 {: #helpful-billing-migrate}
