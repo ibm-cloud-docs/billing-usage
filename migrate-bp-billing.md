@@ -25,7 +25,7 @@ Moving to IBM Partner Programs requires a new IBM Resell or ESA order. All IBM B
 
 Migrating your Softlayer account or accounts to an IBM account is also a requirement. --> does this mean that they will get totally new accounts and account IDs?
 
-Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs. To pay your invoice in the {{site.data.keyword.cloud_notm}} console, go to to **Manage** > **Billing and usage**, and select **Invoices**. Review the following sections to understand the changes that apply to only partners.
+Direct accounts (--> is there a customer facing way to refer to this kind of account or will they know what this means?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs. To pay your invoice in the {{site.data.keyword.cloud_notm}} console, go to to **Manage** > **Billing and usage**, and select **Invoices**. Review the following sections to understand the changes that apply to only partners.
 
 ## Before you begin
 {: #before-bp-migration}
@@ -57,7 +57,7 @@ Cloud Marketplace Resellers can work with an [{{site.data.keyword.cloud_notm}} S
 ### Cloud Direct ESA
 {: #esa-migrate}
 
-SoftLayer Partners or Clients (?) can apply to become an {{site.data.keyword.cloud_notm}} Build Partner. As an {{site.data.keyword.cloud_notm}} Build Partner, you have access to {{site.data.keyword.cloud_notm}}’s Cloud Service offering portfolio to develop, market, and manage your own branded solutions by providing significant value-add, including your own business outcomes, capabilities, processes, and applications (IP) integrated with the IBM Cloud offerings.
+SoftLayer Partners or Clients (--> what does 'clients' mean here?) can apply to become an {{site.data.keyword.cloud_notm}} Build Partner. As an {{site.data.keyword.cloud_notm}} Build Partner, you have access to {{site.data.keyword.cloud_notm}}’s Cloud Service offering portfolio to develop, market, and manage your own branded solutions by providing significant value-add, including your own business outcomes, capabilities, processes, and applications (IP) integrated with the IBM Cloud offerings.
 
 ## Discounts
 {: #discounts-migration}
