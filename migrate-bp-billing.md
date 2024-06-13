@@ -27,6 +27,11 @@ Migrating your Softlayer account or accounts to an IBM account is also a require
 
 Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs. To pay your invoice in the {{site.data.keyword.cloud_notm}} console, go to to **Manage** > **Billing and usage**, and select **Invoices**. Review the following sections to understand the changes that apply to only partners.
 
+## Before you begin
+{: #before-bp-migration}
+
+Review the updates to the [invoicing schedule and format](/docs/billing-usage?topic=billing-usage-migrate-to-simple#invoice-compare), how to view your [detailed billing](/docs/billing-usage?topic=billing-usage-migrate-to-simple#find-detials), and where to find your new [invoices](/docs/billing-usage?topic=billing-usage-migrate-to-simple#new-invoices).
+
 ## Getting a new account
 {: #new-accounts}
 
