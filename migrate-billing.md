@@ -135,7 +135,7 @@ Any SoftLayer Partner that signed the following agreements prior to May 2021 is 
 - SoftLayer Solution & Service Provider Attachment (SSSPA) to the CSA
 - IBM Cloud ESA Click & Accept
 
-Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs by going to **Manage** > **Billing and usage**, and select **Invoices** in the {{site.data.keyword.cloud_notm}} console. Review the following sections to understand the changes that apply to only partners.
+Direct accounts (?) must have all invoices fully paid before moving to {{site.data.keyword.IBM_notm}} Partner Programs. To pay your invoice in the {{site.data.keyword.cloud_notm}} console, go to to **Manage** > **Billing and usage**, and select **Invoices**. Review the following sections to understand the changes that apply to only partners.
 
 ### Discounts
 {: #discoutns-migration}
