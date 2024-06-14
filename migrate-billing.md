@@ -15,8 +15,10 @@ subcollection: billing-usage
 # Moving to {{site.data.keyword.IBM_notm}} billing systems
 {: #migrate-to-simple}
 
-If you receive invoices like the one in [Figure 1.](#old-invoice) then your account or accounts must move to {{site.data.keyword.IBM_notm}} billing systems before 31 October 2024. You continue to enjoy the same services, pricing, and terms without any disruptions.
+A segment of customers that use a legecy billing system must move to their accounts to {{site.data.keyword.IBM_notm}} billing systems before 31 October 2024. If you receive invoices like the one in [Figure 1.](#old-invoice) and you pay your invoice on the [Invioces](/billing/invoices) page in the {{site.data.keyword.bluemix}} console, this applies to your account. You continue to enjoy the same services, pricing, and terms without any disruptions.
 {: shortdesc}
+
+Accounts that are arequired to move to {{site.data.keyword.IBM_notm}} billing systems are notified by either a banner notification in the {{site.data.keyword.bluemix}} console, an email notification, or a support case.
 
 If you're an IBM Business Partner, see [Moving to {{site.data.keyword.IBM_notm}} Partner Programs](/docs/billing-usage?topic=billing-usage-migrate-to-simple#migrate-to-partner).
 {: note}
@@ -60,9 +62,12 @@ Review the following table to understand how usage is billed for a December invo
 |--------------|------------------|------------------------|--------------|-------------|
 | Classic Infrastructure	(Monthly) | Bare Metal, Virtual Servers  | December             | In advance   | December |
 | Classic Infrastructure	(Hourly)  | Bare Metal, Virtual Servers  | November             | In arrears   | December |
-| Other Classic Infrastructure charges | Bandwidth Overages, Image Template Storage | November | In arrears | December
-| Platform                          | Watson, DevOps               | October              | In arrears (2 months)  | December |
+| Platform                          | Watson, DevOps, VPC          | October              | In arrears (2 months)  | December |
 {: caption="Table 1. Your old invoice has usage for different months on the same invoice." caption-side="bottom"}
+
+
+
+
 
 ### Your new experience
 {: #new-schedule}
@@ -78,7 +83,7 @@ For example, Table 2. shows that charges accrued for all three major types of us
 |--------------|------------------|------------------------|--------------|-------------|
 | Classic Infrastructure	(Monthly) | Bare Metal, Virtual Servers  | November             | In arrears   | December |
 | Classic Infrastructure	(Hourly)  | Bare Metal, Virtual Servers  | November             | In arrears   | December |
-| Platform                          | Watson, DevOps               | November             | In arrears   | December |
+| Platform                          | Watson, DevOps, VPC          | November             | In arrears   | December |
 {: caption="Table 2. Your new invoice has usage from only othe previous month on the invoice that you receive 8 days into the folowing month." caption-side="bottom"}
 
 ## Finding detailed billing
@@ -111,7 +116,9 @@ On an invoice that you recieve for the month of December, infrastructure monthly
 
 On an invoice that you recieve for the month of December, infrastructure hourly usage is charged one month in arrears for the month of November. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
 
-![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/arrears-hourly.png){: caption="Figure 5.In Arrears infrastructure hourly charges." caption-side="bottom"}
+![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/detailedbilling.png){: caption="Figure 5.In Arrears infrastructure hourly charges." caption-side="bottom"}
+
+See [Figure 7.]({#new-details}) for how infrastructure hourly charges appear on your new instance level report.
 
 #### In Arrears platform service charges
 {: #arrears-platform}
@@ -130,6 +137,9 @@ You can find instance level details for your monthly usage by completing the fol
 1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
 1. Click **Export CSV**.
 1. Select **Instance** for detailed usage information about each service instance.
+
+![An example of an arrears infrastructure hourly charge on the instance level usage report downloaded CSV.](images/detailedbilling.png){: caption="Figure 7. In Arrears infrastructure hourly charges." caption-side="bottom"}
+{: #new-details}
 
 ## Finding your invoices
 {: #new-invoices}
