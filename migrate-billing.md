@@ -44,7 +44,17 @@ If your account uses a PO box address, you're required to provide a physical add
 ## Invoicing schedule and format
 {: #invoice-compare}
 
-The invoice in Figure 1. includes charges from multiple months on one invoice. For example, an invoice that you recieve in December consists of charges for differnt types of services, and each type of service has a differnet billing cycle. Review the following table to understand how usage is billed for a December invoice:
+The billing cycle for different types of serices is changing. The format of your invoice is also being updated. Review the following sections to understand how your old experience maps to your new experience for a seamless transition.
+
+### Your old experience
+{: #old-schedule}
+
+You might currently receive an invoice like the one in Figure 1., which includes charges incurred during different months on a single invoice. For example, an invoice that you recieve in December consists of charges for differnt types of services, and each type of service has a differnet billing cycle.
+
+![An image of a Softlayer invoice](images/Recurring-invoice.png){: caption="Figure 1. The invoice that you might currently recieve." caption-side="bottom"}
+{: #old-invoice}
+
+Review the following table to understand how usage is billed for a December invoice using your old invoicing schedule:
 
 | Serivce type | Example services | Usage for the month of | Billed       | Invoiced in |
 |--------------|------------------|------------------------|--------------|-------------|
@@ -54,10 +64,15 @@ The invoice in Figure 1. includes charges from multiple months on one invoice. F
 | Platform                          | Watson, DevOps               | October              | In arrears (2 months)  | December |
 {: caption="Table 1. Your old invoice has usage for different months on the same invoice." caption-side="bottom"}
 
-![An image of a Softlayer invoice](images/Recurring-invoice.png){: caption="Figure 1. The invoice that you might currently recieve." caption-side="bottom"}
-{: #old-invoice}
+### Your new experience
+{: #new-schedule}
 
-The new invoice you will recieve in Figire 2. includes only charges from the previous month. This way, usage for all types of services are billed on the same cycle. For example, Table 2. shows that charges accrued for all three major types of usage in November are billed on the same invoice in December.
+The new invoice you'll recieve, shown in Figure 2., includes only charges from the previous month. This way, usage for all types of services are billed on the same cycle.
+
+![An image of an IBM Cloud invoice](images/test-ierp-invoice.png){: caption="Figure 2. The invoice that you will recieve after moving to IBM billing systems." caption-side="bottom"}
+{: #new-invoice}
+
+For example, Table 2. shows that charges accrued for all three major types of usage in November are billed on the same invoice in December.
 
 | Serivce type | Example services | Usage for the month of | Billed       | Invoiced in |
 |--------------|------------------|------------------------|--------------|-------------|
@@ -65,9 +80,6 @@ The new invoice you will recieve in Figire 2. includes only charges from the pre
 | Classic Infrastructure	(Hourly)  | Bare Metal, Virtual Servers  | November             | In arrears   | December |
 | Platform                          | Watson, DevOps               | November             | In arrears   | December |
 {: caption="Table 2. Your new invoice has usage from only othe previous month on the invoice that you receive 8 days into the folowing month." caption-side="bottom"}
-
-![An image of an IBM Cloud invoice](images/test-ierp-invoice.png){: caption="Figure 2. The invoice that you will recieve after moving to IBM billing systems." caption-side="bottom"}
-{: #new-invoice}
 
 ## Finding detailed billing
 {: #find-detials}
