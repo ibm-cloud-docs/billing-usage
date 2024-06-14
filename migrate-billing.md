@@ -116,7 +116,8 @@ On an invoice that you recieve for the month of December, infrastructure monthly
 
 On an invoice that you recieve for the month of December, infrastructure hourly usage is charged one month in arrears for the month of November. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
 
-![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/detailedbilling.png){: caption="Figure 5.In Arrears infrastructure hourly charges." caption-side="bottom"}
+![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/detailedbilling.png){: caption="Figure 5. In Arrears infrastructure hourly charges." caption-side="bottom"}
+{: #figure-5}
 
 See [Figure 7.]({#new-details}) for how infrastructure hourly charges appear on your new instance level report.
 
@@ -137,6 +138,8 @@ You can find instance level details for your monthly usage by completing the fol
 1. In the console, go to **Manage > Billing and usage**, and select **Usage**.
 1. Click **Export CSV**.
 1. Select **Instance** for detailed usage information about each service instance.
+
+In Figure 7., you can see how infrastructure hourly charges are shown on an instance level usage report. See [Figure 5](#figure-5) for how infrastructure hourly charges appear on your old Billing Details tab.
 
 ![An example of an arrears infrastructure hourly charge on the instance level usage report downloaded CSV.](images/detailedbilling.png){: caption="Figure 7. In Arrears infrastructure hourly charges." caption-side="bottom"}
 {: #new-details}
