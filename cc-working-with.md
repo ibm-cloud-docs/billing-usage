@@ -21,10 +21,10 @@ Output that is provided by the carbon calculator is provided “as-is” for inf
 {{site.data.keyword.cloud_notm}}'s carbon calculator displays the greenhouse gas (GHG) emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers. Tracking your GHG emissions is important so that you can know how much GHG emissions your account is associated with, and it helps you manage and mitigate your carbon footprint over time.
 
 If service data is not displayed, it might be because:
-* Emissions data isn't tracked for the service
-* Data for newly added services and current quarter results are not yet available because it can take roughly two months to populate
+* Emissions data isn't tracked for the service.
+* Data for newly added services and current quarter results are not yet available because it can take roughly two months to populate.
 * Some service instances might be running on [zero-emissions data centers](#zero-emission-data-centers).
-* `*` Some database-related services will be temporarily unavailable from June 14 through mid-July
+* Some database-related services will be temporarily unavailable from June 14 through mid-July. They are marked in the following service list with an asterisk: `*`.
 
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
