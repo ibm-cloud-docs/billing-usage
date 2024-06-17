@@ -39,7 +39,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.registryshort}}                           
 * {{site.data.keyword.contdelivery_short}}                      
 * Data Engine (previously SQL Query)                            
-* {{site.data.keyword.databases-for-elasticsearch}} `*`           
+* {{site.data.keyword.databases-for-elasticsearch}} [^tabletext2] 
 * {{site.data.keyword.databases-for-enterprisedb}} `*`            
 * {{site.data.keyword.databases-for-etcd}} `*`                    
 * {{site.data.keyword.databases-for-mongodb}} `*`                 
@@ -82,6 +82,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 
 [^tabletext1]: Contains multiple services that are not tracked individually but are combined into one service. IBM Cloud Platform includes the following: Command line interface, Billing and usage, Identity and access management, Global catalog, Global search & tagging, Console, Cloud shell, Projects, Paywall, Schematics, and Carbon calculator.
 
+[^tabletext2]: Data for this service will be temporarily unavailable June 14 through mid-July.
 
 `*` Some database-related services will be temporarily unavailable June 14 through mid-July. The computational model for database emissions is being updated to reflect product changes. During this time, data will be unavailable for the following services: Databases for Elasticsearch, Databases for MongoDB, Databases for MySQL, Databases for PostgreSQL, Databases for Redis, Databases for Etcd, Databases for EnterpriseDB, and Messages for RabbitMQ. Updated 2024 data will be made available after maintenance ends.
 {: note}
