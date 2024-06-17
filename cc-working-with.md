@@ -85,7 +85,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 [^tabletext2]: Data for this service will be temporarily unavailable June 14 through mid-July.
 
 `*` Some database-related services will be temporarily unavailable June 14 through mid-July. The computational model for database emissions is being updated to reflect product changes. During this time, data will be unavailable for the following services: Databases for Elasticsearch, Databases for MongoDB, Databases for MySQL, Databases for PostgreSQL, Databases for Redis, Databases for Etcd, Databases for EnterpriseDB, and Messages for RabbitMQ. Updated 2024 data will be made available after maintenance ends.
-{: note}
+{: important}
 
 
 
