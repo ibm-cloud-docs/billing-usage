@@ -39,13 +39,13 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.registryshort}}                           
 * {{site.data.keyword.contdelivery_short}}                      
 * Data Engine (previously SQL Query)                            
-* {{site.data.keyword.databases-for-elasticsearch}} [^tabletext2] 
-* {{site.data.keyword.databases-for-enterprisedb}} [^tabletext2]  
-* {{site.data.keyword.databases-for-etcd}} `*`                    
-* {{site.data.keyword.databases-for-mongodb}} `*`                 
-* {{site.data.keyword.databases-for-mysql}} `*`                   
-* {{site.data.keyword.databases-for-postgresql}} `*`              
-* {{site.data.keyword.databases-for-redis}} `*`                   
+* {{site.data.keyword.databases-for-elasticsearch}} `*`         
+* {{site.data.keyword.databases-for-enterprisedb}} `*`          
+* {{site.data.keyword.databases-for-etcd}} `*`                  
+* {{site.data.keyword.databases-for-mongodb}} `*`               
+* {{site.data.keyword.databases-for-mysql}} `*`                 
+* {{site.data.keyword.databases-for-postgresql}} `*`            
+* {{site.data.keyword.databases-for-redis}} `*`                 
 * {{site.data.keyword.datastageshort}}                          
 * Db2                                                           
 * Db2 Warehouse                                                 
@@ -65,7 +65,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.keymanagementserviceshort}}               
 * {{site.data.keyword.containershort_notm}}                     
 * {{site.data.keyword.loadbalancer_short}} for Classic          
-* {{site.data.keyword.messages-for-rabbitmq}} `*`                 
+* {{site.data.keyword.messages-for-rabbitmq}} `*`               
 * MQ                                                            
 * Network Load Balancer                                         
 * SAP on Classic Infrastructure                                 
