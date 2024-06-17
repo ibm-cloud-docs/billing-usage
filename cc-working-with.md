@@ -40,7 +40,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.contdelivery_short}}                      
 * Data Engine (previously SQL Query)                            
 * {{site.data.keyword.databases-for-elasticsearch}} [^tabletext2] 
-* {{site.data.keyword.databases-for-enterprisedb}} `*`            
+* {{site.data.keyword.databases-for-enterprisedb}} [^tabletext2]  
 * {{site.data.keyword.databases-for-etcd}} `*`                    
 * {{site.data.keyword.databases-for-mongodb}} `*`                 
 * {{site.data.keyword.databases-for-mysql}} `*`                   
