@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-07"
+lastupdated: "2024-06-14"
 
 keywords: apptio, cost benefit analysis
 
@@ -23,11 +23,14 @@ When you set up your account to export usage report to a COS bucket you are enab
 To enable your account to share usage data, you need to grant permissions to the Billing service to access usage details and export it to a COS bucket. Because the report includes usage data for the entire account, child account usage and information about services and instances, the service ID used by the Billing service needs administrator access to export usage details. After this setup is complete, a CSV formatted cost and usage report is automatically exported to your COS bucket on a daily basis.
 
 
+
 ## Enabling your account to export usage data
 {: #enable-export-usage}
 {: ui}
 
 Before you can enable your account to export usage data, you need to have Administrator or editor role on the Billing account management service. For more information, see [IAM access](/docs/account?topic=account-userroles).
+
+
 
 To enable your account to export usage data, use the following steps:
 
@@ -654,7 +657,6 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Usage Metric        | `resources.usage.metric`           | ID of the metric |
 | Usage Unit          | `resources.usage.unit`             | Unit that qualifies the quantity |
 | Usage Quantity      | `resources.usage.quantity`         | Aggregated value for the metric |
-| Usage Cost          | `resources.usage.cost`             | Cost incurred by the metric |
 | Original Cost       | `resources.usage.rated_cost`       | The starting cost of a resource within your account |
 | Volume Discount [New]{: tag-new}  | `resources.usage.volume_discount` | This percentage reflects the reduction to the original cost that you receive under a volume based pricing structure |
 | Volume Cost [New]{: tag-new} | `resources.usage.volume_cost` | The original cost adjusted for volume based discounts that are applied at the account level |
