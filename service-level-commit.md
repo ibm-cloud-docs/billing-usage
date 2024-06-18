@@ -46,7 +46,7 @@ After you accept the commitment quote, you receive an email to confirm that your
 ## Viewing your commitment usage
 {: #slc-services}
 
-To view your service-level commitment usage, go to **Manage > Billing > Commitments** and click **Service-level commitments**. To access this information, you need an access policy with the viewer role or higher on the billing account management service.
+To view your service-level commitment usage, go to **Manage > Billing and usage > Commitments** and click **Service-level commitments**. To access this information, you need an access policy with the viewer role or higher on the billing account management service.
 
 ## Minimum spending
 {: #spending-min-slc}
