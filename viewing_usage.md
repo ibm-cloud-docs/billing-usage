@@ -16,8 +16,7 @@ subcollection: billing-usage
 # Viewing your usage
 {: #viewingusage}
 
-You can view your {{site.data.keyword.cloud}} usage details from the billing and usage dashboard or from the Usage page in the console. Your usage details include a summary of estimated charges for all services and resources that are used per month in your organizations.
-{: shortdesc}
+
 
 ## Before you begin
 {: #view-usage-permissions}
@@ -37,7 +36,7 @@ For more information about access roles, see [IAM access](/docs/account?topic=ac
 {: support}
 {: ui}
 
-The usage summary widget provides a view of your month-to date-spending, last month spending, average monthly spending, and next month's predicted usage at a glance. For a more granular view of your usage and specific costs that are associated with services, view your usage from the usage page.
+
 
 ### Viewing usage details from the usage summary widget
 {: #usage-summary}
@@ -73,6 +72,8 @@ You can filter the usage summary by group and select the time frame for usage. T
 If you select a specific organization from the **Filter by group** list, you can see the total usage for that organization, including any usage as part of a free tier. The free tier usage is shown as free at the account level, but not at the organizational level. When you view the organizational usage, you see the real usage for that organization, which includes both free and charged usage. All organizational usage is rolled up to the account usage after the free tier is removed.
 
 The account owner of a billable account can set spending notifications against the total cost of the account, for runtime, services, and for individual services, excluding third-party services. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
+
+
 
 ## Viewing your usage by using the API
 {: #view-usage-api}
