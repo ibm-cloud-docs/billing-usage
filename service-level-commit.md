@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-06-05"
+lastupdated: "2024-06-18"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -16,6 +16,10 @@ subcollection: billing-usage
 {: #service-comit}
 
 With service-level commitments, you commit to spend a certain amount on a specific service or group of services and receive discounts based on your commitment. If you expect to generate a large amount of usage for a service, like {{site.data.keyword.powerSysFull}} or {{site.data.keyword.IBMz}}, you might want to consider purchasing services this way.
+
+
+
+
 
 All of your service usage is discounted with a service-level commitment, even if you exceed your commitment amount.
 {: note}
