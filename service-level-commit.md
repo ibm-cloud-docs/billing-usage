@@ -57,6 +57,8 @@ To view your service-level commitment usage, go to **Manage > Billing and usage 
 
 Multi-year terms have a required yearly minimum spend. You might also have a monthly minimum spend for a commitment, which depends on your commitment amount. If you don't meet the monthly or yearly minimum usage, you are charged up to the minimum remaining amount. To make sure that you're using resources at a rate that fulfills your commitment, go to the Service-level commitments page and click a commitment. Here you can view a more detailed breakdown of your usage.
 
+
+
 Set a spending notification to make sure that your usage is on track to fulfill your commitment. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 {: tip}
 
