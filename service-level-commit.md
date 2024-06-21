@@ -12,8 +12,12 @@ subcollection: billing-usage
 
 {{site.data.keyword.attribute-definition-list}}
 
+
+
 # Service-level commitments
 {: #service-comit}
+
+
 
 
 
