@@ -1,6 +1,5 @@
 includes:
   - https://github.ibm.com/cloud-docs/account
   - https://github.ibm.com/cloud-docs/cli
-  - https://github.ibm.com/cloud-docs/secure-enterprise
+  - https://github.ibm.com/cloud-docs-solutions/secure-enterprise
   - https://github.ibm.com/cloud-docs/icons
-  
