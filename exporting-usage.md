@@ -22,8 +22,6 @@ When you set up your account to export usage report to a COS bucket you are enab
 
 To enable your account to share usage data, you need to grant permissions to the Billing service to access usage details and export it to a COS bucket. Because the report includes usage data for the entire account, child account usage and information about services and instances, the service ID used by the Billing service needs administrator access to export usage details. After this setup is complete, a CSV formatted cost and usage report is automatically exported to your COS bucket on a daily basis.
 
-
-
 ## Enabling your account to export usage data
 {: #enable-export-usage}
 {: ui}
@@ -42,6 +40,8 @@ To enable your account to export usage data, use the following steps:
    1. Optional: You can select a bucket or create a new bucket by clicking **Create new bucket** in the Bucket dropdown. For more information about buckets, see [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage). After you create your bucket
 1. For service to service authorizations, click **Authorize**. For the required access, select **Object Writer** and **Content Reader**. Click **Review** and then **Assign**.
 1. Click **Connect** after you review your folder details.
+
+
 
 ## Enabling your account to export usage data by using Terraform
 {: #attach-terraform}
