@@ -40,6 +40,8 @@ All of your service usage is discounted with a service-level commitment, even if
 - Service-level commitments cannot be shared across multiple accounts.
 - Commitments for services deployed on-premises include a one-time installation charge.
 
+
+
 ## Signing up for a commitment
 {: #signup-slc}
 
@@ -49,6 +51,7 @@ You can have multiple commitments for different services active at the same time
 {: note}
 
 After you accept the commitment quote, you receive an email to confirm that your payment information is processed and that the commitment is added to your account.
+
 
 
 
