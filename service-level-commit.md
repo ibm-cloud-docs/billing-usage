@@ -21,7 +21,7 @@ subcollection: billing-usage
 
 
 
-You can commit to spending a set amount on one or more on-prem services over a specific period and enjoy discounts in return. If you expect to generate a large amount of usage for services deployed on-premises, like {{site.data.keyword.powerSysFull}} or {{site.data.keyword.IBMz}}, you might want to consider purchasing services this way.
+You can commit to spend a set amount on one or more on-premises services over a specific period and enjoy discounts in return. If you expect to generate a large amount of usage for services deployed on-premises, like {{site.data.keyword.powerSysFull}} or {{site.data.keyword.IBMz}}, you might want to consider purchasing services this way.
 
 
 
@@ -36,9 +36,9 @@ All of your service usage is discounted with a service-level commitment, even if
 ## Before you begin
 {: #before-service-commit}
 
-- You can have commitments for services deployed on-premises only in an individual account, such as standalone account or an account within an enterprise.
+- You can have commitments for services that are deployed on-premises only in an individual account, such as a stand-alone account or an account within an enterprise.
 - Service-level commitments cannot be shared across multiple accounts.
-- Commitments for services deployed on-premises include a one-time installation charge.
+- Commitments for services that are deployed on-premises include a one-time installation charge.
 
 
 
