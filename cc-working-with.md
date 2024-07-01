@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-06-17"
+lastupdated: "2024-06-20"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -22,12 +22,12 @@ Output that is provided by the carbon calculator is provided “as-is” for inf
 
 If service data is not displayed, it might be because:
 * Emissions data isn't tracked for the service.
-* Data for newly added services and current quarter results are not yet available because it can take roughly two months to populate.
+* Data for newly added services and current quarter results are not yet available because it can take approximately two months to populate.
 * Some service instances might be running on [zero-emissions data centers](#zero-emission-data-centers).
-* Some database-related services will be temporarily unavailable from June 14 through mid-July. They are marked in the following service list with an asterisk: `*`.
+* Some database-related services will be temporarily unavailable from June 14 through July. They are marked in the following service list with an asterisk: `*`.
 
 
-Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is currently available for the following services:
+Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is available for the following services:
 
 * {{site.data.keyword.iae_short}}                               
 * {{site.data.keyword.appconfig_short}}                         

@@ -74,6 +74,8 @@ If you select a specific organization from the **Filter by group** list, you can
 
 The account owner of a billable account can set spending notifications against the total cost of the account, for runtime, services, and for individual services, excluding third-party services. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 
+
+
 ## Viewing your usage by using the API
 {: #view-usage-api}
 {: api}
