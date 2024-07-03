@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-01"
+lastupdated: "2024-07-03"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -13,15 +13,12 @@ subcollection: billing-usage
 {{site.data.keyword.attribute-definition-list}}
 
 
-
-# Service-level commitments
+# Purchasing services deployed on-premises
 {: #service-comit}
 
-
-
-
-
 You can commit to spend a set amount on one or more on-premises services over a specific period and enjoy discounts in return. If you expect to generate a large amount of usage for services deployed on-premises, like {{site.data.keyword.powerSysFull}} or {{site.data.keyword.IBMz}}, you might want to consider purchasing services this way.
+
+Your on-premises usage data is sent to {{site.data.keyword.Bluemix_notm}} when you order hardware through a service-level commitment, which allows you to monitor hardware usage alongside your cloud-based usage. Gain a complete view of your resource usage trends across both on-premises and cloud environments to help you make informed decisions.
 
 
 
@@ -39,6 +36,7 @@ All of your service usage is discounted with a service-level commitment, even if
 - You can have commitments for services that are deployed on-premises only in an individual account, such as a stand-alone account or an account within an enterprise.
 - Service-level commitments cannot be shared across multiple accounts.
 - Commitments for services that are deployed on-premises include a one-time installation charge.
+- The discount that you receive with a service-level commitment does not combine with other discounts, such as account-level discounts from an Enterprise Savings Plan or a Subscription. Your usage counts toward only one commitment at a time, and a service-level commitment always supersedes an account-level discount.
 
 
 
