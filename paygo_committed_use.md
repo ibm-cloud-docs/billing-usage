@@ -59,10 +59,12 @@ If you don't spend the total committed amount by the end of the commitment term,
 ## Product-level discounts
 {: #product-discount-esp}
 
-In addition to the platform-level discount applied to an Enterprise Savings Plan commitment, you can receive additional discounts that apply to a service, category, plan, and metric. Discounts on products vary depending on your account type. To view the discounts that are applied to your commitment in the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage** > **Commitments** > **Enterprise Savings Plan**. In the discounts section, use the table to view your active discounts.
+In addition to the platform-level discount applied to an Enterprise Savings Plan commitment, you can receive additional discounts that apply to a service, category, plan, and metric. Discounts on products vary depending on your account type.
 
 The discount that you receive on platform usage does not combine with a product-level discount that you might receive for a service, category, plan, and metric.
 {: note}
+
+To view the discounts that are applied to your commitment in the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage** > **Commitments** > **Enterprise Savings Plan**. In the discounts section, use the table to view your active discounts.
 
 For more information about product-level discounts through your Enterprise Savings Plan, work with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external}.
 
