@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-24"
+lastupdated: "2024-07-09"
 
 keywords: apptio, cost benefit analysis
 
@@ -40,6 +40,8 @@ To enable your account to export usage data, use the following steps:
    1. Optional: You can select a bucket or create a new bucket by clicking **Create new bucket** in the Bucket dropdown. For more information about buckets, see [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage). After you create your bucket
 1. For service to service authorizations, click **Authorize**. For the required access, select **Object Writer** and **Content Reader**. Click **Review** and then **Assign**.
 1. Click **Connect** after you review your folder details.
+
+
 
 
 
