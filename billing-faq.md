@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2024
 
-lastupdated: "2024-03-05"
+lastupdated: "2024-07-11"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -314,3 +314,6 @@ You can regularly review the list of account users and remove users who don't ne
 {: faq}
 
 Pay-As-You-Go accounts that sign up with a credit card on cloud.ibm.com can create an enterprise. When you upgrade a Pay-As-You-Go account to an enterprise, you keep the Pay-As-You-Go billing model. For more information, see [Creating an enterprise](/docs/secure-enterprise?topic=secure-enterprise-create-enterprise).
+
+
+
