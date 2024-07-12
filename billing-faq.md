@@ -315,5 +315,14 @@ You can regularly review the list of account users and remove users who don't ne
 
 Pay-As-You-Go accounts that sign up with a credit card on cloud.ibm.com can create an enterprise. When you upgrade a Pay-As-You-Go account to an enterprise, you keep the Pay-As-You-Go billing model. For more information, see [Creating an enterprise](/docs/secure-enterprise?topic=secure-enterprise-create-enterprise).
 
+## Does my Enterprise Savings Plan discount apply to third-party products?
+{: #ESP-thirdparty}
+{: faq}
 
+No, the discount that you receive with an Enterprise Savings Plan doesn't apply to non-IBM products. For example, if you have a third-party pricing plan with term or reserved commitments with services like Skytap, Dizzion, or Bespoken, your Enterprise Savings Plan discount doesn't apply to those services.
 
+## Can I have a service-level commitment for third-party products?
+{: #serviceleve-thirdparty}
+{: faq}
+
+No. Contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to learn more about the {{site.data.keyword.cloud_notm}} services that qualify for a service-level commitment.
