@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-10"
+lastupdated: "2024-07-12"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -16,7 +16,11 @@ subcollection: billing-usage
 # Purchasing services deployed on-premises
 {: #service-comit}
 
+Hybrid cloud services that can be deployed on-premises, like {{site.data.keyword.powerSysFull}} Private Cloud, often require a service-level commitment to order and deploy hardware at your site. With this commitment, you receive a discount on the standard metered rates for the service or bundle of services that you select.
 
+Your on-premises usage data is sent to {{site.data.keyword.Bluemix_notm}} when your service-level commitment is activated, which allows you to monitor hardware usage alongside your cloud-based usage. Gain a complete view of your resource usage trends across both on-premises and cloud environments to help you make informed decisions.
+
+Workloads that you deploy to your on-premises or edge environment are managed through {{site.data.keyword.satellitelong}}. For more information, see [Getting started with {{site.data.keyword.satellitelong}}](/docs/satellite?topic=satellite-getting-started).
 
 Service-level commitments include a service or bundle of services, a term, discount rate, and total commitment amount. You might also have a monthly or yearly minimum spend if applicable. A term might be 6 months, 1 year, or 5 years. For example, you might have a commitment with the following provisions:
 - 3-year term
@@ -33,20 +37,22 @@ All of your service usage in the bundle is discounted with a service-level commi
 - Service-level commitments cannot be shared across multiple accounts.
 - The discount that you receive with a service-level commitment does not combine with other discounts, such as account-level discounts from an Enterprise Savings Plan or a Subscription. Your usage counts toward only one commitment at a time, and a service-level commitment supersedes an account-level discount.
 
-
-
 ## Signing up for a commitment
 {: #signup-slc}
 
-Most account types can order a service-level commitment. Work with [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://www.ibm.com/cloud?contactmodule){: external} to create a commitment quote based on the spending amount for the period that you want to commit to.
+Most account types can order a service-level commitment. Work with [{{site.data.keyword.Bluemix_notm}} Cloud Sales](https://www.ibm.com/cloud?contactmodule){: external} to create a commitment quote based on you hardware needs and the spending amount for the period that you want to commit to.
 
 You can have multiple commitments for different services active at the same time.
 {: note}
 
-After you accept the commitment quote, you receive an email to confirm that your payment information is processed and that the commitment is added to your account.
+After you accept the commitment quote, you receive an email to confirm that your payment information is processed and that the commitment is added to your account. When the contract term ends, service commitments are automatically converted to Pay-As-You-Go and you're charged on-demand pricing for those services.
 
+### Ordering managed hardware
+{: #ordering-slc}
 
+Managed hardware is physical hardware like servers, storage, and networking equipment, which {{site.data.keyword.IBM_notm}} provides and maintains based on the capacity and performance requirements in your order. To order your on-premises private cloud service, discuss your requirements with [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} or your IBM Business Partner.
 
+After you agree to the commitment terms and sign the commitment contract, your hardware order is placed. Your commitment start date begins after the hardware is delivered and set up in your data center. When the hardware is deployed, the commitment is active and you can begin monitoring your hardware usage, service charges, and any additional costs within the {{site.data.keyword.Bluemix_notm}} console.
 
 ## Viewing your commitment usage
 {: #slc-services}
