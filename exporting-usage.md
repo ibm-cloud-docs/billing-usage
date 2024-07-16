@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-07-09"
+lastupdated: "2024-07-16"
 
 keywords: apptio, cost benefit analysis
 
@@ -41,8 +41,28 @@ To enable your account to export usage data, use the following steps:
 1. For service to service authorizations, click **Authorize**. For the required access, select **Object Writer** and **Content Reader**. Click **Review** and then **Assign**.
 1. Click **Connect** after you review your folder details.
 
+If you convert your account to an enterprise account, you'll need to follow these steps again to enable the enterprise account to export usage data. You can keep this feature on your original account or you can remove it by [disconnecting your account from sharing usage](/docs/billing-usage?topic=billing-usage-exporting-your-usage&interface=ui#disconnect-exporting-your-usage).
+{: note}
 
+## Requesting access to historical data
+{: #access-historical-data}
 
+When you enable your account to export usage data, the COS bucket, by default, collects data from the current month, but it can collect data from as far back as a year. So if it's June 2024, you can only view usage as early as June 2023, but you'll always be able to view data from that far back. Meaning that if you enabled this feature in June 2023, and it is now June 2024, you can view usage data from June 2022 to June 2024. To get historical data, you need to create a support case.
+
+To request access to historical data, use the following steps:
+
+1. From the {{site.data.keyword.cloud_notm}} console menu bar, click the **Help** icon ![Help icon](../icons/help.svg "Help") > **Support center**.
+1. From the Contact support section, click **Create a case**.
+1. For the category, select **Billing and usage**.
+1. For the topic, select **Billing and usage**, and for the subtopic, select **Exporting your usage details to a .csv file**.
+1. Complete the required fields. For the description of the support case, you'll need to mention the months that you want the data from.
+
+   To maintain security, do not include any personal information, sensitive data, or device or service credentials in case responses. For example, don't include passwords, API keys, secrets, or credit card information.
+   {: important}
+1. Click **Next**, review your case summary, and click **Submit case**. After you receive email verification for the case, follow the instructions for further communication on the issue.
+
+After your support case is created, you can follow its progress on the [Manage cases page](/unifiedsupport/cases).
+{: tip}
 
 
 ## Enabling your account to export usage data by using Terraform
