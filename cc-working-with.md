@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-19"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -24,7 +24,6 @@ If service data is not displayed, it might be because:
 * Emissions data isn't tracked for the service.
 * Data for newly added services and current quarter results are not yet available because it can take approximately two months to populate.
 * Some service instances might be running on [zero-emissions data centers](#zero-emission-data-centers).
-* Some database-related services will be temporarily unavailable from June 14 through July. They are marked in the following service list with an asterisk: `*`.
 
 
 Emissions data is currently tracked for a subset of services, but more services are under consideration to be added. Emission data is available for the following services:
@@ -43,13 +42,13 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.registryshort}}                           
 * {{site.data.keyword.contdelivery_short}}                      
 * Data Engine (previously SQL Query)                            
-* {{site.data.keyword.databases-for-elasticsearch}} `*`         
-* {{site.data.keyword.databases-for-enterprisedb}} `*`          
-* {{site.data.keyword.databases-for-etcd}} `*`                  
-* {{site.data.keyword.databases-for-mongodb}} `*`               
-* {{site.data.keyword.databases-for-mysql}} `*`                 
-* {{site.data.keyword.databases-for-postgresql}} `*`            
-* {{site.data.keyword.databases-for-redis}} `*`                 
+* {{site.data.keyword.databases-for-elasticsearch}}             
+* {{site.data.keyword.databases-for-enterprisedb}}              
+* {{site.data.keyword.databases-for-etcd}}                      
+* {{site.data.keyword.databases-for-mongodb}}                   
+* {{site.data.keyword.databases-for-mysql}}                     
+* {{site.data.keyword.databases-for-postgresql}}                
+* {{site.data.keyword.databases-for-redis}}                     
 * {{site.data.keyword.datastageshort}}                          
 * Db2                                                           
 * Db2 Warehouse                                                 
@@ -69,7 +68,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * {{site.data.keyword.keymanagementserviceshort}}               
 * {{site.data.keyword.containershort_notm}}                     
 * {{site.data.keyword.loadbalancer_short}} for Classic          
-* {{site.data.keyword.messages-for-rabbitmq}} `*`               
+* {{site.data.keyword.messages-for-rabbitmq}}                   
 * MQ                                                            
 * Network Load Balancer                                         
 * SAP on Classic Infrastructure                                 
@@ -85,12 +84,6 @@ Emissions data is currently tracked for a subset of services, but more services 
 * Virtual Server for VPC                                        
 
 [^tabletext1]: Contains multiple services that are not tracked individually but are combined into one service. IBM Cloud Platform includes the following: Command line interface, Billing and usage, Identity and access management, Global catalog, Global search & tagging, Console, Cloud shell, Projects, Paywall, Schematics, and Carbon calculator.
-
-
-The computational model for database emissions is being updated to reflect product changes. During this time, data will be unavailable for the following services: Databases for Elasticsearch, Databases for MongoDB, Databases for MySQL, Databases for PostgreSQL, Databases for Redis, Databases for Etcd, Databases for EnterpriseDB, and Messages for RabbitMQ. Updated 2024 data will be made available after maintenance ends.
-{: important}
-
-
 
 All service workloads across all sites are metered for electricity consumption or estimations based on hardware profiles. Service usage is also tracked by account, location, and over time. Data is then processed to produce a standards-based GHG emission estimate for each account per service, per location, and resource group. {{site.data.keyword.cloud_notm}} has a resilient global network of locations to host data center workloads and provides three tiers of regions: multizone regions, single-campus multizone regions, and data centers. For more information, see [IBM Cloud global data centers](https://www.ibm.com/cloud/data-centers){: external}.
 

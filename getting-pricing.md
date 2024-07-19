@@ -3,7 +3,7 @@
 copyright:
   years: 2024
 
-lastupdated: "2024-04-02"
+lastupdated: "2024-07-19"
 
 keywords: pricing
 
@@ -13,10 +13,10 @@ subcollection: billing-usage
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting pricing by using the API
+# Getting dynamic pricing
 {: #getting-pricing}
 
-As a seller, reseller, or a user that wants to pull pricing programmatically, you may want to get pricing dynamically so that you can quote true prices and do cost predictions on what a service or software is going to cost. To do this, you can leverage the API to get that dynamic pricing. To use the API, you need to have the correct [authentication](/apidocs/resource-catalog/global-catalog#authentication).
+As a seller, reseller, or a user that wants to pull pricing programmatically, you may want to get pricing dynamically so that you can quote true prices and do cost predictions on what a service or software is going to cost. To do this, you can leverage the Global Catalog API to get that dynamic pricing. To use the API, you need to have the correct [authentication](/apidocs/resource-catalog/global-catalog#authentication).
 {: shortdesc}
 
 You can use {{site.data.keyword.cloud-shell_full}} to enter commands. For more information, see [Working in Cloud Shell](/docs/cloud-shell?topic=cloud-shell-shell-ui).
@@ -24,7 +24,7 @@ You can use {{site.data.keyword.cloud-shell_full}} to enter commands. For more i
 
 In the following example, we're going to get the pricing for DNS Services.
 
-1. To get pricing you first need to know the service's ID. To find that, you need to run a curl command to view all services, or you can run the a curl command with the service's programmatic name.
+1. To get pricing, you first need to know the service's ID. To find that, you need to run a curl command to view all services, or you can run the a curl command with the service's programmatic name.
 
    If you don't know the programmatic name of the service, run the following command and search the results:
 
