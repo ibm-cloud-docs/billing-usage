@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-01-26"
+lastupdated: "2024-07-25"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -75,6 +75,20 @@ If you select a specific organization from the **Filter by group** list, you can
 The account owner of a billable account can set spending notifications against the total cost of the account, for runtime, services, and for individual services, excluding third-party services. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 
 
+### Viewing usage details from the cost analysis page
+{: #cost-analysis-page}
+
+This is a beta feature that is available for evaluation and testing purposes.
+{: beta}
+
+From the cost analysis page you can view your accounts usage by comparing costs over several months as well as filtering the usage to view cost by region, service, plan, instance, instance ID, and resource group.
+
+The cost analysis page is only available to standalone accounts and enterprise children. Enterprise parents can't see the page. Also, you need an IAM access policy with the Operator role or higher on the Billing account management service.
+{: note}
+
+To view the cost analysis page, in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Cost analysis**.
+
+When using the cost analysis page, you can use the group by filter to dive deeper into your accounts usage. For example, you can select **Service** from the group by dropdown and the chart will display your usage across all of your account's services. You can add **Region** from the group by dropdown, and now the chart will display your services and the regions where there's usage. Hover over one of the month's bars, and you can view the grouping of the service and region involved. Use that information to further filter the chart. If you view the hover text and see `us-south`, for example, and filter just for `us-south` in the Region dropdown and get more insights into the usage for that region.
 
 ## Viewing your usage by using the API
 {: #view-usage-api}
