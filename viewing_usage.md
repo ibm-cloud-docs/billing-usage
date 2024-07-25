@@ -83,10 +83,10 @@ This is a beta feature that is available for evaluation and testing purposes.
 
 From the cost analysis page you can view your accounts usage by comparing costs over several months as well as filtering the usage to view cost by region, service, plan, instance, instance ID, and resource group.
 
-The cost analysis page is only available to standalone accounts and enterprise children. Enterprise parents can't see the page. Also, you need an IAM access policy with the Operator role or higher on the Billing account management service.
+The cost analysis page is only available to standalone accounts and enterprise child accounts. Enterprise root accounts can't view the page.
 {: note}
 
-To view the cost analysis page, in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Cost analysis**.
+You need an IAM access policy with the Operator role or higher on the Billing account management service. To view the cost analysis page, in the {{site.data.keyword.cloud}} console, go to **Manage > Billing and usage**, and select **Cost analysis**.
 
 When using the cost analysis page, you can use the group by filter to dive deeper into your accounts usage. For example, you can select **Service** from the group by dropdown and the chart will display your usage across all of your account's services. You can add **Region** from the group by dropdown, and now the chart will display your services and the regions where there's usage. Hover over one of the month's bars, and you can view the grouping of the service and region involved. Use that information to further filter the chart. If you view the hover text and see `us-south`, for example, and filter just for `us-south` in the Region dropdown and get more insights into the usage for that region.
 
