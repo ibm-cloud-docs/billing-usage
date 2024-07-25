@@ -45,6 +45,11 @@
     "view_more": "/docs/overview?topic=overview-whatsnew",
     "tiles": [
       {
+        "date": "22 July 2024",
+        "title": "Cost analysis page",
+        "description": "You can now compare your account's usage across months with the new cost analysis page in the billing and usage section of the console."
+      },
+      {
         "date": "30 October 2023",
         "title": "Selecting currency",
         "description": "The option to select local currency and USD is now available during IBM Cloud registration for users in Canada, United Kingdom/Ireland, Italy, Spain, France, Germany, Austria, Switzerland, Belgium, the Netherlands, Luxembourg, Denmark, Norway, Sweden, Finland, Australia, and New Zealand."
@@ -53,11 +58,6 @@
         "date": "02 October 2023",
         "title": "Exporting usage data",
         "description": "You can now export your usage data to a third party provider for visibility, optimization, governance and more across cloud environments."
-      },
-      {
-        "date": "17 July 2023",
-        "title": "Carbon calculator",
-        "description": "IBM Cloud's carbon calculator displays the carbon emissions for an account by monitoring your electricity consumption for services, resources, and the location and efficiency of your data centers."
       }
     ]
   }
