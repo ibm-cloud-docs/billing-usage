@@ -30,7 +30,7 @@ Compression is the conversion of data to a format that requires less storage spa
 
 Utilization reports are reviewed and updated monthly on the 15th of the month. This makes the final monthly data for the month available 7-10 days later in our system. If you do not need a month to day view, you should schedule your data pull for the last week of the month to have the final reviewed report for the month.
 
-It is possible due to the high amount of users pulling data simultaneously, that the page load and refresh times may increase a little during the last week of the month. If you do not need to have a month to date report, use the download option, this allows you to get the report data downloaded to your system. The report has all of the same data that is used to build the charts, but it is more efficient than gathering the information through the graphical interface.
+It is possible due to the high amount of users pulling data simultaneously, that the page load and refresh times may increase slightly during the last week of the month. If you do not need to have a month to date report, use the download option, this allows you to get the report data downloaded to your system. The report has all of the same data that is used to build the charts, but it is more efficient than gathering the information through the graphical interface.
 
 
 ## Leverage Envizi ESG reporting
@@ -45,6 +45,6 @@ Envizi integration currently requires creation of a custom connector. Reach out 
 
 Cloud services have the characteristic that they are able to scale, if you find that you are no longer needing the additional capacity, it is a good practice to scale down the environments.
 
-Lab environments might consume large amounts of infrastructure and are generally under a specific subaccount. These environments should be temporary, and when they cease to be used, should be removed.
+Lab environments might consume significant amounts of infrastructure and are generally under a specific subaccount. These environments should be temporary, and when they cease to be used, should be removed.
 
 Some services are underutilized because they are deployed for every department. This might be needed to support compliance requirements (like data locality), but should be reviewed to identify in which cases they can be merged to increase the utilization, as this is more efficient than having additional environment deployments.

@@ -85,7 +85,7 @@ Reserved charges
 :   Some {{site.data.keyword.Bluemix_notm}} services offer reserved plans. You can request a reserved plan from the {{site.data.keyword.Bluemix_notm}} catalog by clicking the tile of the service. Then, select the service plan that best meets your needs. If a reserved plan is available, click **Request**, and follow the prompts to send your request. You receive an email that contains the price information of the reserved plan. An {{site.data.keyword.Bluemix_notm}} sales representative also contacts you soon to complete the purchase.
 
 Tiered charges
-:   Similar to metered charges, you pay based on your runtime and service consumption. However, tiered charges add more pricing tiers, often product discounted charges in tiers with larger consumption. Tiered pricing is offered in simple, graduated, or block.
+:   Similar to metered charges, you pay based on your runtime and service consumption. However, tiered charges add more pricing levels, often offering discounted rates on products for higher consumption tiers. Tiered pricing is offered in simple, graduated, or block.
 
 ### Simple tier
 {: #simple_tier}

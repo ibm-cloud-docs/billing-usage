@@ -31,7 +31,7 @@ When you try to enter your credit card information, you see the following messag
 
 You click **Explore** to access the ibm.com website, but you don't see a location to enter your credit card information.
 
-Credit card transactions are securely processed through the {{site.data.keyword.Bluemix_notm}} console. However, in some countries, extra steps are taken to ensure the integrity of the credit card data. Those credit card requests are completed through the ibm.com website. Both methods ensure that your credit card information is securely processed.
+Credit card transactions are securely processed through the {{site.data.keyword.Bluemix_notm}} console. However, in some countries, additional steps are taken to ensure the integrity of the credit card data. Those credit card requests are completed through the ibm.com website. Both methods ensure that your credit card information is securely processed.
 {: tsCauses}
 
 To provide your credit card information for payment, complete the following steps:

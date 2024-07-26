@@ -15,13 +15,13 @@ subcollection: billing-usage
 # Applying feature codes
 {: #codes}
 
-You can apply feature codes to take advantage of extra {{site.data.keyword.Bluemix}} resources or capabilities. Feature codes are typically provided for online courses and certain events, such as educational sessions or conference workshops.
+You can apply feature codes to take advantage of additional {{site.data.keyword.Bluemix}} resources or capabilities. Feature codes are typically provided for online courses and certain events, such as educational sessions or conference workshops.
 {: shortdesc}
 
 Are you looking for details about adding subscription credit to your account? See [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions) for more information.
 {: tip}
 
-You must have the Editor role or higher for all account management services to apply a feature code. The extra resources or capabilities that are provided vary depending on the particular code but include one or more of the following items in general:
+You must have the Editor role or higher for all account management services to apply a feature code. The additional resources or capabilities that are provided vary depending on the particular code but include one or more of the following items in general:
 
 * Increase the memory quota to a number of GB that is specified by the code
 * Add one organization with a memory quota that is specified by the code

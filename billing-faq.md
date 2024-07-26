@@ -50,7 +50,7 @@ If you provision multiple servers, you can potentially reduce future bandwidth o
 {: #billable-account-types}
 {: faq}
 
-With Pay-As-You-Go accounts, you're billed monthly for your resource usage. Your resource usage consists of recurring and fluctuating costs. This account type is a good fit for developers or companies that want to explore the entire {{site.data.keyword.cloud_notm}} catalog but have smaller or variable workloads. You pay only for what you use or commit to on a monthly basis, with no long-term contracts. Usage consists of products, services, and resources.
+With Pay-As-You-Go accounts, you're billed monthly for your resource usage. Your resource usage consists of recurring and fluctuating costs. This account type is a good fit for developers or companies that want to explore the entire {{site.data.keyword.cloud_notm}} catalog but have low-volume or variable workloads. You pay only for what you use or commit to on a monthly basis, with no long-term contracts. Usage consists of products, services, and resources.
 
 With Subscription accounts, you buy a subscription for an amount of credit to spend on resource usage within a certain time period. In exchange for this spending commitment, you get a discount on your usage costs. For more information about the differences between account types, see [Account types](/docs/account?topic=account-accounts).
 
@@ -207,7 +207,7 @@ After you complete these steps, if you still believe that the invoice amount is 
 {: faq}
 {: support}
 
-Feature codes add extra capabilities in an account and are typically provided for educational initiatives or special events. To redeem your code, go to the [Account settings](/account/settings) page in the console, and click **Apply code**. You can also apply your code to a new account by clicking **Register with a code** when you [sign up for a new account](/registration).
+Feature codes add more capabilities in an account and are typically provided for educational initiatives or special events. To redeem your code, go to the [Account settings](/account/settings) page in the console, and click **Apply code**. You can also apply your code to a new account by clicking **Register with a code** when you [sign up for a new account](/registration).
 
 You might be looking for information about promo codes and subscription codes, which are available for certain account types. For more information, see [Managing promotions](/docs/billing-usage?topic=billing-usage-applying-promo-codes) and [Applying subscription codes](/docs/billing-usage?topic=billing-usage-subscription_code).
 
@@ -216,7 +216,7 @@ You might be looking for information about promo codes and subscription codes, w
 {: #getting-billed}
 {: faq}
 
-As the account owner, you're responsible for all charges that are incurred by users in your account, including invited users. Ensure that each user is assigned only the level of access that is required to complete their job, including the ability to create new instances that might incur extra charges in your account. For more information, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+As the account owner, you're responsible for all charges that are incurred by users in your account, including invited users. Ensure that each user is assigned only the level of access that is required to complete their job, including the ability to create new instances that might incur additional charges in your account. For more information, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 
 Resources and applications that remain running in an account are subject to charges based on the pricing and description of the product. For example, this includes buildpacks, Platform as a Service, and Infrastructure as a Service.
 
