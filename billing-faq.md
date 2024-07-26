@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2024
 
-lastupdated: "2024-07-11"
+lastupdated: "2024-07-26"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -286,7 +286,7 @@ Credits for {{site.data.keyword.IBM_notm}} corporate programs, such as Startup w
 1. Find the name of the program listed in the Current Payment Method section to see the monthly credit, applied credit, and remaining credit information.
 
 
-## How do I get support?
+## How can I get help with billing and usage?
 {: #contactsupport}
 {: faq}
 
