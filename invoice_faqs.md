@@ -75,3 +75,5 @@ If you manage your invoices through the {{site.data.keyword.IBM_notm}} Console, 
 Yes. An {{site.data.keyword.Bluemix_notm}} service might provide a free allocation before the start of your billing period. To determine whether your service instance provides a free allocation, go to the [Resources list](/resources) in the {{site.data.keyword.cloud_notm}} console. Click the service name, and then click **Plan**. Free allocations are applied to the account level and not the organization level.
 
 In addition, depending on your account type, your usage is incurred and reflected differently on your invoice. For more information, see [Invoicing for different account types](/docs/billing-usage?topic=billing-usage-understand-invoices#different-acct-invoice).
+
+
