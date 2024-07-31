@@ -47,6 +47,7 @@ You can have multiple commitments for different services active at the same time
 
 After you accept the commitment quote, you receive an email to confirm that your payment information is processed and that the commitment is added to your account. When the contract term ends, service commitments are automatically converted to Pay-As-You-Go and you're charged on-demand pricing for those services.
 
+
 ### Ordering managed hardware
 {: #ordering-slc}
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-25"
+lastupdated: "2024-07-26"
 
 keywords: view usage, view cost, service usage, usage report, usage permissions, usage details
 
@@ -16,7 +16,7 @@ subcollection: billing-usage
 # Viewing your usage
 {: #viewingusage}
 
-You can view your {{site.data.keyword.cloud}} usage details from the billing and usage dashboard or from the Usage page in the console. Your usage details include a summary of estimated charges for all services and resources that are used per month in your organizations.
+You can view your {{site.data.keyword.cloud}} usage details from the billing and usage dashboard, from the usage page, and from the cost analysis page in the console. Your usage details include a summary of estimated charges for all services and resources that are used per month in your organizations.
 {: shortdesc}
 
 ## Before you begin
