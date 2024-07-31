@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-23"
+lastupdated: "2024-07-31"
 
 keywords: GB-hour, container usage, runtime, charge, invoice, paperless invoicing, adjustments
 
@@ -77,3 +77,9 @@ Yes. An {{site.data.keyword.Bluemix_notm}} service might provide a free allocati
 In addition, depending on your account type, your usage is incurred and reflected differently on your invoice. For more information, see [Invoicing for different account types](/docs/billing-usage?topic=billing-usage-understand-invoices#different-acct-invoice).
 
 
+## How can I pay my invoice as a purchase order customer?
+{: #po-fol-customer}
+
+You can make payments by bank transfer, bank receipt, a check quoting the invoice number(s), or by credit card in some countries. You can find bank account information for remittance on your invoice. For customers in Canada and the United States, you can pay online through [Invoices@IBM](https://www.ibm.com/support/customer/invoices/welcome){: external}. If you have questions about your invoices and payments, [submit a request](https://www.ibm.com/support/pages/node/6415743){: external} for help.
+
+For more information, see [Invoices & Orders](https://www.ibm.com/support/pages/node/6416073#rm10){: external}.
