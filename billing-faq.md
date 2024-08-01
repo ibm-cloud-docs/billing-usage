@@ -149,12 +149,6 @@ Business Continuity Insurance is insurance that protects you from illegitimate c
 To receive the credits for illegitimate charges against your servers, contact [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external} and open a support case.
 
 
-## What is the `Service: Support and Services` charge on my invoice?
-{: #supserve-invoice}
-{: faq}
-
-If you create a VMWare cluster on your {{site.data.keyword.Bluemix_notm}} account, you are charged for VMWare Level 2 Support for each cluster instance. This charge is in addition to any {{site.data.keyword.Bluemix_notm}} Support charges for Premium or Advanced Support.
-
 ## What's the difference between promo codes and feature codes?
 {: #promo-feature-codes}
 {: faq}
