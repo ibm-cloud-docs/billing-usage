@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-08-05"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -195,4 +195,4 @@ You can find your new invoices in the {{site.data.keyword.Bluemix_notm}} console
 ## Getting support
 {: #migrate-support}
 
-Need help? Refer to your open support case titled `IBM Cloud Billing Transformation: Information Update Required` or call the support team at +1-866-398-7638.
+Need help? Refer to your open support case titled `IBM Cloud Billing Information Update Required` or call the support team at +1-866-398-7638.
