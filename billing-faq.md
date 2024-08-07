@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2024
 
-lastupdated: "2024-07-26"
+lastupdated: "2024-08-07"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -320,3 +320,5 @@ No, the discount that you receive with an Enterprise Savings Plan doesn't apply 
 {: faq}
 
 No. Contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to learn more about the {{site.data.keyword.cloud_notm}} services that qualify for a service-level commitment.
+
+
