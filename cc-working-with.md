@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-07-26"
+lastupdated: "2024-08-08"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -96,6 +96,8 @@ The carbon calculator provides a wide range of features to track your GHG emissi
 * Export the data as a CSV file for additional analyses.
 * View emissions data by using [the API](/apidocs/carbon-calculator).
 
+
+
 ## Before you begin
 {: #carbon-calc-prereq}
 
@@ -165,6 +167,7 @@ In the enterprise level view, you can filter your emissions data down to a speci
 ​
 Learn more about setting up and managing [Enterprise accounts](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise).
 ​
+
 
 ## Working with the carbon calculator API
 {: #tracking-emissions-api}
