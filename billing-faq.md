@@ -321,4 +321,10 @@ No, the discount that you receive with an Enterprise Savings Plan doesn't apply 
 
 No. Contact an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to learn more about the {{site.data.keyword.cloud_notm}} services that qualify for a service-level commitment.
 
+## What is a manual credit?
+{: #manual-credit}
+{: faq}
 
+A manual credit is a credit that you receive from {{site.data.keyword.Bluemix_notm}} as part of a special program, reimbursement from an illegitimate charge, or other reasons unrelated to a promotion. Manual credits are issued by {{site.data.keyword.Bluemix_notm}} and no customer action is necessary. You can view any manual credits that are applied to your account completing the following steps:
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**.
+1. From the **Type** dropdown, select **Manual credit**.
