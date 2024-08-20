@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-01-12"
+lastupdated: "2024-08-20"
 
 
 keywords: promo code, discount, credit, promotion code, promotional code, redeem promos
@@ -24,6 +24,9 @@ Promo codes are typically based on short phrases, like `PROMO200`. If you have a
 {: tip}
 
 Promotions are one type of credit for your account. For example, if you have a Pay-As-You-Go or Subscription account, you can use promo codes for limited-time credits toward your account and {{site.data.keyword.Bluemix_notm}} products. Promo codes are different from feature codes that provide access to Trial accounts, or subscriptions that add credits as discounts to your account.
+
+Promo codes cannot be used for third-party services unless otherwise stated in the definition of the promo code. 
+{: note}
 
 ## Types of available promotion credits
 {: #available-promo-credit}
