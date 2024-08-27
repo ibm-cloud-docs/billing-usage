@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2024
-lastupdated: "2024-01-30"
+lastupdated: "2024-08-27"
 
 keywords: estimate cost, cost example, billing example, payment example, calculating app price
 
@@ -11,6 +11,8 @@ subcollection: billing-usage
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+
+
 
 # Scenario: Estimating costs of an example Node app
 {: #sample}
