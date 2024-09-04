@@ -2,7 +2,7 @@
 
 copyright:
    years: 2022, 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-08-29"
 
 keywords: invoice reconciliation, non-subscription invoice, map invoice, map usage, one time charges, recurring invoice, recurring charges
 
@@ -26,7 +26,7 @@ As an {{site.data.keyword.cloud}} customer with a nonsubscription multi-year acc
 {: shortdesc}
 
 Final invoice
-:   The finalized compilation of charges a user receives at the end of the month.
+:   The finalized compilation of charges that you receive at the end of the month.
 :   Includes new and one-time charges from the 20th of the prior month to the 19th of the current month. For the examples referenced in this document, the new and one-time charges are from 20 February to 20 March.
 :  Includes the recurring charges from the recurring invoice in the {{site.data.keyword.cloud_notm}} console.
 
