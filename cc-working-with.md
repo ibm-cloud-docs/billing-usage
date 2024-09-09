@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-08-08"
+lastupdated: "2024-09-09"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -167,6 +167,17 @@ In the enterprise level view, you can filter your emissions data down to a speci
 ​
 Learn more about setting up and managing [Enterprise accounts](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise).
 ​
+## Exporting carbon calculator usage data
+{: #exporting-data}
+
+You can download emissions data per month to get aggregated data by service, resource group, location, and total. To download a CSV, go to the [carbon calculator](/billing/carbon-calculator) and click **Export**.
+
+The latest version of carbon calculator export, version 2.0, includes significant changes:
+* New enterprise-level export
+* Service, resource group, and location aggregated in a single monthly CSV
+* New columns for power usage effectiveness (PUE) and energy consumption
+
+Because export version 1.0 generated separate CSVs for service, resource group, and location, any custom automations leveraging the export feature should be updated to match the new format. If you need assistance or have questions regarding the new format, [create a support case](/docs/get-support?topic=get-support-open-case&interface=ui).
 
 
 ## Working with the carbon calculator API
