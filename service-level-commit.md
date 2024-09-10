@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-12"
+lastupdated: "2024-09-10"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -13,7 +13,7 @@ subcollection: billing-usage
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Purchasing services deployed on-premises
+# Purchasing infrastructure services deployed on-premises
 {: #service-comit}
 
 Hybrid cloud services that can be deployed on-premises, like {{site.data.keyword.powerSysFull}} Private Cloud, often require a service-level commitment to order and deploy hardware at your site. With this commitment, you receive a discount on the standard metered rates for the service or bundle of services that you select.
