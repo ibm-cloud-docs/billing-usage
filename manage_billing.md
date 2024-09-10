@@ -32,7 +32,7 @@ To manage payments, you need to be assigned the operator role or higher on the b
 ## Managing payment methods for new US-based Pay-As-You-Go accounts with credit card billing
 {: #manage-paygo-us-account}
 
-If you're a new Pay-As-You-Go account owner that is located in the US and you are paying with a credit card, can you add multiple cards to the account, replace your default card with a saved one, or edit the details of a card. You manage your credit card from the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
+If you're a new Pay-As-You-Go account owner that is located in the US and you are paying with a credit card, you can add multiple cards to the account, replace your default card with a saved one, or edit the details of a card. You manage your credit card from the [Payments](/billing/payments) page in the {{site.data.keyword.cloud_notm}} console.
 
 Complete the following steps to add a new payment method to the account:
 
