@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-09-10"
+lastupdated: "2024-09-11"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -32,6 +32,7 @@ All of your service usage in the bundle is discounted with a service-level commi
 
 ## Before you begin
 {: #before-service-commit}
+
 
 - You can have commitments for services that are deployed on-premises only in an individual account, such as a stand-alone account or an account within an enterprise.
 - Service-level commitments cannot be shared across multiple accounts.

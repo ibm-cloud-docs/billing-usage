@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-09-11"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -23,7 +23,7 @@ You can track resource and support costs from accounts in your {{site.data.keywo
 ## Required access for viewing enterprise usage
 {: #enterprise-usage-access}
 
-In an enterprise, access to usage information is controlled by the Enterprise service. To view usage information, users must be invited to the enterprise account and have the Usage Reports Viewer, Editor, or Administrator role on the Enterprise service. The Usage Reports Viewer role provides access only to viewing usage reports, while the Editor and Administrator roles enable additional enterprise management actions. In keeping with security best practices, assign the least amount of access that is needed for the user to complete their task. For more information, see [Enterprise actions and roles](/docs/account?topic=account-account-services#enterprise-account-management).
+In an enterprise, access to usage information is controlled by the Enterprise service. To view usage information, users must be invited to the enterprise account and have the Usage Reports Viewer, Editor, or Administrator role on the Enterprise service. The Usage Reports Viewer role provides access only to viewing usage reports, while the Editor and Administrator roles enable more enterprise management actions. In keeping with security best practices, assign the least amount of access that is needed for the user to complete their task. For more information, see [Enterprise actions and roles](/docs/account?topic=account-account-services#enterprise-account-management).
 
 You can give users granular access so that they can view usage for a certain account or account group. For example, say that your enterprise has account groups for each department, and each department has account groups for each team. You can scope the access so that each enterprise user can see only the information that is needed to fulfill their job role.
 * Your financial officer needs to view usage for the entire enterprise so that they can track and recover costs for each department, but they don't need to create accounts or account groups. Assign them the Usage Reports Viewer role for the enterprise.
@@ -49,7 +49,7 @@ For detailed steps about assigning enterprise access, see [Assigning access for 
 
    If an account group doesn't contain any accounts, it isn't displayed on the Usage page.
 
-1. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the **Enterprise level** menu. Costs for each type of resource that was used during the time frame are displayed.
+1. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the **Enterprise-level** menu. Costs for each type of resource that was used during the time frame are displayed.
 
    From the enterprise account, you can't view usage data for the resource plan or instance because it requires access within the account. If you're a user in the account, switch to the account to view this data. You need billing access to the resources and services in the account as described in [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
 
@@ -102,7 +102,7 @@ You can get a report of usage for the enterprise, an account group, or a specifi
       ```
       {:  codeblock}
 
-By default, the commands output the usage report for the current month in the following format. Most costs are listed as billable costs. Non-billable costs are listed only in rare cases, such as for the month when you add a trial account to the enterprise.
+By default, the commands output the usage report for the current month in the following format. Most costs are listed as billable costs. Nonbillable costs are listed only in rare cases, such as for the month when you add a trial account to the enterprise.
 
    ```
    Name             Type            Billable Cost   Non-billable Cost   Currency   Month
