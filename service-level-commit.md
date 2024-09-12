@@ -69,6 +69,8 @@ Multi-year terms have a required yearly minimum spend. You might also have a mon
 Set a spending notification to make sure that your usage is on track to fulfill your commitment. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 {: tip}
 
+{{site.data.keyword.SLC-usage}}
+
 ## Getting support
 {: #support-slc}
 
