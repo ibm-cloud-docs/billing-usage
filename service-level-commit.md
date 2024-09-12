@@ -34,8 +34,7 @@ All of your service usage in the bundle is discounted with a service-level commi
 {: #before-service-commit}
 
 
-- You can have commitments for services that are deployed on-premises only in an individual account, such as a stand-alone account or an account within an enterprise.
-- Service-level commitments cannot be shared across multiple accounts.
+
 - The discount that you receive with a service-level commitment does not combine with other discounts, such as account-level discounts from an Enterprise Savings Plan or a Subscription. Your usage counts toward only one commitment at a time, and a service-level commitment supersedes an account-level discount.
 
 ## Signing up for a commitment
