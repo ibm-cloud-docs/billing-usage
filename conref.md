@@ -28,7 +28,7 @@ H1's would never be able to be reused. Each Markdown file can only ever have one
 ### Tracking usage for service-level commitments
 {: #SLC-usage}
 
-To view usage for an on-premises resource, like {{site.data.keyword.powerSys_notm}} Privae Cloud, filter the **Pricing region** column to the {{site.data.keyword.satelliteshort}} location associated with your pod. Then, filter the **Service name** column to {{site.data.keyword.powerSys_notm}}.
+To view usage for an on-premises resource, like {{site.data.keyword.powerSys_notm}} Private Cloud, filter the **Pricing region** column to the {{site.data.keyword.satelliteshort}} location associated with your pod. Then, filter the **Service name** column to {{site.data.keyword.powerSys_notm}}.
 
 Map commitment usage in your enterprise back to child accounts by completing the following steps:
 
