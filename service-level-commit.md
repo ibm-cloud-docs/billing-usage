@@ -61,7 +61,14 @@ After you agree to the commitment terms and sign the commitment contract, your h
 
 To view your service-level commitment usage, go to **Manage > Billing and usage > Commitments** and click **Service-level commitments**. To access this information, you need an access policy with the viewer role or higher on the billing account management service.
 
-{{site.data.content.SLC-usage}}
+### Tracking usage for service-level commitments
+{: #slcu-usage-2}
+
+Download your usage report by [Exporting your account usage details to a CSV file](/docs/billing-usage?topic=billing-usage-viewingusage&interface=ui#export-csv) or [Exporting your enterprise usage details to a .csv file](/docs/billing-usage?topic=billing-usage-enterprise-usage&interface=ui#export-enterprise-csv).
+
+{{site.data.content.on-prem-commit}}
+
+{{site.data.content.enterprise-commit}}
 
 ## Minimum spending
 {: #spending-min-slc}
