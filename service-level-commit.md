@@ -61,6 +61,8 @@ After you agree to the commitment terms and sign the commitment contract, your h
 
 To view your service-level commitment usage, go to **Manage > Billing and usage > Commitments** and click **Service-level commitments**. To access this information, you need an access policy with the viewer role or higher on the billing account management service.
 
+{{site.data.keyword.SLC-usage}}
+
 ## Minimum spending
 {: #spending-min-slc}
 
@@ -68,8 +70,6 @@ Multi-year terms have a required yearly minimum spend. You might also have a mon
 
 Set a spending notification to make sure that your usage is on track to fulfill your commitment. For more information, see [Setting spending notifications](/docs/billing-usage?topic=billing-usage-spending).
 {: tip}
-
-{{site.data.keyword.SLC-usage}}
 
 ## Getting support
 {: #support-slc}
