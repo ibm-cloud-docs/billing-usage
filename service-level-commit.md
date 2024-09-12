@@ -13,8 +13,14 @@ subcollection: billing-usage
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Purchasing infrastructure services deployed on-premises
+
+# Purchasing services deployed on-premises
 {: #service-comit}
+
+
+
+
+
 
 Hybrid cloud services that can be deployed on-premises, like {{site.data.keyword.powerSysFull}} Private Cloud, often require a service-level commitment to order and deploy hardware at your site. With this commitment, you receive a discount on the standard metered rates for the service or bundle of services that you select.
 
