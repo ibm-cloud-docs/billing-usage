@@ -41,6 +41,8 @@ All of your service usage in the bundle is discounted with a service-level commi
 
 
 
+- You can have commitments for services that are deployed on-premises only in an individual account, such as a stand-alone account or an account within an enterprise.
+- Service-level commitments cannot be shared across multiple accounts.
 - The discount that you receive with a service-level commitment does not combine with other discounts, such as account-level discounts from an Enterprise Savings Plan or a Subscription. Your usage counts toward only one commitment at a time, and a service-level commitment supersedes an account-level discount.
 
 ## Signing up for a commitment
@@ -66,14 +68,7 @@ After you agree to the commitment terms and sign the commitment contract, your h
 
 To view your service-level commitment usage, go to **Manage > Billing and usage > Commitments** and click **Service-level commitments**. To access this information, you need an access policy with the viewer role or higher on the billing account management service.
 
-### Tracking usage for service-level commitments
-{: #slcu-usage-2}
 
-Download your usage report by [Exporting your account usage details to a CSV file](/docs/billing-usage?topic=billing-usage-viewingusage&interface=ui#export-csv) or [Exporting your enterprise usage details to a .csv file](/docs/billing-usage?topic=billing-usage-enterprise-usage&interface=ui#export-enterprise-csv).
-
-{{site.data.content.on-prem-commit}}
-
-{{site.data.content.enterprise-commit}}
 
 ## Minimum spending
 {: #spending-min-slc}

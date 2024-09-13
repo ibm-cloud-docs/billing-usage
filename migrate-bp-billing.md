@@ -55,7 +55,7 @@ The following table maps your SoftLayer Partner account type to the equivalent I
 ### Resellers
 {: #reseller-migrate}
 
-SoftLayer Resellers or partners of SoftLayer Resellers can apply to become an IBM Cloud Marketplace Reseller and continue to support end customers. For more information, see the [CMR agreement](https://ibm.seismic.com/app?ContentId=47f9baa5-e5e9-44a9-83d4-cdef3b3ace95#/doccenter/861ea1fd-99e0-44d7-9135-85412e5c28d1/doc/%252Fdd3359e5f7-a856-a91b-7688-41024b2ac637%252FdfNTY4NmVhOWItY2RkNS04ZWY3LTZkNzItZTQwZjczMWUyMjk1%252CPT0%253D%252CQ3Jvc3MgQnJhbmQ%253D%252FdfOthers%252FdfOTRiYmU4NTQtNWY4NC03Y2QyLWZjYWUtOGIxYmFmZjkyZThk%252CPT0%253D%252CUHJvbW90aW9ucy9JbmNlbnRpdmVz%252Flf05f2d23d-b79a-43b0-ba75-c333b21d64fa/grid/){: external}.
+SoftLayer Resellers or partners of SoftLayer Resellers can apply to become an IBM Cloud Marketplace Reseller and continue to support end customers. For more information, see the [CMR agreement](https://ibm.seismic.com/Link/Content/DC8bm264qQjb88QBp8fcc7bXbX68){: external}.
 
 Cloud Marketplace Resellers can work with an [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative to migrate your account hierarchy during your move to {{site.data.keyword.IBM_notm}} Partner Programs.
 

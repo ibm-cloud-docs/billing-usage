@@ -49,7 +49,7 @@ For detailed steps about assigning enterprise access, see [Assigning access for 
 
    If an account group doesn't contain any accounts, it isn't displayed on the Usage page.
 
-1. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the **Enterprise-level** menu. Costs for each type of resource that was used during the time frame are displayed.
+1. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the **Enterprise level** menu. Costs for each type of resource that was used during the time frame are displayed.
 
    From the enterprise account, you can't view usage data for the resource plan or instance because it requires access within the account. If you're a user in the account, switch to the account to view this data. You need billing access to the resources and services in the account as described in [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
 
