@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-12"
+lastupdated: "2024-09-11"
 
 keywords: IBM Cloud billing, commitment model, using commitments, pay as you go with committed use, enterprise savings plan
 
@@ -13,8 +13,14 @@ subcollection: billing-usage
 {{site.data.keyword.attribute-definition-list}}
 
 
+
 # Purchasing services deployed on-premises
 {: #service-comit}
+
+
+
+
+
 
 Hybrid cloud services that can be deployed on-premises, like {{site.data.keyword.powerSysFull}} Private Cloud, often require a service-level commitment to order and deploy hardware at your site. With this commitment, you receive a discount on the standard metered rates for the service or bundle of services that you select.
 
@@ -32,6 +38,8 @@ All of your service usage in the bundle is discounted with a service-level commi
 
 ## Before you begin
 {: #before-service-commit}
+
+
 
 - You can have commitments for services that are deployed on-premises only in an individual account, such as a stand-alone account or an account within an enterprise.
 - Service-level commitments cannot be shared across multiple accounts.
@@ -59,6 +67,8 @@ After you agree to the commitment terms and sign the commitment contract, your h
 {: #slc-services}
 
 To view your service-level commitment usage, go to **Manage > Billing and usage > Commitments** and click **Service-level commitments**. To access this information, you need an access policy with the viewer role or higher on the billing account management service.
+
+
 
 ## Minimum spending
 {: #spending-min-slc}

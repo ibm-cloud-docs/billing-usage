@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2024
 
-lastupdated: "2024-08-07"
+lastupdated: "2024-09-12"
 
 
 keywords: promo code, feature code, Subscription account, Lite account, payment, invoice, credit card, subscription code, billing item
@@ -329,3 +329,9 @@ A manual credit is a credit that you receive from {{site.data.keyword.Bluemix_no
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Billing and usage**, and select **Promotions and credits**.
 1. From the **Type** dropdown, select **Manual credit**.
 
+
+## Why did I receive multiple invoices in one month?
+{: #invoices}
+{: faq}
+
+You might receive multiple invoices if you have an Enterprise Savings Plan and service-level commitment on different orders. If you have a service-level commitments at multiple sites, you receive separate invoices for each site.

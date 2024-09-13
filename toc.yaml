@@ -45,6 +45,7 @@ toc:
           - infra_usage.md
           - enterprise-usage.md
           - enterprise-report.md
+          - exporting-usage.md
           - quotas.md
       - topicgroup:
           label: Working with codes and credits
@@ -64,7 +65,6 @@ toc:
       - paygo_committed_use.md
       - service-level-commit.md
       - cc-working-with.md
-      - exporting-usage.md
       - migrate-billing.md
       - migrate-bp-billing.md
   - navgroup:
