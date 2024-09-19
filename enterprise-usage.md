@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-09-11"
+lastupdated: "2024-09-19"
 
 keywords: enterprise usage, view enterprise costs, account group usage, account usage, cost recovery, chargeback, support cost
 
@@ -18,12 +18,12 @@ subcollection: billing-usage
 You can track resource and support costs from accounts in your {{site.data.keyword.Bluemix}} enterprise by viewing their usage. The accounts and account groups that you can view usage for depend on your assigned access.
 {: shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} enterprises enable you to centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise) for more information.
+With {{site.data.keyword.Bluemix_notm}} enterprises, you can centrally manage multiple {{site.data.keyword.Bluemix_notm}} accounts. As an enterprise user, you can keep an eye on resource usage and the associated costs for any account in the enterprise. See [What is an enterprise?](/docs/secure-enterprise?topic=secure-enterprise-what-is-enterprise) for more information.
 
 ## Required access for viewing enterprise usage
 {: #enterprise-usage-access}
 
-In an enterprise, access to usage information is controlled by the Enterprise service. To view usage information, users must be invited to the enterprise account and have the Usage Reports Viewer, Editor, or Administrator role on the Enterprise service. The Usage Reports Viewer role provides access only to viewing usage reports, while the Editor and Administrator roles enable more enterprise management actions. In keeping with security best practices, assign the least amount of access that is needed for the user to complete their task. For more information, see [Enterprise actions and roles](/docs/account?topic=account-account-services#enterprise-account-management).
+In an enterprise, the Enterprise service controls access to usage information. To view usage information, users must be invited to the enterprise account and have the Usage Reports Viewer, Editor, or Administrator role on the Enterprise service. The Usage Reports Viewer role provides access only to viewing usage reports, while the Editor and Administrator roles enable more enterprise management actions. In keeping with security best practices, assign the least amount of access that is needed for the user to complete their task. For more information, see [Enterprise actions and roles](/docs/account?topic=account-account-services#enterprise-account-management).
 
 You can give users granular access so that they can view usage for a certain account or account group. For example, say that your enterprise has account groups for each department, and each department has account groups for each team. You can scope the access so that each enterprise user can see only the information that is needed to fulfill their job role.
 * Your financial officer needs to view usage for the entire enterprise so that they can track and recover costs for each department, but they don't need to create accounts or account groups. Assign them the Usage Reports Viewer role for the enterprise.
@@ -176,14 +176,13 @@ You can export a summary of your account's usage, child account usage, or inform
 
 
 
-
 ## Recovering costs for enterprise usage
 {: #enterprise-cost-recovery}
 {: ui}
 
 An enterprise consolidates billing from all of its accounts and account groups to a single invoice, which simplifies billing management. You can recover the costs from resource usage in the enterprise by charging the usage costs for each account group or account to the associated department or team.
 
-To view your enterprise hierarchy and any usage, you need an access policy with the Editor or Administrator role on the Enterprise service for the entire enterprise. The following steps use the {{site.data.keyword.Bluemix_notm}} console as an example, but you can also perform these steps by using the CLI or API.
+To view your enterprise hierarchy and any usage, you need an access policy with the Editor or Administrator role on the Enterprise service for the entire enterprise. The following steps use the {{site.data.keyword.Bluemix_notm}} console as an example, but you can also complete these steps by using the CLI or API.
 
 1. Find the usage costs for each department by going to **Manage > Usage** in the enterprise account. From the **Time frame** menu, select the previous month to view the usage that is included in the latest invoice.
 
