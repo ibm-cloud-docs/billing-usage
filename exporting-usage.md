@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-07-16"
+lastupdated: "2024-10-03"
 
 keywords: apptio, cost benefit analysis
 
@@ -1061,17 +1061,17 @@ The following are the JSON report section APIs for the different CVS headings:
 
 You can view other versions of the CSV if you have earlier enterprise account summary reports in your account. The CSV version depends on the date that the data is published. The following are the available versions:
 
-- July 2024 to present is [version 1.2](#enterprise-account-summary-csv-version-1-2)
+- October 2024 to present is [version 1.3](#enterprise-account-summary-csv-version-1-3)
+- July 2024 to September 2024 is [version 1.2](#enterprise-account-summary-csv-version-1-2)
 - March 2024 to June 2024 is [version 1.1](#enterprise-account-summary-csv-version-1-1)
 - October 2024 to March 2024 is [version 1.0](#enterprise-account-summary-csv-version-1-0)
 - February 2023 to October 2024 is [version 0.2](#enterprise-account-summary-csv-version-0-2)
 - Before February 2023 is [version 0.1](#enterprise-account-summary-csv-version-0-1).
 
+#### Enterprise account summary CSV version 1.3
+{: #enterprise-account-summary-csv-version-1-3}
 
-#### Enterprise account summary CSV version 1.2
-{: #enterprise-account-summary-csv-version-1-2}
-
-The following table is version 1.2 and the most recent CSV version. You get this version if the data that you're viewing is from July 2024 to present.
+The following table is version 1.3 and the most recent CSV version. You get this version if the data that you're viewing is from October 2024 to present.
 
 | CSV Header         | Description        |
 |--------------------|--------------------|
@@ -1083,6 +1083,126 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Version            | The version number of the enterprise summary CSV |
 {: class="simple-tab-table"}
 {: caption="Table 13. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
+{: tab-group="enterprise-account-summary-1-3"}
+{: #entity-metadata-1-3}
+{: tab-title="Entity Metadata"}
+
+| CSV Header      | Description |
+|--------------------|-------------|
+| Entity ID          | ID of the hierarchy entity |
+| Entity Type        | Type of the hierarchy entity |
+| Entity Name        | Name of the hierarchy entity |
+| Parent Entity ID   | ID of the parent of this hierarchy entity |
+| Parent Entity Name | Name of the parent of the current hierarchy entity |
+| Parent Entity Type | Type of the parent of the current hierarchy entity |
+| Entity CreatedOn   | Timestamp at which the hierarchy entity was created |
+{: class="simple-tab-table"}
+{: caption="Table 13. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
+{: tab-group="enterprise-account-summary-1-3"}
+{: #entity-hierarchy-1-3}
+{: tab-title="Entity Hierarchy"}
+
+| CSV Header Header          | JSON Report Fields        | Description        |
+|------------------------|---------------------------|--------------------|
+| Billing Unit ID        | `resources.id`         | The ID of the DEFAULT billing unit of the requested entity, which is a globally unique identifier (GUID) |
+| Billing Unit Name      | `resources.name`       | The name of the billing unit |
+| Billing Unit CreatedOn | `resources.created_at` | The creation date of the billing unit |
+{: class="simple-tab-table"}
+{: caption="Table 13. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
+{: tab-group="enterprise-account-summary-1-3"}
+{: #billing-unit-id-enterprise-1-3}
+{: tab-title="Billing Units"}
+
+| CSV Header Header     | JSON Report Fields                        | Description        |
+|-------------------|-------------------------------------------|--------------------|
+| Credit Pool Type  | `resources.type`                          | The type of credit, either `PLATFORM` or `SUPPORT` |
+| Currency Code     | `resources.currency_code`                 | The currency code of the associated billing unit |
+| Billing Option ID | `resources.term_credits.billing_option_id`| The ID of the billing option from which the subscription term is derived |
+| Category          | `resources.term_credits.category`         | The category of the credit pool. \n For platform credit the valid values are `PLATFORM`, `OFFER`, or `SERVICE` \n For support credit the valid value is `SUPPORT` |
+| Start Date        | `resources.term_credits.start_date`       | The start date of the term in ISO format |
+| End Date          | `resources.term_credits.end_date`         | The end date of the term in ISO format  |
+| Total Credits     | `resources.term_credits.total_credits`    | The total credit available in this term |
+| Starting Balance  | `resources.term_credits.starting_balance` | The balance of available credit at the start of the current month |
+| Used Credits      | `resources.term_credits.used_credits`     | The amount of credit used during the current month |
+| Current Balance   | `resources.term_credits.current_balance`  | The balance of remaining credit in the subscription term |
+| True Up           | `resources.term_credits.true_up`          | The credits remaining after the end of the term |
+{: class="simple-tab-table"}
+{: caption="Table 13. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
+{: tab-group="enterprise-account-summary-1-3"}
+{: #credit-pool-type-enterprise-1-3}
+{: tab-title="Credit Pools"}
+
+| CSV Header Header     | JSON Report Fields       | Description        |
+|-------------------|--------------------------|--------------------|
+| Credit Pool Type  | `resources.type`         | The type of credit, either `PLATFORM` or `SUPPORT` |
+| Currency Code     | `resources.currency_code`| The currency code of the associated billing unit |
+| Billing Option ID | `resources.overage.billing_option_id` | The ID of the billing option from which the subscription term incurring the overage is derived. |
+| Category          | `resources.overage.category` | The category of the credit pool that has incurred the overage. The valid values are `PLATFORM`, `OFFER`, or `SERVICE` for platform credit and `SUPPORT` for support credit. |
+| Overage           | `resources.overage.cost` | The number of credits that are used as overage |
+{: class="simple-tab-table"}
+{: caption="Table 13. Enterprise usage report CSV contents for overages" caption-side="bottom"}
+{: tab-group="enterprise-account-summary-1-3"}
+{: #overages-enterprise-1-3}
+{: tab-title="Overages"}
+
+| CSV Header Header      | JSON Report Fields  | Description        |
+|--------------------|---------------------|--------------------|
+| Entity ID          | `reports.entity_id`         | The ID of the entity |
+| Entity Type        | `reports.entity_type`       | The type of the entity  \n Possible values: `enterprise` , `account-group`, or `account` |
+| Entity Name        | `reports.entity_name`       | A user-defined name for the entity, such as the enterprise name or account group name |
+| Billing Unit ID    | `reports.billing_unit_id`   | The ID of the billing unit  |
+| Billing Unit Name  | `reports.billing_unit_name` | The name of the billing unit |
+| Country Code       | `reports.country_code`      | The country code of the billing unit |
+| Currency Code      | `reports.currency_code`     | The currency code of the billing unit |
+| Billable Cost      | `reports.billable_cost`     | Billable charges that are aggregated from all entities in the report |
+| Non Billable Cost  | `reports.non_billable_cost` | Non-billable charges that are aggregated from all entities in the report |
+{: class="simple-tab-table"}
+{: caption="Table 13. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
+{: tab-group="enterprise-account-summary-1-3"}
+{: #entity-resource-usage1-1-3}
+{: tab-title="Enterprise Usage Summary"}
+
+| CSV Header Header    | JSON Report Fields                       | Description        |
+|------------------|------------------------------------------|--------------------|
+| Entity ID        | `reports.entity_id`                      | The ID of the entity |
+| Entity Type      | `reports.entity_type`                    | The type of the entity. \n Possible values: `enterprise`, `account-group`, or `account` |
+| Parent Entity ID | `reports.parent_entity_id`               | The ID of the parent of the requested entity |
+| Billing Unit ID  | `reports.billing_unit_id`                | The ID of the billing unit  |
+| Currency Code    | `reports.currency_code`                  | The currency code of the billing unit |
+| Service Name     | `reports.resources.resource_name`        | The name of the resource |
+| Service ID       | `reports.resources.resource_id`          | The ID of the resource |
+| Billable         | `reports.resources.plans.billable`       | Whether the plan charges are billed to the customer |
+| Plan Name        | `reports.resources.plan_name`            | The name of the plan |
+| Plan ID          | `reports.resources.plan_id`              | The ID of the plan |
+| Pricing Region   | `reports.resources.plans.pricing_region` | The pricing region for the plan |
+| Metric           | `reports.resources.plans.usage.metric`   | The name of the metric |
+| Unit             | `reports.resources.plans.usage.unit`     | A unit to qualify the quantity |
+| Quantity         | `reports.resources.plans.usage.quantity` | The aggregated value for the metric |
+| Cost             | `reports.resources.plans.usage.cost`     | The cost that was incurred by the metric |
+| Pending          | `reports.resources.plans.pending`        | Pending charge from classic infrastructure |
+| Classic Infrastructure Product ID | `resources.usage.additional_properties.classic_infrastructure_product_id`  | Product ID of classic infrastructure resource |
+| Classic Infrastructure Package ID |`resources.usage.additional_properties.classic_infrastructure_package_id` | Package ID of classic infrastructure resource |
+{: class="simple-tab-table"}
+{: caption="Table 13. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
+{: tab-group="enterprise-account-summary-1-3"}
+{: #entity-resource-usage2-1-3}
+{: tab-title="Enterprise Resource Usage"}
+
+#### Enterprise account summary CSV version 1.2
+{: #enterprise-account-summary-csv-version-1-2}
+
+The following table is for version 1.2. You get this version if the data that you're viewing is from July 2024 to September 2024.
+
+| CSV Header         | Description        |
+|--------------------|--------------------|
+| Entity ID          | ID of the requested entity (`enterprise_id`/`account_group_id`/`account_id`) |
+| Entity Type        | Type of the requested entity (enterprise/account_group/account) |
+| Billing Month      | The month in which usages were incurred. Represented in `yyyy-mm` format |
+| Currency Rate      | Currency Exchange Rate with USD as the base |
+| Created Time       | Timestamp at which the CSV report was generated |
+| Version            | The version number of the enterprise summary CSV |
+{: class="simple-tab-table"}
+{: caption="Table 14. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-2"}
 {: #entity-metadata-1-2}
 {: tab-title="Entity Metadata"}
@@ -1097,7 +1217,7 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Parent Entity Type | Type of the parent of the current hierarchy entity |
 | Entity CreatedOn   | Timestamp at which the hierarchy entity was created |
 {: class="simple-tab-table"}
-{: caption="Table 13. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
+{: caption="Table 14. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-2"}
 {: #entity-hierarchy-1-2}
 {: tab-title="Entity Hierarchy"}
@@ -1108,7 +1228,7 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Billing Unit Name      | `resources.name`       | The name of the billing unit |
 | Billing Unit CreatedOn | `resources.created_at` | The creation date of the billing unit |
 {: class="simple-tab-table"}
-{: caption="Table 13. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
+{: caption="Table 14. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-2"}
 {: #billing-unit-id-enterprise-1-2}
 {: tab-title="Billing Units"}
@@ -1127,7 +1247,7 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Current Balance   | `resources.term_credits.current_balance`  | The balance of remaining credit in the subscription term |
 | True Up           | `resources.term_credits.true_up`          | The credits remaining after the end of the term |
 {: class="simple-tab-table"}
-{: caption="Table 13. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
+{: caption="Table 14. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-2"}
 {: #credit-pool-type-enterprise-1-2}
 {: tab-title="Credit Pools"}
@@ -1138,7 +1258,7 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Currency Code     | `resources.currency_code`| The currency code of the associated billing unit |
 | Overage           | `resources.overage.cost` | The number of credits that are used as overage |
 {: class="simple-tab-table"}
-{: caption="Table 13. Enterprise usage report CSV contents for overages" caption-side="bottom"}
+{: caption="Table 14. Enterprise usage report CSV contents for overages" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-2"}
 {: #overages-enterprise-1-2}
 {: tab-title="Overages"}
@@ -1155,7 +1275,7 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Billable Cost      | `reports.billable_cost`     | Billable charges that are aggregated from all entities in the report |
 | Non Billable Cost  | `reports.non_billable_cost` | Non-billable charges that are aggregated from all entities in the report |
 {: class="simple-tab-table"}
-{: caption="Table 13. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
+{: caption="Table 14. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-2"}
 {: #entity-resource-usage1-1-2}
 {: tab-title="Enterprise Usage Summary"}
@@ -1181,7 +1301,7 @@ The following table is version 1.2 and the most recent CSV version. You get this
 | Classic Infrastructure Product ID | `resources.usage.additional_properties.classic_infrastructure_product_id`  | Product ID of classic infrastructure resource |
 | Classic Infrastructure Package ID |`resources.usage.additional_properties.classic_infrastructure_package_id` | Package ID of classic infrastructure resource |
 {: class="simple-tab-table"}
-{: caption="Table 13. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
+{: caption="Table 14. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-2"}
 {: #entity-resource-usage2-1-2}
 {: tab-title="Enterprise Resource Usage"}
@@ -1200,7 +1320,7 @@ The following table is version 1.1. You get this version if the data that you're
 | Created Time       | Timestamp at which the CSV report was generated |
 | Version            | The version number of the enterprise summary CSV |
 {: class="simple-tab-table"}
-{: caption="Table 14. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
+{: caption="Table 15. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-1"}
 {: #entity-metadata-1-1}
 {: tab-title="Entity Metadata"}
@@ -1215,7 +1335,7 @@ The following table is version 1.1. You get this version if the data that you're
 | Parent Entity Type | Type of the parent of the current hierarchy entity |
 | Entity CreatedOn   | Timestamp at which the hierarchy entity was created |
 {: class="simple-tab-table"}
-{: caption="Table 14. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
+{: caption="Table 15. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-1"}
 {: #entity-hierarchy-1-1}
 {: tab-title="Entity Hierarchy"}
@@ -1226,7 +1346,7 @@ The following table is version 1.1. You get this version if the data that you're
 | Billing Unit Name      | `resources.name`       | The name of the billing unit |
 | Billing Unit CreatedOn | `resources.created_at` | The creation date of the billing unit |
 {: class="simple-tab-table"}
-{: caption="Table 14. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
+{: caption="Table 15. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-1"}
 {: #billing-unit-id-enterprise-1-1}
 {: tab-title="Billing Units"}
@@ -1244,7 +1364,7 @@ The following table is version 1.1. You get this version if the data that you're
 | Used Credits      | `resources.term_credits.used_credits`     | The amount of credit used during the current month |
 | Current Balance   | `resources.term_credits.current_balance`  | The balance of remaining credit in the subscription term |
 {: class="simple-tab-table"}
-{: caption="Table 14. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
+{: caption="Table 15. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-1"}
 {: #credit-pool-type-enterprise-1-1}
 {: tab-title="Credit Pools"}
@@ -1255,7 +1375,7 @@ The following table is version 1.1. You get this version if the data that you're
 | Currency Code     | `resources.currency_code`| The currency code of the associated billing unit |
 | Overage           | `resources.overage.cost` | The number of credits that are used as overage |
 {: class="simple-tab-table"}
-{: caption="Table 14. Enterprise usage report CSV contents for overages" caption-side="bottom"}
+{: caption="Table 15. Enterprise usage report CSV contents for overages" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-1"}
 {: #overages-enterprise-1-1}
 {: tab-title="Overages"}
@@ -1272,7 +1392,7 @@ The following table is version 1.1. You get this version if the data that you're
 | Billable Cost      | `reports.billable_cost`     | Billable charges that are aggregated from all entities in the report |
 | Non Billable Cost  | `reports.non_billable_cost` | Non-billable charges that are aggregated from all entities in the report |
 {: class="simple-tab-table"}
-{: caption="Table 14. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
+{: caption="Table 15. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-1"}
 {: #entity-resource-usage1-1-1}
 {: tab-title="Enterprise Usage Summary"}
@@ -1298,7 +1418,7 @@ The following table is version 1.1. You get this version if the data that you're
 | Classic Infrastructure Product ID | `resources.usage.additional_properties.classic_infrastructure_product_id`  | Product ID of classic infrastructure resource |
 | Classic Infrastructure Package ID |`resources.usage.additional_properties.classic_infrastructure_package_id` | Package ID of classic infrastructure resource |
 {: class="simple-tab-table"}
-{: caption="Table 14. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
+{: caption="Table 15. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-1"}
 {: #entity-resource-usage2-1-1}
 {: tab-title="Enterprise Resource Usage"}
@@ -1317,7 +1437,7 @@ You will get CSV version 1.0 if the data that you're viewing is from October 202
 | Currency Rate      | Currency Exchange Rate with USD as the base |
 | Created Time       | Timestamp at which the CSV report was generated |
 {: class="simple-tab-table"}
-{: caption="Table 15. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
+{: caption="Table 16. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-0"}
 {: #entity-metadata-1-0}
 {: tab-title="Entity Metadata"}
@@ -1332,7 +1452,7 @@ You will get CSV version 1.0 if the data that you're viewing is from October 202
 | Parent Entity Type | Type of the parent of the current hierarchy entity |
 | Entity CreatedOn   | Timestamp at which the hierarchy entity was created |
 {: class="simple-tab-table"}
-{: caption="Table 15. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
+{: caption="Table 16. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-0"}
 {: #entity-hierarchy-1-0}
 {: tab-title="Entity Hierarchy"}
@@ -1343,7 +1463,7 @@ You will get CSV version 1.0 if the data that you're viewing is from October 202
 | Billing Unit Name      | `resources.name`       | The name of the billing unit |
 | Billing Unit CreatedOn | `resources.created_at` | The creation date of the billing unit |
 {: class="simple-tab-table"}
-{: caption="Table 15. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
+{: caption="Table 16. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-0"}
 {: #billing-unit-id-enterprise-1-0}
 {: tab-title="Billing Units"}
@@ -1372,7 +1492,7 @@ You will get CSV version 1.0 if the data that you're viewing is from October 202
 | Currency Code     | `resources.currency_code`| The currency code of the associated billing unit |
 | Overage           | `resources.overage.cost` | The number of credits that are used as overage |
 {: class="simple-tab-table"}
-{: caption="Table 15. Enterprise usage report CSV contents for overages" caption-side="bottom"}
+{: caption="Table 16. Enterprise usage report CSV contents for overages" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-0"}
 {: #overages-enterprise-1-0}
 {: tab-title="Overages"}
@@ -1389,7 +1509,7 @@ You will get CSV version 1.0 if the data that you're viewing is from October 202
 | Billable Cost      | `reports.billable_cost`     | Billable charges that are aggregated from all entities in the report |
 | Non Billable Cost  | `reports.non_billable_cost` | Non-billable charges that are aggregated from all entities in the report |
 {: class="simple-tab-table"}
-{: caption="Table 15. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
+{: caption="Table 16. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-0"}
 {: #entity-resource-usage1-1-0}
 {: tab-title="Enterprise Usage Summary"}
@@ -1415,7 +1535,7 @@ You will get CSV version 1.0 if the data that you're viewing is from October 202
 | Classic Infrastructure Product ID | `resources.usage.additional_properties.classic_infrastructure_product_id`  | Product ID of classic infrastructure resource |
 | Classic Infrastructure Package ID |`resources.usage.additional_properties.classic_infrastructure_package_id` | Package ID of classic infrastructure resource |
 {: class="simple-tab-table"}
-{: caption="Table 15. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
+{: caption="Table 16. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-1-0"}
 {: #entity-resource-usage2-1-0}
 {: tab-title="Enterprise Resource Usage"}
@@ -1433,7 +1553,7 @@ You will get CSV version 0.2 if the data that you're viewing is from February 20
 | Currency Rate      | Currency Exchange Rate with USD as the base |
 | Created Time       | Timestamp at which the CSV report was generated |
 {: class="simple-tab-table"}
-{: caption="Table 16. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
+{: caption="Table 17. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-2"}
 {: #entity-metadata-0-2}
 {: tab-title="Entity Metadata"}
@@ -1448,7 +1568,7 @@ You will get CSV version 0.2 if the data that you're viewing is from February 20
 | Parent Entity Type | Type of the parent of the current hierarchy entity |
 | Entity CreatedOn   | Timestamp at which the hierarchy entity was created |
 {: class="simple-tab-table"}
-{: caption="Table 16. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
+{: caption="Table 17. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-2"}
 {: #entity-hierarchy-0-2}
 {: tab-title="Entity Hierarchy"}
@@ -1459,7 +1579,7 @@ You will get CSV version 0.2 if the data that you're viewing is from February 20
 | Billing Unit Name      | `resources.name`       | The name of the billing unit |
 | Billing Unit CreatedOn | `resources.created_at` | The creation date of the billing unit |
 {: class="simple-tab-table"}
-{: caption="Table 16. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
+{: caption="Table 17. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-2"}
 {: #billing-unit-id-enterprise-0-2}
 {: tab-title="Billing Units"}
@@ -1477,7 +1597,7 @@ You will get CSV version 0.2 if the data that you're viewing is from February 20
 | Used Credits      | `resources.term_credits.used_credits`     | The amount of credit used during the current month |
 | Current Balance   | `resources.term_credits.current_balance`  | The balance of remaining credit in the subscription term |
 {: class="simple-tab-table"}
-{: caption="Table 16. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
+{: caption="Table 17. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-2"}
 {: #credit-pool-type-enterprise-0-2}
 {: tab-title="Credit Pools"}
@@ -1488,7 +1608,7 @@ You will get CSV version 0.2 if the data that you're viewing is from February 20
 | Currency Code     | `resources.currency_code`| The currency code of the associated billing unit |
 | Overage           | `resources.overage.cost` | The number of credits that are used as overage |
 {: class="simple-tab-table"}
-{: caption="Table 16. Enterprise usage report CSV contents for overages" caption-side="bottom"}
+{: caption="Table 17. Enterprise usage report CSV contents for overages" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-2"}
 {: #overages-enterprise-0-2}
 {: tab-title="Overages"}
@@ -1505,7 +1625,7 @@ You will get CSV version 0.2 if the data that you're viewing is from February 20
 | Billable Cost      | `reports.billable_cost`     | Billable charges that are aggregated from all entities in the report |
 | Non Billable Cost  | `reports.non_billable_cost` | Non-billable charges that are aggregated from all entities in the report |
 {: class="simple-tab-table"}
-{: caption="Table 16. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
+{: caption="Table 17. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-2"}
 {: #entity-resource-usage1-0-2}
 {: tab-title="Enterprise Usage Summary"}
@@ -1529,7 +1649,7 @@ You will get CSV version 0.2 if the data that you're viewing is from February 20
 | Cost             | `reports.resources.plans.usage.cost`     | The cost that was incurred by the metric |
 | Pending          | `reports.resources.plans.pending`        | Pending charge from classic infrastructure |
 {: class="simple-tab-table"}
-{: caption="Table 16. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
+{: caption="Table 17. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-2"}
 {: #entity-resource-usage2-0-2}
 {: tab-title="Enterprise Resource Usage"}
@@ -1546,7 +1666,7 @@ You will get CSV version 0.1 if the data that you're viewing is from before Febr
 | Billing Month      | The month in which usages were incurred. Represented in `yyyy-mm` format |
 | Created Time       | Timestamp at which the CSV report was generated |
 {: class="simple-tab-table"}
-{: caption="Table 17. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
+{: caption="Table 18. Enterprise usage report CSV contents for entity metadata" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-1"}
 {: #entity-metadata-0-1}
 {: tab-title="Entity Metadata"}
@@ -1561,7 +1681,7 @@ You will get CSV version 0.1 if the data that you're viewing is from before Febr
 | Parent Entity Type | Type of the parent of the current hierarchy entity |
 | Entity CreatedOn   | Timestamp at which the hierarchy entity was created |
 {: class="simple-tab-table"}
-{: caption="Table 17. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
+{: caption="Table 18. Enterprise usage report CSV contents for entity hierarchy" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-1"}
 {: #entity-hierarchy-0-1}
 {: tab-title="Entity Hierarchy"}
@@ -1572,7 +1692,7 @@ You will get CSV version 0.1 if the data that you're viewing is from before Febr
 | Billing Unit Name      | `resources.name`       | The name of the billing unit |
 | Billing Unit CreatedOn | `resources.created_at` | The creation date of the billing unit |
 {: class="simple-tab-table"}
-{: caption="Table 17. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
+{: caption="Table 18. Enterprise usage report CSV contents for billing units" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-1"}
 {: #billing-unit-id-enterprise-0-1}
 {: tab-title="Billing Units"}
@@ -1590,7 +1710,7 @@ You will get CSV version 0.1 if the data that you're viewing is from before Febr
 | Used Credits      | `resources.term_credits.used_credits`     | The amount of credit used during the current month |
 | Current Balance   | `resources.term_credits.current_balance`  | The balance of remaining credit in the subscription term |
 {: class="simple-tab-table"}
-{: caption="Table 17. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
+{: caption="Table 18. Enterprise usage report CSV contents for credit pools" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-1"}
 {: #credit-pool-type-enterprise-0-1}
 {: tab-title="Credit Pools"}
@@ -1601,7 +1721,7 @@ You will get CSV version 0.1 if the data that you're viewing is from before Febr
 | Currency Code     | `resources.currency_code`| The currency code of the associated billing unit |
 | Overage           | `resources.overage.cost` | The number of credits that are used as overage |
 {: class="simple-tab-table"}
-{: caption="Table 17. Enterprise usage report CSV contents for overages" caption-side="bottom"}
+{: caption="Table 18. Enterprise usage report CSV contents for overages" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-1"}
 {: #overages-enterprise-0-1}
 {: tab-title="Overages"}
@@ -1618,7 +1738,7 @@ You will get CSV version 0.1 if the data that you're viewing is from before Febr
 | Billable Cost      | `reports.billable_cost`     | Billable charges that are aggregated from all entities in the report |
 | Non Billable Cost  | `reports.non_billable_cost` | Non-billable charges that are aggregated from all entities in the report |
 {: class="simple-tab-table"}
-{: caption="Table 17. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
+{: caption="Table 18. Enterprise usage report CSV contents for enterprise usage summary" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-1"}
 {: #entity-resource-usage1-0-1}
 {: tab-title="Enterprise Usage Summary"}
@@ -1642,7 +1762,7 @@ You will get CSV version 0.1 if the data that you're viewing is from before Febr
 | Cost             | `reports.resources.plans.usage.cost`     | The cost that was incurred by the metric |
 | Pending          | `reports.resources.plans.pending`        | Pending charge from classic infrastructure |
 {: class="simple-tab-table"}
-{: caption="Table 17. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
+{: caption="Table 18. Enterprise usage report CSV contents for enterprise resource usage" caption-side="bottom"}
 {: tab-group="enterprise-account-summary-0-1"}
 {: #entity-resource-usage2-0-1}
 {: tab-title="Enterprise Resource Usage"}
