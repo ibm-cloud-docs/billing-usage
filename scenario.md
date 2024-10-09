@@ -76,7 +76,7 @@ The following table provides an example of the estimated cost for running an app
 |  |  | **Subtotal** | **$0.00216** |
 |  |  |  |  |
 |  |  | **Total** | **$327.00** |
-{: caption="Table 1. Estimated costs for a {{site.data.keyword.codeengineshort}} application with {{site.data.keyword.cloudant_short_notm}} Standard plan, {{site.data.keyword.logs_full_notm}}, and {{site.data.keyword.mon_full_notm}}" caption-side="bottom"}
+{: caption="Estimated costs for a {{site.data.keyword.codeengineshort}} application with {{site.data.keyword.cloudant_short_notm}} Standard plan, {{site.data.keyword.logs_full_notm}}, and {{site.data.keyword.mon_full_notm}}" caption-side="bottom"}
 
 ## Calculation details
 {: #calculation-details}

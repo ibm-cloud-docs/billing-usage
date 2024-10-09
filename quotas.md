@@ -25,7 +25,7 @@ The following table shows resource group quota limits.
 |---------------------|----------|-----------------------|--------------------------|------------------|-----------------------|
 | Pay-as-you-go quota | 100      | 32                    | 512G                     | 512G             | 30,000                |
 | Standard quota      | 4        | 2                     | 1G                       | 1G               | 1,000                 |
-{: caption="Table 1. Resource group quota limits" caption-side="bottom"}
+{: caption="Resource group quota limits" caption-side="bottom"}
 
 The following definitions explain the quota limit categories for resource groups.
 

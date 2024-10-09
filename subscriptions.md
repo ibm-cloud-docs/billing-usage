@@ -39,7 +39,7 @@ If you have multiple subscriptions in your account that are valid at the same ti
 | {{site.data.keyword.Bluemix_notm}} Platform - 01234567, term 1 | $12,000 | 1 July 2019 | 30 June 2020 |
 | {{site.data.keyword.Bluemix_notm}} Platform - 00432100 | $9,000 | 1 September 2019 | 31 August 2020 |
 | {{site.data.keyword.Bluemix_notm}} Platform - 01234567, term 2 | $12,000 | 1 July 2020 | 30 June 2021 |
-{: caption="Table 1. Subscription credit spending order" caption-side="top"}
+{: caption="Subscription credit spending order" caption-side="top"}
 
 If you have multiple subscriptions in your account that have terms greater than 12 months and you pay up-front for the entire subscription rather than using monthly, quarterly, or another recurring billing cadence, you won't receive an overage for spending faster than you planned.
 

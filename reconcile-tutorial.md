@@ -74,7 +74,7 @@ In this example, the Platform Services charge matches the total on the PaaS fina
 
 Next, you need to identify and find the sum of the new and one time charges. Your new and one-time charges are on the [Invoices page](/billing/invoices) in the console. There are three new charges on the invoices page during this time period: A charge of $500.52, $767.10, and $171.60.
 
-![A view of the invoices page in the IBM Cloud console. This view displays new and one-time charges that reflect what you're charged.](images/example-invoice-console.png){: caption="Figure 3. New and one-time charges in the console for the month of March." caption-side="bottom"}
+![A view of the invoices page in the IBM Cloud console. This view displays new and one-time charges that reflect what you're charged.](images/example-invoice-console.png){: caption="New and one-time charges in the console for the month of March." caption-side="bottom"}
 {: #new-charges}
 
 The remaining infrastructure charges of $322,806.71 USD from the recurring invoice in the console and the new and one-time charges should add up to the total IaaS final invoice charge of $324,245.93 USD.
@@ -89,7 +89,7 @@ On the Excel version of your recurring invoice that you downloaded in step 2, cl
 
 * In Advance (for example, the month of March) infrastructure monthly usage charges. These are recurring charges that you incur until you cancel the service. The charge is the same every month.
 
-![An example of an advanced infrastructure monthly usage charges on the detailed invoice tab from the downloaded Excel invoice. ](images/advance-billing.png){: caption="Figure 4. In advance infrastructure monthly usage charges." caption-side="bottom"}
+![An example of an advanced infrastructure monthly usage charges on the detailed invoice tab from the downloaded Excel invoice. ](images/advance-billing.png){: caption="In advance infrastructure monthly usage charges." caption-side="bottom"}
 
 * In Arrears (for example, the month of February) infrastructure hourly charges. These are usage-based charges from the previous month. Note the `672 hrs * .066` format of the charges. In arrears, infrastructure hourly charges are always in this format.
 
@@ -97,7 +97,7 @@ On the Excel version of your recurring invoice that you downloaded in step 2, cl
 
 * In arrears (for example, the month of January) platform service charges. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
 
-![In arrears platform service charges.](images/arrears-platform-service-charges.png){: caption="Figure 6. In arrears platform service charges for the month of January." caption-side="bottom"}
+![In arrears platform service charges.](images/arrears-platform-service-charges.png){: caption="In arrears platform service charges for the month of January." caption-side="bottom"}
 
 ## Next steps
 {: #cd-kube-step-next}

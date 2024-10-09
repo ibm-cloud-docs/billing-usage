@@ -55,7 +55,7 @@ The billing cycle for different types of services is changing. The format of you
 
 You might currently receive an invoice like the example in Figure 1., which includes charges that were incurred during different months on a single invoice. For example, an invoice that you receive in July consists of charges for different types of services, and each type of service has a different billing cycle.
 
-![An image of a SoftLayer invoice](images/Recurring-invoice.png){: caption="Figure 1. The invoice that you might currently receive." caption-side="bottom"}
+![An image of a SoftLayer invoice](images/Recurring-invoice.png){: caption="The invoice that you might currently receive." caption-side="bottom"}
 {: #old-invoice}
 
 Review the following table to understand how usage is billed on a July invoice that uses your old invoicing schedule:
@@ -65,7 +65,7 @@ Review the following table to understand how usage is billed on a July invoice t
 | Classic Infrastructure	(Monthly) | Bare Metal, Virtual Servers  | July             | In advance   | July |
 | Classic Infrastructure	(Hourly)  | Bare Metal, Virtual Servers  | June             | In arrears   | July |
 | Platform                          | Watson, DevOps, VPC          | May              | In arrears (2 months)  | July |
-{: caption="Table 1. Your old invoice has usage for different months on the same invoice." caption-side="bottom"}
+{: caption="Your old invoice has usage for different months on the same invoice." caption-side="bottom"}
 
 
 ### Your new experience
@@ -73,7 +73,7 @@ Review the following table to understand how usage is billed on a July invoice t
 
 The new invoice that you receive, shown in Figure 2., includes only charges from the previous month. This way, usage for all types of services are billed on the same cycle.
 
-![An image of an IBM Cloud invoice](images/test-ierp-invoice.png){: caption="Figure 2. The invoice that you receive after you move to IBM billing systems." caption-side="bottom"}
+![An image of an IBM Cloud invoice](images/test-ierp-invoice.png){: caption="The invoice that you receive after you move to IBM billing systems." caption-side="bottom"}
 {: #new-invoice}
 
 For example, Table 2. shows that charges accrued for all three major types of usage in June are billed on the same invoice in July.
@@ -83,7 +83,7 @@ For example, Table 2. shows that charges accrued for all three major types of us
 | Classic Infrastructure	(Monthly) | Bare Metal, Virtual Servers  | June             | In arrears   | July |
 | Classic Infrastructure	(Hourly)  | Bare Metal, Virtual Servers  | June             | In arrears   | July |
 | Platform                          | Watson, DevOps, VPC          | June             | In arrears   | July |
-{: caption="Table 2. Your new invoice has usage from only the previous month on the invoice that you receive eight days into the following month." caption-side="bottom"}
+{: caption="Your new invoice has usage from only the previous month on the invoice that you receive eight days into the following month." caption-side="bottom"}
 
 ## Finding detailed billing
 {: #find-detials}
@@ -108,7 +108,7 @@ Using Table 1. as an example, you might see the following types of usage charges
 
 On an invoice that you receive in the month of July, infrastructure monthly usage is charged in advance. These charges in advance are recurring until you cancel the service. The charge is the same every month.
 
-![An example of monthly usage that is charged in advance for infrastructure services is shown on the detailed invoice tab from the downloaded Excel invoice.](images/detailedbilling.png){: caption="Figure 4. In advance infrastructure monthly usage charges." caption-side="bottom"}
+![An example of monthly usage that is charged in advance for infrastructure services is shown on the detailed invoice tab from the downloaded Excel invoice.](images/detailedbilling.png){: caption="In advance infrastructure monthly usage charges." caption-side="bottom"}
 {: #figure-4}
 
 See how the `Recurring Fee` in Figure 4. matches the sum of the `Original cost` column in [Figure 7](#new-monthly). You'll notice that the `Cost` column in your new instance usage report gives you more insight into what you pay by including any discounts.
@@ -118,7 +118,7 @@ See how the `Recurring Fee` in Figure 4. matches the sum of the `Original cost` 
 
 On an invoice that you receive in the month of July, hourly infrastructure usage is charged one month in arrears for the month of June. These charges are usage-based from the previous month.
 
-![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/hourly-old.png){: caption="Figure 5. In Arrears infrastructure hourly charges." caption-side="bottom"}
+![An example of an arrears infrastructure hourly charge on the detailed invoice tab from the downloaded Excel invoice.](images/hourly-old.png){: caption="In Arrears infrastructure hourly charges." caption-side="bottom"}
 {: #figure-5}
 
 See [Figure 8.](#new-details) for how hourly infrastructure charges appear on your new instance level report.
@@ -128,7 +128,7 @@ See [Figure 8.](#new-details) for how hourly infrastructure charges appear on yo
 
 On an invoice that you receive in the month of July, platform service usage is charged two months in arrears for the month of May. These are usage-based charges from two months prior. They are labeled Platform service in column B and reference the month in which the usage was consumed.
 
-![In arrears charges for platform services.](images/arrears-platform-service-charges.png){: caption="Figure 6. In arrears platform service charges." caption-side="bottom"}
+![In arrears charges for platform services.](images/arrears-platform-service-charges.png){: caption="In arrears platform service charges." caption-side="bottom"}
 {: #figure-6}
 
 See [Figure 9.](#new-platform-details) for how platform charges appear on your new instance level report.
@@ -151,7 +151,7 @@ For more information about heading titles in your CSV report, see [Understanding
 
 Figure 7. is an example of how infrastructure monthly charges, which are now billed one month in arrears, are shown on a usage report at the instance level.
 
-![An example of an arrears infrastructure monthly charge on a usage report CSV at the instance level.](images/new-monthly.png){: caption="Figure 7. In Arrears monthly infrastructure charges on your new instance level usage report." caption-side="bottom"}
+![An example of an arrears infrastructure monthly charge on a usage report CSV at the instance level.](images/new-monthly.png){: caption="In Arrears monthly infrastructure charges on your new instance level usage report." caption-side="bottom"}
 {: #new-monthly}
 
 See how the sum of the `Original cost` column in Figure 7. matches the `Recurring Fee` in [Figure 4](#figure-4). You'll notice that the `Cost` column in your new instance usage report gives you more insight into what you pay by including any discounts.
@@ -161,7 +161,7 @@ See how the sum of the `Original cost` column in Figure 7. matches the `Recurrin
 
 Figure 8. is an example of how infrastructure hourly charges, which are billed one month in arrears, are shown on a usage report at the instance level.
 
-![An example of an arrears hourly infrastructure charge on a usage report CSV at the instance level.](images/newinfrahourly.png){: caption="Figure 8. In Arrears infrastructure hourly charges on your new instance level usage report." caption-side="bottom"}
+![An example of an arrears hourly infrastructure charge on a usage report CSV at the instance level.](images/newinfrahourly.png){: caption="In Arrears infrastructure hourly charges on your new instance level usage report." caption-side="bottom"}
 {: #new-details}
 
 See [Figure 5](#figure-5) for how infrastructure hourly charges appear on your old Billing Details tab.
@@ -171,7 +171,7 @@ See [Figure 5](#figure-5) for how infrastructure hourly charges appear on your o
 
 Figure 9. is an example of how platform service charges, which are now billed one month in arrears, are shown on a usage report at the instance level.
 
-![An example of arrears platform service charges on a usage report CSV at the instance level.](images/new-arrears-platform.png){: caption="Figure 9. In Arrears platform service charges on your new instance level usage report." caption-side="bottom"}
+![An example of arrears platform service charges on a usage report CSV at the instance level.](images/new-arrears-platform.png){: caption="In Arrears platform service charges on your new instance level usage report." caption-side="bottom"}
 {: #new-platform-details}
 
 See [Figure 6](#figure-6) for how platform service charges appear on your old Billing Details section.
