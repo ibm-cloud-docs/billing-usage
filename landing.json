@@ -1,63 +1,68 @@
 {
+  "version": 2,
   "title": "IBM Cloud Billing and Usage docs",
-  "lastupdated": "2023-07-17",
   "introduction": "IBM Cloud offers multiple billing options and tools for every business whether it’s tracking your usage or managing invoice and payments. Leverage the docs, API & SDK reference, architecture references, and more to support your billing and usage needs.",
-  "section_devtools": {
-    "api": "/docs?tab=api-docs&category=platform_services&subCategory=billing-usage",
-    "cli": "/docs/cli?topic=cli-ibmcloud_billing"
+  "product_page": "https://ibm.com/cloud",
+  "console_page": "/billing",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Best practices for billing and usage",
+        "href": "/docs/billing-usage?topic=billing-usage-best-practices"
+      },
+      {
+        "title": "Viewing your usage",
+        "href": "/docs/billing-usage?topic=billing-usage-viewingusage"
+      },
+      {
+         "title": "Managing payments",
+         "href": "/docs/billing-usage?topic=billing-usage-linkedusage"
+      },
+      {
+        "title": "Purchasing services deployed on-premises",
+        "href": "/docs/billing-usage?topic=billing-usage-service-comit"
+      },
+      {
+        "title": "Working with IBM Cloud's carbon calculator",
+       "href": "/docs/billing-usage?topic=billing-usage-what-is-cloud-calc"
+      }
+    ]
   },
-  "section_recommended": [
+  "section_highlights": [
     {
-      "title": "Best practices for billing and usage",
-      "description": "Follow our best practices to track costs, automate billing, and explore billing options in IBM Cloud.",
-      "href": "/docs/billing-usage?topic=billing-usage-best-practices"
+      "title": "Introduction to IBM Cloud billing and usage",
+      "description": "Learn about the {{site.data.keyword.cloud}} billing options and tools that you can use to track your usage and manage invoicing and payments.",
+      "href": "https://mediacenter.ibm.com/media/Introduction%20to%20IBM%20Cloud%20billing%20and%20usage/1_w31ph24n",
+      "type": "video",
+      "recommended": true
     },
     {
-      "title": "Viewing your usage",
-      "description": "You can view your IBM Cloud usage details, including a summary of estimated charges for all services and resources that are used per month in your organizations, from the Usage page in the console",
-      "href": "/docs/billing-usage?topic=billing-usage-viewingusage"
-    },
-    {
-      "title": "Managing payments",
-      "description": "Depending on your account type, we offer multiple ways to best manage your payment methods. ",
-      "href": "/docs/billing-usage?topic=billing-usage-linkedusage"
+      "title": "Billing Model: Pay as You Go With Committed Use",
+      "description": "You commit to spend a certain amount on IBM Cloud and you also receive discounts across the Cloud platform.",
+      "href": "https://www.ibm.com/blog/announcement/introducing-ibm-clouds-new-billing-model-pay-as-you-go-with-committed-use/",
+      "type": "blog",
+      "recommended": true
     }
   ],
-  "section_videos": [
-    {
-      "title": "How can I manage billing and usage in IBM Cloud?",
-      "href": "/docs/billing-usage?topic=billing-usage-overview",
-      "thumbnail": "/images/billingvideo.png"
-    },
-    {
-      "title": "IBM Cloud's latest unification project",
-      "href": "https://www.youtube.com/watch?v=AAdwp4npjvc",
-      "thumbnail": "/images/tobvideo.png"
-    }
-  ],
-  "section_learn": {
-    "developer": "https://developer.ibm.com/depmodels/cloud/",
-    "architecture": "https://www.ibm.com/cloud/pricing",
-    "training": "https://www.ibm.com/training/cloud",
-    "community": "https://community.ibm.com/community/user/cloud/home"
-  },
+  "section_devtools":
+      {
+      "api": "/apidocs/usage-metering",
+      "cli": "/docs/cli?topic=cli-ibmcloud_billing"
+      },
   "section_updates": {
     "view_more": "/docs/overview?topic=overview-whatsnew",
     "tiles": [
       {
-        "date": "22 July 2024",
-        "title": "Cost analysis page",
-        "description": "You can now compare your account's usage across months with the new cost analysis page in the billing and usage section of the console."
-      },
-      {
         "date": "30 October 2023",
-        "title": "Selecting currency",
-        "description": "The option to select local currency and USD is now available during IBM Cloud registration for users in Canada, United Kingdom/Ireland, Italy, Spain, France, Germany, Austria, Switzerland, Belgium, the Netherlands, Luxembourg, Denmark, Norway, Sweden, Finland, Australia, and New Zealand."
+        "title": "Selecting currency"
       },
       {
         "date": "02 October 2023",
-        "title": "Exporting usage data",
-        "description": "You can now export your usage data to a third party provider for visibility, optimization, governance and more across cloud environments."
+        "title": "Exporting usage data"
+      },
+      {
+        "date": "17 July 2023",
+        "title": "Carbon calculator"
       }
     ]
   }
