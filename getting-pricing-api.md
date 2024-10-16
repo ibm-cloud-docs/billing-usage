@@ -3,7 +3,7 @@
 copyright:
   years: 2024
 
-lastupdated: "2024-10-04"
+lastupdated: "2024-10-09"
 
 keywords: pricing, global catalog api
 
@@ -632,7 +632,7 @@ The following table shows the response body fields and their descriptions. For m
 | `currency`                 | Currency for the prices. |
 | `quantity_tier`            | Level of usage for that price in that tier. |
 | `price`                    | Price per unit for this tier. |
-{: caption="Table 1. Example response JSON fields" caption-side="bottom"}
+{: caption="Example response JSON fields" caption-side="bottom"}
 
 [^tabletext]: For tiered pricing, you pay based on your runtime and service consumption. However, tiered charges add more pricing levels, often offering discounted rates on products for higher consumption tiers. Tiered pricing is offered in simple, graduated, linear, or block.
 
@@ -648,4 +648,4 @@ The following table illustrates how much you pay with a plan that is based on a 
 | 500              | 500 × 0.000171798  = .0859  | $.0859 USD  |
 | 2000             | 2000 x 0.000171798 = .344   | $.344 USD   |
 | 10000            | 10000 x 0.000171798 = 1.72  | $1.72 USD   |
-{: caption="Table 2. Charge calculation by using the graduated tier pricing model" caption-side="top"}
+{: caption="Charge calculation by using the graduated tier pricing model" caption-side="top"}

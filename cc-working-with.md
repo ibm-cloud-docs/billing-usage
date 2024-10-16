@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2022, 2024
-lastupdated: "2024-09-20"
+lastupdated: "2024-10-09"
 
 
 keywords: carbon calculator, cloud carbon calculator, emission calculator, carbon footprint, sustainability, FAQs
@@ -38,7 +38,7 @@ Emissions data is currently tracked for a subset of services, but more services 
 * Cloud HSM                                                     
 * Cloud Object Storage                                          
 * Cloudant                                                      
-* Code Engine [New]{: tag-new}                                  
+* Code Engine                                                   
 * {{site.data.keyword.registryshort}}                           
 * {{site.data.keyword.contdelivery_short}}                      
 * Data Engine (previously SQL Query)                            
@@ -207,7 +207,7 @@ The following table shows the locations that are considered to be zero-emissions
 | WDC04       | Washington DC |
 | WDC06       | Washington DC |
 | WDC07       | Washington DC |
-{: caption="Table 1. Carbon intensity of data centers in North and South America" caption-side="bottom"}
+{: caption="Carbon intensity of data centers in North and South America" caption-side="bottom"}
 {: #americas}
 {: tab-title="Americas"}
 {: tab-group="carbon-intesity"}
@@ -230,7 +230,7 @@ The following table shows the locations that are considered to be zero-emissions
 | MIL01       |	Milan         |
 | PAR01       | Paris         |
 | PAR04       | Paris         |
-{: caption="Table 1. Carbon intensity of data centers in Europe" caption-side="bottom"}
+{: caption="Carbon intensity of data centers in Europe" caption-side="bottom"}
 {: #europe}
 {: tab-title="Europe"}
 {: tab-group="carbon-intesity"}
@@ -239,7 +239,7 @@ The following table shows the locations that are considered to be zero-emissions
 | Data Center | Location      |
 |-------------|---------------|
 | OSA22       |	Osaka	        |
-{: caption="Table 1. Carbon intensity of data centers in Asia Pacific" caption-side="bottom"}
+{: caption="Carbon intensity of data centers in Asia Pacific" caption-side="bottom"}
 {: #asia-pacific}
 {: tab-title="Asia Pacific"}
 {: tab-group="carbon-intesity"}

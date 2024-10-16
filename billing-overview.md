@@ -54,7 +54,7 @@ In addition to the two billable account types, customers that have a Subscriptio
 | Monthly billing | Timely billing | Timely billing |
 | Invoiced on monthly consumption	| Invoices independent of usage | Invoiced on monthly consumption	|
 | Best suited for developers and companies	| Best suited for enterprise organizations| Best suited for both developers and enterprise organizations|
-{: caption="Table 1. Comparative analysis of account types" caption-side="bottom"}
+{: caption="Comparative analysis of account types" caption-side="bottom"}
 
 ### Estimating your costs
 {: #charges-cost-estimation}

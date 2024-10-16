@@ -103,4 +103,4 @@ Any Pay-As-You-Go accounts created after 25 October 2021 are billed in USD. Ther
 |SEK            |	Swedish krona        |
 |USD            | United States dollar |
 |ZAR            |	South African rand   |
-{: caption="Table 1. Supported currencies" caption-side="top"}
+{: caption="Supported currencies" caption-side="top"}
